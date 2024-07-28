@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Viking';
+  src: url('assets/fonts/Viking.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-font {
+  font-family: 'Viking', sans-serif;
+}
