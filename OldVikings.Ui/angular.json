@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/old-vikings.ui",
+            "outputPath": "dist/client",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
