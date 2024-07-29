@@ -1,0 +1,175 @@
+{
+  "Home": {
+    "Welcome": "Welkom, dappere krijgers, bij de Alliantie Old Viking!",
+    "Section1": "Betreed de stormachtige zeeën en eindeloze slagvelden met de Alliantie Old Viking aan je zijde. Hier vechten we zij aan zij, met onze bijl geslepen, onze schilden geheven, altijd klaar voor de volgende strijd.",
+    "WhatToExpect": {
+      "Title": "Wat je kunt verwachten:",
+      "List1": "Broeders en zusters in strijd: Vind trouwe metgezellen die je in elke strijd ondersteunen en de roem met je delen.",
+      "List2": "Strategische meesterwerken: Smid krachtige plannen en overwin je vijanden met slimme tactiek en onwankelbare moed.",
+      "List3": "Eervolle feesten: Neem deel aan epische veldslagen en glorieuze raids die je rijkelijk belonen en je heldenverhaal voortzetten.",
+      "List4": "Wijsheid van de ouden: Leer van ervaren krijgers en verbeter je vaardigheden om als een echte Viking te slagen."
+    },
+    "Section2": "Word een deel van de Alliantie Old Viking en zeil met ons naar de legende. Samen zullen we onoverwinnelijk zijn en de wereld laten beven van ontzag."
+  },
+  "Rules": {
+    "Title": "Regels",
+    "Rule1": {
+      "Title": "Inactiviteit",
+      "Description": "Wie 3 dagen offline is zonder zich af te melden, wordt op de 4e dag uit de alliantie gezet."
+    },
+    "Rule2": {
+      "Title": "Verzamelpunt",
+      "Description": "Op zondag is de strijd voorbij en moeten alle leden zich verzamelen bij het alliantie-verzamelpunt.",
+      "Description2": "Wie woensdag nog niet bij het verzamelpunt is, wordt uit de alliantie gezet."
+    },
+    "Rule3": {
+      "Title": "Alliantie-technologie Donaties",
+      "Description": "Elke lid moet voor zondag punten hebben gedoneerd aan de alliantie-technologie (doneren is gratis).",
+      "Description2": "Wie dit niet doet, wordt uit de alliantie gezet."
+    },
+    "Rule4": {
+      "Title": "Spelernamen",
+      "Description": "Elk lid moet een eigen spelersnaam hebben.",
+      "Description2": "Wie geen eigen spelersnaam kiest, wordt uit de alliantie gezet."
+    },
+    "Note": {
+      "Title": "Opmerking:",
+      "Description": "Als iemand niet weet hoe hij een regel moet naleven of andere vragen heeft, neem dan contact met ons op. We zijn hier om te helpen."
+    },
+    "Footer": "Laten we samen sterk en succesvol zijn!"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "Rules": "Regels",
+    "VS": "VS-Duel"
+  },
+  "VS": {
+    "Title": "VS-Duel",
+    "Day1": {
+      "Title": "Dag 1 - Radar Speciale Training",
+      "DayText": "Maandag",
+      "Task1": "Verbruik 1 uithoudingsvermogen",
+      "Task2": "Voltooi 1 radarmissie",
+      "Task3": "Minimaal 660 helden-ervaring per keer verbruiken",
+      "Task4": "Gebruik 1 punt drones gevechtsdata",
+      "Task5": "Gebruik 1 drone-onderdeel",
+      "Task6": "Koop een geschenkdoos met diamanten (1 diamant)",
+      "Task7": "Verzamel 100 voedsel",
+      "Task8": "Verzamel 100 ijzer",
+      "Task9": "Verzamel 60 goud",
+      "Task10": "Voor elke gewonnen drone-vaardigheid chip punt"
+    },
+    "Day2": {
+      "Title": "Dag 2 - Basisconstructie",
+      "DayText": "Dinsdag",
+      "Task1": "Gebruik 1 minuut gebouwversneller",
+      "Task2": "Verhoog de gebouwkracht met 1 punt",
+      "Task3": "Verzend de legendarische handelswagen 1 keer",
+      "Task4": "Voer 1 oranje geheime missie uit",
+      "Task5": "Koop een geschenkdoos met diamanten (1 diamant)",
+      "Task6": "Rekruteer overlevenden 1 keer in de herberg"
+    },
+    "Day3": {
+      "Title": "Dag 3 - Tijdperk van Wetenschap",
+      "DayText": "Woensdag",
+      "Task1": "Gebruik 1 minuut onderzoekversneller",
+      "Task2": "Verhoog de technologiekracht met 1 punt",
+      "Task3": "Voltooi 1 radarmissie",
+      "Task4": "Koop een geschenkdoos met diamanten (1 diamant)",
+      "Task5": "Elke keer dat je een drone-component van niveau 1 opent",
+      "Task6": "Elke keer dat je een drone-component van niveau 2 opent",
+      "Task7": "Elke keer dat je een drone-component van niveau 3 opent",
+      "Task8": "Elke keer dat je een drone-component van niveau 4 opent",
+      "Task9": "Elke keer dat je een drone-component van niveau 5 opent",
+      "Task10": "Elke keer dat je een drone-component van niveau 6 opent",
+      "Task11": "Elke keer dat je een drone-component van niveau 7 opent"
+    },
+    "Day4": {
+      "Title": "Dag 4 - Heldontwikkeling",
+      "DayText": "Donderdag",
+      "Task1": "Voer 1 heldenrekrutering uit",
+      "Task2": "Minimaal 660 helden-ervaring per keer verbruiken",
+      "Task3": "Gebruik 1 legendarische heldenfragment",
+      "Task4": "Gebruik 1 zeldzaam heldenfragment",
+      "Task5": "Verbruik 1 vaardigheidsmedaille",
+      "Task6": "Koop een geschenkdoos met diamanten (1 diamant)"
+    },
+    "Day5": {
+      "Title": "Dag 5 - Gevechtsklaarheid",
+      "DayText": "Vrijdag",
+      "Task1": "Voltooi 1 radarmissie",
+      "Task2": "Gebruik 1 minuut gebouwversneller",
+      "Task3": "Verhoog de gebouwkracht met 1 punt",
+      "Task4": "Gebruik 1 minuut onderzoekversneller",
+      "Task5": "Verhoog de technologiekracht met 1 punt",
+      "Task6": "Gebruik 1 minuut trainingversneller",
+      "Task7": "Train 1 soldaat naar niveau 1",
+      "Task8": "Train 1 soldaat naar niveau 2",
+      "Task9": "Train 1 soldaat naar niveau 3",
+      "Task10": "Train 1 soldaat naar niveau 4",
+      "Task11": "Train 1 soldaat naar niveau 5",
+      "Task12": "Train 1 soldaat naar niveau 6",
+      "Task13": "Train 1 soldaat naar niveau 7",
+      "Task14": "Train 1 soldaat naar niveau 8",
+      "Task15": "Train 1 soldaat naar niveau 9",
+      "Task16": "Train 1 soldaat naar niveau 10",
+      "Task17": "Koop een geschenkdoos met diamanten (1 diamant)"
+    },
+    "Day6": {
+      "Title": "Dag 6 - Vijanden Verwijderen",
+      "DayText": "Zaterdag",
+      "Task1": "Verzend de legendarische handelslastwagen 1 keer",
+      "Task2": "Voer 1 oranje geheime missie uit",
+      "Task3": "Gebruik 1 minuut gebouwversneller",
+      "Task4": "Gebruik 1 minuut onderzoekversneller",
+      "Task5": "Gebruik 1 minuut trainingversneller",
+      "Task6": "Gebruik 1 minuut genezingsversneller",
+      "Task7": "Elke gedode niveau 1 eenheid van een rivaliserende alliantie",
+      "Task8": "Elke gedode niveau 2 eenheid van een rivaliserende alliantie",
+      "Task9": "Elke gedode niveau 3 eenheid van een rivaliserende alliantie",
+      "Task10": "Elke gedode niveau 4 eenheid van een rivaliserende alliantie",
+      "Task11": "Elke gedode niveau 5 eenheid van een rivaliserende alliantie",
+      "Task12": "Elke gedode niveau 6 eenheid van een rivaliserende alliantie",
+      "Task13": "Elke gedode niveau 7 eenheid van een rivaliserende alliantie",
+      "Task14": "Elke gedode niveau 8 eenheid van een rivaliserende alliantie",
+      "Task15": "Elke gedode niveau 9 eenheid van een rivaliserende alliantie",
+      "Task16": "Elke gedode niveau 10 eenheid van een rivaliserende alliantie",
+      "Task17": "Elke gedode niveau 1 eenheid",
+      "Task18": "Elke gedode niveau 2 eenheid",
+      "Task19": "Elke gedode niveau 3 eenheid",
+      "Task20": "Elke gedode niveau 4 eenheid",
+      "Task21": "Elke gedode niveau 5 eenheid",
+      "Task22": "Elke gedode niveau 6 eenheid",
+      "Task23": "Elke gedode niveau 7 eenheid",
+      "Task24": "Elke gedode niveau 8 eenheid",
+      "Task25": "Elke gedode niveau 9 eenheid",
+      "Task26": "Elke gedode niveau 10 eenheid",
+      "Task27": "Elke verloren niveau 1 eenheid",
+      "Task28": "Elke verloren niveau 2 eenheid",
+      "Task29": "Elke verloren niveau 3 eenheid",
+      "Task30": "Elke verloren niveau 4 eenheid",
+      "Task31": "Elke verloren niveau 5 eenheid",
+      "Task32": "Elke verloren niveau 6 eenheid",
+      "Task33": "Elke verloren niveau 7 eenheid",
+      "Task34": "Elke verloren niveau 8 eenheid",
+      "Task35": "Elke verloren niveau 9 eenheid",
+      "Task36": "Elke verloren niveau 10 eenheid",
+      "Task37": "Koop een geschenkdoos met diamanten (1 diamant)"
+    },
+    "GeneralTips": {
+      "Title": "Algemene Tips:",
+      "Tip1": "Voer radarmissies alleen om de dag uit wanneer ze punten opleveren in het evenement (maandag, woensdag, vrijdag)",
+      "Tip2": "Verzamel alle drones gevechtsdata en gebruik ze pas op maandag",
+      "Tip3": "Laat gebouwen na bouw ingepakt en pak ze pas uit op dinsdag als er punten voor zijn",
+      "Tip4": "Verzamel tickets voor handelswagens en missies en gebruik ze pas wanneer gouden vrachtwagens en missies punten opleveren",
+      "Tip5": "Verzamel tickets voor overlevenden en gebruik ze op dinsdag (behalve gratis)",
+      "Tip6": "Houd drone-component kisten in je inventaris en open ze pas op woensdag",
+      "Tip7": "Verzamel rekrutering tickets en gebruik ze pas op donderdag (behalve gratis)",
+      "Tip8": "Verzamel fragmenten voor helden en vaardigheidsmedailles en gebruik ze pas op donderdag",
+      "Tip9": "Verzamel helden-ervaring en gebruik deze alleen op maandag of donderdag",
+      "Tip10": "Verzamel drone-vaardigheid chips voor maandag"
+    },
+    "YouTubeNote": "Opmerking: De volgende YouTube-video's tonen goede voorbeelden van de VS-dag. Houd er echter rekening mee dat ze mogelijk niet helemaal up-to-date zijn. Informeer ook over de nieuwste wijzigingen en procedures.",
+    "Description": "Op deze pagina vind je nuttige tips en trucs om zoveel mogelijk punten te verzamelen tijdens de VS-dag, zonder geld te investeren. Ontdek effectieve strategieën en bewezen methoden om je score te maximaliseren en succesvol te zijn!"
+  }
+}

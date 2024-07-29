@@ -10,5 +10,166 @@
       "List4": "Saggezza degli Antichi: Impara dai guerrieri esperti e migliora le tue abilità per prosperare come un vero vichingo."
     },
     "Section2": "Diventa parte dell'Alleanza Old Viking e naviga con noi nella leggenda. Insieme, saremo invincibili e faremo tremare il mondo di timore."
+  },
+  "Rules": {
+    "Title": "Regole",
+    "Rule1": {
+      "Title": "Inattività",
+      "Description": "Chiunque sia offline per 3 giorni senza avvisare sarà espulso dall'alleanza il 4° giorno."
+    },
+    "Rule2": {
+      "Title": "Punto di Ritrovo",
+      "Description": "La battaglia termina domenica e tutti i membri devono riunirsi al punto di ritrovo dell'alleanza.",
+      "Description2": "Chi non è al punto di ritrovo entro mercoledì sarà espulso."
+    },
+    "Rule3": {
+      "Title": "Donazioni per la Tecnologia dell'Alleanza",
+      "Description": "Entro domenica, ogni membro deve aver donato punti alla tecnologia dell'alleanza (le donazioni sono gratuite).",
+      "Description2": "Chi non lo fa sarà espulso."
+    },
+    "Rule4": {
+      "Title": "Nomi dei Giocatori",
+      "Description": "Ogni membro deve avere il proprio nome di giocatore.",
+      "Description2": "Chi non sceglie il proprio nome di giocatore sarà espulso dall'alleanza."
+    },
+    "Note": {
+      "Title": "Nota:",
+      "Description": "Se qualcuno non sa come rispettare una regola o ha altre domande, per favore ci contatti. Siamo qui per aiutare."
+    },
+    "Footer": "Siamo forti e di successo insieme!"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "Rules": "Regole",
+    "VS": "Duello VS"
+  },
+  "VS": {
+    "Title": "VS-Duel",
+    "Day1": {
+      "Title": "Giorno 1 - Addestramento Radar Speciale",
+      "DayText": "Lunedì",
+      "Task1": "Usa 1 resistenza",
+      "Task2": "Completa 1 missione radar",
+      "Task3": "Usa almeno 660 esperienza eroi per volta",
+      "Task4": "Usa 1 punto dati di combattimento droni",
+      "Task5": "Usa 1 componente drone",
+      "Task6": "Acquista un pacchetto regalo con diamanti (1 diamante)",
+      "Task7": "Raccogli 100 cibo",
+      "Task8": "Raccogli 100 ferro",
+      "Task9": "Raccogli 60 oro",
+      "Task10": "Per ogni chip abilità drone guadagnato"
+    },
+    "Day2": {
+      "Title": "Giorno 2 - Costruzione della Base",
+      "DayText": "Martedì",
+      "Task1": "Usa 1 minuto acceleratore di costruzione",
+      "Task2": "Aumenta la potenza di combattimento dell'edificio di 1 punto",
+      "Task3": "Invia il carro leggendario 1 volta",
+      "Task4": "Completa 1 missione segreta arancione",
+      "Task5": "Acquista un pacchetto regalo con diamanti (1 diamante)",
+      "Task6": "Recluta sopravvissuti 1 volta nella taverna"
+    },
+    "Day3": {
+      "Title": "Giorno 3 - Era della Scienza",
+      "DayText": "Mercoledì",
+      "Task1": "Usa 1 minuto acceleratore di ricerca",
+      "Task2": "Aumenta la potenza di combattimento della tecnologia di 1 punto",
+      "Task3": "Completa 1 missione radar",
+      "Task4": "Acquista un pacchetto regalo con diamanti (1 diamante)",
+      "Task5": "Ogni volta che apri un componente drone di livello 1",
+      "Task6": "Ogni volta che apri un componente drone di livello 2",
+      "Task7": "Ogni volta che apri un componente drone di livello 3",
+      "Task8": "Ogni volta che apri un componente drone di livello 4",
+      "Task9": "Ogni volta che apri un componente drone di livello 5",
+      "Task10": "Ogni volta che apri un componente drone di livello 6",
+      "Task11": "Ogni volta che apri un componente drone di livello 7"
+    },
+    "Day4": {
+      "Title": "Giorno 4 - Sviluppo degli Eroi",
+      "DayText": "Giovedì",
+      "Task1": "Effettua 1 reclutamento eroe",
+      "Task2": "Usa almeno 660 esperienza eroi per volta",
+      "Task3": "Usa 1 frammento eroe leggendario",
+      "Task4": "Usa 1 frammento eroe raro",
+      "Task5": "Usa 1 medaglia abilità",
+      "Task6": "Acquista un pacchetto regalo con diamanti (1 diamante)"
+    },
+    "Day5": {
+      "Title": "Giorno 5 - Prontezza al Combattimento",
+      "DayText": "Venerdì",
+      "Task1": "Completa 1 missione radar",
+      "Task2": "Usa 1 minuto acceleratore di costruzione",
+      "Task3": "Aumenta la potenza di combattimento dell'edificio di 1 punto",
+      "Task4": "Usa 1 minuto acceleratore di ricerca",
+      "Task5": "Aumenta la potenza di combattimento della tecnologia di 1 punto",
+      "Task6": "Usa 1 minuto acceleratore di addestramento",
+      "Task7": "Allena 1 soldato a livello 1",
+      "Task8": "Allena 1 soldato a livello 2",
+      "Task9": "Allena 1 soldato a livello 3",
+      "Task10": "Allena 1 soldato a livello 4",
+      "Task11": "Allena 1 soldato a livello 5",
+      "Task12": "Allena 1 soldato a livello 6",
+      "Task13": "Allena 1 soldato a livello 7",
+      "Task14": "Allena 1 soldato a livello 8",
+      "Task15": "Allena 1 soldato a livello 9",
+      "Task16": "Allena 1 soldato a livello 10",
+      "Task17": "Acquista un pacchetto regalo con diamanti (1 diamante)"
+    },
+    "Day6": {
+      "Title": "Giorno 6 - Eliminazione dei Nemici",
+      "DayText": "Sabato",
+      "Task1": "Invia il carro leggendario 1 volta",
+      "Task2": "Completa 1 missione segreta arancione",
+      "Task3": "Usa 1 minuto acceleratore di costruzione",
+      "Task4": "Usa 1 minuto acceleratore di ricerca",
+      "Task5": "Usa 1 minuto acceleratore di addestramento",
+      "Task6": "Usa 1 minuto acceleratore di guarigione",
+      "Task7": "Ogni unità di livello 1 uccisa di una alleanza rivale",
+      "Task8": "Ogni unità di livello 2 uccisa di una alleanza rivale",
+      "Task9": "Ogni unità di livello 3 uccisa di una alleanza rivale",
+      "Task10": "Ogni unità di livello 4 uccisa di una alleanza rivale",
+      "Task11": "Ogni unità di livello 5 uccisa di una alleanza rivale",
+      "Task12": "Ogni unità di livello 6 uccisa di una alleanza rivale",
+      "Task13": "Ogni unità di livello 7 uccisa di una alleanza rivale",
+      "Task14": "Ogni unità di livello 8 uccisa di una alleanza rivale",
+      "Task15": "Ogni unità di livello 9 uccisa di una alleanza rivale",
+      "Task16": "Ogni unità di livello 10 uccisa di una alleanza rivale",
+      "Task17": "Ogni unità di livello 1 uccisa",
+      "Task18": "Ogni unità di livello 2 uccisa",
+      "Task19": "Ogni unità di livello 3 uccisa",
+      "Task20": "Ogni unità di livello 4 uccisa",
+      "Task21": "Ogni unità di livello 5 uccisa",
+      "Task22": "Ogni unità di livello 6 uccisa",
+      "Task23": "Ogni unità di livello 7 uccisa",
+      "Task24": "Ogni unità di livello 8 uccisa",
+      "Task25": "Ogni unità di livello 9 uccisa",
+      "Task26": "Ogni unità di livello 10 uccisa",
+      "Task27": "Ogni unità di livello 1 persa",
+      "Task28": "Ogni unità di livello 2 persa",
+      "Task29": "Ogni unità di livello 3 persa",
+      "Task30": "Ogni unità di livello 4 persa",
+      "Task31": "Ogni unità di livello 5 persa",
+      "Task32": "Ogni unità di livello 6 persa",
+      "Task33": "Ogni unità di livello 7 persa",
+      "Task34": "Ogni unità di livello 8 persa",
+      "Task35": "Ogni unità di livello 9 persa",
+      "Task36": "Ogni unità di livello 10 persa",
+      "Task37": "Acquista un pacchetto regalo con diamanti (1 diamante)"
+    },
+    "GeneralTips": {
+      "Title": "Suggerimenti Generali:",
+      "Tip1": "Completa le missioni radar solo ogni due giorni quando danno punti nell'evento (Lunedì, Mercoledì, Venerdì)",
+      "Tip2": "Raccogli tutti i dati di combattimento droni e usali solo il lunedì",
+      "Tip3": "Lascia gli edifici imballati dopo la costruzione e disimballali solo il martedì quando danno punti",
+      "Tip4": "Raccogli biglietti per il carro commerciale e le missioni e usali quando i camion d'oro e le missioni danno punti",
+      "Tip5": "Raccogli biglietti per i sopravvissuti e usali il martedì (eccetto quelli gratuiti)",
+      "Tip6": "Lascia i forzieri dei componenti droni nell'inventario e aprili solo il mercoledì",
+      "Tip7": "Raccogli tutti i biglietti di reclutamento e usali solo il giovedì (eccetto quelli gratuiti)",
+      "Tip8": "Raccogli frammenti di eroi e medaglie di abilità e usali solo il giovedì",
+      "Tip9": "Raccogli esperienza eroi e usala solo il lunedì o il giovedì",
+      "Tip10": "Raccogli tutti i chip abilità droni per il lunedì"
+    },
+    "YouTubeNote": "Nota: I seguenti video di YouTube mostrano buoni esempi per il giorno VS. Tieni presente che potrebbero non essere completamente aggiornati. Verifica anche le ultime modifiche e procedure.",
+    "Description": "In questa pagina troverai suggerimenti e trucchi utili su come ottenere il punteggio massimo nel duello VS senza dover spendere soldi. Scopri strategie efficaci e metodi collaudati per massimizzare il tuo punteggio e avere successo!"
   }
 }

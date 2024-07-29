@@ -8,14 +8,17 @@ import {ToastrModule, ToastrService} from "ngx-toastr";
   styleUrl: './navigation.component.scss'
 })
 export class NavigationComponent implements OnInit{
-  version: string = '0.0.1';
+  version: string = '1.0.0';
   isShown: boolean = false;
   siteLanguage: string = 'Deutsch';
   languageList = [
     {code: 'de', label: 'Deutsch'},
     {code: 'en', label: 'English'},
     {code: 'fr', label: 'Français'},
-    {code: 'it', label: 'Italiano'}
+    {code: 'it', label: 'Italiano'},
+    {code: 'nl', label: 'Néerlandais'},
+    {code: 'no', label: 'Norvégien'},
+    {code: 'dk', label: 'Danois'}
   ];
 
   private readonly translate: TranslateService = inject(TranslateService);

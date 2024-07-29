@@ -10,5 +10,166 @@
       "List4": "Weisheit der Alten: Lerne von erfahrenen Kriegern und verbessere deine Fähigkeiten, um als wahrer Wikinger zu bestehen."
     },
     "Section2": "Werde ein Teil der Allianz Old Viking und segle mit uns in die Legende. Gemeinsam werden wir unbezwingbar sein und die Welt vor Ehrfurcht erzittern lassen."
+  },
+  "Rules": {
+    "Title": "Regeln",
+    "Rule1": {
+      "Title": "Inaktivität",
+      "Description": "Wer 3 Tage offline ist, ohne sich abzumelden, wird am 4. Tag aus der Allianz entlassen"
+    },
+    "Rule2": {
+      "Title": "Versammlungsplatz",
+      "Description": "Am Sonntag ist der gesamte Kampf vorbei, und alle Mitglieder sollen sich beim Allianz-Versammlungsplatz versammeln.",
+      "Description2": "Wer am Mittwoch noch nicht am Versammlungsplatz ist, wird entlassen."
+    },
+    "Rule3": {
+      "Title": "Allianz-Technologie Spenden",
+      "Description": "Bis Sonntag muss jedes Mitglied Punkte bei der Allianz-Technologie gespendet haben (Das Spenden ist kostenlos).",
+      "Description2": "Wer dies nicht tut, wird entlassen."
+    },
+    "Rule4": {
+      "Title": "Spielernamen",
+      "Description": "Jedes Mitglied muss einen eigenen Spielernamen haben.",
+      "Description2": "Wer sich keinen eigenen Spielernamen gibt, wird aus der Allianz entlassen."
+    },
+    "Note": {
+      "Title": "Hinweis:",
+      "Description": "Wenn jemand nicht weiß, wie er eine Regel erfüllen kann oder sonst Fragen hat, soll er sich bitte bei uns melden. Wir sind hier, um zu helfen."
+    },
+    "Footer": "Lasst uns zusammen stark und erfolgreich sein!"
+  },
+  "Navigation": {
+    "Home": "Startseite",
+    "Rules": "Regeln",
+    "VS": "VS-Duell"
+  },
+  "VS": {
+    "Title": "VS-Duell",
+    "Day1": {
+      "Title": "Tag 1 - Radar-Spezialtraining",
+      "DayText": "Montag",
+      "Task1": "Verbrauche 1 Ausdauer",
+      "Task2": "Beende 1 Radarmission",
+      "Task3": "Mindestens 660 Helden-Exp pro Mal verbrauchen",
+      "Task4": "Benutze 1 Punkt Drohnen Kampfdaten",
+      "Task5": "Benutze 1 Drohnenteil",
+      "Task6": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)",
+      "Task7": "Sammle 100 Nahrungsmittel",
+      "Task8": "Sammle 100 Eisen",
+      "Task9": "Sammle 60 Gold",
+      "Task10": "Für jeden gewonnenen Drohnen Fähigkeiten Chip Punkt"
+    },
+    "Day2": {
+      "Title": "Tag 2 - Basis-Konstruktion",
+      "DayText": "Dienstag",
+      "Task1": "Benutze 1 Minute Gebäude Beschleuniger",
+      "Task2": "Erhöhe die Gebäude Kampfkraft um 1 Punkt",
+      "Task3": "Sende den legendären Handelswagen 1 mal",
+      "Task4": "1 orange geheime Mission durchführen",
+      "Task5": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)",
+      "Task6": "Rekrutieren Sie Überlebende 1 Mal in der Taverne"
+    },
+    "Day3": {
+      "Title": "Tag 3 - Zeitalter der Wissenschaft",
+      "DayText": "Mittwoch",
+      "Task1": "Benutze 1 Minute Forschungs Beschleuniger",
+      "Task2": "Erhöhe die Technologie Kampfkraft um 1 Punkt",
+      "Task3": "Beende 1 Radarmission",
+      "Task4": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)",
+      "Task5": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 1 öffnest",
+      "Task6": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 2 öffnest",
+      "Task7": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 3 öffnest",
+      "Task8": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 4 öffnest",
+      "Task9": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 5 öffnest",
+      "Task10": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 6 öffnest",
+      "Task11": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 7 öffnest"
+    },
+    "Day4": {
+      "Title": "Tag 4 - Entwicklung von Helden",
+      "DayText": "Donnerstag",
+      "Task1": "Führe 1 Helden Rekrutierung durch",
+      "Task2": "Mindestens 660 Helden-Exp pro Mal verbrauchen",
+      "Task3": "Benutze 1 legendäre Heldenscherbe",
+      "Task4": "Benutze 1 seltene Heldenscherbe",
+      "Task5": "Verbrauche 1 Fähigkeitsmedaille",
+      "Task6": "Kaufen Sie ein Geschenpack mit Diamanten (1 Diamant)"
+    },
+    "Day5": {
+      "Title": "Tag 5 - Gefechtsbereitschaft",
+      "DayText": "Freitag",
+      "Task1": "Beennde 1 Radarmission",
+      "Task2": "Benutze 1 Minute Gebäude Beschleuniger",
+      "Task3": "Erhöhe die Gebäude Kampfkraft um 1 Punkt",
+      "Task4": "Benutze 1 Minute Forschungs Beschleuniger",
+      "Task5": "Erhöhe die Technologie Kampfkraft um 1 Punkt",
+      "Task6": "Benutze 1 Minute Training Beschleuniger",
+      "Task7": "Trainiere 1 Soldat auf Level 1",
+      "Task8": "Trainiere 1 Soldat auf Level 2",
+      "Task9": "Trainiere 1 Soldat auf Level 3",
+      "Task10": "Trainiere 1 Soldat auf Level 4",
+      "Task11": "Trainiere 1 Soldat auf Level 5",
+      "Task12": "Trainiere 1 Soldat auf Level 6",
+      "Task13": "Trainiere 1 Soldat auf Level 7",
+      "Task14": "Trainiere 1 Soldat auf Level 8",
+      "Task15": "Trainiere 1 Soldat auf Level 9",
+      "Task16": "Trainiere 1 Soldat auf Level 10",
+      "Task17": "Kaufen Sie ein Geschenpack mit Diamanten (1 Diamant)"
+    },
+    "Day6": {
+      "Title": "Tag 6 - Beseitigung der Feinde",
+      "DayText": "Samstag",
+      "Task1": "Sende den legendären Handelslastwagen 1 Mal",
+      "Task2": "1 orange geheime Mission durchführen",
+      "Task3": "Benutze 1 Minute Gebäude Beschleuniger",
+      "Task4": "Benutze 1 Minute Forschungs Beschleuniger",
+      "Task5": "Benutze 1 Minute Training Beschleuniger",
+      "Task6": "Benutze 1 Minute Heilung Beschleuniger",
+      "Task7": "Jede getötete Level 1 Einheit einer rivalisierenden Allianz",
+      "Task8": "Jede getötete Level 2 Einheit einer rivalisierenden Allianz",
+      "Task9": "Jede getötete Level 3 Einheit einer rivalisierenden Allianz",
+      "Task10": "Jede getötete Level 4 Einheit einer rivalisierenden Allianz",
+      "Task11": "Jede getötete Level 5 Einheit einer rivalisierenden Allianz",
+      "Task12": "Jede getötete Level 6 Einheit einer rivalisierenden Allianz",
+      "Task13": "Jede getötete Level 7 Einheit einer rivalisierenden Allianz",
+      "Task14": "Jede getötete Level 8 Einheit einer rivalisierenden Allianz",
+      "Task15": "Jede getötete Level 9 Einheit einer rivalisierenden Allianz",
+      "Task16": "Jede getötete Level 10 Einheit einer rivalisierenden Allianz",
+      "Task17": "Jede getötete Level 1 Einheit",
+      "Task18": "Jede getötete Level 2 Einheit",
+      "Task19": "Jede getötete Level 3 Einheit",
+      "Task20": "Jede getötete Level 4 Einheit",
+      "Task21": "Jede getötete Level 5 Einheit",
+      "Task22": "Jede getötete Level 6 Einheit",
+      "Task23": "Jede getötete Level 7 Einheit",
+      "Task24": "Jede getötete Level 8 Einheit",
+      "Task25": "Jede getötete Level 9 Einheit",
+      "Task26": "Jede getötete Level 10 Einheit",
+      "Task27": "Jede verlorene Level 1 Einheit",
+      "Task28": "Jede verlorene Level 2 Einheit",
+      "Task29": "Jede verlorene Level 3 Einheit",
+      "Task30": "Jede verlorene Level 4 Einheit",
+      "Task31": "Jede verlorene Level 5 Einheit",
+      "Task32": "Jede verlorene Level 6 Einheit",
+      "Task33": "Jede verlorene Level 7 Einheit",
+      "Task34": "Jede verlorene Level 8 Einheit",
+      "Task35": "Jede verlorene Level 9 Einheit",
+      "Task36": "Jede verlorene Level 10 Einheit",
+      "Task37": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)"
+    },
+    "GeneralTips": {
+      "Title": "Allgemeine Tipps:",
+      "Tip1": "Radarmissionen nur jeden zweiten Tag asführen wen diese im Event Punkte geben (Montag,Mittwoch,Freitag)",
+      "Tip2": "Drohnen Kampfdaten alle sammeln und erst am Montag einsetzen",
+      "Tip3": "Gebäude nach Bau eingepackt lassen und erst am Dienstag auspacken wen es Punkte dafür gibt",
+      "Tip4": "Tickets für Handelswagen und Missionen sammeln und dann einsetzen wen Goldene Lkw und Missionen Punkte geben",
+      "Tip5": "Tickets für Überlebende alle sammeln und am Dienstag brauchen (Ausser Gratis)",
+      "Tip6": "Drohnen Komponenten Truhen im Inventar lassen und erst am Mittwoch öffnen",
+      "Tip7": "Rekrutierungs Ticket alle sammeln und erst am Donnerstag brauchen (Ausser Gratis)",
+      "Tip8": "Scherben für Helden und Fähigkeitsmedaille alle sammeln und erst am Donnerstag einsetzen",
+      "Tip9": "Helden Exp alle Sammeln und nur am Montag oder Donnerstag brauchen",
+      "Tip10": "Drohnen Fähigkeits Chips alle sammeln für Montag"
+    },
+    "YouTubeNote": "Hinweis: Die folgenden YouTube-Videos zeigen gute Beispiele für den VS-Tag. Beachte jedoch, dass sie möglicherweise nicht ganz aktuell sind. Informiere dich zusätzlich über die neuesten Änderungen und Verfahren.",
+    "Description": "Auf dieser Seite findet ihr nützliche Tipps und Tricks, wie ihr beim VS-Duell möglichst viele Punkte sammeln könnt, ohne dabei Geld investieren zu müssen. Entdeckt effektive Strategien und bewährte Methoden, um eure Punktzahl zu maximieren und erfolgreich zu sein!"
   }
 }

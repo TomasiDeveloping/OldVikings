@@ -1,0 +1,175 @@
+{
+  "Home": {
+    "Welcome": "Velkommen, tapre krigere, til Alliance Old Viking!",
+    "Section1": "Træd ind i de stormfulde have og endeløse slagmarker med Alliance Old Viking ved din side. Her kæmper vi skulder ved skulder, vores økse skærpet, vores skjold løftet, altid klar til næste slag.",
+    "WhatToExpect": {
+      "Title": "Hvad du kan forvente:",
+      "List1": "Brødre og søstre i kamp: Find trofaste kampe, der støtter dig i hver kamp og deler æren med dig.",
+      "List2": "Strategisk mestre: Smid magtfulde planer og overvinde dine fjender med klog taktik og urokkelig mod.",
+      "List3": "Ærefulde fester: Deltag i episke slag og glorværdige raids, der belønner dig rigt og udvider din heltelægen.",
+      "List4": "Visdom fra de gamle: Lær fra erfarne krigere og forbedr dine færdigheder for at bestå som en ægte viking."
+    },
+    "Section2": "Bliv en del af Alliance Old Viking og sejle med os ind i legenden. Sammen vil vi være uovervindelige og få verden til at ryste af ærefrygt."
+  },
+  "Rules": {
+    "Title": "Regler",
+    "Rule1": {
+      "Title": "Inaktivitet",
+      "Description": "Hvis du er offline i 3 dage uden at melde fra, vil du blive udvist fra alliancen den 4. dag."
+    },
+    "Rule2": {
+      "Title": "Samleplads",
+      "Description": "Søndag er hele kampen slut, og alle medlemmer skal samles ved alliance-samlepladsen.",
+      "Description2": "Hvis du ikke er ved samlepladsen om onsdagen, vil du blive udvist."
+    },
+    "Rule3": {
+      "Title": "Alliance-teknologi donationer",
+      "Description": "Inden søndag skal hvert medlem have doneret point til alliance-teknologi (donationen er gratis).",
+      "Description2": "Hvis du ikke gør det, vil du blive udvist."
+    },
+    "Rule4": {
+      "Title": "Spillernavne",
+      "Description": "Hvert medlem skal have sit eget spillernavn.",
+      "Description2": "Hvis du ikke vælger dit eget spillernavn, vil du blive udvist fra alliancen."
+    },
+    "Note": {
+      "Title": "Bemærk:",
+      "Description": "Hvis nogen ikke ved, hvordan man overholder en regel eller har andre spørgsmål, skal de kontakte os. Vi er her for at hjælpe."
+    },
+    "Footer": "Lad os være stærke og succesfulde sammen!"
+  },
+  "Navigation": {
+    "Home": "Hjem",
+    "Rules": "Regler",
+    "VS": "VS-Duel"
+  },
+  "VS": {
+    "Title": "VS Duel",
+    "Day1": {
+      "Title": "Dag 1 - Radar Specialtræning",
+      "DayText": "Mandag",
+      "Task1": "Brug 1 udholdenhed",
+      "Task2": "Fuldfør 1 radarmission",
+      "Task3": "Brug mindst 660 helte-EXP hver gang",
+      "Task4": "Brug 1 dronekampdata point",
+      "Task5": "Brug 1 dronekomponent",
+      "Task6": "Køb en gavepakke med diamanter (1 diamant)",
+      "Task7": "Samle 100 mad",
+      "Task8": "Samle 100 jern",
+      "Task9": "Samle 60 guld",
+      "Task10": "For hvert opnået dronefærdigheds-chip point"
+    },
+    "Day2": {
+      "Title": "Dag 2 - Basisbygning",
+      "DayText": "Tirsdag",
+      "Task1": "Brug 1 minut bygningaccelerator",
+      "Task2": "Øg bygningens kampstyrke med 1 point",
+      "Task3": "Send den legendariske handelsvogn 1 gang",
+      "Task4": "Fuldfør 1 orange hemmelig mission",
+      "Task5": "Køb en gavepakke med diamanter (1 diamant)",
+      "Task6": "Rekrutter overlevende 1 gang i tavernen"
+    },
+    "Day3": {
+      "Title": "Dag 3 - Videnskabens Tid",
+      "DayText": "Onsdag",
+      "Task1": "Brug 1 minut forskningsaccelerator",
+      "Task2": "Øg teknologiens kampstyrke med 1 point",
+      "Task3": "Fuldfør 1 radarmission",
+      "Task4": "Køb en gavepakke med diamanter (1 diamant)",
+      "Task5": "Hver gang du åbner en dronekomponent niveau 1",
+      "Task6": "Hver gang du åbner en dronekomponent niveau 2",
+      "Task7": "Hver gang du åbner en dronekomponent niveau 3",
+      "Task8": "Hver gang du åbner en dronekomponent niveau 4",
+      "Task9": "Hver gang du åbner en dronekomponent niveau 5",
+      "Task10": "Hver gang du åbner en dronekomponent niveau 6",
+      "Task11": "Hver gang du åbner en dronekomponent niveau 7"
+    },
+    "Day4": {
+      "Title": "Dag 4 - Helteudvikling",
+      "DayText": "Torsdag",
+      "Task1": "Udfør 1 helte-rekruttering",
+      "Task2": "Brug mindst 660 helte-EXP hver gang",
+      "Task3": "Brug 1 legendarisk heltefragment",
+      "Task4": "Brug 1 sjældent heltefragment",
+      "Task5": "Brug 1 færdighedsmærke",
+      "Task6": "Køb en gavepakke med diamanter (1 diamant)"
+    },
+    "Day5": {
+      "Title": "Dag 5 - Kampklarhed",
+      "DayText": "Fredag",
+      "Task1": "Fuldfør 1 radarmission",
+      "Task2": "Brug 1 minut bygningaccelerator",
+      "Task3": "Øg bygningens kampstyrke med 1 point",
+      "Task4": "Brug 1 minut forskningsaccelerator",
+      "Task5": "Øg teknologiens kampstyrke med 1 point",
+      "Task6": "Brug 1 minut træningsaccelerator",
+      "Task7": "Træn 1 soldat til niveau 1",
+      "Task8": "Træn 1 soldat til niveau 2",
+      "Task9": "Træn 1 soldat til niveau 3",
+      "Task10": "Træn 1 soldat til niveau 4",
+      "Task11": "Træn 1 soldat til niveau 5",
+      "Task12": "Træn 1 soldat til niveau 6",
+      "Task13": "Træn 1 soldat til niveau 7",
+      "Task14": "Træn 1 soldat til niveau 8",
+      "Task15": "Træn 1 soldat til niveau 9",
+      "Task16": "Træn 1 soldat til niveau 10",
+      "Task17": "Køb en gavepakke med diamanter (1 diamant)"
+    },
+    "Day6": {
+      "Title": "Dag 6 - Fjendernes Udslettelse",
+      "DayText": "Lørdag",
+      "Task1": "Send den legendariske handelsvogn 1 gang",
+      "Task2": "Fuldfør 1 orange hemmelig mission",
+      "Task3": "Brug 1 minut bygningaccelerator",
+      "Task4": "Brug 1 minut forskningsaccelerator",
+      "Task5": "Brug 1 minut træningsaccelerator",
+      "Task6": "Brug 1 minut helingsaccelerator",
+      "Task7": "Hver dræbt niveau 1 enhed fra en rivaliserende alliance",
+      "Task8": "Hver dræbt niveau 2 enhed fra en rivaliserende alliance",
+      "Task9": "Hver dræbt niveau 3 enhed fra en rivaliserende alliance",
+      "Task10": "Hver dræbt niveau 4 enhed fra en rivaliserende alliance",
+      "Task11": "Hver dræbt niveau 5 enhed fra en rivaliserende alliance",
+      "Task12": "Hver dræbt niveau 6 enhed fra en rivaliserende alliance",
+      "Task13": "Hver dræbt niveau 7 enhed fra en rivaliserende alliance",
+      "Task14": "Hver dræbt niveau 8 enhed fra en rivaliserende alliance",
+      "Task15": "Hver dræbt niveau 9 enhed fra en rivaliserende alliance",
+      "Task16": "Hver dræbt niveau 10 enhed fra en rivaliserende alliance",
+      "Task17": "Hver dræbt niveau 1 enhed",
+      "Task18": "Hver dræbt niveau 2 enhed",
+      "Task19": "Hver dræbt niveau 3 enhed",
+      "Task20": "Hver dræbt niveau 4 enhed",
+      "Task21": "Hver dræbt niveau 5 enhed",
+      "Task22": "Hver dræbt niveau 6 enhed",
+      "Task23": "Hver dræbt niveau 7 enhed",
+      "Task24": "Hver dræbt niveau 8 enhed",
+      "Task25": "Hver dræbt niveau 9 enhed",
+      "Task26": "Hver dræbt niveau 10 enhed",
+      "Task27": "Hver tabt niveau 1 enhed",
+      "Task28": "Hver tabt niveau 2 enhed",
+      "Task29": "Hver tabt niveau 3 enhed",
+      "Task30": "Hver tabt niveau 4 enhed",
+      "Task31": "Hver tabt niveau 5 enhed",
+      "Task32": "Hver tabt niveau 6 enhed",
+      "Task33": "Hver tabt niveau 7 enhed",
+      "Task34": "Hver tabt niveau 8 enhed",
+      "Task35": "Hver tabt niveau 9 enhed",
+      "Task36": "Hver tabt niveau 10 enhed",
+      "Task37": "Køb en gavepakke med diamanter (1 diamant)"
+    },
+    "GeneralTips": {
+      "Title": "Generelle Tips:",
+      "Tip1": "Udfør radarmissioner kun hver anden dag, når de giver point i eventet (mandag, onsdag, fredag)",
+      "Tip2": "Samle alle dronekampdata og brug dem kun på mandag",
+      "Tip3": "Lad bygninger være pakket efter bygning og pak dem først ud på tirsdag, når der gives point",
+      "Tip4": "Samle billetter til handelsvogne og missioner, og brug dem, når gyldne lastvogne og missioner giver point",
+      "Tip5": "Samle overlevelsesbilletter og brug dem på tirsdag (undtagen gratis)",
+      "Tip6": "Lad dronekomponentkasser være i inventaret og åbn dem først på onsdag",
+      "Tip7": "Samle alle rekrutteringsbilletter og brug dem kun på torsdag (undtagen gratis)",
+      "Tip8": "Samle heltefragmenter og færdighedsmedaljer og brug dem kun på torsdag",
+      "Tip9": "Samle helte-EXP og brug dem kun på mandag eller torsdag",
+      "Tip10": "Samle alle dronefærdigheds-chips til mandag"
+    },
+    "YouTubeNote": "Bemærk: De følgende YouTube-videoer viser gode eksempler på VS-dagen. Vær opmærksom på, at de måske ikke er helt opdaterede. Tjek også de nyeste ændringer og procedurer.",
+    "Description": "På denne side finder du nyttige tips og tricks til, hvordan du kan score de maksimale point i VS Duel uden at bruge penge. Opdag effektive strategier og afprøvede metoder til at maksimere din score og få succes!"
+  }
+}

@@ -11,6 +11,7 @@ import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {ToastrModule} from "ngx-toastr";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { RulesComponent } from './pages/rules/rules.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -22,7 +23,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     NavigationComponent,
     HomeComponent,
-    VsDuellComponent
+    VsDuellComponent,
+    RulesComponent
   ],
   imports: [
     BrowserModule,

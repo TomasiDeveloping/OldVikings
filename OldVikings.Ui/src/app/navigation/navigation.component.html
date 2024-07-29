@@ -21,12 +21,17 @@
 
         <!-- Home link -->
         <li class="nav-item">
-          <a (click)="isShown = false" class="nav-link" routerLink="/home" routerLinkActive="active">Home
+          <a (click)="isShown = false" class="nav-link" routerLink="/home" routerLinkActive="active">{{'Navigation.Home' | translate}}
           </a>
         </li>
 
         <li class="nav-item">
-          <a (click)="isShown = false" class="nav-link" routerLink="/vs" routerLinkActive="active">VS-Duell
+          <a (click)="isShown = false" class="nav-link" routerLink="/rules" routerLinkActive="active">{{'Navigation.Rules' | translate}}
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a (click)="isShown = false" class="nav-link" routerLink="/vs" routerLinkActive="active">{{'Navigation.VS' | translate}}
           </a>
         </li>
 

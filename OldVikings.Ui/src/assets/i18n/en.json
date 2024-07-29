@@ -10,5 +10,166 @@
       "List4": "Wisdom of the Ancients: Learn from experienced warriors and improve your skills to thrive as a true Viking."
     },
     "Section2": "Become a part of the Alliance Old Viking and sail with us into legend. Together, we will be invincible and make the world tremble with awe."
+  },
+  "Rules": {
+    "Title": "Rules",
+    "Rule1": {
+      "Title": "Inactivity",
+      "Description": "Anyone who is offline for 3 days without notifying will be dismissed from the alliance on the 4th day."
+    },
+    "Rule2": {
+      "Title": "Assembly Point",
+      "Description": "The entire battle is over on Sunday, and all members should gather at the alliance assembly point.",
+      "Description2": "Anyone who has not gathered at the assembly point by Wednesday will be dismissed."
+    },
+    "Rule3": {
+      "Title": "Alliance Technology Donations",
+      "Description": "By Sunday, each member must have donated points to the alliance technology (donating is free).",
+      "Description2": "Anyone who does not do this will be dismissed."
+    },
+    "Rule4": {
+      "Title": "Player Names",
+      "Description": "Each member must have their own player name.",
+      "Description2": "Anyone who does not choose their own player name will be dismissed from the alliance."
+    },
+    "Note": {
+      "Title": "Note:",
+      "Description": "If anyone does not know how to fulfill a rule or has any other questions, please contact us. We are here to help."
+    },
+    "Footer": "Let's be strong and successful together!"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "Rules": "Rules",
+    "VS": "VS Duel"
+  },
+  "VS": {
+    "Title": "VS Duel",
+    "Day1": {
+      "Title": "Day 1 - Radar Special Training",
+      "DayText": "Monday",
+      "Task1": "Use 1 stamina",
+      "Task2": "Complete 1 radar mission",
+      "Task3": "Use at least 660 hero XP each time",
+      "Task4": "Use 1 drone combat data point",
+      "Task5": "Use 1 drone component",
+      "Task6": "Buy a gift pack with diamonds (1 diamond)",
+      "Task7": "Collect 100 food",
+      "Task8": "Collect 100 iron",
+      "Task9": "Collect 60 gold",
+      "Task10": "For each drone skill chip point earned"
+    },
+    "Day2": {
+      "Title": "Day 2 - Base Construction",
+      "DayText": "Tuesday",
+      "Task1": "Use 1 minute building accelerator",
+      "Task2": "Increase building combat power by 1 point",
+      "Task3": "Send the legendary trading cart 1 time",
+      "Task4": "Complete 1 orange secret mission",
+      "Task5": "Buy a gift pack with diamonds (1 diamond)",
+      "Task6": "Recruit survivors 1 time in the tavern"
+    },
+    "Day3": {
+      "Title": "Day 3 - Age of Science",
+      "DayText": "Wednesday",
+      "Task1": "Use 1 minute research accelerator",
+      "Task2": "Increase technology combat power by 1 point",
+      "Task3": "Complete 1 radar mission",
+      "Task4": "Buy a gift pack with diamonds (1 diamond)",
+      "Task5": "Each time you open a level 1 drone component",
+      "Task6": "Each time you open a level 2 drone component",
+      "Task7": "Each time you open a level 3 drone component",
+      "Task8": "Each time you open a level 4 drone component",
+      "Task9": "Each time you open a level 5 drone component",
+      "Task10": "Each time you open a level 6 drone component",
+      "Task11": "Each time you open a level 7 drone component"
+    },
+    "Day4": {
+      "Title": "Day 4 - Hero Development",
+      "DayText": "Thursday",
+      "Task1": "Perform 1 hero recruitment",
+      "Task2": "Use at least 660 hero XP each time",
+      "Task3": "Use 1 legendary hero fragment",
+      "Task4": "Use 1 rare hero fragment",
+      "Task5": "Use 1 skill medal",
+      "Task6": "Buy a gift pack with diamonds (1 diamond)"
+    },
+    "Day5": {
+      "Title": "Day 5 - Combat Readiness",
+      "DayText": "Friday",
+      "Task1": "Complete 1 radar mission",
+      "Task2": "Use 1 minute building accelerator",
+      "Task3": "Increase building combat power by 1 point",
+      "Task4": "Use 1 minute research accelerator",
+      "Task5": "Increase technology combat power by 1 point",
+      "Task6": "Use 1 minute training accelerator",
+      "Task7": "Train 1 soldier to level 1",
+      "Task8": "Train 1 soldier to level 2",
+      "Task9": "Train 1 soldier to level 3",
+      "Task10": "Train 1 soldier to level 4",
+      "Task11": "Train 1 soldier to level 5",
+      "Task12": "Train 1 soldier to level 6",
+      "Task13": "Train 1 soldier to level 7",
+      "Task14": "Train 1 soldier to level 8",
+      "Task15": "Train 1 soldier to level 9",
+      "Task16": "Train 1 soldier to level 10",
+      "Task17": "Buy a gift pack with diamonds (1 diamond)"
+    },
+    "Day6": {
+      "Title": "Day 6 - Elimination of Enemies",
+      "DayText": "Saturday",
+      "Task1": "Send the legendary trading cart 1 time",
+      "Task2": "Complete 1 orange secret mission",
+      "Task3": "Use 1 minute building accelerator",
+      "Task4": "Use 1 minute research accelerator",
+      "Task5": "Use 1 minute training accelerator",
+      "Task6": "Use 1 minute healing accelerator",
+      "Task7": "Each level 1 unit killed from a rival alliance",
+      "Task8": "Each level 2 unit killed from a rival alliance",
+      "Task9": "Each level 3 unit killed from a rival alliance",
+      "Task10": "Each level 4 unit killed from a rival alliance",
+      "Task11": "Each level 5 unit killed from a rival alliance",
+      "Task12": "Each level 6 unit killed from a rival alliance",
+      "Task13": "Each level 7 unit killed from a rival alliance",
+      "Task14": "Each level 8 unit killed from a rival alliance",
+      "Task15": "Each level 9 unit killed from a rival alliance",
+      "Task16": "Each level 10 unit killed from a rival alliance",
+      "Task17": "Each level 1 unit killed",
+      "Task18": "Each level 2 unit killed",
+      "Task19": "Each level 3 unit killed",
+      "Task20": "Each level 4 unit killed",
+      "Task21": "Each level 5 unit killed",
+      "Task22": "Each level 6 unit killed",
+      "Task23": "Each level 7 unit killed",
+      "Task24": "Each level 8 unit killed",
+      "Task25": "Each level 9 unit killed",
+      "Task26": "Each level 10 unit killed",
+      "Task27": "Each level 1 unit lost",
+      "Task28": "Each level 2 unit lost",
+      "Task29": "Each level 3 unit lost",
+      "Task30": "Each level 4 unit lost",
+      "Task31": "Each level 5 unit lost",
+      "Task32": "Each level 6 unit lost",
+      "Task33": "Each level 7 unit lost",
+      "Task34": "Each level 8 unit lost",
+      "Task35": "Each level 9 unit lost",
+      "Task36": "Each level 10 unit lost",
+      "Task37": "Buy a gift pack with diamonds (1 diamond)"
+    },
+    "GeneralTips": {
+      "Title": "General Tips:",
+      "Tip1": "Complete radar missions only every other day when they give points in the event (Monday, Wednesday, Friday)",
+      "Tip2": "Collect all drone combat data points and use them only on Monday",
+      "Tip3": "Leave buildings wrapped after construction and only unwrap them on Tuesday when they give points",
+      "Tip4": "Collect tickets for trading carts and missions, then use them when golden trucks and missions give points",
+      "Tip5": "Collect survivor tickets and use them on Tuesday (except for free ones)",
+      "Tip6": "Leave drone component chests in inventory and open them only on Wednesday",
+      "Tip7": "Collect all recruitment tickets and use them only on Thursday (except for free ones)",
+      "Tip8": "Collect hero fragments and skill medals and use them only on Thursday",
+      "Tip9": "Collect hero XP and use it only on Monday or Thursday",
+      "Tip10": "Collect all drone skill chips for Monday"
+    },
+    "YouTubeNote": "Note: The following YouTube videos show good examples for the VS day. Please note that they may not be entirely up-to-date. Also check for the latest changes and procedures.",
+    "Description": "On this page, you will find useful tips and tricks on how to score the maximum points in the VS Duel without spending money. Discover effective strategies and proven methods to maximize your score and succeed!"
   }
 }
