@@ -171,5 +171,87 @@
     },
     "YouTubeNote": "Remarque : Les vidéos YouTube suivantes montrent de bons exemples pour le jour VS. Notez qu'elles peuvent ne pas être entièrement à jour. Vérifiez également les dernières modifications et procédures.",
     "Description": "Sur cette page, vous trouverez des conseils et des astuces utiles pour obtenir le meilleur score possible lors du duel VS sans dépenser d'argent. Découvrez des stratégies efficaces et des méthodes éprouvées pour maximiser votre score et réussir !"
+  },
+  "DesertStorm": {
+    "Title": "Tempête du Désert",
+    "Register": {
+      "Title": "Inscription",
+      "Description1": "Tout membre d'une alliance peut demander à participer lorsque l'inscription est ouverte.",
+      "Description2": "Le nombre maximum de joueurs est de 20 par équipe, avec 10 remplaçants autorisés. Une fois les inscriptions closes, même les R4 et R5 ne peuvent plus modifier les participants. Les R4/R5 décident de la composition finale des joueurs participants.",
+      "Description3": "Ne demandez à participer à des créneaux horaires spécifiques que si vous pouvez réellement y assister, car les remplacements ne seront plus possibles par la suite. Jusqu'à 10 remplaçants peuvent être sélectionnés.",
+      "Step1": "Allez dans Événements -> <br> Champ de bataille Tempête du Désert -> <br> Sélectionnez les Participants",
+      "Step2": "Choisissez \"Demander à Combattre\"",
+      "Step3": "Nous jouons de 22h00 à 22h40 <br> Cochez la case et confirmez"
+    },
+    "Join": {
+      "Title": "Entrer sur le Champ de Bataille",
+      "Description": "Lorsque le compte à rebours de l'événement sur la page des détails de l'événement prend fin et que l'événement commence, les participants doivent entrer sur le champ de bataille à temps. Après 5 minutes supplémentaires, les remplaçants peuvent éventuellement entrer et ceux qui n'étaient pas connectés resteront dehors.",
+      "Step1": "Vous commencez le jeu avec des troupes au plus haut niveau que vous pouvez entraîner, en fonction de la capacité de vos camps d'entraînement.",
+      "Step2": "Les troupes peuvent être blessées pendant l'événement et seront envoyées dans un hôpital événementiel spécial (vous pouvez les soigner pendant l'événement si nécessaire, et si vous avez l'hôpital de campagne, la guérison sera plus rapide), mais à la fin de l'événement, les troupes blessées reviendront à leur état normal, comme si rien ne s'était passé. Utilisez donc toutes les troupes que vous avez à disposition. L'aide de l'alliance n'est pas disponible dans l'hôpital événementiel.",
+      "Step3": "Seules les troupes présentes dans votre base dans le jeu normal sont disponibles dans Tempête du Désert. Si vous en avez laissé sur les champs, il suffit de les rappeler à la base. Une fois qu'elles sont dans la base, elles seront disponibles dans DS."
+    },
+    "Goals": {
+      "Title": "Objectifs",
+      "Goal1": "Pendant l'événement, essayez de marquer autant de points d'alliance que possible pour gagner. Une bannière HUD avec un classement en temps réel vous aidera à suivre les progrès.",
+      "Goal2": "Les points d'alliance sont obtenus en capturant et en tenant des bâtiments. La première capture rapporte des points supplémentaires. Une capture n'est complète que lorsqu'une alliance a nettoyé le bâtiment des ennemis, s'ils renforcent, et après que le compte à rebours de capture de 1 minute soit terminé. À partir de ce moment-là, le rendement de capture est ajouté à la bannière de classement en temps réel.",
+      "Goal3": "Des points supplémentaires peuvent être collectés en ramassant des caisses de ravitaillement en points qui apparaissent lorsque vous capturez un bâtiment (s'il y a des points supplémentaires). Envoyez des éclaireurs pour les ramasser rapidement.",
+      "Goal4": "Les points individuels donnent des récompenses personnelles, mais l'accent doit être mis sur les points d'alliance, car les récompenses d'alliance sont meilleures que les individuelles."
+    },
+    "MostImportant": {
+      "Title": "Les Choses les Plus Importantes à Savoir",
+      "Important1": "Vous ne pouvez pas utiliser l'aide de l'alliance pour soigner vos soldats dans l'hôpital, comme vous le faites dans le jeu normal, mais vous pouvez utiliser des accélérateurs de guérison.",
+      "Important2": "Vous ne pouvez utiliser vos troupes dans le mini-jeu Tempête du Désert que si vos troupes sont dans la base sur la carte normale. Assurez-vous que vos troupes sont de retour à la base avant le début de Tempête du Désert. Si une troupe est utilisée dans le mode carte normale, elle ne sera pas disponible dans Tempête du Désert.",
+      "Important3": "Si vous manquez la phase d'inscription ou si vous n'êtes pas répertorié comme participant ou remplaçant, vous ne pouvez pas participer à la bataille de Tempête du Désert.",
+      "Important4": "Les téléportations dans Tempête du Désert sont gratuites mais limitées à une toutes les 2 minutes. Le refroidissement est indiqué dans le coin inférieur gauche de l'écran, juste au-dessus du bouton \"Héros\".",
+      "Important5": "Dans Tempête du Désert, la durabilité de votre base est de 4000 points. Après 4 coups, votre base brûle et vous serez téléporté à la zone de sécurité. Le temps de refroidissement de la téléportation ne sera pas réinitialisé dans ce cas. S'il a été utilisé, vous devrez attendre.",
+      "Important6": "La plupart des joueurs sans expérience de Tempête du Désert perdent leurs troupes en quelques minutes. Assurez-vous de lire les stratégies suivantes pour apprendre comment minimiser les pertes de troupes.",
+      "Important7": "Dans Tempête du Désert, vous ne pouvez pas déplacer librement vos troupes. Elles doivent atteindre une cible et retourner à la base avant de pouvoir être déployées sur une autre cible. Oubliez de brûler une base en quelques clics rapides avec une troupe en quelques secondes.",
+      "Important8": "Dans Tempête du Désert, lorsque la période de refroidissement de la téléportation est terminée, vous pouvez téléporter à n'importe quel endroit sur la carte, que vos troupes soient dans la base ou non. C'est un changement agréable par rapport aux règles de téléportation normales dans le jeu normal, où toutes vos troupes doivent être de retour à la base avant de téléporter. P.S. : La même règle s'applique pendant le Duel contre le Jour 6, lorsque vous téléportez vers et depuis l'autre serveur."
+    },
+    "Strategies": {
+      "Title": "Stratégies",
+      "EmptyBuilding": {
+        "Title": "Capturer un Bâtiment Vide",
+        "Description1": "La capture d'un bâtiment vide est facile : attaquez-le simplement et il est à vous.",
+        "Description2": "Après 1 minute, des points seront générés pour votre alliance (et pour vos points individuels) en fonction du rendement de capture. Si c'est la première capture, vous obtiendrez également les points de première capture."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Stratégie pour Capturer des Bâtiments Vides afin de Réduire les Pertes de Troupes",
+        "Description1": "Si vous capturez un bâtiment (mais ne recevez toujours pas les points de capture) et qu'un ennemi apparaît, vous pouvez utiliser la stratégie suivante pour gagner la bataille et réduire vos pertes de troupes (cela fonctionne bien si le QG/force de l'ennemi est égal ou inférieur au vôtre) :",
+        "Tip1": "Gardez votre troupe dans le bâtiment jusqu'à ce que l'ennemi commence l'attaque (surtout si c'est la première capture du bâtiment, où vous pouvez obtenir les points de première capture).",
+        "Tip2": "Si l'ennemi commence à attaquer le bâtiment et que vous n'avez pas encore reçu le rendement de capture (vous renforcez depuis moins d'une minute), retirez la troupe pour éviter que l'ennemi n'attaque votre troupe sur le bâtiment. Cela empêche les pertes de troupes.",
+        "Tip3": "L'ennemi a probablement envoyé son équipe A pour capturer le bâtiment, ils peuvent donc être sans défense. Souvenez-vous que s'ils veulent attaquer votre base avec cette troupe, ils doivent d'abord la renvoyer à leur base, puis l'envoyer à votre base.",
+        "Tip4": "Envoyez toutes vos troupes avec la troupe A en première position pour attaquer la base ennemie.",
+        "Tip5": "Si vous avez de la chance, l'ennemi n'aura pas de défense ou seulement des troupes faibles. Une fois l'ennemi éliminé, envoyez votre troupe pour capturer la base.",
+        "Tip6": "En utilisant des éclaireurs, vous pouvez vous assurer que les troupes que vous envoyez peuvent effectivement gagner la bataille contre la base. Envoyez des éclaireurs plusieurs fois juste avant que vos troupes n'atteignent l'ennemi pour pouvoir retirer une troupe si l'ennemi active la défense."
+      },
+      "Advantages": {
+        "Title": "Avantages :",
+        "Description1": "Vous évitez de perdre des troupes lors de la première attaque de l'ennemi, qui sera probablement une équipe A envoyée pour capturer la base.",
+        "Description2": "Si l'ennemi n'a pas de ligne de défense, vous pouvez les éliminer sans perte de troupes, surtout si vous êtes rapide et que l'ennemi est proche.",
+        "Description3": "L'ennemi ne gagne aucun point si vous êtes rapide, car il faut 1 minute pour que la capture commence."
+      },
+      "Disadvantages": {
+        "Title": "Inconvénients :",
+        "Description1": "Si l'ennemi a une forte troupe B et l'utilise pour défendre, cette stratégie peut toujours fonctionner, mais cela prendra plus de temps car vous ne pouvez les frapper qu'avec votre troupe A. Cela fonctionne mieux si vous êtes proche de l'ennemi.",
+        "Description2": "Si plusieurs ennemis apparaissent, vous pouvez être exposé à leurs attaques si vous avez envoyé votre troupe A pour attaquer l'ennemi.",
+        "Description3": "L'ennemi peut se défendre lorsque vous les frappez. Utilisez donc une troupe avec seulement un héros de bas niveau comme bonne stratégie pour réduire encore le risque de perte de troupes.",
+        "Description4": "Si c'est la première capture du bâtiment et que vous n'éliminez pas rapidement l'ennemi, ils gagneront ces points.",
+        "Description5": "N'oubliez pas que cette stratégie vise à réduire les pertes de troupes, mais vous perdez des secondes précieuses pour capturer le bâtiment. Utilisez-la donc judicieusement en tenant compte de l'état actuel de la bataille et du nombre de troupes restantes."
+      },
+      "BuildingInEnemy": {
+        "Title": "Capturer un Bâtiment Ennemi",
+        "Description1": "Si le bâtiment appartient à l'autre équipe, vous pouvez utiliser deux méthodes :",
+        "Description2": "Attaquez directement le bâtiment avec votre troupe la plus forte et essayez de vaincre toutes les troupes qui renforcent le bâtiment (similaire à la capture de village). Cette stratégie a un inconvénient majeur car vous perdrez probablement beaucoup de soldats, et après quelques captures, vous manquerez de troupes.",
+        "Description3": "Identifiez les bases ennemies où il y a des renforts et brûlez-les. Cette approche fonctionne généralement bien si les bases n'ont pas de défense. Sinon, le même problème que la méthode précédente se pose, mais vous perdrez probablement moins de soldats si l'ennemi envoie la première troupe en renfort."
+      },
+      "ShouldNotDo": {
+        "Title": "Ce Qu'il Ne Faut Pas Faire",
+        "Description1": "Dans Tempête du Désert, vos troupes sont très précieuses, vous ne devriez donc pas faire quoi que ce soit qui les mette en danger.",
+        "Description2": "Voici quelques exemples de ce qu'il ne faut pas faire car cela entraînera probablement des pertes de troupes :",
+        "Description3": "Si vous êtes attaqué par un ennemi plus faible, attendez avec votre équipe principale en défense et attaquez lorsque leur équipe principale revient, au lieu de les laisser vous brûler parce que vos troupes de défense sont sorties. N'oubliez pas que chaque attaque entraîne un certain nombre de pertes de troupes si vous retirez la formation de défense.",
+        "Description4": "N'attaquez pas des ennemis inactifs avec des troupes faibles, car ils ont le temps de construire leur défense et vous perdrez des troupes. Il est préférable de le faire lorsque les ennemis sont multitâches, car ils n'auront peut-être pas le temps de construire une défense s'ils voient que vous attaquez (cela fonctionne mieux si vous êtes proche de la base ennemie)."
+      }
+    }
   }
 }

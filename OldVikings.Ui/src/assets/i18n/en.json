@@ -171,5 +171,87 @@
     },
     "YouTubeNote": "Note: The following YouTube videos show good examples for the VS day. Please note that they may not be entirely up-to-date. Also check for the latest changes and procedures.",
     "Description": "On this page, you will find useful tips and tricks on how to score the maximum points in the VS Duel without spending money. Discover effective strategies and proven methods to maximize your score and succeed!"
+  },
+  "DesertStorm": {
+    "Title": "Desert Storm",
+    "Register": {
+      "Title": "Registration",
+      "Description1": "Any member of an alliance can request to participate when registration is open.",
+      "Description2": "The maximum number of players is 20 per team, with 10 substitutes allowed. Once registration is closed, not even R4 and R5 can change the participants. R4/R5 decide the final lineup of participating players.",
+      "Description3": "Only request to participate in specific time slots if you can actually attend, as replacements are not possible later. Up to 10 substitutes can be selected.",
+      "Step1": "Go to Events -> <br> Battlefield Desert Storm -> <br> Select Participants",
+      "Step2": "Select \"Request to Battle\"",
+      "Step3": "We play from 22:00 - 22:40 <br> Check the box and confirm"
+    },
+    "Join": {
+      "Title": "Enter the Battlefield",
+      "Description": "When the event countdown ends on the event detail page and the event starts, participants must enter the battlefield on time. After 5 more minutes, substitutes may enter, and those who were not connected will remain outside.",
+      "Step1": "You start the game with troops of the highest level you can train, matching the capacity of your training grounds.",
+      "Step2": "Troops can be injured during the event and will be sent to a special event hospital (you can heal them during the event if needed, and if you have the field hospital, healing will be faster), but at the end of the event, injured troops will return to their normal state as if nothing happened. So use all the troops available to you. Alliance help is not available in the event hospital.",
+      "Step3": "Only troops that are in your base in the normal game are available in Desert Storm. If you left any in the fields, just recall them to the base. Once they enter the base, they will be available in DS."
+    },
+    "Goals": {
+      "Title": "Goals",
+      "Goal1": "During the event, try to score as many alliance points as possible to win. A nice HUD banner with real-time rankings will help you keep track of the progress.",
+      "Goal2": "Alliance points are earned by capturing and holding buildings. The first capture gives some additional points. A capture is only complete once an alliance clears the building of enemies, if they are reinforcing, and after the 1-minute capture countdown ends. From that moment, capture yields are added to the real-time score banner.",
+      "Goal3": "Additional points can be collected by gathering point supply boxes that appear when a building is captured (if there are extra points). Send scouts to collect them quickly.",
+      "Goal4": "Individual points grant personal rewards, but the focus should be on alliance points, as the alliance rewards are better than individual ones."
+    },
+    "MostImportant": {
+      "Title": "The Most Important Things to Know",
+      "Important1": "You cannot use alliance help to heal your soldiers in the hospital as you can in the normal game, but you can use healing boosts.",
+      "Important2": "You can only use troops in the mini-game Desert Storm if your troop is in the base on the normal map. Make sure your troops are back in the base before Desert Storm starts. If a troop is used in the normal map mode, it will not be available in Desert Storm.",
+      "Important3": "If you miss the registration phase or are not listed as a participant or substitute, you cannot participate in the Desert Storm Battle.",
+      "Important4": "Teleports in Desert Storm are free but limited to 1 every 2 minutes. The cooldown is shown in the bottom left part of the screen just above the \"Heroes\" button.",
+      "Important5": "In Desert Storm, your base durability is 4000 points. After 4 hits, your base will burn, and you will be teleported back to the safe zone. The teleport cooldown does not reset in this case. If it was used, you have to wait.",
+      "Important6": "Most players without Desert Storm experience lose their troops within a few minutes. Be sure to read the following strategies to learn how to minimize troop losses.",
+      "Important7": "In Desert Storm, you cannot move your troops freely. They must reach a target and return to the base before being deployed to another target. Forget about burning a base with a few quick clicks and a troop in a few seconds.",
+      "Important8": "In Desert Storm, once the teleport cooldown is over, you can teleport anywhere on the map, regardless of whether your troops are in the base or not. This is a nice change from the normal game teleport rules, where all your troops must be back in the base before teleporting. P.S.: The same rule applies during the Duel vs Day 6, when teleporting to and from the other server."
+    },
+    "Strategies": {
+      "Title": "Strategies",
+      "EmptyBuilding": {
+        "Title": "Capture an Empty Building",
+        "Description1": "Capturing an empty building is easy: just attack it, and it's yours.",
+        "Description2": "After 1 minute, points for your alliance (and for your individual points) are generated based on the capture yield. If it's the first capture, you also get the first capture points."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Strategy to Capture Empty Buildings to Reduce Troop Losses",
+        "Description1": "If you capture a building (but still don't receive capture points) and an enemy shows up, you can use the following strategy to win the battle and reduce your troop losses (this works well if the enemy's HQ/power is similar to or lower than yours):",
+        "Tip1": "Keep your troop in the building until the enemy starts the attack (especially if it's the first building capture where you can get the initial capture points).",
+        "Tip2": "If the enemy starts attacking the building and you haven't received the capture yield yet (you are reinforcing for less than 1 minute), withdraw the troop to avoid the enemy attacking your troop on the building. This prevents troop losses.",
+        "Tip3": "The enemy likely sent their A-team to capture the building, so they might be defenseless. Remember, if they want to attack your base with that troop, they need to send it back to their base first and then send it to your base.",
+        "Tip4": "Send all your troops with troop A in the first position to attack the enemy base.",
+        "Tip5": "If you are lucky, the enemy has no defense or only weak troops. Once the enemy is eliminated, send your troop to capture the base.",
+        "Tip6": "By using scouts, you can ensure the troops you send can actually win the battle against the base. Send scouts multiple times just before your troops hit the enemy to withdraw a troop if the enemy activates defense."
+      },
+      "Advantages": {
+        "Title": "Advantages:",
+        "Description1": "You avoid losing troops in the enemy's first attack, which will likely be an A-team sent to capture the base.",
+        "Description2": "If the enemy has no defense line, you can eliminate them with zero troop losses, especially if you are quick and the enemy is nearby.",
+        "Description3": "The enemy doesn't get points if you are quick, as it takes 1 minute for the capture to start."
+      },
+      "Disadvantages": {
+        "Title": "Disadvantages:",
+        "Description1": "If the enemy has a strong B-team and uses it for defense, this strategy can work, but it will take longer as you can only hit them with your A-team. This works better if you are near the enemy.",
+        "Description2": "If multiple enemies appear, you might be vulnerable to their attacks when your A-team is sent to attack the enemy.",
+        "Description3": "The enemy might go on defense when you hit them. So using a troop with only a low-level hero might be a good strategy to further reduce the risk of troop loss.",
+        "Description4": "If it's the first capture of the building and you don't eliminate the enemy quickly enough, they get those points.",
+        "Description5": "Keep in mind that this strategy aims to reduce troop losses, but you lose valuable seconds in capturing the building. Use it wisely, considering the current battle status and the number of troops you have left."
+      },
+      "BuildingInEnemy": {
+        "Title": "Capture a Building Owned by the Enemy",
+        "Description1": "If the building belongs to the other team, you can proceed in two ways:",
+        "Description2": "Attack the building directly with your strongest troop and try to defeat all troops reinforcing the building (similar to village capture). This strategy has a serious issue as you will likely lose many soldiers and run out of troops after a few captures.",
+        "Description3": "Identify bases with reinforcements and burn them down. This approach usually works well if the bases have no defense. Otherwise, the same problem as the above approach occurs, but you will likely lose fewer soldiers if the enemy sends the first troop for reinforcement."
+      },
+      "ShouldNotDo": {
+        "Title": "What You Should Not Do",
+        "Description1": "In Desert Storm, your troops are very valuable, so you should avoid anything that puts them in danger.",
+        "Description2": "Here are some examples of what not to do, as it will most likely result in troop loss:",
+        "Description3": "If attacked by a weaker enemy, wait with your main troop in defense and then attack when their main troop returns, instead of letting them burn you because your defense troops are out. Remember, each attack causes a certain number of troop losses if you remove the defense formation.",
+        "Description4": "Don't attack idle enemies with weak troops, as they have time to build up their defense and you will lose troops. It's better to do this when enemies are multitasking, as they might not have time to build up defense if they see you attacking (works best if you are near the enemy base)."
+      }
+    }
   }
 }

@@ -171,5 +171,87 @@
     },
     "YouTubeNote": "Bemærk: De følgende YouTube-videoer viser gode eksempler på VS-dagen. Vær opmærksom på, at de måske ikke er helt opdaterede. Tjek også de nyeste ændringer og procedurer.",
     "Description": "På denne side finder du nyttige tips og tricks til, hvordan du kan score de maksimale point i VS Duel uden at bruge penge. Opdag effektive strategier og afprøvede metoder til at maksimere din score og få succes!"
+  },
+  "DesertStorm": {
+    "Title": "Ørkenstorm",
+    "Register": {
+      "Title": "Registrering",
+      "Description1": "Ethvert medlem af en alliance kan anmode om at deltage, når registreringen er åben.",
+      "Description2": "Det maksimale antal spillere er 20 pr. hold, med 10 udskiftningsspillere tilladt. Når registreringen er lukket, kan selv R4 og R5 ikke ændre deltagerne. R4/R5 beslutter den endelige opstilling af deltagende spillere.",
+      "Description3": "Anmod kun om at deltage i specifikke tidsrum, hvis du faktisk kan deltage, da det ikke er muligt med erstatninger senere. Op til 10 udskiftningsspillere kan vælges.",
+      "Step1": "Gå til Begivenheder -> <br> Slagmark Ørkenstorm -> <br> Vælg Deltagere",
+      "Step2": "Vælg \"Anmod om Kamp\"",
+      "Step3": "Vi spiller fra 22:00 - 22:40 <br> Markér boksen og bekræft"
+    },
+    "Join": {
+      "Title": "Gå ind på Slagmarken",
+      "Description": "Når nedtællingen til begivenheden slutter på begivenhedsdetaljesiden og begivenheden starter, skal deltagerne komme rettidigt ind på slagmarken. Efter yderligere 5 minutter kan udskiftningsspillere muligvis træde ind, og de, der ikke var forbundet, bliver udenfor.",
+      "Step1": "Du starter spillet med tropper på det højeste niveau, du kan træne, svarende til kapaciteten på dine træningspladser.",
+      "Step2": "Tropper kan blive såret under begivenheden og bliver sendt til et specielt event-hospital (du kan helbrede dem under begivenheden, hvis nødvendigt, og hvis du har felthospitalet, vil helbredelsen gå hurtigere), men ved begivenhedens afslutning vender de sårede tropper tilbage til deres normale tilstand, som om intet var sket. Brug derfor alle de tropper, du har til rådighed. Alliancehjælp er ikke tilgængelig i event-hospitalet.",
+      "Step3": "Kun tropper, der er i din base i det normale spil, er tilgængelige i Ørkenstorm. Hvis du har efterladt nogen på markerne, skal du bare kalde dem tilbage til basen. Når de er kommet ind i basen, vil de være tilgængelige i DS."
+    },
+    "Goals": {
+      "Title": "Mål",
+      "Goal1": "Under begivenheden skal du forsøge at score så mange alliancemål som muligt for at vinde. Et flot HUD-banner med realtidsrangering vil hjælpe dig med at holde styr på fremgangen.",
+      "Goal2": "Alliancemål opnås ved at erobre og holde bygninger. Den første erobring giver nogle ekstra point. En erobring er kun fuldendt, når en alliance har ryddet bygningen for fjender, hvis de forstærker, og efter at 1-minuts erobringsnedtællingen er slut. Fra det øjeblik tilføjes erobringsudbyttet til realtids-vurderingsbanneret.",
+      "Goal3": "Ekstra point kan samles ved at indsamle points forsyningskasser, der vises, når en bygning er erobret (hvis der er ekstra point). Send spejdere for hurtigt at indsamle dem.",
+      "Goal4": "Individuelle point giver personlige belønninger, men fokus bør være på alliancemål, da alliancebelønninger er bedre end individuelle."
+    },
+    "MostImportant": {
+      "Title": "Det Vigtigste at Vide",
+      "Important1": "Du kan ikke bruge alliancehjælp til at helbrede dine soldater i hospitalet, som du kan i det normale spil, men du kan bruge helbredelsesfremskyndelser.",
+      "Important2": "Du kan kun bruge tropper i mini-spillet Ørkenstorm, hvis din troppe er i basen på det normale kort. Sørg for, at dine tropper er tilbage i basen, før Ørkenstorm starter. Hvis en troppe bruges i det normale korttilstand, vil den grundlæggende ikke være tilgængelig i Ørkenstorm.",
+      "Important3": "Hvis du går glip af registreringsfasen eller ikke er opført som deltager eller udskiftningsdeltager, kan du ikke deltage i Ørkenstorm Slaget.",
+      "Important4": "Teleporteringer i Ørkenstorm er gratis, men begrænset til 1 hvert 2. minut. Nedkølingen vises i nederste venstre del af skærmen lige over knappen \"Helte\".",
+      "Important5": "I Ørkenstorm er din bases holdbarhed 4000 point. Efter 4 hits brænder din base, og du vil blive teleporteret tilbage til den sikre zone. Nedkølingen for teleportering nulstilles ikke i dette tilfælde. Hvis den blev brugt, skal du vente.",
+      "Important6": "De fleste spillere uden Ørkenstorm-erfaring mister deres tropper inden for få minutter. Sørg for at læse følgende strategier for at lære, hvordan du minimerer troppetab.",
+      "Important7": "I Ørkenstorm kan du ikke bevæge dine tropper frit. De skal nå et mål og vende tilbage til basen, før de kan indsættes til et andet mål. Glem alt om at brænde en base med et par hurtige klik og en troppe på få sekunder.",
+      "Important8": "I Ørkenstorm, når teleport nedkølingsperioden er slut, kan du teleportere til et hvilket som helst sted på kortet, uanset om dine tropper er i basen eller ej. Dette er en rar ændring fra de normale teleportregler i det normale spil, hvor alle dine tropper skal være tilbage i basen før teleportering. P.S.: Den samme regel gælder under Duellen mod Dag 6, når du teleportere til og fra den anden server."
+    },
+    "Strategies": {
+      "Title": "Strategier",
+      "EmptyBuilding": {
+        "Title": "Erobr en Tom Bygning",
+        "Description1": "Erobringen af en tom bygning er nem: bare angrib den, og den er din.",
+        "Description2": "Efter 1 minut genereres der point for din alliance (og for dine individuelle point) baseret på erobringsudbyttet. Hvis det er den første erobring, får du også de første erobringspoint."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Strategi til at Erobr Tomme Bygninger for at Reducere Troppetab",
+        "Description1": "Hvis du erobrer en bygning (men stadig ikke modtager erobringspoint) og en fjende dukker op, kan du bruge følgende strategi til at vinde slaget og reducere dine troppetab (dette fungerer godt, hvis fjendens HQ/styrke er lig din eller lavere end din):",
+        "Tip1": "Hold din troppe i bygningen, indtil fjenden starter angrebet (især hvis det er den første bygningserobring, hvor du kan få de indledende erobringspoint).",
+        "Tip2": "Hvis fjenden begynder at angribe bygningen, og du endnu ikke har modtaget erobringsudbyttet (du forstærker mindre end 1 minut), skal du trække truppen tilbage for at undgå, at fjenden angriber din troppe på bygningen. Dette forhindrer troppetab.",
+        "Tip3": "Fjenden har sandsynligvis sendt deres A-hold for at erobre bygningen, så de kan være forsvarsløse. Husk, at hvis de vil angribe din base med den troppe, skal de først sende den tilbage til deres base og derefter sende den til din base.",
+        "Tip4": "Send alle dine tropper med troppe A i første position for at angribe fjendens base.",
+        "Tip5": "Hvis du er heldig, har fjenden ingen forsvar eller kun svage tropper. Når fjenden er elimineret, skal du sende din troppe for at erobre basen.",
+        "Tip6": "Ved at bruge spejdere kan du sikre, at de tropper, du sender, faktisk kan vinde slaget mod basen. Send spejdere flere gange lige før dine tropper rammer fjenden for at kunne trække en troppe tilbage, hvis fjenden aktiverer forsvar."
+      },
+      "Advantages": {
+        "Title": "Fordele:",
+        "Description1": "Du undgår at miste tropper i fjendens første angreb, som sandsynligvis vil være et A-hold sendt for at erobre basen.",
+        "Description2": "Hvis fjenden ingen forsvarslinje har, kan du eliminere dem med nul troppetab, især hvis du er hurtig og fjenden er tæt på.",
+        "Description3": "Fjenden får ingen point, hvis du er hurtig, da det tager 1 minut for erobringen at starte."
+      },
+      "Disadvantages": {
+        "Title": "Ulemper:",
+        "Description1": "Hvis fjenden har en stærk B-troppe og bruger den til forsvar, kan denne strategi stadig fungere, men det vil tage længere tid, da du kun kan ramme dem med din A-troppe. Dette fungerer bedre, hvis du er tæt på fjenden.",
+        "Description2": "Hvis flere fjender dukker op, kan du blive udsat for deres angreb, hvis du har sendt din A-troppe for at angribe fjenden.",
+        "Description3": "Fjenden kan gå i forsvar, når du rammer dem. Brug derfor en troppe med kun en lav-niveau helt som en god strategi til yderligere at reducere risikoen for troppetab.",
+        "Description4": "Hvis det er den første erobring af bygningen, og du ikke hurtigt nok eliminerer fjenden, får de disse point.",
+        "Description5": "Husk, at denne strategi sigter mod at reducere troppetab, men du mister værdifulde sekunder på bygningserobring. Brug den derfor med omtanke og med hensyn til den aktuelle kampstatus og antallet af tilbageværende tropper."
+      },
+      "BuildingInEnemy": {
+        "Title": "Erobr en Fjendtlig Bygning",
+        "Description1": "Hvis bygningen tilhører det andet hold, kan du gribe til to metoder:",
+        "Description2": "Angrib bygningen direkte med din stærkeste troppe og forsøg at besejre alle de tropper, der forstærker bygningen (svarende til landsbyerobring). Denne strategi har en alvorlig ulempe, da du sandsynligvis vil miste mange soldater, og efter et par erobringer vil du løbe tør for tropper.",
+        "Description3": "Identificer fjendtlige baser, hvor der er forstærkninger, og brænd dem ned. Denne tilgang fungerer normalt godt, hvis baserne ikke har forsvar. Ellers opstår det samme problem som ved den ovenstående metode, men du vil sandsynligvis miste færre soldater, hvis fjenden sender den første troppe til forstærkning."
+      },
+      "ShouldNotDo": {
+        "Title": "Hvad Du Ikke Skal Gøre",
+        "Description1": "I Ørkenstorm er dine tropper meget værdifulde, så du bør ikke gøre noget, der sætter dem i fare.",
+        "Description2": "Her er nogle eksempler på, hvad du ikke skal gøre, da det sandsynligvis vil føre til troppetab:",
+        "Description3": "Hvis du bliver angrebet af en svagere fjende, så vent med dit hovedhold i forsvaret og angrib, når deres hovedhold vender tilbage, i stedet for at lade dem brænde dig, fordi dine forsvarstropper er ude. Husk, at hvert angreb medfører et bestemt antal troppetab, hvis du fjerner forsvarsformationen.",
+        "Description4": "Angrib ikke inaktive fjender med svage tropper, da de har tid til at opbygge deres forsvar, og du vil miste tropper. Det er bedre at gøre dette, når fjenderne multitasker, da de måske ikke har tid til at opbygge forsvar, hvis de ser, at du angriber (fungerer bedst, hvis du er tæt på fjendens base)."
+      }
+    }
   }
 }

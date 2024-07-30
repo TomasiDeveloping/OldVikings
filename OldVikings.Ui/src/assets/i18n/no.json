@@ -171,5 +171,87 @@
     },
     "YouTubeNote": "Merk: De følgende YouTube-videoene viser gode eksempler på VS-dagen. Vær oppmerksom på at de kanskje ikke er helt oppdaterte. Sjekk også de nyeste endringene og prosedyrene.",
     "Description": "På denne siden finner du nyttige tips og triks for hvordan du kan samle flest mulig poeng i VS-duellen uten å måtte bruke penger. Oppdag effektive strategier og velprøvde metoder for å maksimere poengsummen din og bli vellykket!"
+  },
+  "DesertStorm": {
+    "Title": "Desert Storm",
+    "Register": {
+      "Title": "Registrering",
+      "Description1": "Hvert medlem av en allianse kan sende inn en forespørsel om deltakelse når registreringen er åpen.",
+      "Description2": "Maksimalt antall spillere per lag er 20, med opptil 10 reserver. Når registreringen er stengt, kan ikke engang R4 og R5 endre deltakerne. R4/R5 bestemmer den endelige oppstillingen av deltakerne.",
+      "Description3": "Søk om deltakelse for de spesifikke tidsrommene bare hvis du faktisk kan delta, da etterfølgende substitusjoner ikke er mulige. Maksimalt 10 reserver kan velges.",
+      "Step1": "Gå til Hendelser -> <br> Desert Storm Slagmark -> <br> Velg Deltakere",
+      "Step2": "Velg \"Angrepsforespørsel\"",
+      "Step3": "Vi spiller alltid fra 22:00 til 22:40 <br> Kryss av i boksen og bekreft"
+    },
+    "Join": {
+      "Title": "Betre Vinduet",
+      "Description": "Når nedtellingen for arrangementet på arrangementdetaljsiden er ferdig og arrangementet begynner, må deltakerne bettre på slagmarken til rett tid. Etter ytterligere 5 minutter kan eventuelle reserver komme inn, og de som ikke var tilkoblet forblir utenfor.",
+      "Step1": "Start spillet med tropper på det høyeste nivået du kan trene, og med en styrke som samsvarer med kapasiteten til ditt treningsområde.",
+      "Step2": "Tropper kan bli skadet under arrangementet og sendes til et spesialarrangement-sykehus (du kan helbrede dem under arrangementet hvis du trenger det, og hvis du har felt-sykehuset, vil helbredelsen bli akselerert), men ved slutten av arrangementet vil de skadede troppene returnere til sin normale tilstand, som om ingenting hadde skjedd. Bruk derfor alle troppene som er tilgjengelige for deg. Alliansehjelp er dessverre ikke tilgjengelig på arrangement-sykehuset.",
+      "Step3": "I Desert Storm er det bare tropper som befinner seg i basen på den normale kartet som er tilgjengelige. Hvis du har forlatt noen på feltene, kall dem bare tilbake til basen. Når de kommer inn i basen, er de tilgjengelige i DS."
+    },
+    "Goals": {
+      "Title": "Mål",
+      "Goal1": "Under arrangementet må du forsøke å samle så mange alliansepoeng som mulig for å vinne arrangementet. Et fint HUD-banner med en sanntids rangering hjelper deg med å holde oversikt over fremdriften.",
+      "Goal2": "Alliansepoeng oppnås ved å erobre og holde bygninger. Ved første erobring får du også noen ekstra poeng. En erobring er først fullført når en allianse har frigjort bygningen fra fiender, hvis de sender forsterkninger, og etter at erobringsnedtellingen på 1 minutt er utløpt. Fra dette øyeblikket vil erobringsinntektene legges til sanntidsscorebanneret.",
+      "Goal3": "Ekstra poeng kan samles ved å samle poeng-lagerkasser som vises når en bygning er erobret (hvis det er ekstra poeng). Send ut speidere for å plukke dem opp raskt.",
+      "Goal4": "Individuelle poeng gir personlige belønninger, men fokuset bør være på alliansepoengene, da alliansebelønningene er bedre enn de individuelle."
+    },
+    "MostImportant": {
+      "Title": "Det Viktigste å Vite",
+      "Important1": "Du kan ikke bruke alliansehjelp til å helbrede soldatene dine på sykehuset, som du er vant til i det normale spillet, men du kan bruke helbredelsesforsterkere.",
+      "Important2": "Du kan kun bruke tropper i minispillet Desert Storm hvis de befinner seg i basen på det normale kartet. Sørg for at tropper er tilbake i basen før Desert Storm begynner. Hvis en tropp brukes i normal kortmodus, er den i prinsippet ikke tilgjengelig i Desert Storm.",
+      "Important3": "Hvis du går glipp av registreringsfasen eller ikke blir registrert som deltaker eller reserve, er det ikke mulig å delta i Desert Storm Battle.",
+      "Important4": "Teleportasjoner i Desert Storm er gratis, men begrenset til 1 hver 2. minutt. Nedkjølingstiden vises i nederste venstre hjørne av skjermen, rett over 'Helter'-knappen.",
+      "Important5": "I Desert Storm har basen din en holdbarhet på 4000 poeng. Etter 4 treff er basen din brent, og du blir teleportert tilbake til den sikre sonen. Nedkjølingstiden for teleportering tilbakestilles ikke i dette tilfellet. Når det er gjort, må du vente.",
+      "Important6": "De fleste som ikke har erfaring med Desert Storm, vil ha ingen tropper igjen etter noen minutter. Les absolutt de følgende strategiene for å lære hvordan du kan begrense tapet av tropper.",
+      "Important7": "I Desert Storm kan du ikke flytte troppene dine fritt. De må oppnå et mål og returnere til basen før de kan brukes mot et annet mål. Glem derfor å brenne ned en base med noen raske klikk og en tropp på noen sekunder.",
+      "Important8": "I Desert Storm kan du, når nedkjølingsfasen for teleportasjonen er over, teleportere til hvor som helst på kartet, uavhengig av om troppene dine er i basen eller ikke. Dette er en fin avveksling fra de normale teleportasjonsreglene i det vanlige spillet, hvor alle troppene dine må være tilbake i basen før du kan teleportere. P.S.: Den samme regelen gjelder under kampen mot Dag 6, når du teleporterer til og fra den andre serveren."
+    },
+    "Strategies": {
+      "Title": "Strategier",
+      "EmptyBuilding": {
+        "Title": "Erobre et Tomt Bygg",
+        "Description1": "Å erobre et tomt bygg er veldig enkelt: Angrip det bare, så er det ditt.",
+        "Description2": "Etter 1 minutt blir poeng for din allianse (og for dine individuelle poeng) generert basert på erobringsinntekten. Hvis det er første erobring, vil du også få poeng for første erobring."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Strategi for å Erobre Tomme Bygg for å Redusere Tap av Tropper",
+        "Description1": "Når du erobrer et bygg (men ikke får erobringspoeng) og en fiende dukker opp, kan du bruke følgende strategi for å vinne slaget og redusere troppstap (dette fungerer godt hvis fiendens hovedkvarter/makt er lik eller lavere enn din egen):",
+        "Tip1": "Hold troppen din i bygget til fienden starter angrepet (spesielt hvis det er første erobring, hvor du kan få de første erobringspoengene).",
+        "Tip2": "Hvis fienden starter angrepet på bygget og du ennå ikke har fått erobringsinntektene (du styrker altså mindre enn 1 minutt), trekk troppen tilbake og unngå at fienden angriper troppen din i bygget. Dette unngår tap av tropper.",
+        "Tip3": "Sannsynligvis har fienden sendt sitt beste lag for å erobre bygget, så han kan være ubeskyttet. Husk at hvis han vil angripe basen din med denne troppen, må han først sende dem tilbake til sin egen base og deretter til din base.",
+        "Tip4": "Send alle troppene dine med tropp A i første posisjon for å angripe fiendens base.",
+        "Tip5": "Hvis du er heldig, har fienden ingen forsvar eller bare svake tropper. Når fienden er slått ut, sender du troppen din for å erobre basen.",
+        "Tip6": "Bruk speidere for å sikre at troppene du sender, faktisk kan vinne kampen mot basen. Send speidere flere ganger rett før troppene dine møter fienden, slik at du kan trekke en tropp tilbake hvis fienden aktiverer forsvar."
+      },
+      "Advantages": {
+        "Title": "Fordeler:",
+        "Description1": "Du unngår tap av tropper ved første angrep fra fienden, som sannsynligvis sender et A-lag for å erobre basen.",
+        "Description2": "Hvis fienden ikke har en forsvarslinje, kan du slå dem ut med 0 troppstap, spesielt hvis du er rask og fienden er nær deg.",
+        "Description3": "Motstanderen får ingen poeng hvis du er rask, da det tar 1 minutt før erobringen begynner."
+      },
+      "Disadvantages": {
+        "Title": "Ulemper:",
+        "Description1": "Hvis fienden har en sterk B-tropp og bruker den til forsvar, kan denne strategien fungere, men det tar lengre tid, da du bare kan treffe fienden med ditt A-lag. Dette fungerer bedre hvis du er nær fienden.",
+        "Description2": "Hvis flere fiender dukker opp, kan du være utsatt for deres angrep hvis du har sendt A-troppen din for å angripe fienden.",
+        "Description3": "Fienden kan gå i forsvar i det øyeblikket du angriper. Bruk derfor en tropp med bare en lavnivåhelt som en god strategi for å redusere risikoen for tap av tropper ytterligere.",
+        "Description4": "Hvis det er første erobring av bygningen og du ikke slår fienden ut raskt nok, får de poengene.",
+        "Description5": "Husk at denne strategien er ment å redusere tapet av tropper, men du vil samtidig miste verdifulle sekunder på å erobre bygningen. Bruk derfor strategien med omhu og vurder den aktuelle kampstatusen og antall gjenværende tropper."
+      },
+      "BuildingInEnemy": {
+        "Title": "Erobre en Bygg i Fiendens Besittelse",
+        "Description1": "Hvis bygningen tilhører det andre laget, kan du gå frem på to måter:",
+        "Description2": "Angrip bygningen direkte med din sterkeste tropp og prøv å beseire alle troppene som forsterker bygningen (ligner på erobring av landsbyer). Denne strategien har et alvorlig problem, da du sannsynligvis vil miste mange soldater og gå tom for tropper etter noen erobringer.",
+        "Description3": "Identifiser fiendens basisposter med forsterkninger og brenn dem ned. Denne tilnærmingen fungerer vanligvis godt hvis basispostene ikke har forsvar. Ellers vil det være det samme problemet som ved den ovennevnte tilnærmingen, men du vil sannsynligvis miste færre soldater hvis fienden sender den første troppen for forsterkninger."
+      },
+      "ShouldNotDo": {
+        "Title": "Hva Du Ikke Skal Gjøre",
+        "Description1": "I Desert Storm er troppene dine svært verdifulle, så du bør ikke gjøre noe som setter dem i fare.",
+        "Description2": "Her er noen eksempler på hva du ikke bør gjøre, da dette sannsynligvis vil føre til tap av tropper:",
+        "Description3": "Hvis du blir angrepet av en svakere fiende, vent med hovedtroppen din i forsvar og angripe når hans hovedtropp returnerer, i stedet for å tillate at han brenner deg fordi forsvarstroppene dine er ute. Husk at du ved hvert angrep mister et visst antall tropper hvis du fjerner forsvarsoppsettet.",
+        "Description4": "Angrip ikke inaktive fiender med svake tropper, da de har tid til å bygge opp forsvar, og du vil miste tropper. Det er bedre å gjøre dette når fiender gjør flere ting, da de kanskje ikke har tid til å bygge opp forsvar når de ser at du angriper (virker best hvis du er nær fiendens base)."
+      }
+    }
   }
 }

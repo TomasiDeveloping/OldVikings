@@ -171,5 +171,87 @@
     },
     "YouTubeNote": "Hinweis: Die folgenden YouTube-Videos zeigen gute Beispiele für den VS-Tag. Beachte jedoch, dass sie möglicherweise nicht ganz aktuell sind. Informiere dich zusätzlich über die neuesten Änderungen und Verfahren.",
     "Description": "Auf dieser Seite findet ihr nützliche Tipps und Tricks, wie ihr beim VS-Duell möglichst viele Punkte sammeln könnt, ohne dabei Geld investieren zu müssen. Entdeckt effektive Strategien und bewährte Methoden, um eure Punktzahl zu maximieren und erfolgreich zu sein!"
+  },
+  "DesertStorm": {
+    "Title": "Wüstensturm",
+    "Register": {
+      "Title": "Anmeldung",
+      "Description1": "Jedes Mitglied einer Allianz kann eine Teilnahmeanfrage stellen, wenn die Anmeldung geöffnet ist.",
+      "Description2": "Die maximale Spielerzahl beträgt 20 pro Team, es sind 10 Ersatzspieler möglich. Sobald die Anmeldungen geschlossen sind, können nicht einmal R4 und R5 die Teilnehmer ändern. R4/R5 entscheiden über die endgültige Aufstellung der teilnehmenden Spieler.",
+      "Description3": "Beantragen Sie die Teilnahme für die einzelnen Zeitbereiche nur, wenn Sie tatsächlich teilnehmen können, da eine nachträgliche Vertretung für Sie nicht möglich ist, es können maximal 10 Ersatzpersonen ausgewählt werden.",
+      "Step1": "Gehe zu Events -> <br>  Schlachtfeld Wüstensturm -> <br> Teilnehmer auswählen",
+      "Step2": "Wähle \"Antrag zum Kampf\"",
+      "Step3": "Wir Spielen immer um 22:00 - 22:40 Uhr <br> Setze die Checkbox und Bestätigen"
+    },
+    "Join": {
+      "Title": "Das Schlachtfeld betreten",
+      "Description": "Wenn der Event-Countdown auf der Event-Detailseite endet und das Event beginnt, müssen die Teilnehmer pünktlich das Schlachtfeld betreten, nach weiteren 5 Minuten können ggf. die Ersatzspieler eintreten und diejenigen, die nicht verbunden waren, bleiben draußen.",
+      "Step1": "Sie beginnen das Spiel mit Truppen des höchsten Levels, das Sie ausbilden können, und mit einer Stärke, die der Kapazität Ihres Übungsgeländes entspricht.",
+      "Step2": "Truppen können während des Events verletzt werden und werden in ein spezielles Event-Krankenhaus gebracht (Sie können sie während des Events heilen, wenn Sie es brauchen, und wenn Sie das Feldlazarett haben, wird die Heilung beschleunigt), aber am Ende des Events kehren die verletzten Truppen in ihren Normalzustand zurück, als wäre nichts geschehen. Nutzen Sie also alle Truppen, die Ihnen zur Verfügung stehen. Die Allianzhilfe ist im Event-Krankenhaus leider nicht verfügbar.",
+      "Step3": "In Desert Storm sind nur Trupps verfügbar, die sich im normalen Spiel in der Basis befinden. Wenn Sie welche auf den Feldern zurückgelassen haben, rufen Sie sie einfach zur Basis zurück. Sobald sie die Basis betreten, sind sie in DS verfügbar."
+    },
+    "Goals": {
+      "Title": "Ziele",
+      "Goal1": "Während des Events müssen Sie versuchen, so viele Allianzpunkte wie möglich zu erzielen, um das Event zu gewinnen. Ein schönes HUD-Banner mit Echtzeit-Rangliste hilft Ihnen dabei, den Fortschritt im Auge zu behalten.",
+      "Goal2": "Allianzpunkte erhält man, indem man Gebäude erobert und in Besitz hält. Bei der ersten Eroberung gibt es einige zusätzliche Punkte. Eine Eroberung ist erst abgeschlossen, wenn eine Allianz das Gebäude von Feinden befreit hat, falls diese Verstärkung leisten, und nachdem der Eroberungs-Countdown von 1 Minute abgelaufen ist. Ab diesem Moment werden die Eroberungserträge dem Echtzeit-Wertungsbanner hinzugefügt.",
+      "Goal3": "Zusätzliche Punkte können durch das Sammeln der Punkte-Vorratsboxen gesammelt werden, die erscheinen, wenn ein Gebäude erobert wird (wenn es zusätzliche Punkte gibt). Schicken Sie Späher aus, um sie schnell einzusammeln.",
+      "Goal4": "Stattdessen werden einzelne Punkte individuelle Belohnungen gewähren, der Schwerpunkt sollte jedoch auf den Allianzpunkten liegen, da die Allianzbelohnungen besser sind als die individuellen."
+    },
+    "MostImportant": {
+      "Title": "Das Wichtigste, was Sie wissen sollten",
+      "Important1": "Sie können die Hilfe der Allianz nicht nutzen, um Ihre Soldaten im Krankenhaus zu heilen, wie Sie es im normalen Spiel gewohnt sind, aber Sie können Heilungsbeschleunigungen nutzen",
+      "Important2": "Sie können Trupps im Minispiel Desert Storm nur verwenden, wenn sich Ihr Trupp in der Basis auf der normalen Karte befindet. Stellen Sie also sicher, dass Ihre Trupps vor Beginn von Desert Storm wieder in der Basis sind. Wenn ein Trupp im normalen Kartenmodus verwendet wird, ist er in Desert Storm grundsätzlich nicht verfügbar.",
+      "Important3": "Solltet ihr die Anmeldephase versäumen oder nicht als Teilnehmer bzw. Ersatzteilnehmer eingetragen werden, ist eine Teilnahme an der Desert Storm Battle nicht möglich",
+      "Important4": "Teleports im Desert Storm sind kostenlos, aber auf 1 alle 2 Minuten begrenzt. Die Abklingzeit wird im linken unteren Teil des Bildschirms direkt über der Schaltfläche „Helden“ angezeigt.",
+      "Important5": "In Desert Storm beträgt die Haltbarkeit Ihrer Basis 4000 Punkte. Nach 4 Treffern ist Ihre Basis verbrannt und Sie werden zurück in die sichere Zone teleportiert. Die Abklingzeit für das Teleportieren wird in diesem Fall nicht zurückgesetzt. Wenn sie also ausgeführt wurde, müssen Sie warten",
+      "Important6": "Meistens haben Leute, die keine Erfahrung mit Desert Storm haben, nach ein paar Minuten keine Truppen mehr. Lesen Sie unbedingt die folgenden Strategien, um zu erfahren, wie Sie Ihren Truppenverlust begrenzen können.",
+      "Important7": "In Desert Storm können Sie Ihre Trupps nicht frei bewegen. Sie müssen ein Ziel erreichen und zur Basis zurückkehren, bevor sie gegen ein anderes Ziel eingesetzt werden können. Vergessen Sie also das Niederbrennen einer Basis mit ein paar schnellen Klicks und einem Trupp in wenigen Sekunden.",
+      "Important8": "In Desert Storm können Sie sich, wenn die Abkühlphase des Teleports abgelaufen ist, zu jedem beliebigen Ort auf der Karte teleportieren, unabhängig davon, ob Ihre Trupps in der Basis sind oder nicht. Das ist eine nette Abwechslung zu den normalen Teleportregeln im normalen Spiel, bei denen alle Ihre Trupps vor dem Teleportieren wieder in Ihrer Basis sein müssen. P.S.: Die gleiche Regel gilt während des Duells gegen Tag 6, wenn Sie sich zum und vom anderen Server teleportieren."
+    },
+    "Strategies": {
+      "Title": "Strategien",
+      "EmptyBuilding": {
+        "Title": "Erobere ein leeres Gebäude",
+        "Description1": "Die Eroberung eines leeren Gebäudes ist ganz einfach: Greifen Sie es einfach an, und es gehört Ihnen.",
+        "Description2": "Nach 1 Minute werden basierend auf der Eroberungsausbeute Punkte für Ihre Allianz (und für Ihre Einzelpunkte) generiert. Wenn es sich um die erste Eroberung handelt, erhalten Sie auch die Punkte für die erste Eroberung."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Strategie zur Eroberung leerer Gebäude zur Reduzierung des Truppenverlusts",
+        "Description1": "Wenn Sie ein Gebäude erobern (aber trotzdem keine Eroberungspunkte erhalten) und ein Feind auftaucht, können Sie die folgende Strategie verwenden, um die Schlacht zu gewinnen und Ihre Truppenverluste zu verringern (dies funktioniert gut, wenn das Hauptquartier/die Macht des Feindes ähnlich oder niedriger ist als Ihres):",
+        "Tip1": "Behalten Sie Ihren Trupp im Gebäude, bis der Feind den Angriff startet (insbesondere, wenn es sich um die erste Gebäudeeroberung handelt, bei der Sie die anfänglichen Eroberungspunkte erhalten können).",
+        "Tip2": "Wenn der Feind einen Angriff auf das Gebäude beginnt und Sie noch nicht die Eroberungsausbeute erzielt haben (Sie verstärken also weniger als 1 Minute lang), ziehen Sie den Trupp zurück und vermeiden Sie, dass der Feind Ihren Trupp auf dem Gebäude angreift. So vermeiden Sie Truppenverluste.",
+        "Tip3": "Höchstwahrscheinlich hat der Feind sein A-Team geschickt, um das Gebäude einzunehmen, sodass er schutzlos sein könnte. Denken Sie daran, dass er, wenn er Ihre Basis mit diesem Trupp angreifen will, ihn zuerst zu seiner Basis zurückschicken muss und ihn dann zu Ihrer Basis schicken muss.",
+        "Tip4": "Schicken Sie alle Ihre Truppen mit Trupp A in erster Position zum Angriff auf die feindliche Basis.",
+        "Tip5": "Wenn Sie Glück haben, hat der Feind keine Verteidigung oder nur schwache Trupps. Sobald der Feind ausgeschaltet ist, schicken Sie Ihren Trupp zur Eroberung der Basis.",
+        "Tip6": "Wenn Sie Scouts verwenden, können Sie sicherstellen, dass die von Ihnen gesendeten Trupps den Kampf gegen die Basis tatsächlich gewinnen können. Senden Sie Scouts mehrmals kurz bevor Ihre Trupps den Feind treffen, um einen Trupp zurückziehen zu können, wenn der Feind die Verteidigung aktiviert."
+      },
+      "Advantages": {
+        "Title": "Vorteile:",
+        "Description1": "Sie vermeiden den Verlust von Truppen beim ersten Angriff des Feindes, der höchstwahrscheinlich ein A-Team zur Eroberung der Basis schicken wird",
+        "Description2": "Wenn der Feind keine Verteidigungslinie hat, können Sie ihn mit 0 Truppenverlusten ausschalten, insbesondere wenn Sie schnell sind und der Feind in Ihrer Nähe ist",
+        "Description3": "Der Gegner erhält keine Punkte, wenn Sie schnell sind, da es 1 Minute dauert, bis die Eroberung beginnt."
+      },
+      "Disadvantages": {
+        "Title": "Nachteile:",
+        "Description1": "Wenn der Feind einen starken B-Trupp hat und diesen zur Verteidigung einsetzt, könnte diese Strategie funktionieren, aber sie dauert länger, da Sie ihn nur mit Ihrem A-Trupp treffen können. Dies würde besser funktionieren, wenn Sie sich in der Nähe des Feindes befinden",
+        "Description2": "Wenn mehrere Feinde auftauchen, sind Sie möglicherweise deren Angriffen ausgesetzt, wenn Sie Ihren A-Trupp zum Angriff auf den Feind geschickt haben.",
+        "Description3": "Der Feind könnte in dem Moment, in dem Sie ihn treffen, in die Verteidigung gehen. Daher könnte die Verwendung eines Trupps mit nur einem Helden auf niedrigem Level eine gute Strategie sein, um das Risiko eines Truppenverlusts noch weiter zu verringern.",
+        "Description4": "Wenn es sich um die erste Eroberung des Gebäudes handelt und Sie den Feind nicht schnell genug ausschalten, erhält er diese Punkte",
+        "Description5": "Bedenken Sie, dass diese Strategie darauf abzielt, den Truppenverlust zu verringern, Sie dadurch aber gleichzeitig wertvolle Sekunden bei der Gebäudeeroberung verlieren. Setzen Sie sie daher mit Bedacht ein und berücksichtigen Sie dabei den aktuellen Kampfstatus und die Anzahl der Ihnen verbleibenden Truppen,"
+      },
+      "BuildingInEnemy": {
+        "Title": "Erobern Sie ein Gebäude im Besitz des Feindes",
+        "Description1": "Wenn das Gebäude dem anderen Team gehört, können Sie auf zwei Arten vorgehen:",
+        "Description2": "Greife das Gebäude direkt mit deinem stärksten Trupp an und versuche, alle Trupps zu besiegen, die das Gebäude verstärken (ähnlich wie bei der Dorferoberung). Diese Strategie hat ein ernstes Problem, da du höchstwahrscheinlich viele Soldaten verlieren wirst und dir nach ein paar Eroberungen die Truppen ausgehen werden.",
+        "Description3": "Identifizieren Sie Stützpunkte, in denen sich Verstärkungen befinden, und brennen Sie diese nieder. Dieser Ansatz funktioniert normalerweise gut, wenn die Stützpunkte keine Verteidigung haben. Andernfalls besteht das gleiche Problem wie beim obigen Ansatz, aber Sie verlieren wahrscheinlich weniger Soldaten, wenn der Feind den ersten Trupp zur Verstärkung schickt."
+      },
+      "ShouldNotDo": {
+        "Title": "Was Sie nicht tun sollten",
+        "Description1": "In Desert Storm sind Ihre Truppen sehr wertvoll, daher sollten Sie nichts tun, was sie in Gefahr bringt.",
+        "Description2": "Hier einige Beispiele dafür, was Sie nicht tun sollten, da dies höchstwahrscheinlich zu einem Truppenverlust führen wird:",
+        "Description3": "Wenn Sie von einem schwächeren Feind angegriffen werden, warten Sie mit dem Haupttrupp in der Verteidigung und greifen Sie dann an, wenn sein Haupttrupp zurückkehrt, anstatt zuzulassen, dass er Sie niederbrennt, weil Ihre Verteidigungstrupps draußen sind. Denken Sie daran, dass Sie bei jedem Angriff eine bestimmte Anzahl Truppen verlieren, wenn Sie die Verteidigungsaufstellung entfernen.",
+        "Description4": "Greifen Sie untätige Feinde nicht mit schwachen Trupps an, denn sie haben Zeit, ihre Verteidigung aufzubauen, und Sie verlieren Truppen. Es ist besser, dies zu tun, wenn Feinde mehrere Dinge tun, da sie möglicherweise keine Zeit haben, die Verteidigung aufzubauen, wenn sie sehen, dass Sie angreifen (funktioniert am besten, wenn Sie sich in der Nähe der feindlichen Basis befinden)."
+      }
+    }
   }
 }

@@ -171,5 +171,87 @@
     },
     "YouTubeNote": "Opmerking: De volgende YouTube-video's tonen goede voorbeelden van de VS-dag. Houd er echter rekening mee dat ze mogelijk niet helemaal up-to-date zijn. Informeer ook over de nieuwste wijzigingen en procedures.",
     "Description": "Op deze pagina vind je nuttige tips en trucs om zoveel mogelijk punten te verzamelen tijdens de VS-dag, zonder geld te investeren. Ontdek effectieve strategieën en bewezen methoden om je score te maximaliseren en succesvol te zijn!"
+  },
+  "DesertStorm": {
+    "Title": "Desert Storm",
+    "Register": {
+      "Title": "Registratie",
+      "Description1": "Elk lid van een alliantie kan een deelnameverzoek indienen wanneer de registratie open is.",
+      "Description2": "Het maximale aantal spelers per team is 20, met maximaal 10 reservespelers. Zodra de registraties gesloten zijn, kunnen zelfs R4 en R5 de deelnemers niet meer wijzigen. R4/R5 beslissen over de definitieve samenstelling van de deelnemende spelers.",
+      "Description3": "Vraag deelname aan voor de specifieke tijdslots alleen als je daadwerkelijk beschikbaar bent, aangezien latere vervangingen niet mogelijk zijn. Er kunnen maximaal 10 vervangers worden geselecteerd.",
+      "Step1": "Ga naar Evenementen -> <br> Veldslag Desert Storm -> <br> Kies Deelnemers",
+      "Step2": "Selecteer \"Aanval aanvragen\"",
+      "Step3": "We spelen altijd van 22:00 tot 22:40 uur <br> Vink het vakje aan en bevestig"
+    },
+    "Join": {
+      "Title": "Het Veld Betreden",
+      "Description": "Wanneer de aftelling van het evenement op de evenementdetailpagina eindigt en het evenement begint, moeten de deelnemers op tijd het veld betreden. Na nog eens 5 minuten kunnen eventueel de reservespelers binnenkomen en degenen die niet verbonden waren blijven buiten.",
+      "Step1": "Begin het spel met troepen van het hoogste niveau dat je kunt trainen, en met een sterkte die overeenkomt met de capaciteit van je oefenterrein.",
+      "Step2": "Troepen kunnen tijdens het evenement gewond raken en worden naar een speciaal evenement-ziekenhuis gebracht (je kunt ze tijdens het evenement genezen als dat nodig is, en als je het veldziekenhuis hebt, wordt de genezing versneld), maar aan het einde van het evenement keren de gewonde troepen terug naar hun normale staat, alsof er niets is gebeurd. Gebruik dus alle troepen die je tot je beschikking hebt. Alliantiehulp is niet beschikbaar in het evenement-ziekenhuis.",
+      "Step3": "Alleen troepen die zich in de basis op de normale kaart bevinden, zijn beschikbaar in Desert Storm. Als je ze op de velden hebt achtergelaten, roep ze dan gewoon terug naar de basis. Zodra ze de basis binnenkomen, zijn ze beschikbaar in DS."
+    },
+    "Goals": {
+      "Title": "Doelen",
+      "Goal1": "Tijdens het evenement moet je proberen zoveel mogelijk alliantiepunten te behalen om het evenement te winnen. Een mooi HUD-banner met een real-time ranglijst helpt je om de voortgang bij te houden.",
+      "Goal2": "Alliantiepunten worden verkregen door gebouwen te veroveren en in bezit te houden. Bij de eerste verovering krijg je extra punten. Een verovering is pas voltooid als een alliantie het gebouw heeft bevrijd van vijanden, als zij versterkingen sturen, en nadat de veroveringsaftelling van 1 minuut is verstreken. Vanaf dat moment worden de veroveringsopbrengsten toegevoegd aan het real-time scorebanner.",
+      "Goal3": "Extra punten kunnen worden verzameld door de punten-voorraden te verzamelen die verschijnen wanneer een gebouw wordt veroverd (als er extra punten zijn). Stuur verkenners om ze snel op te halen.",
+      "Goal4": "Individuele punten geven persoonlijke beloningen, maar de nadruk moet liggen op de alliantiepunten, omdat de alliantiebeloningen beter zijn dan de individuele."
+    },
+    "MostImportant": {
+      "Title": "De Belangrijkste Dingen om te Weten",
+      "Important1": "Je kunt de hulp van de alliantie niet gebruiken om je soldaten in het ziekenhuis te genezen, zoals je gewend bent in het normale spel, maar je kunt genezingsversnellers gebruiken.",
+      "Important2": "Je kunt je troepen in het minispel Desert Storm alleen gebruiken als ze zich in de basis op de normale kaart bevinden. Zorg ervoor dat je troepen vóór het begin van Desert Storm weer in de basis zijn. Als een troep in de normale kaartmodus wordt gebruikt, is deze in principe niet beschikbaar in Desert Storm.",
+      "Important3": "Als je de registratieperiode mist of niet als deelnemer of vervangingsdeelnemer wordt ingeschreven, is deelname aan de Desert Storm Battle niet mogelijk.",
+      "Important4": "Teleportaties in Desert Storm zijn gratis, maar beperkt tot 1 elke 2 minuten. De afkoeltijd wordt weergegeven in de linkerbenedenhoek van het scherm, net boven de knop 'Helden'.",
+      "Important5": "In Desert Storm heeft je basis een duurzaamheid van 4000 punten. Na 4 treffers is je basis verbrand en word je teruggeteleporteerd naar de veilige zone. De afkoeltijd voor het teleporteren wordt in dit geval niet gereset. Als het is uitgevoerd, moet je wachten.",
+      "Important6": "De meeste mensen zonder ervaring met Desert Storm hebben na een paar minuten geen troepen meer. Lees zeker de volgende strategieën om te leren hoe je troepenverlies kunt beperken.",
+      "Important7": "In Desert Storm kun je je troepen niet vrij bewegen. Ze moeten een doel bereiken en naar de basis terugkeren voordat ze tegen een ander doel kunnen worden ingezet. Vergeet dus het platbranden van een basis met een paar snelle klikken en een troep in enkele seconden.",
+      "Important8": "In Desert Storm kun je je, als de afkoelfase van de teleportatie voorbij is, naar elke gewenste plaats op de kaart teleporteren, ongeacht of je troepen zich in de basis bevinden of niet. Dit is een leuke verandering ten opzichte van de normale teleportatieregels in het gewone spel, waarbij al je troepen weer in je basis moeten zijn voordat je kunt teleporteren. P.S.: Dezelfde regel geldt tijdens de strijd tegen Dag 6, als je naar en van de andere server teleporteert."
+    },
+    "Strategies": {
+      "Title": "Strategieën",
+      "EmptyBuilding": {
+        "Title": "Verover een Leeg Gebouw",
+        "Description1": "Het veroveren van een leeg gebouw is heel eenvoudig: val het gewoon aan en het is van jou.",
+        "Description2": "Na 1 minuut worden de punten voor je alliantie (en voor je individuele punten) gegenereerd op basis van de veroveringsopbrengst. Als het de eerste verovering is, ontvang je ook de punten voor de eerste verovering."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Strategie voor het Veroveren van Lege Gebouwen om Troepenverlies te Vermijden",
+        "Description1": "Als je een gebouw verovert (maar nog geen veroveringspunten ontvangt) en er verschijnt een vijand, kun je de volgende strategie gebruiken om de strijd te winnen en je troepenverlies te verminderen (dit werkt goed als het hoofdkwartier/de kracht van de vijand vergelijkbaar of lager is dan die van jou):",
+        "Tip1": "Houd je troep in het gebouw totdat de vijand de aanval start (vooral als het de eerste verovering van het gebouw is, waarbij je de initiële veroveringspunten kunt ontvangen).",
+        "Tip2": "Als de vijand een aanval op het gebouw begint en je nog geen veroveringsopbrengst hebt (je versterkt dus minder dan 1 minuut), trek de troep terug en voorkom dat de vijand je troep in het gebouw aanvalt. Dit voorkomt troepenverlies.",
+        "Tip3": "De kans is groot dat de vijand zijn beste troepen heeft gestuurd om het gebouw te veroveren, waardoor hij mogelijk zonder verdediging zit. Vergeet niet dat als hij je basis met deze troepen wil aanvallen, hij ze eerst naar zijn eigen basis moet terugsturen en dan naar jouw basis moet sturen.",
+        "Tip4": "Stuur al je troepen met troep A in de eerste positie om de vijandelijke basis aan te vallen.",
+        "Tip5": "Als je geluk hebt, heeft de vijand geen verdediging of alleen zwakke troepen. Zodra de vijand is uitgeschakeld, stuur je je troep om de basis te veroveren.",
+        "Tip6": "Gebruik verkenners om ervoor te zorgen dat de troepen die je stuurt de strijd tegen de basis daadwerkelijk kunnen winnen. Stuur verkenners meerdere keren kort voordat je troepen de vijand ontmoeten, om een troep terug te trekken als de vijand de verdediging activeert."
+      },
+      "Advantages": {
+        "Title": "Voordelen:",
+        "Description1": "Je voorkomt verlies van troepen bij de eerste aanval van de vijand, die waarschijnlijk een A-team zal sturen om de basis te veroveren.",
+        "Description2": "Als de vijand geen verdedigingslijn heeft, kun je hem uitschakelen zonder verlies van troepen, vooral als je snel bent en de vijand dichtbij is.",
+        "Description3": "De tegenstander ontvangt geen punten als je snel bent, omdat het 1 minuut duurt voordat de verovering begint."
+      },
+      "Disadvantages": {
+        "Title": "Nadelen:",
+        "Description1": "Als de vijand een sterke B-troep heeft en deze gebruikt voor verdediging, kan deze strategie werken, maar het duurt langer omdat je hem alleen met je A-troep kunt treffen. Dit werkt beter als je dicht bij de vijand bent.",
+        "Description2": "Als meerdere vijanden verschijnen, kun je blootgesteld worden aan hun aanvallen als je je A-troep hebt gestuurd om de vijand aan te vallen.",
+        "Description3": "De vijand kan in de verdediging gaan zodra je hem aanvalt. Gebruik daarom een troep met slechts een held van laag niveau als een goede strategie om het risico op verlies van troepen verder te verminderen.",
+        "Description4": "Als het de eerste verovering van het gebouw is en je de vijand niet snel genoeg uitschakelt, krijgen ze deze punten.",
+        "Description5": "Houd er rekening mee dat deze strategie bedoeld is om troepenverlies te beperken, maar je daardoor waardevolle seconden verliest bij het veroveren van het gebouw. Gebruik deze strategie dus met beleid en houd rekening met de huidige strijdsituatie en het aantal overgebleven troepen."
+      },
+      "BuildingInEnemy": {
+        "Title": "Verover een Gebouw in Bezit van de Vijand",
+        "Description1": "Als het gebouw toebehoort aan het andere team, kun je op twee manieren te werk gaan:",
+        "Description2": "Val het gebouw direct aan met je sterkste troep en probeer alle troepen die het gebouw versterken te verslaan (vergelijkbaar met het veroveren van dorpen). Deze strategie heeft een ernstig probleem omdat je waarschijnlijk veel soldaten zult verliezen en na enkele veroveringen zonder troepen zult komen te zitten.",
+        "Description3": "Identificeer vijandelijke basisposten met versterkingen en verbrand deze. Deze aanpak werkt meestal goed als de basisposten geen verdediging hebben. Anders geldt hetzelfde probleem als bij de bovenstaande aanpak, maar je zult waarschijnlijk minder soldaten verliezen als de vijand de eerste troep voor versterkingen stuurt."
+      },
+      "ShouldNotDo": {
+        "Title": "Wat Je Niet Moet Doen",
+        "Description1": "In Desert Storm zijn je troepen erg waardevol, dus je moet niets doen wat hen in gevaar brengt.",
+        "Description2": "Hier zijn enkele voorbeelden van wat je niet moet doen, omdat dit waarschijnlijk zal leiden tot troepenverlies:",
+        "Description3": "Als je wordt aangevallen door een zwakkere vijand, wacht dan met je hoofdtroep in de verdediging en val aan wanneer zijn hoofdtroep terugkeert, in plaats van hem toe te staan je te verbranden omdat je verdedigingstroepen buiten zijn. Vergeet niet dat je bij elke aanval een bepaald aantal troepen verliest als je de verdediging opheft.",
+        "Description4": "Val inactieve vijanden niet aan met zwakke troepen, want ze hebben tijd om hun verdediging op te bouwen en je zult troepen verliezen. Het is beter om dit te doen wanneer vijanden meerdere dingen doen, omdat ze mogelijk geen tijd hebben om verdediging op te bouwen als ze zien dat je aanvalt (werkt het beste als je dicht bij de vijandelijke basis bent)."
+      }
+    }
   }
 }

@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from "./pages/home/home.component";
 import {VsDuellComponent} from "./pages/vs-duell/vs-duell.component";
 import {RulesComponent} from "./pages/rules/rules.component";
+import {DesertStormComponent} from "./pages/desert-storm/desert-storm.component";
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'vs', component: VsDuellComponent},
   {path: 'rules', component: RulesComponent},
+  {path: 'desert-storm', component: DesertStormComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 

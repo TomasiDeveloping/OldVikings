@@ -171,5 +171,87 @@
     },
     "YouTubeNote": "Nota: I seguenti video di YouTube mostrano buoni esempi per il giorno VS. Tieni presente che potrebbero non essere completamente aggiornati. Verifica anche le ultime modifiche e procedure.",
     "Description": "In questa pagina troverai suggerimenti e trucchi utili su come ottenere il punteggio massimo nel duello VS senza dover spendere soldi. Scopri strategie efficaci e metodi collaudati per massimizzare il tuo punteggio e avere successo!"
+  },
+  "DesertStorm": {
+    "Title": "Tempesta nel Deserto",
+    "Register": {
+      "Title": "Registrazione",
+      "Description1": "Qualsiasi membro di un'alleanza può richiedere di partecipare quando la registrazione è aperta.",
+      "Description2": "Il numero massimo di giocatori per squadra è 20, con 10 riserve consentite. Una volta chiuse le iscrizioni, neanche gli R4 e R5 possono modificare i partecipanti. Gli R4/R5 decidono la composizione finale dei giocatori partecipanti.",
+      "Description3": "Richiedi di partecipare solo per le fasce orarie in cui puoi effettivamente essere presente, poiché non sarà possibile effettuare sostituzioni in seguito. È possibile selezionare fino a 10 sostituti.",
+      "Step1": "Vai su Eventi -> <br> Campo di Battaglia Tempesta nel Deserto -> <br> Seleziona Partecipanti",
+      "Step2": "Scegli \"Richiedi di Combattere\"",
+      "Step3": "Giochiamo dalle 22:00 alle 22:40 <br> Spunta la casella e conferma"
+    },
+    "Join": {
+      "Title": "Entra nel Campo di Battaglia",
+      "Description": "Quando il conto alla rovescia dell'evento nella pagina dei dettagli dell'evento termina e l'evento inizia, i partecipanti devono entrare nel campo di battaglia in tempo. Dopo ulteriori 5 minuti, i riserve possono eventualmente entrare e coloro che non erano connessi rimarranno fuori.",
+      "Step1": "Inizia il gioco con le truppe al livello più alto che puoi addestrare, in base alla capacità del tuo campo di addestramento.",
+      "Step2": "Le truppe possono essere ferite durante l'evento e saranno inviate in un ospedale speciale dell'evento (puoi curarle durante l'evento se necessario e, se hai l'ospedale da campo, la guarigione sarà accelerata), ma alla fine dell'evento, le truppe ferite torneranno al loro stato normale come se nulla fosse successo. Quindi usa tutte le truppe a tua disposizione. L'aiuto dell'alleanza non è disponibile nell'ospedale dell'evento.",
+      "Step3": "Solo le truppe che si trovano nella tua base nel gioco normale sono disponibili in Tempesta nel Deserto. Se le hai lasciate nei campi, richiamale semplicemente alla base. Una volta che sono nella base, saranno disponibili in DS."
+    },
+    "Goals": {
+      "Title": "Obiettivi",
+      "Goal1": "Durante l'evento, cerca di accumulare il maggior numero possibile di punti alleanza per vincere. Un banner HUD con una classifica in tempo reale ti aiuterà a monitorare i progressi.",
+      "Goal2": "I punti alleanza si ottengono catturando e mantenendo edifici. La prima cattura conferisce punti extra. Una cattura è completa solo quando un'alleanza ha liberato l'edificio dai nemici, se stanno rinforzando, e dopo che il conto alla rovescia di cattura di 1 minuto è terminato. Da quel momento, il rendimento di cattura viene aggiunto al banner della classifica in tempo reale.",
+      "Goal3": "Punti extra possono essere ottenuti raccogliendo le casse di rifornimento di punti che appaiono quando catturi un edificio (se ci sono punti extra). Invia esploratori per raccoglierle rapidamente.",
+      "Goal4": "I punti individuali danno ricompense personali, ma l'accento dovrebbe essere posto sui punti alleanza, poiché le ricompense dell'alleanza sono migliori di quelle individuali."
+    },
+    "MostImportant": {
+      "Title": "Le Cose Più Importanti da Sapere",
+      "Important1": "Non puoi utilizzare l'aiuto dell'alleanza per curare i tuoi soldati nell'ospedale, come nel gioco normale, ma puoi utilizzare acceleratori di guarigione.",
+      "Important2": "Puoi usare le tue truppe nel mini-gioco Tempesta nel Deserto solo se le truppe si trovano nella base sulla mappa normale. Assicurati che le tue truppe siano tornate alla base prima dell'inizio di Tempesta nel Deserto. Se una truppa è utilizzata nella modalità mappa normale, non sarà disponibile in Tempesta nel Deserto.",
+      "Important3": "Se perdi la fase di registrazione o non sei elencato come partecipante o riserva, non potrai partecipare alla battaglia di Tempesta nel Deserto.",
+      "Important4": "I teletrasporti in Tempesta nel Deserto sono gratuiti ma limitati a uno ogni 2 minuti. Il tempo di raffreddamento è indicato nell'angolo in basso a sinistra dello schermo, appena sopra il pulsante \"Eroi\".",
+      "Important5": "In Tempesta nel Deserto, la durabilità della tua base è di 4000 punti. Dopo 4 colpi, la tua base brucia e sarai teletrasportato nella zona di sicurezza. Il tempo di raffreddamento del teletrasporto non sarà resettato in questo caso. Se è stato utilizzato, dovrai aspettare.",
+      "Important6": "La maggior parte dei giocatori senza esperienza in Tempesta nel Deserto perde le truppe in pochi minuti. Assicurati di leggere le strategie seguenti per imparare a limitare le perdite di truppe.",
+      "Important7": "In Tempesta nel Deserto, non puoi muovere liberamente le tue truppe. Devono raggiungere un obiettivo e tornare alla base prima di poter essere schierate su un altro obiettivo. Dimentica di distruggere una base con pochi clic rapidi e una truppa in pochi secondi.",
+      "Important8": "In Tempesta nel Deserto, quando il tempo di raffreddamento del teletrasporto è terminato, puoi teletrasportarti in qualsiasi punto della mappa, che le tue truppe siano nella base o meno. È un bel cambiamento rispetto alle regole di teletrasporto normali nel gioco, dove tutte le tue truppe devono essere tornate alla base prima di teletrasportarsi. P.S.: La stessa regola si applica durante il Duello contro il Giorno 6, quando ti teletrasporti verso e dal server dell'altro giorno."
+    },
+    "Strategies": {
+      "Title": "Strategie",
+      "EmptyBuilding": {
+        "Title": "Cattura un Edificio Vuoto",
+        "Description1": "Catturare un edificio vuoto è semplice: attaccalo e sarà tuo.",
+        "Description2": "Dopo 1 minuto, i punti saranno generati per la tua alleanza (e per i tuoi punti individuali) in base al rendimento della cattura. Se è la prima cattura, otterrai anche i punti di prima cattura."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Strategia per Catturare Edifici Vuoti per Ridurre le Perdite di Truppe",
+        "Description1": "Se catturi un edificio (ma non ricevi ancora i punti di cattura) e appare un nemico, puoi utilizzare la seguente strategia per vincere la battaglia e ridurre le perdite di truppe (funziona bene se il QG/forza del nemico è simile o inferiore alla tua):",
+        "Tip1": "Mantieni la tua truppa nell'edificio fino a quando il nemico non inizia l'attacco (soprattutto se è la prima cattura dell'edificio, dove puoi ottenere i punti di prima cattura).",
+        "Tip2": "Se il nemico inizia ad attaccare l'edificio e non hai ancora ricevuto il rendimento di cattura (stai rinforzando da meno di un minuto), ritira la truppa per evitare che il nemico attacchi la tua truppa sull'edificio. Questo impedisce le perdite di truppe.",
+        "Tip3": "Probabilmente il nemico ha inviato la sua squadra A per catturare l'edificio, quindi potrebbe essere senza difese. Ricorda che se vuole attaccare la tua base con questa truppa, deve prima rimandarla alla sua base e poi inviarla alla tua base.",
+        "Tip4": "Invia tutte le tue truppe con la truppa A in prima posizione per attaccare la base nemica.",
+        "Tip5": "Se hai fortuna, il nemico non avrà difese o solo truppe deboli. Una volta eliminato il nemico, invia la tua truppa per catturare la base.",
+        "Tip6": "Utilizza esploratori per assicurarti che le truppe inviate possano effettivamente vincere la battaglia contro la base. Invia esploratori più volte appena prima che le tue truppe raggiungano il nemico per poter ritirare una truppa se il nemico attiva la difesa."
+      },
+      "Advantages": {
+        "Title": "Vantaggi:",
+        "Description1": "Eviti di perdere truppe durante il primo attacco del nemico, che probabilmente invierà una squadra A per catturare la base.",
+        "Description2": "Se il nemico non ha una linea di difesa, puoi eliminarlo con zero perdite di truppe, specialmente se sei veloce e il nemico è vicino.",
+        "Description3": "L'avversario non ottiene punti se sei veloce, poiché ci vuole 1 minuto affinché la cattura inizi."
+      },
+      "Disadvantages": {
+        "Title": "Svantaggi:",
+        "Description1": "Se il nemico ha una squadra B forte e la usa per difendere, questa strategia può funzionare, ma richiederà più tempo poiché puoi colpirli solo con la tua squadra A. Funziona meglio se sei vicino al nemico.",
+        "Description2": "Se appaiono più nemici, potresti essere esposto ai loro attacchi se hai inviato la tua squadra A per attaccare il nemico.",
+        "Description3": "Il nemico potrebbe difendersi quando li colpisci. Usa quindi una squadra con solo un eroe di basso livello come buona strategia per ridurre ulteriormente il rischio di perdita di truppe.",
+        "Description4": "Se è la prima cattura dell'edificio e non elimini rapidamente il nemico, otterranno questi punti.",
+        "Description5": "Ricorda che questa strategia mira a ridurre le perdite di truppe, ma perdi secondi preziosi nella cattura dell'edificio. Usala quindi con saggezza, tenendo conto dello stato attuale della battaglia e del numero di truppe rimaste."
+      },
+      "BuildingInEnemy": {
+        "Title": "Cattura un Edificio in Possesso del Nemico",
+        "Description1": "Se l'edificio appartiene all'altra squadra, puoi procedere in due modi:",
+        "Description2": "Attacca direttamente l'edificio con la tua squadra più forte e cerca di sconfiggere tutte le truppe che rinforzano l'edificio (simile alla cattura di villaggi). Questa strategia ha un grave problema poiché probabilmente perderai molti soldati, e dopo alcune catture, rimarrai senza truppe.",
+        "Description3": "Identifica le basi nemiche con rinforzi e bruciale. Questo approccio di solito funziona bene se le basi non hanno difesa. Altrimenti, si presenta lo stesso problema del metodo precedente, ma probabilmente perderai meno soldati se il nemico invia la prima squadra in rinforzo."
+      },
+      "ShouldNotDo": {
+        "Title": "Cosa Non Fare",
+        "Description1": "In Tempesta nel Deserto, le tue truppe sono molto preziose, quindi non dovresti fare nulla che le metta in pericolo.",
+        "Description2": "Ecco alcuni esempi di ciò che non dovresti fare, poiché probabilmente porterà a perdite di truppe:",
+        "Description3": "Se sei attaccato da un nemico più debole, aspetta con la tua squadra principale in difesa e attacca quando la sua squadra principale torna, invece di lasciarlo bruciarti perché le tue truppe di difesa sono fuori. Ricorda che ogni attacco comporta una certa perdita di truppe se rimuovi la formazione di difesa.",
+        "Description4": "Non attaccare nemici inattivi con truppe deboli, poiché avranno tempo per costruire la loro difesa e perderai truppe. È meglio farlo quando i nemici stanno facendo più cose, poiché potrebbero non avere tempo per costruire una difesa se vedono che stai attaccando (funziona meglio se sei vicino alla base nemica)."
+      }
+    }
   }
 }

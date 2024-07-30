@@ -12,6 +12,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {ToastrModule} from "ngx-toastr";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { RulesComponent } from './pages/rules/rules.component';
+import { DesertStormComponent } from './pages/desert-storm/desert-storm.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -24,7 +25,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     NavigationComponent,
     HomeComponent,
     VsDuellComponent,
-    RulesComponent
+    RulesComponent,
+    DesertStormComponent
   ],
   imports: [
     BrowserModule,
