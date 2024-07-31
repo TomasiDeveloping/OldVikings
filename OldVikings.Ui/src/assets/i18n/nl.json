@@ -20,12 +20,14 @@
     "Rule2": {
       "Title": "Verzamelpunt",
       "Description": "Op zondag is de strijd voorbij en moeten alle leden zich verzamelen bij het alliantie-verzamelpunt.",
-      "Description2": "Wie woensdag nog niet bij het verzamelpunt is, wordt uit de alliantie gezet."
+      "Description2": "Wie woensdag nog niet bij het verzamelpunt is, wordt uit de alliantie gezet.",
+      "Description3": "Hoe kom ik bij de verzamelplaats"
     },
     "Rule3": {
       "Title": "Alliantie-technologie Donaties",
       "Description": "Elke lid moet voor zondag punten hebben gedoneerd aan de alliantie-technologie (doneren is gratis).",
-      "Description2": "Wie dit niet doet, wordt uit de alliantie gezet."
+      "Description2": "Wie dit niet doet, wordt uit de alliantie gezet.",
+      "Description3": "Hoe doneer ik"
     },
     "Rule4": {
       "Title": "Spelernamen",
@@ -75,7 +77,8 @@
   "Navigation": {
     "Home": "Home",
     "Rules": "Regels",
-    "VS": "VS-Duel"
+    "VS": "VS-Duel",
+    "Alliances": "Alliantie"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -286,6 +289,47 @@
         "Description3": "Als je wordt aangevallen door een zwakkere vijand, wacht dan met je hoofdtroep in de verdediging en val aan wanneer zijn hoofdtroep terugkeert, in plaats van hem toe te staan je te verbranden omdat je verdedigingstroepen buiten zijn. Vergeet niet dat je bij elke aanval een bepaald aantal troepen verliest als je de verdediging opheft.",
         "Description4": "Val inactieve vijanden niet aan met zwakke troepen, want ze hebben tijd om hun verdediging op te bouwen en je zult troepen verliezen. Het is beter om dit te doen wanneer vijanden meerdere dingen doen, omdat ze mogelijk geen tijd hebben om verdediging op te bouwen als ze zien dat je aanvalt (werkt het beste als je dicht bij de vijandelijke basis bent)."
       }
+    }
+  },
+  "Alliances": {
+    "Title": "Alliantie",
+    "Donate": {
+      "Title": "Hoe Je Kunt Bijdragen/Doneren",
+      "Description": "Om bij te dragen aan alliantie-technologie gelden de volgende regels:",
+      "Rule1": "voor elke donatie aan niet-aanbevolen technologie ontvang je 50 EXP en alliantie-bijdragepunten.",
+      "Rule2": "voor elke donatie aan de aanbevolen technologie ontvang je een extra beloning van +20%: je verdient dus 60 EXP en 60 alliantie-bijdragepunten.",
+      "Rule3": "Bovendien hebben donaties de kans om een kritieke treffer te veroorzaken, wat extra technologie-EXP oplevert. De kansen op kritieke treffers zijn:",
+      "Hit1": "Geen kritieke treffer: 45%",
+      "Hit2": "2x kritieke treffer (extra 50 punten alliantie-technologie-EXP): 30%",
+      "Hit3": "3x kritieke treffer (extra 100 punten alliantie-technologie-EXP): 15%",
+      "Hit4": "5x kritieke treffer (extra 200 punten alliantie-technologie-EXP): 10%",
+      "Description2": "Hoe te doneren:",
+      "Donate": "Klik op de aanbevolen technologie en vervolgens op 'Doneren', met munten of diamanten.",
+      "Maximum": "Commandanten hebben maximaal 20 kansen om met munten aan de alliantie-technologie te doneren. Elke donatie, kritisch of niet, verbruikt één kans. Als de beschikbare donatiekansen van een commandant onder de 20 komen, krijgt hij elke 20 minuten één kans.",
+      "Limit": "Er is geen dagelijkse limiet aan het aantal diamantdonaies dat commandanten aan alliantie-technologie kunnen doen. De diamantenkosten voor elke donatie stijgen echter met het aantal gedane donaties, maar er kunnen onbeperkt diamantdonaies worden gedaan. Na 20 minuten vermindert het aantal diamanten dat nodig is voor donatie geleidelijk. De kosten beginnen bij 2 diamanten voor de eerste donatie en stijgen met 2 diamanten per volgende donatie, tot een maximum van 50 diamanten."
+    },
+    "Shop": {
+      "Title": "Alliantie Winkel",
+      "Description1": "Als je deel uitmaakt van een alliantie, heb je toegang tot de alliantie winkel. Alliantie -> Alliantie Winkel",
+      "Description2": "De alliantie winkel biedt zeer nuttige power-up items die kunnen worden opgeëist in ruil voor alliantie-bijdragepunten. De hoeveelheid die je van elk item kunt opeisen is tijdgebonden en de winkel reset deze limieten na een aftelling die bovenaan in de alliantie winkel wordt weergegeven.",
+      "Image": "Op de afbeelding zijn twee gebieden rood gemarkeerd: <br> Geavanceerde Teleportatie en Alliantie Teleportatie <br> Deze twee gebieden zijn belangrijk om bij de verzamelplaats te komen. <br> Met de Geavanceerde Teleportatie kun je vrij kiezen waar je op de kaart wilt worden geteleporteerd. <br> Met de Alliantie Teleportatie word je ergens bij de verzamelplaats geteleporteerd."
+    },
+    "AssemblyPlace": {
+      "Title": "Hoe kom ik bij de verzamelplaats?",
+      "Variant1": {
+        "Title": "Variant 1: Geavanceerde Teleportatie",
+        "Description1": "Zoek op de kaart naar onze alliantie verzamelplaats (paarse vlag).",
+        "Description2": "Kies een vrije plek in de buurt.",
+        "Description3": "Klik op 'Teleporteren'. Dit kost je een Geavanceerde Teleportatie."
+      },
+      "Variant2": {
+        "Title": "Variant 2: Alliantie Teleportatie",
+        "Description1": "Ga naar je inventaris en selecteer het tabblad 'Speciaal'.",
+        "Description2": "Zoek de Alliantie Teleportatie.",
+        "Description3": "Klik op 'Gebruiken'. Je wordt dan automatisch naar de verzamelplaats geteleporteerd."
+      },
+      "Footer": "Op de afbeelding hieronder wordt de Alliantie Teleportatie getoond, en op de afbeelding hierboven is de winkel te zien. Je kunt beide teleportaties zoals hierboven beschreven in de alliantie winkel inwisselen. De Alliantie Teleportatie kost minder.",
+      "Image": "Klik op: <b><br> 1. Inventaris <br> 2. Speciaal <br> 3. Alliantie Teleportatie <br> 3. Gebruiken"
     }
   }
 }

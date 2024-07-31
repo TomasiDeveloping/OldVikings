@@ -20,12 +20,14 @@
     "Rule2": {
       "Title": "Samleplass",
       "Description": "På søndag er hele kampen over, og alle medlemmer skal samles ved alliansens samleplass.",
-      "Description2": "Den som ikke er ved samleplassen innen onsdag, vil bli utvist."
+      "Description2": "Den som ikke er ved samleplassen innen onsdag, vil bli utvist.",
+      "Description3": "Hvordan kommer jeg til samlingsstedet"
     },
     "Rule3": {
       "Title": "Allianse-teknologi Donasjoner",
       "Description": "Innen søndag må hvert medlem ha donert poeng til allianse-teknologi (donasjonen er gratis).",
-      "Description2": "Den som ikke gjør dette, vil bli utvist."
+      "Description2": "Den som ikke gjør dette, vil bli utvist.",
+      "Description3": "Hvordan donerer jeg"
     },
     "Rule4": {
       "Title": "Spillernavn",
@@ -75,7 +77,8 @@
   "Navigation": {
     "Home": "Hjem",
     "Rules": "Regler",
-    "VS": "VS-Duell"
+    "VS": "VS-Duell",
+    "Alliances": "Allianse"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -286,6 +289,47 @@
         "Description3": "Hvis du blir angrepet av en svakere fiende, vent med hovedtroppen din i forsvar og angripe når hans hovedtropp returnerer, i stedet for å tillate at han brenner deg fordi forsvarstroppene dine er ute. Husk at du ved hvert angrep mister et visst antall tropper hvis du fjerner forsvarsoppsettet.",
         "Description4": "Angrip ikke inaktive fiender med svake tropper, da de har tid til å bygge opp forsvar, og du vil miste tropper. Det er bedre å gjøre dette når fiender gjør flere ting, da de kanskje ikke har tid til å bygge opp forsvar når de ser at du angriper (virker best hvis du er nær fiendens base)."
       }
+    }
+  },
+  "Alliances": {
+    "Title": "Allianse",
+    "Donate": {
+      "Title": "Hvordan Du Kan Bidra/Donere",
+      "Description": "For å bidra til allianse-teknologi gjelder følgende regler:",
+      "Rule1": "for hver donasjon til en ikke-anbefalt teknologi får du 50 EXP og alliansebidragspoeng.",
+      "Rule2": "for hver donasjon til den anbefalte teknologien får du en ekstra belønning på +20%: du tjener dermed 60 EXP og 60 alliansebidragspoeng.",
+      "Rule3": "I tillegg har donasjoner en sjanse til å utløse et kritisk treff, som gir ekstra teknologiske EXP. Sjansene for kritiske treff er:",
+      "Hit1": "Ingen kritisk treff: 45%",
+      "Hit2": "2x kritisk treff (ekstra 50 poeng allianse-teknologi-EXP): 30%",
+      "Hit3": "3x kritisk treff (ekstra 100 poeng allianse-teknologi-EXP): 15%",
+      "Hit4": "5x kritisk treff (ekstra 200 poeng allianse-teknologi-EXP): 10%",
+      "Description2": "Slik donerer du:",
+      "Donate": "Klikk på den anbefalte teknologien og deretter på 'Doner', enten med mynter eller diamanter.",
+      "Maximum": "Kommandanter har maksimalt 20 muligheter til å donere til allianse-teknologi med mynter. Hver donasjon, enten kritisk eller ikke, bruker en mulighet. Hvis en kommandants tilgjengelige donasjonsmuligheter faller under 20, får han en mulighet hver 20. minutt.",
+      "Limit": "Det er ingen daglig grense for antall diamantdonasjoner som kommandanter kan gjøre til allianse-teknologi. Imidlertid øker diamantkostnadene for hver donasjon med antall donasjoner som er gjort, men det er mulig å gjøre et ubegrenset antall diamantdonasjoner. Etter 20 minutter reduseres mengden diamanter som trengs for donasjon gradvis. Kostnadene starter på 2 diamanter for den første donasjonen og øker med 2 diamanter per etterfølgende donasjon, opp til et maksimum på 50 diamanter."
+    },
+    "Shop": {
+      "Title": "Alliansebutikken",
+      "Description1": "Hvis du er en del av en allianse, har du tilgang til Alliansebutikken. Allianse -> Alliansebutikk",
+      "Description2": "Alliansebutikken tilbyr svært nyttige power-up-objekter som kan kreves inn i bytte mot alliansebidragspoeng. Mengden du kan kreve av hvert objekt er tidsbegrenset, og butikken tilbakestiller disse begrensningene etter en nedtelling som vises øverst i Alliansebutikken.",
+      "Image": "På bildet er to områder markert med rødt: <br> Avansert Teleportering og Allianse Teleportering <br> Disse to områdene er viktige for å komme til samlingsstedet. <br> Med Avansert Teleportering kan du fritt velge hvor du vil bli teleportert på kartet. <br> Med Allianse Teleportering blir du teleportert et sted nær samlingsstedet."
+    },
+    "AssemblyPlace": {
+      "Title": "Hvordan kommer jeg til samlingsstedet?",
+      "Variant1": {
+        "Title": "Variant 1: Avansert Teleportering",
+        "Description1": "Søk på kartet etter vårt allianse samlingssted (lilla flagg).",
+        "Description2": "Velg et ledig sted i nærheten.",
+        "Description3": "Klikk på 'Teleport'. Dette vil koste deg en Avansert Teleportering."
+      },
+      "Variant2": {
+        "Title": "Variant 2: Allianse Teleportering",
+        "Description1": "Gå til inventaret ditt og velg fanen 'Spesial'.",
+        "Description2": "Finn Allianse Teleportering.",
+        "Description3": "Klikk på 'Bruk'. Du blir da automatisk teleportert til samlingsstedet."
+      },
+      "Footer": "På bildet nedenfor vises Allianse Teleportering, og på bildet ovenfor er butikken. Du kan bytte begge teleporteringene som beskrevet ovenfor i Alliansebutikken. Allianse Teleportering koster mindre.",
+      "Image": "Klikk på: <b><br> 1. Inventar <br> 2. Spesial <br> 3. Allianse Teleportering <br> 4. Bruk"
     }
   }
 }

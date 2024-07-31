@@ -20,12 +20,14 @@
     "Rule2": {
       "Title": "Versammlungsplatz",
       "Description": "Am Sonntag ist der gesamte Kampf vorbei, und alle Mitglieder sollen sich beim Allianz-Versammlungsplatz versammeln.",
-      "Description2": "Wer am Mittwoch noch nicht am Versammlungsplatz ist, wird entlassen."
+      "Description2": "Wer am Mittwoch noch nicht am Versammlungsplatz ist, wird entlassen.",
+      "Description3": "Wie komme ich an den Versammlungsplatz"
     },
     "Rule3": {
       "Title": "Allianz-Technologie Spenden",
       "Description": "Bis Sonntag muss jedes Mitglied Punkte bei der Allianz-Technologie gespendet haben (Das Spenden ist kostenlos).",
-      "Description2": "Wer dies nicht tut, wird entlassen."
+      "Description2": "Wer dies nicht tut, wird entlassen.",
+      "Description3": "Wie Spende ich"
     },
     "Rule4": {
       "Title": "Spielernamen",
@@ -75,7 +77,8 @@
   "Navigation": {
     "Home": "Startseite",
     "Rules": "Regeln",
-    "VS": "VS-Duell"
+    "VS": "VS-Duell",
+    "Alliances": "Allianz"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -286,6 +289,47 @@
         "Description3": "Wenn Sie von einem schwächeren Feind angegriffen werden, warten Sie mit dem Haupttrupp in der Verteidigung und greifen Sie dann an, wenn sein Haupttrupp zurückkehrt, anstatt zuzulassen, dass er Sie niederbrennt, weil Ihre Verteidigungstrupps draußen sind. Denken Sie daran, dass Sie bei jedem Angriff eine bestimmte Anzahl Truppen verlieren, wenn Sie die Verteidigungsaufstellung entfernen.",
         "Description4": "Greifen Sie untätige Feinde nicht mit schwachen Trupps an, denn sie haben Zeit, ihre Verteidigung aufzubauen, und Sie verlieren Truppen. Es ist besser, dies zu tun, wenn Feinde mehrere Dinge tun, da sie möglicherweise keine Zeit haben, die Verteidigung aufzubauen, wenn sie sehen, dass Sie angreifen (funktioniert am besten, wenn Sie sich in der Nähe der feindlichen Basis befinden)."
       }
+    }
+  },
+  "Alliances": {
+    "Title": "Allianz",
+    "Donate": {
+      "Title": "So können Sie beitragen/spenden",
+      "Description": "Um zu einer Alliance Tech beizutragen, gelten die folgenden Regeln:",
+      "Rule1": "für jede Spende an eine nicht empfohlene Technologie erhältst du 50 EXP und Allianz-Beitragspunkte",
+      "Rule2": "für jede Spende an die empfohlene Technologie erhalten Sie eine zusätzliche Belohnung von +20 %: Sie verdienen also 60 EXP und 60 Allianz-Beitragspunkte.",
+      "Rule3": "Darüber hinaus besteht bei Spenden die Chance, einen kritischen Treffer auszulösen, der zusätzliche Tech-EXP bringt. Die Chancen für kritische Treffer sind:",
+      "Hit1": "Kein kritischer Treffer: 45 %",
+      "Hit2": "2x kritischer Treffer (zusätzliche 50 Punkte Allianz-Technologie-EXP): 30 %",
+      "Hit3": "3x kritischer Treffer (zusätzliche 100 Punkte Allianz-Technologie-EXP): 15 %",
+      "Hit4": "5x kritischer Treffer (zusätzliche 200 Punkte Allianz-Technologie-EXP): 10 %",
+      "Description2": "So spenden Sie:",
+      "Donate": "Klicken Sie auf die empfohlene Technologie und dann auf „Spenden“, entweder mit Münzen oder Diamanten.",
+      "Maximum": "Kommandanten haben maximal 20 Möglichkeiten, mit Münzen an die Technologie der Allianz zu spenden. Jede Spende, egal ob kritischer Treffer oder nicht, verbraucht eine Möglichkeit. Wenn die verfügbaren Spendenchancen eines Kommandanten unter 20 fallen, erhält er alle 20 Minuten eine Möglichkeit.",
+      "Limit": "Es gibt kein tägliches Limit für die Anzahl der Diamantspenden, die Kommandeure an Allianztechnologie leisten können. Allerdings steigen die Diamantkosten für jede Spende mit der Anzahl der getätigten Spenden, es ist jedoch möglich, eine unbegrenzte Anzahl Diamantspenden zu leisten. Nach 20 Minuten verringert sich die Menge der zu spendenden Diamanten allmählich. Die Kosten beginnen bei 2 Diamanten für die erste Spende und erhöhen sich mit jeder weiteren Spende um 2 Diamanten, bis zu einem Maximum von 50 Diamanten."
+    },
+    "Shop": {
+      "Title": "Allianz-Laden",
+      "Description1": "Wenn Sie Teil einer Allianz sind, haben Sie Zugriff auf den Allianz-Laden. Allianz -> Allianz-Laden",
+      "Description2": "Der Allianz-Shop bietet sehr hilfreiche Power-Up-Gegenstände, die im Tausch gegen Allianz-Beitragspunkte eingefordert werden können. Die Menge, die Sie von jedem Gegenstand einfordern können, ist zeitlich begrenzt und der Shop setzt diese Begrenzungen nach einem Countdown zurück, der oben im Allianz-Shop angezeigt wird.",
+      "Image": "Auf dem Bild sind zwei Bereiche rot markiert: <br> Fortschrittliche Verlagerung und Allianz Verlagerung <br> Diese beiden Bereiche sind wichtig, um zum Versammlungsplatz zu gelangen. <br> Bei der Fortschrittlichen Verlagerung könnt ihr auf der Karte frei wählen, wohin ihr teleportiert werden möchtet. <br> Bei der Allianz Verlagerung werdet ihr irgendwo zum Versammlungsplatz teleportiert."
+    },
+    "AssemblyPlace": {
+      "Title": "Wie komme ich zum Versammlungsplatz?",
+      "Variant1": {
+        "Title": "Variante 1: Fortschrittliche Verlagerung",
+        "Description1": "Suche auf der Karte unseren Allianz Versammlungsplatz (violette Fahne).",
+        "Description2": "Wähle einen freien Platz in der Nähe aus.",
+        "Description3": "Klicke auf „Verlagern“. Dies kostet dich eine Fortschrittliche Verlagerung."
+      },
+      "Variant2": {
+        "Title": "Variante 2: Allianz Verlagerung",
+        "Description1": "Gehe in dein Inventar und wähle den Reiter „Speziell“.",
+        "Description2": "Suche die Allianz Verlagerung.",
+        "Description3": "Klicke auf „Benutzen“. Du wirst dann automatisch zum Versammlungsplatz teleportiert."
+      },
+      "Footer": "Im Bild unten wird die Allianz Verlagerung gezeigt, und im Bild oben ist der Laden. Diese beiden Verlagerungen kannst du wie oben beschrieben im Allianz Laden eintauschen. Die Allianz Verlagerung kostet weniger.",
+      "Image": "Klicke auf: <b><br> 1. Inventar <br> 2. Speziell <br> 3. Allianz Verlagerung <br> 3. Benützen"
     }
   }
 }

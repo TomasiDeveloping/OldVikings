@@ -20,12 +20,14 @@
     "Rule2": {
       "Title": "Punto di Ritrovo",
       "Description": "La battaglia termina domenica e tutti i membri devono riunirsi al punto di ritrovo dell'alleanza.",
-      "Description2": "Chi non è al punto di ritrovo entro mercoledì sarà espulso."
+      "Description2": "Chi non è al punto di ritrovo entro mercoledì sarà espulso.",
+      "Description3": "Come arrivo al luogo di riunione"
     },
     "Rule3": {
       "Title": "Donazioni per la Tecnologia dell'Alleanza",
       "Description": "Entro domenica, ogni membro deve aver donato punti alla tecnologia dell'alleanza (le donazioni sono gratuite).",
-      "Description2": "Chi non lo fa sarà espulso."
+      "Description2": "Chi non lo fa sarà espulso.",
+      "Description3": "Come faccio una donazione"
     },
     "Rule4": {
       "Title": "Nomi dei Giocatori",
@@ -75,7 +77,8 @@
   "Navigation": {
     "Home": "Home",
     "Rules": "Regole",
-    "VS": "Duello VS"
+    "VS": "Duello VS",
+    "Alliances": "Alleanza"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -286,6 +289,47 @@
         "Description3": "Se sei attaccato da un nemico più debole, aspetta con la tua squadra principale in difesa e attacca quando la sua squadra principale torna, invece di lasciarlo bruciarti perché le tue truppe di difesa sono fuori. Ricorda che ogni attacco comporta una certa perdita di truppe se rimuovi la formazione di difesa.",
         "Description4": "Non attaccare nemici inattivi con truppe deboli, poiché avranno tempo per costruire la loro difesa e perderai truppe. È meglio farlo quando i nemici stanno facendo più cose, poiché potrebbero non avere tempo per costruire una difesa se vedono che stai attaccando (funziona meglio se sei vicino alla base nemica)."
       }
+    }
+  },
+  "Alliances": {
+    "Title": "Alleanza",
+    "Donate": {
+      "Title": "Come Puoi Contribuire/Donare",
+      "Description": "Per contribuire alla tecnologia dell'alleanza, si applicano le seguenti regole:",
+      "Rule1": "per ogni donazione a una tecnologia non raccomandata, ricevi 50 EXP e punti contributo all'alleanza.",
+      "Rule2": "per ogni donazione alla tecnologia raccomandata, ricevi una ricompensa aggiuntiva del +20%: guadagni quindi 60 EXP e 60 punti contributo all'alleanza.",
+      "Rule3": "Inoltre, le donazioni hanno la possibilità di attivare un colpo critico, garantendo EXP tecnologici extra. Le probabilità di colpi critici sono:",
+      "Hit1": "Nessun colpo critico: 45%",
+      "Hit2": "Colpo critico x2 (50 punti EXP tecnologia aggiuntivi): 30%",
+      "Hit3": "Colpo critico x3 (100 punti EXP tecnologia aggiuntivi): 15%",
+      "Hit4": "Colpo critico x5 (200 punti EXP tecnologia aggiuntivi): 10%",
+      "Description2": "Come donare:",
+      "Donate": "Clicca sulla tecnologia raccomandata e poi su 'Dona', utilizzando monete o diamanti.",
+      "Maximum": "I comandanti hanno un massimo di 20 opportunità per donare alla tecnologia dell'alleanza con le monete. Ogni donazione, critica o meno, consuma un'opportunità. Se le opportunità di donazione disponibili di un comandante scendono sotto le 20, riceverà un'opportunità ogni 20 minuti.",
+      "Limit": "Non ci sono limiti giornalieri al numero di donazioni in diamanti che i comandanti possono fare alla tecnologia dell'alleanza. Tuttavia, i costi in diamanti per ogni donazione aumentano con il numero di donazioni effettuate, ma è possibile fare un numero illimitato di donazioni in diamanti. Dopo 20 minuti, la quantità di diamanti necessaria per la donazione diminuisce gradualmente. I costi iniziano a 2 diamanti per la prima donazione e aumentano di 2 diamanti per ogni donazione successiva, fino a un massimo di 50 diamanti."
+    },
+    "Shop": {
+      "Title": "Negozio dell'Alleanza",
+      "Description1": "Se fai parte di un'alleanza, hai accesso al Negozio dell'Alleanza. Alleanza -> Negozio dell'Alleanza",
+      "Description2": "Il Negozio dell'Alleanza offre oggetti di potenziamento molto utili che possono essere richiesti in cambio di punti contributo all'alleanza. La quantità che puoi richiedere di ogni oggetto è limitata nel tempo e il negozio ripristina questi limiti dopo un conto alla rovescia visualizzato in alto nel Negozio dell'Alleanza.",
+      "Image": "Nell'immagine, due aree sono segnate in rosso: <br> Teletrasporto Avanzato e Teletrasporto dell'Alleanza <br> Queste due aree sono importanti per raggiungere il luogo di raduno. <br> Con il Teletrasporto Avanzato, puoi scegliere liberamente dove vuoi essere teletrasportato sulla mappa. <br> Con il Teletrasporto dell'Alleanza, verrai teletrasportato in un punto vicino al luogo di raduno."
+    },
+    "AssemblyPlace": {
+      "Title": "Come arrivo al luogo di raduno?",
+      "Variant1": {
+        "Title": "Variante 1: Teletrasporto Avanzato",
+        "Description1": "Cerca sulla mappa il nostro luogo di raduno dell'alleanza (bandiera viola).",
+        "Description2": "Scegli un posto libero nelle vicinanze.",
+        "Description3": "Clicca su 'Teletrasporta'. Questo ti costerà un Teletrasporto Avanzato."
+      },
+      "Variant2": {
+        "Title": "Variante 2: Teletrasporto dell'Alleanza",
+        "Description1": "Vai nel tuo inventario e seleziona la scheda 'Speciale'.",
+        "Description2": "Trova il Teletrasporto dell'Alleanza.",
+        "Description3": "Clicca su 'Usa'. Verrai quindi teletrasportato automaticamente al luogo di raduno."
+      },
+      "Footer": "Nell'immagine in basso è mostrato il Teletrasporto dell'Alleanza, e nell'immagine in alto c'è il negozio. Puoi scambiare entrambi i teletrasporti come descritto sopra nel Negozio dell'Alleanza. Il Teletrasporto dell'Alleanza costa meno.",
+      "Image": "Clicca su: <b><br> 1. Inventario <br> 2. Speciale <br> 3. Teletrasporto dell'Alleanza <br> 3. Usa"
     }
   }
 }

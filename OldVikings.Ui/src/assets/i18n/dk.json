@@ -20,12 +20,14 @@
     "Rule2": {
       "Title": "Samleplads",
       "Description": "Søndag er hele kampen slut, og alle medlemmer skal samles ved alliance-samlepladsen.",
-      "Description2": "Hvis du ikke er ved samlepladsen om onsdagen, vil du blive udvist."
+      "Description2": "Hvis du ikke er ved samlepladsen om onsdagen, vil du blive udvist.",
+      "Description3": "Hvordan kommer jeg til samlingsstedet"
     },
     "Rule3": {
       "Title": "Alliance-teknologi donationer",
       "Description": "Inden søndag skal hvert medlem have doneret point til alliance-teknologi (donationen er gratis).",
-      "Description2": "Hvis du ikke gør det, vil du blive udvist."
+      "Description2": "Hvis du ikke gør det, vil du blive udvist.",
+      "Description3": "Hvordan donerer jeg"
     },
     "Rule4": {
       "Title": "Spillernavne",
@@ -75,7 +77,8 @@
   "Navigation": {
     "Home": "Hjem",
     "Rules": "Regler",
-    "VS": "VS-Duel"
+    "VS": "VS-Duel",
+    "Alliances": "Allianse"
   },
   "VS": {
     "Title": "VS Duel",
@@ -286,6 +289,47 @@
         "Description3": "Hvis du bliver angrebet af en svagere fjende, så vent med dit hovedhold i forsvaret og angrib, når deres hovedhold vender tilbage, i stedet for at lade dem brænde dig, fordi dine forsvarstropper er ude. Husk, at hvert angreb medfører et bestemt antal troppetab, hvis du fjerner forsvarsformationen.",
         "Description4": "Angrib ikke inaktive fjender med svage tropper, da de har tid til at opbygge deres forsvar, og du vil miste tropper. Det er bedre at gøre dette, når fjenderne multitasker, da de måske ikke har tid til at opbygge forsvar, hvis de ser, at du angriber (fungerer bedst, hvis du er tæt på fjendens base)."
       }
+    }
+  },
+  "Alliances": {
+    "Title": "Alliance",
+    "Donate": {
+      "Title": "Hvordan Du Kan Bidrage/Donere",
+      "Description": "For at bidrage til alliance-teknologi gælder følgende regler:",
+      "Rule1": "for hver donation til en ikke-anbefalet teknologi får du 50 EXP og alliancebidragspunkter.",
+      "Rule2": "for hver donation til den anbefalede teknologi får du en ekstra belønning på +20%: du tjener dermed 60 EXP og 60 alliancebidragspunkter.",
+      "Rule3": "Derudover har donationer en chance for at udløse et kritisk hit, som giver ekstra teknologiske EXP. Chancerne for kritiske hits er:",
+      "Hit1": "Ingen kritisk hit: 45%",
+      "Hit2": "2x kritisk hit (ekstra 50 punkter alliance-teknologi-EXP): 30%",
+      "Hit3": "3x kritisk hit (ekstra 100 punkter alliance-teknologi-EXP): 15%",
+      "Hit4": "5x kritisk hit (ekstra 200 punkter alliance-teknologi-EXP): 10%",
+      "Description2": "Sådan donerer du:",
+      "Donate": "Klik på den anbefalede teknologi og derefter på 'Doner', enten med mønter eller diamanter.",
+      "Maximum": "Kommandanter har maksimalt 20 muligheder for at donere til alliance-teknologi med mønter. Hver donation, kritisk eller ej, bruger en mulighed. Hvis en kommandants tilgængelige donationsmuligheder falder under 20, får han en mulighed hver 20. minut.",
+      "Limit": "Der er ingen daglig grænse for antallet af diamantdonationer, som kommandanter kan lave til alliance-teknologi. Dog stiger diamantomkostningerne for hver donation med antallet af foretagne donationer, men det er muligt at lave et ubegribeligt antal diamantdonationer. Efter 20 minutter falder mængden af diamanter, der kræves for en donation, gradvist. Omkostningerne starter på 2 diamanter for den første donation og stiger med 2 diamanter pr. yderligere donation, op til et maksimum på 50 diamanter."
+    },
+    "Shop": {
+      "Title": "Alliancens Butik",
+      "Description1": "Hvis du er en del af en alliance, har du adgang til Alliancens Butik. Alliance -> Alliancens Butik",
+      "Description2": "Alliancens butik tilbyder meget nyttige power-up-objekter, som kan kræves i bytte for alliancebidragspunkter. Mængden du kan kræve af hver genstand er tidsbegrænset, og butikken nulstiller disse begrænsninger efter en nedtælling, der vises øverst i Alliancens Butik.",
+      "Image": "På billedet er to områder markeret med rødt: <br> Avanceret Teleportering og Alliance Teleportering <br> Disse to områder er vigtige for at komme til samlingsstedet. <br> Med Avanceret Teleportering kan du frit vælge, hvor du vil blive teleporteret til på kortet. <br> Med Alliance Teleportering bliver du teleporteret til et sted nær samlingsstedet."
+    },
+    "AssemblyPlace": {
+      "Title": "Hvordan kommer jeg til samlingsstedet?",
+      "Variant1": {
+        "Title": "Variant 1: Avanceret Teleportering",
+        "Description1": "Søg på kortet efter vores alliance samlingssted (lilla flag).",
+        "Description2": "Vælg et ledigt sted i nærheden.",
+        "Description3": "Klik på 'Teleport'. Dette vil koste dig en Avanceret Teleportering."
+      },
+      "Variant2": {
+        "Title": "Variant 2: Alliance Teleportering",
+        "Description1": "Gå til din inventar og vælg fanen 'Special'.",
+        "Description2": "Find Alliance Teleportering.",
+        "Description3": "Klik på 'Brug'. Du vil så automatisk blive teleporteret til samlingsstedet."
+      },
+      "Footer": "På billedet nedenfor vises Alliance Teleportering, og på billedet ovenfor er butikken. Du kan bytte begge teleporteringer som beskrevet ovenfor i Alliancens Butik. Alliance Teleportering koster mindre.",
+      "Image": "Klik på: <b><br> 1. Inventar <br> 2. Special <br> 3. Alliance Teleportering <br> 4. Brug"
     }
   }
 }

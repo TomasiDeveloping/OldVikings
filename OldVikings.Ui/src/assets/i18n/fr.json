@@ -20,12 +20,14 @@
     "Rule2": {
       "Title": "Point de rassemblement",
       "Description": "La bataille entière se termine dimanche, et tous les membres doivent se rassembler au point de rassemblement de l'alliance.",
-      "Description2": "Toute personne qui n'est pas au point de rassemblement mercredi sera exclue."
+      "Description2": "Toute personne qui n'est pas au point de rassemblement mercredi sera exclue.",
+      "Description3": "Comment me rendre au lieu de réunion"
     },
     "Rule3": {
       "Title": "Dons pour la technologie de l'alliance",
       "Description": "D'ici dimanche, chaque membre doit avoir donné des points pour la technologie de l'alliance (le don est gratuit).",
-      "Description2": "Toute personne qui ne le fait pas sera exclue."
+      "Description2": "Toute personne qui ne le fait pas sera exclue.",
+      "Description3": "Comment faire un don"
     },
     "Rule4": {
       "Title": "Noms des joueurs",
@@ -75,7 +77,8 @@
   "Navigation": {
     "Home": "Accueil",
     "Rules": "Règles",
-    "VS": "Duel VS"
+    "VS": "Duel VS",
+    "Alliances": "Alliance"
   },
   "VS": {
     "Title": "Duel VS",
@@ -286,6 +289,47 @@
         "Description3": "Si vous êtes attaqué par un ennemi plus faible, attendez avec votre équipe principale en défense et attaquez lorsque leur équipe principale revient, au lieu de les laisser vous brûler parce que vos troupes de défense sont sorties. N'oubliez pas que chaque attaque entraîne un certain nombre de pertes de troupes si vous retirez la formation de défense.",
         "Description4": "N'attaquez pas des ennemis inactifs avec des troupes faibles, car ils ont le temps de construire leur défense et vous perdrez des troupes. Il est préférable de le faire lorsque les ennemis sont multitâches, car ils n'auront peut-être pas le temps de construire une défense s'ils voient que vous attaquez (cela fonctionne mieux si vous êtes proche de la base ennemie)."
       }
+    }
+  },
+  "Alliances": {
+    "Title": "Alliance",
+    "Donate": {
+      "Title": "Comment Vous Pouvez Contribuer/Donner",
+      "Description": "Pour contribuer à la technologie de l'alliance, les règles suivantes s'appliquent:",
+      "Rule1": "pour chaque don à une technologie non recommandée, vous recevez 50 EXP et des points de contribution à l'alliance.",
+      "Rule2": "pour chaque don à la technologie recommandée, vous recevez une récompense supplémentaire de +20%: vous gagnez donc 60 EXP et 60 points de contribution à l'alliance.",
+      "Rule3": "De plus, les dons ont une chance de déclencher un coup critique, octroyant des EXP technologiques supplémentaires. Les chances de coups critiques sont:",
+      "Hit1": "Pas de coup critique: 45%",
+      "Hit2": "Coup critique x2 (50 points d'EXP technologie d'alliance supplémentaires): 30%",
+      "Hit3": "Coup critique x3 (100 points d'EXP technologie d'alliance supplémentaires): 15%",
+      "Hit4": "Coup critique x5 (200 points d'EXP technologie d'alliance supplémentaires): 10%",
+      "Description2": "Comment donner:",
+      "Donate": "Cliquez sur la technologie recommandée puis sur 'Donner', soit avec des pièces, soit avec des diamants.",
+      "Maximum": "Les commandants ont un maximum de 20 opportunités de donner à la technologie de l'alliance avec des pièces. Chaque don, critique ou non, consomme une opportunité. Si les opportunités de don disponibles d'un commandant tombent en dessous de 20, il reçoit une opportunité toutes les 20 minutes.",
+      "Limit": "Il n'y a pas de limite quotidienne au nombre de dons en diamants que les commandants peuvent faire à la technologie de l'alliance. Cependant, les coûts en diamants pour chaque don augmentent avec le nombre de dons effectués, mais un nombre illimité de dons en diamants peut être fait. Après 20 minutes, la quantité de diamants requise pour un don diminue progressivement. Les coûts commencent à 2 diamants pour le premier don et augmentent de 2 diamants à chaque don suivant, jusqu'à un maximum de 50 diamants."
+    },
+    "Shop": {
+      "Title": "Boutique de l'Alliance",
+      "Description1": "Si vous faites partie d'une alliance, vous avez accès à la boutique de l'alliance. Alliance -> Boutique de l'Alliance",
+      "Description2": "La boutique de l'alliance offre des objets de renforcement très utiles qui peuvent être réclamés en échange de points de contribution à l'alliance. La quantité que vous pouvez réclamer de chaque objet est limitée dans le temps, et la boutique réinitialise ces limites après un compte à rebours affiché en haut de la boutique de l'alliance.",
+      "Image": "Sur l'image, deux zones sont marquées en rouge: <br> Téléportation Avancée et Téléportation d'Alliance <br> Ces deux zones sont importantes pour atteindre le lieu de rassemblement. <br> Avec la Téléportation Avancée, vous pouvez choisir librement où vous souhaitez être téléporté sur la carte. <br> Avec la Téléportation d'Alliance, vous serez téléporté quelque part près du lieu de rassemblement."
+    },
+    "AssemblyPlace": {
+      "Title": "Comment accéder au lieu de rassemblement?",
+      "Variant1": {
+        "Title": "Variante 1: Téléportation Avancée",
+        "Description1": "Recherchez sur la carte notre lieu de rassemblement de l'alliance (drapeau violet).",
+        "Description2": "Choisissez un endroit libre à proximité.",
+        "Description3": "Cliquez sur 'Téléporter'. Cela vous coûtera une Téléportation Avancée."
+      },
+      "Variant2": {
+        "Title": "Variante 2: Téléportation d'Alliance",
+        "Description1": "Allez dans votre inventaire et sélectionnez l'onglet 'Spécial'.",
+        "Description2": "Trouvez la Téléportation d'Alliance.",
+        "Description3": "Cliquez sur 'Utiliser'. Vous serez alors automatiquement téléporté au lieu de rassemblement."
+      },
+      "Footer": "Dans l'image ci-dessous, la Téléportation d'Alliance est montrée, et dans l'image ci-dessus se trouve la boutique. Vous pouvez échanger les deux téléportations comme décrit ci-dessus dans la boutique de l'alliance. La Téléportation d'Alliance coûte moins cher.",
+      "Image": "Cliquez sur: <b><br> 1. Inventaire <br> 2. Spécial <br> 3. Téléportation d'Alliance <br> 3. Utiliser"
     }
   }
 }

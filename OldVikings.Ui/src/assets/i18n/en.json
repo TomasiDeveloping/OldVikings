@@ -20,12 +20,14 @@
     "Rule2": {
       "Title": "Assembly Point",
       "Description": "The entire battle is over on Sunday, and all members should gather at the alliance assembly point.",
-      "Description2": "Anyone who has not gathered at the assembly point by Wednesday will be dismissed."
+      "Description2": "Anyone who has not gathered at the assembly point by Wednesday will be dismissed.",
+      "Description3": "How do I get to the meeting place?"
     },
     "Rule3": {
       "Title": "Alliance Technology Donations",
       "Description": "By Sunday, each member must have donated points to the alliance technology (donating is free).",
-      "Description2": "Anyone who does not do this will be dismissed."
+      "Description2": "Anyone who does not do this will be dismissed.",
+      "Description3": "How do I make a donation?"
     },
     "Rule4": {
       "Title": "Player Names",
@@ -75,7 +77,8 @@
   "Navigation": {
     "Home": "Home",
     "Rules": "Rules",
-    "VS": "VS Duel"
+    "VS": "VS Duel",
+    "Alliances": "Alliance"
   },
   "VS": {
     "Title": "VS Duel",
@@ -286,6 +289,47 @@
         "Description3": "If attacked by a weaker enemy, wait with your main troop in defense and then attack when their main troop returns, instead of letting them burn you because your defense troops are out. Remember, each attack causes a certain number of troop losses if you remove the defense formation.",
         "Description4": "Don't attack idle enemies with weak troops, as they have time to build up their defense and you will lose troops. It's better to do this when enemies are multitasking, as they might not have time to build up defense if they see you attacking (works best if you are near the enemy base)."
       }
+    }
+  },
+  "Alliances": {
+    "Title": "Alliance",
+    "Donate": {
+      "Title": "How You Can Contribute/Donate",
+      "Description": "To contribute to Alliance Tech, the following rules apply:",
+      "Rule1": "for each donation to a non-recommended technology, you receive 50 EXP and alliance contribution points.",
+      "Rule2": "for each donation to the recommended technology, you receive an additional reward of +20%: you earn 60 EXP and 60 alliance contribution points.",
+      "Rule3": "Furthermore, donations have a chance to trigger a critical hit, granting extra tech EXP. The chances for critical hits are:",
+      "Hit1": "No critical hit: 45%",
+      "Hit2": "2x critical hit (additional 50 points alliance tech EXP): 30%",
+      "Hit3": "3x critical hit (additional 100 points alliance tech EXP): 15%",
+      "Hit4": "5x critical hit (additional 200 points alliance tech EXP): 10%",
+      "Description2": "How to donate:",
+      "Donate": "Click on the recommended technology and then on 'Donate', either with coins or diamonds.",
+      "Maximum": "Commanders have a maximum of 20 opportunities to donate to the alliance technology with coins. Each donation, whether critical or not, consumes one opportunity. If a commander's available donation opportunities fall below 20, they receive one opportunity every 20 minutes.",
+      "Limit": "There is no daily limit on the number of diamond donations commanders can make to alliance technology. However, the diamond costs for each donation increase with the number of donations made, but an unlimited number of diamond donations can be made. After 20 minutes, the amount of diamonds required for donation gradually decreases. Costs start at 2 diamonds for the first donation and increase by 2 diamonds with each subsequent donation, up to a maximum of 50 diamonds."
+    },
+    "Shop": {
+      "Title": "Alliance Shop",
+      "Description1": "If you are part of an alliance, you have access to the Alliance Shop. Alliance -> Alliance Shop",
+      "Description2": "The Alliance Shop offers very helpful power-up items that can be claimed in exchange for alliance contribution points. The amount you can claim of each item is time-limited, and the shop resets these limits after a countdown displayed at the top of the Alliance Shop.",
+      "Image": "In the image, two areas are marked in red: <br> Advanced Teleport and Alliance Teleport <br> These two areas are important to get to the assembly place. <br> With the Advanced Teleport, you can freely choose where you want to be teleported on the map. <br> With the Alliance Teleport, you will be teleported somewhere near the assembly place."
+    },
+    "AssemblyPlace": {
+      "Title": "How do I get to the assembly place?",
+      "Variant1": {
+        "Title": "Variant 1: Advanced Teleport",
+        "Description1": "Search for our alliance assembly place on the map (purple flag).",
+        "Description2": "Choose a free spot nearby.",
+        "Description3": "Click on 'Teleport'. This will cost you an Advanced Teleport."
+      },
+      "Variant2": {
+        "Title": "Variant 2: Alliance Teleport",
+        "Description1": "Go to your inventory and select the 'Special' tab.",
+        "Description2": "Find the Alliance Teleport.",
+        "Description3": "Click on 'Use'. You will then be automatically teleported to the assembly place."
+      },
+      "Footer": "In the image below, the Alliance Teleport is shown, and in the image above is the shop. You can exchange both teleports as described above in the Alliance Shop. The Alliance Teleport costs less.",
+      "Image": "Click on: <b><br> 1. Inventory <br> 2. Special <br> 3. Alliance Teleport <br> 3. Use"
     }
   }
 }
