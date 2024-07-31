@@ -12,7 +12,7 @@
     "Section2": "Devenez membre de l'Alliance Old Viking et naviguez avec nous vers la légende. Ensemble, nous serons invincibles et ferons trembler le monde de crainte."
   },
   "Rules": {
-    "Title": "Règles",
+    "Title": "Alliance Règles",
     "Rule1": {
       "Title": "Inactivité",
       "Description": "Toute personne qui est hors ligne pendant 3 jours sans prévenir sera exclue de l'alliance le 4ème jour."
@@ -36,7 +36,41 @@
       "Title": "Remarque :",
       "Description": "Si quelqu'un ne sait pas comment remplir une règle ou a d'autres questions, veuillez nous contacter. Nous sommes là pour aider."
     },
-    "Footer": "Soyons forts et réussis ensemble!"
+    "Footer": "Soyons forts et réussis ensemble!",
+    "ServerRules": {
+      "Title": "Règles du Serveur",
+      "Abuse": {
+        "Title": "Abus :",
+        "Rule1": "Pas de harcèlement, sexisme, racisme, homophobie ou autre discours haineux, y compris les insultes ethniques, sexuelles, religieuses, liées au handicap, à l'âge ou transphobes. La conséquence est un coup gratuit sur le joueur, et en cas de récidive, l'expulsion de l'alliance."
+      },
+      "Zeroing": {
+        "Title": "Réduction à zéro :",
+        "Rule1": "Il est interdit de réduire à zéro (détruire) les bases qui sont dans des alliances sur notre serveur. La conséquence est d'être réduit à zéro en retour, avec des troupes à l'extérieur de la base."
+      },
+      "Trucks": {
+        "Title": "Camions :",
+        "Rule1": "Aucune attaque sur nos camions et trains du serveur. Utilisez le filtre pour éviter cela. Si cela se produit, parlez directement à la personne pour organiser le pillage d'un camion équivalent en retour. En cas de non-réponse, signalez-le à R4/R5."
+      },
+      "Villages": {
+        "Title": "Villages :",
+        "Rule1": "Les joueurs ne sont pas autorisés à attaquer des bases lors de la capture de village, seulement renforcer le village ou attaquer le village. La conséquence est un nombre équivalent de coups en retour avec des troupes à l'extérieur de la base."
+      },
+      "Nap10": {
+        "Title": "NAP10 :",
+        "Rule1": {
+          "Title": "Attaques 1: ",
+          "Rule": "Les joueurs qui quittent leur alliance pour attaquer un joueur dans le Top 10 seront interdits de rejoindre un Top 10 pendant 1 semaine. Ils ne peuvent pas être protégés pendant cette semaine par un Top 10."
+        },
+        "Rule2": {
+          "Title": "Attaques 2: ",
+          "Rule": "Les joueurs qui attaquent un autre joueur dans le Top 10 doivent recevoir le même nombre d'attaques et de dégâts en retour, avec une deuxième infraction entraînant une interdiction d'une semaine du Top 10."
+        }
+      },
+      "Cities": {
+        "Title": "Villes:",
+        "Rule1": "Les villes de niveau 6 appartiennent aux 3 meilleures alliances. Si le top 3 change, les villes de niveau 6 changeront en conséquence."
+      }
+    }
   },
   "Navigation": {
     "Home": "Accueil",

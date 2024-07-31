@@ -12,7 +12,7 @@
     "Section2": "Diventa parte dell'Alleanza Old Viking e naviga con noi nella leggenda. Insieme, saremo invincibili e faremo tremare il mondo di timore."
   },
   "Rules": {
-    "Title": "Regole",
+    "Title": "Alleanza Regole",
     "Rule1": {
       "Title": "Inattività",
       "Description": "Chiunque sia offline per 3 giorni senza avvisare sarà espulso dall'alleanza il 4° giorno."
@@ -36,7 +36,41 @@
       "Title": "Nota:",
       "Description": "Se qualcuno non sa come rispettare una regola o ha altre domande, per favore ci contatti. Siamo qui per aiutare."
     },
-    "Footer": "Siamo forti e di successo insieme!"
+    "Footer": "Siamo forti e di successo insieme!",
+    "ServerRules": {
+      "Title": "Regole del Server",
+      "Abuse": {
+        "Title": "Abusi:",
+        "Rule1": "Nessun bullismo, sessismo, razzismo, omofobia o altre chat basate sull'odio, comprese le offese etniche, sessuali, religiose, legate alla disabilità, all'età o transfobiche. La conseguenza è un colpo gratuito sul giocatore, o in caso di recidiva, l'espulsione dall'alleanza."
+      },
+      "Zeroing": {
+        "Title": "Azzeramento:",
+        "Rule1": "È vietato azzerare (distruggere) le basi che sono nelle alleanze sul nostro server. La conseguenza è essere azzerati a propria volta, con truppe fuori dalla base."
+      },
+      "Trucks": {
+        "Title": "Camion:",
+        "Rule1": "Nessun attacco ai camion e ai treni del nostro server. Usa il filtro per evitare questo. Se succede, parla direttamente con la persona per organizzare il saccheggio di un camion equivalente in cambio. Se non risponde, segnalalo a R4/R5."
+      },
+      "Villages": {
+        "Title": "Villaggi:",
+        "Rule1": "I giocatori non sono autorizzati ad attaccare basi durante la cattura di un villaggio, solo rinforzare il villaggio o attaccare il villaggio. La conseguenza è un numero equivalente di colpi in cambio con truppe fuori dalla base."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Attacchi 1: ",
+          "Rule": "I giocatori che lasciano la loro alleanza per attaccare un giocatore nella Top 10 saranno esclusi dall'unirsi a qualsiasi Top 10 per 1 settimana. Non possono essere protetti durante quella settimana da nessuna Top 10."
+        },
+        "Rule2": {
+          "Title": "Attacchi 2: ",
+          "Rule": "I giocatori che attaccano un altro giocatore nella Top 10 dovrebbero ricevere lo stesso numero di attacchi e danni in cambio, con una seconda infrazione che comporta un divieto di 1 settimana dalla Top 10."
+        }
+      },
+      "Cities": {
+        "Title": "Città:",
+        "Rule1": "Le città di livello 6 appartengono alle prime 3 alleanze. Se le prime 3 cambiano, le città di livello 6 cambieranno di conseguenza."
+      }
+    }
   },
   "Navigation": {
     "Home": "Home",

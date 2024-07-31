@@ -12,7 +12,7 @@
     "Section2": "Word een deel van de Alliantie Old Viking en zeil met ons naar de legende. Samen zullen we onoverwinnelijk zijn en de wereld laten beven van ontzag."
   },
   "Rules": {
-    "Title": "Regels",
+    "Title": "Alliantie Regels",
     "Rule1": {
       "Title": "Inactiviteit",
       "Description": "Wie 3 dagen offline is zonder zich af te melden, wordt op de 4e dag uit de alliantie gezet."
@@ -36,7 +36,41 @@
       "Title": "Opmerking:",
       "Description": "Als iemand niet weet hoe hij een regel moet naleven of andere vragen heeft, neem dan contact met ons op. We zijn hier om te helpen."
     },
-    "Footer": "Laten we samen sterk en succesvol zijn!"
+    "Footer": "Laten we samen sterk en succesvol zijn!",
+    "ServerRules": {
+      "Title": "Serverregels",
+      "Abuse": {
+        "Title": "Misbruik:",
+        "Rule1": "Geen pesten, seksisme, racisme, homofobie of andere haatdragende chat, inclusief etnische, seksuele, religieuze, handicap-, leeftijdsgebonden of transfobe beledigingen. De consequentie is één gratis slag op de speler, of bij herhaling uitsluiting uit de alliantie."
+      },
+      "Zeroing": {
+        "Title": "Nulstelling:",
+        "Rule1": "Het is verboden om bases die in allianties op onze server zitten, tot nul te reduceren (te vernietigen). De consequentie is zelf tot nul gereduceerd worden, met troepen buiten de basis."
+      },
+      "Trucks": {
+        "Title": "Vrachtwagens:",
+        "Rule1": "Geen aanvallen op onze server vrachtwagens en treinen. Gebruik het filter om dit te voorkomen. Als het toch gebeurt, spreek dan direct met de persoon om een gelijkwaardige vrachtwagen te organiseren om te plunderen in ruil. Bij geen reactie, meld dit aan R4/R5."
+      },
+      "Villages": {
+        "Title": "Dorpen:",
+        "Rule1": "Spelers mogen geen bases aanvallen tijdens dorpsveroveringen, alleen het dorp versterken of het dorp aanvallen. De consequentie is een gelijk aantal slagen in ruil met troepen buiten de basis."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Aanvallen 1: ",
+          "Rule": "Spelers die hun alliantie verlaten om een speler in de Top 10 aan te vallen, worden voor 1 week uitgesloten van deelname aan een Top 10. Ze kunnen die week niet beschermd worden door een Top 10."
+        },
+        "Rule2": {
+          "Title": "Aanvallen 2: ",
+          "Rule": "Spelers die een andere speler in de Top 10 aanvallen, moeten hetzelfde aantal aanvallen en schade terugkrijgen, waarbij een tweede overtreding resulteert in een verbod van 1 week van de Top 10."
+        }
+      },
+      "Cities": {
+        "Title": "Steden:",
+        "Rule1": "Niveau 6 steden behoren tot de top 3 allianties. Als de top 3 verandert, zullen de niveau 6 steden dienovereenkomstig veranderen."
+      }
+    }
   },
   "Navigation": {
     "Home": "Home",

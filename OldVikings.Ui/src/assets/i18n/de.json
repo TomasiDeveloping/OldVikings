@@ -12,7 +12,7 @@
     "Section2": "Werde ein Teil der Allianz Old Viking und segle mit uns in die Legende. Gemeinsam werden wir unbezwingbar sein und die Welt vor Ehrfurcht erzittern lassen."
   },
   "Rules": {
-    "Title": "Regeln",
+    "Title": "Allianz Regeln",
     "Rule1": {
       "Title": "Inaktivität",
       "Description": "Wer 3 Tage offline ist, ohne sich abzumelden, wird am 4. Tag aus der Allianz entlassen"
@@ -36,7 +36,41 @@
       "Title": "Hinweis:",
       "Description": "Wenn jemand nicht weiß, wie er eine Regel erfüllen kann oder sonst Fragen hat, soll er sich bitte bei uns melden. Wir sind hier, um zu helfen."
     },
-    "Footer": "Lasst uns zusammen stark und erfolgreich sein!"
+    "Footer": "Lasst uns zusammen stark und erfolgreich sein!",
+    "ServerRules": {
+      "Title": "Server Regeln",
+      "Abuse": {
+        "Title": "Missbrauch:",
+        "Rule1": "Kein Mobbing, Sexismus, Rassismus, Homophobie oder andere hasserfüllte Chats, einschließlich ethnischer, sexueller, religiöser, behinderungsbezogener, altersbedingter oder transphober Beleidigungen. Die Konsequenz ist ein kostenloser Treffer auf den Spieler, bei Wiederholung erfolgt der Ausschluss aus der Allianz."
+      },
+      "Zeroing": {
+        "Title": "Nullstellung:",
+        "Rule1": "Es ist verboten, Basen, die sich in Allianzen auf unserem Server befinden, auf null zu setzen (zu zerstören). Die Konsequenz ist die eigene Nullstellung, mit Truppen außerhalb der Basis."
+      },
+      "Trucks": {
+        "Title": "LKWs:",
+        "Rule1": "Keine Angriffe auf unsere Server-LKWs und Züge. Verwenden Sie den Filter, um dies zu verhindern. Falls es doch passiert, sprechen Sie die Person direkt an, um einen gleichwertigen LKW zum Plündern zu organisieren. Bei keiner Reaktion, melden Sie dies an R4/R5."
+      },
+      "Villages": {
+        "Title": "Dörfer:",
+        "Rule1": "Spieler dürfen keine Basen beim Dorfkampf angreifen, sondern nur das Dorf verstärken oder das Dorf angreifen. Die Konsequenz ist eine gleichwertige Anzahl an Treffern mit Truppen außerhalb der Basis."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Angriffe 1: ",
+          "Rule": "Spieler, die ihre Allianz verlassen, um einen Spieler in den Top 10 anzugreifen, werden für 1 Woche von allen Top 10 ausgeschlossen. Sie dürfen in dieser Woche von keinem Top 10 geschützt werden."
+        },
+        "Rule2": {
+          "Title": "Angriffe 2: ",
+          "Rule": "Spieler, die einen anderen Spieler in den Top 10 angreifen, sollten die gleiche Anzahl an Angriffen und Schaden zurückerhalten, bei einem zweiten Verstoß folgt eine 1-wöchige Sperre von den Top 10."
+        }
+      },
+      "Cities": {
+        "Title": "Städte:",
+        "Rule1": "Level 6 Städte gehören den Top 3 Allianzen. Wenn sich die Top 3 ändern, werden die Level 6 Städte entsprechend wechseln."
+      }
+    }
   },
   "Navigation": {
     "Home": "Startseite",

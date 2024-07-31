@@ -1,6 +1,6 @@
 import {Component, inject, OnInit} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
-import {ToastrModule, ToastrService} from "ngx-toastr";
+import { ToastrService} from "ngx-toastr";
 
 @Component({
   selector: 'app-navigation',
@@ -8,7 +8,7 @@ import {ToastrModule, ToastrService} from "ngx-toastr";
   styleUrl: './navigation.component.scss'
 })
 export class NavigationComponent implements OnInit{
-  version: string = '1.0.1';
+  version: string = '1.0.2';
   isShown: boolean = false;
   siteLanguage: string = 'Deutsch';
   languageList = [

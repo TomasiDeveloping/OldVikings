@@ -12,7 +12,7 @@
     "Section2": "Bli en del av Alliansen Old Viking og seil med oss inn i legenden. Sammen vil vi være uovervinnelige og få verden til å skjelve av ærefrykt."
   },
   "Rules": {
-    "Title": "Regler",
+    "Title": "Alliansen Regler",
     "Rule1": {
       "Title": "Inaktivitet",
       "Description": "Den som er offline i 3 dager uten å melde ifra, vil bli utvist fra alliansen den 4. dagen."
@@ -36,7 +36,41 @@
       "Title": "Merk:",
       "Description": "Hvis noen ikke vet hvordan man overholder en regel eller har andre spørsmål, vennligst kontakt oss. Vi er her for å hjelpe."
     },
-    "Footer": "La oss være sterke og suksessfulle sammen!"
+    "Footer": "La oss være sterke og suksessfulle sammen!",
+    "ServerRules": {
+      "Title": "Serverregler",
+      "Abuse": {
+        "Title": "Misbruk:",
+        "Rule1": "Ingen mobbing, sexisme, rasisme, homofobi eller annen hatprat, inkludert etniske, seksuelle, religiøse, funksjonshemming-, alders- eller transfobiske slengbemerkninger. Konsekvensen er ett gratis slag på spilleren, og ved gjentatt overtredelse utvisning fra alliansen."
+      },
+      "Zeroing": {
+        "Title": "Nulstilling:",
+        "Rule1": "Det er forbudt å nullstille (ødelegge) baser som er i allianser på vår server. Konsekvensen er å bli nullstilt selv, med tropper utenfor basen."
+      },
+      "Trucks": {
+        "Title": "Lastebiler:",
+        "Rule1": "Ingen angrep på våre serverlastebiler og tog. Bruk filteret for å forhindre dette. Hvis det skjer, snakk direkte med personen for å organisere en tilsvarende lastebil som skal plyndres som gjengjeldelse. Ved ingen respons, ta det opp med R4/R5."
+      },
+      "Villages": {
+        "Title": "Landsbyer:",
+        "Rule1": "Spillere har ikke lov til å angripe baser under landsbyerobring, bare forsterke landsbyen eller angripe landsbyen. Konsekvensen er et tilsvarende antall slag i gjengjeld med tropper utenfor basen."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Angrep 1: ",
+          "Rule": "Spillere som forlater alliansen sin for å angripe en spiller i Topp 10, blir utestengt fra å bli med i noen Topp 10 i 1 uke. De kan ikke beskyttes i den uken av noen Topp 10."
+        },
+        "Rule2": {
+          "Title": "Angrep 2: ",
+          "Rule": "Spillere som angriper en annen spiller i Topp 10, skal motta samme antall angrep og skade i gjengjeld, med en andre overtredelse som resulterer i 1 ukes utestengelse fra Topp 10."
+        }
+      },
+      "Cities": {
+        "Title": "Byer:",
+        "Rule1": "Nivå 6 byer tilhører de 3 beste alliansene. Hvis topp 3 endrer seg, vil nivå 6 byer endres tilsvarende."
+      }
+    }
   },
   "Navigation": {
     "Home": "Hjem",

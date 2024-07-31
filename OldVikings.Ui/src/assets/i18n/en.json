@@ -12,7 +12,7 @@
     "Section2": "Become a part of the Alliance Old Viking and sail with us into legend. Together, we will be invincible and make the world tremble with awe."
   },
   "Rules": {
-    "Title": "Rules",
+    "Title": "Alliance Rules",
     "Rule1": {
       "Title": "Inactivity",
       "Description": "Anyone who is offline for 3 days without notifying will be dismissed from the alliance on the 4th day."
@@ -36,7 +36,41 @@
       "Title": "Note:",
       "Description": "If anyone does not know how to fulfill a rule or has any other questions, please contact us. We are here to help."
     },
-    "Footer": "Let's be strong and successful together!"
+    "Footer": "Let's be strong and successful together!",
+    "ServerRules": {
+      "Title": "Server Rules",
+      "Abuse": {
+        "Title": "Abuse:",
+        "Rule1": "No bullying, sexism, racism, homophobia or other hate-based chat, including ethnic, sexual, religious, disability, agist or transphobic slurs. The consequence is one free hit on the player, or repeat offence is expulsion from the alliance."
+      },
+      "Zeroing": {
+        "Title": "Zeroing:",
+        "Rule1": "It is forbidden to zero (ash) bases who are in alliances on our server. The consequence is being zeroed in return, with troops outside of the base."
+      },
+      "Trucks": {
+        "Title": "Trucks:",
+        "Rule1": "No attacks on our server trucks and trains. Use the filter to prevent this. If it occurs, speak to the person directly to organise an equivalent truck to be plundered in return. If no response, raise with R4/R5."
+      },
+      "Villages": {
+        "Title": "Villages:",
+        "Rule1": "Players are not allowed to attack bases on village capture, only reinforce the village or attack the village. The consequence is an equivalent number of hits in return with troops outside of the base."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Attacks 1: ",
+          "Rule": "Players who leave their alliance to attack a player in the Top 10 will be banned from joining any Top 10 for 1 week. They cannot be protected for that week by any Top 10."
+        },
+        "Rule2": {
+          "Title": "Attacks 2: ",
+          "Rule": "Players who attack any other player in the Top 10 should receive the same number of attacks and damage in return, with a second offence resulting in a 1 week ban from Top 10."
+        }
+      },
+      "Cities": {
+        "Title": "Cities:",
+        "Rule1": "Level 6 cities belong to the Top 3 alliances. If the top 3 is to change, level 6 cities will change accordingly. "
+      }
+    }
   },
   "Navigation": {
     "Home": "Home",
