@@ -17,5 +17,39 @@
     </ul>
   </section>
 
+  <section>
+    <p class="fw-bold">{{'Home.Allies.Title' | translate}}</p>
+    <ul>
+      <li>{{'Home.Allies.Allie1' | translate}}</li>
+    </ul>
+  </section>
+
+  <section>
+    <p class="fw-bold">{{'Home.Nap.Title' | translate}}</p>
+    <ul>
+      <li>{{'Home.Nap.Nap1' | translate}}</li>
+    </ul>
+  </section>
+
   <section>{{'Home.Section2' | translate}}</section>
+
+
+  @if (vsDay.link) {
+    <hr>
+    <section class="text-center">
+      <h5>{{'Home.Vs.Title' | translate}} {{vsDay.description | translate}}</h5>
+      <p>{{'Home.Vs.Description' | translate}} </p>
+      <a [routerLink]="['/vs']" fragment="{{vsDay.link}}" [queryParams]="{ openDay: vsDay.link }">{{'Home.Vs.Link' | translate}} </a>
+    </section>
+  }
+
+
+  <hr>
+  <section>
+    <h5>{{'Home.Information.Title' | translate}}</h5>
+    <p>{{'Home.Information.Description' | translate}}</p>
+    <ul>
+      <li><a routerLink="/vs">{{'Home.Information.Vs' | translate}}</a></li>
+    </ul>
+  </section>
 </div>

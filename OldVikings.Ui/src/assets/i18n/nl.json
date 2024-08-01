@@ -1,15 +1,57 @@
 {
   "Home": {
-    "Welcome": "Welkom, dappere krijgers, bij de Alliantie Old Viking!",
-    "Section1": "Betreed de stormachtige zeeën en eindeloze slagvelden met de Alliantie Old Viking aan je zijde. Hier vechten we zij aan zij, met onze bijl geslepen, onze schilden geheven, altijd klaar voor de volgende strijd.",
+    "Welcome": "Welkom, dappere krijgers, bij de Alliance Old Viking!",
+    "Section1": "Stap de stormachtige zeeën en eindeloze slagvelden op met de Alliance Old Viking aan je zijde. Hier vechten we zij aan zij, onze bijlen scherp, onze schilden geheven, altijd klaar voor de volgende strijd.",
     "WhatToExpect": {
       "Title": "Wat je kunt verwachten:",
-      "List1": "Broeders en zusters in strijd: Vind trouwe metgezellen die je in elke strijd ondersteunen en de roem met je delen.",
-      "List2": "Strategische meesterwerken: Smid krachtige plannen en overwin je vijanden met slimme tactiek en onwankelbare moed.",
-      "List3": "Eervolle feesten: Neem deel aan epische veldslagen en glorieuze raids die je rijkelijk belonen en je heldenverhaal voortzetten.",
+      "List1": "Broeders en zusters in strijd: Vind trouwe metgezellen die je in elke strijd zullen steunen en de roem met je zullen delen.",
+      "List2": "Strategisch meesterschap: Smeed krachtige plannen en overwin je vijanden met slimme tactieken en onwankelbare moed.",
+      "List3": "Glorieuze feesten: Neem deel aan epische veldslagen en glorieuze rooftochten die je rijkelijk belonen en je heldenverhaal voortzetten.",
       "List4": "Wijsheid van de ouden: Leer van ervaren krijgers en verbeter je vaardigheden om als een echte Viking te slagen."
     },
-    "Section2": "Word een deel van de Alliantie Old Viking en zeil met ons naar de legende. Samen zullen we onoverwinnelijk zijn en de wereld laten beven van ontzag."
+    "Allies": {
+      "Title": "Onze bondgenoten:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Non-agressiepacten (NAP):",
+      "Nap1": "Op dit moment hebben we geen bestaande non-agressiepacten (NAP)."
+    },
+    "Section2": "Word een deel van de Alliance Old Viking en zeil met ons naar de legende. Samen zullen we onoverwinnelijk zijn en de wereld laten beven van ontzag.",
+    "Vs": {
+      "Title": "VS-Duel:",
+      "Description": "Ontdek hier hoe je de meeste punten kunt verzamelen.",
+      "Link": "Meer informatie",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Dag 1 - Radar Special Training"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Dag 2 - Basisopbouw"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Dag 3 - Tijdperk van de wetenschap"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Dag 4 - Ontwikkeling van helden"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Dag 5 - Gevechtsklaarheid"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Dag 6 - Eliminatie van vijanden"
+      }
+    },
+    "Information": {
+      "Title": "Aanvullende informatie",
+      "Description": "Hier vind je nuttige links naar de belangrijkste pagina's van onze website:",
+      "Vs": "VS-Duel"
+    }
   },
   "Rules": {
     "Title": "Alliantie Regels",

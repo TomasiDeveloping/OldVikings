@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef, ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-rules',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './rules.component.scss'
 })
 export class RulesComponent {
+
 
 }

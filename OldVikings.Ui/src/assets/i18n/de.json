@@ -9,7 +9,49 @@
       "List3": "Ruhmreiche Feste: Nimm an epischen Schlachten und glorreichen Raubzügen teil, die dich reich belohnen und deine Heldensage weiterspinnen.",
       "List4": "Weisheit der Alten: Lerne von erfahrenen Kriegern und verbessere deine Fähigkeiten, um als wahrer Wikinger zu bestehen."
     },
-    "Section2": "Werde ein Teil der Allianz Old Viking und segle mit uns in die Legende. Gemeinsam werden wir unbezwingbar sein und die Welt vor Ehrfurcht erzittern lassen."
+    "Allies": {
+      "Title": "Unsere Verbündeten:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Nichtangriffspakte (NAP):",
+      "Nap1": "Zur Zeit haben wir keine bestehenden Nichtangriffspakte (NAP)"
+    },
+    "Section2": "Werde ein Teil der Allianz Old Viking und segle mit uns in die Legende. Gemeinsam werden wir unbezwingbar sein und die Welt vor Ehrfurcht erzittern lassen.",
+    "Vs": {
+      "Title": "VS-Duell: ",
+      "Description": "Erfahre hier, wie du die meisten Punkte sammeln kannst.",
+      "Link": "Mehr erfahren",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Tag 1 - Radar-Spezialtraining"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Tag 2 - Basis-Konstruktion"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Tag 3 - Zeitalter der Wissenschaft"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Tag 4 - Entwicklung von Helden"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Tag 5 - Gefechtsbereitschaft"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Tag 6 - Beseitigung der Feinde"
+      }
+    },
+    "Information": {
+      "Title": "Weitere Informationen",
+      "Description": "Hier findest du nützliche Links zu den wichtigsten Seiten unserer Homepage:",
+      "Vs": "VS-Duell"
+    }
   },
   "Rules": {
     "Title": "Allianz Regeln",

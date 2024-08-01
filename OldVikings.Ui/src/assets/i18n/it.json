@@ -1,15 +1,57 @@
 {
   "Home": {
-    "Welcome": "Benvenuti, valorosi guerrieri, nell'Alleanza Old Viking!",
-    "Section1": "Entra nei mari tempestosi e nei campi di battaglia senza fine con l'Alleanza Old Viking al tuo fianco. Qui combattiamo spalla a spalla, con l'ascia affilata, gli scudi alzati, sempre pronti per la prossima battaglia.",
+    "Welcome": "Benvenuto, valorosi guerrieri, nell'Alleanza Old Viking!",
+    "Section1": "Entra nei mari tempestosi e nei campi di battaglia senza fine con l'Alleanza Old Viking al tuo fianco. Qui combattiamo spalla a spalla, le nostre asce affilate, i nostri scudi sollevati, sempre pronti per la prossima battaglia.",
     "WhatToExpect": {
-      "Title": "Cosa ti aspetta:",
-      "List1": "Fratelli e sorelle in armi: Trova compagni leali che ti copriranno le spalle in ogni battaglia e condivideranno con te la gloria.",
+      "Title": "Cosa aspettarsi:",
+      "List1": "Fratelli e sorelle d'armi: Trova compagni fedeli che ti sosterranno in ogni battaglia e condivideranno con te la gloria.",
       "List2": "Maestria strategica: Forgia piani potenti e supera i tuoi nemici con tattiche astute e coraggio incrollabile.",
-      "List3": "Feste gloriose: Partecipa a battaglie epiche e incursioni gloriose che ti ricompenseranno riccamente e continueranno la tua saga eroica.",
-      "List4": "Saggezza degli Antichi: Impara dai guerrieri esperti e migliora le tue abilità per prosperare come un vero vichingo."
+      "List3": "Feste gloriose: Partecipa a battaglie epiche e raid gloriosi che ti ricompenseranno generosamente e proseguiranno la tua saga eroica.",
+      "List4": "Saggezza degli Antichi: Impara dai guerrieri esperti e migliora le tue abilità per affermarti come un vero vichingo."
     },
-    "Section2": "Diventa parte dell'Alleanza Old Viking e naviga con noi nella leggenda. Insieme, saremo invincibili e faremo tremare il mondo di timore."
+    "Allies": {
+      "Title": "I nostri alleati:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Patti di non aggressione (NAP):",
+      "Nap1": "Attualmente non abbiamo patti di non aggressione (NAP) in corso."
+    },
+    "Section2": "Diventa parte dell'Alleanza Old Viking e naviga con noi verso la leggenda. Insieme, saremo invincibili e faremo tremare il mondo di ammirazione.",
+    "Vs": {
+      "Title": "Duel VS:",
+      "Description": "Scopri qui come accumulare il maggior numero di punti.",
+      "Link": "Scopri di più",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Giorno 1 - Addestramento speciale radar"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Giorno 2 - Costruzione della base"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Giorno 3 - Era della scienza"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Giorno 4 - Sviluppo degli eroi"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Giorno 5 - Prontezza al combattimento"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Giorno 6 - Eliminazione dei nemici"
+      }
+    },
+    "Information": {
+      "Title": "Informazioni aggiuntive",
+      "Description": "Qui troverai link utili alle pagine più importanti del nostro sito web:",
+      "Vs": "Duel VS"
+    }
   },
   "Rules": {
     "Title": "Alleanza Regole",

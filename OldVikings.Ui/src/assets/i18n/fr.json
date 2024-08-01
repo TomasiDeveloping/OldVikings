@@ -1,15 +1,57 @@
 {
   "Home": {
-    "Welcome": "Bienvenue, braves guerriers, dans l'Alliance Old Viking !",
-    "Section1": "Entrez dans les mers tumultueuses et les champs de bataille sans fin avec l'Alliance Old Viking à vos côtés. Ici, nous combattons côte à côte, notre hache aiguisée, nos boucliers levés, toujours prêts pour la prochaine bataille.",
+    "Welcome": "Bienvenue, valeureux guerriers, dans l'Alliance Old Viking !",
+    "Section1": "Entrez dans les mers tumultueuses et les champs de bataille sans fin avec l'Alliance Old Viking à vos côtés. Ici, nous combattons côte à côte, nos haches aiguisées, nos boucliers levés, toujours prêts pour la prochaine bataille.",
     "WhatToExpect": {
-      "Title": "Ce qui vous attend :",
-      "List1": "Frères et sœurs d'armes : Trouvez des compagnons fidèles qui vous soutiendront dans chaque bataille et partageront la gloire avec vous.",
-      "List2": "Maîtrise stratégique : Forgez des plans puissants et surmontez vos ennemis avec des tactiques astucieuses et un courage inébranlable.",
-      "List3": "Fêtes glorieuses : Participez à des batailles épiques et à des raids glorieux qui vous récompenseront généreusement et prolongeront votre saga héroïque.",
-      "List4": "Sagesse des Anciens : Apprenez des guerriers expérimentés et améliorez vos compétences pour prospérer en tant que véritable Viking."
+      "Title": "Ce à quoi vous pouvez vous attendre :",
+      "List1": "Frères et sœurs d'armes : Trouvez des compagnons loyaux qui vous soutiendront dans chaque bataille et partageront la gloire avec vous.",
+      "List2": "Maîtrise stratégique : Forgez des plans puissants et surmontez vos ennemis avec des tactiques astucieuses et un courage indéfectible.",
+      "List3": "Festins glorieuses : Participez à des batailles épiques et des raids glorieux qui vous récompenseront richement et poursuivront votre saga héroïque.",
+      "List4": "Sagesse des anciens : Apprenez des guerriers expérimentés et améliorez vos compétences pour vous affirmer comme un véritable viking."
     },
-    "Section2": "Devenez membre de l'Alliance Old Viking et naviguez avec nous vers la légende. Ensemble, nous serons invincibles et ferons trembler le monde de crainte."
+    "Allies": {
+      "Title": "Nos alliés :",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Pactes de non-agression (NAP) :",
+      "Nap1": "Actuellement, nous n'avons aucun pacte de non-agression (NAP) en vigueur."
+    },
+    "Section2": "Devenez membre de l'Alliance Old Viking et naviguez avec nous vers la légende. Ensemble, nous serons invincibles et ferons trembler le monde d'admiration.",
+    "Vs": {
+      "Title": "Duel VS :",
+      "Description": "Découvrez ici comment accumuler le plus de points.",
+      "Link": "En savoir plus",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Jour 1 - Entraînement spécial radar"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Jour 2 - Construction de base"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Jour 3 - Âge de la science"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Jour 4 - Développement des héros"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Jour 5 - Préparation au combat"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Jour 6 - Élimination des ennemis"
+      }
+    },
+    "Information": {
+      "Title": "Informations supplémentaires",
+      "Description": "Voici des liens utiles vers les pages les plus importantes de notre site Web :",
+      "Vs": "Duel VS"
+    }
   },
   "Rules": {
     "Title": "Alliance Règles",

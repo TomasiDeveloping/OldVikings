@@ -1,15 +1,57 @@
 {
   "Home": {
     "Welcome": "Velkommen, tapre krigere, til Alliance Old Viking!",
-    "Section1": "Træd ind i de stormfulde have og endeløse slagmarker med Alliance Old Viking ved din side. Her kæmper vi skulder ved skulder, vores økse skærpet, vores skjold løftet, altid klar til næste slag.",
+    "Section1": "Gå ind i de stormfulde hav og de endeløse slagmarker med Alliance Old Viking ved din side. Her kæmper vi skulder ved skulder, vores økse skærpet, vores skjolde hævet, altid klar til den næste kamp.",
     "WhatToExpect": {
       "Title": "Hvad du kan forvente:",
-      "List1": "Brødre og søstre i kamp: Find trofaste kampe, der støtter dig i hver kamp og deler æren med dig.",
-      "List2": "Strategisk mestre: Smid magtfulde planer og overvinde dine fjender med klog taktik og urokkelig mod.",
-      "List3": "Ærefulde fester: Deltag i episke slag og glorværdige raids, der belønner dig rigt og udvider din heltelægen.",
+      "List1": "Brødre og søstre i kamp: Find loyale følgesvende, der støtter dig i hver kamp og deler æren med dig.",
+      "List2": "Strategisk mesterskab: Smed magtfulde planer og overvind dine fjender med klog taktik og urokkelig mod.",
+      "List3": "Ærefulde fester: Deltag i episke slag og glorværdige plyndringer, der belønner dig rigt og fortsætter din heltelov.",
       "List4": "Visdom fra de gamle: Lær fra erfarne krigere og forbedr dine færdigheder for at bestå som en ægte viking."
     },
-    "Section2": "Bliv en del af Alliance Old Viking og sejle med os ind i legenden. Sammen vil vi være uovervindelige og få verden til at ryste af ærefrygt."
+    "Allies": {
+      "Title": "Vore allierede:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Ikke-angrebspagter (NAP):",
+      "Nap1": "Vi har i øjeblikket ingen eksisterende ikke-angrebspagter (NAP)"
+    },
+    "Section2": "Bliv en del af Alliance Old Viking og sejl med os ind i legenden. Sammen vil vi være uovervindelige og få verden til at ryste af ærefrygt.",
+    "Vs": {
+      "Title": "VS-Duel:",
+      "Description": "Find ud af her, hvordan du kan samle flest point.",
+      "Link": "Lær mere",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Dag 1 - Radar-specialtræning"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Dag 2 - Basisopbygning"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Dag 3 - Videnskabets tidsalder"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Dag 4 - Helteudvikling"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Dag 5 - Kampberedskab"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Dag 6 - Fjendens udslettelse"
+      }
+    },
+    "Information": {
+      "Title": "Yderligere information",
+      "Description": "Her finder du nyttige links til de vigtigste sider på vores hjemmeside:",
+      "Vs": "VS-Duel"
+    }
   },
   "Rules": {
     "Title": "Alliance Regler",

@@ -1,15 +1,57 @@
 {
   "Home": {
-    "Welcome": "Velkommen, tapre krigere, til Alliansen Old Viking!",
-    "Section1": "Gå inn i de stormfulle havene og de endeløse slagmarkene med Alliansen Old Viking ved din side. Her kjemper vi skulder ved skulder, med øksen vår skjerpet, skjoldene hevet, alltid klare for neste slag.",
+    "Welcome": "Velkommen, tapre krigere, til Alliance Old Viking!",
+    "Section1": "Gå inn i de stormfulle havene og endeløse slagmarkene med Alliance Old Viking ved din side. Her kjemper vi skulder ved skulder, med våre økser skjerpet, våre skjold hevet, alltid klare for neste kamp.",
     "WhatToExpect": {
       "Title": "Hva du kan forvente:",
-      "List1": "Brødre og søstre i kamp: Finn lojale følgesvenner som støtter deg i hver kamp og deler æren med deg.",
-      "List2": "Strategisk mestring: Lag kraftfulle planer og overvinn fiendene dine med klok taktikk og urokkelig mot.",
-      "List3": "Ærefulle fester: Delta i episke slag og herlige raid som belønner deg rikelig og viderefører din heltelære.",
-      "List4": "Visdom fra de gamle: Lær fra erfarne krigere og forbedre ferdighetene dine for å bestå som en ekte viking."
+      "List1": "Brødre og søstre i kamp: Finn lojale følgesvenner som vil støtte deg i hver kamp og dele æren med deg.",
+      "List2": "Strategisk mesterskap: Smid kraftfulle planer og overvinn dine fiender med kloke taktikker og urokkelig mot.",
+      "List3": "Ærefulle fester: Delta i episke slag og glitrende raid som belønner deg rikelig og viderefører din heltlegende.",
+      "List4": "Visdom fra de gamle: Lær fra erfarne krigere og forbedre dine ferdigheter for å stå som en ekte viking."
     },
-    "Section2": "Bli en del av Alliansen Old Viking og seil med oss inn i legenden. Sammen vil vi være uovervinnelige og få verden til å skjelve av ærefrykt."
+    "Allies": {
+      "Title": "Våre allierte:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Ikke-angrepspaktene (NAP):",
+      "Nap1": "For øyeblikket har vi ingen eksisterende ikke-angrepspakter (NAP)."
+    },
+    "Section2": "Bli en del av Alliance Old Viking og seil med oss inn i legenden. Sammen vil vi være uovervinnelige og få verden til å skjelve av ærefrykt.",
+    "Vs": {
+      "Title": "VS-Duell:",
+      "Description": "Finn ut her hvordan du kan samle flest poeng.",
+      "Link": "Lær mer",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Dag 1 - Radar Spesialtrening"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Dag 2 - Basisbygging"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Dag 3 - Vitenskapens tidsalder"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Dag 4 - Heltutvikling"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Dag 5 - Kampberedskap"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Dag 6 - Utryddelse av fiender"
+      }
+    },
+    "Information": {
+      "Title": "Ytterligere informasjon",
+      "Description": "Her finner du nyttige lenker til de viktigste sidene på vår nettside:",
+      "Vs": "VS-Duell"
+    }
   },
   "Rules": {
     "Title": "Alliansen Regler",

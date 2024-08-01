@@ -1,15 +1,57 @@
 {
   "Home": {
     "Welcome": "Welcome, brave warriors, to the Alliance Old Viking!",
-    "Section1": "Enter the stormy seas and endless battlefields with the Alliance Old Viking by your side. Here we fight shoulder to shoulder, our axe sharpened, our shields raised, always ready for the next battle.",
+    "Section1": "Step into the stormy seas and endless battlefields with the Alliance Old Viking by your side. Here we fight shoulder to shoulder, our axes sharp, our shields raised, always ready for the next battle.",
     "WhatToExpect": {
-      "Title": "What to expect:",
-      "List1": "Brothers and sisters in arms: Find loyal companions who will have your back in every battle and share the glory with you.",
-      "List2": "Strategic mastery: Forge powerful plans and overcome your enemies with clever tactics and unwavering courage.",
-      "List3": "Glorious feasts: Participate in epic battles and glorious raids that richly reward you and continue your heroic saga.",
-      "List4": "Wisdom of the Ancients: Learn from experienced warriors and improve your skills to thrive as a true Viking."
+      "Title": "What to Expect:",
+      "List1": "Brothers and Sisters in Arms: Find loyal companions who will support you in every battle and share the glory with you.",
+      "List2": "Strategic Mastery: Forge powerful plans and overcome your enemies with clever tactics and unwavering courage.",
+      "List3": "Glorious Feasts: Participate in epic battles and glorious raids that will reward you richly and continue your heroic saga.",
+      "List4": "Wisdom of the Ancients: Learn from experienced warriors and improve your skills to stand as a true Viking."
     },
-    "Section2": "Become a part of the Alliance Old Viking and sail with us into legend. Together, we will be invincible and make the world tremble with awe."
+    "Allies": {
+      "Title": "Our Allies:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Non-Aggression Pacts (NAP):",
+      "Nap1": "Currently, we have no existing Non-Aggression Pacts (NAP)"
+    },
+    "Section2": "Become a part of the Alliance Old Viking and sail with us into legend. Together, we will be unbeatable and make the world tremble with awe.",
+    "Vs": {
+      "Title": "VS-Duel:",
+      "Description": "Find out here how to score the most points.",
+      "Link": "Learn more",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Day 1 - Radar Special Training"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Day 2 - Base Building"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Day 3 - Age of Science"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Day 4 - Hero Development"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Day 5 - Combat Readiness"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Day 6 - Elimination of Enemies"
+      }
+    },
+    "Information": {
+      "Title": "Additional Information",
+      "Description": "Here you will find useful links to the most important pages on our website:",
+      "Vs": "VS-Duel"
+    }
   },
   "Rules": {
     "Title": "Alliance Rules",
