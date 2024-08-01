@@ -76,6 +76,13 @@
       "Description": "Elk lid moet een eigen spelersnaam hebben.",
       "Description2": "Wie geen eigen spelersnaam kiest, wordt uit de alliantie gezet."
     },
+    "Rule5": {
+      "Title": "Algemene Aanvallen",
+      "Description": "Elke aanval op onze bondgenoten of op het NAP (Non-Aanvalspact) is verboden.",
+      "Description2": "Aanvallen op spelers van andere allianties zijn over het algemeen verboden. Als er bijzondere omstandigheden of conflicten ontstaan, moeten dergelijke acties vooraf besproken en goedgekeurd worden door een R5 of R4 om onnodige stress te vermijden.",
+      "Description3": "Het plunderen van vrachtwagens of treinen van je eigen server is niet toegestaan.",
+      "Description4": "Hoe aanvallen op je eigen vrachtwagens te vermijden"
+    },
     "Note": {
       "Title": "Opmerking:",
       "Description": "Als iemand niet weet hoe hij een regel moet naleven of andere vragen heeft, neem dan contact met ons op. We zijn hier om te helpen."

@@ -76,6 +76,13 @@
       "Description": "Each member must have their own player name.",
       "Description2": "Anyone who does not choose their own player name will be dismissed from the alliance."
     },
+    "Rule5": {
+      "Title": "General Attacks",
+      "Description": "Any attack on our allies or on the NAP (Non-Aggression Pact) is prohibited.",
+      "Description2": "Attacks on players from other alliances are generally prohibited. If special circumstances or conflicts arise, such actions must be discussed and approved by an R5 or R4 beforehand to avoid unnecessary stress.",
+      "Description3": "Plundering trucks or trains from your own server is not allowed.",
+      "Description4": "How to avoid attacks on your own trucks"
+    },
     "Note": {
       "Title": "Note:",
       "Description": "If anyone does not know how to fulfill a rule or has any other questions, please contact us. We are here to help."

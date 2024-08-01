@@ -76,6 +76,13 @@
       "Description": "Chaque membre doit avoir son propre nom de joueur.",
       "Description2": "Toute personne qui ne choisit pas son propre nom de joueur sera exclue de l'alliance."
     },
+    "Rule5": {
+      "Title": "Attaques Générales",
+      "Description": "Toute attaque contre nos alliés ou contre le NAP (Pacte de Non-Agression) est interdite.",
+      "Description2": "Les attaques contre les joueurs d'autres alliances sont généralement interdites. En cas de circonstances ou de conflits particuliers, ces actions doivent être discutées et approuvées au préalable par un R5 ou R4 afin d'éviter un stress inutile.",
+      "Description3": "Le pillage des camions ou des trains de votre propre serveur n'est pas autorisé.",
+      "Description4": "Comment éviter les attaques contre vos propres camions"
+    },
     "Note": {
       "Title": "Remarque :",
       "Description": "Si quelqu'un ne sait pas comment remplir une règle ou a d'autres questions, veuillez nous contacter. Nous sommes là pour aider."

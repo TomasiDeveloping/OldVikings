@@ -76,6 +76,13 @@
       "Description": "Hvert medlem skal have sit eget spillernavn.",
       "Description2": "Hvis du ikke vælger dit eget spillernavn, vil du blive udvist fra alliancen."
     },
+    "Rule5": {
+      "Title": "Generelle Angreb",
+      "Description": "Enhver angreb på vores allierede eller på NAP (Non-Angrebspagt) er forbudt.",
+      "Description2": "Angreb på spillere fra andre alliancer er generelt forbudt. Hvis der opstår særlige omstændigheder eller konflikter, skal sådanne handlinger forudgående diskuteres og godkendes af en R5 eller R4 for at undgå unødvendig stress.",
+      "Description3": "Plundring af lastbiler eller tog fra egen server er ikke tilladt.",
+      "Description4": "Hvordan undgår jeg angreb på egne lastbiler"
+    },
     "Note": {
       "Title": "Bemærk:",
       "Description": "Hvis nogen ikke ved, hvordan man overholder en regel eller har andre spørgsmål, skal de kontakte os. Vi er her for at hjælpe."

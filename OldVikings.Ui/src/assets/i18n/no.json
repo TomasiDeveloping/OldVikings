@@ -76,6 +76,13 @@
       "Description": "Hvert medlem må ha sitt eget spillernavn.",
       "Description2": "Den som ikke velger sitt eget spillernavn, vil bli utvist fra alliansen."
     },
+    "Rule5": {
+      "Title": "Generelle Angrep",
+      "Description": "Ethvert angrep på våre allierte eller på NAP (Ikke-Angrepspakt) er forbudt.",
+      "Description2": "Angrep på spillere fra andre allianser er generelt forbudt. Dersom spesielle omstendigheter eller konflikter oppstår, må slike handlinger diskuteres og godkjennes på forhånd av en R5 eller R4 for å unngå unødig stress.",
+      "Description3": "Raping av lastebiler eller tog fra din egen server er ikke tillatt.",
+      "Description4": "Hvordan unngå angrep på dine egne lastebiler"
+    },
     "Note": {
       "Title": "Merk:",
       "Description": "Hvis noen ikke vet hvordan man overholder en regel eller har andre spørsmål, vennligst kontakt oss. Vi er her for å hjelpe."

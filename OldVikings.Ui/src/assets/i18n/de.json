@@ -76,6 +76,13 @@
       "Description": "Jedes Mitglied muss einen eigenen Spielernamen haben.",
       "Description2": "Wer sich keinen eigenen Spielernamen gibt, wird aus der Allianz entlassen."
     },
+    "Rule5": {
+      "Title": "Allgemeine Angriffe",
+      "Description": "Jeglicher Angriff auf unsere Verbündeten oder auf den NAP (Nichtangriffspakt) ist untersagt.",
+      "Description2": "Angriffe auf Spieler aus anderen Allianzen sind grundsätzlich untersagt. Sollten besondere Umstände oder Konflikte auftreten, müssen solche Aktionen vorher mit einem R5 oder R4 besprochen und genehmigt werden, um unnötigen Stress zu vermeiden.",
+      "Description3": "Plündern von LKWs oder Zügen vom eigenen Server ist nicht gestattet.",
+      "Description4": "Wie vermeide ich Angriffe auf eigene LKWs"
+    },
     "Note": {
       "Title": "Hinweis:",
       "Description": "Wenn jemand nicht weiß, wie er eine Regel erfüllen kann oder sonst Fragen hat, soll er sich bitte bei uns melden. Wir sind hier, um zu helfen."

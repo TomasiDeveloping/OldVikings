@@ -76,6 +76,13 @@
       "Description": "Ogni membro deve avere il proprio nome di giocatore.",
       "Description2": "Chi non sceglie il proprio nome di giocatore sarà espulso dall'alleanza."
     },
+    "Rule5": {
+      "Title": "Attacchi Generali",
+      "Description": "Qualsiasi attacco ai nostri alleati o al NAP (Patto di Non Aggressione) è vietato.",
+      "Description2": "Gli attacchi ai giocatori di altre alleanze sono generalmente vietati. Se sorgono circostanze particolari o conflitti, tali azioni devono essere discusse e approvate in anticipo da un R5 o R4 per evitare stress inutile.",
+      "Description3": "Il saccheggio di camion o treni del proprio server non è consentito.",
+      "Description4": "Come evitare gli attacchi ai propri camion"
+    },
     "Note": {
       "Title": "Nota:",
       "Description": "Se qualcuno non sa come rispettare una regola o ha altre domande, per favore ci contatti. Siamo qui per aiutare."
