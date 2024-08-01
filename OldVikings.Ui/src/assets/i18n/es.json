@@ -1,0 +1,326 @@
+{
+  "Home": {
+    "Welcome": "¡Bienvenido, valiente guerrero, a la Alianza Old Viking!",
+    "Section1": "Entra en los mares tormentosos y en los campos de batalla infinitos con la Alianza Old Viking a tu lado. Aquí luchamos codo a codo, con nuestra hacha afilada y nuestros escudos levantados, siempre listos para la próxima batalla.",
+    "WhatToExpect": {
+      "Title": "Lo que puedes esperar:",
+      "List1": "Hermanos y hermanas en combate: Encuentra compañeros leales que te apoyen en cada batalla y compartan contigo la gloria.",
+      "List2": "Maestría estratégica: Forja poderosos planes y supera a tus enemigos con táctica astuta y valentía inquebrantable.",
+      "List3": "Festividades gloriosas: Participa en batallas épicas y saqueos gloriosos que te recompensarán generosamente y continuarán tejiendo tu saga heroica.",
+      "List4": "Sabiduría de los ancianos: Aprende de guerreros experimentados y mejora tus habilidades para destacar como un verdadero vikingo."
+    },
+    "Allies": {
+      "Title": "Nuestros aliados:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Pactos de No Agresión (NAP):",
+      "Nap1": "Actualmente no tenemos pactos de no agresión (NAP) vigentes."
+    },
+    "Section2": "Conviértete en parte de la Alianza Old Viking y navega con nosotros hacia la leyenda. Juntos seremos invencibles y haremos que el mundo tiemble de admiración.",
+    "Vs": {
+      "Title": "Duelo VS:",
+      "Description": "Descubre aquí cómo puedes acumular más puntos.",
+      "Link": "Saber más",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Día 1 - Entrenamiento Especial de Radar"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Día 2 - Construcción de Bases"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Día 3 - Era de la Ciencia"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Día 4 - Desarrollo de Héroes"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Día 5 - Preparación para Combate"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Día 6 - Eliminación de Enemigos"
+      }
+    },
+    "Information": {
+      "Title": "Más Información",
+      "Description": "Aquí encontrarás enlaces útiles a las páginas más importantes de nuestra página web:",
+      "Vs": "Duelo VS"
+    }
+  },
+  "Rules": {
+    "Title": "Reglas de la Alianza",
+    "Rule1": {
+      "Title": "Inactividad",
+      "Description": "Quien esté offline durante 3 días sin avisar, será expulsado de la alianza al 4° día."
+    },
+    "Rule2": {
+      "Title": "Lugar de Reunión",
+      "Description": "El domingo se termina toda la lucha, y todos los miembros deben reunirse en el lugar de reunión de la alianza.",
+      "Description2": "Quien no esté en el lugar de reunión el miércoles será expulsado.",
+      "Description3": "¿Cómo llegar al lugar de reunión?"
+    },
+    "Rule3": {
+      "Title": "Donaciones de Tecnología de la Alianza",
+      "Description": "Cada miembro debe haber donado puntos a la tecnología de la alianza para el domingo (la donación es gratuita).",
+      "Description2": "Quien no lo haga será expulsado.",
+      "Description3": "¿Cómo donar?"
+    },
+    "Rule4": {
+      "Title": "Nombres de Jugadores",
+      "Description": "Cada miembro debe tener un nombre de jugador propio.",
+      "Description2": "Quien no se asigne un nombre de jugador será expulsado de la alianza."
+    },
+    "Rule5": {
+      "Title": "Ataques Generales",
+      "Description": "Está prohibido atacar a nuestros aliados o romper el NAP (Pacto de No Agresión).",
+      "Description2": "Los ataques a jugadores de otras alianzas están generalmente prohibidos. Si surgen circunstancias especiales o conflictos, tales acciones deben ser discutidas y aprobadas previamente con un R5 o R4 para evitar estrés innecesario.",
+      "Description3": "Saqueo de camiones o trenes del propio servidor no está permitido.",
+      "Description4": "¿Cómo evitar ataques a nuestros camiones?"
+    },
+    "Note": {
+      "Title": "Nota:",
+      "Description": "Si alguien no sabe cómo cumplir una regla o tiene otras preguntas, por favor comuníquese con nosotros. Estamos aquí para ayudar."
+    },
+    "Footer": "¡Seamos fuertes y exitosos juntos!",
+    "ServerRules": {
+      "Title": "Reglas del Servidor",
+      "Abuse": {
+        "Title": "Abuso:",
+        "Rule1": "No se permite el acoso, sexismo, racismo, homofobia u otros chats de odio, incluyendo insultos étnicos, sexuales, religiosos, relacionados con discapacidades, por edad o transfóbicos. La consecuencia es un golpe gratuito al jugador, y en caso de reincidencia, la expulsión de la alianza."
+      },
+      "Zeroing": {
+        "Title": "Zeroing:",
+        "Rule1": "Está prohibido reducir a cero (destruir) las bases que estén en alianzas de nuestro servidor. La consecuencia es la propia reducción a cero, con tropas fuera de la base."
+      },
+      "Trucks": {
+        "Title": "Camiones:",
+        "Rule1": "No se permite atacar a nuestros camiones y trenes del servidor. Utiliza el filtro para evitarlo. Si ocurre, contacta directamente a la persona para organizar un camión equivalente para saquear. Si no hay respuesta, informa a R4/R5."
+      },
+      "Villages": {
+        "Title": "Pueblos:",
+        "Rule1": "Los jugadores no deben atacar bases durante la lucha en los pueblos, solo reforzar o atacar el pueblo. La consecuencia es una cantidad equivalente de golpes con tropas fuera de la base."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Ataques 1:",
+          "Rule": "Los jugadores que abandonen su alianza para atacar a un jugador en el Top 10 serán excluidos de los Top 10 durante 1 semana. No podrán ser protegidos por ningún Top 10 durante esa semana."
+        },
+        "Rule2": {
+          "Title": "Ataques 2:",
+          "Rule": "Los jugadores que ataquen a otro jugador en el Top 10 deben recibir la misma cantidad de ataques y daño a cambio. En caso de una segunda infracción, se aplicará una suspensión de 1 semana de los Top 10."
+        }
+      },
+      "Cities": {
+        "Title": "Ciudades:",
+        "Rule1": "Las ciudades de nivel 6 pertenecen a las 3 mejores alianzas. Cuando cambien las 3 mejores alianzas, las ciudades de nivel 6 cambiarán en consecuencia."
+      }
+    }
+  },
+  "Navigation": {
+    "Home": "Inicio",
+    "Rules": "Reglas",
+    "VS": "Duelo VS",
+    "Alliances": "Alianzas"
+  },
+  "VS": {
+    "Title": "Duelo VS",
+    "Day1": {
+      "Title": "Día 1 - Entrenamiento Especial de Radar",
+      "DayText": "Lunes",
+      "Task1": "Gasta 1 resistencia",
+      "Task2": "Completa 1 misión de radar",
+      "Task3": "Gasta al menos 660 EXP de héroes por vez",
+      "Task4": "Usa 1 punto de datos de combate de drones",
+      "Task5": "Usa 1 componente de dron",
+      "Task6": "Compra un paquete de regalo con diamantes (1 diamante)",
+      "Task7": "Recoge 100 alimentos",
+      "Task8": "Recoge 100 hierro",
+      "Task9": "Recoge 60 oro",
+      "Task10": "Por cada chip de habilidad de dron ganado"
+    },
+    "Day2": {
+      "Title": "Día 2 - Construcción de Bases",
+      "DayText": "Martes",
+      "Task1": "Usa 1 acelerador de construcción de 1 minuto",
+      "Task2": "Aumenta la potencia de combate del edificio en 1 punto",
+      "Task3": "Envía el carro de comercio legendario 1 vez",
+      "Task4": "Realiza 1 misión secreta naranja",
+      "Task5": "Compra un paquete de regalo con diamantes (1 diamante)",
+      "Task6": "Recluta supervivientes 1 vez en la taberna"
+    },
+    "Day3": {
+      "Title": "Día 3 - Era de la Ciencia",
+      "DayText": "Miércoles",
+      "Task1": "Completa 1 investigación en la Academia",
+      "Task2": "Completa 1 investigación en la Escuela de Tácticas",
+      "Task3": "Compra un paquete de regalo con diamantes (1 diamante)",
+      "Task4": "Recoge 20 partes de robot",
+      "Task5": "Recoge 10 partes de mech",
+      "Task6": "Recoge 20 partes de aviones no tripulados",
+      "Task7": "Recoge 20 partes de drones de combate",
+      "Task8": "Recoge 10 fragmentos de armas",
+      "Task9": "Gasta 1 acelerador de investigación",
+      "Task10": "Recoge 10 partes de drones de combate"
+    },
+    "Day4": {
+      "Title": "Día 4 - Desarrollo de Héroes",
+      "DayText": "Jueves",
+      "Task1": "Entrena un héroe 3 veces",
+      "Task2": "Gasta 1000 EXP de héroes",
+      "Task3": "Gasta 5 piedras de héroes",
+      "Task4": "Compra un paquete de regalo con diamantes (1 diamante)",
+      "Task5": "Gasta 1 acelerador de héroes",
+      "Task6": "Gasta 1 acelerador de talento"
+    },
+    "Day5": {
+      "Title": "Día 5 - Preparación para Combate",
+      "DayText": "Viernes",
+      "Task1": "Aumenta el nivel de los héroes en 5",
+      "Task2": "Gasta 10 aceleradores de entrenamiento",
+      "Task3": "Gasta 2 piedras de héroes",
+      "Task4": "Compra un paquete de regalo con diamantes (1 diamante)",
+      "Task5": "Completa 1 misión de desafío",
+      "Task6": "Recoge 20 partes de robots"
+    },
+    "Day6": {
+      "Title": "Día 6 - Eliminación de Enemigos",
+      "DayText": "Sábado",
+      "Task1": "Ataca a otros jugadores 3 veces",
+      "Task2": "Gasta 1 acelerador de combate",
+      "Task3": "Compra un paquete de regalo con diamantes (1 diamante)",
+      "Task4": "Gasta 5 aceleradores de combate",
+      "Task5": "Gasta 1 componente de dron",
+      "Task6": "Gasta 10 aceleradores de combate"
+    }
+  },
+  "DesertStorm": {
+    "Title": "Tormenta del Desierto",
+    "Register": {
+      "Title": "Registro",
+      "Description1": "Cualquier miembro de una alianza puede solicitar participar cuando el registro esté abierto.",
+      "Description2": "El número máximo de jugadores es 20 por equipo, con 10 suplentes permitidos. Una vez cerrado el registro, ni siquiera R4 y R5 pueden cambiar los participantes. R4/R5 deciden la alineación final de los jugadores participantes.",
+      "Description3": "Solicita participar solo en los horarios específicos si realmente puedes asistir, ya que no es posible realizar reemplazos más tarde. Se pueden seleccionar hasta 10 suplentes.",
+      "Step1": "Ve a Eventos -> <br> Campo de Batalla Tormenta del Desierto -> <br> Selecciona Participantes",
+      "Step2": "Selecciona \"Solicitar Batalla\"",
+      "Step3": "Jugamos de 22:00 a 22:40 <br> Marca la casilla y confirma"
+    },
+    "Join": {
+      "Title": "Entrar en el Campo de Batalla",
+      "Description": "Cuando termine la cuenta regresiva del evento en la página de detalles del evento y comience el evento, los participantes deben ingresar al campo de batalla a tiempo. Después de 5 minutos adicionales, los suplentes pueden entrar, y quienes no estén conectados permanecerán afuera.",
+      "Step1": "Comienzas el juego con tropas del nivel más alto que puedas entrenar, acorde con la capacidad de tus campos de entrenamiento.",
+      "Step2": "Las tropas pueden resultar heridas durante el evento y serán enviadas a un hospital especial del evento (puedes curarlas durante el evento si es necesario, y si tienes el hospital de campo, la curación será más rápida), pero al final del evento, las tropas heridas volverán a su estado normal como si nada hubiera pasado. Así que utiliza todas las tropas disponibles. La ayuda de la alianza no está disponible en el hospital del evento.",
+      "Step3": "Solo las tropas que están en tu base en el juego normal están disponibles en Tormenta del Desierto. Si has dejado alguna en los campos, simplemente regrésala a la base. Una vez que entren en la base, estarán disponibles en TD."
+    },
+    "Goals": {
+      "Title": "Objetivos",
+      "Goal1": "Durante el evento, intenta conseguir la mayor cantidad de puntos de alianza posible para ganar. Un banner de HUD con clasificaciones en tiempo real te ayudará a seguir el progreso.",
+      "Goal2": "Los puntos de alianza se obtienen capturando y manteniendo edificios. La primera captura da algunos puntos adicionales. Una captura solo se considera completa una vez que una alianza despeja el edificio de enemigos, si están reforzando, y después de que termine la cuenta regresiva de captura de 1 minuto. A partir de ese momento, los rendimientos de captura se añaden al banner de puntuación en tiempo real.",
+      "Goal3": "Se pueden recoger puntos adicionales recolectando cajas de suministro de puntos que aparecen cuando se captura un edificio (si hay puntos extra). Envía exploradores para recogerlas rápidamente.",
+      "Goal4": "Los puntos individuales otorgan recompensas personales, pero el enfoque debe estar en los puntos de alianza, ya que las recompensas de la alianza son mejores que las individuales."
+    },
+    "MostImportant": {
+      "Title": "Las Cosas Más Importantes a Saber",
+      "Important1": "No puedes usar la ayuda de la alianza para curar a tus soldados en el hospital como lo haces en el juego normal, pero puedes usar potenciadores de curación.",
+      "Important2": "Solo puedes usar tropas en el mini-juego Tormenta del Desierto si tu tropa está en la base en el mapa normal. Asegúrate de que tus tropas estén de vuelta en la base antes de que comience Tormenta del Desierto. Si una tropa se usa en el modo de mapa normal, no estará disponible en Tormenta del Desierto.",
+      "Important3": "Si te pierdes la fase de registro o no estás listado como participante o suplente, no podrás participar en la Batalla Tormenta del Desierto.",
+      "Important4": "Los teletransportes en Tormenta del Desierto son gratuitos pero limitados a 1 cada 2 minutos. El tiempo de enfriamiento se muestra en la parte inferior izquierda de la pantalla justo encima del botón \"Héroes\".",
+      "Important5": "En Tormenta del Desierto, la durabilidad de tu base es de 4000 puntos. Después de 4 golpes, tu base se incendiará y serás teletransportado de vuelta a la zona segura. El tiempo de enfriamiento del teletransporte no se restablece en este caso. Si se usó, tienes que esperar.",
+      "Important6": "La mayoría de los jugadores sin experiencia en Tormenta del Desierto pierden sus tropas en pocos minutos. Asegúrate de leer las siguientes estrategias para aprender cómo minimizar las pérdidas de tropas.",
+      "Important7": "En Tormenta del Desierto, no puedes mover tus tropas libremente. Deben alcanzar un objetivo y regresar a la base antes de ser desplegadas a otro objetivo. Olvídate de quemar una base con unos pocos clics rápidos y una tropa en pocos segundos.",
+      "Important8": "En Tormenta del Desierto, una vez que el tiempo de enfriamiento del teletransporte haya terminado, puedes teletransportarte a cualquier lugar del mapa, independientemente de si tus tropas están en la base o no. Este es un buen cambio respecto a las reglas de teletransporte del juego normal, donde todas tus tropas deben estar de vuelta en la base antes de teletransportarte. P.D.: La misma regla se aplica durante el Duelo vs Día 6, cuando te teletransportas hacia y desde el otro servidor."
+    },
+    "Strategies": {
+      "Title": "Estrategias",
+      "EmptyBuilding": {
+        "Title": "Captura un Edificio Vacío",
+        "Description1": "Capturar un edificio vacío es fácil: solo atácalo y es tuyo.",
+        "Description2": "Después de 1 minuto, se generan puntos para tu alianza (y para tus puntos individuales) basados en el rendimiento de la captura. Si es la primera captura, también obtienes los puntos de primera captura."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Estrategia para Capturar Edificios Vacíos y Reducir Pérdidas de Tropas",
+        "Description1": "Si capturas un edificio (pero aún no recibes puntos de captura) y aparece un enemigo, puedes usar la siguiente estrategia para ganar la batalla y reducir tus pérdidas de tropas (esto funciona bien si el HQ/poder del enemigo es similar o inferior al tuyo):",
+        "Tip1": "Mantén tu tropa en el edificio hasta que el enemigo comience el ataque (especialmente si es la primera captura del edificio donde puedes obtener los puntos de captura iniciales).",
+        "Tip2": "Si el enemigo comienza a atacar el edificio y aún no has recibido el rendimiento de la captura (estás reforzando por menos de 1 minuto), retira la tropa para evitar que el enemigo ataque tu tropa en el edificio. Esto previene pérdidas de tropas.",
+        "Tip3": "Es probable que el enemigo haya enviado su equipo A para capturar el edificio, por lo que podrían estar indefensos. Recuerda, si quieren atacar tu base con esa tropa, deben enviarla de regreso a su base primero y luego enviarla a tu base.",
+        "Tip4": "Envía todas tus tropas con la tropa A en la primera posición para atacar la base enemiga.",
+        "Tip5": "Si tienes suerte, el enemigo no tiene defensa o solo tiene tropas débiles. Una vez eliminado el enemigo, envía tu tropa para capturar la base.",
+        "Tip6": "Usando exploradores, puedes asegurarte de que las tropas que envíes puedan realmente ganar la batalla contra la base. Envía exploradores varias veces justo antes de que tus tropas ataquen al enemigo para retirar una tropa si el enemigo activa la defensa."
+      },
+      "Advantages": {
+        "Title": "Ventajas:",
+        "Description1": "Evitas perder tropas en el primer ataque del enemigo, que probablemente será un equipo A enviado para capturar la base.",
+        "Description2": "Si el enemigo no tiene línea de defensa, puedes eliminarlo con cero pérdidas de tropas, especialmente si eres rápido y el enemigo está cerca.",
+        "Description3": "El enemigo no obtiene puntos si eres rápido, ya que toma 1 minuto para que la captura comience."
+      },
+      "Disadvantages": {
+        "Title": "Desventajas:",
+        "Description1": "Si el enemigo tiene un equipo B fuerte y lo usa para defensa, esta estrategia puede funcionar, pero tomará más tiempo ya que solo puedes golpearlos con tu equipo A. Esto funciona mejor si estás cerca del enemigo.",
+        "Description2": "Si aparecen múltiples enemigos, podrías ser vulnerable a sus ataques cuando tu equipo A es enviado a atacar al enemigo.",
+        "Description3": "El enemigo podría ir a defensa cuando los ataques. Así que usar una tropa con un héroe de bajo nivel podría ser una buena estrategia para reducir aún más el riesgo de pérdida de tropas.",
+        "Description4": "Si es la primera captura del edificio y no eliminas al enemigo lo suficientemente rápido, ellos obtendrán esos puntos.",
+        "Description5": "Ten en cuenta que esta estrategia tiene como objetivo reducir las pérdidas de tropas, pero pierdes segundos valiosos en capturar el edificio. Úsala sabiamente, considerando el estado actual de la batalla y la cantidad de tropas que te quedan."
+      },
+      "BuildingInEnemy": {
+        "Title": "Captura un Edificio Propiedad del Enemigo",
+        "Description1": "Si el edificio pertenece al otro equipo, puedes proceder de dos maneras:",
+        "Description2": "Ataca directamente el edificio con tu tropa más fuerte e intenta derrotar a todas las tropas que refuercen el edificio (similar a la captura de aldeas). Esta estrategia tiene un problema serio, ya que probablemente perderás muchos soldados y te quedarás sin tropas después de algunas capturas.",
+        "Description3": "Identifica bases con refuerzos y quémalas. Este enfoque suele funcionar bien si las bases no tienen defensa. De lo contrario, ocurre el mismo problema que con el enfoque anterior, pero probablemente perderás menos soldados si el enemigo envía la primera tropa para el refuerzo."
+      },
+      "ShouldNotDo": {
+        "Title": "Lo Que No Deberías Hacer",
+        "Description1": "En Tormenta del Desierto, tus tropas son muy valiosas, así que debes evitar cualquier cosa que las ponga en peligro.",
+        "Description2": "Aquí tienes algunos ejemplos de lo que no debes hacer, ya que lo más probable es que resulte en pérdida de tropas:",
+        "Description3": "Si eres atacado por un enemigo más débil, espera con tu tropa principal en defensa y luego ataca cuando su tropa principal regrese, en lugar de dejar que te queme porque tus tropas de defensa están afuera. Recuerda, cada ataque causa una cierta cantidad de pérdidas de tropas si quitas la formación de defensa.",
+        "Description4": "No ataques a enemigos inactivos con tropas débiles, ya que tendrán tiempo para construir su defensa y perderás tropas. Es mejor hacerlo cuando los enemigos están haciendo multitarea, ya que pueden no tener tiempo para construir defensa si te ven atacar (funciona mejor si estás cerca de la base enemiga)."
+      }
+    }
+  },
+  "Alliances": {
+    "Title": "Alianza",
+    "Donate": {
+      "Title": "Cómo Puedes Contribuir/Donar",
+      "Description": "Para contribuir a la Tecnología de Alianza, se aplican las siguientes reglas:",
+      "Rule1": "Por cada donación a una tecnología no recomendada, recibes 50 EXP y puntos de contribución de alianza.",
+      "Rule2": "Por cada donación a la tecnología recomendada, recibes una recompensa adicional del +20%: ganas 60 EXP y 60 puntos de contribución de alianza.",
+      "Rule3": "Además, las donaciones tienen una probabilidad de desencadenar un golpe crítico, otorgando EXP extra de tecnología. Las probabilidades de golpes críticos son:",
+      "Hit1": "Sin golpe crítico: 45%",
+      "Hit2": "Golpe crítico 2x (50 puntos adicionales EXP de tecnología de alianza): 30%",
+      "Hit3": "Golpe crítico 3x (100 puntos adicionales EXP de tecnología de alianza): 15%",
+      "Hit4": "Golpe crítico 5x (200 puntos adicionales EXP de tecnología de alianza): 10%",
+      "Description2": "Cómo donar:",
+      "Donate": "Haz clic en la tecnología recomendada y luego en 'Donar', ya sea con monedas o diamantes.",
+      "Maximum": "Los comandantes tienen un máximo de 20 oportunidades para donar a la tecnología de alianza con monedas. Cada donación, ya sea crítica o no, consume una oportunidad. Si las oportunidades de donación disponibles de un comandante caen por debajo de 20, reciben una oportunidad cada 20 minutos.",
+      "Limit": "No hay un límite diario en el número de donaciones con diamantes que los comandantes pueden hacer a la tecnología de alianza. Sin embargo, los costos de diamantes para cada donación aumentan con el número de donaciones realizadas, pero se pueden hacer un número ilimitado de donaciones con diamantes. Después de 20 minutos, la cantidad de diamantes necesarios para la donación disminuye gradualmente. Los costos comienzan en 2 diamantes para la primera donación y aumentan en 2 diamantes con cada donación posterior, hasta un máximo de 50 diamantes."
+    },
+    "Shop": {
+      "Title": "Tienda de Alianza",
+      "Description1": "Si eres parte de una alianza, tienes acceso a la Tienda de Alianza. Alianza -> Tienda de Alianza",
+      "Description2": "La Tienda de Alianza ofrece artículos de potenciación muy útiles que se pueden reclamar a cambio de puntos de contribución de alianza. La cantidad que puedes reclamar de cada artículo está limitada en el tiempo, y la tienda restablece estos límites después de una cuenta regresiva mostrada en la parte superior de la Tienda de Alianza.",
+      "Image": "En la imagen, dos áreas están marcadas en rojo: <br> Teletransporte Avanzado y Teletransporte de Alianza <br> Estas dos áreas son importantes para llegar al lugar de reunión. <br> Con el Teletransporte Avanzado, puedes elegir libremente dónde quieres ser teletransportado en el mapa. <br> Con el Teletransporte de Alianza, serás teletransportado cerca del lugar de reunión."
+    },
+    "AssemblyPlace": {
+      "Title": "¿Cómo llegar al lugar de reunión?",
+      "Variant1": {
+        "Title": "Variante 1: Teletransporte Avanzado",
+        "Description1": "Busca nuestro lugar de reunión de alianza en el mapa (bandera morada).",
+        "Description2": "Elige un lugar libre cercano.",
+        "Description3": "Haz clic en 'Teletransportar'. Esto te costará un Teletransporte Avanzado."
+      },
+      "Variant2": {
+        "Title": "Variante 2: Teletransporte de Alianza",
+        "Description1": "Ve a tu inventario y selecciona la pestaña 'Especial'.",
+        "Description2": "Encuentra el Teletransporte de Alianza.",
+        "Description3": "Haz clic en 'Usar'. Luego serás teletransportado automáticamente al lugar de reunión."
+      },
+      "Footer": "En la imagen de abajo, se muestra el Teletransporte de Alianza, y en la imagen de arriba está la tienda. Puedes intercambiar ambos teletransportes como se describe arriba en la Tienda de Alianza. El Teletransporte de Alianza cuesta menos.",
+      "Image": "Haz clic en: <b><br> 1. Inventario <br> 2. Especial <br> 3. Teletransporte de Alianza <br> 3. Usar"
+    }
+  }
+}

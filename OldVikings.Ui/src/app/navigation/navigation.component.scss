@@ -6,3 +6,17 @@
 .user-menu {
   cursor: pointer;
 }
+
+
+.language-dropdown .dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.language-dropdown .flag-item {
+  margin-left: 8px;
+  width: 24px;
+  height: auto;
+}

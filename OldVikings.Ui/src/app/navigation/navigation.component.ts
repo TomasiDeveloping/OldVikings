@@ -18,7 +18,8 @@ export class NavigationComponent implements OnInit{
     {code: 'it', label: 'Italiano'},
     {code: 'nl', label: 'Néerlandais'},
     {code: 'no', label: 'Norvégien'},
-    {code: 'dk', label: 'Danois'}
+    {code: 'dk', label: 'Danois'},
+    {code: 'es', label: 'Español'}
   ];
 
   private readonly translate: TranslateService = inject(TranslateService);
@@ -26,7 +27,7 @@ export class NavigationComponent implements OnInit{
 
 
   ngOnInit() {
-    this.translate.addLangs(['en', 'de', 'fr', 'it']);
+    this.translate.addLangs(['de', 'en', 'fr', 'it','nl', 'no', 'dk', 'es']);
     let userLanguage = this.translate.getBrowserLang();
     if (!userLanguage || !this.languageList.some(x => x.code === userLanguage)) {
       if (userLanguage) {
