@@ -127,7 +127,8 @@
     "Home": "Hjem",
     "Rules": "Regler",
     "VS": "VS-Duel",
-    "Alliances": "Allianse"
+    "Alliances": "Allianse",
+    "Basics": "Grundlæggende"
   },
   "VS": {
     "Title": "VS Duel",
@@ -379,6 +380,19 @@
       },
       "Footer": "På billedet nedenfor vises Alliance Teleportering, og på billedet ovenfor er butikken. Du kan bytte begge teleporteringer som beskrevet ovenfor i Alliancens Butik. Alliance Teleportering koster mindre.",
       "Image": "Klik på: <b><br> 1. Inventar <br> 2. Special <br> 3. Alliance Teleportering <br> 4. Brug"
+    }
+  },
+  "Basics": {
+    "Title": "Grundlæggende",
+    "Translate": {
+      "Title": "Oversættelser",
+      "Description": "I Last War kan du bruge den automatiske oversætningsfunktion til at oversætte tekster til dit eget sprog. For at oversætte chats og beskeder, skal du bare bruge ikonet nederst til højre – det viser et „A“ med pile og et „T“. På den måde kan du kommunikere på dit foretrukne sprog og koncentrere dig fuldt ud om spillet!",
+      "Image": "På billedet ser du to eksempler på, hvor ikonet er placeret for at oversætte teksten."
+    },
+    "Trucks": {
+      "Title": "Plundring af lastbiler på din egen server",
+      "Description": "Det er ikke tilladt at plundre lastbiler på din egen server. For at sikre, at sådanne lastbiler ikke vises, er der en checkbox, som du kan aktivere for at filtrere alle lastbiler fra din egen server. Sørg for at markere denne checkbox for at overholde reglerne. På billedet nedenfor ser du, hvor du finder checkboxen.",
+      "Image": "Venligst aktiver checkboxen som vist på billedet."
     }
   }
 }

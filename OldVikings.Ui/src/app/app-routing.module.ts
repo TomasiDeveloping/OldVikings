@@ -5,6 +5,7 @@ import {VsDuellComponent} from "./pages/vs-duell/vs-duell.component";
 import {RulesComponent} from "./pages/rules/rules.component";
 import {DesertStormComponent} from "./pages/desert-storm/desert-storm.component";
 import {AlliancesComponent} from "./pages/alliances/alliances.component";
+import {BasicsComponent} from "./pages/basics/basics.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'rules', component: RulesComponent},
   {path: 'desert-storm', component: DesertStormComponent},
   {path: 'alliances', component: AlliancesComponent},
+  {path: 'basics', component: BasicsComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 

@@ -127,7 +127,8 @@
     "Home": "Inicio",
     "Rules": "Reglas",
     "VS": "Duelo VS",
-    "Alliances": "Alianzas"
+    "Alliances": "Alianzas",
+    "Basics": "Fundamentos"
   },
   "VS": {
     "Title": "Duelo VS",
@@ -321,6 +322,19 @@
       },
       "Footer": "En la imagen de abajo, se muestra el Teletransporte de Alianza, y en la imagen de arriba está la tienda. Puedes intercambiar ambos teletransportes como se describe arriba en la Tienda de Alianza. El Teletransporte de Alianza cuesta menos.",
       "Image": "Haz clic en: <b><br> 1. Inventario <br> 2. Especial <br> 3. Teletransporte de Alianza <br> 3. Usar"
+    }
+  },
+  "Basics": {
+    "Title": "Fundamentos",
+    "Translate": {
+      "Title": "Traducciones",
+      "Description": "En Last War, puedes utilizar la función de traducción automática para traducir textos a tu propio idioma. Para traducir chats y mensajes, simplemente usa el ícono en la parte inferior derecha: muestra una 'A' con flechas y una 'T'. ¡De esta manera, podrás comunicarte en tu idioma preferido y concentrarte plenamente en el juego!",
+      "Image": "En la imagen se muestran dos ejemplos de dónde se encuentra el ícono para traducir el texto."
+    },
+    "Trucks": {
+      "Title": "Saquear camiones en tu propio servidor",
+      "Description": "No está permitido saquear camiones en tu propio servidor. Para asegurar que dichos camiones no se muestren, hay una casilla que puedes activar para filtrar todos los camiones de tu propio servidor. Por favor, marca esta casilla para cumplir con las reglas. La imagen a continuación muestra dónde encontrar la casilla.",
+      "Image": "Por favor, activa la casilla como se muestra en la imagen."
     }
   }
 }

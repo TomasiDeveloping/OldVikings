@@ -127,7 +127,8 @@
     "Home": "Home",
     "Rules": "Regole",
     "VS": "Duello VS",
-    "Alliances": "Alleanza"
+    "Alliances": "Alleanza",
+    "Basics": "Fondamenti"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -379,6 +380,19 @@
       },
       "Footer": "Nell'immagine in basso è mostrato il Teletrasporto dell'Alleanza, e nell'immagine in alto c'è il negozio. Puoi scambiare entrambi i teletrasporti come descritto sopra nel Negozio dell'Alleanza. Il Teletrasporto dell'Alleanza costa meno.",
       "Image": "Clicca su: <b><br> 1. Inventario <br> 2. Speciale <br> 3. Teletrasporto dell'Alleanza <br> 3. Usa"
+    }
+  },
+  "Basics": {
+    "Title": "Fondamenti",
+    "Translate": {
+      "Title": "Traduzioni",
+      "Description": "In Last War, puoi utilizzare la funzione di traduzione automatica per tradurre il testo nella tua lingua. Per tradurre le chat e i messaggi, utilizza semplicemente l'icona in basso a destra – mostra una 'A' con delle frecce e una 'T'. In questo modo, puoi comunicare nella tua lingua preferita e concentrarti completamente sul gioco!",
+      "Image": "L'immagine mostra due esempi di dove trovare l'icona per tradurre il testo."
+    },
+    "Trucks": {
+      "Title": "Saccheggio dei camion sul tuo server",
+      "Description": "Non è permesso saccheggiare i camion sul tuo server. Per assicurarti che tali camion non vengano visualizzati, c'è una casella che puoi attivare per filtrare tutti i camion dal tuo server. Per favore, spunta questa casella per conformarti alle regole. L'immagine sottostante mostra dove trovare la casella.",
+      "Image": "Per favore, attiva la casella come mostrato nell'immagine."
     }
   }
 }

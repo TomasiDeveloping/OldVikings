@@ -127,7 +127,8 @@
     "Home": "Home",
     "Rules": "Rules",
     "VS": "VS Duel",
-    "Alliances": "Alliance"
+    "Alliances": "Alliance",
+    "Basics": "Basics"
   },
   "VS": {
     "Title": "VS Duel",
@@ -379,6 +380,19 @@
       },
       "Footer": "In the image below, the Alliance Teleport is shown, and in the image above is the shop. You can exchange both teleports as described above in the Alliance Shop. The Alliance Teleport costs less.",
       "Image": "Click on: <b><br> 1. Inventory <br> 2. Special <br> 3. Alliance Teleport <br> 3. Use"
+    }
+  },
+  "Basics": {
+    "Title": "Basics",
+    "Translate": {
+      "Title": "Translations",
+      "Description": "In Last War, you can use the automatic translation feature to translate text into your own language. To translate chats and messages, simply use the icon at the bottom right – it shows an 'A' with arrows and a 'T'. This way, you can communicate in your preferred language and focus entirely on the game!",
+      "Image": "The image shows two examples of where to find the icon to translate the text."
+    },
+    "Trucks": {
+      "Title": "Looting Trucks on Your Own Server",
+      "Description": "It is not allowed to loot trucks on your own server. To ensure that such trucks do not appear, there is a checkbox that you can activate to filter out all trucks from your own server. Please check this box to comply with the rules. The image below shows where to find the checkbox.",
+      "Image": "Please activate the checkbox as shown in the image."
     }
   }
 }

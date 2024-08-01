@@ -127,7 +127,8 @@
     "Home": "Accueil",
     "Rules": "Règles",
     "VS": "Duel VS",
-    "Alliances": "Alliance"
+    "Alliances": "Alliance",
+    "Basics": "Bases"
   },
   "VS": {
     "Title": "Duel VS",
@@ -379,6 +380,19 @@
       },
       "Footer": "Dans l'image ci-dessous, la Téléportation d'Alliance est montrée, et dans l'image ci-dessus se trouve la boutique. Vous pouvez échanger les deux téléportations comme décrit ci-dessus dans la boutique de l'alliance. La Téléportation d'Alliance coûte moins cher.",
       "Image": "Cliquez sur: <b><br> 1. Inventaire <br> 2. Spécial <br> 3. Téléportation d'Alliance <br> 3. Utiliser"
+    }
+  },
+  "Basics": {
+    "Title": "Bases",
+    "Translate": {
+      "Title": "Traductions",
+      "Description": "Dans Last War, vous pouvez utiliser la fonction de traduction automatique pour traduire le texte dans votre propre langue. Pour traduire les discussions et les messages, utilisez simplement l'icône en bas à droite – elle montre un 'A' avec des flèches et un 'T'. De cette manière, vous pouvez communiquer dans votre langue préférée et vous concentrer entièrement sur le jeu !",
+      "Image": "L'image montre deux exemples de l'emplacement de l'icône pour traduire le texte."
+    },
+    "Trucks": {
+      "Title": "Pillage des camions sur votre propre serveur",
+      "Description": "Il est interdit de piller les camions sur votre propre serveur. Pour vous assurer que ces camions n'apparaissent pas, il y a une case à cocher que vous pouvez activer pour filtrer tous les camions de votre propre serveur. Veuillez cocher cette case pour respecter les règles. L'image ci-dessous montre où trouver la case.",
+      "Image": "Veuillez activer la case comme indiqué sur l'image."
     }
   }
 }

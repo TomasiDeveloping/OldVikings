@@ -127,7 +127,8 @@
     "Home": "Startseite",
     "Rules": "Regeln",
     "VS": "VS-Duell",
-    "Alliances": "Allianz"
+    "Alliances": "Allianz",
+    "Basics": "Grundlagen"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -379,6 +380,19 @@
       },
       "Footer": "Im Bild unten wird die Allianz Verlagerung gezeigt, und im Bild oben ist der Laden. Diese beiden Verlagerungen kannst du wie oben beschrieben im Allianz Laden eintauschen. Die Allianz Verlagerung kostet weniger.",
       "Image": "Klicke auf: <b><br> 1. Inventar <br> 2. Speziell <br> 3. Allianz Verlagerung <br> 3. Benützen"
+    }
+  },
+  "Basics": {
+    "Title": "Grundlagen",
+    "Translate": {
+      "Title": "Übersetzungen",
+      "Description": "In Last War könnt ihr die automatische Übersetzungsfunktion nutzen, um Texte in eure eigene Sprache zu übersetzen. Um Chats und Nachrichten zu übersetzen, verwendet einfach das Icon unten rechts – es zeigt ein „A“ mit Pfeilen und ein „T“. So könnt ihr in eurer bevorzugten Sprache kommunizieren und euch voll und ganz auf das Spiel konzentrieren!",
+      "Image": "Auf dem Bild seht ihr zwei Beispiele, wo sich das Icon befindet, um den Text zu übersetzen."
+    },
+    "Trucks": {
+      "Title": "Plündern von LKWs auf dem eigenen Server",
+      "Description": "Es ist nicht erlaubt, LKWs auf eurem eigenen Server zu plündern. Um sicherzustellen, dass solche LKWs nicht angezeigt werden, gibt es eine Checkbox, die ihr aktivieren könnt, um alle LKWs vom eigenen Server herauszufiltern. Bitte setzt diese Checkbox, um den Regeln zu entsprechen. Im Bild unten seht ihr, wo ihr die Checkbox findet.",
+      "Image": "Bitte aktiviert die Checkbox wie im Bild dargestellt."
     }
   }
 }

@@ -127,7 +127,8 @@
     "Home": "Hjem",
     "Rules": "Regler",
     "VS": "VS-Duell",
-    "Alliances": "Allianse"
+    "Alliances": "Allianse",
+    "Basics": "Grunnleggende"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -379,6 +380,19 @@
       },
       "Footer": "På bildet nedenfor vises Allianse Teleportering, og på bildet ovenfor er butikken. Du kan bytte begge teleporteringene som beskrevet ovenfor i Alliansebutikken. Allianse Teleportering koster mindre.",
       "Image": "Klikk på: <b><br> 1. Inventar <br> 2. Spesial <br> 3. Allianse Teleportering <br> 4. Bruk"
+    }
+  },
+  "Basics": {
+    "Title": "Grunnleggende",
+    "Translate": {
+      "Title": "Oversettelser",
+      "Description": "I Last War kan du bruke den automatiske oversettingsfunksjonen for å oversette tekst til ditt eget språk. For å oversette chatter og meldinger, bruk bare ikonet nederst til høyre – det viser en 'A' med piler og en 'T'. På denne måten kan du kommunisere på ditt foretrukne språk og fokusere helt på spillet!",
+      "Image": "Bildet viser to eksempler på hvor du finner ikonet for å oversette teksten."
+    },
+    "Trucks": {
+      "Title": "Ransaking av lastebiler på din egen server",
+      "Description": "Det er ikke tillatt å rane lastebiler på din egen server. For å sikre at slike lastebiler ikke vises, er det en avkrysningsboks du kan aktivere for å filtrere ut alle lastebiler fra din egen server. Vennligst merk av denne boksen for å overholde reglene. Bildet nedenfor viser hvor du finner avkrysningsboksen.",
+      "Image": "Vennligst aktiver avkrysningsboksen som vist på bildet."
     }
   }
 }

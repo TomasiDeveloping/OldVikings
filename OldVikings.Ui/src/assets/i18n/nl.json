@@ -127,7 +127,8 @@
     "Home": "Home",
     "Rules": "Regels",
     "VS": "VS-Duel",
-    "Alliances": "Alliantie"
+    "Alliances": "Alliantie",
+    "Basics": "Basisprincipes"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -379,6 +380,19 @@
       },
       "Footer": "Op de afbeelding hieronder wordt de Alliantie Teleportatie getoond, en op de afbeelding hierboven is de winkel te zien. Je kunt beide teleportaties zoals hierboven beschreven in de alliantie winkel inwisselen. De Alliantie Teleportatie kost minder.",
       "Image": "Klik op: <b><br> 1. Inventaris <br> 2. Speciaal <br> 3. Alliantie Teleportatie <br> 3. Gebruiken"
+    }
+  },
+  "Basics": {
+    "Title": "Basisprincipes",
+    "Translate": {
+      "Title": "Vertalingen",
+      "Description": "In Last War kun je de automatische vertaalfunctie gebruiken om tekst naar je eigen taal te vertalen. Om chats en berichten te vertalen, gebruik je gewoon het pictogram rechtsonder – het toont een 'A' met pijlen en een 'T'. Op deze manier kun je communiceren in je voorkeurstaal en je volledig op het spel concentreren!",
+      "Image": "De afbeelding toont twee voorbeelden van waar je het pictogram kunt vinden om de tekst te vertalen."
+    },
+    "Trucks": {
+      "Title": "Looten van vrachtwagens op je eigen server",
+      "Description": "Het is niet toegestaan om vrachtwagens op je eigen server te looten. Om ervoor te zorgen dat dergelijke vrachtwagens niet worden weergegeven, is er een selectievakje dat je kunt aanvinken om alle vrachtwagens van je eigen server te filteren. Vink dit vakje aan om aan de regels te voldoen. De afbeelding hieronder toont waar je het selectievakje kunt vinden.",
+      "Image": "Vink het selectievakje aan zoals weergegeven op de afbeelding."
     }
   }
 }
