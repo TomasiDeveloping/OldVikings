@@ -49,8 +49,10 @@
     },
     "Information": {
       "Title": "Ytterligere informasjon",
-      "Description": "Her finner du nyttige lenker til de viktigste sidene på vår nettside:",
-      "Vs": "VS-Duell"
+      "Description": "Her finner du nyttige lenker til de viktigste sidene på vår hjemmeside:",
+      "Vs": "VS-Duell",
+      "Rules": "Regler",
+      "Basics": "Grunnleggende"
     }
   },
   "Rules": {

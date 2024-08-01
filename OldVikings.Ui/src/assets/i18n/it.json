@@ -48,9 +48,11 @@
       }
     },
     "Information": {
-      "Title": "Informazioni aggiuntive",
-      "Description": "Qui troverai link utili alle pagine più importanti del nostro sito web:",
-      "Vs": "Duel VS"
+      "Title": "Ulteriori informazioni",
+      "Description": "Qui trovi collegamenti utili alle pagine principali del nostro sito web:",
+      "Vs": "Duello VS",
+      "Rules": "Regole",
+      "Basics": "Fondamenti"
     }
   },
   "Rules": {

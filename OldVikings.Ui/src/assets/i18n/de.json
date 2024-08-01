@@ -50,7 +50,9 @@
     "Information": {
       "Title": "Weitere Informationen",
       "Description": "Hier findest du nützliche Links zu den wichtigsten Seiten unserer Homepage:",
-      "Vs": "VS-Duell"
+      "Vs": "VS-Duell",
+      "Rules": "Regeln",
+      "Basics": "Grundlagen"
     }
   },
   "Rules": {

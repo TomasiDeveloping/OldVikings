@@ -49,8 +49,10 @@
     },
     "Information": {
       "Title": "Informations supplémentaires",
-      "Description": "Voici des liens utiles vers les pages les plus importantes de notre site Web :",
-      "Vs": "Duel VS"
+      "Description": "Vous trouverez ici des liens utiles vers les pages principales de notre site web :",
+      "Vs": "Duel VS",
+      "Rules": "Règles",
+      "Basics": "Bases"
     }
   },
   "Rules": {

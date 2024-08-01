@@ -48,9 +48,11 @@
       }
     },
     "Information": {
-      "Title": "Aanvullende informatie",
+      "Title": "Meer informatie",
       "Description": "Hier vind je nuttige links naar de belangrijkste pagina's van onze website:",
-      "Vs": "VS-Duel"
+      "Vs": "VS-Duel",
+      "Rules": "Regels",
+      "Basics": "Basisprincipes"
     }
   },
   "Rules": {

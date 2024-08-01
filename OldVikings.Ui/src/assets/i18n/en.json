@@ -48,9 +48,11 @@
       }
     },
     "Information": {
-      "Title": "Additional Information",
-      "Description": "Here you will find useful links to the most important pages on our website:",
-      "Vs": "VS-Duel"
+      "Title": "More Information",
+      "Description": "Here you will find useful links to the main pages of our website:",
+      "Vs": "VS Duel",
+      "Rules": "Rules",
+      "Basics": "Basics"
     }
   },
   "Rules": {

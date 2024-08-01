@@ -48,9 +48,11 @@
       }
     },
     "Information": {
-      "Title": "Más Información",
-      "Description": "Aquí encontrarás enlaces útiles a las páginas más importantes de nuestra página web:",
-      "Vs": "Duelo VS"
+      "Title": "Más información",
+      "Description": "Aquí encontrarás enlaces útiles a las páginas principales de nuestro sitio web:",
+      "Vs": "Duelo VS",
+      "Rules": "Reglas",
+      "Basics": "Fundamentos"
     }
   },
   "Rules": {
