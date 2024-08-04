@@ -1,0 +1,104 @@
+<div class="container pb-5">
+  <h3 class="custom-font mt-3 text-center">{{'TipsAndTricks.Title' | translate}}</h3>
+
+  <section>
+    <hr>
+    <h5>{{'TipsAndTricks.Overview.Title' | translate}}</h5>
+    <ul>
+      <li><a routerLink="/tips-and-tricks" fragment="pvp">{{'TipsAndTricks.Pvp.Title' | translate}}</a></li>
+      <li><a routerLink="/tips-and-tricks" fragment="troops">{{'TipsAndTricks.Troops.Title' | translate}}</a></li>
+      <li><a routerLink="/tips-and-tricks" fragment="healing">{{'TipsAndTricks.Healing.Title' | translate}}</a></li>
+      <li><a routerLink="/tips-and-tricks" fragment="small-troops">{{'TipsAndTricks.SmallTroops.Title' | translate}}</a></li>
+      <li><a routerLink="/tips-and-tricks" fragment="increased-damage">{{'TipsAndTricks.IncreasedDamage.Title' | translate}}</a></li>
+    </ul>
+  </section>
+
+  <section id="pvp">
+    <hr>
+    <h5>{{'TipsAndTricks.Pvp.Title' | translate}}</h5>
+    <p>{{'TipsAndTricks.Pvp.Description1' | translate}}</p>
+    <ul>
+      <li>{{'TipsAndTricks.Pvp.Tip1' | translate}}</li>
+      <ul>
+        <li>{{'TipsAndTricks.Pvp.Tip2' | translate}}</li>
+        <li>{{'TipsAndTricks.Pvp.Tip3' | translate}}</li>
+      </ul>
+      <li>{{'TipsAndTricks.Pvp.Tip4' | translate}}</li>
+      <ul>
+        <li>{{'TipsAndTricks.Pvp.Tip5' | translate}}</li>
+        <li>{{'TipsAndTricks.Pvp.Tip6' | translate}}</li>
+      </ul>
+    </ul>
+    <div class="image-text-container">
+      <div [innerHTML]="'TipsAndTricks.Pvp.Image1' | translate"></div>
+      <div>
+        <img src="assets/images/tips/wall1.jpg" class="img-fluid custom-image" alt="...">
+      </div>
+    </div>
+    <div class="image-text-container">
+      <div [innerHTML]="'TipsAndTricks.Pvp.Image2' | translate"></div>
+      <div>
+        <img src="assets/images/tips/wall.jpg" class="img-fluid custom-image" alt="...">
+      </div>
+    </div>
+  </section>
+
+  <section id="troops">
+    <hr>
+    <h5>{{'TipsAndTricks.Troops.Title' | translate}}</h5>
+    <p>{{'TipsAndTricks.Troops.Description1' | translate}}</p>
+    <ul>
+      <li>{{'TipsAndTricks.Troops.Tip1' | translate}}</li>
+      <ul>
+        <li>{{'TipsAndTricks.Troops.Tip2' | translate}}</li>
+      </ul>
+    </ul>
+    <h6>{{'TipsAndTricks.Troops.Example.Title' | translate}}</h6>
+    <ul>
+      <li>{{'TipsAndTricks.Troops.Example.Example1' | translate}}</li>
+      <li>{{'TipsAndTricks.Troops.Example.Example2' | translate}}</li>
+    </ul>
+    <p>{{'TipsAndTricks.Troops.Example.Description' | translate}}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'TipsAndTricks.Troops.Image1' | translate"></small>
+      <div>
+        <img src="assets/images/tips/unitUpgrade.jpg" class="img-fluid custom-image" alt="...">
+      </div>
+    </div>
+  </section>
+
+  <section id="healing">
+    <hr>
+    <h5>{{'TipsAndTricks.Healing.Title' | translate}}</h5>
+    <p>{{'TipsAndTricks.Healing.Description1' | translate}}</p>
+  </section>
+
+  <section id="small-troops">
+    <hr>
+    <h5>{{'TipsAndTricks.SmallTroops.Title' | translate}}</h5>
+    <p>{{'TipsAndTricks.SmallTroops.Description1' | translate}}</p>
+    <p>{{'TipsAndTricks.SmallTroops.Description2' | translate}}</p>
+    <ul>
+      <li>{{'TipsAndTricks.SmallTroops.Tip1' | translate}}</li>
+      <li>{{'TipsAndTricks.SmallTroops.Tip2' | translate}}</li>
+      <li>{{'TipsAndTricks.SmallTroops.Tip3' | translate}}</li>
+    </ul>
+    <p>{{'TipsAndTricks.SmallTroops.Tip4' | translate}}</p>
+  </section>
+
+  <section id="increased-damage">
+    <hr>
+    <h5>{{'TipsAndTricks.IncreasedDamage.Title' | translate}}</h5>
+    <p>{{'TipsAndTricks.IncreasedDamage.Description1' | translate}}</p>
+    <p>{{'TipsAndTricks.IncreasedDamage.Description2' | translate}}</p>
+    <p>{{'TipsAndTricks.IncreasedDamage.Description3' | translate}}</p>
+    <ul>
+      <li>{{'TipsAndTricks.IncreasedDamage.Tip1' | translate}}</li>
+      <li>{{'TipsAndTricks.IncreasedDamage.Tip2' | translate}}</li>
+    </ul>
+    <p>{{'TipsAndTricks.IncreasedDamage.Tip3' | translate}}</p>
+    <p>{{'TipsAndTricks.IncreasedDamage.Tip4' | translate}}</p>
+    <p>{{'TipsAndTricks.IncreasedDamage.Tip5' | translate}}</p>
+  </section>
+
+</div>

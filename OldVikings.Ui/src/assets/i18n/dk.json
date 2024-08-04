@@ -52,7 +52,8 @@
       "Description": "Her finder du nyttige links til de vigtigste sider på vores hjemmeside:",
       "Vs": "VS-Duel",
       "Rules": "Regler",
-      "Basics": "Grundlæggende"
+      "Basics": "Grundlæggende",
+      "TipsAndTricks": "Tips og Tricks"
     }
   },
   "Rules": {
@@ -129,8 +130,10 @@
     "Home": "Hjem",
     "Rules": "Regler",
     "VS": "VS-Duel",
-    "Alliances": "Allianse",
-    "Basics": "Grundlæggende"
+    "Alliances": "Alliancer",
+    "Basics": "Grundlæggende",
+    "TipsAndTricks": "Tips/Tricks",
+    "Buildings": "Bygninger"
   },
   "VS": {
     "Title": "VS Duel",
@@ -395,6 +398,141 @@
       "Title": "Plundring af lastbiler på din egen server",
       "Description": "Det er ikke tilladt at plundre lastbiler på din egen server. For at sikre, at sådanne lastbiler ikke vises, er der en checkbox, som du kan aktivere for at filtrere alle lastbiler fra din egen server. Sørg for at markere denne checkbox for at overholde reglerne. På billedet nedenfor ser du, hvor du finder checkboxen.",
       "Image": "Venligst aktiver checkboxen som vist på billedet."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Tips og Tricks",
+    "Overview": {
+      "Title": "Oversigt"
+    },
+    "Pvp": {
+      "Title": "Angreb og Forsvar",
+      "Description1": "Lad os først tale om grundlæggende forsvar. Du bør kun forsøge at forsvare, hvis din hovedstyrke kan overleve det første eller andet på hinanden følgende angreb (dvs. angriberen er nogenlunde på dit niveau).",
+      "Tip1": "Hvis du ikke kan forsvare eller ikke er online for at træffe denne beslutning, DEAKTIVER dine forsvar.",
+      "Tip2": "Sådan aktiverer/deaktiverer du forsvar: Gå til muren i din base, klik på hus+ ikonet, og deaktiver tropperne. Hver gang du låser op for en ny trop, skal du sørge for også at deaktivere den. Nogle gange giver det mening slet ikke at have forsvar, og nogle gange giver det mening at bruge hovedstyrken som forsvar, men den største fejl, du kan begå, er at lade dine svagere tropper deltage i forsvaret.",
+      "Tip3": "Hvorfor det virker: Antag, at en meget stærkere spiller angriber dig 5 gange (antag, at du er niveau 20 med 3 tropper). Du ville tabe omkring 10k til 12k tropper i disse 5 angreb, hvis du havde 3 forsvarshold. Hvis du kun havde én enkelt forsvar (den stærkeste trop), ville du tabe omkring 4k til 5k tropper. Hvis du slet ikke havde noget forsvar, ville du tabe omkring 1k tropper (på grund af gennembruddet, som ikke tæller som drab for angriberen). Det er en stor forskel.",
+      "Tip4": "At angribe baser har to formål i dette spil: (1) at plyndre ressourcer og (2) at tjene point under drabsevents, som fjendens ødelægger (dag 6 i duellen).",
+      "Tip5": "Plyndring giver den bedste ressource-stamina-ratio i spillet, men vær opmærksom på forsvar/kontraangreb, dine nuværende plyndringsgrænser osv.",
+      "Tip6": "Når du angriber andre baser for drabsevents, skal du bemærke, at kun kampe tæller som drab for point. Så nogen uden forsvar eller uden tropper vil ikke give dig eventpoint eller øge dit individuelle drabstal. Det er en anden grund til, at du bør deaktivere dine egne forsvar for at forhindre, at dine modstandere tjener point ved at angribe dig.",
+      "Image1": "Klik på muren og derefter på plusikonet for at få adgang til forsvar.",
+      "Image2": "Ved at markere afkrydsningsfeltet kan du tænde eller slukke for forsvaret for hver trop."
+    },
+    "Troops": {
+      "Title": "Trup/Enhedstræning",
+      "Description1": "Den optimale strategi til træning af tropper er at træne dem i 3 faser. Dette gør ikke træningen hurtigere eller bruger færre ressourcer, men det gør det muligt for dig at tjene flere point under relevante events som enhedstræning i Våbenløbet og dag 5 af Duelaktiviteten.",
+      "Tip1": "Antag TX = max niveau af tropper, du kan træne, TY = et niveau under maksimum, og TZ = to niveauer under maksimum. Strategien er at træne TZ hele ugen (forudsat at du allerede har nok TX til alle dine enheder). Under enhedstræning i Våbenløbet promoverer du TZ -> TY og/eller TY -> TX (du kan udføre to runder i hver kaserne uden accelererede midler under denne fase). På dag 5 af duellen ville du promovere næsten alle TY/TZ til TX, før du går ind i ørkenstormens kampområde eller dag 6 af duellen. Når du har afsluttet drabsevents, fortsætter du med at fylde TZ.",
+      "Tip2": "For eksempel, hvis du er HQ 25, så ville TX være enheder på niveau 8 (kræver Lv24 Kaserne), TY ville være enheder på niveau 7 (kræver Lv20 Kaserne), og TZ ville være enheder på niveau 6 (kræver Lv17 Kaserne). For at anvende denne strategi skal du holde nogle kaserner på et lavere niveau end det maksimale mulige. Af 4 kaserner anbefaler jeg at have 2, der kan træne op til TX og 2, der kun kan træne op til TY. Dette skyldes, at troppeforfremmelse automatisk går til det maksimale niveau for den kaserne.",
+      "Example": {
+        "Title": "Et eksempel: ",
+        "Example1": "Direkte træning: 1 T9-soldat = 250 point",
+        "Example2": "Træning i niveauer: 1 T5 = 150 point, 1 T5 -> 1 T6 = 175 point, 1 T6 -> 1 T7 = 200 point, 1 T7 -> 1 T8 = 225 point, 1 T8 -> 1 T9 = 250 point, i alt 1000 point",
+        "Description": "Som du kan se, får du med den trinvise tilgang fire gange point for hver enkelt soldat."
+      },
+      "Image1": "På dette billede kan du se, hvilke tropper du kan opgradere. Klik på 'Opgrader' knappen, ikke på 'Træn', for at bringe soldaterne til den maksimale niveau af kasernen."
+    },
+    "Healing": {
+      "Title": "Spam-Healing",
+      "Description1": "Et andet koncept er 'Spam-Healing'. Dette betyder, at hvis du har over 1000 døde tropper, og det ville tage 4 timer at hele dem alle, skal du sætte kun 25 minutters heling ad gangen og klikke på hjælp-knappen fra din alliance. Dette holder ressourceomkostningerne den samme, men reducerer helingstiden med mere end 50%. Denne metode er effektiv til at holde din kampkraft høj og sikre en konstant strøm af tropper."
+    },
+    "SmallTroops": {
+      "Title": "Samle ressourcer med lav troppe styrke",
+      "Description1": "Hvis du kun har få tropper til rådighed på dit træningsområde (f.eks. efter lørdagens krige), kan du muligvis ikke sende alle dine tropper for at samle ressourcer, da der kræves et bestemt antal tropper for hver trop.",
+      "Description2": "Dette kan løses på følgende måde:",
+      "Tip1": "Send dine tropper tilbage til basen, så du kan erstatte dem",
+      "Tip2": "Fjern alle helte fra hver trop og tilføj kun 1 helt pr. trop, helst dem med en lav værdi i 'Kommando'-attributten.",
+      "Tip3": "Send nu tropperne ud for at samle. Hver trop vil bruge et meget mindre antal tropper, så du kan sende dem alle.",
+      "Tip4": "Derudover kan du hurtigt træne soldater på niveau 1 i enhver kaserne for at have nogle tropper tilgængelige næsten med det samme, da træning af soldater på niveau 1 går hurtigt."
+    },
+    "IncreasedDamage": {
+      "Title": "Øget skadesprocent",
+      "Description1": "I hver angreb, forsvar eller vagt kan du bruge Krigsfeber til at øge skaden med 1%.",
+      "Description2": "Denne boost aktiveres automatisk, når du angriber eller scout en base, men ikke når du kun forsvarer.",
+      "Description3": "For at udløse Krigsfeber kan du udføre en af følgende handlinger:",
+      "Tip1": "Send et rekognosceringsfly til en base",
+      "Tip2": "Start et angreb eller en rally mod en fjendtlig base (angreb eller rally mod zombier tæller ikke). Du kan også annullere angrebet, når Krigsfeber er startet",
+      "Tip3": "Du kan se status for Krigsfeber øverst til venstre på skærmen, lige under visningerne for mad/jern/mønter/energi. Klik på ikonet for at se nedtællingen.",
+      "Tip4": "Gentag udløsningshandlingen for at genstarte nedtællingen til 15 minutter på ethvert tidspunkt.",
+      "Tip5": "VIGTIGT: Brug ikke denne trick, mens du har et skjold, da du ellers vil miste det."
+    }
+  },
+  "Buildings": {
+    "Title": "Bygninger",
+    "Headquarters": {
+      "Title": "Hovedkvarter",
+      "Description1": "Hovedkvarteret er den vigtigste bygning i spillet. Det udfylder lignende funktioner som rådhusene i andre spil. Når du opgraderer det, kan du opføre nye bygninger og opgradere eksisterende bygninger til et højere niveau.",
+      "Description2": "Når hovedkvarteret stiger i niveau, øges følgende:",
+      "List1": "Ydeevne",
+      "List2": "Helteniveau-grænse",
+      "List3": "Helte-HP",
+      "List4": "Helteangreb",
+      "List5": "Helteforsvar",
+      "List6": "Bygningers niveau-grænse",
+      "LevelUp": {
+        "Title": "Opgraderingskrav",
+        "Description1": "For at opgradere hovedkvarteret til et højere niveau skal både ressource- og bygningskrav opfyldes på hver fase.",
+        "Description2": "Det er vigtigt at fremrykke byggeriet trin for trin for at muliggøre en jævn fremgang til det næste niveau af hovedkvarteret og for at spare tilstrækkelige ressourcer. Hvis hovedkvarteret ikke opgraderes, kan det føre til en svag trup, da denne bygning bestemmer grænsen for helteniveauer.",
+        "Description3": "Nedenfor ses et diagram med de krævede bygninger for hvert niveau",
+        "Table": {
+          "ToUnlock": "HQ for at låse op",
+          "Condition1": "Bygning 1",
+          "Condition2": "Bygning 2",
+          "Iron": "Jern",
+          "Food": "Mad",
+          "Gold": "Guld",
+          "Days": "Dage",
+          "Wall": "Mur L.",
+          "TechCenter": "Teknologisk Center L.",
+          "DrillGround": "Øvelsesterræn L.",
+          "Barracks": "Barakker L.",
+          "AllianceCenter": "Alliancenter L.",
+          "Hospital": "Hospital L.",
+          "TankCenter": "Panzercenter L."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Barakker",
+      "Description1": "Barakkerne bruges til at rekruttere og forfremme dine tropper. Når du har låst op for barakkerne, bør du altid opgradere én barak ad gangen for at bruge dine ressourcer effektivt. At forfremme dine tropper giver dig mulighed for at bringe tropper fra et lavere niveau til det højeste niveau, som dine barakker tillader. Forfremmelse af tropper bliver især nyttigt, når du låser det op, da det giver dig mulighed for at træne og opgradere tropper på niveau et, hvilket kræver færre ressourcer og tid."
+    },
+    "Hospital": {
+      "Title": "Hospital",
+      "Description1": "Hospitalet bruges til at helbrede dine tropper efter en kamp. Hvis en fjende er stærk nok, kan han dræbe eller skade dine tropper. Hospitalet kan dog ikke genoplive faldne tropper, kun helbrede skadede tropper. En effektiv metode til hurtigt at helbrede dine tropper er at vælge et antal tropper, der kan helbredes på 25 minutter eller mindre. Dette giver din alliance mulighed for at hjælpe dig og reducere helbredelsestiden til næsten straks. Hvis du bruger helbredelsessystemet korrekt, vil helbredelsestiden blive reduceret til 25 % af den tid, det ville tage, hvis du havde healet alle tropper på én gang."
+    },
+    "DrillGround": {
+      "Title": "Øvelsesterræn",
+      "Description1": "Øvelsesterrænet er bygningen, hvor dine tropper er stationeret. Det maksimale niveau af øvelsesterrænet stiger med niveauet af dit hovedkvarter. Øvelsesterrænet er en central kilde til din styrke, da styrken af dine tropper i høj grad bestemmer dit magtniveau. For at opnå så meget magt som muligt (det primære mål med spillet), bør du konstant opgradere dit øvelsesterræn til det højeste niveau og eventuelt bygge yderligere øvelsesterræner. Den anden øvelsesplads låses op på niveau 16, og den tredje på niveau 21."
+    },
+    "Garages": {
+      "Title": "Garager",
+      "Description1": "Garagerne huser dine helte. De giver dine helte ekstra styrke og tropper, de kan tage med. I begyndelsen af spillet får du en garage, og du kan låse op for yderligere garager i løbet af spillet, op til tre garager. En fjerde garage kan også opnås gennem det månedlige pas. Du bør kun opgradere Garage 1, da størstedelen af dine bestræbelser i spillet vil være rettet mod denne. Garage 2 bør du kun opgradere, hvis du har brug for den til omkostningseffektive arme-racer-point eller hvis du mener, den ligger for langt tilbage."
+    },
+    "TechCenter": {
+      "Title": "Teknologisk Center",
+      "Description1": "Teknologisk Center er en afgørende del af spillet for at være succesfuld i konkurrencen med andre spillere. Det vises af god grund meget ofte i sektionen 'krævede opgraderinger', når du ønsker at opgradere dit hovedkvarter. Teknologisk Center giver dig mulighed for at forbedre bestemte statistikker for din base, såsom helte, tropper, garager og mere. Dette omdanner ressourcer til mere styrke og statistikker for alt. Når du når niveau 16, har du mulighed for at købe et andet Teknologisk Center, hvilket er stærkt anbefalet."
+    },
+    "GearFactory": {
+      "Title": "Udstyrsfabrik",
+      "Description1": "Udstyrsfabrikken giver dig mulighed for at fremstille eller nedbryde udstyr til dine helte. Du kan fremstille enhver form for udstyr, der i øjeblikket findes i spillet, og også nedbryde udstyrsdela. Desuden tillader udstyrsfabrikken dig at kombinere udstyrskomponenter for at fremstille det Dielektriske Keramik-Komponentstykke, du har brug for, for at skabe et legendarisk udstyr. Det anbefales ikke at fremstille eller opgradere sjældne, Super-Sjældne eller Super-Super-Sjældne udstyrsdela. Når du har mindst alle Super-Super-Sjældne (SSR) udstyrsdela til dine hovedhelte, bør du nedbryde alle yderligere udstyrsdela for at få mere legendarisk udstyr."
+    },
+    "ComponentFactory": {
+      "Title": "Komponentfabrik",
+      "Description1": "Komponentfabrikken producerer kasser med dronekomponenter. Disse dronekomponenter bruges i Dronecenteret til at foretage yderligere opgraderinger af din drone. Når komponentfabrikken er bygget, kan den ikke længere opgraderes."
+    },
+    "TankCenter": {
+      "Title": "Panzercenter",
+      "Description1": "Panzercenteret er en afgørende bygning i spillet, der forbedrer statistikkerne for dine panzerhelte betydeligt. Denne bygning bør hver gang du opgraderer dit hovedkvarter, så hurtigt som muligt opgraderes til det maksimale niveau."
+    },
+    "AircraftCenter": {
+      "Title": "Flycenter",
+      "Description1": "Flycenteret udfylder samme funktion som Panzercenteret, men for flytypehelte. I begyndelsen er det ikke vigtigt at opgradere denne bygning, da den ikke giver bonusser til opsætningen, som du skal bruge. Når DVA og Carlie dog bliver tilgængelige, vil det være lige så vigtigt at opgradere Flycenteret som Panzercenteret, på grund af de ekstra statistikker, det giver disse helte."
+    },
+    "MissileCenter": {
+      "Title": "Missilcenter",
+      "Description1": "Ligesom de to ovenstående bygninger øger Missilcenteret statistikkerne for raket-helttype."
+    },
+    "ResourceCenters": {
+      "Title": "Ressourcecentre",
+      "Description1": "Mad-, jern- og smeltecentre er bygninger, der producerer de respektive ressourcer. Træningsbasen er bygningen, der producerer helte-XP. Erfaring viser, at træningsbasebygninger giver en god XP-udnyttelse i forhold til de anvendte ressourcer og er effektive at opgradere."
     }
   }
 }

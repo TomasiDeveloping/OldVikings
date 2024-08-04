@@ -52,7 +52,8 @@
       "Description": "Qui trovi collegamenti utili alle pagine principali del nostro sito web:",
       "Vs": "Duello VS",
       "Rules": "Regole",
-      "Basics": "Fondamenti"
+      "Basics": "Fondamenti",
+      "TipsAndTricks": "Suggerimenti e trucchi"
     }
   },
   "Rules": {
@@ -129,8 +130,10 @@
     "Home": "Home",
     "Rules": "Regole",
     "VS": "Duello VS",
-    "Alliances": "Alleanza",
-    "Basics": "Fondamenti"
+    "Alliances": "Alleanze",
+    "Basics": "Fondamenti",
+    "TipsAndTricks": "Suggerimenti/Trucchi",
+    "Buildings": "Edifici"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -395,6 +398,141 @@
       "Title": "Saccheggio dei camion sul tuo server",
       "Description": "Non è permesso saccheggiare i camion sul tuo server. Per assicurarti che tali camion non vengano visualizzati, c'è una casella che puoi attivare per filtrare tutti i camion dal tuo server. Per favore, spunta questa casella per conformarti alle regole. L'immagine sottostante mostra dove trovare la casella.",
       "Image": "Per favore, attiva la casella come mostrato nell'immagine."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Suggerimenti e trucchi",
+    "Overview": {
+      "Title": "Panoramica"
+    },
+    "Pvp": {
+      "Title": "Attacco e difesa",
+      "Description1": "Parliamo prima della difesa di base. Dovresti provare a difendere solo se la tua truppa principale può sopravvivere al primo o secondo attacco consecutivo (ovvero, l'attaccante è più o meno al tuo livello).",
+      "Tip1": "Se non puoi difendere o non sei online per prendere questa decisione, DISATTIVA le tue difese.",
+      "Tip2": "Per attivare/disattivare le difese: Vai al muro nella tua base, clicca sull'icona con il simbolo + della casa e disattiva le truppe. Ogni volta che sblocchi una nuova truppa, assicurati di disattivarla. A volte ha senso non avere alcuna difesa e a volte ha senso utilizzare la truppa principale come difesa, ma il peggior errore che puoi fare è far partecipare le tue truppe più deboli alla difesa.",
+      "Tip3": "Perché funziona: Supponiamo che un giocatore molto più forte ti attacchi 5 volte (supponiamo che tu sia di livello 20 con 3 truppe). Perderesti circa 10k-12k truppe in questi 5 attacchi se avessi 3 squadre di difesa. Se avessi solo una singola difesa (la truppa più forte), perderesti circa 4k-5k truppe. Se non avessi alcuna difesa, perderesti circa 1k truppe (a causa dell'attacco di sfondamento che non conta come uccisioni per l'attaccante). Questa è una grande differenza.",
+      "Tip4": "Attaccare le basi ha due scopi in questo gioco: (1) saccheggiare risorse e (2) accumulare punti durante eventi di uccisioni, come il Distruttore di nemici (giorno 6 del duello).",
+      "Tip5": "Saccheggiare offre il miglior rapporto risorse-stamina nel gioco, ma sii consapevole delle difese/controattacchi, dei tuoi limiti di saccheggio attuali, ecc.",
+      "Tip6": "Quando attacchi altre basi per eventi di uccisioni, nota che solo i combattimenti contano come uccisioni per i punti. Quindi qualcuno senza difesa o senza truppe non ti darà punti evento o un aumento del tuo numero individuale di uccisioni. Questo è un altro motivo per cui dovresti disattivare le tue difese, per impedire che i tuoi avversari accumulino punti attaccandoti.",
+      "Image1": "Clicca sul muro e poi sull'icona più per accedere alla difesa.",
+      "Image2": "Attivando la casella di controllo puoi accendere o spegnere la difesa per ogni truppa."
+    },
+    "Troops": {
+      "Title": "Addestramento truppe/unità",
+      "Description1": "La strategia ottimale per l'addestramento delle truppe è addestrarle in 3 fasi. Questo non rende l'addestramento più veloce e non consuma meno risorse, ma ti permette di accumulare più punti durante eventi rilevanti come l'addestramento unità nella corsa alle armi e il giorno 5 dell'attività del duello.",
+      "Tip1": "Supponiamo che TX = livello massimo delle truppe che puoi addestrare, TY = un livello sotto il massimo e TZ = due livelli sotto il massimo. La strategia è addestrare TZ per tutta la settimana (a condizione che tu abbia già abbastanza TX per tutte le tue unità). Durante l'addestramento delle unità nella corsa alle armi, promuovi TZ -> TY e/o TY -> TX (è possibile fare due turni in ogni caserma senza accelerazioni durante questa fase). Il giorno 5 del duello promuoveresti quasi tutte le TY/TZ a TX prima di andare al campo di battaglia Tempesta del deserto o al giorno 6 del duello. Una volta completati gli eventi di uccisioni, continua a riempire TZ.",
+      "Tip2": "Ad esempio, se sei HQ 25, allora TX sarebbe unità di livello 8 (richiede caserma Lv24), TY sarebbe unità di livello 7 (richiede caserma Lv20), e TZ sarebbe unità di livello 6 (richiede caserma Lv17). Per applicare questa strategia, devi mantenere alcune caserme a un livello inferiore rispetto al massimo possibile. Su 4 caserme, consiglio di averne 2 che possono addestrare fino a TX e 2 che possono addestrare solo fino a TY. Questo perché l'aggiornamento delle truppe va automaticamente al livello massimo per quella caserma.",
+      "Example": {
+        "Title": "Un esempio: ",
+        "Example1": "Addestramento diretto: 1 soldato T9 = 250 punti",
+        "Example2": "Addestramento a fasi: 1 T5 = 150 punti, 1 T5 -> 1 T6 = 175 punti, 1 T6 -> 1 T7 = 200 punti, 1 T7 -> 1 T8 = 225 punti, 1 T8 -> 1 T9 = 250 punti è in totale 1000 punti",
+        "Description": "Come puoi vedere, con l'approccio graduale ottieni quattro volte il punteggio per ciascun soldato."
+      },
+      "Image1": "In questa immagine puoi vedere quali truppe puoi aggiornare. Clicca sul pulsante 'Aggiorna', non su 'Addestra', per portare i soldati al livello massimo della caserma."
+    },
+    "Healing": {
+      "Title": "Spam-Healing",
+      "Description1": "Un altro concetto è 'Spam-Healing'. Questo significa che se hai più di 1000 truppe morte e ci vorrebbero 4 ore per guarirle tutte, dovresti impostare solo 25 minuti di tempo di guarigione alla volta e cliccare sul pulsante per l'aiuto della tua alleanza. Questo mantiene costante il costo delle risorse, ma riduce il tempo di guarigione di oltre il 50%. Questo metodo è efficiente per mantenere alta la tua potenza di combattimento e garantire un flusso costante di truppe."
+    },
+    "SmallTroops": {
+      "Title": "Raccogli risorse con una piccola forza di truppe",
+      "Description1": "Se hai solo poche truppe disponibili nel tuo campo di addestramento (ad esempio, dopo le guerre del sabato), potresti non essere in grado di inviare tutte le truppe a raccogliere risorse, poiché è necessaria una certa quantità di truppe per ogni truppa.",
+      "Description2": "Questo può essere risolto nel seguente modo:",
+      "Tip1": "Riporta le tue truppe alla base in modo da poterle sostituire",
+      "Tip2": "Rimuovi tutti gli eroi da ogni truppa e aggiungi solo 1 eroe per truppa, preferibilmente quelli con un valore basso nell'attributo 'Comando'.",
+      "Tip3": "Ora invia le truppe a raccogliere. Ogni truppa utilizzerà un numero molto minore di truppe, quindi potrai inviarle tutte.",
+      "Tip4": "Inoltre, puoi semplicemente addestrare soldati di livello 1 in una qualsiasi caserma per avere quasi immediatamente alcune truppe disponibili, poiché l'addestramento dei soldati di livello 1 è veloce."
+    },
+    "IncreasedDamage": {
+      "Title": "Percentuale di danno aumentata",
+      "Description1": "In ogni attacco, nella difesa o alla guardia puoi usare la febbre da guerra per aumentare il danno dell'1%.",
+      "Description2": "Questo potenziamento si attiva automaticamente quando attacchi o esplori una base, ma non quando difendi semplicemente.",
+      "Description3": "Per attivare la febbre da guerra, puoi eseguire una delle seguenti azioni:",
+      "Tip1": "Invia un aereo da ricognizione su una base",
+      "Tip2": "Avvia un attacco o una manifestazione contro una base nemica (gli attacchi o le manifestazioni contro gli zombie non funzionano). Puoi anche annullare l'attacco una volta che la febbre da guerra è iniziata",
+      "Tip3": "Lo stato della febbre da guerra può essere visto in alto a sinistra dello schermo, direttamente sotto le visualizzazioni di cibo/ferro/monete/energia. Cliccando sull'icona, verrà visualizzato il conto alla rovescia.",
+      "Tip4": "Ripeti l'azione di attivazione per riavviare il conto alla rovescia a 15 minuti in qualsiasi momento.",
+      "Tip5": "IMPORTANTE: Non utilizzare questo trucco mentre hai uno scudo, altrimenti lo perderai."
+    }
+  },
+  "Buildings": {
+    "Title": "Edifici",
+    "Headquarters": {
+      "Title": "Quartier Generale",
+      "Description1": "Il Quartier Generale è l'edificio più importante del gioco. Svolge funzioni simili a quelle degli municipi in altri giochi. Migliorandolo, potrai costruire nuovi edifici e elevare i edifici esistenti a livelli superiori.",
+      "Description2": "Quando il Quartier Generale sale di livello, aumentano i seguenti aspetti:",
+      "List1": "Prestazioni",
+      "List2": "Limite di Livello degli Eroi",
+      "List3": "HP degli Eroi",
+      "List4": "Attacco degli Eroi",
+      "List5": "Difesa degli Eroi",
+      "List6": "Limite di Livello per ogni edificio",
+      "LevelUp": {
+        "Title": "Requisiti di Miglioramento",
+        "Description1": "Per migliorare il Quartier Generale a un livello superiore, devono essere soddisfatti sia i requisiti di risorse che quelli degli edifici in ogni fase.",
+        "Description2": "È importante progredire nella costruzione passo dopo passo per garantire un avanzamento fluido verso il livello successivo del Quartier Generale e per risparmiare risorse sufficienti. Se il Quartier Generale non viene migliorato, potrebbe portare a un gruppo debole, poiché questo edificio determina il limite per i livelli degli eroi.",
+        "Description3": "Di seguito è riportato un diagramma con gli edifici richiesti per ogni livello",
+        "Table": {
+          "ToUnlock": "HQ per sbloccare",
+          "Condition1": "Edificio 1",
+          "Condition2": "Edificio 2",
+          "Iron": "Ferro",
+          "Food": "Cibo",
+          "Gold": "Oro",
+          "Days": "Giorni",
+          "Wall": "Muro N.",
+          "TechCenter": "Centro di Tecnologia N.",
+          "DrillGround": "Campo di Addestramento N.",
+          "Barracks": "Caserma N.",
+          "AllianceCenter": "Centro Alleanza N.",
+          "Hospital": "Ospedale N.",
+          "TankCenter": "Centro Carri N."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Caserma",
+      "Description1": "Le Caserme servono a reclutare e promuovere le tue truppe. Una volta sbloccate le Caserme, dovresti sempre aggiornare una sola Caserma alla volta per utilizzare le tue risorse in modo efficiente. Promuovere le tue truppe ti consente di far passare le truppe da un livello inferiore al livello più alto consentito dalle tue Caserme. Promuovere le truppe diventa particolarmente utile una volta sbloccato, poiché ti consente di addestrare e migliorare truppe di livello uno, richiedendo meno risorse e tempo."
+    },
+    "Hospital": {
+      "Title": "Ospedale",
+      "Description1": "L'Ospedale viene utilizzato per curare le tue truppe dopo una battaglia. Se un nemico è abbastanza forte, può uccidere o ferire le tue truppe. Tuttavia, l'Ospedale non può riportare in vita le truppe cadute, ma solo curare quelle ferite. Un metodo efficace per curare rapidamente le tue truppe è selezionare solo un numero di truppe che possono essere curate in 25 minuti o meno. Questo permette alla tua alleanza di aiutarti e ridurre il tempo di cura a quasi immediato. Utilizzando correttamente il sistema di cura, il tempo di cura sarà ridotto al 25% del tempo che avrebbe richiesto se avessi curato tutte le truppe contemporaneamente."
+    },
+    "DrillGround": {
+      "Title": "Campo di Addestramento",
+      "Description1": "Il Campo di Addestramento è l'edificio in cui sono stazionate le tue truppe. Il livello massimo del Campo di Addestramento aumenta con il livello del tuo Quartier Generale. Il Campo di Addestramento è una fonte centrale della tua forza, poiché la forza delle tue truppe determina in gran parte il tuo livello di potenza. Per raggiungere la massima potenza possibile (l'obiettivo principale del gioco), dovresti costantemente portare il tuo Campo di Addestramento al livello più alto e costruire ulteriori Campi di Addestramento quando possibile. Il secondo Campo di Addestramento viene sbloccato al livello 16 e il terzo al livello 21."
+    },
+    "Garages": {
+      "Title": "Garage",
+      "Description1": "I Garage ospitano i tuoi eroi. Forniscono ai tuoi eroi una forza aggiuntiva e truppe che possono portare con loro. All'inizio del gioco, ricevi un Garage e puoi sbloccare altri Garage durante il gioco, fino a un massimo di tre Garage. Un quarto Garage può anche essere ottenuto tramite il pass mensile. Dovresti concentrarti esclusivamente sul migliorare il Garage 1, poiché la maggior parte dei tuoi sforzi nel gioco sarà indirizzata verso di esso. Migliora il Garage 2 solo se ne hai bisogno per punti di corsa di armi economici o se ritieni che sia troppo indietro."
+    },
+    "TechCenter": {
+      "Title": "Centro di Tecnologia",
+      "Description1": "Il Centro di Tecnologia è una parte cruciale del gioco per competere con successo contro altri giocatori. Viene mostrato frequentemente nella sezione 'aggiornamenti richiesti' quando desideri migliorare il tuo Quartier Generale, e non è senza motivo. Il Centro di Tecnologia ti consente di migliorare alcune statistiche della tua base, come eroi, truppe, garage e altro ancora. Questo converte le risorse in maggiore forza e statistiche per tutto. Una volta raggiunto il livello 16, avrai la possibilità di acquistare un secondo Centro di Tecnologia, il che è fortemente consigliato."
+    },
+    "GearFactory": {
+      "Title": "Fabbrica di Equipaggiamenti",
+      "Description1": "La Fabbrica di Equipaggiamenti ti consente di creare o smontare equipaggiamenti per i tuoi eroi. Puoi creare qualsiasi tipo di equipaggiamento attualmente esistente nel gioco e anche smontare parti di equipaggiamento. Inoltre, la Fabbrica di Equipaggiamenti ti consente di combinare componenti di equipaggiamento per creare il pezzo di Componente Ceramico Dielettrico necessario per creare un equipaggiamento leggendario. Non è consigliabile creare o migliorare parti di equipaggiamento rare, superrare o super-superrare. Una volta che hai almeno tutte le parti di equipaggiamento super-superrare (SSR) per i tuoi eroi principali, dovresti smontare tutte le parti di equipaggiamento aggiuntive per ottenere più equipaggiamento leggendario."
+    },
+    "ComponentFactory": {
+      "Title": "Fabbrica di Componenti",
+      "Description1": "La Fabbrica di Componenti produce scatole di componenti per droni. Questi componenti per droni vengono utilizzati nel Centro Droni per effettuare ulteriori miglioramenti al tuo drone. Una volta che la Fabbrica di Componenti è costruita, non può più essere migliorata."
+    },
+    "TankCenter": {
+      "Title": "Centro Carri",
+      "Description1": "Il Centro Carri è un edificio cruciale nel gioco che migliora notevolmente le statistiche dei tuoi eroi carri. Questo edificio dovrebbe essere portato al suo livello massimo il più presto possibile ogni volta che migliori il tuo Quartier Generale."
+    },
+    "AircraftCenter": {
+      "Title": "Centro Aeromobili",
+      "Description1": "Il Centro Aeromobili svolge la stessa funzione del Centro Carri, ma per gli eroi di tipo aeromobile. All'inizio, non è fondamentale aggiornare questo edificio, poiché non fornisce bonus per la configurazione che dovresti usare. Tuttavia, una volta che DVA e Carlie saranno disponibili, aggiornare il Centro Aeromobili sarà altrettanto importante quanto aggiornare il Centro Carri, grazie alle statistiche aggiuntive che fornisce a questi eroi."
+    },
+    "MissileCenter": {
+      "Title": "Centro Missili",
+      "Description1": "Similmente ai due edifici sopra menzionati, il Centro Missili aumenta le statistiche degli eroi di tipo missili."
+    },
+    "ResourceCenters": {
+      "Title": "Centri Risorse",
+      "Description1": "I centri di cibo, ferro e fusione sono edifici che producono le risorse rispettive. La Base di Addestramento è l'edificio che produce XP per gli eroi. L'esperienza dimostra che gli edifici della Base di Addestramento offrono un buon utilizzo dell'XP rispetto alle risorse utilizzate e sono efficienti da migliorare."
     }
   }
 }

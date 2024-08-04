@@ -52,7 +52,8 @@
       "Description": "Aquí encontrarás enlaces útiles a las páginas principales de nuestro sitio web:",
       "Vs": "Duelo VS",
       "Rules": "Reglas",
-      "Basics": "Fundamentos"
+      "Basics": "Fundamentos",
+      "TipsAndTricks": "Consejos y trucos"
     }
   },
   "Rules": {
@@ -130,7 +131,9 @@
     "Rules": "Reglas",
     "VS": "Duelo VS",
     "Alliances": "Alianzas",
-    "Basics": "Fundamentos"
+    "Basics": "Conceptos Básicos",
+    "TipsAndTricks": "Consejos/Trucos",
+    "Buildings": "Edificios"
   },
   "VS": {
     "Title": "Duelo VS",
@@ -337,6 +340,141 @@
       "Title": "Saquear camiones en tu propio servidor",
       "Description": "No está permitido saquear camiones en tu propio servidor. Para asegurar que dichos camiones no se muestren, hay una casilla que puedes activar para filtrar todos los camiones de tu propio servidor. Por favor, marca esta casilla para cumplir con las reglas. La imagen a continuación muestra dónde encontrar la casilla.",
       "Image": "Por favor, activa la casilla como se muestra en la imagen."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Consejos y trucos",
+    "Overview": {
+      "Title": "Visión general"
+    },
+    "Pvp": {
+      "Title": "Ataque y defensa",
+      "Description1": "Primero hablemos sobre la defensa básica. Debes intentar defender solo si tu tropa principal puede sobrevivir al primer o segundo ataque consecutivo (es decir, el atacante está aproximadamente a tu nivel).",
+      "Tip1": "Si no puedes defender o no estás en línea para tomar esta decisión, DESACTIVA tus defensas.",
+      "Tip2": "Para activar/desactivar las defensas: Ve a la muralla en tu base, haz clic en el ícono de la casa con el + y desactiva las tropas. Cada vez que desbloquees una nueva tropa, asegúrate de desactivarla también. A veces tiene sentido no tener ninguna defensa y a veces tiene sentido usar la tropa principal como defensa, pero el mayor error que puedes cometer es permitir que tus tropas más débiles participen en la defensa.",
+      "Tip3": "Por qué funciona: Supongamos que un jugador mucho más fuerte te ataca 5 veces (supongamos que eres de nivel 20 con 3 tropas). Perderías alrededor de 10k a 12k tropas en esos 5 ataques si tuvieras 3 equipos de defensa. Si solo tuvieras una sola defensa (la tropa más fuerte), perderías alrededor de 4k a 5k tropas. Si no tuvieras ninguna defensa, perderías alrededor de 1k tropas (debido al ataque de ruptura que no cuenta como muertes para el atacante). Eso es una gran diferencia.",
+      "Tip4": "Atacar bases tiene dos propósitos en este juego: (1) saquear recursos y (2) acumular puntos durante eventos de eliminación, como el Destruidor de enemigos (día 6 del duelo).",
+      "Tip5": "Saqueo ofrece la mejor relación de recursos-aguante en el juego, pero ten en cuenta las defensas/contraataques, tus límites de saqueo actuales, etc.",
+      "Tip6": "Al atacar otras bases para eventos de eliminación, ten en cuenta que solo los combates cuentan como muertes para los puntos. Así que alguien sin defensa o sin tropas no te dará puntos de evento ni aumentará tu número de muertes individuales. Esa es otra razón por la que debes desactivar tus propias defensas para evitar que tus oponentes acumulen puntos atacándote.",
+      "Image1": "Haz clic en la muralla y luego en el ícono de más para acceder a las defensas.",
+      "Image2": "Al activar la casilla, puedes encender o apagar la defensa para cada tropa."
+    },
+    "Troops": {
+      "Title": "Entrenamiento de tropas/unidades",
+      "Description1": "La estrategia óptima para entrenar tropas es entrenarlas en 3 etapas. Esto no acelera el entrenamiento ni consume menos recursos, pero te permite ganar más puntos durante eventos relevantes como el entrenamiento de unidades en la carrera de armas y el día 5 de la actividad de duelo.",
+      "Tip1": "Supongamos que TX = nivel máximo de las tropas que puedes entrenar, TY = un nivel por debajo del máximo y TZ = dos niveles por debajo del máximo. La estrategia es entrenar TZ durante toda la semana (suponiendo que ya tienes suficiente TX para todas tus unidades). Durante el entrenamiento de unidades en la carrera de armas, promueve TZ -> TY y/o TY -> TX (puedes hacer dos rondas en cada cuartel sin aceleradores durante esta fase). En el día 5 del duelo, promoverías casi todas las TY/TZ a TX antes de entrar al campo de batalla Tormenta del Desierto o al día 6 del duelo. Una vez que hayas terminado los eventos de eliminación, continúa rellenando TZ.",
+      "Tip2": "Por ejemplo, si eres HQ 25, entonces TX serían unidades de nivel 8 (requiere cuartel Lv24), TY serían unidades de nivel 7 (requiere cuartel Lv20) y TZ serían unidades de nivel 6 (requiere cuartel Lv17). Para aplicar esta estrategia, debes mantener algunos cuarteles a un nivel inferior al máximo posible. De 4 cuarteles, recomiendo tener 2 que puedan formar hasta TX y 2 que solo puedan formar hasta TY. Esto se debe a que la promoción de tropas automáticamente va al nivel máximo para ese cuartel.",
+      "Example": {
+        "Title": "Un ejemplo: ",
+        "Example1": "Entrenamiento directo: 1 soldado T9 = 250 puntos",
+        "Example2": "Entrenamiento por etapas: 1 T5 = 150 puntos, 1 T5 -> 1 T6 = 175 puntos, 1 T6 -> 1 T7 = 200 puntos, 1 T7 -> 1 T8 = 225 puntos, 1 T8 -> 1 T9 = 250 puntos, totalizando 1000 puntos",
+        "Description": "Como puedes ver, con el enfoque gradual obtienes cuatro veces los puntos por cada soldado."
+      },
+      "Image1": "En esta imagen, puedes ver qué tropas puedes mejorar. Haz clic en el botón 'Mejorar', no en 'Entrenar', para llevar a los soldados al nivel máximo del cuartel."
+    },
+    "Healing": {
+      "Title": "Curación por spam",
+      "Description1": "Otro concepto es el 'Spam-Healing'. Esto significa que si tienes más de 1000 tropas muertas y tomaría 4 horas curarlas todas, debes establecer solo 25 minutos de tiempo de curación a la vez y hacer clic en el botón de ayuda de tu alianza. Esto mantiene el costo de los recursos constante, pero reduce el tiempo de curación en más del 50%. Este método es eficiente para mantener alta tu potencia de combate y garantizar un flujo constante de tropas."
+    },
+    "SmallTroops": {
+      "Title": "Recolectar recursos con una pequeña fuerza de tropas",
+      "Description1": "Si tienes pocas tropas disponibles en tu campo de entrenamiento (por ejemplo, después de las guerras del sábado), es posible que no puedas enviar todas las tropas a recolectar recursos, ya que se requiere un cierto número de tropas para cada tropa.",
+      "Description2": "Esto se puede resolver de la siguiente manera:",
+      "Tip1": "Devuelve tus tropas a la base para poder reemplazarlas",
+      "Tip2": "Retira todos los héroes de cada tropa y agrega solo 1 héroe por tropa, preferiblemente aquellos con un valor bajo en el atributo 'Comando'.",
+      "Tip3": "Ahora envía las tropas a recolectar. Cada tropa utilizará una cantidad mucho menor de tropas, por lo que podrás enviar todas.",
+      "Tip4": "Además, puedes formar soldados de nivel 1 en cualquier cuartel para tener casi de inmediato algunas tropas disponibles, ya que la formación de soldados de nivel 1 es rápida."
+    },
+    "IncreasedDamage": {
+      "Title": "Porcentaje de daño aumentado",
+      "Description1": "En cada ataque, defensa o guardia, puedes usar la fiebre de guerra para aumentar el daño en un 1%.",
+      "Description2": "Este impulso se activa automáticamente cuando atacas o exploras una base, pero no cuando solo defiendes.",
+      "Description3": "Para activar la fiebre de guerra, puedes realizar una de las siguientes acciones:",
+      "Tip1": "Envía un avión de reconocimiento a una base",
+      "Tip2": "Inicia un ataque o una manifestación contra una base enemiga (los ataques o manifestaciones contra zombies no cuentan). También puedes cancelar el ataque una vez que la fiebre de guerra haya comenzado",
+      "Tip3": "Puedes ver el estado de la fiebre de guerra en la parte superior izquierda de la pantalla, justo debajo de los indicadores de comida/hierro/monedas/energía. Al hacer clic en el ícono, se muestra la cuenta regresiva.",
+      "Tip4": "Repite la acción de activación para reiniciar la cuenta regresiva a 15 minutos en cualquier momento.",
+      "Tip5": "IMPORTANTE: No utilices este truco mientras tengas un escudo, ya que lo perderás."
+    }
+  },
+  "Buildings": {
+    "Title": "Edificios",
+    "Headquarters": {
+      "Title": "Cuartel General",
+      "Description1": "El Cuartel General es el edificio más importante del juego. Cumple funciones similares a las de los ayuntamientos en otros juegos. Al mejorarlo, podrás construir nuevos edificios y elevar los edificios existentes a niveles superiores.",
+      "Description2": "Cuando el Cuartel General sube de nivel, lo siguiente aumenta:",
+      "List1": "Rendimiento",
+      "List2": "Límite de Nivel de Héroe",
+      "List3": "HP de Héroes",
+      "List4": "Ataque de Héroes",
+      "List5": "Defensa de Héroes",
+      "List6": "Límite de Nivel para cada edificio",
+      "LevelUp": {
+        "Title": "Requisitos de Mejora",
+        "Description1": "Para mejorar el Cuartel General a un nivel superior, deben cumplirse tanto los requisitos de recursos como los de edificios en cada etapa.",
+        "Description2": "Es importante avanzar en la construcción paso a paso para asegurar un progreso fluido hacia el siguiente nivel del Cuartel General y ahorrar suficientes recursos. Si el Cuartel General no se mejora, puede llevar a un grupo débil, ya que este edificio determina el límite para los niveles de héroes.",
+        "Description3": "A continuación se muestra un gráfico con los edificios requeridos para cada nivel",
+        "Table": {
+          "ToUnlock": "HQ para desbloquear",
+          "Condition1": "Edificio 1",
+          "Condition2": "Edificio 2",
+          "Iron": "Hierro",
+          "Food": "Comida",
+          "Gold": "Oro",
+          "Days": "Días",
+          "Wall": "Muro L.",
+          "TechCenter": "Centro de Tecnología L.",
+          "DrillGround": "Campo de Entrenamiento L.",
+          "Barracks": "Cuartel L.",
+          "AllianceCenter": "Centro de Alianzas L.",
+          "Hospital": "Hospital L.",
+          "TankCenter": "Centro de Tanques L."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Cuartel",
+      "Description1": "Los Cuarteles se utilizan para reclutar y promover tus tropas. Una vez que desbloquees los Cuarteles, deberías actualizar siempre solo un Cuartel a la vez para usar tus recursos de manera eficiente. Promover tus tropas te permite avanzar tropas de un nivel inferior al nivel más alto permitido por tus Cuarteles. Promover tropas se vuelve especialmente útil una vez desbloqueado, ya que te permite entrenar y mejorar tropas de nivel uno, requiriendo menos recursos y tiempo."
+    },
+    "Hospital": {
+      "Title": "Hospital",
+      "Description1": "El Hospital se utiliza para curar a tus tropas después de una batalla. Si un enemigo es lo suficientemente fuerte, puede matar o herir a tus tropas. Sin embargo, el Hospital no puede revivir tropas caídas, solo curar las heridas. Un método eficiente para curar rápidamente a tus tropas es seleccionar solo una cantidad de tropas que puedan ser curadas en 25 minutos o menos. Esto permite a tu alianza asistirte y reducir el tiempo de curación a casi inmediato. Si utilizas correctamente el sistema de curación, el tiempo de curación se reducirá al 25 % del tiempo que hubiera tomado si hubieras curado todas las tropas a la vez."
+    },
+    "DrillGround": {
+      "Title": "Campo de Entrenamiento",
+      "Description1": "El Campo de Entrenamiento es el edificio donde están estacionadas tus tropas. El nivel máximo del Campo de Entrenamiento aumenta con el nivel de tu Cuartel General. El Campo de Entrenamiento es una fuente central de tu fuerza, ya que la fuerza de tus tropas determina en gran medida tu nivel de poder. Para alcanzar la máxima potencia posible (el objetivo principal del juego), deberías actualizar constantemente tu Campo de Entrenamiento al nivel más alto y construir más Campos de Entrenamiento cuando sea posible. El segundo Campo de Entrenamiento se desbloquea en el nivel 16 y el tercero en el nivel 21."
+    },
+    "Garages": {
+      "Title": "Garajes",
+      "Description1": "Los Garajes albergan a tus héroes. Proporcionan a tus héroes fuerza adicional y tropas que pueden llevar consigo. Al comenzar el juego, recibes un Garaje y puedes desbloquear más a lo largo del juego, hasta un total de tres Garajes. Un cuarto Garaje también se puede obtener a través del pase mensual. Debes centrarte únicamente en mejorar el Garaje 1, ya que la mayor parte de tus esfuerzos en el juego se dirigirán hacia él. Mejora el Garaje 2 solo si lo necesitas para puntos de Carrera de Armas económicos o si crees que está demasiado rezagado."
+    },
+    "TechCenter": {
+      "Title": "Centro de Tecnología",
+      "Description1": "El Centro de Tecnología es una parte crucial del juego para competir con éxito contra otros jugadores. Se muestra con frecuencia en la sección 'actualizaciones requeridas' cuando deseas mejorar tu Cuartel General por una buena razón. El Centro de Tecnología te permite mejorar ciertas estadísticas de tu base, como héroes, tropas, garajes y más. Esto convierte recursos en más fuerza y estadísticas para todo. Una vez que llegues al nivel 16, tendrás la opción de comprar un segundo Centro de Tecnología, lo cual se recomienda encarecidamente."
+    },
+    "GearFactory": {
+      "Title": "Fábrica de Equipos",
+      "Description1": "La Fábrica de Equipos te permite fabricar o desmantelar equipos para tus héroes. Puedes fabricar cualquier tipo de equipo que actualmente exista en el juego y también desmantelar partes de equipo. Además, la Fábrica de Equipos te permite combinar componentes de equipo para crear la pieza de Componente Cerámico Dielectrico que necesitas para crear una pieza de equipo legendaria. No se recomienda fabricar o mejorar partes de equipo raras, superraras o super-superraras. Una vez que tengas al menos todas las partes de equipo super-superraras (SSR) para tus héroes principales, deberías desmantelar todas las partes de equipo adicionales para obtener más equipo legendario."
+    },
+    "ComponentFactory": {
+      "Title": "Fábrica de Componentes",
+      "Description1": "La Fábrica de Componentes produce cajas de componentes de drones. Estos componentes de drones se utilizan en el Centro de Drones para realizar más mejoras en tu dron. Una vez que la Fábrica de Componentes esté construida, no se puede actualizar más."
+    },
+    "TankCenter": {
+      "Title": "Centro de Tanques",
+      "Description1": "El Centro de Tanques es un edificio crucial en el juego que mejora significativamente las estadísticas de tus héroes de tanques. Este edificio debe actualizarse a su nivel máximo tan pronto como sea posible cada vez que actualices tu Cuartel General."
+    },
+    "AircraftCenter": {
+      "Title": "Centro de Aeronaves",
+      "Description1": "El Centro de Aeronaves cumple la misma función que el Centro de Tanques, pero para héroes tipo aeronave. Inicialmente, no es crucial actualizar este edificio ya que no proporciona bonificaciones para la configuración que debes usar. Sin embargo, una vez que DVA y Carlie estén disponibles, actualizar el Centro de Aeronaves será tan importante como actualizar el Centro de Tanques debido a las estadísticas adicionales que proporciona a estos héroes."
+    },
+    "MissileCenter": {
+      "Title": "Centro de Misiles",
+      "Description1": "De manera similar a los dos edificios mencionados anteriormente, el Centro de Misiles aumenta las estadísticas de los héroes tipo misiles."
+    },
+    "ResourceCenters": {
+      "Title": "Centros de Recursos",
+      "Description1": "Los centros de comida, hierro y fundición son edificios que producen los recursos respectivos. La Base de Entrenamiento es el edificio que produce XP de héroes. La experiencia muestra que los edificios de la Base de Entrenamiento ofrecen una buena utilización de XP en relación con los recursos utilizados y son eficientes para actualizar."
     }
   }
 }

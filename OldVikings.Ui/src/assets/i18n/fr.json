@@ -52,7 +52,8 @@
       "Description": "Vous trouverez ici des liens utiles vers les pages principales de notre site web :",
       "Vs": "Duel VS",
       "Rules": "Règles",
-      "Basics": "Bases"
+      "Basics": "Bases",
+      "TipsAndTricks": "Conseils et astuces"
     }
   },
   "Rules": {
@@ -129,8 +130,10 @@
     "Home": "Accueil",
     "Rules": "Règles",
     "VS": "Duel VS",
-    "Alliances": "Alliance",
-    "Basics": "Bases"
+    "Alliances": "Alliances",
+    "Basics": "Bases",
+    "TipsAndTricks": "Conseils/Trucs",
+    "Buildings": "Bâtiments"
   },
   "VS": {
     "Title": "Duel VS",
@@ -395,6 +398,141 @@
       "Title": "Pillage des camions sur votre propre serveur",
       "Description": "Il est interdit de piller les camions sur votre propre serveur. Pour vous assurer que ces camions n'apparaissent pas, il y a une case à cocher que vous pouvez activer pour filtrer tous les camions de votre propre serveur. Veuillez cocher cette case pour respecter les règles. L'image ci-dessous montre où trouver la case.",
       "Image": "Veuillez activer la case comme indiqué sur l'image."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Conseils et astuces",
+    "Overview": {
+      "Title": "Aperçu"
+    },
+    "Pvp": {
+      "Title": "Attaque et défense",
+      "Description1": "Commençons par la défense de base. Vous devriez essayer de défendre uniquement si votre troupes principale peut survivre au premier ou au deuxième attaque consécutive (c'est-à-dire que l'attaquant est à peu près à votre niveau).",
+      "Tip1": "Si vous ne pouvez pas défendre ou si vous n'êtes pas en ligne pour prendre cette décision, DÉSACTIVEZ vos défenses.",
+      "Tip2": "Pour activer/désactiver les défenses : Allez au mur dans votre base, cliquez sur l'icône en forme de maison avec un + et désactivez les troupes. Chaque fois que vous débloquez une nouvelle troupe, assurez-vous de la désactiver également. Parfois, il est judicieux de ne pas avoir de défense du tout, et parfois il est logique d'utiliser la troupe principale comme défense, mais la pire erreur que vous puissiez faire est de laisser vos troupes les plus faibles participer à la défense.",
+      "Tip3": "Pourquoi cela fonctionne : Supposons qu'un joueur beaucoup plus fort vous attaque 5 fois (supposons que vous êtes de niveau 20 avec 3 troupes). Vous perdriez environ 10k à 12k troupes dans ces 5 attaques si vous aviez 3 équipes de défense. Si vous n'aviez qu'une seule défense (la troupe la plus forte), vous perdriez environ 4k à 5k troupes. Si vous n'aviez aucune défense, vous perdriez environ 1k troupes (en raison de l'attaque de percée qui ne compte pas comme des éliminations pour l'attaquant). C'est une grande différence.",
+      "Tip4": "Attaquer des bases a deux objectifs dans ce jeu : (1) piller des ressources et (2) accumuler des points lors d'événements d'éliminations, comme le Destructeur d'ennemis (jour 6 du duel).",
+      "Tip5": "Le pillage offre le meilleur rapport ressources-stamina dans le jeu, mais soyez conscient des défenses/contre-attaques, de vos limites de pillage actuelles, etc.",
+      "Tip6": "Lorsque vous attaquez d'autres bases pour des événements d'éliminations, notez que seuls les combats comptent comme des éliminations pour les points. Donc quelqu'un sans défense ou sans troupes ne vous donnera pas de points d'événement ni d'augmentation de votre nombre d'éliminations individuel. C'est une autre raison pour laquelle vous devriez désactiver vos propres défenses, afin d'éviter que vos adversaires ne collectent des points en vous attaquant.",
+      "Image1": "Cliquez sur le mur puis sur l'icône plus pour accéder aux défenses.",
+      "Image2": "En activant la case à cocher, vous pouvez activer ou désactiver la défense pour chaque troupe."
+    },
+    "Troops": {
+      "Title": "Entraînement des troupes/unité",
+      "Description1": "La stratégie optimale pour l'entraînement des troupes consiste à les entraîner en 3 étapes. Cela ne rend pas l'entraînement plus rapide et ne consomme pas moins de ressources, mais cela vous permet de gagner plus de points pendant des événements pertinents comme l'entraînement d'unités dans la course aux armes et le jour 5 de l'activité de duel.",
+      "Tip1": "Supposons que TX = niveau maximal des troupes que vous pouvez entraîner, TY = un niveau en dessous du maximum et TZ = deux niveaux en dessous du maximum. La stratégie consiste à entraîner TZ pendant toute la semaine (à condition que vous ayez déjà assez de TX pour toutes vos unités). Pendant l'entraînement des unités dans la course aux armes, promouvez TZ -> TY et/ou TY -> TX (vous pouvez faire deux tours dans chaque caserne sans accélérateurs pendant cette phase). Le jour 5 du duel, vous promouvez presque toutes les TY/TZ à TX avant d'entrer dans le champ de bataille Tempête du désert ou le jour 6 du duel. Une fois les événements d'éliminations terminés, continuez à remplir TZ.",
+      "Tip2": "Par exemple, si vous êtes HQ 25, alors TX serait des unités de niveau 8 (nécessite une caserne Lv24), TY serait des unités de niveau 7 (nécessite une caserne Lv20), et TZ serait des unités de niveau 6 (nécessite une caserne Lv17). Pour appliquer cette stratégie, vous devez maintenir certaines casernes à un niveau inférieur au maximum possible. Sur 4 casernes, je recommande d'en avoir 2 capables de former jusqu'à TX et 2 capables de former seulement jusqu'à TY. Cela est dû au fait que la promotion des troupes se fait automatiquement au niveau maximal pour cette caserne.",
+      "Example": {
+        "Title": "Un exemple : ",
+        "Example1": "Entraînement direct : 1 soldat T9 = 250 points",
+        "Example2": "Entraînement par étapes : 1 T5 = 150 points, 1 T5 -> 1 T6 = 175 points, 1 T6 -> 1 T7 = 200 points, 1 T7 -> 1 T8 = 225 points, 1 T8 -> 1 T9 = 250 points soit un total de 1000 points",
+        "Description": "Comme vous pouvez le voir, avec l'approche graduelle, vous obtenez quatre fois plus de points pour chaque soldat."
+      },
+      "Image1": "Sur cette image, vous pouvez voir quelles troupes vous pouvez mettre à niveau. Cliquez sur le bouton 'Mettre à niveau', pas sur 'Entraîner', pour amener les soldats au niveau maximal de la caserne."
+    },
+    "Healing": {
+      "Title": "Guérison par spam",
+      "Description1": "Un autre concept est le 'Spam-Healing'. Cela signifie que si vous avez plus de 1000 troupes mortes et qu'il faudrait 4 heures pour les guérir toutes, vous devriez définir uniquement 25 minutes de temps de guérison à la fois et cliquer sur le bouton d'aide de votre alliance. Cela maintient le coût des ressources constant, mais réduit le temps de guérison de plus de 50%. Cette méthode est efficace pour maintenir votre puissance de combat élevée et garantir un flux constant de troupes."
+    },
+    "SmallTroops": {
+      "Title": "Collecter des ressources avec une petite force de troupes",
+      "Description1": "Si vous avez peu de troupes disponibles dans votre terrain d'entraînement (par exemple, après les guerres du samedi), vous ne pourrez peut-être pas envoyer toutes les troupes pour collecter des ressources, car un certain nombre de troupes est requis pour chaque troupe.",
+      "Description2": "Cela peut être résolu comme suit :",
+      "Tip1": "Renvoyez vos troupes à la base pour pouvoir les remplacer",
+      "Tip2": "Retirez tous les héros de chaque troupe et ajoutez uniquement 1 héros par troupe, de préférence ceux avec une valeur faible dans l'attribut 'Commandement'.",
+      "Tip3": "Envoyez maintenant les troupes pour collecter. Chaque troupe utilisera un nombre beaucoup plus petit de troupes, donc vous pourrez toutes les envoyer.",
+      "Tip4": "De plus, vous pouvez simplement former des soldats de niveau 1 dans n'importe quelle caserne pour avoir presque immédiatement quelques troupes disponibles, car la formation des soldats de niveau 1 est rapide."
+    },
+    "IncreasedDamage": {
+      "Title": "Pourcentage de dommage augmenté",
+      "Description1": "Lors de chaque attaque, défense ou garde, vous pouvez utiliser la fièvre de guerre pour augmenter les dégâts de 1%.",
+      "Description2": "Ce boost s'active automatiquement lorsque vous attaquez ou explorez une base, mais pas lorsque vous défendez simplement.",
+      "Description3": "Pour déclencher la fièvre de guerre, vous pouvez effectuer l'une des actions suivantes :",
+      "Tip1": "Envoyez un avion de reconnaissance sur une base",
+      "Tip2": "Lancez une attaque ou une manifestation contre une base ennemie (les attaques ou manifestations contre les zombies ne fonctionnent pas). Vous pouvez également annuler l'attaque une fois que la fièvre de guerre a commencé",
+      "Tip3": "Vous pouvez voir l'état de la fièvre de guerre en haut à gauche de l'écran, juste en dessous des affichages de nourriture/fer/monnaie/énergie. En cliquant sur l'icône, le compte à rebours s'affiche.",
+      "Tip4": "Répétez l'action de déclenchement pour redémarrer le compte à rebours à 15 minutes à tout moment.",
+      "Tip5": "IMPORTANT : Ne utilisez pas ce truc lorsque vous avez un bouclier, sinon vous le perdrez."
+    }
+  },
+  "Buildings": {
+    "Title": "Bâtiments",
+    "Headquarters": {
+      "Title": "Quartier Général",
+      "Description1": "Le Quartier Général est le bâtiment le plus important du jeu. Il remplit des fonctions similaires à celles des hôtels de ville dans d'autres jeux. En le mettant à niveau, vous pourrez construire de nouveaux bâtiments et élever les bâtiments existants à des niveaux supérieurs.",
+      "Description2": "Lorsque le Quartier Général monte en niveau, les éléments suivants augmentent :",
+      "List1": "Performance",
+      "List2": "Limite de Niveau des Héros",
+      "List3": "HP des Héros",
+      "List4": "Attaque des Héros",
+      "List5": "Défense des Héros",
+      "List6": "Limite de Niveau pour chaque bâtiment",
+      "LevelUp": {
+        "Title": "Exigences de Montée en Niveau",
+        "Description1": "Pour améliorer le Quartier Général à un niveau supérieur, les exigences en ressources et en bâtiments doivent être remplies à chaque étape.",
+        "Description2": "Il est important de progresser dans la construction étape par étape pour garantir un avancement fluide vers le niveau suivant du Quartier Général et pour économiser suffisamment de ressources. Si le Quartier Général n'est pas amélioré, cela peut conduire à une troupe faible, car ce bâtiment fixe la limite pour les niveaux de héros.",
+        "Description3": "Ci-dessous se trouve un tableau des bâtiments requis pour chaque niveau",
+        "Table": {
+          "ToUnlock": "HQ pour Déverrouiller",
+          "Condition1": "Bâtiment 1",
+          "Condition2": "Bâtiment 2",
+          "Iron": "Fer",
+          "Food": "Nourriture",
+          "Gold": "Or",
+          "Days": "Jours",
+          "Wall": "Mur N.",
+          "TechCenter": "Centre de Technologie N.",
+          "DrillGround": "Terrain d'Entraînement N.",
+          "Barracks": "Caserne N.",
+          "AllianceCenter": "Centre d'Alliance N.",
+          "Hospital": "Hôpital N.",
+          "TankCenter": "Centre de Char N."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Caserne",
+      "Description1": "Les Casernes sont utilisées pour recruter et promouvoir vos troupes. Une fois que vous avez débloqué les Casernes, vous devriez toujours mettre à niveau une seule Caserne à la fois pour utiliser vos ressources de manière efficace. Promouvoir vos troupes vous permet de faire passer des troupes d'un niveau inférieur au niveau le plus élevé autorisé par vos Casernes. Promouvoir les troupes devient particulièrement utile une fois débloqué, car cela vous permet d'entraîner et d'améliorer des troupes de niveau un, nécessitant moins de ressources et de temps."
+    },
+    "Hospital": {
+      "Title": "Hôpital",
+      "Description1": "L'Hôpital est utilisé pour soigner vos troupes après une bataille. Si un ennemi est suffisamment fort, il peut tuer ou blesser vos troupes. Cependant, l'Hôpital ne peut pas ressusciter les troupes tombées, seulement soigner les blessées. Une méthode efficace pour guérir rapidement vos troupes est de sélectionner seulement un nombre de troupes qui peuvent être soignées en 25 minutes ou moins. Cela permet à votre alliance de vous aider et de réduire le temps de guérison à presque immédiat. En utilisant correctement le système de guérison, le temps de guérison sera réduit à 25 % du temps qu'il aurait fallu si vous aviez guéri toutes les troupes en même temps."
+    },
+    "DrillGround": {
+      "Title": "Terrain d'Entraînement",
+      "Description1": "Le Terrain d'Entraînement est le bâtiment où vos troupes sont stationnées. Le niveau maximum du Terrain d'Entraînement augmente avec le niveau de votre Quartier Général. Le Terrain d'Entraînement est une source centrale de votre force, car la force de vos troupes détermine en grande partie votre niveau de puissance. Pour atteindre la puissance maximale possible (l'objectif principal du jeu), vous devez constamment mettre à niveau votre Terrain d'Entraînement au niveau le plus élevé et construire des Terrains d'Entraînement supplémentaires lorsque cela est possible. Le deuxième Terrain d'Entraînement est déverrouillé au niveau 16 et le troisième au niveau 21."
+    },
+    "Garages": {
+      "Title": "Garages",
+      "Description1": "Les Garages hébergent vos héros. Ils offrent à vos héros une force supplémentaire et des troupes qu'ils peuvent emporter avec eux. Au début du jeu, vous recevez un Garage, et vous pouvez en débloquer davantage tout au long du jeu, jusqu'à un total de trois Garages. Un quatrième Garage peut également être obtenu par le biais du pass mensuel. Vous devez vous concentrer uniquement sur la mise à niveau du Garage 1, car la plupart de vos efforts dans le jeu seront dirigés vers celui-ci. Améliorez le Garage 2 uniquement si vous en avez besoin pour des points de Course d'Armes économiques ou si vous estimez qu'il est trop en retard."
+    },
+    "TechCenter": {
+      "Title": "Centre de Technologie",
+      "Description1": "Le Centre de Technologie est une partie cruciale du jeu pour réussir à rivaliser avec d'autres joueurs. Il est affiché fréquemment dans la section 'mises à niveau requises' lorsque vous souhaitez améliorer votre Quartier Général, et ce n'est pas sans raison. Le Centre de Technologie vous permet d'améliorer certaines statistiques de votre base, telles que les héros, les troupes, les garages, et plus encore. Cela convertit les ressources en plus de force et de statistiques pour tout. Une fois que vous atteignez le niveau 16, vous aurez la possibilité d'acheter un deuxième Centre de Technologie, ce qui est fortement recommandé."
+    },
+    "GearFactory": {
+      "Title": "Usine d'Équipement",
+      "Description1": "L'Usine d'Équipement vous permet de fabriquer ou de démonter de l'équipement pour vos héros. Vous pouvez fabriquer tout type d'équipement actuellement dans le jeu et également démonter des pièces d'équipement. De plus, l'Usine d'Équipement vous permet de combiner des composants d'équipement pour créer la pièce de Composant Céramique Dielectrique nécessaire pour fabriquer une pièce d'équipement légendaire. Il n'est pas recommandé de fabriquer ou d'améliorer des pièces d'équipement rares, super-rares ou super-super-rares. Une fois que vous avez au moins toutes les pièces d'équipement super-super-rares (SSR) pour vos héros principaux, vous devriez démonter toutes les pièces d'équipement supplémentaires pour obtenir plus d'équipement légendaire."
+    },
+    "ComponentFactory": {
+      "Title": "Usine de Composants",
+      "Description1": "L'Usine de Composants produit des boîtes de composants de drones. Ces composants de drones sont utilisés dans le Centre de Drones pour réaliser d'autres améliorations de votre drone. Une fois que l'Usine de Composants est construite, elle ne peut plus être mise à niveau."
+    },
+    "TankCenter": {
+      "Title": "Centre de Chars",
+      "Description1": "Le Centre de Chars est un bâtiment crucial dans le jeu qui améliore considérablement les statistiques de vos héros de chars. Ce bâtiment doit être mis à niveau à son niveau maximum dès que possible chaque fois que vous améliorez votre Quartier Général."
+    },
+    "AircraftCenter": {
+      "Title": "Centre d'Aéronefs",
+      "Description1": "Le Centre d'Aéronefs remplit la même fonction que le Centre de Chars, mais pour les héros de type aéronef. Au début, il n'est pas crucial de mettre à niveau ce bâtiment car il ne fournit pas de bonus pour la configuration que vous devriez utiliser. Cependant, une fois que DVA et Carlie seront disponibles, la mise à niveau du Centre d'Aéronefs sera tout aussi importante que celle du Centre de Chars en raison des statistiques supplémentaires qu'il fournit à ces héros."
+    },
+    "MissileCenter": {
+      "Title": "Centre de Missiles",
+      "Description1": "De manière similaire aux deux bâtiments mentionnés ci-dessus, le Centre de Missiles augmente les statistiques des héros de type missile."
+    },
+    "ResourceCenters": {
+      "Title": "Centres de Ressources",
+      "Description1": "Les centres de nourriture, de fer et de fusion sont des bâtiments qui produisent les ressources respectives. La Base d'Entraînement est le bâtiment qui produit l'XP des héros. L'expérience montre que les bâtiments de la Base d'Entraînement offrent une bonne utilisation de l'XP par rapport aux ressources utilisées et sont efficaces à mettre à niveau."
     }
   }
 }

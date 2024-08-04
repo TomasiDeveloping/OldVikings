@@ -52,7 +52,8 @@
       "Description": "Here you will find useful links to the main pages of our website:",
       "Vs": "VS Duel",
       "Rules": "Rules",
-      "Basics": "Basics"
+      "Basics": "Basics",
+      "TipsAndTricks": "Tips and Tricks"
     }
   },
   "Rules": {
@@ -128,9 +129,11 @@
   "Navigation": {
     "Home": "Home",
     "Rules": "Rules",
-    "VS": "VS Duel",
-    "Alliances": "Alliance",
-    "Basics": "Basics"
+    "VS": "VS-Duel",
+    "Alliances": "Alliances",
+    "Basics": "Basics",
+    "TipsAndTricks": "Tips/Tricks",
+    "Buildings": "Buildings"
   },
   "VS": {
     "Title": "VS Duel",
@@ -395,6 +398,141 @@
       "Title": "Looting Trucks on Your Own Server",
       "Description": "It is not allowed to loot trucks on your own server. To ensure that such trucks do not appear, there is a checkbox that you can activate to filter out all trucks from your own server. Please check this box to comply with the rules. The image below shows where to find the checkbox.",
       "Image": "Please activate the checkbox as shown in the image."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Tips and Tricks",
+    "Overview": {
+      "Title": "Overview"
+    },
+    "Pvp": {
+      "Title": "Attack and Defense",
+      "Description1": "First, let’s discuss basic defense. You should only attempt to defend if your main troop can survive the first or second consecutive attack (i.e., the attacker is roughly at your level).",
+      "Tip1": "If you can’t defend or aren’t online to make this decision, DEACTIVATE your defenses.",
+      "Tip2": "To activate/deactivate defenses: Go to the wall in your base, click on the house+ icon, and deactivate the troops. Every time you unlock a new troop, make sure to deactivate it as well. Sometimes it makes sense to have no defense at all, and sometimes it makes sense to use the main troop as defense, but the biggest mistake you can make is allowing your weaker troops to participate in defense.",
+      "Tip3": "Why this works: Suppose a much stronger player attacks you 5 times (let’s assume you’re level 20 with 3 troops). You would lose around 10k to 12k troops in those 5 attacks if you had 3 defense teams. If you had only a single defense (the strongest troop), you would lose about 4k to 5k troops. If you had no defense at all, you would lose about 1k troops (due to the breakthrough attack, which doesn’t count as kills for the attacker). That’s a huge difference.",
+      "Tip4": "Attacking bases serves two purposes in this game: (1) to plunder resources and (2) to earn points during kill events, like the Enemy Destroyer (Day 6 of the Duel).",
+      "Tip5": "Plundering offers the best resource-stamina ratio in the game, but be aware of defenses/counterattacks, your current plunder limits, etc.",
+      "Tip6": "When attacking other bases for kill events, note that only fights count as kills for points. So someone without defense or without troops won’t give you event points or increase your individual kill count. That’s another reason why you should deactivate your own defenses, to prevent your opponents from earning points by attacking you.",
+      "Image1": "Click on the wall and then on the plus icon to access defenses.",
+      "Image2": "By checking the box, you can turn the defense on or off for each troop."
+    },
+    "Troops": {
+      "Title": "Troop/Unit Training",
+      "Description1": "The optimal strategy for troop training is to train them in 3 stages. This doesn’t make the training faster or use fewer resources, but it allows you to earn more points during relevant events like unit training in the Arms Race and Day 5 of Duel activity.",
+      "Tip1": "Assume TX = max level of troops you can train, TY = one level below the maximum, and TZ = two levels below the maximum. The strategy is to train TZ all week long (assuming you already have enough TX for all your units). During unit training in the Arms Race, promote TZ -> TY and/or TY -> TX (you might do two rounds in each barrack without accelerators during this phase). On Day 5 of the Duel, you would promote almost all TY/TZ to TX before entering the Desert Storm battlefield or Day 6 of the Duel. Once you’ve completed the kill events, continue filling TZ.",
+      "Tip2": "For example, if you’re HQ 25, then TX would be level 8 units (requires Lv24 Barrack), TY would be level 7 units (requires Lv20 Barrack), and TZ would be level 6 units (requires Lv17 Barrack). To apply this strategy, you need to keep some barracks at a level lower than the maximum possible. Of 4 barracks, I recommend having 2 that can train up to TX and 2 that can only train up to TY. This is because troop promotion automatically goes to the maximum level for that barrack.",
+      "Example": {
+        "Title": "An Example: ",
+        "Example1": "Direct Training: 1 T9 Soldier = 250 points",
+        "Example2": "Tiered Training: 1 T5 = 150 points, 1 T5 -> 1 T6 = 175 points, 1 T6 -> 1 T7 = 200 points, 1 T7 -> 1 T8 = 225 points, 1 T8 -> 1 T9 = 250 points totaling 1000 points",
+        "Description": "As you can see, with the tiered approach, you get four times the points for each soldier."
+      },
+      "Image1": "In this image, you can see which troops you can upgrade. Click the 'Upgrade' button, not 'Train,' to bring the soldiers to the maximum level of the barrack."
+    },
+    "Healing": {
+      "Title": "Spam Healing",
+      "Description1": "Another concept is 'Spam-Healing.' This means if you have over 1000 dead troops and it would take 4 hours to heal them all, you should set only 25 minutes of healing time at a time and click the help button from your alliance. This keeps the resource cost the same but reduces healing time by more than 50%. This method is efficient for keeping your combat power high and ensuring a steady flow of troops."
+    },
+    "SmallTroops": {
+      "Title": "Gathering Resources with Low Troop Strength",
+      "Description1": "If you have only a few troops available in your training ground (e.g., after Saturday’s wars), you might not be able to send all your troops to gather resources since a certain number of troops is required for each troop.",
+      "Description2": "This can be resolved as follows:",
+      "Tip1": "Return your troops to the base so you can replace them",
+      "Tip2": "Remove all heroes from each troop and add only 1 hero per troop, preferably those with a low value in the 'Command' attribute.",
+      "Tip3": "Now send troops to gather. Each troop will use a much smaller number of troops, so you can send them all.",
+      "Tip4": "Additionally, you can easily train level 1 soldiers in any barrack to have some troops available almost immediately, as training level 1 soldiers is quick."
+    },
+    "IncreasedDamage": {
+      "Title": "Increased Damage Percentage",
+      "Description1": "In every attack, defense, or guard, you can use the War Fever to increase damage by 1%.",
+      "Description2": "This boost is automatically activated when you attack or scout a base, but not when you are just defending.",
+      "Description3": "To trigger War Fever, you can perform one of the following actions:",
+      "Tip1": "Send a reconnaissance plane to a base",
+      "Tip2": "Start an attack or rally against an enemy base (attacks or rallies against zombies do not count). You can also cancel the attack once War Fever has started",
+      "Tip3": "You can see the status of War Fever in the top left corner of the screen, just below the food/iron/coins/energy displays. Clicking on the icon will show the countdown.",
+      "Tip4": "Repeat the triggering action to restart the countdown to 15 minutes at any time.",
+      "Tip5": "IMPORTANT: Do not use this trick while you have a shield, as you will lose it."
+    }
+  },
+  "Buildings": {
+    "Title": "Buildings",
+    "Headquarters": {
+      "Title": "Headquarters",
+      "Description1": "The Headquarters is the most important building in the game. It serves similar functions to the town halls in other games. By upgrading it, you can build new structures and elevate existing buildings to higher levels.",
+      "Description2": "When the Headquarters levels up, the following increases:",
+      "List1": "Performance",
+      "List2": "Hero Level Cap",
+      "List3": "Hero HP",
+      "List4": "Hero Attack",
+      "List5": "Hero Defense",
+      "List6": "Level Cap for each building",
+      "LevelUp": {
+        "Title": "Level-Up Requirements",
+        "Description1": "To upgrade the Headquarters to a higher level, both resource and building requirements must be met at each stage.",
+        "Description2": "It is important to progress the construction step by step to ensure a smooth advancement to the next level of the Headquarters and to save enough resources. If the Headquarters is not upgraded, it can lead to a weak troop as this building sets the cap for hero levels.",
+        "Description3": "Below is a chart of the buildings required for each level",
+        "Table": {
+          "ToUnlock": "HQ to Unlock",
+          "Condition1": "Building 1",
+          "Condition2": "Building 2",
+          "Iron": "Iron",
+          "Food": "Food",
+          "Gold": "Gold",
+          "Days": "Days",
+          "Wall": "Wall L.",
+          "TechCenter": "Tech Center L.",
+          "DrillGround": "Drill Ground L.",
+          "Barracks": "Barracks L.",
+          "AllianceCenter": "Alliance Center L.",
+          "Hospital": "Hospital L.",
+          "TankCenter": "Tank Center L."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Barracks",
+      "Description1": "Barracks are used to recruit and promote your troops. Once you unlock the Barracks, you should always upgrade only one Barracks at a time to use your resources efficiently. Promoting your troops allows you to advance troops from a lower level to the highest level allowed by your Barracks. Promoting troops becomes especially useful once unlocked, as it allows you to train and upgrade tier one troops, requiring fewer resources and time."
+    },
+    "Hospital": {
+      "Title": "Hospital",
+      "Description1": "The Hospital is used to heal your troops after a battle. If an enemy is strong enough, they can kill or injure your troops. However, the Hospital cannot revive fallen troops, only heal injured ones. An efficient way to heal your troops quickly is to select only a number of troops that can be healed in 25 minutes or less. This allows your alliance to assist you and reduce healing time to almost immediate. By using the healing system correctly, the healing time will be reduced to 25% of the time it would have taken if you had healed all troops at once."
+    },
+    "DrillGround": {
+      "Title": "Drill Ground",
+      "Description1": "The Drill Ground is the building where your troops are stationed. The maximum level of the Drill Ground increases with the level of your Headquarters. The Drill Ground is a central source of your strength, as the strength of your troops largely determines your power level. To achieve the maximum power possible (the primary goal of the game), you should constantly upgrade your Drill Ground to the highest level and build additional Drill Grounds when possible. The second Drill Ground is unlocked at level 16, and the third at level 21."
+    },
+    "Garages": {
+      "Title": "Garages",
+      "Description1": "Garages house your heroes. They provide your heroes with additional strength and troops they can take with them. At the start of the game, you receive one Garage, and you can unlock more throughout the game, up to a total of three Garages. A fourth Garage can also be obtained through the monthly pass. You should focus solely on upgrading Garage 1, as most of your efforts in the game will be directed towards it. Upgrade Garage 2 only if you need it for cost-effective Arm Race points or if you feel it is too far behind."
+    },
+    "TechCenter": {
+      "Title": "Tech Center",
+      "Description1": "The Tech Center is a crucial part of the game for competing successfully against other players. It is frequently shown in the 'required upgrades' section when you want to upgrade your Headquarters for good reason. The Tech Center allows you to improve certain stats of your base, such as heroes, troops, garages, and more. This converts resources into more strength and stats for everything. Once you reach level 16, you will have the option to purchase a second Tech Center, which is highly recommended."
+    },
+    "GearFactory": {
+      "Title": "Gear Factory",
+      "Description1": "The Gear Factory allows you to craft or dismantle gear for your heroes. You can craft any type of gear currently in the game and also dismantle gear parts. Additionally, the Gear Factory lets you combine gear components to create the Dielectric Ceramic Component piece needed to make a legendary piece of gear. It is not recommended to craft or upgrade rare, super-rare, or super-super-rare gear parts. Once you have at least all super-super-rare (SSR) gear parts for your main heroes, you should dismantle all additional gear parts to obtain more legendary gear."
+    },
+    "ComponentFactory": {
+      "Title": "Component Factory",
+      "Description1": "The Component Factory produces boxes of drone components. These drone components are used in the Drone Center to make further upgrades to your drone. Once the Component Factory is built, it cannot be upgraded further."
+    },
+    "TankCenter": {
+      "Title": "Tank Center",
+      "Description1": "The Tank Center is a crucial building in the game that significantly enhances the stats of your tank heroes. This building should be upgraded to its maximum level as quickly as possible each time you upgrade your Headquarters."
+    },
+    "AircraftCenter": {
+      "Title": "Aircraft Center",
+      "Description1": "The Aircraft Center serves the same function as the Tank Center, but for aircraft-type heroes. Initially, it is not crucial to upgrade this building as it does not provide bonuses for the setup you should use. However, once DVA and Carlie become available, upgrading the Aircraft Center will be just as important as upgrading the Tank Center due to the additional stats it provides these heroes."
+    },
+    "MissileCenter": {
+      "Title": "Missile Center",
+      "Description1": "Similar to the two buildings mentioned above, the Missile Center increases the stats for missile-type heroes."
+    },
+    "ResourceCenters": {
+      "Title": "Resource Centers",
+      "Description1": "The Food, Iron, and Smelting Centers are buildings that produce the respective resources. The Training Base is the building that produces hero XP. Experience shows that Training Base buildings offer good XP utilization relative to the resources used and are efficient to upgrade."
     }
   }
 }

@@ -52,7 +52,8 @@
       "Description": "Hier findest du nützliche Links zu den wichtigsten Seiten unserer Homepage:",
       "Vs": "VS-Duell",
       "Rules": "Regeln",
-      "Basics": "Grundlagen"
+      "Basics": "Grundlagen",
+      "TipsAndTricks": "Tipps und Tricks"
     }
   },
   "Rules": {
@@ -130,7 +131,9 @@
     "Rules": "Regeln",
     "VS": "VS-Duell",
     "Alliances": "Allianz",
-    "Basics": "Grundlagen"
+    "Basics": "Grundlagen",
+    "TipsAndTricks": "Tipps/Tricks",
+    "Buildings": "Gebäude"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -395,6 +398,141 @@
       "Title": "Plündern von LKWs auf dem eigenen Server",
       "Description": "Es ist nicht erlaubt, LKWs auf eurem eigenen Server zu plündern. Um sicherzustellen, dass solche LKWs nicht angezeigt werden, gibt es eine Checkbox, die ihr aktivieren könnt, um alle LKWs vom eigenen Server herauszufiltern. Bitte setzt diese Checkbox, um den Regeln zu entsprechen. Im Bild unten seht ihr, wo ihr die Checkbox findet.",
       "Image": "Bitte aktiviert die Checkbox wie im Bild dargestellt."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Tipps und Tricks",
+    "Overview": {
+      "Title": "Übersicht"
+    },
+    "Pvp": {
+      "Title": "Angriff und Verteidigung",
+      "Description1": "Zuerst sprechen wir über die Basisverteidigung. Du solltest nur versuchen zu verteidigen, wenn dein Haupttrupp den ersten oder zweiten aufeinanderfolgenden Angriff überleben kann (d.h. der Angreifer ist ungefähr auf deinem Level).",
+      "Tip1": "Wenn du nicht verteidigen kannst oder nicht online bist, um diese Entscheidung zu treffen, DEAKTIVIERE deine Verteidigungen.",
+      "Tip2": "So aktivierst/deaktivierst du die Verteidigungen: Gehe zur Mauer in deiner Basis, klicke auf das Haus+ Symbol und deaktiviere die Trupps. Jedes Mal, wenn du einen neuen Trupp freischaltest, stelle sicher, dass du sie auch deaktivierst. Manchmal macht es Sinn, gar keine Verteidigung zu haben, und manchmal macht es Sinn, den Haupttrupp als Verteidigung einzusetzen, aber der größte Fehler, den du machen kannst, ist, deine schwächeren Trupps an der Verteidigung teilnehmen zu lassen.",
+      "Tip3": "Warum das funktioniert: Angenommen, ein viel stärkerer Spieler greift dich 5 Mal an (angenommen, du bist Level 20 mit 3 Trupps). Du würdest etwa 10k bis 12k Truppen in diesen 5 Angriffen verlieren, wenn du 3 Verteidigungsteams hättest. Wenn du nur eine einzige Verteidigung (stärkster Trupp) hättest, würdest du etwa 4k bis 5k Truppen verlieren. Wenn du gar keine Verteidigung hättest, würdest du etwa 1k Truppen verlieren (aufgrund des Durchbruchsangriffs, der nicht als Kills für den Angreifer zählt). Das ist ein großer Unterschied.",
+      "Tip4": "Das Angreifen von Basen hat in diesem Spiel zwei Zwecke: (1) Ressourcen plündern und (2) Punkte während Tötungsereignissen, wie dem Feindvernichter (Tag 6 des Duells), zu sammeln.",
+      "Tip5": "Plündern bietet das beste Ressourcen-Stamina-Verhältnis im Spiel, aber sei dir der Verteidigungen/Gegenangriffe, deiner aktuellen Plünderlimits usw. bewusst.",
+      "Tip6": "Beim Angreifen anderer Basen für Tötungsereignisse, beachte, dass nur Kämpfe Kills für Punkte bringen. Also wird jemand ohne Verteidigung oder ohne Truppen dir keine Eventpunkte oder eine Erhöhung deiner individuellen Killanzahl einbringen. Das ist der andere Grund, warum du deine eigenen Verteidigungen deaktivieren solltest, nämlich um zu verhindern, dass deine Gegner Punkte durch Angriffe auf dich sammeln.",
+      "Image1": "Klicke auf die Mauer und dann auf das Plus-Icon, um zur Verteidigung zu gelangen.",
+      "Image2": "Durch das Aktivieren der Checkbox kannst du die Verteidigung für jede Truppe ein- oder ausschalten."
+    },
+    "Troops": {
+      "Title": "Truppen-/Einheitentraining",
+      "Description1": "Die optimalste Strategie zum Truppentraining besteht darin, sie in 3 Stufen zu trainieren. Das macht das Training nicht schneller und verbraucht auch nicht weniger Ressourcen, aber es ermöglicht dir, während relevanter Events wie Einheitentraining im Waffenrennen und Tag 5 der Duell-Aktivität mehr Punkte zu sammeln.",
+      "Tip1": " Nehmen wir an, TX = max. Level der Truppen, die du trainieren kannst, TY = ein Level unter dem Maximum und TZ = zwei Level unter dem Maximum. Die Strategie besteht darin, TZ die ganze Woche über zu trainieren (vorausgesetzt, du hast bereits genug TX für alle deine Einheiten). Während des Einheitentrainings im Waffenrennen beförderst du TZ -> TY und/oder TY -> TX (möglich, zwei Runden in jeder Kaserne ohne Beschleunigungen während dieser Phase durchzuführen). Am Tag 5 des Duells würdest du fast alle TY/TZ zu TX befördern, bevor du in das Wüstensturm-Schlachtfeld oder den Tag 6 des Duells gehst. Sobald du die Tötungsereignisse abgeschlossen hast, setzt du das Auffüllen von TZ fort.",
+      "Tip2": "Als Beispiel, wenn du HQ 25 bist, dann wäre TX Level 8 Einheiten (benötigt Lv24 Kaserne), TY wäre Lv 7 Einheiten (benötigt Lv20 Kaserne), und TZ wäre Lv 6 Einheiten (benötigt Lv17 Kaserne). Um diese Strategie anzuwenden, musst du einige Kasernen auf einem niedrigeren Niveau als das maximale mögliche halten. Von 4 Kasernen empfehle ich, 2 zu haben, die bis TX trainieren können, und 2, die nur bis TY trainieren können. Dies liegt daran, dass die Truppenbeförderung automatisch auf das maximale Level für diese Kaserne geht.",
+      "Example": {
+        "Title": "Ein Beispiel: ",
+        "Example1": "Direktes Training: 1 T9-Soldat = 250 Punkte",
+        "Example2": "Stufentraining: 1 T5 = 150 Punkte, 1 T5 – > 1 T6 = 175 Punkte, 1 T6 -> 1 T7 = 200 Punkte, 1 T7 -> 1 T8 = 225 Punkte, 1 T8 -> 1 T9 = 250 Punkte sind Total 1000 Punkte",
+        "Description": "Wie Sie sehen, erhalten Sie mit dem schrittweisen Ansatz in diesem Fall die vierfache Punktzahl für jeden einzelnen Soldaten."
+      },
+      "Image1": "Auf diesem Bild siehst du, welche Truppen du upgraden kannst. Klicke auf den 'Upgrade'-Button, nicht auf 'Trainieren', um die Soldaten auf das maximale Level der Kaserne zu bringen."
+    },
+    "Healing": {
+      "Title": "Spam-Heilen",
+      "Description1": "Ein weiteres Konzept ist das „Spam-Heilen“. Das bedeutet, wenn du über 1000 tote Truppen hast und es 4 Stunden dauern würde, sie alle zu heilen, solltest du jeweils nur 25 Minuten Heilzeit auf einmal ansetzen und den Button für Hilfe von deiner Allianz klicken. Dadurch bleibt die Ressourcenkosten gleich, aber die Heilzeit reduziert sich um mehr als 50%. Diese Methode ist effizient, um deine Kampfkraft hochzuhalten und einen konstanten Fluss von Truppen zu gewährleisten."
+    },
+    "SmallTroops": {
+      "Title": "Sammeln Sie Ressourcen mit einer geringen Truppenstärke",
+      "Description1": "Wenn auf Ihrem Übungsgelände nur wenige Truppen zur Verfügung stehen (beispielsweise nach den Kriegen am Samstag), können Sie möglicherweise nicht alle Trupps zum Sammeln von Ressourcen schicken, da für den Einsatz jedes Trupps eine bestimmte Anzahl an Truppen erforderlich ist.",
+      "Description2": "Dies kann folgendermaßen gelöst werden:",
+      "Tip1": "Rufen Sie Ihre Trupps zur Basis zurück, damit Sie sie austauschen können",
+      "Tip2": "Entferne alle Helden aus jedem Trupp und füge nur 1 Helden pro Trupp hinzu, möglicherweise diejenigen, die einen niedrigen Wert im Attribut „Kommando“ haben.",
+      "Tip3": "Schicken Sie nun Trupps zum Sammeln aus. Jeder Trupp wird eine viel geringere Anzahl an Truppen einsetzen, sodass Sie alle ausschicken können.",
+      "Tip4": "Darüber hinaus können Sie Soldaten der Stufe 1 einfach in einer beliebigen Kaserne ausbilden, um fast sofort einige Truppen zur Verfügung zu haben, da die Ausbildung von Soldaten der Stufe 1 schnell geht."
+    },
+    "IncreasedDamage": {
+      "Title": "Erhöhter Schadensprozentsatz",
+      "Description1": "Bei jedem Angriff, in der Verteidigung oder bei der Wache können Sie das Kriegsfieber nutzen, um den Schaden um 1 % zu erhöhen.",
+      "Description2": "Dieser Boost wird automatisch aktiviert, wenn Sie eine Basis angreifen oder erkunden, aber nicht, wenn Sie nur verteidigen.",
+      "Description3": "Um das Kriegsfieber auszulösen, können Sie eine der folgenden Aktionen ausführen:",
+      "Tip1": "Schicken Sie ein Aufklärungsflugzeug zu einer Basis",
+      "Tip2": "Starten Sie einen Angriff oder eine Kundgebung gegen eine feindliche Basis (Angriffe oder Kundgebungen gegen Zombies funktionieren nicht). Sie können den Angriff auch abbrechen, sobald das Kriegsfieber begonnen hat",
+      "Tip3": "Den Status des Kriegsfiebers können Sie oben links auf dem Bildschirm sehen, direkt unter den Anzeigen für Nahrung/Eisen/Münzen/Energie. Wenn Sie auf das Symbol klicken, wird der Countdown angezeigt.",
+      "Tip4": "Wiederholen Sie die Auslöseaktion, um den Countdown auf 15 Minuten jederzeit neu zu starten.",
+      "Tip5": "WICHTIG: Verwenden Sie diesen Trick nicht, während Sie einen Schild tragen, da Sie ihn sonst verlieren."
+    }
+  },
+  "Buildings": {
+    "Title": "Gebäude",
+    "Headquarters": {
+      "Title": "Hauptquartier",
+      "Description1": "Das Hauptquartier ist das wichtigste Gebäude im Spiel. Es erfüllt ähnliche Funktionen wie die Rathäuser in anderen Spielen. Wenn du es weiter ausbaust, kannst du neue Gebäude errichten und bestehende Gebäude auf ein höheres Niveau bringen. ",
+      "Description2": "Wenn das Hauptquartier ein Level aufsteigt, erhöht sich Folgendes:",
+      "List1": "Leistung",
+      "List2": "Heldenlevel-Obergrenze",
+      "List3": "Helden-HP",
+      "List4": "Heldenangriff",
+      "List5": "Heldenverteidigung",
+      "List6": "Level-Cap für jedes Gebäude",
+      "LevelUp": {
+        "Title": "Level-Up-Anforderungen",
+        "Description1": "Um das Hauptquartier auf ein höheres Level zu bringen, müssen in jeder Phase sowohl die Ressourcen- als auch die Gebäudeanforderungen erfüllt werden.",
+        "Description2": "Es ist wichtig, den Bau schrittweise voranzutreiben, um einen reibungslosen Fortschritt zur nächsten Ebene des Hauptquartiers zu ermöglichen und genügend Ressourcen zu sparen. Wenn das Hauptquartier nicht verbessert wird, kann dies zu einem schwachen Trupp führen, da dieses Gebäude die Obergrenze für Heldenlevel bestimmt.",
+        "Description3": "Unten sehen Sie ein Diagramm mit den für jede Ebene erforderlichen Gebäuden",
+        "Table": {
+          "ToUnlock": "HQ zum Freischalten",
+          "Condition1": "Gebäude 1",
+          "Condition2": "Gebäude 2",
+          "Iron": "Eisen",
+          "Food": "Nahrung",
+          "Gold": "Gold",
+          "Days": "Tage",
+          "Wall": "Mauer L. ",
+          "TechCenter": "Forschungszentrum L. ",
+          "DrillGround": "Übungsplatz L. ",
+          "Barracks": "Kaserne L. ",
+          "AllianceCenter": "Allianz-Zentrum L. ",
+          "Hospital": "Spital L. ",
+          "TankCenter": "Panzer-Zentrum L. "
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Kaserne",
+      "Description1": "Die Kasernen dienen dazu, deine Truppen zu rekrutieren und zu befördern. Sobald du die Kasernen freigeschaltet hast, solltest du immer nur eine Kaserne gleichzeitig aufrüsten, um deine Ressourcen effizient zu nutzen. Das Befördern deiner Truppen ermöglicht es dir, Truppen von einem niedrigeren Level auf das höchste Level zu bringen, das deine Kasernen zulassen. Das Befördern von Truppen wird besonders nützlich, sobald du es freischaltest, da es dir erlaubt, Truppen der Stufe eins auszubilden und aufzuwerten, wodurch du weniger Ressourcen und Zeit benötigst."
+    },
+    "Hospital": {
+      "Title": "Krankenhaus",
+      "Description1": "Das Krankenhaus wird genutzt, um deine Truppen nach einem Kampf zu heilen. Wenn ein Feind stark genug ist, kann er deine Truppen töten oder verletzen. Das Krankenhaus kann jedoch keine gefallenen Truppen wiederbeleben, sondern nur verletzte Truppen heilen. Eine effiziente Methode, um deine Truppen schnell zu heilen, besteht darin, nur eine Anzahl von Truppen auszuwählen, die in 25 Minuten oder weniger geheilt werden kann. Dies ermöglicht es deiner Allianz, dir zu helfen und die Heilungszeit auf nahezu sofort zu reduzieren. Wenn du das Heilungssystem richtig nutzt, wird die Heilungszeit auf 25 % der Zeit reduziert, die es gebraucht hätte, wenn du alle Truppen gleichzeitig geheilt hättest."
+    },
+    "DrillGround": {
+      "Title": "Übungsplatz",
+      "Description1": "Der Übungsplatz ist das Gebäude, in dem deine Truppen stationiert sind. Das maximale Level des Übungsplatzes steigt mit dem Level deines Hauptquartiers. Der Übungsplatz ist eine zentrale Quelle deiner Stärke, da die Stärke deiner Truppen maßgeblich dein Machtlevel bestimmt. Um so viel Macht wie möglich zu erreichen (das Hauptziel des Spiels), solltest du ständig deinen Übungsplatz auf das höchste Level bringen und bei Gelegenheit weitere Übungsplätze bauen. Den zweiten Übungsplatz schaltest du auf Level 16 frei, und den dritten auf Level 21."
+    },
+    "Garages": {
+      "Title": "Garagen",
+      "Description1": "Die Garagen beherbergen deine Helden. Sie verleihen deinen Helden zusätzliche Stärke und Truppen, die sie mitnehmen können. Zu Beginn des Spiels erhältst du eine Garage, und du kannst im Verlauf des Spiels weitere freischalten, insgesamt bis zu drei Garagen. Eine vierte Garage kann auch durch den monatlichen Pass erhalten werden. Du solltest ausschließlich Garage 1 aufrüsten, da sich der Großteil deiner Bemühungen im Spiel auf diese konzentrieren wird. Garage 2 solltest du nur dann aufrüsten, wenn du sie für kostengünstige Arme-Rennen-Punkte benötigst oder wenn sie deiner Meinung nach zu weit zurückliegt."
+    },
+    "TechCenter": {
+      "Title": "Technikzentrum",
+      "Description1": "Das Technikzentrum ist ein entscheidender Bestandteil des Spiels, um im Wettbewerb mit anderen Spielern erfolgreich zu sein. Es wird aus gutem Grund besonders häufig im Abschnitt „erforderliche Upgrades“ angezeigt, wenn du dein Hauptquartier aufrüsten möchtest. Das Technikzentrum ermöglicht es dir, bestimmte Statistiken deiner Basis zu verbessern, wie z.B. Helden, Truppen, Garagen und mehr. Dies wandelt Ressourcen in mehr Stärke und Statistiken für alles um. Sobald du Level 16 erreichst, hast du die Möglichkeit, ein zweites Technikzentrum zu kaufen, was dringend empfohlen wird."
+    },
+    "GearFactory": {
+      "Title": "Ausrüstungsfabrik",
+      "Description1": "Die Ausrüstungsfabrik ermöglicht es dir, Ausrüstung für deine Helden herzustellen oder zu zerlegen. Du kannst jede Art von Ausrüstung erstellen, die derzeit im Spiel existiert, und auch Ausrüstungsteile zerlegen. Zudem erlaubt dir die Ausrüstungsfabrik, Ausrüstungsbestandteile zu kombinieren, um das Dielektrische Keramik-Komponentenstück herzustellen, das du benötigst, um ein legendäres Ausrüstungsteil zu kreieren. Es wird nicht empfohlen, seltene, Super-Rare oder Super-Super-Rare Ausrüstungsteile zu erstellen oder aufzuwerten. Sobald du mindestens alle Super-Super-Rare (SSR) Ausrüstungsteile für deine Haupthelden hast, solltest du alle weiteren Ausrüstungsteile zerlegen, um mehr legendäre Ausrüstung zu erhalten."
+    },
+    "ComponentFactory": {
+      "Title": "Komponentenfabrik",
+      "Description1": "Die Komponentenfabrik produziert Kisten mit Drohnenkomponenten. Diese Drohnenkomponenten werden im Drohnenzentrum verwendet, um weitere Upgrades für deine Drohne vorzunehmen. Sobald die Komponentenfabrik gebaut ist, kann sie nicht mehr aufgerüstet werden."
+    },
+    "TankCenter": {
+      "Title": "Panzerzentrum",
+      "Description1": "Das Panzerzentrum ist ein entscheidendes Gebäude im Spiel, das die Statistiken deiner Panzerhelden erheblich verbessert. Dieses Gebäude sollte jedes Mal, wenn du dein Hauptquartier aufrüstest, so schnell wie möglich auf das maximale Level gebracht werden."
+    },
+    "AircraftCenter": {
+      "Title": "Flugzeugzentrum",
+      "Description1": "Das Flugzeugzentrum erfüllt dieselbe Funktion wie das Panzerzentrum, jedoch für Helden vom Flugzeugtyp. Zu Beginn ist es nicht wichtig, dieses Gebäude aufzurüsten, da es keine Boni für die Aufstellung bietet, die du verwenden solltest. Sobald jedoch DVA und Carlie verfügbar sind, wird es ebenso wichtig sein, das Flugzeugzentrum aufzurüsten wie das Panzerzentrum, aufgrund der zusätzlichen Statistiken, die es diesen Helden bietet."
+    },
+    "MissileCenter": {
+      "Title": "Raketenzentrum",
+      "Description1": "Ähnlich wie die beiden oben genannten Gebäude erhöht das Raketenzentrum die Statistiken von Raketen-Heldentypen."
+    },
+    "ResourceCenters": {
+      "Title": "Ressourcenzentren",
+      "Description1": "Die Nahrungsmittel-, Eisen- und Schmelzzentren sind Gebäude, die entsprechende Ressourcen erzeugen. Die Trainingsbasis ist das Gebäude, das Helden-XP produziert. Aus Erfahrung bieten die Trainingsbasis-Gebäude eine gute XP-Nutzung im Verhältnis zu den verwendeten Ressourcen und sind effizient aufrüstbar."
     }
   }
 }

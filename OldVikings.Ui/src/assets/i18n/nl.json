@@ -52,7 +52,8 @@
       "Description": "Hier vind je nuttige links naar de belangrijkste pagina's van onze website:",
       "Vs": "VS-Duel",
       "Rules": "Regels",
-      "Basics": "Basisprincipes"
+      "Basics": "Basisprincipes",
+      "TipsAndTricks": "Tips en trucs"
     }
   },
   "Rules": {
@@ -129,8 +130,10 @@
     "Home": "Home",
     "Rules": "Regels",
     "VS": "VS-Duel",
-    "Alliances": "Alliantie",
-    "Basics": "Basisprincipes"
+    "Alliances": "Alliances",
+    "Basics": "Basisprincipes",
+    "TipsAndTricks": "Tips/Trucs",
+    "Buildings": "Gebouwen"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -395,6 +398,141 @@
       "Title": "Looten van vrachtwagens op je eigen server",
       "Description": "Het is niet toegestaan om vrachtwagens op je eigen server te looten. Om ervoor te zorgen dat dergelijke vrachtwagens niet worden weergegeven, is er een selectievakje dat je kunt aanvinken om alle vrachtwagens van je eigen server te filteren. Vink dit vakje aan om aan de regels te voldoen. De afbeelding hieronder toont waar je het selectievakje kunt vinden.",
       "Image": "Vink het selectievakje aan zoals weergegeven op de afbeelding."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Tips en trucs",
+    "Overview": {
+      "Title": "Overzicht"
+    },
+    "Pvp": {
+      "Title": "Aanval en verdediging",
+      "Description1": "Laten we eerst praten over basisverdediging. Je moet alleen proberen te verdedigen als je hoofdtroep de eerste of tweede opeenvolgende aanval kan overleven (d.w.z. de aanvaller is ongeveer op jouw niveau).",
+      "Tip1": "Als je niet kunt verdedigen of niet online bent om deze beslissing te nemen, DEACTIVEER dan je verdedigingen.",
+      "Tip2": "Zo activeer/deactiveer je de verdedigingen: Ga naar de muur in je basis, klik op het huis+ symbool en deactiveer de troepen. Elke keer dat je een nieuwe troep ontgrendelt, zorg ervoor dat je deze ook deactiveert. Soms heeft het zin om helemaal geen verdediging te hebben, en soms heeft het zin om je hoofdtroep als verdediging te gebruiken, maar de grootste fout die je kunt maken is je zwakkere troepen aan de verdediging deel te laten nemen.",
+      "Tip3": "Waarom dit werkt: Stel dat een veel sterkere speler je 5 keer aanvalt (stel dat je niveau 20 bent met 3 troepen). Je zou ongeveer 10k tot 12k troepen verliezen in deze 5 aanvallen als je 3 verdedigingsgroepen had. Als je slechts één enkele verdediging (de sterkste troep) had, zou je ongeveer 4k tot 5k troepen verliezen. Als je geen verdediging had, zou je ongeveer 1k troepen verliezen (vanwege de doorbraakaanval die niet telt als kills voor de aanvaller). Dit is een groot verschil.",
+      "Tip4": "Aanvallen van basissen heeft in dit spel twee doelen: (1) middelen plunderen en (2) punten verzamelen tijdens dodingsevenementen, zoals de vijandverslinder (dag 6 van de duel).",
+      "Tip5": "Plunderen biedt de beste middelen-stamina-verhouding in het spel, maar wees je bewust van de verdedigingen/tegenaanvallen, je huidige plunderranges, enz.",
+      "Tip6": "Bij het aanvallen van andere basissen voor dodingsevenementen, merk op dat alleen gevechten kills voor punten opleveren. Dus iemand zonder verdediging of troepen zal je geen eventpunten of een verhoging van je individuele killaantal opleveren. Dit is een andere reden waarom je je eigen verdedigingen moet uitschakelen, namelijk om te voorkomen dat je tegenstanders punten verzamelen door je aan te vallen.",
+      "Image1": "Klik op de muur en vervolgens op het plus-icoon om naar de verdediging te gaan.",
+      "Image2": "Door het vakje aan te vinken kun je de verdediging voor elke troep in- of uitschakelen."
+    },
+    "Troops": {
+      "Title": "Troepen-/eenheidstraining",
+      "Description1": "De meest optimale strategie voor troepentraining is om ze in 3 fasen te trainen. Dit maakt de training niet sneller en verbruikt ook niet minder middelen, maar het stelt je in staat om tijdens relevante evenementen zoals eenheidstraining in de wapenwedstrijd en dag 5 van de duelactiviteit meer punten te verzamelen.",
+      "Tip1": "Stel dat TX = maximaal niveau van de troepen die je kunt trainen, TY = een niveau onder het maximum en TZ = twee niveaus onder het maximum. De strategie is om TZ de hele week te trainen (tenzij je al genoeg TX hebt voor al je eenheden). Tijdens de eenheidstraining in de wapenwedstrijd upgrade je TZ -> TY en/of TY -> TX (mogelijk twee rondes in elke kazerne zonder versnellingen tijdens deze fase). Op dag 5 van de duel zou je bijna alle TY/TZ naar TX upgraden voordat je naar het Woestijnstorm-battlefield of dag 6 van de duel gaat. Zodra je de dodingsevenementen hebt voltooid, ga je door met het aanvullen van TZ.",
+      "Tip2": "Bijvoorbeeld, als je HQ 25 bent, zou TX niveau 8 eenheden zijn (vereist Lv24 kazerne), TY zou niveau 7 eenheden zijn (vereist Lv20 kazerne), en TZ zou niveau 6 eenheden zijn (vereist Lv17 kazerne). Om deze strategie toe te passen, moet je enkele kazernes op een lager niveau dan het maximaal mogelijke houden. Van 4 kazernes raad ik aan om 2 te hebben die tot TX kunnen trainen en 2 die alleen tot TY kunnen trainen. Dit komt omdat de troep-upgrade automatisch naar het maximale niveau voor die kazerne gaat.",
+      "Example": {
+        "Title": "Een voorbeeld: ",
+        "Example1": "Directe training: 1 T9-soldaat = 250 punten",
+        "Example2": "Trappentraining: 1 T5 = 150 punten, 1 T5 -> 1 T6 = 175 punten, 1 T6 -> 1 T7 = 200 punten, 1 T7 -> 1 T8 = 225 punten, 1 T8 -> 1 T9 = 250 punten is in totaal 1000 punten",
+        "Description": "Zoals je kunt zien, krijg je met de stapsgewijze benadering in dit geval vier keer zoveel punten voor elke enkele soldaat."
+      },
+      "Image1": "Op deze afbeelding zie je welke troepen je kunt upgraden. Klik op de 'Upgrade'-knop, niet op 'Train', om de soldaten naar het maximale niveau van de kazerne te brengen."
+    },
+    "Healing": {
+      "Title": "Spam-Healing",
+      "Description1": "Een ander concept is 'Spam-Healing'. Dit betekent dat als je meer dan 1000 dode troepen hebt en het 4 uur zou duren om ze allemaal te genezen, je telkens 25 minuten genezingstijd moet instellen en de knop voor hulp van je alliantie moet klikken. Dit houdt de kosten van middelen gelijk, maar vermindert de genezingstijd met meer dan 50%. Deze methode is efficiënt om je gevechtskracht hoog te houden en een constante stroom van troepen te waarborgen."
+    },
+    "SmallTroops": {
+      "Title": "Verzamel middelen met een kleine troepensterkte",
+      "Description1": "Als je maar een paar troepen beschikbaar hebt op je oefenterrein (bijvoorbeeld na de oorlogen op zaterdag), kun je misschien niet alle troepen sturen om middelen te verzamelen, omdat er een bepaald aantal troepen nodig is voor elk troep.",
+      "Description2": "Dit kan als volgt worden opgelost:",
+      "Tip1": "Haal je troepen terug naar de basis zodat je ze kunt wisselen",
+      "Tip2": "Verwijder alle helden uit elke troep en voeg slechts 1 held per troep toe, bij voorkeur degenen met een lage waarde in het attribuut 'Commandant'.",
+      "Tip3": "Stuur nu troepen uit om middelen te verzamelen. Elke troep zal veel minder troepen gebruiken, zodat je ze allemaal kunt sturen.",
+      "Tip4": "Daarnaast kun je eenvoudig niveau 1-soldaten trainen in een willekeurige kazerne om bijna onmiddellijk wat troepen beschikbaar te hebben, omdat het trainen van niveau 1-soldaten snel gaat."
+    },
+    "IncreasedDamage": {
+      "Title": "Verhoogd schadepercentage",
+      "Description1": "Bij elke aanval, in de verdediging of bij de wacht kun je de oorlogsdkoorts gebruiken om de schade met 1% te verhogen.",
+      "Description2": "Deze boost wordt automatisch geactiveerd wanneer je een basis aanvalt of verkent, maar niet wanneer je alleen verdedigt.",
+      "Description3": "Om de oorlogsdkoorts te activeren, kun je een van de volgende acties uitvoeren:",
+      "Tip1": "Stuur een verkenningsvliegtuig naar een basis",
+      "Tip2": "Start een aanval of rally tegen een vijandige basis (aanvallen of rally's tegen zombies werken niet). Je kunt de aanval ook afbreken zodra de oorlogsdkoorts is begonnen",
+      "Tip3": "De status van de oorlogsdkoorts kun je linksboven op het scherm zien, direct onder de weergaven voor voedsel/ijzer/munt/energie. Als je op het symbool klikt, wordt de aftelling weergegeven.",
+      "Tip4": "Herhaal de activeringsactie om de aftelling op 15 minuten altijd opnieuw te starten.",
+      "Tip5": "BELANGRIJK: Gebruik deze truc niet terwijl je een schild hebt, omdat je het anders verliest."
+    }
+  },
+  "Buildings": {
+    "Title": "Gebouwen",
+    "Headquarters": {
+      "Title": "Hoofdkwartier",
+      "Description1": "Het Hoofdkwartier is het belangrijkste gebouw in het spel. Het vervult vergelijkbare functies als de stadhuisgebouwen in andere spellen. Door het verder uit te breiden, kun je nieuwe gebouwen oprichten en bestaande gebouwen naar een hoger niveau brengen.",
+      "Description2": "Wanneer het Hoofdkwartier een niveau stijgt, worden de volgende zaken verhoogd:",
+      "List1": "Prestaties",
+      "List2": "Heldenniveau-Limiet",
+      "List3": "Held HP",
+      "List4": "Held Aanval",
+      "List5": "Held Verdediging",
+      "List6": "Niveau-Limiet voor elk gebouw",
+      "LevelUp": {
+        "Title": "Niveau-Up Vereisten",
+        "Description1": "Om het Hoofdkwartier naar een hoger niveau te brengen, moeten zowel de hulpbronnen- als de gebouwvereisten in elke fase worden vervuld.",
+        "Description2": "Het is belangrijk om de bouw stapsgewijs voort te zetten om een soepele voortgang naar het volgende niveau van het Hoofdkwartier te garanderen en voldoende hulpbronnen te sparen. Als het Hoofdkwartier niet wordt verbeterd, kan dit leiden tot een zwakke troep, omdat dit gebouw de limiet voor heldenniveaus bepaalt.",
+        "Description3": "Hieronder ziet u een diagram met de vereiste gebouwen voor elk niveau",
+        "Table": {
+          "ToUnlock": "HQ om te Ontgrendelen",
+          "Condition1": "Gebouw 1",
+          "Condition2": "Gebouw 2",
+          "Iron": "IJzer",
+          "Food": "Voedsel",
+          "Gold": "Goud",
+          "Days": "Dagen",
+          "Wall": "Muur N.",
+          "TechCenter": "Technisch Centrum N.",
+          "DrillGround": "Oefenterrein N.",
+          "Barracks": "Kazerne N.",
+          "AllianceCenter": "Alliantiecentrum N.",
+          "Hospital": "Ziekenhuis N.",
+          "TankCenter": "Tankcentrum N."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Kazerne",
+      "Description1": "De Kazernes worden gebruikt om je troepen te rekruteren en te bevorderen. Zodra je de Kazernes hebt ontgrendeld, moet je altijd maar één Kazerne tegelijk upgraden om je hulpbronnen efficiënt te gebruiken. Het bevorderen van je troepen stelt je in staat om troepen van een lager niveau naar het hoogste niveau te brengen dat je Kazernes toestaan. Het bevorderen van troepen wordt bijzonder nuttig zodra je het hebt ontgrendeld, omdat het je in staat stelt om troepen van niveau één op te leiden en te verbeteren, wat minder hulpbronnen en tijd kost."
+    },
+    "Hospital": {
+      "Title": "Ziekenhuis",
+      "Description1": "Het Ziekenhuis wordt gebruikt om je troepen na een gevecht te genezen. Als een vijand sterk genoeg is, kan hij je troepen doden of verwonden. Het Ziekenhuis kan echter geen gevallen troepen weer tot leven brengen, alleen gewonde troepen genezen. Een efficiënte manier om je troepen snel te genezen, is door alleen een aantal troepen te selecteren die binnen 25 minuten of minder kunnen worden genezen. Dit stelt je alliantie in staat om je te helpen en de genezingstijd vrijwel onmiddellijk te verkorten. Door het genezingssysteem goed te gebruiken, wordt de genezingstijd verminderd tot 25% van de tijd die het zou hebben gekost als je alle troepen tegelijkertijd had genezen."
+    },
+    "DrillGround": {
+      "Title": "Oefenterrein",
+      "Description1": "Het Oefenterrein is het gebouw waar je troepen zijn gestationeerd. Het maximale niveau van het Oefenterrein stijgt met het niveau van je Hoofdkwartier. Het Oefenterrein is een centrale bron van je kracht, omdat de kracht van je troepen grotendeels je macht bepaalt. Om de maximale macht te bereiken (het belangrijkste doel van het spel), moet je voortdurend je Oefenterrein naar het hoogste niveau brengen en indien mogelijk extra Oefentereinen bouwen. Het tweede Oefenterrein wordt ontgrendeld op niveau 16 en het derde op niveau 21."
+    },
+    "Garages": {
+      "Title": "Garages",
+      "Description1": "De Garages huisvesten je helden. Ze geven je helden extra kracht en troepen die ze mee kunnen nemen. Aan het begin van het spel ontvang je één Garage, en je kunt gedurende het spel extra Garages ontgrendelen, tot maximaal drie Garages. Een vierde Garage kan ook worden verkregen via het maandelijkse pas. Je moet je uitsluitend richten op het upgraden van Garage 1, omdat het grootste deel van je inspanningen in het spel daarop zal worden gericht. Upgrade Garage 2 alleen als je het nodig hebt voor kosteneffectieve wapenwedstrijpunten of als je denkt dat het te ver achterblijft."
+    },
+    "TechCenter": {
+      "Title": "Technisch Centrum",
+      "Description1": "Het Technisch Centrum is een cruciaal onderdeel van het spel om succesvol te concurreren met andere spelers. Het wordt om goede redenen vaak weergegeven in de sectie 'vereiste upgrades' wanneer je je Hoofdkwartier wilt upgraden. Het Technisch Centrum stelt je in staat om bepaalde statistieken van je basis te verbeteren, zoals helden, troepen, garages en meer. Dit zet hulpbronnen om in meer kracht en statistieken voor alles. Zodra je niveau 16 bereikt, heb je de mogelijkheid om een tweede Technisch Centrum aan te schaffen, wat sterk wordt aanbevolen."
+    },
+    "GearFactory": {
+      "Title": "Apparaatfabriek",
+      "Description1": "De Apparaatfabriek stelt je in staat om apparatuur voor je helden te maken of te demonteren. Je kunt elk type apparatuur maken dat momenteel in het spel bestaat en ook apparatuuronderdelen demonteren. Bovendien stelt de Apparaatfabriek je in staat om apparatuuronderdelen te combineren om het Dielectrische Keramische Componentdeel te maken dat je nodig hebt om een legendarisch apparatuurdeel te creëren. Het wordt niet aanbevolen om zeldzame, super-zeldzame of super-super-zeldzame apparatuuronderdelen te maken of te upgraden. Zodra je ten minste alle super-super-zeldzame (SSR) apparatuuronderdelen voor je belangrijkste helden hebt, zou je alle overige apparatuuronderdelen moeten demonteren om meer legendarische apparatuur te verkrijgen."
+    },
+    "ComponentFactory": {
+      "Title": "Componentenfabriek",
+      "Description1": "De Componentenfabriek produceert dozen met dronecomponenten. Deze dronecomponenten worden gebruikt in het Dronecentrum om verdere upgrades voor je drone uit te voeren. Zodra de Componentenfabriek is gebouwd, kan deze niet meer worden opgewaardeerd."
+    },
+    "TankCenter": {
+      "Title": "Tankcentrum",
+      "Description1": "Het Tankcentrum is een cruciaal gebouw in het spel dat de statistieken van je tankhelden aanzienlijk verbetert. Dit gebouw moet elke keer dat je je Hoofdkwartier upgraden zo snel mogelijk naar het maximale niveau worden gebracht."
+    },
+    "AircraftCenter": {
+      "Title": "Vliegtuigcentrum",
+      "Description1": "Het Vliegtuigcentrum vervult dezelfde functie als het Tankcentrum, maar voor helden van het vliegtuigtype. Aanvankelijk is het niet belangrijk om dit gebouw te upgraden, omdat het geen bonussen biedt voor de configuratie die je zou moeten gebruiken. Zodra echter DVA en Carlie beschikbaar zijn, zal het net zo belangrijk zijn om het Vliegtuigcentrum te upgraden als het Tankcentrum, vanwege de extra statistieken die het deze helden biedt."
+    },
+    "MissileCenter": {
+      "Title": "Missielcentrum",
+      "Description1": "Op vergelijkbare wijze als de twee hierboven genoemde gebouwen verhoogt het Missielcentrum de statistieken van rakethelden."
+    },
+    "ResourceCenters": {
+      "Title": "Hulpbronnen Centra",
+      "Description1": "De voedsel-, ijzer- en smeltcentra zijn gebouwen die de respectieve hulpbronnen produceren. De Trainingsbasis is het gebouw dat helden-XP produceert. Ervaring leert dat de Trainingsbasis-gebouwen een goede XP-nutzung bieden in verhouding tot de gebruikte hulpbronnen en efficiënt kunnen worden opgewaardeerd."
     }
   }
 }

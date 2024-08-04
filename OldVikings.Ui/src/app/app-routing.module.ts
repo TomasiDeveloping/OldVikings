@@ -6,6 +6,8 @@ import {RulesComponent} from "./pages/rules/rules.component";
 import {DesertStormComponent} from "./pages/desert-storm/desert-storm.component";
 import {AlliancesComponent} from "./pages/alliances/alliances.component";
 import {BasicsComponent} from "./pages/basics/basics.component";
+import {TipsAndTricksComponent} from "./pages/tips-and-tricks/tips-and-tricks.component";
+import {BuildingsComponent} from "./pages/buildings/buildings.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path: 'desert-storm', component: DesertStormComponent},
   {path: 'alliances', component: AlliancesComponent},
   {path: 'basics', component: BasicsComponent},
+  {path: 'tips-and-tricks', component: TipsAndTricksComponent},
+  {path: 'buildings', component: BuildingsComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 
