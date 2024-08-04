@@ -18,6 +18,7 @@ import { BasicsComponent } from './pages/basics/basics.component';
 import { TipsAndTricksComponent } from './pages/tips-and-tricks/tips-and-tricks.component';
 import { BuildingsComponent } from './pages/buildings/buildings.component';
 import { HeadqartersTableComponent } from './pages/buildings/headqarters-table/headqarters-table.component';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -53,6 +54,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right'
     }),
+    NgxScrollTopModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
