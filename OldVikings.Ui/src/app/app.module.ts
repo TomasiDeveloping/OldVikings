@@ -8,7 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { VsDuellComponent } from './pages/vs-duell/vs-duell.component';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {HttpClient, HttpClientModule, provideHttpClient, withInterceptors} from "@angular/common/http";
 import {ToastrModule} from "ngx-toastr";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { RulesComponent } from './pages/rules/rules.component';
@@ -19,6 +19,10 @@ import { TipsAndTricksComponent } from './pages/tips-and-tricks/tips-and-tricks.
 import { BuildingsComponent } from './pages/buildings/buildings.component';
 import { HeadqartersTableComponent } from './pages/buildings/headqarters-table/headqarters-table.component';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
+import { GreetingModalComponent } from './pages/home/greeting-modal/greeting-modal.component';
+import {ReactiveFormsModule} from "@angular/forms";
+import {NgxSpinnerModule} from "ngx-spinner";
+import {spinnerInterceptor} from "./interceptors/spinner.interceptor";
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -37,13 +41,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     BasicsComponent,
     TipsAndTricksComponent,
     BuildingsComponent,
-    HeadqartersTableComponent
+    HeadqartersTableComponent,
+    GreetingModalComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -55,8 +61,11 @@ export function HttpLoaderFactory(http: HttpClient) {
       positionClass: 'toast-bottom-right'
     }),
     NgxScrollTopModule,
+    NgxSpinnerModule
   ],
-  providers: [],
+  providers: [
+    provideHttpClient(withInterceptors([spinnerInterceptor]))
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

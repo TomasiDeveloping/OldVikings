@@ -1,0 +1,49 @@
+<!-- Modal -->
+<div class="modal fade" id="greetingModal"  tabindex="-1" aria-labelledby="greetingModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="greetingModalLabel">{{'Greeting.Modal.Title' | translate}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="greetingForm" (ngSubmit)="onSubmit()">
+
+          <div class="form-floating is-invalid mb-3">
+            <input [ngClass]="{'is-invalid': f['serverNumber'].invalid && (f['serverNumber'].touched || f['serverNumber'].dirty), 'is-valid': f['serverNumber'].valid}"
+                   type="number" class="form-control" id="serverNumber" placeholder="#469" formControlName="serverNumber">
+            <label for="serverNumber">{{'Greeting.Modal.Form.ServerNumber.Label' | translate}} <span class="text-danger">*</span> </label>
+            @if (f['serverNumber'].invalid && f['serverNumber'].touched || f['serverNumber'].dirty) {
+              <div class="invalid-feedback">
+                @if (f['serverNumber'].hasError('required')) {
+                  <p>{{'Greeting.Modal.Form.ServerNumber.Required' | translate}}</p>
+                    }
+              </div>
+            }
+          </div>
+
+          <div class="form-floating is-invalid mb-3">
+            <input [ngClass]="{'is-invalid': f['allianceName'].invalid && (f['allianceName'].touched || f['allianceName'].dirty), 'is-valid': f['allianceName'].valid}"
+                   type="text" class="form-control" id="allianceName" placeholder="OldVikings" formControlName="allianceName">
+            <label for="allianceName">{{'Greeting.Modal.Form.AllianceName.Label' | translate}} <span class="text-danger">*</span></label>
+            @if (f['allianceName'].invalid && f['allianceName'].touched || f['allianceName'].dirty) {
+              <div class="invalid-feedback">
+                @if (f['allianceName'].hasError('required')) {
+                  <p>{{'Greeting.Modal.Form.AllianceName.Required' | translate}}</p>
+                }
+              </div>
+            }
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="playerName" placeholder="ThorCH" formControlName="playerName">
+            <label for="playerName">{{'Greeting.Modal.Form.PlayerName' | translate}} <small>({{'Greeting.Modal.Form.Optional' | translate}})</small></label>
+          </div>
+          <div class="modal-footer">
+            <button id="close-modal" type="button" class="btn btn-danger" data-bs-dismiss="modal">{{'Greeting.Modal.Form.CloseButton' | translate}}</button>
+            <button [disabled]="greetingForm.invalid" type="submit" class="btn btn-success">{{'Greeting.Modal.Form.SubmitButton' | translate}}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

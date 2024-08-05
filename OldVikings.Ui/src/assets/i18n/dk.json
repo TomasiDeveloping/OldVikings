@@ -534,5 +534,33 @@
       "Title": "Ressourcecentre",
       "Description1": "Mad-, jern- og smeltecentre er bygninger, der producerer de respektive ressourcer. Træningsbasen er bygningen, der producerer helte-XP. Erfaring viser, at træningsbasebygninger giver en god XP-udnyttelse i forhold til de anvendte ressourcer og er effektive at opgradere."
     }
+  },
+  "Greeting": {
+    "HomeButton": "Sig hej!",
+    "Modal": {
+      "Title": "Efterlad en hilsen",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Server nummer",
+          "Required": "Server nummer er påkrævet"
+        },
+        "AllianceName": {
+          "Label": "Alliance navn",
+          "Required": "Alliance navn er påkrævet"
+        },
+        "PlayerName": "Spiller navn",
+        "Optional": "Valgfrit",
+        "CloseButton": "Annuller",
+        "SubmitButton": "Send"
+      },
+      "Toastr": {
+        "Label": "Din hilsen",
+        "Success": "Tak for din hilsen",
+        "Error": "Der opstod desværre et problem. Prøv igen senere."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Vent venligst..."
   }
 }

@@ -534,5 +534,33 @@
       "Title": "Hulpbronnen Centra",
       "Description1": "De voedsel-, ijzer- en smeltcentra zijn gebouwen die de respectieve hulpbronnen produceren. De Trainingsbasis is het gebouw dat helden-XP produceert. Ervaring leert dat de Trainingsbasis-gebouwen een goede XP-nutzung bieden in verhouding tot de gebruikte hulpbronnen en efficiënt kunnen worden opgewaardeerd."
     }
+  },
+  "Greeting": {
+    "HomeButton": "Zeg hallo!",
+    "Modal": {
+      "Title": "Laat een begroeting achter",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Servernummer",
+          "Required": "Servernummer is verplicht"
+        },
+        "AllianceName": {
+          "Label": "Alliantie naam",
+          "Required": "Alliantie naam is verplicht"
+        },
+        "PlayerName": "Speler naam",
+        "Optional": "Optioneel",
+        "CloseButton": "Annuleren",
+        "SubmitButton": "Verzenden"
+      },
+      "Toastr": {
+        "Label": "Je begroeting",
+        "Success": "Bedankt voor je begroeting",
+        "Error": "Er is een probleem opgetreden. Probeer het later opnieuw."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Even geduld..."
   }
 }

@@ -534,5 +534,33 @@
       "Title": "Ressourcenzentren",
       "Description1": "Die Nahrungsmittel-, Eisen- und Schmelzzentren sind Gebäude, die entsprechende Ressourcen erzeugen. Die Trainingsbasis ist das Gebäude, das Helden-XP produziert. Aus Erfahrung bieten die Trainingsbasis-Gebäude eine gute XP-Nutzung im Verhältnis zu den verwendeten Ressourcen und sind effizient aufrüstbar."
     }
+  },
+  "Greeting": {
+    "HomeButton": "Sag Hallo!",
+    "Modal": {
+      "Title": "Hinterlasse einen Gruss",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Server nummer",
+          "Required": "Server nummer ist ein Pflichtfeld"
+        },
+        "AllianceName": {
+          "Label": "Allianz name",
+          "Required": "Allianz name ist ein Pflichtfeld"
+        },
+        "PlayerName": "Spieler Name",
+        "Optional": "Optional",
+        "CloseButton": "Abbrechen",
+        "SubmitButton": "Senden"
+      },
+      "Toastr": {
+        "Label": "Dein Gruss",
+        "Success": "Besten dank für deinen Gruss",
+        "Error": "Leider ist ein Problem aufgetreten. Bitte versuche es später noch einmal."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Bitte warten..."
   }
 }

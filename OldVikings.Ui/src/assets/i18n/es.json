@@ -476,5 +476,33 @@
       "Title": "Centros de Recursos",
       "Description1": "Los centros de comida, hierro y fundición son edificios que producen los recursos respectivos. La Base de Entrenamiento es el edificio que produce XP de héroes. La experiencia muestra que los edificios de la Base de Entrenamiento ofrecen una buena utilización de XP en relación con los recursos utilizados y son eficientes para actualizar."
     }
+  },
+  "Greeting": {
+    "HomeButton": "¡Di hola!",
+    "Modal": {
+      "Title": "Deja un saludo",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Número de servidor",
+          "Required": "El número de servidor es obligatorio"
+        },
+        "AllianceName": {
+          "Label": "Nombre de la alianza",
+          "Required": "El nombre de la alianza es obligatorio"
+        },
+        "PlayerName": "Nombre del jugador",
+        "Optional": "Opcional",
+        "CloseButton": "Cancelar",
+        "SubmitButton": "Enviar"
+      },
+      "Toastr": {
+        "Label": "Tu saludo",
+        "Success": "Gracias por tu saludo",
+        "Error": "Ha ocurrido un problema. Por favor, inténtalo de nuevo más tarde."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Por favor espera..."
   }
 }

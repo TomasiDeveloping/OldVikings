@@ -534,5 +534,33 @@
       "Title": "Ressurssentre",
       "Description1": "Mat-, jern- og smeltessentrene er bygninger som produserer de respektive ressursene. Treningsbasen er bygningen som produserer helte-XP. Erfaring viser at Treningsbase-bygningene gir god XP-bruk i forhold til ressursene som brukes og kan oppgraderes effektivt."
     }
+  },
+  "Greeting": {
+    "HomeButton": "Si hei!",
+    "Modal": {
+      "Title": "Legg igjen en hilsen",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Servernummer",
+          "Required": "Servernummer er påkrevd"
+        },
+        "AllianceName": {
+          "Label": "Alliansenavn",
+          "Required": "Alliansenavn er påkrevd"
+        },
+        "PlayerName": "Spillerens navn",
+        "Optional": "Valgfritt",
+        "CloseButton": "Avbryt",
+        "SubmitButton": "Send"
+      },
+      "Toastr": {
+        "Label": "Din hilsen",
+        "Success": "Takk for din hilsen",
+        "Error": "Det oppstod et problem. Vennligst prøv igjen senere."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Vennligst vent..."
   }
 }

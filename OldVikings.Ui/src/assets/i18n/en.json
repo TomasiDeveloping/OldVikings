@@ -534,5 +534,33 @@
       "Title": "Resource Centers",
       "Description1": "The Food, Iron, and Smelting Centers are buildings that produce the respective resources. The Training Base is the building that produces hero XP. Experience shows that Training Base buildings offer good XP utilization relative to the resources used and are efficient to upgrade."
     }
+  },
+  "Greeting": {
+    "HomeButton": "Say Hello!",
+    "Modal": {
+      "Title": "Leave a Greeting",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Server Number",
+          "Required": "Server number is required"
+        },
+        "AllianceName": {
+          "Label": "Alliance Name",
+          "Required": "Alliance name is required"
+        },
+        "PlayerName": "Player Name",
+        "Optional": "Optional",
+        "CloseButton": "Cancel",
+        "SubmitButton": "Submit"
+      },
+      "Toastr": {
+        "Label": "Your Greeting",
+        "Success": "Thank you for your greeting",
+        "Error": "An error occurred. Please try again later."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Please wait..."
   }
 }

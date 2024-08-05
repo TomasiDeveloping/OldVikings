@@ -534,5 +534,33 @@
       "Title": "Centri Risorse",
       "Description1": "I centri di cibo, ferro e fusione sono edifici che producono le risorse rispettive. La Base di Addestramento è l'edificio che produce XP per gli eroi. L'esperienza dimostra che gli edifici della Base di Addestramento offrono un buon utilizzo dell'XP rispetto alle risorse utilizzate e sono efficienti da migliorare."
     }
+  },
+  "Greeting": {
+    "HomeButton": "Dì ciao!",
+    "Modal": {
+      "Title": "Lascia un saluto",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Numero del server",
+          "Required": "Il numero del server è obbligatorio"
+        },
+        "AllianceName": {
+          "Label": "Nome dell'alleanza",
+          "Required": "Il nome dell'alleanza è obbligatorio"
+        },
+        "PlayerName": "Nome del giocatore",
+        "Optional": "Opzionale",
+        "CloseButton": "Annulla",
+        "SubmitButton": "Invia"
+      },
+      "Toastr": {
+        "Label": "Il tuo saluto",
+        "Success": "Grazie per il tuo saluto",
+        "Error": "Si è verificato un problema. Per favore, riprova più tardi."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Per favore aspetta..."
   }
 }

@@ -534,5 +534,33 @@
       "Title": "Centres de Ressources",
       "Description1": "Les centres de nourriture, de fer et de fusion sont des bâtiments qui produisent les ressources respectives. La Base d'Entraînement est le bâtiment qui produit l'XP des héros. L'expérience montre que les bâtiments de la Base d'Entraînement offrent une bonne utilisation de l'XP par rapport aux ressources utilisées et sont efficaces à mettre à niveau."
     }
+  },
+  "Greeting": {
+    "HomeButton": "Dis bonjour !",
+    "Modal": {
+      "Title": "Laisse un message",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Numéro de serveur",
+          "Required": "Le numéro de serveur est obligatoire"
+        },
+        "AllianceName": {
+          "Label": "Nom de l'alliance",
+          "Required": "Le nom de l'alliance est obligatoire"
+        },
+        "PlayerName": "Nom du joueur",
+        "Optional": "Optionnel",
+        "CloseButton": "Annuler",
+        "SubmitButton": "Envoyer"
+      },
+      "Toastr": {
+        "Label": "Votre message",
+        "Success": "Merci pour votre message",
+        "Error": "Un problème est survenu. Veuillez réessayer plus tard."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Veuillez patienter..."
   }
 }
