@@ -23,6 +23,7 @@ import { GreetingModalComponent } from './pages/home/greeting-modal/greeting-mod
 import {ReactiveFormsModule} from "@angular/forms";
 import {NgxSpinnerModule} from "ngx-spinner";
 import {spinnerInterceptor} from "./interceptors/spinner.interceptor";
+import { MemberLoginComponent } from './auth/member-login/member-login.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -42,7 +43,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     TipsAndTricksComponent,
     BuildingsComponent,
     HeadqartersTableComponent,
-    GreetingModalComponent
+    GreetingModalComponent,
+    MemberLoginComponent
   ],
   imports: [
     BrowserModule,

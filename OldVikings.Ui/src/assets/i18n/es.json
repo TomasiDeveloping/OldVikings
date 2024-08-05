@@ -504,5 +504,22 @@
   },
   "Spinner": {
     "Label": "Por favor espera..."
+  },
+  "MemberLogin": {
+    "Title": "Inicio de sesión de miembros",
+    "Description": "Esta área es solo para miembros.",
+    "Form": {
+      "Label": "Introduzca la contraseña",
+      "Required": "La contraseña es un campo obligatorio",
+      "LoginButton": "Iniciar sesión"
+    },
+    "Toastr": {
+      "Title": "Inicio de sesión",
+      "Error": "Error en el inicio de sesión"
+    },
+    "PasswordExpired": {
+      "Title": "Contraseña expirada",
+      "Information": "La contraseña ha cambiado"
+    }
   }
 }

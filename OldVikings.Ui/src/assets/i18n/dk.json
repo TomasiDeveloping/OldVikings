@@ -562,5 +562,22 @@
   },
   "Spinner": {
     "Label": "Vent venligst..."
+  },
+  "MemberLogin": {
+    "Title": "Medlemslogin",
+    "Description": "Dette område er kun for medlemmer.",
+    "Form": {
+      "Label": "Indtast adgangskode",
+      "Required": "Adgangskode er et påkrævet felt",
+      "LoginButton": "Login"
+    },
+    "Toastr": {
+      "Title": "Login",
+      "Error": "Login mislykkedes"
+    },
+    "PasswordExpired": {
+      "Title": "Adgangskode udløbet",
+      "Information": "Adgangskoden er blevet ændret"
+    }
   }
 }

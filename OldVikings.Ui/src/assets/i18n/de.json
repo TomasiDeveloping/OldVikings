@@ -562,5 +562,22 @@
   },
   "Spinner": {
     "Label": "Bitte warten..."
+  },
+  "MemberLogin": {
+    "Title": "Member Login",
+    "Description": "Dieser Bereich ist nur für Mitglieder.",
+    "Form": {
+      "Label": "Passwort eingben",
+      "Required": "Passwort ist ein Pflichtfeld",
+      "LoginButton": "Login"
+    },
+    "Toastr": {
+      "Title": "Login",
+      "Error": "Login fehlerhaft"
+    },
+    "PasswordExpired": {
+      "Title": "Paswort abgelaufen",
+      "Information": "Das Passwort hat sich geändert"
+    }
   }
 }

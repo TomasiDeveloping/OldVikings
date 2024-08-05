@@ -1,0 +1,57 @@
+:host {
+  display: block;
+  height: calc(100vh - 80px);
+  margin: 0;
+}
+
+.background {
+  background-image: url('../../../assets/images/login-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+  max-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  word-break: break-word;
+  color: black;
+}
+
+.login-container p {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.login-container .form-group {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login-container input[type="password"] {
+  margin-bottom: 1rem;
+}
+
+.login-container button {
+  width: 100%;
+}

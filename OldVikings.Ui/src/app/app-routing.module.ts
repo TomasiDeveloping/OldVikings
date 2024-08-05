@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {NgModule} from '@angular/core';
 import {ExtraOptions, RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from "./pages/home/home.component";
 import {VsDuellComponent} from "./pages/vs-duell/vs-duell.component";
@@ -8,6 +8,8 @@ import {AlliancesComponent} from "./pages/alliances/alliances.component";
 import {BasicsComponent} from "./pages/basics/basics.component";
 import {TipsAndTricksComponent} from "./pages/tips-and-tricks/tips-and-tricks.component";
 import {BuildingsComponent} from "./pages/buildings/buildings.component";
+import {MemberLoginComponent} from "./auth/member-login/member-login.component";
+import {memberGuard} from "./guards/member.guard";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -15,13 +17,14 @@ const routerOptions: ExtraOptions = {
 }
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
-  {path: 'vs', component: VsDuellComponent},
+  {path: 'vs', component: VsDuellComponent, canActivate: [memberGuard]},
   {path: 'rules', component: RulesComponent},
-  {path: 'desert-storm', component: DesertStormComponent},
+  {path: 'desert-storm', component: DesertStormComponent, canActivate: [memberGuard]},
   {path: 'alliances', component: AlliancesComponent},
   {path: 'basics', component: BasicsComponent},
-  {path: 'tips-and-tricks', component: TipsAndTricksComponent},
-  {path: 'buildings', component: BuildingsComponent},
+  {path: 'tips-and-tricks', component: TipsAndTricksComponent, canActivate: [memberGuard]},
+  {path: 'buildings', component: BuildingsComponent, canActivate: [memberGuard]},
+  {path: 'member-login', component: MemberLoginComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 
@@ -29,4 +32,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, routerOptions)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

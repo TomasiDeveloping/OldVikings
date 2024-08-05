@@ -1,0 +1,22 @@
+<div class="background">
+  <div class="login-container text-center">
+    <h2>{{ 'MemberLogin.Title' | translate }}</h2>
+    <p>{{ 'MemberLogin.Description' | translate }}</p>
+    <form (ngSubmit)="onLogin()" [formGroup]="loginForm">
+      <div class="form-group">
+        <input
+          [ngClass]="{'is-invalid': f['password'].invalid && (f['password'].touched || f['password'].dirty), 'is-valid': f['password'].valid}"
+          class="form-control" formControlName="password" placeholder="{{'MemberLogin.Form.Label' | translate}}"
+          type="password">
+        @if (f['password'].invalid && (f['password'].touched || f['password'].dirty)) {
+          <div class="invalid-feedback">
+            <p>{{ 'MemberLogin.Form.Required' | translate }}</p>
+          </div>
+        }
+      </div>
+      <button [disabled]="loginForm.invalid" class="btn btn-primary"
+              type="submit">{{ 'MemberLogin.Form.LoginButton' | translate }}
+      </button>
+    </form>
+  </div>
+</div>

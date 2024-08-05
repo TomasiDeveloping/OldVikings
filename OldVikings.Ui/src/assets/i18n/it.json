@@ -562,5 +562,22 @@
   },
   "Spinner": {
     "Label": "Per favore aspetta..."
+  },
+  "MemberLogin": {
+    "Title": "Accesso membri",
+    "Description": "Quest'area è riservata ai membri.",
+    "Form": {
+      "Label": "Inserisci la password",
+      "Required": "La password è un campo obbligatorio",
+      "LoginButton": "Accedi"
+    },
+    "Toastr": {
+      "Title": "Accesso",
+      "Error": "Accesso fallito"
+    },
+    "PasswordExpired": {
+      "Title": "Password scaduta",
+      "Information": "La password è stata modificata"
+    }
   }
 }

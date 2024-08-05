@@ -562,5 +562,22 @@
   },
   "Spinner": {
     "Label": "Even geduld..."
+  },
+  "MemberLogin": {
+    "Title": "Ledenlogin",
+    "Description": "Dit gebied is alleen voor leden.",
+    "Form": {
+      "Label": "Voer wachtwoord in",
+      "Required": "Wachtwoord is een verplicht veld",
+      "LoginButton": "Inloggen"
+    },
+    "Toastr": {
+      "Title": "Inloggen",
+      "Error": "Inloggen mislukt"
+    },
+    "PasswordExpired": {
+      "Title": "Wachtwoord verlopen",
+      "Information": "Het wachtwoord is gewijzigd"
+    }
   }
 }

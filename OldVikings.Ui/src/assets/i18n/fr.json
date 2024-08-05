@@ -562,5 +562,22 @@
   },
   "Spinner": {
     "Label": "Veuillez patienter..."
+  },
+  "MemberLogin": {
+    "Title": "Connexion des membres",
+    "Description": "Cette zone est réservée aux membres.",
+    "Form": {
+      "Label": "Entrez le mot de passe",
+      "Required": "Le mot de passe est un champ obligatoire",
+      "LoginButton": "Connexion"
+    },
+    "Toastr": {
+      "Title": "Connexion",
+      "Error": "Échec de la connexion"
+    },
+    "PasswordExpired": {
+      "Title": "Mot de passe expiré",
+      "Information": "Le mot de passe a changé"
+    }
   }
 }

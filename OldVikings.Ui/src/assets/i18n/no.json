@@ -562,5 +562,22 @@
   },
   "Spinner": {
     "Label": "Vennligst vent..."
+  },
+  "MemberLogin": {
+    "Title": "Medlemsinnlogging",
+    "Description": "Dette området er kun for medlemmer.",
+    "Form": {
+      "Label": "Skriv inn passord",
+      "Required": "Passord er et obligatorisk felt",
+      "LoginButton": "Logg inn"
+    },
+    "Toastr": {
+      "Title": "Innlogging",
+      "Error": "Innlogging feilet"
+    },
+    "PasswordExpired": {
+      "Title": "Passord utløpt",
+      "Information": "Passordet har blitt endret"
+    }
   }
 }
