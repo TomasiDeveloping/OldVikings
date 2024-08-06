@@ -1,0 +1,745 @@
+{
+  "Home": {
+    "Welcome": "Välkommen, modiga krigare, till Alliansen Old Viking!",
+    "Section1": "Gå in i de stormiga haven och de oändliga slagfälten med Alliansen Old Viking vid din sida. Här kämpar vi axel mot axel, med våra yxor vassa, våra sköldar höjda, alltid redo för nästa strid.",
+    "WhatToExpect": {
+      "Title": "Vad du kan förvänta dig:",
+      "List1": "Bröder och systrar i strid: Hitta trogna följeslagare som kommer att stödja dig i varje strid och dela äran med dig.",
+      "List2": "Strategisk mästerlighet: Smide mäktiga planer och övervinna dina fiender med klok taktik och obevekligt mod.",
+      "List3": "Ärorika fester: Delta i episka strider och härliga räder som belönar dig rikt och vidareutvecklar din hjältesaga.",
+      "List4": "De gamla visdomar: Lär dig från erfarna krigare och förbättra dina färdigheter för att bestå som en sann viking."
+    },
+    "Allies": {
+      "Title": "Våra allierade:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Icke-angreppspakter (NAP):",
+      "Nap1": "dkW - DKwar"
+    },
+    "Section2": "Bli en del av Alliansen Old Viking och segla med oss in i legenden. Tillsammans kommer vi att vara oövervinneliga och få världen att darra av vördnad.",
+    "Vs": {
+      "Title": "VS-Duell: ",
+      "Description": "Här får du veta hur du kan samla flest poäng.",
+      "Link": "Läs mer",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Dag 1 - Radar-specialträning"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Dag 2 - Grundläggande konstruktion"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Dag 3 - Vetenskapens tidsålder"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Dag 4 - Utveckling av hjältar"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Dag 5 - Stridsberedskap"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Dag 6 - Utrotning av fiender"
+      }
+    },
+    "Information": {
+      "Title": "Ytterligare information",
+      "Description": "Här hittar du användbara länkar till de viktigaste sidorna på vår hemsida:",
+      "Vs": "VS-Duell",
+      "Rules": "Regler",
+      "Basics": "Grunder",
+      "TipsAndTricks": "Tips och tricks"
+    }
+  },
+  "Rules": {
+    "Title": "Alliansregler",
+    "Rule1": {
+      "Title": "Inaktivitet",
+      "Description": "Den som är offline i 3 dagar utan att meddela sig kommer att uteslutas ur alliansen den 4:e dagen."
+    },
+    "Rule2": {
+      "Title": "Versammlungsplats",
+      "Description": "På söndagen är hela striden över, och alla medlemmar ska samlas vid alliansens samlingsplats.",
+      "Description2": "Den som inte är vid samlingsplatsen på onsdag kommer att uteslutas.",
+      "Description3": "Hur hittar jag till samlingsplatsen?"
+    },
+    "Rule3": {
+      "Title": "Allians-teknologi Donationer",
+      "Description": "Varje medlem måste ha donerat poäng till alliansens teknologi senast på söndag (donationen är gratis).",
+      "Description2": "Den som inte gör detta kommer att uteslutas.",
+      "Description3": "Hur donerar jag?"
+    },
+    "Rule4": {
+      "Title": "Spelarnamn",
+      "Description": "Varje medlem måste ha ett eget spelarnamn.",
+      "Description2": "Den som inte har ett eget spelarnamn kommer att uteslutas ur alliansen."
+    },
+    "Rule5": {
+      "Title": "Allmänna attacker",
+      "Description": "Alla attacker mot våra allierade eller mot NAP (icke-angreppspakt) är förbjudna.",
+      "Description2": "Attacker mot spelare från andra allianser är i grunden förbjudna. Om särskilda omständigheter eller konflikter uppstår måste sådana åtgärder först diskuteras och godkännas av en R5 eller R4 för att undvika onödig stress.",
+      "Description3": "Plundring av lastbilar eller tåg från den egna servern är inte tillåten.",
+      "Description4": "Hur undviker jag attacker mot egna lastbilar?"
+    },
+    "Note": {
+      "Title": "Notera:",
+      "Description": "Om någon är osäker på hur man uppfyller en regel eller har andra frågor, ska de vänligen kontakta oss. Vi är här för att hjälpa."
+    },
+    "Footer": "Låt oss vara starka och framgångsrika tillsammans!",
+    "ServerRules": {
+      "Title": "Serverregler",
+      "Abuse": {
+        "Title": "Missbruk:",
+        "Rule1": "Ingen mobbning, sexism, rasism, homofobi eller andra hatiska chattar, inklusive etniska, sexuella, religiösa, funktionshinderrelaterade, åldersrelaterade eller transfobiska förolämpningar. Konsekvensen är ett gratis slag mot spelaren, vid upprepning sker uteslutning ur alliansen."
+      },
+      "Zeroing": {
+        "Title": "Nollställning:",
+        "Rule1": "Det är förbjudet att nollställa (förstöra) baser som tillhör allianser på vår server. Konsekvensen är egen nollställning, med trupper utanför basen."
+      },
+      "Trucks": {
+        "Title": "Lastbilar:",
+        "Rule1": "Ingen attack på våra server-lastbilar och tåg. Använd filtret för att förhindra detta. Om det ändå sker, prata direkt med personen för att organisera en likvärdig lastbil att plundra. Vid ingen respons, rapportera till R4/R5."
+      },
+      "Villages": {
+        "Title": "Byar:",
+        "Rule1": "Spelare får inte attackera baser vid bystrider, utan bara förstärka eller attackera byn. Konsekvensen är ett lika stort antal träffar med trupper utanför basen."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Attacker 1:",
+          "Rule": "Spelare som lämnar sin allians för att attackera en spelare bland de topp 10 kommer att uteslutas från alla topp 10 i 1 vecka. De får under denna vecka inte skyddas av någon topp 10."
+        },
+        "Rule2": {
+          "Title": "Attacker 2:",
+          "Rule": "Spelare som attackerar en annan spelare bland de topp 10 bör få samma antal attacker och skador tillbaka, vid ett andra brott följer en 1-veckas avstängning från topp 10."
+        }
+      },
+      "Cities": {
+        "Title": "Städer:",
+        "Rule1": "Level 6 städer tillhör de topp 3 allianserna. När de topp 3 ändras kommer level 6 städer att byta tillhörighet därefter."
+      }
+    }
+  },
+  "Navigation": {
+    "Home": "Hemsida",
+    "Rules": "Regler",
+    "VS": "VS-Duell",
+    "Alliances": "Allianser",
+    "Basics": "Grunder",
+    "TipsAndTricks": "Tips och tricks",
+    "Buildings": "Byggnader"
+  },
+  "VS": {
+    "Title": "VS-Duell",
+    "Day1": {
+      "Title": "Dag 1 - Radar-specialträning",
+      "DayText": "Måndag",
+      "Task1": {
+        "Title": "Slutför 1 radaruppgift (~25.000 poäng):",
+        "Description": "Gå till radarsymbolen nere till vänster och öppna radarskärmen. Här ser du uppdrag, där vissa redan är slutförda (med en röd punkt uppe till höger), medan andra fortfarande behöver slutföras. För att slutföra ett uppdrag måste du först genomföra det (om det inte redan har genomförts) och sedan klicka på uppdraget med den röda punkten. Genom att göra detta samlar du in det och får poängen. För att maximera poängen bör du överväga att stapla uppdrag dagen innan."
+      },
+      "Task2": {
+        "Title": "Använd 1 uthållighet (~300 poäng):",
+        "Description": "Använd uthållighet för attacker, insamlingsaktioner och radaruppdrag."
+      },
+      "Task3": {
+        "Title": "Använd minst 660 hjälte-EXP-poäng samtidigt (~6 poäng):",
+        "Description": "Gå till drönarcentret och klicka på knappen 'Dataträning' för att använda stridsdata. På vissa nivåer krävs drönardelar för att fortsätta träningen."
+      },
+      "Task4": {
+        "Title": "Använd 1 drönardel:",
+        "Description": "Gå till drönarcentret och klicka på knappen 'Dataträning' för att använda stridsdata. På vissa nivåer krävs drönardelar."
+      },
+      "Task5": {
+        "Title": "Samla 100/100/60 enheter mat/järn/mynt (~40 poäng):",
+        "Description": "Du kan samla enheter av mat, järn eller mynt på två sätt:",
+        "Description2": "Med speciella radaruppdrag för att samla mat, järn eller mynt. I detta fall är insamlingshastigheten mycket hög.",
+        "Description3": "Byt till kartläget, klicka på förstoringsglaset, sedan på Insamling och välj 'Åkermark', 'Järnmalm' eller 'Guldgruva'. Leta upp en plats dit du kan skicka dina trupper för insamling. Poängen tilldelas när trupperna lämnar insamlingspunkten, antingen för att de tillgängliga resurserna är uttömda eller för att trupperna har återkallats. Börja därför insamlingen dagen innan och se till att den slutliga insamlingstiden är efter dagens början."
+      },
+      "Task6": {
+        "Title": "För varje vunnen drönardatachip-poäng (~2000 poäng):",
+        "Description": "Få poäng när du öppnar drönardatachip-lådor från inventariet (inte att förväxla med drönardelar-lådor)."
+      }
+    },
+    "Day2": {
+      "Title": "Dag 2 - Basisbyggande",
+      "DayText": "Tisdag",
+      "Task1": {
+        "Title": "Använd en 1-minuts byggnadsaccelerator (~120 poäng):",
+        "Description": "Använd byggnadsacceleratorer (generiska är också okej, valfri längd)."
+      },
+      "Task2": {
+        "Title": "Öka byggnadens styrka med 1 poäng (~21 poäng):",
+        "Description": "Varje gång du slutför en byggnad ökar styrkan hos denna byggnad och du får poäng för denna skillnad. Observera att byggnadens styrkeökning endast sker när du öppnar presentlådan som det nyligen förbättrade byggnaden är förpackad i."
+      },
+      "Task3": {
+        "Title": "Skicka den legendariska handelslastbilen en gång (~200.000 poäng):",
+        "Description": "Handelslastbilar kan vara av olika slag och därför innehålla olika belöningar. Du kan ändra deras innehåll med handelskontraktet. Gå till avsnittet där du kan skicka en lastbil. När du förhandsgranskar innehållet uppe till höger, hittar du en knapp med en tärning. För att få den 'legendariska' versionen måste du uppdatera flera gånger tills du ser den gula bakgrunden och 'UR'-texten på vänster sida."
+      },
+      "Task4": {
+        "Title": "Genomför 1 legendarisk hemlig uppgift (~150.000 poäng):",
+        "Description": "I den hemliga mobila enheten finns aktiviteter av olika slag och nivåer. Använd knappen 'Uppdatera' längst ner för att ändra aktuella uppdrag (en hemlig uppdragsobjekt, 'Hemlig order', kommer att förbrukas). Sök efter uppdrag med den gula/guldiga fyrkanten och starta dem. Om du behåller hemliga uppdragsobjekt under veckan kan du starta alla legendariska uppdrag den här dagen."
+      },
+      "Task5": {
+        "Title": "Rekrytera en överlevande en gång (~3.000 poäng):",
+        "Description": "Använd de gyllene överlevande-rekryteringstickets (de skiljer sig från de gyllene hjälte-rekryteringstickets) som du hittar i hjälteområdet. Klicka på knappen 'Rekrytera hjältar' och gå sedan till avsnittet 'Rekrytera överlevande'. Samla rekryteringstickets för överlevande under hela veckan och använd dem endast denna dag."
+      }
+    },
+    "Day3": {
+      "Title": "Dag 3 - Vetenskapens tidsålder",
+      "DayText": "Onsdag",
+      "Task1": {
+        "Title": "Slutför en radaruppgift (~23.000 poäng):",
+        "Description": "Gå till radarsymbolen nere till vänster och öppna radarskärmen. Här ser du uppdrag, där vissa redan är slutförda (med en röd punkt uppe till höger), medan andra fortfarande behöver slutföras. För att slutföra ett uppdrag måste du först genomföra det (om det inte redan har genomförts) och sedan klicka på uppdraget med den röda punkten. Genom att göra detta samlar du in det och får poängen. För att maximera poängen bör du överväga att stapla uppdrag dagen innan."
+      },
+      "Task2": {
+        "Title": "Använd en forskningsaccelerator i 1 minut (~120 poäng):",
+        "Description": "Använd en forskningsaccelerator (generiska är också okej, valfri längd)."
+      },
+      "Task3": {
+        "Title": "Öka den teknologiska prestationen med 1 poäng (~21 poäng):",
+        "Description": "Du får teknologiska prestationspoäng när du klickar på ikonen för slutforskad forskning i teknikcentret. För att maximera poängen, starta en lång forskning den/dessa dag/dagar så att den avslutas denna dag, eller avsluta den genom att bara klicka på ikonen för slutforskad forskning denna dag."
+      },
+      "Task4": {
+        "Title": "Använd ett tapperhetsmärke (~600 poäng):",
+        "Description": "Gå till forskningscentret och till avsnittet 'Alliansduell'. Starta ett av söken som förbrukar tapperhetsmärken (de är de blå medaljerna i mitten, gyllene på utsidan och med rosetten nedan, som kan vinnas i duell-lådor)."
+      },
+      "Task5": {
+        "Title": "För varje öppen drönardel-låda av nivå 1/2/3/4/5/6/7:",
+        "Description": "Få poäng när du öppnar drönardel-lådor från inventariet (inte att förväxla med drönardatachip-lådor)."
+      }
+    },
+    "Day4": {
+      "Title": "Dag 4 - Hjälteutveckling",
+      "DayText": "Torsdag",
+      "Task1": {
+        "Title": "Genomför en avancerad rekrytering en gång (~3.750 poäng):",
+        "Description": "Använd de legendariska rekryteringstickets i hjälteområdet för att rekrytera hjältar (inte att förväxla med 'överlevande rekrytering'-tickets). Samla rekryteringstickets för hjältar under hela veckan och använd dem endast denna dag."
+      },
+      "Task2": {
+        "Title": "Använd minst 660 hjälte-EXP-poäng (~6 poäng):",
+        "Description": "Använd erfarenhetspoäng genom att klicka på 'Uppgradera'-knappen efter att du valt en hjälte."
+      },
+      "Task3": {
+        "Title": "Använd en legendarisk, episk eller sällsynt bit (~20.000, ~7.000 eller ~2.000 poäng):",
+        "Description": "Använd den gyllene, lila eller blå biten (pusselbitar) för hjältarna för att öka deras nivå i hjälteområdet. Klicka på en hjälte, gå till klassavsnittet och uppgradera hjälteklass."
+      },
+      "Task4": {
+        "Title": "Använd ett färdighetsmärke (~20 poäng):",
+        "Description": "Förbättra hjältarnas färdigheter genom att gå till hjälteområdet, välja en hjälte, klicka på 'Färdigheter', välja en av färdigheterna (fyrkanterna) ovan och använda 'Stärka'-knappen (detta är inte alltid möjligt)."
+      },
+      "Task5": {
+        "Title": "Använd 1 färdighetsmärke"
+      },
+      "Task6": {
+        "Title": "Köp ett presentpaket med diamanter (1 diamant)"
+      }
+    },
+    "Day5": {
+      "Title": "Dag 5 - Stridspreparering",
+      "DayText": "Fredag",
+      "Task1": {
+        "Title": "Slutför en radaruppgift (~23.000 poäng):",
+        "Description": "Gå till radarsymbolen nere till vänster och öppna radarskärmen. Här ser du uppdrag, där vissa redan är slutförda (med en röd punkt uppe till höger), medan andra fortfarande behöver slutföras. För att slutföra ett uppdrag måste du först genomföra det (om det inte redan har genomförts) och sedan klicka på uppdraget med den röda punkten. Genom att göra detta samlar du in det och får poängen. För att maximera poängen bör du överväga att stapla uppdrag dagen innan."
+      },
+      "Task2": {
+        "Title": "Använd en 1-minuts byggnadsaccelerator (~120 poäng):",
+        "Description": "Använd en byggnadsaccelerator (generiska är också okej, valfri längd)."
+      },
+      "Task3": {
+        "Title": "Öka byggnadsstyrkan med 1 poäng (~21 poäng):",
+        "Description": "Varje gång du slutför en byggnad ökar styrkan hos den byggnaden och du får poäng för skillnaden. Observera att byggnadsstyrkan endast ökar när du öppnar presentboxen som det nyligen förbättrade byggandet är förpackat i."
+      },
+      "Task4": {
+        "Title": "Använd en 1-minuts forskningsaccelerator (~120 poäng):",
+        "Description": "Använd en forskningsaccelerator (generiska är också okej, valfri längd)."
+      },
+      "Task5": {
+        "Title": "Öka teknologisk prestation med 1 poäng (~21 poäng):",
+        "Description": "Teknologisk prestationspoäng ges när en forskning i teknikcentret är klar."
+      },
+      "Task6": {
+        "Title": "Använd en 1-minuts träningsaccelerator (~122 poäng):",
+        "Description": "Använd en träningsaccelerator (generiska är också okej, valfri längd). Poäng ges också när du tränar för att förbättra nivån på soldaten. Det är faktiskt bättre att förbereda många soldater med låg nivå före denna dag och sedan höja deras nivåer eftersom poängen ges baserat på nivån på den ankommande soldaten."
+      },
+      "Task7": {
+        "Title": "Träna en soldat på nivå 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 poäng):",
+        "Description": "Poängen du får baseras på ankomstnivån på soldaten. Om du till exempel uppgraderar en soldat från nivå 4 till nivå 5 får du poängen för en soldat på nivå 5, precis som om du tränar en soldat på nivå 5 från grunden. Förbered därför många soldater på mellannivåer för att uppgradera dem på löpande band."
+      }
+    },
+    "Day6": {
+      "Title": "Dag 6 - Fiendens Eliminering",
+      "DayText": "Lördag",
+      "Task1": {
+        "Title": "Skicka en legendär handelsbil en gång (~200.000 poäng):",
+        "Description": "Handelsbilar kan vara av olika typer och därmed innehålla olika belöningar. Du kan ändra deras innehåll med hjälp av handelsavtalet. För att använda dem, gå till avsnittet där du skickar en bil. Om du tittar på innehållet uppe till höger i förhandsvisningen ser du en knapp med en tärning. För att få 'legendär' version måste du uppdatera många gånger tills du ser den gula bakgrunden och 'UR'-texten på vänster sida."
+      },
+      "Task2": {
+        "Title": "Genomför en legendär hemlig uppgift (~150.000 poäng):",
+        "Description": "I den hemliga mobila enheten hittar du aktiviteter av olika typer och nivåer. Använd knappen 'Uppdatera' längst ner för att ändra aktuella uppdrag (där en hemlig uppdragsobjekt, 'Hemlig Order', används). Sök efter uppdrag med det gula/guldiga kvadratet och starta dem. Om du behåller hemliga uppdragsobjekt under veckan kan du starta alla legendariska uppdrag denna dag."
+      },
+      "Task3": {
+        "Title": "Använd en 1-minuts byggnadsaccelerator (~120 poäng):",
+        "Description": "Använd en byggnadsaccelerator (generiska är också okej, valfri längd)."
+      },
+      "Task4": {
+        "Title": "Använd en forskningsaccelerator i 1 minut (~120 poäng):",
+        "Description": "Använd en forskningsaccelerator (generiska är också okej, valfri längd)."
+      },
+      "Task5": {
+        "Title": "Använd en 1-minuts träningsaccelerator (~122 poäng):",
+        "Description": "Använd träningsacceleratorer (generiska är också okej, valfri längd). Poäng ges också när du tränar för att förbättra nivån på soldaten. Det är bättre att förbereda många soldater med låg nivå innan denna dag och sedan höja deras nivåer eftersom poängen baseras på nivån på den ankommande soldaten."
+      },
+      "Task6": {
+        "Title": "Använd en 1-minuts helningsaccelerator (~122 poäng):",
+        "Description": "Använd en helningsaccelerator."
+      },
+      "Task7": {
+        "Title": "Varje dödad enhet på nivå 1/2/3/4/5/6/7/8/9/10 av en fiendeallians ger ~25/38/50/63/75/88/100/113/125/138 poäng:",
+        "Description": "Dessa poäng ges varje gång du dödar en soldat från den fiendealliansen i en duell. Använd teleporten (Duell mot en motståndare-symbol -> Alliansattacker -> Attack) för att komma till din motståndares server och döda så många soldater som möjligt som attackerar baser från din motståndares allians. Om en fiende har tagit bort sina trupper från försvaret kan du inte tjäna poäng på den basen. Därför bör du först utforska och endast attackera de som fortfarande är i försvar."
+      },
+      "Task8": {
+        "Title": "Varje dödad enhet på nivå 1/2/3/4/5/6/7/8/9/10 ger ~5/8/10/13/15/18/20/23/25/28 poäng:",
+        "Description": "Dessa poäng ges varje gång du dödar en soldat från en annan allians på en annan server, förutom den allians som du är i en duell mot, för vilken poängen i föregående avsnitt gäller. Det är bättre att alltid försöka döda soldater från din motståndares allians i duellen eftersom det ger fem gånger fler poäng. Om de är skyddade eller inte har några trupper kan du även döda soldater från andra allianser på denna server. Detta kommer att kräva mer tid och träffar för att uppnå samma antal poäng."
+      },
+      "Task9": {
+        "Title": "Varje förlorad enhet på nivå 1/2/3/4/5/6/7/8/9/10 ger ~6/8/10/12/14/16/18/20 poäng:",
+        "Description": "Oavsett om du attackerar eller försvarar, varje gång en av dina soldater dödas får du denna mängd poäng. Om du behöver samla poäng i slutet av en duell för att öppna lådor och din allians vinner stort, kan du överväga att offra några av dina trupper för att attackera ett högre nivåhuvudkontor om endast dessa är tillgängliga. På detta sätt kan du förlora enheter och tjäna poäng."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Överlappning med Rustningskapplöpning",
+      "Day1": {
+        "Title": "Det finns två överlappningar, så jag rekommenderar att du genomför aktiviteterna under respektive faser:",
+        "Overlap1": {
+          "Title": "Dronboostfas:",
+          "Description": "Använd en uthållighet.",
+          "Description2": "Använd 10 drönstridspunkter."
+        },
+        "Overlap2": {
+          "Title": "Hjälteuppgraderingsfas:",
+          "Description": "Använd 2000 EXP-poäng."
+        }
+      },
+      "Day2": {
+        "Title": "Följande aktiviteter överlappar med städerbyggnadsfasen av rustningskapplöpningen. Jag rekommenderar att du genomför dessa aktiviteter under denna fas:",
+        "Overlap1": {
+          "Description": "Använd 1-minuts byggnadsaccelerator.",
+          "Description2": "Öka byggkraften med 1 poäng."
+        }
+      },
+      "Day3": {
+        "Title": "Följande aktiviteter överlappar med den tekniska forskningsfasen av rustningskapplöpningen. Jag rekommenderar att du genomför dessa aktiviteter under denna fas:",
+        "Overlap1": {
+          "Description": "Använd en 1-minuts forskningsaccelerator.",
+          "Description2": "Öka teknologisk prestation med 1 poäng."
+        }
+      },
+      "Day4": {
+        "Title": "Följande aktiviteter överlappar med hjältutvecklingsfasen av rustningskapplöpningen. Jag rekommenderar att du genomför dessa aktiviteter under denna fas:",
+        "Overlap1": {
+          "Description": "Genomför 1 avancerad rekrytering.",
+          "Description2": "Använd 2000 EXP-poäng."
+        }
+      },
+      "Day5": {
+        "Title": "Det finns tre överlappningar. Jag rekommenderar att du genomför aktiviteterna under respektive faser:",
+        "Overlap1": {
+          "Title": "Städerbyggnadsfas:",
+          "Description": "Använd en 1-minuts byggnadsaccelerator.",
+          "Description2": "Öka byggkraften med 1 poäng."
+        },
+        "Overlap2": {
+          "Title": "Teknisk forskningsfas:",
+          "Description": "Använd en 1-minuts forskningsaccelerator.",
+          "Description2": "Öka teknologisk prestation med 1 poäng."
+        },
+        "Overlap3": {
+          "Title": "Enhetsutvecklingsfas:",
+          "Description": "Använd en 1-minuts träningsaccelerator.",
+          "Description2": "Träna en soldat på nivå 1/2/3/4/5/6/7/8/9/10."
+        }
+      },
+      "Day6": {
+        "Title": "Det finns tre överlappningar. Jag rekommenderar att du genomför aktiviteterna under respektive faser:",
+        "Overlap1": {
+          "Title": "Städerbyggnadsfas:",
+          "Description": "Använd en 1-minuts byggnadsaccelerator."
+        },
+        "Overlap2": {
+          "Title": "Teknisk forskningsfas:",
+          "Description": "Använd en 1-minuts forskningsaccelerator."
+        },
+        "Overlap3": {
+          "Title": "Enhetsutvecklingsfas:",
+          "Description": "Använd en 1-minuts träningsaccelerator."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Strategisk Förberedelse",
+      "Description": "För vissa aktiviteter finns det poäng när de är slutförda. Därför kan du börja dem dagen innan de behövs och avsluta dem under respektive fas för att maximera poängen. Här är faserna och de relevanta aktiviteterna:",
+      "List1": "På de dagar när radarmissioner belönas, stapla uppdragen dagen innan till max. Detta gör att du kan uppnå den maximala poängsumman när uppdragen slutförs den aktuella dagen.",
+      "List2": "Börja på de dagar när insamling av mat, järn eller guld ger belöningspoäng, starta insamlingen dagen innan och se till att avsluta den på den nya dagen. Före insamlingen visas hur mycket du behöver för att uppnå maximala poäng.",
+      "List3": "På dagar när uppgradering av byggnader ger poäng baserat på deras prestationsökning, är det fördelaktigt att uppgradera flera byggnader under de föregående dagarna och lämna dem i presentförpackat skick. Byggnadsstyrkan ökar endast vid öppningen av presentpaketet och vid den tidpunkten ges även duellpoäng.",
+      "List4": "På dagar när forskning ger poäng, starta en lång forskning dagen innan så att forskningen avslutas under dessa dagar. Poängen ges när du klickar på symbolen för slutförd forskning.",
+      "List5": "Öppna inte lådan med drönedatapunkter och komponenter när de finns i inventariet, eftersom du får poäng genom dessa aktiviteter på dag 1 och 3.",
+      "FightDay": {
+        "Title": "Förberedelse inför Kampdag",
+        "Description": "På den sista dagen av duellen får du poäng för att döda motståndartrupper, så det är viktigt att förbereda sig för denna dag.",
+        "AttackPreparation": {
+          "Title": "Angreppspreparering",
+          "List1": "Försök under veckan att uppgradera kasernen till högsta möjliga nivå för att låsa upp träning av högre nivåtrupper. Detta gör att du kan samla poäng mer effektivt genom att träna högre nivåsoldater.",
+          "List2": "Träna så många trupper som möjligt, eftersom du kommer att behöva dem under kriget. Använd dina träningsacceleratorer bäst på dag 5 för att maximera poängen.",
+          "List3": "Köp träningsacceleratorer och helningsacceleratorer. Dessa kan hjälpa dig att avsluta träning och läkning av dina trupper snabbare, vilket är särskilt viktigt för att hålla dig effektiv under de avgörande faserna av kriget."
+        },
+        "DefensePreparation": {
+          "Title": "Försvarspreparering",
+          "List1": "Köp sköldar (eller spara resurser för att köpa dem) för att använda under de 24 timmarna på den sista dagen. Annars behöver du 1.500 diamanter för en 8-timmars sköld.",
+          "List2": "Ta bort trupper från din försvarsuppställning så att du vid ett eventuellt angrepp endast lider små förluster jämfört med förlusterna vid en förlust med aktivt försvar. Gå till din bas, klicka på muren och gå till försvarsuppställningen. Ta bort markeringarna för trupperna för att ta bort dem från försvarsuppställningen."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Belöning",
+      "Description": "För varje nödvändig aktivitet under duellen får du ett visst antal poäng. Denna poängutvinning kan du ytterligare öka genom forskning inom 'Alliansduell'-området. För att genomföra sådan forskning behöver du tapperhetsmedaljer som du endast kan få genom att öppna kistor under duellen."
+    },
+    "GeneralTips": {
+      "Title": "Allmänna Tips:",
+      "Tip1": "Genomför radarmissioner endast varannan dag när de ger poäng under evenemanget (måndag, onsdag, fredag).",
+      "Tip2": "Spara alla drönstridsdata och använd dem först på måndag.",
+      "Tip3": "Låt byggnader vara inpackade efter byggnation och packa upp dem först på tisdag när det ger poäng.",
+      "Tip4": "Spara biljetter för handelslastbilar och uppdrag och använd dem först när gyllene lastbilar och uppdrag ger poäng.",
+      "Tip5": "Spara alla biljetter för överlevande och använd dem på tisdag (utom de som är gratis).",
+      "Tip6": "Lämna drönkomponentlådor i inventariet och öppna dem först på onsdag.",
+      "Tip7": "Spara alla rekryteringsbiljetter och använd dem först på torsdag (utom de som är gratis).",
+      "Tip8": "Spara alla fragment för hjältar och färdighetsmedaljer och använd dem först på torsdag.",
+      "Tip9": "Spara all hjältexp och använd den endast på måndag eller torsdag.",
+      "Tip10": "Spara alla drönfärdighetschips för måndag."
+    },
+    "YouTubeNote": "Notering: De följande YouTube-videorna visar bra exempel på VS-dagen. Observera dock att de kanske inte är helt aktuella. Håll dig uppdaterad om de senaste ändringarna och procedurerna.",
+    "Description": "På denna sida hittar du användbara tips och tricks för att samla så många poäng som möjligt under VS-duellen utan att behöva investera pengar. Upptäck effektiva strategier och beprövade metoder för att maximera din poängsumma och lyckas!"
+  },
+  "DesertStorm": {
+    "Title": "Ökenstorm",
+    "Register": {
+      "Title": "Anmälan",
+      "Description1": "Varje medlem i en allians kan ansöka om att delta när anmälan är öppen.",
+      "Description2": "Det maximala antalet spelare är 20 per team, och 10 reservspelare är möjliga. När anmälningstiden har gått ut kan inte ens R4 och R5 ändra deltagarna. R4/R5 beslutar om den slutliga uppställningen av deltagande spelare.",
+      "Description3": "Ansök endast om deltagande för de specifika tidsperioderna om du verkligen kan delta, eftersom det inte går att representera dig efteråt; högst 10 reservspelare kan väljas.",
+      "Step1": "Gå till Events -> <br> Ökenstorm -> <br> Välj deltagare",
+      "Step2": "Välj \"Ansök om strid\"",
+      "Step3": "Vi spelar alltid mellan 22:00 och 22:40 <br> Kryssa i rutan och bekräfta"
+    },
+    "Join": {
+      "Title": "Gå in i slagfältet",
+      "Description": "När nedräkningen för evenemanget på detaljsidan är över och evenemanget börjar, måste deltagarna gå in på slagfältet i tid. Efter ytterligare 5 minuter kan eventuellt reserverna gå in, medan de som inte var anslutna förblir utanför.",
+      "Step1": "Du börjar spelet med trupper av högsta nivå som du kan träna och med en styrka som motsvarar kapaciteten på din träningsplats.",
+      "Step2": "Trupper kan skadas under evenemanget och tas till ett speciellt evenemangssjukhus (du kan hela dem under evenemanget om du behöver, och om du har ett fältlasarett kommer läkningsprocessen att påskyndas), men i slutet av evenemanget återvänder de skadade trupperna till sitt normala tillstånd, som om ingenting hade hänt. Använd därför alla trupper som står till ditt förfogande. Allianzhjälp är tyvärr inte tillgänglig på evenemangssjukhuset.",
+      "Step3": "I Desert Storm är endast trupper som befinner sig på basen tillgängliga. Om du har lämnat några trupper på fälten, kalla dem tillbaka till basen. När de har kommit till basen är de tillgängliga i DS."
+    },
+    "Goals": {
+      "Title": "Mål",
+      "Goal1": "Under evenemanget måste du försöka samla så många allianspoäng som möjligt för att vinna evenemanget. Ett snyggt HUD-banner med en realtids-rankning hjälper dig att hålla koll på framstegen.",
+      "Goal2": "Allianspoäng erhålls genom att erövra och hålla byggnader. Vid den första erövringen får du några extra poäng. En erövring är först slutförd när en allians har befriat byggnaden från fiender, om dessa ger förstärkning, och efter att erövringsnedräkningen på 1 minut har löpt ut. Från och med det ögonblicket läggs erövringsintäkterna till realtids-rankningsbannern.",
+      "Goal3": "Ytterligare poäng kan samlas genom att samla in poänglagerboxar som dyker upp när en byggnad erövras (om det finns extra poäng). Skicka ut spanare för att snabbt samla in dem.",
+      "Goal4": "Individuella poäng ger istället individuella belöningar, men fokusera på allianspoäng eftersom alliansbelöningarna är bättre än de individuella."
+    },
+    "MostImportant": {
+      "Title": "Det viktigaste att veta",
+      "Important1": "Du kan inte använda alliansens hjälp för att läka dina soldater på sjukhuset, som du är van vid i det vanliga spelet, men du kan använda läkningsförstärkningar.",
+      "Important2": "Du kan bara använda trupper i minispel Desert Storm om de befinner sig i basen på den vanliga kartan. Se till att dina trupper är tillbaka i basen innan Desert Storm börjar. Om en trupp används i det vanliga kartläget är den i grunden inte tillgänglig i Desert Storm.",
+      "Important3": "Om du missar anmälningsfasen eller inte blir registrerad som deltagare eller reservdeltagare, är det inte möjligt att delta i Desert Storm Battle.",
+      "Important4": "Teleporteringar i Desert Storm är gratis, men begränsade till 1 varannan minut. Nedräkningen visas i den nedre vänstra delen av skärmen direkt ovanför knappen \"Hjältar\".",
+      "Important5": "I Desert Storm är hållbarheten för din bas 4000 poäng. Efter 4 träffar brinner din bas och du teleporterar tillbaka till den säkra zonen. Nedräkningen för teleportering återställs inte i detta fall. Om det har utförts måste du vänta.",
+      "Important6": "De som saknar erfarenhet av Desert Storm har oftast inga trupper kvar efter några minuter. Läs noggrant de följande strategierna för att lära dig hur du kan begränsa dina truppförluster.",
+      "Important7": "I Desert Storm kan du inte flytta dina trupper fritt. Du måste nå ett mål och återvända till basen innan de kan användas mot ett annat mål. Glöm därför att bränna en bas med några snabba klick och en trupp på några sekunder.",
+      "Important8": "I Desert Storm kan du, när nedkylningsfasen för teleportering är över, teleportera till vilken plats som helst på kartan, oavsett om dina trupper är i basen eller inte. Detta är ett trevligt avbrott från de vanliga teleportreglerna i det vanliga spelet, där alla dina trupper måste vara tillbaka i din bas innan teleportering. P.S.: Denna regel gäller även under duellen mot dag 6 när du teleportera till och från en annan server."
+    },
+    "Strategies": {
+      "Title": "Strategier",
+      "EmptyBuilding": {
+        "Title": "Erobre en tom byggnad",
+        "Description1": "Att erövra en tom byggnad är enkelt: Attackera den bara, och den är din.",
+        "Description2": "Efter 1 minut genereras poäng för din allians (och för dina individuella poäng) baserat på erövringsutbytet. Om det är den första erövringen får du även poängen för första erövringen."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Strategi för att erövra tomma byggnader för att minska truppförluster",
+        "Description1": "När du erövrar en byggnad (men ändå inte får erövringspoäng) och en fiende dyker upp, kan du använda följande strategi för att vinna striden och minska dina truppförluster (detta fungerar bra om fiendens huvudkontor/makt är liknande eller lägre än din):",
+        "Tip1": "Håll din trupp i byggnaden tills fienden startar attacken (särskilt om det är den första byggnaderövringen, där du kan få de inledande erövringspoängen).",
+        "Tip2": "Om fienden inleder en attack mot byggnaden och du inte har uppnått erövringsutbytet än (du förstärker alltså mindre än 1 minut), dra tillbaka truppen och undvik att fienden attackerar din trupp i byggnaden. På så sätt undviker du truppförluster.",
+        "Tip3": "Fienden har troligen skickat sitt A-team för att ta över byggnaden, vilket gör att de kan vara oskyddade. Tänk på att om fienden vill attackera din bas med denna trupp, måste de först skicka den tillbaka till sin bas och sedan till din bas.",
+        "Tip4": "Skicka alla dina trupper med trupp A i första position för att attackera fiendens bas.",
+        "Tip5": "Om du har tur har fienden ingen försvar eller bara svaga trupper. När fienden är utslagen, skicka din trupp för att erövra basen.",
+        "Tip6": "Om du använder spanare kan du säkerställa att de trupper du skickar verkligen kan vinna striden mot basen. Skicka spanare flera gånger strax innan dina trupper möter fienden för att kunna dra tillbaka en trupp om fienden aktiverar försvar."
+      },
+      "Advantages": {
+        "Title": "Fördelar:",
+        "Description1": "Du undviker att förlora trupper vid fiendens första attack, som troligen kommer att skicka ett A-team för att erövra basen.",
+        "Description2": "Om fienden inte har någon försvarslinje kan du eliminera dem utan att förlora trupper, särskilt om du är snabb och fienden är nära.",
+        "Description3": "Fienden får inga poäng om du är snabb, eftersom det tar 1 minut innan erövringen börjar."
+      },
+      "Disadvantages": {
+        "Title": "Nackdelar:",
+        "Description1": "Om fienden har ett starkt B-team och använder det för försvar, kan denna strategi fungera, men det tar längre tid eftersom du bara kan träffa det med ditt A-team. Detta fungerar bättre om du är nära fienden.",
+        "Description2": "Om flera fiender dyker upp kan du bli utsatt för deras attacker om du skickar ditt A-team för att attackera fienden.",
+        "Description3": "Fienden kan gå in i försvar precis när du möter dem. Därför kan det vara bra att använda en trupp med endast en hjälte på låg nivå för att ytterligare minska risken för truppförluster.",
+        "Description4": "Om det är den första erövringen av byggnaden och du inte slår ut fienden tillräckligt snabbt, får de poängen.",
+        "Description5": "Tänk på att denna strategi syftar till att minska truppförluster, men du förlorar också värdefulla sekunder vid byggnaderövringen. Använd den med omtanke och ta hänsyn till det aktuella stridssituationen och antalet kvarvarande trupper."
+      },
+      "BuildingInEnemy": {
+        "Title": "Erobra en byggnad som tillhör fienden",
+        "Description1": "Om byggnaden tillhör det andra laget kan du gå tillväga på två sätt:",
+        "Description2": "Attackera byggnaden direkt med din starkaste trupp och försök slå ut alla trupper som förstärker byggnaden (liknande som vid byerövring). Denna strategi har ett allvarligt problem eftersom du troligen kommer att förlora många soldater och efter några erövringar kommer du att sakna trupper.",
+        "Description3": "Identifiera ställningar där förstärkningar finns och bränn ner dem. Denna metod fungerar vanligtvis bra om ställningarna inte har någon försvar. Annars finns det samma problem som i ovanstående metod, men du förlorar troligen färre soldater om fienden skickar sin första trupp för förstärkning."
+      },
+      "ShouldNotDo": {
+        "Title": "Vad du inte bör göra",
+        "Description1": "I Desert Storm är dina trupper mycket värdefulla, så du bör inte göra något som sätter dem i fara.",
+        "Description2": "Här är några exempel på vad du inte bör göra, eftersom det troligen kommer att leda till truppförluster:",
+        "Description3": "Om du blir attackerad av en svagare fiende, vänta med din huvudtrupp i försvar och attackera först när hans huvudtrupp återvänder, istället för att tillåta att han bränner dig eftersom dina försvarstrupper är ute. Kom ihåg att du vid varje attack förlorar ett visst antal trupper om du tar bort försvarsuppställningen.",
+        "Description4": "Attackera inte inaktiva fiender med svaga trupper, eftersom de har tid att bygga upp sitt försvar och du kommer att förlora trupper. Det är bättre att göra det när fienderna gör flera saker, eftersom de kanske inte har tid att bygga upp försvar när de ser att du attackerar (bäst när du är nära fiendens bas)."
+      }
+    }
+  },
+  "Alliances": {
+    "Title": "Allians",
+    "Donate": {
+      "Title": "Så här kan du bidra/donera",
+      "Description": "För att bidra till en alliansteknologi gäller följande regler:",
+      "Rule1": "För varje donation till en ej rekommenderad teknologi får du 50 EXP och alliansbidragspoäng.",
+      "Rule2": "För varje donation till den rekommenderade teknologin får du en extra belöning på +20 %: Du tjänar alltså 60 EXP och 60 alliansbidragspoäng.",
+      "Rule3": "Dessutom finns det en chans att utlösa ett kritiskt träff som ger extra Tech-EXP. Chansen för kritiska träffar är:",
+      "Hit1": "Ingen kritisk träff: 45 %",
+      "Hit2": "2x kritisk träff (extra 50 poäng allians-teknologi-EXP): 30 %",
+      "Hit3": "3x kritisk träff (extra 100 poäng allians-teknologi-EXP): 15 %",
+      "Hit4": "5x kritisk träff (extra 200 poäng allians-teknologi-EXP): 10 %",
+      "Description2": "Så här donerar du:",
+      "Donate": "Klicka på den rekommenderade teknologin och sedan på „Donera“, antingen med mynt eller diamanter.",
+      "Maximum": "Befälhavare har högst 20 möjligheter att donera till alliansteknologin med mynt. Varje donation, oavsett om det är en kritisk träff eller inte, förbrukar en möjlighet. Om antalet tillgängliga donationsmöjligheter för en befälhavare sjunker under 20 får de en ny möjlighet var 20:e minut.",
+      "Limit": "Det finns ingen daglig gräns för antalet diamantdonationer som befälhavare kan göra till alliansteknologi. Men diamantkostnaden ökar för varje donation med antalet gjorda donationer, men det är möjligt att göra ett obegränsat antal diamantdonationer. Efter 20 minuter minskar mängden diamanter som krävs för att donera gradvis. Kostnaden börjar på 2 diamanter för den första donationen och ökar med varje ytterligare donation med 2 diamanter, upp till ett maximum av 50 diamanter."
+    },
+    "Shop": {
+      "Title": "Alliansbutik",
+      "Description1": "Om du är en del av en allians har du tillgång till alliansbutiken. Allians -> Alliansbutik",
+      "Description2": "Alliansbutiken erbjuder mycket hjälpsamma power-up-objekt som kan bytas mot alliansbidragspoäng. Mängden du kan begära av varje objekt är tidsbegränsad och butiken återställer dessa begränsningar efter en nedräkning som visas högst upp i alliansbutiken.",
+      "Image": "På bilden är två områden markerade i rött: <br> Avancerad förflyttning och Alliansförflyttning <br> Dessa två områden är viktiga för att nå sammankomsten. <br> Vid Avancerad förflyttning kan du välja var du vill teleportera dig på kartan. <br> Vid Alliansförflyttning teleporteras du någonstans till sammankomsten."
+    },
+    "AssemblyPlace": {
+      "Title": "Hur kommer jag till sammankomsten?",
+      "Variant1": {
+        "Title": "Variant 1: Avancerad förflyttning",
+        "Description1": "Sök på kartan efter vår allianssammankomst (violett flagga).",
+        "Description2": "Välj en ledig plats i närheten.",
+        "Description3": "Klicka på „Förflytta“. Detta kostar dig en Avancerad förflyttning."
+      },
+      "Variant2": {
+        "Title": "Variant 2: Alliansförflyttning",
+        "Description1": "Gå till ditt inventarium och välj fliken „Speciell“. ",
+        "Description2": "Sök efter Alliansförflyttning.",
+        "Description3": "Klicka på „Använd“. Du kommer då automatiskt att teleporteras till sammankomsten."
+      },
+      "Footer": "På bilden nedan visas Alliansförflyttning, och på bilden ovan är butiken. Dessa två förflyttningar kan du byta ut som beskrivs ovan i Alliansbutiken. Alliansförflyttning kostar mindre.",
+      "Image": "Klicka på: <b><br> 1. Inventarium <br> 2. Speciell <br> 3. Alliansförflyttning <br> 4. Använd"
+    }
+  },
+  "Basics": {
+    "Title": "Grunderna",
+    "Translate": {
+      "Title": "Översättningar",
+      "Description": "I Last War kan du använda den automatiska översättningsfunktionen för att översätta texter till ditt eget språk. För att översätta chattar och meddelanden använder du helt enkelt ikonen längst ner till höger – den visar ett „A“ med pilar och ett „T“. På så sätt kan du kommunicera på ditt föredragna språk och fullt fokusera på spelet!",
+      "Image": "På bilden ser du två exempel på var ikonen finns för att översätta texten."
+    },
+    "Trucks": {
+      "Title": "Rov av lastbilar på din egen server",
+      "Description": "Det är inte tillåtet att plundra lastbilar på din egen server. För att säkerställa att sådana lastbilar inte visas finns det en checkbox som du kan aktivera för att filtrera bort alla lastbilar från din egen server. Vänligen markera denna checkbox för att följa reglerna. På bilden nedan ser du var du hittar checkboxen.",
+      "Image": "Vänligen aktivera checkboxen som visas på bilden."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "Tips och Tricks",
+    "Overview": {
+      "Title": "Översikt"
+    },
+    "Pvp": {
+      "Title": "Angrepp och Försvar",
+      "Description1": "Vi börjar med basförsvaret. Du bör endast försöka försvara om din huvudtrupp kan överleva den första eller andra på varandra följande attacken (dvs. angriparen är ungefär på din nivå).",
+      "Tip1": "Om du inte kan försvara dig eller inte är online för att fatta detta beslut, DEAKTIVERA ditt försvar.",
+      "Tip2": "Så här aktiverar/avaktiverar du försvaret: Gå till muren i din bas, klicka på hus+ symbolen och deaktivera trupperna. Varje gång du låser upp en ny trupp, se till att du också deaktiverar dem. Ibland kan det vara vettigt att inte ha något försvar alls, och ibland kan det vara vettigt att använda huvudtruppen som försvar, men det största misstaget du kan göra är att låta dina svagare trupper delta i försvaret.",
+      "Tip3": "Varför det fungerar: Anta att en mycket starkare spelare attackerar dig 5 gånger (antag att du är nivå 20 med 3 trupper). Du skulle förlora cirka 10k till 12k trupper i dessa 5 attacker om du hade 3 försvarsteam. Om du endast hade ett enda försvar (den starkaste truppen) skulle du förlora cirka 4k till 5k trupper. Om du inte hade något försvar alls skulle du förlora cirka 1k trupper (på grund av genombrottsattacken som inte räknas som dödade för angriparen). Det är en stor skillnad.",
+      "Tip4": "Att attackera baser har två syften i detta spel: (1) plundra resurser och (2) samla poäng under dödande evenemang, som Fiendens Förintare (Dag 6 av duellen).",
+      "Tip5": "Plundring erbjuder det bästa resurser-stamina-förhållandet i spelet, men var medveten om försvaret/motattacker, dina nuvarande plundringsgränser osv.",
+      "Tip6": "Vid angrepp på andra baser för dödande evenemang, kom ihåg att endast strider ger poäng för döda. Så någon utan försvar eller trupper kommer inte att ge dig eventpoäng eller öka din individuella dödlighet. Det är den andra anledningen till varför du bör deaktivera ditt eget försvar, nämligen för att förhindra att dina motståndare samlar poäng genom att attackera dig.",
+      "Image1": "Klicka på muren och sedan på plusikonen för att gå till försvaret.",
+      "Image2": "Genom att aktivera kryssrutan kan du slå på eller av försvaret för varje trupp."
+    },
+    "Troops": {
+      "Title": "Trupp-/Enhetsträning",
+      "Description1": "Den optimala strategin för truppträning är att träna dem i 3 steg. Detta gör inte träningen snabbare och använder inte färre resurser, men det gör att du kan samla fler poäng under relevanta evenemang som enhetsträning i vapenslaget och dag 5 av duellaktiviteten.",
+      "Tip1": "Anta att TX = max nivå för trupperna du kan träna, TY = en nivå under max och TZ = två nivåer under max. Strategin är att träna TZ hela veckan (förutsatt att du redan har tillräckligt med TX för alla dina enheter). Under enhetsträningen i vapenslaget befordrar du TZ -> TY och/eller TY -> TX (möjligt att göra två rundor i varje kasern utan accelerering under denna fas). På dag 5 av duellen skulle du befordra nästan alla TY/TZ till TX innan du går till ökenstormslaget eller dag 6 av duellen. När du har slutfört dödande evenemang fortsätter du att fylla på TZ.",
+      "Tip2": "Som exempel, om du är HQ 25, skulle TX vara nivå 8-enheter (kräver Lv24 kasern), TY skulle vara nivå 7-enheter (kräver Lv20 kasern) och TZ skulle vara nivå 6-enheter (kräver Lv17 kasern). För att tillämpa denna strategi måste du hålla några kaserner på en lägre nivå än den maximala möjliga. Av 4 kaserner rekommenderar jag att ha 2 som kan träna upp till TX och 2 som endast kan träna upp till TY. Detta beror på att truppbefordran automatiskt går till den maximala nivån för den kasernen.",
+      "Example": {
+        "Title": "Ett exempel: ",
+        "Example1": "Direkt träning: 1 T9-soldat = 250 poäng",
+        "Example2": "Stegträning: 1 T5 = 150 poäng, 1 T5 -> 1 T6 = 175 poäng, 1 T6 -> 1 T7 = 200 poäng, 1 T7 -> 1 T8 = 225 poäng, 1 T8 -> 1 T9 = 250 poäng är totalt 1000 poäng",
+        "Description": "Som du ser får du med den stegvisa metoden fyra gånger fler poäng för varje soldat i detta fall."
+      },
+      "Image1": "På den här bilden ser du vilka trupper du kan uppgradera. Klicka på 'Uppgradera'-knappen, inte på 'Träna', för att få soldaterna till den maximala nivån för kasernen."
+    },
+    "Healing": {
+      "Title": "Spam-Healing",
+      "Description1": "Ett annat koncept är \"Spam-Healing\". Det betyder att om du har över 1000 döda trupper och det skulle ta 4 timmar att hela dem alla, bör du sätta en heltid på 25 minuter åt gången och klicka på knappen för hjälp från din allians. Detta håller resurskostnaderna desamma, men läker tiden minskar med mer än 50 %. Denna metod är effektiv för att hålla din kampkraft hög och säkerställa ett konstant flöde av trupper."
+    },
+    "SmallTroops": {
+      "Title": "Samla resurser med en liten truppstyrka",
+      "Description1": "Om du bara har några trupper tillgängliga på ditt träningsområde (till exempel efter lördagens krig), kan du kanske inte skicka alla trupper för att samla resurser, eftersom varje trupp kräver ett visst antal trupper för användning.",
+      "Description2": "Detta kan lösas på följande sätt:",
+      "Tip1": "Kalla tillbaka dina trupper till basen så att du kan byta ut dem",
+      "Tip2": "Ta bort alla hjältar från varje trupp och lägg till endast 1 hjälte per trupp, gärna de som har ett lågt värde i attributet \"Kommando\".",
+      "Tip3": "Skicka nu trupper för att samla resurser. Varje trupp kommer att använda en mycket mindre antal trupper, så du kan skicka ut alla.",
+      "Tip4": "Dessutom kan du enkelt utbilda soldater på nivå 1 i vilken kasern som helst för att nästan omedelbart ha några trupper tillgängliga, eftersom utbildning av soldater på nivå 1 går snabbt."
+    },
+    "IncreasedDamage": {
+      "Title": "Ökad skadaprocent",
+      "Description1": "Vid varje angrepp, försvar eller vid vakt kan du använda krigsfebern för att öka skadan med 1 %. ",
+      "Description2": "Denna boost aktiveras automatiskt när du attackerar eller utforskar en bas, men inte när du bara försvarar.",
+      "Description3": "För att utlösa krigsfebern kan du utföra en av följande åtgärder:",
+      "Tip1": "Skicka ett spaningsflygplan till en bas",
+      "Tip2": "Starta ett angrepp eller en samling mot en fiendebas (angrepp eller samlingar mot zombies fungerar inte). Du kan också avbryta angreppet så snart krigsfebern har börjat",
+      "Tip3": "Krigsfeberstatusen kan du se uppe till vänster på skärmen, direkt under visningarna för mat/järn/mynt/energi. När du klickar på ikonen visas nedräkningen.",
+      "Tip4": "Upprepa utlösningsåtgärden för att återställa nedräkningen till 15 minuter när som helst.",
+      "Tip5": "VIKTIGT: Använd inte detta trick när du bär ett skydd, eftersom du annars kommer att förlora det."
+    }
+  },
+  "Buildings": {
+    "Title": "Byggnader",
+    "Headquarters": {
+      "Title": "Huvudkontor",
+      "Description1": "Huvudkontoret är den viktigaste byggnaden i spelet. Det fyller liknande funktioner som rådhus i andra spel. Genom att uppgradera det kan du bygga nya byggnader och höja nivån på befintliga byggnader.",
+      "Description2": "När huvudkontoret stiger i nivå ökar följande:",
+      "List1": "Prestanda",
+      "List2": "Hjälte-nivågräns",
+      "List3": "Hjälte-HP",
+      "List4": "Hjälteangrepp",
+      "List5": "Hjälteförsvar",
+      "List6": "Nivåtak för varje byggnad",
+      "LevelUp": {
+        "Title": "Nivå-Upprustningskrav",
+        "Description1": "För att höja huvudkontoret till en högre nivå måste både resurs- och byggnadskrav uppfyllas vid varje steg.",
+        "Description2": "Det är viktigt att stegvis avancera byggandet för att möjliggöra en smidig övergång till nästa nivå av huvudkontoret och spara tillräckligt med resurser. Om huvudkontoret inte förbättras kan det leda till en svag trupp, eftersom denna byggnad bestämmer gränsen för hjältarnas nivå.",
+        "Description3": "Nedan ser du ett diagram med byggnader som krävs för varje nivå.",
+        "Table": {
+          "ToUnlock": "HQ för att låsa upp",
+          "Condition1": "Byggnad 1",
+          "Condition2": "Byggnad 2",
+          "Iron": "Järn",
+          "Food": "Mat",
+          "Gold": "Guld",
+          "Days": "Dagar",
+          "Wall": "Mur L.",
+          "TechCenter": "Teknikcenter L.",
+          "DrillGround": "Träningsplats L.",
+          "Barracks": "Kasern L.",
+          "AllianceCenter": "Allianscenter L.",
+          "Hospital": "Sjukhus L.",
+          "TankCenter": "Tankcenter L."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Kasern",
+      "Description1": "Kasernerna används för att rekrytera och befordra dina trupper. När du har låst upp kasernerna bör du alltid uppgradera en kasern åt gången för att använda dina resurser effektivt. Att befordra dina trupper gör det möjligt för dig att höja trupper från en lägre nivå till den högsta nivå som dina kaserner tillåter. Befordran av trupper blir särskilt användbar när du låser upp den, eftersom det tillåter dig att träna och uppgradera trupper på nivå ett, vilket kräver färre resurser och tid."
+    },
+    "Hospital": {
+      "Title": "Sjukhus",
+      "Description1": "Sjukhuset används för att hela dina trupper efter en strid. Om en fiende är tillräckligt stark kan han döda eller skada dina trupper. Sjukhuset kan dock inte återuppliva döda trupper, utan endast hela skadade trupper. En effektiv metod för att snabbt hela dina trupper är att endast välja ett antal trupper som kan helas på 25 minuter eller mindre. Detta gör det möjligt för din allians att hjälpa dig och minska helningstiden till nästan omedelbart. Om du använder helsystemet korrekt kommer helningstiden att reduceras till 25 % av den tid som skulle ha krävts om du hade hela trupper samtidigt."
+    },
+    "DrillGround": {
+      "Title": "Träningsplats",
+      "Description1": "Träningsplatsen är byggnaden där dina trupper är stationerade. Den maximala nivån på träningsplatsen ökar med nivån på ditt huvudkontor. Träningsplatsen är en central källa till din styrka, eftersom truppernas styrka i hög grad bestämmer din maktnivå. För att uppnå så mycket makt som möjligt (spelets huvudmål) bör du ständigt höja din träningsplats till högsta nivå och bygga fler träningsplatser vid tillfälle. Den andra träningsplatsen låses upp på nivå 16 och den tredje på nivå 21."
+    },
+    "Garages": {
+      "Title": "Garage",
+      "Description1": "Garagen rymmer dina hjältar. De ger dina hjältar ytterligare styrka och trupper som de kan ta med sig. I början av spelet får du ett garage, och du kan låsa upp fler under spelets gång, totalt upp till tre garager. Ett fjärde garage kan även erhållas genom den månatliga passet. Du bör endast uppgradera Garage 1, eftersom majoriteten av dina insatser i spelet kommer att fokusera på detta. Garage 2 bör du endast uppgradera om du behöver den för kostnadseffektiva Armé-Race-poäng eller om du anser att den är för mycket efter."
+    },
+    "TechCenter": {
+      "Title": "Teknikcenter",
+      "Description1": "Teknikcentret är en avgörande del av spelet för att lyckas i tävlingen mot andra spelare. Det visas av goda skäl särskilt ofta i avsnittet \"krävda uppgraderingar\" när du vill uppgradera ditt huvudkontor. Teknikcentret gör det möjligt för dig att förbättra vissa statistikvärden på din bas, såsom hjältar, trupper, garager och mer. Det omvandlar resurser till mer styrka och statistik för allt. När du når nivå 16 har du möjlighet att köpa ett andra teknikcenter, vilket starkt rekommenderas."
+    },
+    "GearFactory": {
+      "Title": "Utrustningsfabrik",
+      "Description1": "Utrustningsfabriken gör det möjligt för dig att tillverka eller demontera utrustning för dina hjältar. Du kan skapa vilken typ av utrustning som helst som för närvarande finns i spelet och även demontera utrustningsdelar. Dessutom tillåter utrustningsfabriken dig att kombinera utrustningskomponenter för att skapa det Dielektriska Keramiska komponentstycket som du behöver för att skapa ett legendariskt utrustningsstycke. Det rekommenderas inte att skapa eller uppgradera sällsynta, super-sällsynta eller super-super-sällsynta utrustningsdelar. När du har alla Super-Super-Rare (SSR) utrustningsdelar för dina huvudhjältar bör du demontera alla ytterligare utrustningsdelar för att få fler legendariska utrustningsdelar."
+    },
+    "ComponentFactory": {
+      "Title": "Komponentfabrik",
+      "Description1": "Komponentfabriken producerar lådor med drönkomponenter. Dessa drönkomponenter används i dröncentralen för att göra ytterligare uppgraderingar för din drönare. När komponentfabriken är byggd kan den inte längre uppgraderas."
+    },
+    "TankCenter": {
+      "Title": "Tankcenter",
+      "Description1": "Tankcentret är en viktig byggnad i spelet som avsevärt förbättrar statistiken för dina tankhjältar. Denna byggnad bör varje gång du uppgraderar ditt huvudkontor snabbt uppgraderas till högsta nivå."
+    },
+    "AircraftCenter": {
+      "Title": "Flygplanscenter",
+      "Description1": "Flygplanscentret fyller samma funktion som tankcentret, men för flygplanshjältar. I början är det inte viktigt att uppgradera denna byggnad, eftersom den inte ger några bonusar för uppställningen du bör använda. När DVA och Carlie blir tillgängliga kommer det dock att bli lika viktigt att uppgradera flygplanscentret som tankcentret, på grund av de extra statistikvärdena som det ger dessa hjältar."
+    },
+    "MissileCenter": {
+      "Title": "Missilcenter",
+      "Description1": "Likt de två ovan nämnda byggnaderna ökar missilcentret statistiken för missiltypens hjältar."
+    },
+    "ResourceCenters": {
+      "Title": "Resurscentra",
+      "Description1": "Mat-, järn- och smältcentrumen är byggnader som producerar motsvarande resurser. Träningsbasen är byggnaden som producerar hjältexp. Från erfarenhet erbjuder träningsbasbyggnader en bra XP-användning i förhållande till de använda resurserna och är effektivt uppgraderingsbara."
+    }
+  },
+  "Greeting": {
+    "HomeButton": "Säg Hej!",
+    "Modal": {
+      "Title": "Lämna en hälsning",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Servernummer",
+          "Required": "Servernummer är ett obligatoriskt fält"
+        },
+        "AllianceName": {
+          "Label": "Alliansnamn",
+          "Required": "Alliansnamn är ett obligatoriskt fält"
+        },
+        "PlayerName": "Spelarnamn",
+        "Optional": "Valfritt",
+        "CloseButton": "Avbryt",
+        "SubmitButton": "Skicka"
+      },
+      "Toastr": {
+        "Label": "Din hälsning",
+        "Success": "Tack för din hälsning",
+        "Error": "Tyvärr uppstod ett problem. Vänligen försök igen senare."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Vänligen vänta..."
+  },
+  "MemberLogin": {
+    "Title": "Medlemsinloggning",
+    "Description": "Detta område är endast för medlemmar.",
+    "Form": {
+      "Label": "Ange lösenord",
+      "Required": "Lösenord är ett obligatoriskt fält",
+      "LoginButton": "Logga in"
+    },
+    "Toastr": {
+      "Title": "Inloggning",
+      "Error": "Inloggning misslyckades"
+    },
+    "PasswordExpired": {
+      "Title": "Lösenordet har gått ut",
+      "Information": "Lösenordet har ändrats"
+    }
+  }
+}
