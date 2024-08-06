@@ -140,113 +140,275 @@
     "Day1": {
       "Title": "Day 1 - Radar Special Training",
       "DayText": "Monday",
-      "Task1": "Use 1 stamina",
-      "Task2": "Complete 1 radar mission",
-      "Task3": "Use at least 660 hero XP each time",
-      "Task4": "Use 1 drone combat data point",
-      "Task5": "Use 1 drone component",
-      "Task6": "Buy a gift pack with diamonds (1 diamond)",
-      "Task7": "Collect 100 food",
-      "Task8": "Collect 100 iron",
-      "Task9": "Collect 60 gold",
-      "Task10": "For each drone skill chip point earned"
+      "Task1": {
+        "Title": "Complete 1 radar mission (~25,000 points):",
+        "Description": "Go to the radar symbol at the bottom left and open the radar screen. Here you will see missions, some of which are already completed (with a red dot in the top right) and others that still need to be completed. To complete a mission, you must first execute it (if it hasn't been done already) and then click on the mission with the red dot. This action will collect it and grant you points. To maximize points, consider stacking missions from the previous day."
+      },
+      "Task2": {
+        "Title": "Use 1 stamina (~300 points):",
+        "Description": "Use stamina for attacks, collection actions, and radar missions."
+      },
+      "Task3": {
+        "Title": "Use at least 660 hero XP points at once (~6 points):",
+        "Description": "Go to the Drone Center and click the 'Data Training' button to use combat data. On certain levels, drone parts are required to continue the training."
+      },
+      "Task4": {
+        "Title": "Use 1 drone component:",
+        "Description": "Go to the Drone Center and click the 'Data Training' button to use combat data. On certain levels, drone parts are required."
+      },
+      "Task5": {
+        "Title": "Collect 100/100/60 units of food/iron/gold (~40 points):",
+        "Description": "You can collect units of food, iron, or gold in two ways:",
+        "Description2": "Using special radar missions to collect food, iron, or gold. In this case, the collection speed is very high.",
+        "Description3": "Switch to map mode, click on the magnifying glass, then on Collect, and choose 'Farmland', 'Iron Mine', or 'Gold Mine'. Find a location to send your troops to collect. Points will be awarded when the troops leave the collection point, either because the resources have been exhausted or the troops have been recalled. Therefore, start collecting the day before this day begins and ensure that the final collection time is after the start of this day."
+      },
+      "Task6": {
+        "Title": "For each drone skill chip point earned (~2,000 points):",
+        "Description": "Earn points by opening drone skill chip chests from your inventory (not to be confused with drone component chests)."
+      }
     },
     "Day2": {
       "Title": "Day 2 - Base Construction",
       "DayText": "Tuesday",
-      "Task1": "Use 1 minute building accelerator",
-      "Task2": "Increase building combat power by 1 point",
-      "Task3": "Send the legendary trading cart 1 time",
-      "Task4": "Complete 1 orange secret mission",
-      "Task5": "Buy a gift pack with diamonds (1 diamond)",
-      "Task6": "Recruit survivors 1 time in the tavern"
+      "Task1": {
+        "Title": "Use a 1-minute building accelerator (~120 points):",
+        "Description": "Use building accelerators (generic ones are also acceptable, of any length)."
+      },
+      "Task2": {
+        "Title": "Increase building combat power by 1 point (~21 points):",
+        "Description": "Each time you finish a building, the power of that building increases and you receive points for that difference. Note that the building power increase only occurs when you open the gift box containing the newly improved building."
+      },
+      "Task3": {
+        "Title": "Send the legendary trading cart once (~200,000 points):",
+        "Description": "Trading carts can vary in type and therefore contain different rewards. You can change their contents using the trade contract. Go to the section where you can send a cart. If you preview the contents at the top right, you will find a button with a die. To get the 'legendary' version, you need to refresh multiple times until you see the yellow background and 'UR' text on the left side."
+      },
+      "Task4": {
+        "Title": "Complete 1 legendary secret mission (~150,000 points):",
+        "Description": "The secret mobile unit contains activities of various types and levels. Use the 'Update' button at the bottom to change the current missions (consuming 1 secret mission item, the 'Secret Order'). Look for missions with the yellow/golden square and start them. If you keep secret mission items during the week, you can start all legendary missions on this day."
+      },
+      "Task5": {
+        "Title": "Recruit 1 survivor (~3,000 points):",
+        "Description": "Use the golden survivor recruitment tickets (different from golden hero recruitment tickets) found in the hero section. Click on the 'Recruit Heroes' button and then go to the 'Recruit Survivors' section. Collect recruitment tickets for survivors throughout the week and use them only on this day."
+      }
     },
     "Day3": {
       "Title": "Day 3 - Age of Science",
       "DayText": "Wednesday",
-      "Task1": "Use 1 minute research accelerator",
-      "Task2": "Increase technology combat power by 1 point",
-      "Task3": "Complete 1 radar mission",
-      "Task4": "Buy a gift pack with diamonds (1 diamond)",
-      "Task5": "Each time you open a level 1 drone component",
-      "Task6": "Each time you open a level 2 drone component",
-      "Task7": "Each time you open a level 3 drone component",
-      "Task8": "Each time you open a level 4 drone component",
-      "Task9": "Each time you open a level 5 drone component",
-      "Task10": "Each time you open a level 6 drone component",
-      "Task11": "Each time you open a level 7 drone component"
+      "Task1": {
+        "Title": "Complete a radar mission (~23,000 points):",
+        "Description": "Go to the radar symbol at the bottom left and open the radar screen. Here you will see missions, some of which are already completed (with a red dot in the top right) and others that still need to be completed. To complete a mission, you must first execute it (if it hasn't been done already) and then click on the mission with the red dot. This action will collect it and grant you points. To maximize points, consider stacking missions from the previous day."
+      },
+      "Task2": {
+        "Title": "Use a 1-minute research accelerator (~120 points):",
+        "Description": "Use a research accelerator (generic ones are also acceptable, of any length)."
+      },
+      "Task3": {
+        "Title": "Increase technological performance by 1 point (~21 points):",
+        "Description": "You earn technological performance points when you click the icon for completed research in the Technology Center. To maximize points, start a long research project on the previous day(s) so it ends on this day, or complete it by clicking the icon for completed research only on this day."
+      },
+      "Task4": {
+        "Title": "Use a Valor Badge (~600 points):",
+        "Description": "Go to the Research Center and the 'Alliance Duel' section. Start one of the searches that consume Valor Badges (these are the blue medals in the middle, golden on the outside, and with the ribbon at the bottom, which can be won in duel chests)."
+      },
+      "Task5": {
+        "Title": "For each opened drone component chest of levels 1/2/3/4/5/6/7:",
+        "Description": "Earn points by opening drone component chests from your inventory (not to be confused with drone skill chip chests)."
+      }
     },
     "Day4": {
       "Title": "Day 4 - Hero Development",
       "DayText": "Thursday",
-      "Task1": "Perform 1 hero recruitment",
-      "Task2": "Use at least 660 hero XP each time",
-      "Task3": "Use 1 legendary hero fragment",
-      "Task4": "Use 1 rare hero fragment",
-      "Task5": "Use 1 skill medal",
-      "Task6": "Buy a gift pack with diamonds (1 diamond)"
+      "Task1": {
+        "Title": "Perform an advanced recruitment once (~3,750 points):",
+        "Description": "Use legendary recruitment tickets in the hero section to recruit heroes (not to be confused with 'Recruit Survivors' tickets). Collect hero recruitment tickets throughout the week and use them only on this day."
+      },
+      "Task2": {
+        "Title": "Use at least 660 Hero EXP points (~6 points):",
+        "Description": "Use experience points by clicking the 'Upgrade' button after selecting a hero."
+      },
+      "Task3": {
+        "Title": "Use a legendary, epic, or rare shard (~20,000, ~7,000, or ~2,000 points):",
+        "Description": "Use the golden, purple, or blue shards (puzzle pieces) of heroes to increase their level in the hero section. Click on a hero, go to the class section, and upgrade the hero class."
+      },
+      "Task4": {
+        "Title": "Use a skill medal (~20 points):",
+        "Description": "Enhance hero skills by going to the hero section, selecting a hero, clicking on the 'Skills' section, choosing one of the skills (the squares) at the top, and using the 'Strengthen' button (this is not always possible)."
+      },
+      "Task5": {
+        "Title": "Use 1 skill medal"
+      },
+      "Task6": {
+        "Title": "Buy a gift pack with diamonds (1 diamond)"
+      }
     },
     "Day5": {
       "Title": "Day 5 - Combat Readiness",
       "DayText": "Friday",
-      "Task1": "Complete 1 radar mission",
-      "Task2": "Use 1 minute building accelerator",
-      "Task3": "Increase building combat power by 1 point",
-      "Task4": "Use 1 minute research accelerator",
-      "Task5": "Increase technology combat power by 1 point",
-      "Task6": "Use 1 minute training accelerator",
-      "Task7": "Train 1 soldier to level 1",
-      "Task8": "Train 1 soldier to level 2",
-      "Task9": "Train 1 soldier to level 3",
-      "Task10": "Train 1 soldier to level 4",
-      "Task11": "Train 1 soldier to level 5",
-      "Task12": "Train 1 soldier to level 6",
-      "Task13": "Train 1 soldier to level 7",
-      "Task14": "Train 1 soldier to level 8",
-      "Task15": "Train 1 soldier to level 9",
-      "Task16": "Train 1 soldier to level 10",
-      "Task17": "Buy a gift pack with diamonds (1 diamond)"
+      "Task1": {
+        "Title": "Complete a radar mission (~23,000 points):",
+        "Description": "Go to the radar symbol at the bottom left and open the radar screen. Here you will see missions, some of which are already completed (with a red dot in the top right) and others that still need to be completed. To complete a mission, you must first execute it (if it hasn't been done already) and then click on the mission with the red dot. This action will collect it and grant you points. To maximize points, consider stacking missions from the previous day."
+      },
+      "Task2": {
+        "Title": "Use a 1-minute construction accelerator (~120 points):",
+        "Description": "Use a construction accelerator (generic ones are also acceptable, of any length)."
+      },
+      "Task3": {
+        "Title": "Increase building strength by 1 point (~21 points):",
+        "Description": "Each time you finish a building, the strength of that building increases, and you receive points for the difference. Note that the building strength increase only occurs when you open the gift box containing the newly improved building."
+      },
+      "Task4": {
+        "Title": "Use a 1-minute research accelerator (~120 points):",
+        "Description": "Use a research accelerator (generic ones are also acceptable, of any length)."
+      },
+      "Task5": {
+        "Title": "Increase technological performance by 1 point (~21 points):",
+        "Description": "Technological performance points are earned when a research project is completed in the Technology Center."
+      },
+      "Task6": {
+        "Title": "Use a 1-minute training accelerator (~122 points):",
+        "Description": "Use a training accelerator (generic ones are also acceptable, of any length). Points are also awarded when you train to improve the soldier's level. It's actually better to prepare many low-level soldiers before this day and then level them up, as points are awarded based on the level of the incoming soldier."
+      },
+      "Task7": {
+        "Title": "Train a soldier of levels 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 points):",
+        "Description": "Points are based on the arrival level of a soldier. So if you upgrade a level 4 soldier to level 5, you receive the points for a level 5 soldier, just as if you trained a level 5 soldier from scratch. Therefore, prepare many soldiers of intermediate levels to upgrade them on the assembly line."
+      }
     },
     "Day6": {
-      "Title": "Day 6 - Elimination of Enemies",
+      "Title": "Day 6 - Eliminating the Enemies",
       "DayText": "Saturday",
-      "Task1": "Send the legendary trading cart 1 time",
-      "Task2": "Complete 1 orange secret mission",
-      "Task3": "Use 1 minute building accelerator",
-      "Task4": "Use 1 minute research accelerator",
-      "Task5": "Use 1 minute training accelerator",
-      "Task6": "Use 1 minute healing accelerator",
-      "Task7": "Each level 1 unit killed from a rival alliance",
-      "Task8": "Each level 2 unit killed from a rival alliance",
-      "Task9": "Each level 3 unit killed from a rival alliance",
-      "Task10": "Each level 4 unit killed from a rival alliance",
-      "Task11": "Each level 5 unit killed from a rival alliance",
-      "Task12": "Each level 6 unit killed from a rival alliance",
-      "Task13": "Each level 7 unit killed from a rival alliance",
-      "Task14": "Each level 8 unit killed from a rival alliance",
-      "Task15": "Each level 9 unit killed from a rival alliance",
-      "Task16": "Each level 10 unit killed from a rival alliance",
-      "Task17": "Each level 1 unit killed",
-      "Task18": "Each level 2 unit killed",
-      "Task19": "Each level 3 unit killed",
-      "Task20": "Each level 4 unit killed",
-      "Task21": "Each level 5 unit killed",
-      "Task22": "Each level 6 unit killed",
-      "Task23": "Each level 7 unit killed",
-      "Task24": "Each level 8 unit killed",
-      "Task25": "Each level 9 unit killed",
-      "Task26": "Each level 10 unit killed",
-      "Task27": "Each level 1 unit lost",
-      "Task28": "Each level 2 unit lost",
-      "Task29": "Each level 3 unit lost",
-      "Task30": "Each level 4 unit lost",
-      "Task31": "Each level 5 unit lost",
-      "Task32": "Each level 6 unit lost",
-      "Task33": "Each level 7 unit lost",
-      "Task34": "Each level 8 unit lost",
-      "Task35": "Each level 9 unit lost",
-      "Task36": "Each level 10 unit lost",
-      "Task37": "Buy a gift pack with diamonds (1 diamond)"
+      "Task1": {
+        "Title": "Send a legendary trade truck once (~200,000 points):",
+        "Description": "Trade trucks can vary in type and thus contain different rewards. You can change their contents using the Trade Contract. To use them, go to the section for sending a truck. If you preview the contents in the top right, you will see a button with a dice icon. To obtain the 'legendary' version, you need to update multiple times until you see the yellow background and 'UR' text on the left side."
+      },
+      "Task2": {
+        "Title": "Complete a legendary secret mission (~150,000 points):",
+        "Description": "In the secret mobile unit, you will find activities of various types and levels. Use the 'Update' button at the bottom to change the current missions (using 1 secret mission item, the 'Secret Order'). Look for missions with the yellow/golden square and start them. If you keep secret mission items throughout the week, you can start all legendary missions on this day."
+      },
+      "Task3": {
+        "Title": "Use a 1-minute construction accelerator (~120 points):",
+        "Description": "Use a construction accelerator (generic ones are also acceptable)."
+      },
+      "Task4": {
+        "Title": "Use a 1-minute research accelerator (~120 points):",
+        "Description": "Use a research accelerator (generic ones are also acceptable)."
+      },
+      "Task5": {
+        "Title": "Use a 1-minute training accelerator (~122 points):",
+        "Description": "Use training accelerators (generic ones are also acceptable). Points are also awarded when you train to improve the soldier's level. It's actually better to prepare many low-level soldiers before this day and then level them up, as points are awarded based on the level of the incoming soldier."
+      },
+      "Task6": {
+        "Title": "Use a 1-minute healing accelerator (~122 points):",
+        "Description": "Use a healing accelerator."
+      },
+      "Task7": {
+        "Title": "Each enemy unit of levels 1/2/3/4/5/6/7/8/9/10 killed provides ~25/38/50/63/75/88/100/113/125/138 points:",
+        "Description": "Points are awarded each time you kill an enemy soldier from the opposing alliance in a duel. Use the teleport (Duel Against Opponent Symbol -> Alliance Attacks -> Attack) to reach your opponent's server and kill as many soldiers as possible who are attacking your opponent's bases. If an enemy has removed troops from defense, you cannot earn points on that base. Therefore, first scout and only attack those that are still in defense."
+      },
+      "Task8": {
+        "Title": "Each unit of levels 1/2/3/4/5/6/7/8/9/10 killed provides ~5/8/10/13/15/18/20/23/25/28 points:",
+        "Description": "Points are awarded each time you kill a soldier from another alliance on a different server, other than the opponent's alliance in the VS duel, for which points are given in the previous section. It is better to try to kill soldiers from your opponent’s alliance in VS duels, as this gives five times the points. If they are shielded or have no troops, you can also kill soldiers from other alliances on this server. This will require more time and hits to achieve the same number of points."
+      },
+      "Task9": {
+        "Title": "Each lost unit of levels 1/2/3/4/5/6/7/8/9/10 provides ~6/8/10/12/14/16/18/20 points:",
+        "Description": "Whether you are attacking or defending, each time one of your soldiers is killed, you receive this number of points. If you need to collect points at the end of a duel to open chests, and your alliance is winning the game decisively, you might consider sacrificing some of your troops to attack a higher-level headquarters if only these are available. This way, you can lose units and earn points."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Overlap with Arms Race",
+      "Day1": {
+        "Title": "There are two overlaps, so I recommend completing the activities during the respective phases:",
+        "Overlap1": {
+          "Title": "Drone Boost Phase:",
+          "Description": "Use one stamina.",
+          "Description2": "Use 10 drone combat data points."
+        },
+        "Overlap2": {
+          "Title": "Hero Ascension Phase:",
+          "Description": "Use 2000 EXP points."
+        }
+      },
+      "Day2": {
+        "Title": "The following activities overlap with the city-building phase of the Arms Race. I recommend performing these activities during this phase:",
+        "Overlap1": {
+          "Description": "Use the 1-minute construction accelerator.",
+          "Description2": "Increase building strength by 1 point."
+        }
+      },
+      "Day3": {
+        "Title": "The following activities overlap with the technology research phase of the Arms Race. I recommend performing these activities during this phase:",
+        "Overlap1": {
+          "Description": "Use a 1-minute research accelerator.",
+          "Description2": "Increase technological performance by 1 point."
+        }
+      },
+      "Day4": {
+        "Title": "The following activities overlap with the hero development phase of the Arms Race. I recommend performing these activities during this phase:",
+        "Overlap1": {
+          "Description": "Perform 1 advanced recruitment.",
+          "Description2": "Use 2000 EXP points."
+        }
+      },
+      "Day5": {
+        "Title": "There are three overlaps. I recommend completing the activities during the respective phases:",
+        "Overlap1": {
+          "Title": "City Building Phase:",
+          "Description": "Use a 1-minute construction accelerator.",
+          "Description2": "Increase building strength by 1 point."
+        },
+        "Overlap2": {
+          "Title": "Technology Research Phase:",
+          "Description": "Use a 1-minute research accelerator.",
+          "Description2": "Increase technological performance by 1 point."
+        },
+        "Overlap3": {
+          "Title": "Unit Progress Phase:",
+          "Description": "Use a 1-minute training accelerator.",
+          "Description2": "Train a soldier of levels 1/2/3/4/5/6/7/8/9/10."
+        }
+      },
+      "Day6": {
+        "Title": "There are three overlaps. I recommend completing the activities during the respective phases:",
+        "Overlap1": {
+          "Title": "City Building Phase:",
+          "Description": "Use a 1-minute construction accelerator."
+        },
+        "Overlap2": {
+          "Title": "Technology Research Phase:",
+          "Description": "Use a 1-minute research accelerator."
+        },
+        "Overlap3": {
+          "Title": "Unit Progress Phase:",
+          "Description": "Use a 1-minute training accelerator."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Strategic Preparation",
+      "Description": "For certain activities, you will earn points upon completion. Therefore, you can start them the day before the required date and finish them during the respective phase to achieve maximum points. Here are the phases and the corresponding activities:",
+      "List1": "On days when radar missions are rewarded, stack the missions the day before to the maximum. This allows you to achieve the maximum number of points when the missions are completed on the actual day.",
+      "List2": "On days when collecting food, iron, or gold provides reward points, start collecting the day before and ensure you finish it on the new day. The amount needed to achieve maximum points will be displayed before collecting.",
+      "List3": "On days when upgrading buildings provides points based on their performance increase, it is beneficial to upgrade several buildings on previous days and leave them in gift packaging. Building performance will only increase when opening the gift package, and at this time, duel points will also be awarded.",
+      "List4": "On days when research provides points, start a long research project the day before so that the research completes on these days. Points will be awarded when you click on the completed research icon.",
+      "List5": "Do not open the chest with the drone data chip and components if they are in your inventory, as you will earn points for these activities on Day 1 and Day 3.",
+      "FightDay": {
+        "Title": "Fight Day Preparation",
+        "Description": "On the last day of the duel, there are points for killing enemy troops, so it is important to prepare for this day.",
+        "AttackPreparation": {
+          "Title": "Attack Preparation",
+          "List1": "Try to level up the barracks to the highest possible level during the week to unlock higher-level troop training. This will allow you to collect points more efficiently by training higher-level soldiers.",
+          "List2": "Train as many troops as possible, as you will need them during the war. Use your training accelerators best on Day 5 to maximize points.",
+          "List3": "Purchase training accelerators and healing accelerators. These can help you complete troop training and healing faster, which is crucial to stay efficient during the key phases of the war."
+        },
+        "DefensePreparation": {
+          "Title": "Defense Preparation",
+          "List1": "Purchase shields (or save resources to buy them) to use during the 24 hours of the last day. Otherwise, you will need 1,500 diamonds for an 8-hour shield.",
+          "List2": "Remove troops from your defense setup so that in the event of an attack, you suffer fewer troop losses compared to a defeat with an active defense. To do this, go to your base, click on the wall, and go to the defense setup. Uncheck the troops to remove them from the defense setup."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Reward",
+      "Description": "For each required activity during the duel, you will receive a certain number of points. You can further increase this point yield through research in the 'Alliance Duel' section. To conduct such research, you need bravery badges, which you can only obtain by opening chests in the duel."
     },
     "GeneralTips": {
       "Title": "General Tips:",

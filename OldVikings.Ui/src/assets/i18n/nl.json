@@ -138,115 +138,273 @@
   "VS": {
     "Title": "VS-Duel",
     "Day1": {
-      "Title": "Dag 1 - Radar Speciale Training",
+      "Title": "Dag 1 - Radar Special Training",
       "DayText": "Maandag",
-      "Task1": "Verbruik 1 uithoudingsvermogen",
-      "Task2": "Voltooi 1 radarmissie",
-      "Task3": "Minimaal 660 helden-ervaring per keer verbruiken",
-      "Task4": "Gebruik 1 punt drones gevechtsdata",
-      "Task5": "Gebruik 1 drone-onderdeel",
-      "Task6": "Koop een geschenkdoos met diamanten (1 diamant)",
-      "Task7": "Verzamel 100 voedsel",
-      "Task8": "Verzamel 100 ijzer",
-      "Task9": "Verzamel 60 goud",
-      "Task10": "Voor elke gewonnen drone-vaardigheid chip punt"
+      "Task1": {
+        "Title": "Voltooi 1 Radar Taak (~25.000 punten):",
+        "Description": "Ga naar het radarsymbool links onderaan en open het radar-scherm. Hier zie je missies, waarvan sommige al voltooid zijn (met een rood punt rechtsboven), terwijl andere nog voltooid moeten worden. Om een missie te voltooien, moet je deze eerst uitvoeren (indien nog niet gedaan) en vervolgens op de missie met het rode punt klikken. Door deze actie verzamel je ze in en ontvang je de punten. Om de punten te maximaliseren, overweeg dan om missies op de dag ervoor te stapelen."
+      },
+      "Task2": {
+        "Title": "Gebruik 1 Stamina (~300 punten):",
+        "Description": "Gebruik stamina voor aanvallen, verzamelacties en radar missies."
+      },
+      "Task3": {
+        "Title": "Gebruik minimaal 660 Held-EXP-punten tegelijkertijd (~6 punten):",
+        "Description": "Ga naar het dronecentrum en klik op de knop ‘Data Training’ om gevechtsdata te gebruiken. Op bepaalde niveaus zijn drone-onderdelen vereist om met de training door te gaan."
+      },
+      "Task4": {
+        "Title": "Gebruik 1 Drone-onderdeel:",
+        "Description": "Ga naar het dronecentrum en klik op de knop ‘Data Training’ om gevechtsdata te gebruiken. Op bepaalde niveaus zijn drone-onderdelen vereist.\n\n\n\n\n\n\n"
+      },
+      "Task5": {
+        "Title": "Verzamel 100/100/60 eenheden voedsel/ijzer/munten (~40 punten):",
+        "Description": "Je kunt eenheden voedsel, ijzer of munten op twee manieren verzamelen:",
+        "Description2": "Met speciale radar missies voor het verzamelen van voedsel, ijzer of munten. In dit geval is de verzamelingssnelheid enorm hoog.",
+        "Description3": "Wissel naar de kaartmodus, klik op de vergrootglas, dan op verzamelen en kies ‘Akkerland’, ‘Ijzerertsmijn’ of ‘Goudmijn’. Zoek een locatie waar je je troepen naartoe kunt sturen om te verzamelen. De punten worden toegekend wanneer de troepen het verzamelpunt verlaten, hetzij omdat de te verzamelen middelen op zijn of omdat de troepen zijn teruggeroepen. Begin daarom op de dag voor deze dag met verzamelen en zorg ervoor dat de uiteindelijke verzamelperiode na het begin van deze dag ligt."
+      },
+      "Task6": {
+        "Title": "Voor elke gewonnen Drone Data Chip-punt (~2000 punten):",
+        "Description": "Ontvang punten wanneer je Drone Data Chip-kisten uit je inventaris opent (niet te verwarren met Drone Component-kisten)."
+      }
     },
     "Day2": {
       "Title": "Dag 2 - Basisconstructie",
       "DayText": "Dinsdag",
-      "Task1": "Gebruik 1 minuut gebouwversneller",
-      "Task2": "Verhoog de gebouwkracht met 1 punt",
-      "Task3": "Verzend de legendarische handelswagen 1 keer",
-      "Task4": "Voer 1 oranje geheime missie uit",
-      "Task5": "Koop een geschenkdoos met diamanten (1 diamant)",
-      "Task6": "Rekruteer overlevenden 1 keer in de herberg"
+      "Task1": {
+        "Title": "Gebruik een 1-minuut Bouwversnelling (~120 punten):",
+        "Description": "Gebruik bouwversnellingen (generiek is ook goed, elke lengte)."
+      },
+      "Task2": {
+        "Title": "Verhoog de gebouwsterkte met 1 punt (~21 punten):",
+        "Description": "Elke keer dat je een gebouw voltooit, wordt de sterkte van dat gebouw verhoogd en ontvang je punten voor dit verschil. Let op dat de sterkteverhoging van het gebouw alleen plaatsvindt als je de geschenkdoos opent waarin het nieuw verbeterde gebouw is verpakt."
+      },
+      "Task3": {
+        "Title": "Verzend de legendarische Handels-Vrachtwagen één keer (~200.000 punten):",
+        "Description": "Handels-vrachtwagens kunnen van verschillende aard zijn en dus verschillende beloningen bevatten. Je kunt hun inhoud wijzigen met behulp van het Handelscontract. Ga naar het gedeelte waar je een vrachtwagen kunt verzenden. Als je de inhoud rechtsboven in de preview bekijkt, vind je een knop met een dobbelsteen. Om de ‘legendarische’ versie te krijgen, moet je meerdere keren bijwerken totdat je de gele achtergrond en de ‘UR’-tekst aan de linkerzijde ziet."
+      },
+      "Task4": {
+        "Title": "Voer 1 legendarische geheime missie uit (~150.000 punten):",
+        "Description": "In het geheime mobiele team zijn activiteiten van verschillende aard en niveaus te vinden. Gebruik de knop ‘Vernieuwen’ onderaan om de huidige missies te wijzigen (waarbij 1 geheime opdrachtitem, de ‘Geheime Opdracht’, wordt verbruikt). Zoek naar de missies met het geel/gouden vierkant en start ze. Als je gedurende de week geheime opdrachtitems behoudt, kun je op deze dag alle legendarische missies starten."
+      },
+      "Task5": {
+        "Title": "Rekruteer één keer een Overlevende (~3.000 punten):",
+        "Description": "Gebruik de gouden overlevende-rekruteringskaarten (deze verschillen van de gouden helden-rekruteringskaarten) die je in het heldengedeelte vindt. Klik op de knop ‘Helden rekruteren’ en ga vervolgens naar het gebied ‘Overlevenden rekruteren’. Verzamel gedurende de hele week rekruteringskaarten voor overlevenden en gebruik ze alleen op deze dag."
+      }
     },
     "Day3": {
       "Title": "Dag 3 - Tijdperk van Wetenschap",
       "DayText": "Woensdag",
-      "Task1": "Gebruik 1 minuut onderzoekversneller",
-      "Task2": "Verhoog de technologiekracht met 1 punt",
-      "Task3": "Voltooi 1 radarmissie",
-      "Task4": "Koop een geschenkdoos met diamanten (1 diamant)",
-      "Task5": "Elke keer dat je een drone-component van niveau 1 opent",
-      "Task6": "Elke keer dat je een drone-component van niveau 2 opent",
-      "Task7": "Elke keer dat je een drone-component van niveau 3 opent",
-      "Task8": "Elke keer dat je een drone-component van niveau 4 opent",
-      "Task9": "Elke keer dat je een drone-component van niveau 5 opent",
-      "Task10": "Elke keer dat je een drone-component van niveau 6 opent",
-      "Task11": "Elke keer dat je een drone-component van niveau 7 opent"
+      "Task1": {
+        "Title": "Voltooi een radar missie (~23.000 punten):",
+        "Description": "Ga naar het radarsymbool links onderaan en open het radar-scherm. Hier zie je missies, waarvan sommige al voltooid zijn (met een rood punt rechtsboven), terwijl andere nog voltooid moeten worden. Om een missie te voltooien, moet je deze eerst uitvoeren (indien nog niet gedaan) en vervolgens op de missie met het rode punt klikken. Door deze actie verzamel je ze in en ontvang je de punten. Om de punten te maximaliseren, overweeg dan om missies op de dag ervoor te stapelen."
+      },
+      "Task2": {
+        "Title": "Gebruik een Onderzoeksversnelling voor 1 minuut (~120 punten):",
+        "Description": "Gebruik een onderzoeksversnelling (generiek is ook goed, elke lengte is mogelijk)."
+      },
+      "Task3": {
+        "Title": "Verhoog de technologische prestatie met 1 punt (~21 punten):",
+        "Description": "Technologische prestatiepunten krijg je door op het symbool voor voltooide onderzoek in het Technologiecentrum te klikken. Om de punten te maximaliseren, start op de dag(en) een lange onderzoek, zodat deze op deze dag eindigt, of voltooi het onderzoek op zijn minst door alleen op deze dag op het symbool voor voltooide onderzoek te klikken."
+      },
+      "Task4": {
+        "Title": "Gebruik een Moedigheidsmedaille (~600 punten):",
+        "Description": "Ga naar het Onderzoekscentrum en naar het gedeelte ‘Alliantie Duel’. Start een van de zoekopdrachten die moedigheidsmedailles gebruiken (dit zijn de blauwe medailles in het midden, gouden aan de buitenkant en met het lint eronder, die je kunt winnen in de duelkisten)."
+      },
+      "Task5": {
+        "Title": "Voor elke geopende Drone Component Kist van niveau 1/2/3/4/5/6/7:",
+        "Description": "Ontvang punten wanneer je Drone Component Kisten uit je inventaris opent (niet te verwarren met Drone Data Chip Kisten)."
+      }
     },
     "Day4": {
-      "Title": "Dag 4 - Heldontwikkeling",
+      "Title": "Dag 4 - Held Ontwikkeling",
       "DayText": "Donderdag",
-      "Task1": "Voer 1 heldenrekrutering uit",
-      "Task2": "Minimaal 660 helden-ervaring per keer verbruiken",
-      "Task3": "Gebruik 1 legendarische heldenfragment",
-      "Task4": "Gebruik 1 zeldzaam heldenfragment",
+      "Task1": {
+        "Title": "Voer eenmaal een geavanceerde rekrutering uit (~3.750 punten):",
+        "Description": "Gebruik de legendarische rekruteringskaarten in het heldengedeelte om helden te rekruteren (niet te verwarren met de ‘Overlevenden rekruteren’-kaarten). Verzamel gedurende de hele week rekruteringskaarten voor helden en gebruik ze alleen op deze dag."
+      },
+      "Task2": {
+        "Title": "Gebruik minimaal 660 Hero EXP-punten (~6 punten):",
+        "Description": "Gebruik ervaring punten door op de ‘Upgrade’-knop te klikken nadat je een held hebt geselecteerd."
+      },
+      "Task3": {
+        "Title": "Gebruik een legendarisch, episch of zeldzaam fragment (~20.000, ~7.000 of ~2.000 punten):",
+        "Description": "Gebruik het gouden, paarse of blauwe fragment (puzzelstukjes) van de helden om hun niveau in het heldengedeelte te verhogen. Klik op een held, ga naar het klassegebied en werk de heldenklasse bij."
+      },
+      "Task4": {
+        "Title": "Gebruik een vaardigheidsmedaille (~20 punten):",
+        "Description": "Verbeter de vaardigheden van de helden door naar het heldengedeelte te gaan, een held te selecteren, op het gedeelte ‘Vaardigheden’ te klikken, een van de vaardigheden (de vierkantjes) bovenin te kiezen en de knop ‘Versterken’ te gebruiken (dit is niet altijd mogelijk)."
+      },
       "Task5": "Verbruik 1 vaardigheidsmedaille",
-      "Task6": "Koop een geschenkdoos met diamanten (1 diamant)"
+      "Task6": "Koop een geschenkpakket met diamanten (1 diamant)"
     },
     "Day5": {
       "Title": "Dag 5 - Gevechtsklaarheid",
       "DayText": "Vrijdag",
-      "Task1": "Voltooi 1 radarmissie",
-      "Task2": "Gebruik 1 minuut gebouwversneller",
-      "Task3": "Verhoog de gebouwkracht met 1 punt",
-      "Task4": "Gebruik 1 minuut onderzoekversneller",
-      "Task5": "Verhoog de technologiekracht met 1 punt",
-      "Task6": "Gebruik 1 minuut trainingversneller",
-      "Task7": "Train 1 soldaat naar niveau 1",
-      "Task8": "Train 1 soldaat naar niveau 2",
-      "Task9": "Train 1 soldaat naar niveau 3",
-      "Task10": "Train 1 soldaat naar niveau 4",
-      "Task11": "Train 1 soldaat naar niveau 5",
-      "Task12": "Train 1 soldaat naar niveau 6",
-      "Task13": "Train 1 soldaat naar niveau 7",
-      "Task14": "Train 1 soldaat naar niveau 8",
-      "Task15": "Train 1 soldaat naar niveau 9",
-      "Task16": "Train 1 soldaat naar niveau 10",
-      "Task17": "Koop een geschenkdoos met diamanten (1 diamant)"
+      "Task1": {
+        "Title": "Voltooi een radar missie (~23.000 punten):",
+        "Description": "Ga naar het radarsymbool links onderaan en open het radar-scherm. Hier zie je missies, waarvan sommige al voltooid zijn (met een rood punt rechtsboven), terwijl andere nog voltooid moeten worden. Om een missie te voltooien, moet je deze eerst uitvoeren (indien nog niet gedaan) en vervolgens op de missie met het rode punt klikken. Door deze actie verzamel je de missie in en ontvang je de punten. Om de punten te maximaliseren, overweeg dan om missies op de dag ervoor te stapelen."
+      },
+      "Task2": {
+        "Title": "Gebruik een 1-minuut bouwversnelling (~120 punten):",
+        "Description": "Gebruik een bouwversnelling (generiek is ook goed, elke lengte is mogelijk)."
+      },
+      "Task3": {
+        "Title": "Verhoog de gebouwsterkte met 1 punt (~21 punten):",
+        "Description": "Elke keer dat je een gebouw voltooit, wordt de sterkte van dat gebouw verhoogd en ontvang je punten voor het verschil. Let op, de versterking van het gebouw vindt alleen plaats wanneer je de cadeaudoos opent waarin het nieuw verbeterde gebouw is verpakt."
+      },
+      "Task4": {
+        "Title": "Gebruik een 1-minuut onderzoeksversnelling (~120 punten):",
+        "Description": "Gebruik een onderzoeksversnelling (generiek is ook goed, elke lengte is mogelijk)."
+      },
+      "Task5": {
+        "Title": "Verhoog de technologische prestatie met 1 punt (~21 punten):",
+        "Description": "Technologische prestatiepunten worden verkregen wanneer een onderzoek in het Technologiecentrum wordt voltooid."
+      },
+      "Task6": {
+        "Title": "Gebruik een 1-minuut trainingsversnelling (~122 punten):",
+        "Description": "Gebruik een trainingsversnelling (generiek is ook goed, elke lengte is mogelijk). Punten worden ook toegekend wanneer je traint om het niveau van de soldaat te verbeteren. Het is in feite beter om veel soldaten met een laag niveau voor deze dag voor te bereiden en pas daarna naar een hoger niveau te upgraden, omdat de punten worden toegekend op basis van het niveau van de aankomende soldaat."
+      },
+      "Task7": {
+        "Title": "Opleiden van een soldaat van niveau 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 punten):",
+        "Description": "De punten die je ontvangt zijn gebaseerd op het aankomsteniveau van een soldaat. Als je bijvoorbeeld een soldaat van niveau 4 naar niveau 5 opwerkt, ontvang je de punten voor een soldaat van niveau 5, net zoals als je een soldaat van niveau 5 vanaf het begin opleidt. Bereid daarom veel soldaten van gemiddelde niveaus voor om ze in de fabriek op te waarderen."
+      }
     },
     "Day6": {
-      "Title": "Dag 6 - Vijanden Verwijderen",
+      "Title": "Dag 6 - Vijanden Elimineren",
       "DayText": "Zaterdag",
-      "Task1": "Verzend de legendarische handelslastwagen 1 keer",
-      "Task2": "Voer 1 oranje geheime missie uit",
-      "Task3": "Gebruik 1 minuut gebouwversneller",
-      "Task4": "Gebruik 1 minuut onderzoekversneller",
-      "Task5": "Gebruik 1 minuut trainingversneller",
-      "Task6": "Gebruik 1 minuut genezingsversneller",
-      "Task7": "Elke gedode niveau 1 eenheid van een rivaliserende alliantie",
-      "Task8": "Elke gedode niveau 2 eenheid van een rivaliserende alliantie",
-      "Task9": "Elke gedode niveau 3 eenheid van een rivaliserende alliantie",
-      "Task10": "Elke gedode niveau 4 eenheid van een rivaliserende alliantie",
-      "Task11": "Elke gedode niveau 5 eenheid van een rivaliserende alliantie",
-      "Task12": "Elke gedode niveau 6 eenheid van een rivaliserende alliantie",
-      "Task13": "Elke gedode niveau 7 eenheid van een rivaliserende alliantie",
-      "Task14": "Elke gedode niveau 8 eenheid van een rivaliserende alliantie",
-      "Task15": "Elke gedode niveau 9 eenheid van een rivaliserende alliantie",
-      "Task16": "Elke gedode niveau 10 eenheid van een rivaliserende alliantie",
-      "Task17": "Elke gedode niveau 1 eenheid",
-      "Task18": "Elke gedode niveau 2 eenheid",
-      "Task19": "Elke gedode niveau 3 eenheid",
-      "Task20": "Elke gedode niveau 4 eenheid",
-      "Task21": "Elke gedode niveau 5 eenheid",
-      "Task22": "Elke gedode niveau 6 eenheid",
-      "Task23": "Elke gedode niveau 7 eenheid",
-      "Task24": "Elke gedode niveau 8 eenheid",
-      "Task25": "Elke gedode niveau 9 eenheid",
-      "Task26": "Elke gedode niveau 10 eenheid",
-      "Task27": "Elke verloren niveau 1 eenheid",
-      "Task28": "Elke verloren niveau 2 eenheid",
-      "Task29": "Elke verloren niveau 3 eenheid",
-      "Task30": "Elke verloren niveau 4 eenheid",
-      "Task31": "Elke verloren niveau 5 eenheid",
-      "Task32": "Elke verloren niveau 6 eenheid",
-      "Task33": "Elke verloren niveau 7 eenheid",
-      "Task34": "Elke verloren niveau 8 eenheid",
-      "Task35": "Elke verloren niveau 9 eenheid",
-      "Task36": "Elke verloren niveau 10 eenheid",
-      "Task37": "Koop een geschenkdoos met diamanten (1 diamant)"
+      "Task1": {
+        "Title": "Verzend eenmaal een legendarische handels-Vrachtwagen (~200.000 punten):",
+        "Description": "Handels-Vrachtwagens kunnen van verschillende aard zijn en daarom verschillende beloningen bevatten. Je kunt hun inhoud wijzigen met behulp van het Handelscontract. Om ze te gebruiken, ga je naar het gedeelte waar je een vrachtwagen kunt verzenden. Als je de inhoud rechtsboven in de preview bekijkt, vind je een knop met een dobbelsteen. Om de ‘legendarische’ versie te verkrijgen, moet je meerdere keren bijwerken totdat je de gele achtergrond en de 'UR'-tekst aan de linkerkant ziet."
+      },
+      "Task2": {
+        "Title": "Voer eenmaal een legendarische geheime opdracht uit (~150.000 punten):",
+        "Description": "In de geheime mobiele eenheid vind je activiteiten van verschillende aard en niveaus. Gebruik de knop ‘Bijwerken’ onderaan om de huidige missies te wijzigen (waarbij 1 geheim opdrachtobject, de ‘Geheime Bevel’, wordt verbruikt). Zoek naar de missies met het geel/gouden vierkant en start ze. Als je gedurende de week geheime opdrachtobjecten behoudt, kun je op deze dag alle legendarische missies starten."
+      },
+      "Task3": {
+        "Title": "Gebruik een 1-minuut bouwversnelling (~120 punten):",
+        "Description": "Gebruik een bouwversnelling (generiek is ook goed, elke lengte is mogelijk)."
+      },
+      "Task4": {
+        "Title": "Gebruik een onderzoeksversnelling voor 1 minuut (~120 punten):",
+        "Description": "Gebruik een onderzoeksversnelling (generiek is ook goed, elke lengte is mogelijk)."
+      },
+      "Task5": {
+        "Title": "Gebruik een 1-minuut trainingsversnelling (~122 punten):",
+        "Description": "Gebruik een trainingsversnelling (generiek is ook goed, elke lengte is mogelijk). Punten worden ook toegekend wanneer je traint om het niveau van de soldaat te verbeteren. Het is in feite beter om veel soldaten met een laag niveau voor deze dag voor te bereiden en pas daarna naar een hoger niveau te upgraden, omdat de punten worden toegekend op basis van het niveau van de aankomende soldaat."
+      },
+      "Task6": {
+        "Title": "Gebruik een 1-minuut genezingsversnelling (~122 punten):",
+        "Description": "Gebruik een genezingsversnelling."
+      },
+      "Task7": {
+        "Title": "Elke gedode eenheid van niveau 1/2/3/4/5/6/7/8/9/10 van een tegenstanderalliantie levert ~25/38/50/63/75/88/100/113/125/138 punten op:",
+        "Description": "Deze punten worden elke keer toegekend wanneer je in een duel tegen een tegenstander een soldaat van de tegenstanderalliantie doodt. Gebruik de Teleport (Duel tegen een Tegenstander-symbool -> Alliantieaanvallen -> Aanval) om naar de server van je tegenstander te gaan en zoveel mogelijk soldaten te doden die de bases van de tegenstanderalliantie aanvallen. Als een vijand de troepen uit de verdediging heeft verwijderd, kun je geen punten maken op die basis. Verken daarom eerst en val alleen degenen aan die nog in de verdediging staan."
+      },
+      "Task8": {
+        "Title": "Elke gedode eenheid van niveaus 1/2/3/4/5/6/7/8/9/10 levert ~5/8/10/13/15/18/20/23/25/28 punten op:",
+        "Description": "Deze punten worden elke keer toegekend wanneer je een soldaat van een andere alliantie op een andere server doodt, behalve de alliantie van je tegenstander in Duel VS, waarvoor de punten in de bovenstaande sectie gelden. Het is beter om altijd te proberen soldaten van je tegenstanderalliantie in Duel VS te doden, omdat dit vijf keer zoveel punten oplevert. Als ze echter afgeschermd zijn of geen troepen hebben, kun je ook soldaten van andere allianties op deze server doden. Dit zal meer tijd en aanvallen vereisen om hetzelfde aantal punten te behalen."
+      },
+      "Task9": {
+        "Title": "Elke verloren eenheid van niveaus 1/2/3/4/5/6/7/8/9/10 levert ~6/8/10/12/14/16/18/20 punten op:",
+        "Description": "Of je nu aanvalt of verdedigt, elke keer dat een van je soldaten wordt gedood, ontvang je dit aantal punten. Als je aan het einde van een duel punten moet verzamelen om kisten te openen en je alliantie wint duidelijk het spel, kun je overwegen enkele van je troepen op te offeren om een hoger niveau hoofdkwartier aan te vallen, als deze alleen beschikbaar zijn. Op deze manier kun je eenheden verliezen en punten verdienen."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Overlappen met Wapenwedloop",
+      "Day1": {
+        "Title": "Er zijn twee overlappen, dus ik raad aan om de activiteiten tijdens de respectieve fasen uit te voeren:",
+        "Overlap1": {
+          "Title": "Drones-Boost-Fase:",
+          "Description": "Verbruik een uithoudingsvermogen.",
+          "Description2": "Gebruik 10 Drone-gevechtsgegevenspunten."
+        },
+        "Overlap2": {
+          "Title": "Held-Upgradekfase:",
+          "Description": "Gebruik 2000 EXP-punten."
+        }
+      },
+      "Day2": {
+        "Title": "De volgende activiteiten overlappen met de stedenbouwfase van de wapenwedloop. Ik raad aan om deze activiteiten tijdens deze fase uit te voeren:",
+        "Overlap1": {
+          "Description": "Gebruik de 1-minuut bouwversnelling.",
+          "Description2": "Verhoog de bouwkracht met 1 punt."
+        }
+      },
+      "Day3": {
+        "Title": "De volgende activiteiten overlappen met de technologische onderzoeksfase van de wapenwedloop. Ik raad aan om deze activiteiten tijdens deze fase uit te voeren:",
+        "Overlap1": {
+          "Description": "Gebruik een 1-minuut onderzoeksversnelling.",
+          "Description2": "Verhoog de technologische prestaties met 1 punt."
+        }
+      },
+      "Day4": {
+        "Title": "De volgende activiteiten overlappen met de heldenontwikkelingsfase van de wapenwedloop. Ik raad aan om deze activiteiten tijdens deze fase uit te voeren:",
+        "Overlap1": {
+          "Description": "Voer 1 geavanceerde rekrutering uit.",
+          "Description2": "Gebruik 2000 EXP-punten."
+        }
+      },
+      "Day5": {
+        "Title": "Er zijn drie overlappen. Ik raad aan om de activiteiten in de respectieve fasen uit te voeren:",
+        "Overlap1": {
+          "Title": "Stedenbouwfase:",
+          "Description": "Gebruik een 1-minuut bouwversnelling.",
+          "Description2": "Verhoog de bouwkracht met 1 punt."
+        },
+        "Overlap2": {
+          "Title": "Technologische Onderzoeksfase:",
+          "Description": "Gebruik een 1-minuut onderzoeksversnelling.",
+          "Description2": "Verhoog de technologische prestaties met 1 punt."
+        },
+        "Overlap3": {
+          "Title": "Eenheden Voortgangsfase:",
+          "Description": "Gebruik een 1-minuut trainingsversnelling.",
+          "Description2": "Opleiden van een soldaat van niveau 1/2/3/4/5/6/7/8/9/10."
+        }
+      },
+      "Day6": {
+        "Title": "Er zijn drie overlappen. Ik raad aan om de activiteiten in de respectieve fasen uit te voeren:",
+        "Overlap1": {
+          "Title": "Stedenbouwfase:",
+          "Description": "Gebruik een 1-minuut bouwversnelling."
+        },
+        "Overlap2": {
+          "Title": "Technologische Onderzoeksfase:",
+          "Description": "Gebruik een 1-minuut onderzoeksversnelling."
+        },
+        "Overlap3": {
+          "Title": "Eenheden Voortgangsfase:",
+          "Description": "Gebruik een 1-minuut trainingsversnelling."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Strategische Voorbereiding",
+      "Description": "Voor bepaalde activiteiten zijn er punten te verdienen bij voltooiing. Daarom kun je ze de dag voorafgaand aan het vereiste moment starten en tijdens de respectieve fase afronden om de maximale score te behalen. Hier zijn de fasen en de bijbehorende activiteiten:",
+      "List1": "Op de dagen dat radar missies worden beloond, stapel de missies de dag ervoor tot het maximum. Dit stelt je in staat om het maximale aantal punten te behalen wanneer de missies op de werkelijke dag worden voltooid.",
+      "List2": "Begin op de dagen dat het verzamelen van voedsel, ijzer of goud beloningspunten oplevert de dag ervoor met verzamelen en zorg ervoor dat je op de nieuwe dag klaar bent. Voorafgaand aan het verzamelen wordt aangegeven hoeveel je nodig hebt om de maximale punten te behalen.",
+      "List3": "Op dagen dat het upgraden van gebouwen punten oplevert op basis van hun prestatieverhoging, is het voordelig om meerdere gebouwen op eerdere dagen te upgraden en ze in de cadeauverpakkingstoestand te laten. De gebouwprestatie wordt alleen verhoogd bij het openen van het cadeaupakket, en op dat moment worden ook de punten voor Duel-gegen-toegekend.",
+      "List4": "Op dagen dat onderzoek punten oplevert, start de dag ervoor een langdurig onderzoek zodat het onderzoek op deze dagen eindigt. De punten worden toegekend wanneer je op het symbool voor voltooid onderzoek klikt.",
+      "List5": "Open de kist met drone-gegevenschips en componenten niet wanneer deze in je inventaris zitten, omdat je door deze activiteiten op dag 1 en 3 punten ontvangt.",
+      "FightDay": {
+        "Title": "Oorlog Dag Voorbereiding",
+        "Description": "Op de laatste dag van de strijd zijn er punten te verdienen voor het doden van de troepen van je tegenstander, dus het is belangrijk om je voor te bereiden op deze dag.",
+        "AttackPreparation": {
+          "Title": "Aanval Voorbereiding",
+          "List1": "Probeer gedurende de week je kazerne naar het hoogst mogelijke niveau te brengen om de opleiding van troepen van hoger niveau vrij te schakelen. Dit stelt je in staat om efficiënter punten te verzamelen door troepen van hoger niveau te trainen.",
+          "List2": "Opleiden zoveel mogelijk troepen, omdat je ze tijdens de oorlog nodig zult hebben. Gebruik je trainingsversnellingen het beste op dag 5 om de punten te maximaliseren.",
+          "List3": "Koop trainingsversnellingen en genezingsversnellingen. Deze kunnen je helpen om de opleiding en genezing van je troepen sneller af te ronden, wat vooral belangrijk is om efficiënt te blijven tijdens de cruciale fasen van de oorlog."
+        },
+        "DefensePreparation": {
+          "Title": "Verdediging Voorbereiding",
+          "List1": "Koop schilden (of spaar middelen om ze te kopen) om ze te gebruiken tijdens de 24 uur van de laatste dag. Anders heb je 1.500 diamanten nodig voor een 8-uur schild.",
+          "List2": "Verwijder troepen uit je verdedigingsopstelling zodat je bij een aanval alleen geringe verliezen lijdt, vergeleken met de verliezen bij een nederlaag met een actieve verdediging. Ga naar je basis, klik op de muur en ga naar de verdedigingsopstelling. Verwijder de vinkjes bij de troepen om ze uit de verdedigingsopstelling te verwijderen."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Beloning",
+      "Description": "Voor elke vereiste activiteit tijdens het duel ontvang je een bepaald aantal punten. Deze puntenscore kun je verder verhogen door onderzoek in het gebied 'Alliantie Duel'. Om dergelijk onderzoek uit te voeren, heb je moedinsignes nodig, die je alleen kunt verkrijgen door het openen van kisten tijdens het duel."
     },
     "GeneralTips": {
       "Title": "Algemene Tips:",

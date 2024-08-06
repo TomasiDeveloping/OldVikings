@@ -138,115 +138,273 @@
   "VS": {
     "Title": "Duel VS",
     "Day1": {
-      "Title": "Jour 1 - Entraînement Radar Spécial",
+      "Title": "Jour 1 - Formation Spéciale Radar",
       "DayText": "Lundi",
-      "Task1": "Utilise 1 endurance",
-      "Task2": "Complète 1 mission radar",
-      "Task3": "Utilise au moins 660 XP héros par fois",
-      "Task4": "Utilise 1 point de données de combat drone",
-      "Task5": "Utilise 1 composant drone",
-      "Task6": "Achète un pack cadeau avec des diamants (1 diamant)",
-      "Task7": "Collecte 100 nourriture",
-      "Task8": "Collecte 100 fer",
-      "Task9": "Collecte 60 or",
-      "Task10": "Pour chaque point de puce de compétence drone gagné"
+      "Task1": {
+        "Title": "Complète 1 tâche Radar (~25.000 points) :",
+        "Description": "Va au symbole radar en bas à gauche et ouvre l'écran radar. Ici, tu verras des missions, dont certaines sont déjà terminées (avec un point rouge en haut à droite), tandis que d'autres doivent encore être complétées. Pour compléter une mission, tu dois d'abord l'exécuter (si ce n'est pas encore fait) puis cliquer sur la mission avec le point rouge. Cette action te permettra de la collecter et d'obtenir les points. Pour maximiser les points, envisage de cumuler des missions la veille."
+      },
+      "Task2": {
+        "Title": "Utilise 1 Endurance (~300 points) :",
+        "Description": "Utilise l'endurance pour les attaques, les actions de collecte et les missions radar."
+      },
+      "Task3": {
+        "Title": "Utilise au moins 660 points EXP Héros simultanément (~6 points) :",
+        "Description": "Va au Centre de drones et clique sur le bouton « Formation de données » pour utiliser des données de combat. À certains niveaux, des pièces de drone sont nécessaires pour poursuivre la formation."
+      },
+      "Task4": {
+        "Title": "Utilise 1 pièce de drone :",
+        "Description": "Va au Centre de drones et clique sur le bouton « Formation de données » pour utiliser des données de combat. À certains niveaux, des pièces de drone sont nécessaires.\n\n\n\n\n\n\n"
+      },
+      "Task5": {
+        "Title": "Collectionne 100/100/60 unités de Nourriture/Fer/Coins (~40 points) :",
+        "Description": "Tu peux collecter des unités de Nourriture, Fer ou Coins de deux manières :",
+        "Description2": "Avec des missions radar spéciales pour collecter de la Nourriture, du Fer ou des Coins. Dans ce cas, la vitesse de collecte est extrêmement élevée.",
+        "Description3": "Change en mode carte, clique sur la loupe, puis sur Collecter, et choisis « Terre agricole », « Mine de fer » ou « Mine d'or ». Trouve un endroit où tu peux envoyer tes troupes pour collecter. Les points seront attribués lorsque les troupes quitteront le point de collecte, soit parce que les ressources à gagner sont épuisées, soit parce que les troupes ont été rappelées. Commence donc la collecte la veille de ce jour et assure-toi que le temps de collecte final est après le début de ce jour."
+      },
+      "Task6": {
+        "Title": "Pour chaque point de puce de données de drone gagné (~2000 points) :",
+        "Description": "Obtiens des points en ouvrant des coffres de puces de données de drone depuis ton inventaire (à ne pas confondre avec les coffres de composants de drone)."
+      }
     },
     "Day2": {
-      "Title": "Jour 2 - Construction de la Base",
+      "Title": "Jour 2 - Construction de Base",
       "DayText": "Mardi",
-      "Task1": "Utilise 1 minute accélérateur de construction",
-      "Task2": "Augmente la puissance de combat du bâtiment de 1 point",
-      "Task3": "Envoie le chariot légendaire 1 fois",
-      "Task4": "Complète 1 mission secrète orange",
-      "Task5": "Achète un pack cadeau avec des diamants (1 diamant)",
-      "Task6": "Recrute des survivants 1 fois dans la taverne"
+      "Task1": {
+        "Title": "Utilise une accélération de construction de 1 minute (~120 points) :",
+        "Description": "Utilise des accélérations de construction (génériques sont également acceptables, quelle que soit leur durée)."
+      },
+      "Task2": {
+        "Title": "Augmente la force d'un bâtiment de 1 point (~21 points) :",
+        "Description": "Chaque fois que tu finis un bâtiment, la force de ce bâtiment est augmentée et tu obtiens des points pour cette différence. Note que l'augmentation de la force du bâtiment n'a lieu que lorsque tu ouvres la boîte cadeau contenant le bâtiment nouvellement amélioré."
+      },
+      "Task3": {
+        "Title": "Envoie le camion de commerce légendaire une fois (~200.000 points) :",
+        "Description": "Les camions de commerce peuvent être de différents types et contenir différentes récompenses. Tu peux modifier leur contenu à l'aide du contrat de commerce. Va à la section où tu peux envoyer un camion. Lorsque tu prévisualises le contenu en haut à droite, tu trouveras un bouton avec un dé. Pour obtenir la version « légendaire », tu dois mettre à jour plusieurs fois jusqu'à ce que tu vois l'arrière-plan jaune et l'inscription « UR » sur le côté gauche."
+      },
+      "Task4": {
+        "Title": "Complète 1 mission secrète légendaire (~150.000 points) :",
+        "Description": "Dans l'unité mobile secrète, il y a des activités de différents types et niveaux. Utilise le bouton « Actualiser » en bas pour changer les missions actuelles (en utilisant 1 objet de mission secrète, le « Ordre secret »). Recherche les missions avec le carré jaune/or et commence-les. Si tu gardes des objets de mission secrète pendant la semaine, tu pourras commencer toutes les missions légendaires ce jour-là."
+      },
+      "Task5": {
+        "Title": "Recrute un survivant une fois (~3.000 points) :",
+        "Description": "Utilise les tickets de recrutement de survivants en or (différents des tickets de recrutement de héros en or) que tu trouveras dans la section des héros. Clique sur le bouton « Recruter des héros » et va ensuite dans la section « Recruter des survivants ». Collectionne des tickets de recrutement de survivants pendant toute la semaine et utilise-les uniquement ce jour-là."
+      }
     },
     "Day3": {
       "Title": "Jour 3 - Ère de la Science",
       "DayText": "Mercredi",
-      "Task1": "Utilise 1 minute accélérateur de recherche",
-      "Task2": "Augmente la puissance de combat de la technologie de 1 point",
-      "Task3": "Complète 1 mission radar",
-      "Task4": "Achète un pack cadeau avec des diamants (1 diamant)",
-      "Task5": "Chaque fois que tu ouvres un composant drone de niveau 1",
-      "Task6": "Chaque fois que tu ouvres un composant drone de niveau 2",
-      "Task7": "Chaque fois que tu ouvres un composant drone de niveau 3",
-      "Task8": "Chaque fois que tu ouvres un composant drone de niveau 4",
-      "Task9": "Chaque fois que tu ouvres un composant drone de niveau 5",
-      "Task10": "Chaque fois que tu ouvres un composant drone de niveau 6",
-      "Task11": "Chaque fois que tu ouvres un composant drone de niveau 7"
+      "Task1": {
+        "Title": "Complète une mission radar (~23.000 points) :",
+        "Description": "Va au symbole radar en bas à gauche et ouvre l'écran radar. Ici, tu verras des missions, dont certaines sont déjà terminées (avec un point rouge en haut à droite), tandis que d'autres doivent encore être complétées. Pour compléter une mission, tu dois d'abord l'exécuter (si ce n'est pas encore fait) puis cliquer sur la mission avec le point rouge. Cette action te permettra de la collecter et d'obtenir les points. Pour maximiser les points, envisage de cumuler des missions la veille."
+      },
+      "Task2": {
+        "Title": "Utilise un accélérateur de recherche pendant 1 minute (~120 points) :",
+        "Description": "Utilise un accélérateur de recherche (les accélérateurs génériques sont également acceptables, peu importe leur durée)."
+      },
+      "Task3": {
+        "Title": "Augmente la performance technologique de 1 point (~21 points) :",
+        "Description": "Tu obtiens des points de performance technologique lorsque tu cliques sur le symbole de recherche terminée au Centre de Technologie. Pour maximiser les points, commence une recherche longue le ou les jours précédents pour qu'elle se termine ce jour-là, ou termine-la en cliquant uniquement ce jour-là sur le symbole de recherche terminée."
+      },
+      "Task4": {
+        "Title": "Utilise une médaille de bravoure (~600 points) :",
+        "Description": "Va au Centre de Recherche et dans la section « Duel d'Alliance ». Lance une des recherches qui consomment des médailles de bravoure (ce sont les médailles bleues au centre, dorées à l'extérieur et avec un ruban en bas, que l'on peut gagner dans les coffres de duel)."
+      },
+      "Task5": {
+        "Title": "Pour chaque coffre de composants de drone des niveaux 1/2/3/4/5/6/7 :",
+        "Description": "Obtiens des points en ouvrant des coffres de composants de drone depuis ton inventaire (à ne pas confondre avec les coffres de puces de données de drone)."
+      }
     },
     "Day4": {
       "Title": "Jour 4 - Développement des Héros",
       "DayText": "Jeudi",
-      "Task1": "Effectue 1 recrutement de héros",
-      "Task2": "Utilise au moins 660 XP héros par fois",
-      "Task3": "Utilise 1 fragment de héros légendaire",
-      "Task4": "Utilise 1 fragment de héros rare",
+      "Task1": {
+        "Title": "Effectue une recrue avancée une fois (~3.750 points) :",
+        "Description": "Utilise les tickets de recrutement légendaires dans la section Héros pour recruter des héros (à ne pas confondre avec les tickets « Recruter des survivants »). Collectionne des tickets de recrutement de héros pendant toute la semaine et utilise-les uniquement ce jour-là."
+      },
+      "Task2": {
+        "Title": "Utilise au moins 660 points EXP Héros (~6 points) :",
+        "Description": "Utilise des points d'expérience en cliquant sur le bouton « Améliorer » après avoir sélectionné un héros."
+      },
+      "Task3": {
+        "Title": "Utilise une pièce légendaire, épique ou rare (~20.000, ~7.000 ou ~2.000 points) :",
+        "Description": "Utilise les pièces d'or, violettes ou bleues (pièces de puzzle) des héros pour augmenter leur niveau dans la section Héros. Clique sur un héros, va dans la section de classe et mets à jour la classe du héros."
+      },
+      "Task4": {
+        "Title": "Utilise une médaille de compétence (~20 points) :",
+        "Description": "Améliore les compétences des héros en allant dans la section Héros, en sélectionnant un héros, en cliquant sur la section « Compétences », en choisissant l'une des compétences (les carrés) en haut et en utilisant le bouton « Renforcer » (ceci n'est pas toujours possible)."
+      },
       "Task5": "Utilise 1 médaille de compétence",
       "Task6": "Achète un pack cadeau avec des diamants (1 diamant)"
     },
     "Day5": {
       "Title": "Jour 5 - Préparation au Combat",
       "DayText": "Vendredi",
-      "Task1": "Complète 1 mission radar",
-      "Task2": "Utilise 1 minute accélérateur de construction",
-      "Task3": "Augmente la puissance de combat du bâtiment de 1 point",
-      "Task4": "Utilise 1 minute accélérateur de recherche",
-      "Task5": "Augmente la puissance de combat de la technologie de 1 point",
-      "Task6": "Utilise 1 minute accélérateur d'entraînement",
-      "Task7": "Entraîne 1 soldat au niveau 1",
-      "Task8": "Entraîne 1 soldat au niveau 2",
-      "Task9": "Entraîne 1 soldat au niveau 3",
-      "Task10": "Entraîne 1 soldat au niveau 4",
-      "Task11": "Entraîne 1 soldat au niveau 5",
-      "Task12": "Entraîne 1 soldat au niveau 6",
-      "Task13": "Entraîne 1 soldat au niveau 7",
-      "Task14": "Entraîne 1 soldat au niveau 8",
-      "Task15": "Entraîne 1 soldat au niveau 9",
-      "Task16": "Entraîne 1 soldat au niveau 10",
-      "Task17": "Achète un pack cadeau avec des diamants (1 diamant)"
+      "Task1": {
+        "Title": "Complète une mission radar (~23.000 points) :",
+        "Description": "Va au symbole radar en bas à gauche et ouvre l'écran radar. Ici, tu verras des missions, dont certaines sont déjà terminées (avec un point rouge en haut à droite), tandis que d'autres doivent encore être complétées. Pour compléter une mission, tu dois d'abord l'exécuter (si ce n'est pas encore fait) puis cliquer sur la mission avec le point rouge. Cette action te permettra de la collecter et d'obtenir les points. Pour maximiser les points, envisage de cumuler des missions la veille."
+      },
+      "Task2": {
+        "Title": "Utilise un accélérateur de construction de 1 minute (~120 points) :",
+        "Description": "Utilise un accélérateur de construction (les accélérateurs génériques sont également acceptables, peu importe leur durée)."
+      },
+      "Task3": {
+        "Title": "Augmente la force du bâtiment de 1 point (~21 points) :",
+        "Description": "Chaque fois que tu complètes un bâtiment, la force de ce bâtiment augmente et tu obtiens des points pour cette différence. Note que l'augmentation de la force du bâtiment se fait uniquement lorsque tu ouvres la boîte-cadeau contenant le bâtiment nouvellement amélioré."
+      },
+      "Task4": {
+        "Title": "Utilise un accélérateur de recherche de 1 minute (~120 points) :",
+        "Description": "Utilise un accélérateur de recherche (les accélérateurs génériques sont également acceptables, peu importe leur durée)."
+      },
+      "Task5": {
+        "Title": "Augmente la performance technologique de 1 point (~21 points) :",
+        "Description": "Les points de performance technologique sont obtenus lorsque tu termines une recherche au Centre de Technologie."
+      },
+      "Task6": {
+        "Title": "Utilise un accélérateur d'entraînement de 1 minute (~122 points) :",
+        "Description": "Utilise un accélérateur d'entraînement (les accélérateurs génériques sont également acceptables, peu importe leur durée). Les points sont également attribués lorsque tu entraînes des soldats pour améliorer leur niveau. Il est en fait préférable de préparer de nombreux soldats de bas niveau avant ce jour et de les améliorer ensuite, car les points sont attribués en fonction du niveau du soldat arrivé."
+      },
+      "Task7": {
+        "Title": "Entraîne un soldat de niveau 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 points) :",
+        "Description": "Les points que tu obtiens sont basés sur le niveau d'arrivée du soldat. Ainsi, si tu améliores un soldat de niveau 4 à niveau 5, tu obtiens les points pour un soldat de niveau 5, de même que si tu formes un soldat de niveau 5 depuis le début. Prépare donc de nombreux soldats de niveaux moyens pour les améliorer en série."
+      }
     },
     "Day6": {
       "Title": "Jour 6 - Élimination des Ennemis",
       "DayText": "Samedi",
-      "Task1": "Envoie le chariot légendaire 1 fois",
-      "Task2": "Complète 1 mission secrète orange",
-      "Task3": "Utilise 1 minute accélérateur de construction",
-      "Task4": "Utilise 1 minute accélérateur de recherche",
-      "Task5": "Utilise 1 minute accélérateur d'entraînement",
-      "Task6": "Utilise 1 minute accélérateur de guérison",
-      "Task7": "Chaque unité de niveau 1 tuée d'une alliance rivale",
-      "Task8": "Chaque unité de niveau 2 tuée d'une alliance rivale",
-      "Task9": "Chaque unité de niveau 3 tuée d'une alliance rivale",
-      "Task10": "Chaque unité de niveau 4 tuée d'une alliance rivale",
-      "Task11": "Chaque unité de niveau 5 tuée d'une alliance rivale",
-      "Task12": "Chaque unité de niveau 6 tuée d'une alliance rivale",
-      "Task13": "Chaque unité de niveau 7 tuée d'une alliance rivale",
-      "Task14": "Chaque unité de niveau 8 tuée d'une alliance rivale",
-      "Task15": "Chaque unité de niveau 9 tuée d'une alliance rivale",
-      "Task16": "Chaque unité de niveau 10 tuée d'une alliance rivale",
-      "Task17": "Chaque unité de niveau 1 tuée",
-      "Task18": "Chaque unité de niveau 2 tuée",
-      "Task19": "Chaque unité de niveau 3 tuée",
-      "Task20": "Chaque unité de niveau 4 tuée",
-      "Task21": "Chaque unité de niveau 5 tuée",
-      "Task22": "Chaque unité de niveau 6 tuée",
-      "Task23": "Chaque unité de niveau 7 tuée",
-      "Task24": "Chaque unité de niveau 8 tuée",
-      "Task25": "Chaque unité de niveau 9 tuée",
-      "Task26": "Chaque unité de niveau 10 tuée",
-      "Task27": "Chaque unité de niveau 1 perdue",
-      "Task28": "Chaque unité de niveau 2 perdue",
-      "Task29": "Chaque unité de niveau 3 perdue",
-      "Task30": "Chaque unité de niveau 4 perdue",
-      "Task31": "Chaque unité de niveau 5 perdue",
-      "Task32": "Chaque unité de niveau 6 perdue",
-      "Task33": "Chaque unité de niveau 7 perdue",
-      "Task34": "Chaque unité de niveau 8 perdue",
-      "Task35": "Chaque unité de niveau 9 perdue",
-      "Task36": "Chaque unité de niveau 10 perdue",
-      "Task37": "Achète un pack cadeau avec des diamants (1 diamant)"
+      "Task1": {
+        "Title": "Envoie une fois un camion de commerce légendaire (~200.000 points) :",
+        "Description": "Les camions de commerce peuvent être de différents types et donc contenir différentes récompenses. Tu peux modifier leur contenu en utilisant le contrat de commerce. Pour les utiliser, va à la section d'envoi de camion. Si tu prévisualises le contenu en haut à droite, tu verras un bouton avec un dé. Pour obtenir la version « légendaire », tu dois actualiser plusieurs fois jusqu'à obtenir l'arrière-plan jaune et le texte « UR » sur le côté gauche."
+      },
+      "Task2": {
+        "Title": "Complète une mission secrète légendaire (~150.000 points) :",
+        "Description": "Dans l'unité mobile secrète, tu trouveras des activités de différents types et niveaux. Utilise le bouton « Mettre à jour » en bas pour changer les missions actuelles (en utilisant un objet de mission secrète, le « Commandement Secret »). Cherche les missions avec le carré jaune/or et lance-les. Si tu gardes les objets de mission secrète pendant la semaine, tu pourras lancer toutes les missions légendaires ce jour-là."
+      },
+      "Task3": {
+        "Title": "Utilise un accélérateur de construction de 1 minute (~120 points) :",
+        "Description": "Utilise un accélérateur de construction (les accélérateurs génériques sont également acceptables, peu importe leur durée)."
+      },
+      "Task4": {
+        "Title": "Utilise un accélérateur de recherche de 1 minute (~120 points) :",
+        "Description": "Utilise un accélérateur de recherche (les accélérateurs génériques sont également acceptables, peu importe leur durée)."
+      },
+      "Task5": {
+        "Title": "Utilise un accélérateur d'entraînement de 1 minute (~122 points) :",
+        "Description": "Utilise un accélérateur d'entraînement (les accélérateurs génériques sont également acceptables, peu importe leur durée). Les points sont également attribués lorsque tu entraînes des soldats pour améliorer leur niveau. Il est en fait préférable de préparer de nombreux soldats de bas niveau avant ce jour et de les améliorer ensuite, car les points sont attribués en fonction du niveau du soldat arrivé."
+      },
+      "Task6": {
+        "Title": "Utilise un accélérateur de guérison de 1 minute (~122 points) :",
+        "Description": "Utilise un accélérateur de guérison."
+      },
+      "Task7": {
+        "Title": "Chaque unité ennemie de niveau 1/2/3/4/5/6/7/8/9/10 tuée rapporte ~25/38/50/63/75/88/100/113/125/138 points :",
+        "Description": "Ces points sont attribués chaque fois que tu tues un soldat de l'alliance ennemie dans un duel. Utilise le téléport (Symbole de duel contre un ennemi -> Attaques d'alliance -> Attaque) pour accéder au serveur de ton adversaire et tuer autant de soldats que possible qui attaquent les bases de l'alliance ennemie. Si un ennemi a retiré les troupes de la défense, tu ne pourras pas obtenir de points sur cette base. Il est donc préférable d'explorer d'abord et d'attaquer uniquement ceux qui sont encore en défense."
+      },
+      "Task8": {
+        "Title": "Chaque unité ennemie de niveau 1/2/3/4/5/6/7/8/9/10 tuée rapporte ~5/8/10/13/15/18/20/23/25/28 points :",
+        "Description": "Ces points sont attribués chaque fois que tu tues un soldat d'une autre alliance sur un autre serveur, sauf pour l'alliance de ton adversaire dans le duel VS, pour laquelle les points du paragraphe précédent s'appliquent. Il est préférable de toujours essayer de tuer des soldats de ton alliance ennemie dans le duel VS, car cela rapporte cinq fois plus de points. Cependant, s'ils sont protégés ou n'ont pas de troupes, tu peux aussi tuer des soldats d'autres alliances sur ce serveur. Cela prendra plus de temps et de frappes pour obtenir le même nombre de points."
+      },
+      "Task9": {
+        "Title": "Chaque unité perdue de niveau 1/2/3/4/5/6/7/8/9/10 rapporte ~6/8/10/12/14/16/18/20 points :",
+        "Description": "Peu importe si tu attaques ou défends, chaque fois qu'un de tes soldats est tué, tu obtiens ce nombre de points. Si tu dois accumuler des points à la fin d'un duel pour ouvrir des coffres et que ton alliance gagne nettement, tu pourrais envisager de sacrifier certaines de tes troupes pour attaquer un quartier général de niveau supérieur, si seuls ceux-ci sont disponibles. Ainsi, tu pourras perdre des unités et gagner des points."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Chevauchement avec la Course aux Armements",
+      "Day1": {
+        "Title": "Il y a deux chevauchements, je recommande donc de réaliser les activités pendant les phases respectives :",
+        "Overlap1": {
+          "Title": "Phase de Boost de Drones :",
+          "Description": "Consomme une endurance.",
+          "Description2": "Utilise 10 points de données de combat de drones."
+        },
+        "Overlap2": {
+          "Title": "Phase d'Ascension des Héros :",
+          "Description": "Utilise 2000 points EXP."
+        }
+      },
+      "Day2": {
+        "Title": "Les activités suivantes chevauchent la phase de construction de villes de la Course aux Armements. Je recommande de réaliser ces activités pendant cette phase :",
+        "Overlap1": {
+          "Description": "Utilise l'accélérateur de construction de 1 minute.",
+          "Description2": "Augmente la puissance de construction de 1 point."
+        }
+      },
+      "Day3": {
+        "Title": "Les activités suivantes chevauchent la phase de recherche technologique de la Course aux Armements. Je recommande de réaliser ces activités pendant cette phase :",
+        "Overlap1": {
+          "Description": "Utilise un accélérateur de recherche de 1 minute.",
+          "Description2": "Augmente la performance technologique de 1 point."
+        }
+      },
+      "Day4": {
+        "Title": "Les activités suivantes chevauchent la phase de développement des héros de la Course aux Armements. Je recommande de réaliser ces activités pendant cette phase :",
+        "Overlap1": {
+          "Description": "Effectue 1 recrutement avancé.",
+          "Description2": "Utilise 2000 points EXP."
+        }
+      },
+      "Day5": {
+        "Title": "Il y a trois chevauchements. Je recommande de réaliser les activités pendant les phases respectives :",
+        "Overlap1": {
+          "Title": "Phase de Construction de Villes :",
+          "Description": "Utilise un accélérateur de construction de 1 minute.",
+          "Description2": "Augmente la puissance de construction de 1 point."
+        },
+        "Overlap2": {
+          "Title": "Phase de Recherche Technologique :",
+          "Description": "Utilise un accélérateur de recherche de 1 minute.",
+          "Description2": "Augmente la performance technologique de 1 point."
+        },
+        "Overlap3": {
+          "Title": "Phase d'Amélioration des Unités :",
+          "Description": "Utilise un accélérateur d'entraînement de 1 minute.",
+          "Description2": "Forme un soldat de niveau 1/2/3/4/5/6/7/8/9/10."
+        }
+      },
+      "Day6": {
+        "Title": "Il y a trois chevauchements. Je recommande de réaliser les activités pendant les phases respectives :",
+        "Overlap1": {
+          "Title": "Phase de Construction de Villes :",
+          "Description": "Utilise un accélérateur de construction de 1 minute."
+        },
+        "Overlap2": {
+          "Title": "Phase de Recherche Technologique :",
+          "Description": "Utilise un accélérateur de recherche de 1 minute."
+        },
+        "Overlap3": {
+          "Title": "Phase d'Amélioration des Unités :",
+          "Description": "Utilise un accélérateur d'entraînement de 1 minute."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Préparation Stratégique",
+      "Description": "Certaines activités rapportent des points lorsqu'elles sont terminées. Par conséquent, tu peux commencer ces activités la veille du jour requis et les terminer pendant la phase respective pour obtenir le score maximal. Voici les phases et les activités correspondantes :",
+      "List1": "Les jours où les missions radar sont récompensées, empile les missions la veille jusqu'au maximum. Cela te permettra d'obtenir le maximum de points lorsque les missions seront complètes le jour même.",
+      "List2": "Les jours où la collecte de nourriture, de fer ou d'or rapporte des points de récompense, commence la collecte la veille et assure-toi de la terminer le jour suivant. Avant la collecte, il sera indiqué combien tu dois récolter pour obtenir les points maximaux.",
+      "List3": "Les jours où l'amélioration des bâtiments rapporte des points en fonction de leur augmentation de performance, il est avantageux d'améliorer plusieurs bâtiments les jours précédents et de les laisser en état de paquet cadeau. La performance des bâtiments ne sera augmentée qu'à l'ouverture du paquet cadeau, et à ce moment-là, les points pour les duels seront également attribués.",
+      "List4": "Les jours où la recherche rapporte des points, commence une recherche longue la veille pour qu'elle se termine ces jours-là. Les points seront attribués lorsque tu cliqueras sur le symbole pour les recherches terminées.",
+      "List5": "Ne ouvre pas les coffres avec les puces de données de drones et les composants s'ils se trouvent dans l'inventaire, car tu obtiendras des points pour ces activités les jours 1 et 3.",
+      "FightDay": {
+        "Title": "Préparation pour le Jour du Combat",
+        "Description": "Le dernier jour du duel, des points sont attribués pour tuer les troupes de ton adversaire, il est donc important de se préparer pour ce jour-là.",
+        "AttackPreparation": {
+          "Title": "Préparation à l'Attaque",
+          "List1": "Essaie au cours de la semaine de porter la caserne au niveau le plus élevé possible pour débloquer l'entraînement des troupes de niveau supérieur. Cela te permettra de gagner des points plus efficacement en entraînant des soldats de niveau élevé.",
+          "List2": "Forme autant de troupes que possible, car tu en auras besoin pendant la guerre. Utilise tes accélérateurs d'entraînement de préférence au jour 5 pour maximiser les points.",
+          "List3": "Achète des accélérateurs d'entraînement et de guérison. Ceux-ci peuvent t'aider à compléter plus rapidement l'entraînement et la guérison de tes troupes, ce qui est particulièrement important pour rester efficace pendant les phases cruciales de la guerre."
+        },
+        "DefensePreparation": {
+          "Title": "Préparation à la Défense",
+          "List1": "Achète des boucliers (ou économise des ressources pour les acheter) pour les utiliser pendant les 24 heures du dernier jour. Sinon, tu auras besoin de 1500 diamants pour un bouclier de 8 heures.",
+          "List2": "Retire les troupes de ton dispositif de défense pour que tu subisses moins de pertes en cas d'attaque, comparé aux pertes lors d'une défaite avec une défense maintenue. Pour ce faire, va dans ta base, clique sur le mur et accède à la configuration de la défense. Décoche les troupes pour les retirer de la défense."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Récompense",
+      "Description": "Pour chaque activité requise pendant le duel, tu obtiendras un certain nombre de points. Tu peux augmenter ce rendement de points grâce à des recherches dans le domaine « Duel d'Alliance ». Pour réaliser ces recherches, tu auras besoin de médailles de bravoure, que tu peux obtenir uniquement en ouvrant des coffres dans le duel."
     },
     "GeneralTips": {
       "Title": "Conseils Généraux:",

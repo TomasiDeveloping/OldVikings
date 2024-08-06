@@ -140,113 +140,271 @@
     "Day1": {
       "Title": "Tag 1 - Radar-Spezialtraining",
       "DayText": "Montag",
-      "Task1": "Verbrauche 1 Ausdauer",
-      "Task2": "Beende 1 Radarmission",
-      "Task3": "Mindestens 660 Helden-Exp pro Mal verbrauchen",
-      "Task4": "Benutze 1 Punkt Drohnen Kampfdaten",
-      "Task5": "Benutze 1 Drohnenteil",
-      "Task6": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)",
-      "Task7": "Sammle 100 Nahrungsmittel",
-      "Task8": "Sammle 100 Eisen",
-      "Task9": "Sammle 60 Gold",
-      "Task10": "Für jeden gewonnenen Drohnen Fähigkeiten Chip Punkt"
+      "Task1": {
+        "Title": "Erledige 1 Radaraufgabe (~25.000 Punkte):",
+        "Description": "Gehe zum Radarsymbol unten links und öffne den Radarbildschirm. Hier siehst du Missionen, von denen einige bereits abgeschlossen sind (mit einem roten Punkt oben rechts), während andere noch abgeschlossen werden müssen. Um eine Mission abzuschließen, musst du sie zuerst ausführen (falls sie noch nicht ausgeführt wurde) und dann auf die Mission mit dem roten Punkt klicken. Mit dieser Aktion sammelst du sie ein und erhältst die Punkte. Um die Punkte zu maximieren, solltest du erwägen, Missionen am Vortag zu stapeln."
+      },
+      "Task2": {
+        "Title": "1 Ausdauer verwenden (~300 Punkte):",
+        "Description": "Verwende Ausdauer für Angriffe, Sammelaktionen und Radarmissionen."
+      },
+      "Task3": {
+        "Title": "Nutze mindestens 660 Helden-EXP-Punkte gleichzeitig (~6 Punkte):",
+        "Description": "Gehe zum Drohnenzentrum und klicke auf die Schaltfläche „Datentraining“, um Kampfdaten zu verwenden. Auf bestimmten Ebenen sind Drohnenteile erforderlich, um mit dem Training fortfahren zu können."
+      },
+      "Task4": {
+        "Title": "1 Drohnenteil verwenden :",
+        "Description": "Gehe zum Drohnenzentrum und klicke auf die Schaltfläche „Datentraining“, um Kampfdaten zu verwenden. Auf bestimmten Ebenen werden Drohnenteile benötigt.\n\n\n\n\n\n\n"
+      },
+      "Task5": {
+        "Title": "Sammeln Sie 100/100/60 Einheiten Nahrung/Eisen/Münzen  (~40 Punkte):",
+        "Description": "Du kannst Einheiten auf zwei Arten Nahrung, Eisen oder Münzen sammeln:",
+        "Description2": "Mit speziellen Radarmissionen zum Sammeln von Nahrung, Eisen oder Münzen. In diesem Fall ist die Sammelgeschwindigkeit enorm hoch.",
+        "Description3": "Wechsle in den Kartenmodus, klicke auf die Lupe, dann auf Sammeln, und wähle „Ackerland“, „Eisenmine“ oder „Goldmine“. Suche eine Stelle, zu der du deine Truppen zum Sammeln schicken kannst. Die Punkte werden vergeben, wenn die Truppen den Sammelpunkt verlassen, entweder weil die zu gewinnenden Ressourcen aufgebraucht sind oder weil die Truppen zurückgerufen wurden. Beginne daher am Tag vor Beginn dieses Tages mit dem Sammeln und stelle sicher, dass die endgültige Sammelzeit nach Beginn dieses Tages liegt."
+      },
+      "Task6": {
+        "Title": "Für jeden gewonnenen Drohnendatenchip-Punkt  (~2000 Punkte):",
+        "Description": "Erhalte Punkte, wenn du Drohnendatenchip-Truhen aus dem Inventar öffnest (nicht zu verwechseln mit Drohnenkomponenten-Truhen)."
+      }
     },
     "Day2": {
       "Title": "Tag 2 - Basis-Konstruktion",
       "DayText": "Dienstag",
-      "Task1": "Benutze 1 Minute Gebäude Beschleuniger",
-      "Task2": "Erhöhe die Gebäude Kampfkraft um 1 Punkt",
-      "Task3": "Sende den legendären Handelswagen 1 mal",
-      "Task4": "1 orange geheime Mission durchführen",
-      "Task5": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)",
-      "Task6": "Rekrutieren Sie Überlebende 1 Mal in der Taverne"
+      "Task1": {
+        "Title": "Verwende eine 1-minütige Konstruktionsbeschleunigung (~120 Punkte):",
+        "Description": "Verwende Konstruktionsbeschleunigungen (generische sind auch in Ordnung, beliebige Länge)."
+      },
+      "Task2": {
+        "Title": "Erhöhe die Gebäudestärke um 1 Punkt (~21 Punkte):",
+        "Description": "Jedes Mal, wenn du ein Gebäude fertigstellst, wird die Stärke dieses Gebäudes erhöht und du erhältst Punkte für diese Differenz. Beachte, dass die Stärkesteigerung des Gebäudes nur dann erfolgt, wenn du die Geschenkbox öffnest, in der das neu verbesserte Gebäude verpackt ist."
+      },
+      "Task3":{
+        "Title": "Versende den legendären Handels-LKW einmal (~200.000 Punkte):",
+        "Description": "Handels-LKW können von unterschiedlicher Art sein und daher verschiedene Belohnungen enthalten. Du kannst ihren Inhalt mithilfe des Handelsvertrags ändern. Gehe dazu zum Abschnitt, in dem du einen LKW senden kannst. Wenn du dir den Inhalt oben rechts in der Vorschau ansiehst, findest du eine Schaltfläche mit einem Würfel. Um die „legendäre“ Version zu erhalten, musst du mehrmals aktualisieren, bis du den gelben Hintergrund und die „UR“-Schrift auf der linken Seite siehst."
+      },
+      "Task4": {
+        "Title": "Führe 1 legendäre Geheimaufgabe aus (~150.000 Punkte):",
+        "Description": "Im geheimen mobilen Trupp sind Aktivitäten verschiedener Art und Stufen zu finden. Nutze die Schaltfläche „Aktualisieren“ unten, um die aktuellen Missionen zu ändern (wobei 1 geheimer Auftragsgegenstand, der „Geheime Befehl“, verbraucht wird). Suche nach den Missionen mit dem gelb/goldenen Quadrat und starte sie. Wenn du während der Woche geheime Auftragsgegenstände behältst, kannst du an diesem Tag alle legendären Missionen starten."
+      },
+      "Task5": {
+        "Title": "Rekrutiere einmal einen Überlebenden (~3.000 Punkte):",
+        "Description": "Verwende die goldenen Überlebenden-Rekrutierungstickets (diese unterscheiden sich von den goldenen Helden-Rekrutierungstickets), die du im Heldenbereich findest. Klicke auf die Schaltfläche „Helden rekrutieren“ und gehe dann zum Bereich „Überlebende rekrutieren“. Sammle während der ganzen Woche Rekrutierungstickets für Überlebende und verwende sie nur an diesem Tag."
+      }
     },
     "Day3": {
       "Title": "Tag 3 - Zeitalter der Wissenschaft",
       "DayText": "Mittwoch",
-      "Task1": "Benutze 1 Minute Forschungs Beschleuniger",
-      "Task2": "Erhöhe die Technologie Kampfkraft um 1 Punkt",
-      "Task3": "Beende 1 Radarmission",
-      "Task4": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)",
-      "Task5": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 1 öffnest",
-      "Task6": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 2 öffnest",
-      "Task7": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 3 öffnest",
-      "Task8": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 4 öffnest",
-      "Task9": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 5 öffnest",
-      "Task10": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 6 öffnest",
-      "Task11": "Jedes Mal, wenn du eine Drohne Komponente der Stufe 7 öffnest"
+      "Task1": {
+        "Title": "Schließe eine Radarmission ab (~23.000 Punkte):",
+        "Description": "Gehe zum Radarsymbol unten links und öffne den Radarbildschirm. Hier siehst du Missionen, von denen einige bereits abgeschlossen sind (mit einem roten Punkt oben rechts), während andere noch abgeschlossen werden müssen. Um eine Mission abzuschließen, musst du sie zuerst ausführen (falls sie noch nicht ausgeführt wurde) und dann auf die Mission mit dem roten Punkt klicken. Mit dieser Aktion sammelst du sie ein und erhältst die Punkte. Um die Punkte zu maximieren, solltest du erwägen, Missionen am Vortag zu stapeln."
+      },
+      "Task2": {
+        "Title": "Nutze eine Forschungsbeschleunigung für 1 Minute (~120 Punkte):",
+        "Description": "Nutze eine Forschungsbeschleunigung (generische sind auch in Ordnung, jede Länge ist möglich)."
+      },
+      "Task3": {
+        "Title": "Erhöhe die technologische Leistung um 1 Punkt (~21 Punkte):",
+        "Description": "Technologische Leistungspunkte erhältst du, wenn du im Technologiezentrum auf das Symbol für abgeschlossene Forschung klickst. Um die Punkte zu maximieren, starte an dem/den Tag(en) eine lange Forschung, sodass sie an diesem Tag endet, oder schließe sie auf jeden Fall ab, indem du nur an diesem Tag auf das Symbol für abgeschlossene Forschung klickst."
+      },
+      "Task4": {
+        "Title": "Benutze ein Tapferkeitsabzeichen (~600 Punkte):",
+        "Description": "Gehe zum Forschungszentrum und zum Abschnitt „Allianz Duell“. Starte eine der Suchen, die Tapferkeitsabzeichen verbrauchen (das sind die blauen Medaillen in der Mitte, goldenen an der Außenseite und mit der Schleife unten, die man in den Duelltruhen gewinnen kann)."
+      },
+      "Task5": {
+        "Title": "Für jede geöffnete Drohnenkomponententruhe der Stufen 1/2/3/4/5/6/7:",
+        "Description": "Erhalte Punkte, wenn du Drohnenkomponententruhen aus dem Inventar öffnest (nicht zu verwechseln mit Drohnendatenchiptruhen)."
+      }
     },
     "Day4": {
       "Title": "Tag 4 - Entwicklung von Helden",
       "DayText": "Donnerstag",
-      "Task1": "Führe 1 Helden Rekrutierung durch",
-      "Task2": "Mindestens 660 Helden-Exp pro Mal verbrauchen",
-      "Task3": "Benutze 1 legendäre Heldenscherbe",
-      "Task4": "Benutze 1 seltene Heldenscherbe",
+      "Task1": {
+        "Title": "Führe einmal eine fortschrittliche Rekrutierung durch (~3.750 Punkte):",
+        "Description": "Verwende die legendären Rekrutierungstickets im Heldenbereich, um Helden zu rekrutieren (nicht zu verwechseln mit den „Überlebende rekrutieren“-Tickets). Sammle während der ganzen Woche Tickets zum Rekrutieren von Helden und benutze sie nur an diesem Tag."
+      },
+      "Task2": {
+        "Title": "Nutze mindestens 660 Hero EXP-Punkte (~6 Punkte):",
+        "Description": "Nutze Erfahrungspunkte, indem du den „Upgrade“-Button klickst, nachdem du einen Helden ausgewählt hast."
+      },
+      "Task3": {
+        "Title": "Benutze eine legendäre, epische oder seltene Scherbe (~20.000, ~7.000 oder ~2.000 Punkte):",
+          "Description": "Benutze die goldene, lila oder blaue Scherbe (Puzzleteile) der Helden, um ihr Level im Heldenbereich zu erhöhen. Klicke auf einen Helden, gehe zum Klassenbereich und aktualisiere die Heldenklasse."
+      },
+      "Task4": {
+        "Title": "Nutze eine Fertigkeitsmedaille (~20 Punkte):",
+        "Description": "Verbessere die Fertigkeiten der Helden, indem du zum Heldenbereich gehst, einen Helden auswählst, auf den Bereich „Fertigkeiten“ klickst, eine der Fertigkeiten (die Quadrate) oben auswählst und die Schaltfläche „Stärken“ benutzt (dies ist nicht immer möglich)."
+      },
       "Task5": "Verbrauche 1 Fähigkeitsmedaille",
       "Task6": "Kaufen Sie ein Geschenpack mit Diamanten (1 Diamant)"
     },
     "Day5": {
       "Title": "Tag 5 - Gefechtsbereitschaft",
       "DayText": "Freitag",
-      "Task1": "Beennde 1 Radarmission",
-      "Task2": "Benutze 1 Minute Gebäude Beschleuniger",
-      "Task3": "Erhöhe die Gebäude Kampfkraft um 1 Punkt",
-      "Task4": "Benutze 1 Minute Forschungs Beschleuniger",
-      "Task5": "Erhöhe die Technologie Kampfkraft um 1 Punkt",
-      "Task6": "Benutze 1 Minute Training Beschleuniger",
-      "Task7": "Trainiere 1 Soldat auf Level 1",
-      "Task8": "Trainiere 1 Soldat auf Level 2",
-      "Task9": "Trainiere 1 Soldat auf Level 3",
-      "Task10": "Trainiere 1 Soldat auf Level 4",
-      "Task11": "Trainiere 1 Soldat auf Level 5",
-      "Task12": "Trainiere 1 Soldat auf Level 6",
-      "Task13": "Trainiere 1 Soldat auf Level 7",
-      "Task14": "Trainiere 1 Soldat auf Level 8",
-      "Task15": "Trainiere 1 Soldat auf Level 9",
-      "Task16": "Trainiere 1 Soldat auf Level 10",
-      "Task17": "Kaufen Sie ein Geschenpack mit Diamanten (1 Diamant)"
+      "Task1": {
+        "Title": "Schließe eine Radarmission ab (~23.000 Punkte):",
+        "Description": "Gehe zum Radarsymbol unten links und öffne den Radarbildschirm. Hier siehst du Missionen, von denen einige bereits abgeschlossen sind (mit einem roten Punkt oben rechts), während andere noch abgeschlossen werden müssen. Um eine Mission abzuschließen, musst du sie zuerst ausführen (falls sie noch nicht ausgeführt wurde) und dann auf die Mission mit dem roten Punkt klicken. Mit dieser Aktion sammelst du die Mission ein und erhältst die Punkte. Um die Punkte zu maximieren, solltest du erwägen, Missionen am Vortag zu stapeln."
+      },
+      "Task2": {
+        "Title": "Verwende eine 1-Minute-Konstruktionsbeschleunigung (~120 Punkte):",
+        "Description": "Verwende eine Konstruktionsbeschleunigung (generische sind auch in Ordnung, beliebige Länge)."
+      },
+      "Task3": {
+        "Title": "Erhöhe die Gebäudestärke um 1 Punkt (~21 Punkte):",
+        "Description": "Jedes Mal, wenn du ein Gebäude fertigstellst, wird die Stärke dieses Gebäudes erhöht und du erhältst Punkte für die Differenz. Beachte, dass die Stärkesteigerung des Gebäudes nur dann erfolgt, wenn du die Geschenkbox öffnest, in der das neu verbesserte Gebäude verpackt ist."
+      },
+      "Task4": {
+        "Title": "Verwende eine 1-minütige Forschungsbeschleunigung (~120 Punkte):",
+        "Description": "Verwende eine Forschungsbeschleunigung (generische sind auch in Ordnung, beliebige Länge)."
+      },
+      "Task5": {
+        "Title": "Erhöhe die technologische Leistung um 1 Punkt (~21 Punkte):",
+        "Description": "Technologische Leistungspunkte werden erhalten, wenn eine Forschung im Technologiezentrum abgeschlossen wird."
+      },
+      "Task6": {
+        "Title": "Nutze eine 1-minütige Trainingsbeschleunigung (~122 Punkte):",
+        "Description": "Nutze eine Trainingsbeschleunigung (allgemeine sind auch in Ordnung, jede Länge). Punkte werden auch vergeben, wenn du trainierst, um das Level des Soldaten zu verbessern. Es ist tatsächlich besser, viele Soldaten mit niedrigem Level vor diesem Tag vorzubereiten und erst dann auf ein höheres Level zu bringen, da die Punkte auf der Grundlage des Levels des ankommenden Soldaten vergeben werden."
+      },
+      "Task7": {
+        "Title": "Bilde einen Soldaten der Stufe 1/2/3/4/5/6/7/8/9/10 aus (~46/70/93/117/140/164/197/211/234/258 Punkte):",
+        "Description": "Die Punkte, die du erhältst, basieren auf der Ankunftsstufe eines Soldaten. Wenn du also einen Soldaten der Stufe 4 auf Stufe 5 aufrüstest, erhältst du die Punkte für einen Soldaten der Stufe 5, genauso wie wenn du einen Soldaten der Stufe 5 von Grund auf ausbildest. Bereite daher viele Soldaten mittlerer Stufen vor, um sie am Fließband aufzurüsten."
+      }
     },
     "Day6": {
       "Title": "Tag 6 - Beseitigung der Feinde",
       "DayText": "Samstag",
-      "Task1": "Sende den legendären Handelslastwagen 1 Mal",
-      "Task2": "1 orange geheime Mission durchführen",
-      "Task3": "Benutze 1 Minute Gebäude Beschleuniger",
-      "Task4": "Benutze 1 Minute Forschungs Beschleuniger",
-      "Task5": "Benutze 1 Minute Training Beschleuniger",
-      "Task6": "Benutze 1 Minute Heilung Beschleuniger",
-      "Task7": "Jede getötete Level 1 Einheit einer rivalisierenden Allianz",
-      "Task8": "Jede getötete Level 2 Einheit einer rivalisierenden Allianz",
-      "Task9": "Jede getötete Level 3 Einheit einer rivalisierenden Allianz",
-      "Task10": "Jede getötete Level 4 Einheit einer rivalisierenden Allianz",
-      "Task11": "Jede getötete Level 5 Einheit einer rivalisierenden Allianz",
-      "Task12": "Jede getötete Level 6 Einheit einer rivalisierenden Allianz",
-      "Task13": "Jede getötete Level 7 Einheit einer rivalisierenden Allianz",
-      "Task14": "Jede getötete Level 8 Einheit einer rivalisierenden Allianz",
-      "Task15": "Jede getötete Level 9 Einheit einer rivalisierenden Allianz",
-      "Task16": "Jede getötete Level 10 Einheit einer rivalisierenden Allianz",
-      "Task17": "Jede getötete Level 1 Einheit",
-      "Task18": "Jede getötete Level 2 Einheit",
-      "Task19": "Jede getötete Level 3 Einheit",
-      "Task20": "Jede getötete Level 4 Einheit",
-      "Task21": "Jede getötete Level 5 Einheit",
-      "Task22": "Jede getötete Level 6 Einheit",
-      "Task23": "Jede getötete Level 7 Einheit",
-      "Task24": "Jede getötete Level 8 Einheit",
-      "Task25": "Jede getötete Level 9 Einheit",
-      "Task26": "Jede getötete Level 10 Einheit",
-      "Task27": "Jede verlorene Level 1 Einheit",
-      "Task28": "Jede verlorene Level 2 Einheit",
-      "Task29": "Jede verlorene Level 3 Einheit",
-      "Task30": "Jede verlorene Level 4 Einheit",
-      "Task31": "Jede verlorene Level 5 Einheit",
-      "Task32": "Jede verlorene Level 6 Einheit",
-      "Task33": "Jede verlorene Level 7 Einheit",
-      "Task34": "Jede verlorene Level 8 Einheit",
-      "Task35": "Jede verlorene Level 9 Einheit",
-      "Task36": "Jede verlorene Level 10 Einheit",
-      "Task37": "Kaufen Sie ein Geschenkpack mit Diamanten (1 Diamant)"
+      "Task1": {
+        "Title": "Versende einmal einen legendären Handels-LKW (~200.000 Punkte):",
+        "Description": "Handels-LKW können von unterschiedlicher Art sein und daher unterschiedliche Belohnungen enthalten. Sie können ihren Inhalt mithilfe des  Handelsvertrags Handelsvertrag ändern  . Um sie zu verwenden, gehen Sie zum Abschnitt zum Senden eines LKWs. Wenn Sie sich den Inhalt oben rechts in der Vorschau ansehen, finden Sie eine Schaltfläche mit einem Würfel. Um die „legendäre“ Version zu erhalten, müssen Sie viele Male aktualisieren, bis Sie den gelben Hintergrund und die  UR-  Schrift auf der linken Seite erhalten."
+      },
+      "Task2": {
+        "Title": "Führe eine legendäre Geheimaufgabe aus (~150.000 Punkte):",
+        "Description": "Im geheimen mobilen Trupp findest du Aktivitäten verschiedener Art und Stufen. Benutze die Schaltfläche „Aktualisieren“ unten, um die aktuellen Missionen zu ändern (wobei 1 geheimer Auftragsgegenstand, der „Geheime Befehl“, verbraucht wird). Suche nach den Missionen mit dem gelb/goldenen Quadrat und starte sie. Wenn du während der Woche geheime Auftragsgegenstände behältst, kannst du an diesem Tag alle legendären Missionen starten."
+      },
+      "Task3": {
+        "Title": "Verwende eine 1-Minute-Konstruktionsbeschleunigung (~120 Punkte):",
+        "Description": "Verwende eine Konstruktionsbeschleunigung (generische sind auch in Ordnung)."
+      },
+      "Task4": {
+        "Title": "Nutze eine Forschungsbeschleunigung für 1 Minute (~120 Punkte):",
+        "Description": "Nutze eine Forschungsbeschleunigung (allgemeine sind auch in Ordnung)."
+      },
+      "Task5": {
+        "Title": "Verwende einen 1-Minuten-Trainingsbeschleuniger (~122 Punkte):",
+        "Description": "Verwende Trainingsbeschleuniger (generische sind auch in Ordnung). Punkte werden auch vergeben, wenn du trainierst, um das Level des Soldaten zu verbessern. Es ist tatsächlich besser, viele Soldaten mit niedrigem Level vor diesem Tag vorzubereiten und erst dann auf ein höheres Level aufzusteigen, da die Punkte basierend auf dem Level des ankommenden Soldaten vergeben werden."
+      },
+      "Task6": {
+        "Title": "Verwende einen 1-Minuten-Heilungsbeschleuniger (~122 Punkte):",
+        "Description": "Verwende einen Heilungsbeschleuniger."
+      },
+      "Task7": {
+        "Title": "Jede getötete Einheit der Stufe 1/2/3/4/5/6/7/8/9/10 einer gegnerischen Allianz bringt ~25/38/50/63/75/88/100/113/125/138 Punkte:",
+        "Description": "Diese Punkte werden jedes Mal vergeben, wenn du im Duell gegen einen Gegner einen Soldaten der gegnerischen Allianz tötest. Verwende den Teleport (Duell gegen einen Gegner-Symbol -> Allianzangriffe -> Angriff), um zum Server deines Gegners zu gelangen und so viele Soldaten wie möglich zu töten, die Basen deiner gegnerischen Allianz angreifen. Wenn ein Feind die Truppen aus der Verteidigung entfernt hat, kannst du auf dieser Basis keine Punkte machen. Daher solltest du zuerst erkunden und nur diejenigen angreifen, die noch in der Verteidigung sind."
+      },
+      "Task8": {
+        "Title": "Jede getötete Einheit der Stufen 1/2/3/4/5/6/7/8/9/10 bringt ~5/8/10/13/15/18/20/23/25/28 Punkte:",
+        "Description": "Diese Punkte werden jedes Mal vergeben, wenn du einen Soldaten einer anderen Allianz eines anderen Servers tötest, außer der Allianz deines Gegners im Duell VS, für die die Punkte im obigen Abschnitt gelten. Es ist besser, immer zu versuchen, Soldaten deiner gegnerischen Allianz im Duell VS zu töten, da dies das Fünffache an Punkten bringt. Wenn sie jedoch abgeschirmt sind oder keine Truppen haben, kannst du auch Soldaten anderer Allianzen auf diesem Server töten. Das wird mehr Zeit und Treffer erfordern, um die gleiche Anzahl an Punkten zu erzielen."
+      },
+      "Task9": {
+        "Title": "Jede verlorene Einheit der Stufen 1/2/3/4/5/6/7/8/9/10 bringt ~6/8/10/12/14/16/18/20 Punkte:",
+        "Description": "Egal, ob du angreifst oder verteidigst, jedes Mal, wenn einer deiner Soldaten getötet wird, erhältst du diese Anzahl an Punkten. Wenn du am Ende eines Duells Punkte sammeln musst, um Truhen zu öffnen, und deine Allianz das Spiel deutlich gewinnt, könntest du in Betracht ziehen, einige deiner Truppen zu opfern, um ein höherstufiges Hauptquartier anzugreifen, wenn nur diese verfügbar sind. Auf diese Weise kannst du Einheiten verlieren und Punkte verdienen."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Überschneidung mit Wettrüsten",
+      "Day1": {
+        "Title": "Es gibt zwei Überschneidungen, daher empfehle ich, die Aktivitäten während der jeweiligen Phasen durchzuführen:",
+        "Overlap1": {
+          "Title": "Drohnen-Boost-Phase:",
+          "Description": "Verbrauche eine Ausdauer.",
+          "Description2": "Nutze 10 Drohnenkampf-Datenpunkte."
+        },
+        "Overlap2": {
+          "Title": "Helden-Aufstiegsphase:",
+          "Description": "Nutze 2000 EXP-Punkte."
+        }
+      },
+      "Day2": {
+        "Title": "Die folgenden Aktivitäten überschneiden sich mit der Städtebauphase des Wettrüstens. Ich empfehle, diese Aktivitäten während dieser Phase durchzuführen:",
+        "Overlap1": {
+          "Description": "Nutze die 1-minütige Baubeschleunigung.",
+          "Description2": "Erhöhe die Baukraft um 1 Punkt."
+        }
+      },
+      "Day3": {
+        "Title": "Die folgenden Aktivitäten überschneiden sich mit der Phase der technischen Forschung des Wettrüstens. Ich empfehle, diese Aktivitäten während dieser Phase durchzuführen:",
+        "Overlap1": {
+          "Description": "Nutze eine 1-Minuten-Forschungsbeschleunigung.",
+          "Description2": "Erhöhe die technologische Leistung um 1 Punkt."
+        }
+      },
+      "Day4": {
+        "Title": "Die folgenden Aktivitäten überschneiden sich mit der Heldenentwicklungsphase des Wettrüstens. Ich empfehle, diese Aktivitäten während dieser Phase durchzuführen:",
+        "Overlap1": {
+          "Description": "Führe 1 fortgeschrittenen Rekrutierung durch.",
+          "Description2": "Nutze 2000 EXP-Punkte."
+        }
+      },
+      "Day5": {
+        "Title": "Es gibt drei Überschneidungen. Ich empfehle, die Aktivitäten in den jeweiligen Phasen durchzuführen:",
+        "Overlap1": {
+          "Title": "Städtebauphase:",
+          "Description": "Nutze eine 1-Minuten-Baubeschleunigung.",
+          "Description2": "Erhöhe die Baukraft um 1 Punkt."
+        },
+        "Overlap2": {
+          "Title": "Technische Forschungsphase:",
+          "Description": "Nutze eine 1-Minuten-Forschungsbeschleunigung.",
+          "Description2": "Erhöhe die technologische Leistung um 1 Punkt."
+        },
+        "Overlap3": {
+          "Title": "Phase des Einheitenfortschritts:",
+          "Description": "Nutze eine 1-Minuten-Trainingsbeschleunigung.",
+          "Description2": "Bilde einen Soldaten der Stufe 1/2/3/4/5/6/7/8/9/10 aus."
+        }
+      },
+      "Day6": {
+        "Title": "Es gibt drei Überschneidungen. Ich empfehle, die Aktivitäten in den jeweiligen Phasen durchzuführen:",
+        "Overlap1": {
+          "Title": "Städtebauphase:",
+          "Description": "Nutze eine 1-Minuten-Baubeschleunigung."
+        },
+        "Overlap2": {
+          "Title": "Technische Forschungsphase:",
+          "Description": "Nutze eine 1-Minuten-Forschungsbeschleunigung."
+        },
+        "Overlap3": {
+          "Title": "Phase des Einheitenfortschritts:",
+          "Description": "Nutze eine 1-Minuten-Trainingsbeschleunigung."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Strategische Vorbereitung",
+      "Description": "Für bestimmte Aktivitäten gibt es Punkte, wenn sie abgeschlossen sind. Daher kannst du sie am Tag vor dem erforderlichen Zeitpunkt beginnen und während der jeweiligen Phase beenden, um die maximale Punktzahl zu erzielen. Hier sind die Phasen und die entsprechenden Aktivitäten:",
+      "List1": "An den Tagen, an denen Radarmissionen belohnt werden, staple die Missionen am Vortag bis zum Maximum. Dies ermöglicht es dir, die maximale Anzahl an Punkten zu erzielen, wenn die Missionen am eigentlichen Tag abgeschlossen werden.",
+      "List2": "Beginne an den Tagen, an denen das Sammeln von Nahrung, Eisen oder Gold Belohnungspunkte bringt, am Vortag mit dem Sammeln und stelle sicher, dass du am neuen Tag damit fertig bist. Vor dem Sammeln wird angezeigt, wie viel du benötigst, um die maximalen Punkte zu erzielen.",
+      "List3": "An Tagen, an denen das Aufrüsten von Gebäuden Punkte basierend auf ihrer Leistungssteigerung bringt, ist es vorteilhaft, mehrere Gebäude an den vorherigen Tagen aufzurüsten und sie im Geschenkverpackungszustand zu belassen. Die Gebäudeleistung wird nur beim Öffnen des Geschenkpakets gesteigert, und zu diesem Zeitpunkt werden auch Duell-gegen-Punkte vergeben.",
+      "List4": "An Tagen, an denen Forschung Punkte bringt, starte am Vortag eine lange Forschung, sodass die Forschung an diesen Tagen endet. Die Punkte werden vergeben, wenn du auf das Symbol für abgeschlossene Forschung klickst.",
+      "List5": "Öffne die Truhe mit dem Drohnendatenchip und den Komponenten nicht, wenn sich diese im Inventar befinden, da du durch diese Aktivitäten an Tag 1 und 3 Punkte erhältst.",
+      "FightDay": {
+        "Title": "Kampftag Vorbereitung",
+        "Description": "Am letzten Tag des Duells gibt es Punkte für das Töten von Truppen deines Gegners, daher ist es wichtig, sich auf diesen Tag vorzubereiten.",
+        "AttackPreparation": {
+          "Title": "Angriffsvorbereitung",
+          "List1": "Versuche während der Woche, die Kaserne auf das höchstmögliche Niveau zu bringen, um die Ausbildung von Truppen auf höherem Niveau freizuschalten. Dies ermöglicht es dir, effizienter Punkte durch das Trainieren von höherstufigen Soldaten zu sammeln.",
+          "List2": "Bilde so viele Truppen aus, wie möglich, da du sie während des Krieges benötigen wirst. Nutze deine Trainingsbeschleunigungen am besten an Tag 5, um die Punkte zu maximieren.",
+          "List3": "Kaufe Trainingsbeschleunigungen und Heilungsbeschleunigungen. Diese können dir helfen, die Ausbildung und Heilung deiner Truppen schneller abzuschließen, was besonders wichtig ist, um in den entscheidenden Phasen des Krieges effizient zu bleiben."
+        },
+        "DefensePreparation": {
+          "Title": "Verteidigungsvorbereitung",
+          "List1": "Kaufe Schilde (oder spare Ressourcen, um sie zu kaufen), um sie während der 24 Stunden des letzten Tages zu nutzen. Andernfalls benötigst du 1.500 Diamanten für einen 8-Stunden-Schild.",
+          "List2": "Entferne Truppen aus deiner Verteidigungsaufstellung, sodass du im Falle eines Treffers nur geringe Truppenverluste erleidest, im Vergleich zu den Verlusten bei einer Niederlage mit aufrechter Verteidigung. Gehe dazu in deine Basis, klicke auf die Mauer und gehe zur Verteidigungsaufstellung. Entferne die Häkchen bei den Truppen, um sie aus der Verteidigungsaufstellung zu entfernen."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Belohnung",
+      "Description": "Für jede erforderliche Aktivität während des Duells erhältst du eine bestimmte Anzahl an Punkten. Diese Punkteausbeute kannst du durch Forschungen im Bereich „Allianzduell“ noch steigern. Um solche Forschungen durchzuführen, benötigst du Tapferkeitsabzeichen, die du nur durch das Öffnen von Truhen im Duell erhalten kannst."
     },
     "GeneralTips": {
       "Title": "Allgemeine Tipps:",

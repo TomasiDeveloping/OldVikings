@@ -140,113 +140,271 @@
     "Day1": {
       "Title": "Dag 1 - Radar Spesialtrening",
       "DayText": "Mandag",
-      "Task1": "Bruk 1 utholdenhet",
-      "Task2": "Fullfør 1 radaroppdrag",
-      "Task3": "Bruk minst 660 helt-erfaring per gang",
-      "Task4": "Bruk 1 poeng droner kampdata",
-      "Task5": "Bruk 1 dronekomponent",
-      "Task6": "Kjøp en gavepakke med diamanter (1 diamant)",
-      "Task7": "Samle 100 mat",
-      "Task8": "Samle 100 jern",
-      "Task9": "Samle 60 gull",
-      "Task10": "For hver vunnet droneferdighetsbrikke poeng"
+      "Task1": {
+        "Title": "Fullfør 1 radaroppgave (~25.000 poeng):",
+        "Description": "Gå til radarsymbolet nederst til venstre og åpne radarskjermen. Her ser du oppdrag, noen av dem er allerede fullført (med en rød prikk øverst til høyre), mens andre må fullføres. For å fullføre et oppdrag må du først utføre det (hvis det ikke allerede er utført) og deretter klikke på oppdraget med den røde prikken. Med denne handlingen samler du det inn og får poengene. For å maksimere poengene bør du vurdere å stable oppdragene dagen før."
+      },
+      "Task2": {
+        "Title": "Bruk 1 utholdenhet (~300 poeng):",
+        "Description": "Bruk utholdenhet til angrep, samleaksjoner og radaroppdrag."
+      },
+      "Task3": {
+        "Title": "Bruk minst 660 helte-EXP-poeng samtidig (~6 poeng):",
+        "Description": "Gå til drone-senteret og klikk på knappen «Datatraining» for å bruke kampdata. På visse nivåer kreves drone-deler for å fortsette treningen."
+      },
+      "Task4": {
+        "Title": "Bruk 1 drone-del:",
+        "Description": "Gå til drone-senteret og klikk på knappen «Datatraining» for å bruke kampdata. På visse nivåer kreves drone-deler."
+      },
+      "Task5": {
+        "Title": "Samle 100/100/60 enheter mat/jern/mynter (~40 poeng):",
+        "Description": "Du kan samle enheter av mat, jern eller mynter på to måter:",
+        "Description2": "Med spesielle radaroppdrag for å samle mat, jern eller mynter. I så fall er samlehastigheten enormt høy.",
+        "Description3": "Bytt til kartmodus, klikk på forstørrelsesglasset, deretter på Samle, og velg «Åker», «Jernmine» eller «Gullmine». Finn et sted du kan sende troppene dine for å samle. Poengene gis når troppene forlater samlingspunktet, enten fordi de tilgjengelige ressursene er brukt opp eller fordi troppene er blitt kalt tilbake. Begynn derfor å samle dagen før denne dagen begynner, og sørg for at den endelige samle-tiden er etter at denne dagen begynner."
+      },
+      "Task6": {
+        "Title": "For hver vunnet drone-datakort-poeng (~2000 poeng):",
+        "Description": "Få poeng når du åpner drone-datakort-kister fra inventaret (ikke forveksles med drone-komponentkister)."
+      }
     },
     "Day2": {
       "Title": "Dag 2 - Basisbygging",
       "DayText": "Tirsdag",
-      "Task1": "Bruk 1 minutt byggevareakselerator",
-      "Task2": "Øk byggekraften med 1 poeng",
-      "Task3": "Send den legendariske handelsvognen 1 gang",
-      "Task4": "Fullfør 1 oransje hemmelig oppdrag",
-      "Task5": "Kjøp en gavepakke med diamanter (1 diamant)",
-      "Task6": "Rekrutter overlevende 1 gang på vertshuset"
+      "Task1": {
+        "Title": "Bruk en 1-minutters konstruksjonsforsterkning (~120 poeng):",
+        "Description": "Bruk konstruksjonsforsterkninger (generiske er også i orden, vilkårlig lengde)."
+      },
+      "Task2": {
+        "Title": "Øk bygningens styrke med 1 poeng (~21 poeng):",
+        "Description": "Hver gang du fullfører en bygning, økes styrken på den bygningen, og du får poeng for denne forskjellen. Merk at styrkeforhøyelsen av bygningen kun skjer når du åpner gaveesken som den nylig forbedrede bygningen er pakket i."
+      },
+      "Task3": {
+        "Title": "Send den legendariske handels-LKW-en én gang (~200.000 poeng):",
+        "Description": "Handels-LKW-er kan være av forskjellige typer og inneholde ulike belønninger. Du kan endre innholdet deres ved hjelp av handelsavtalen. Gå til delen der du kan sende en LKW. Hvis du ser på innholdet øverst til høyre i forhåndsvisningen, finner du en knapp med en terning. For å få «legendarisk» versjon må du oppdatere flere ganger til du ser den gule bakgrunnen og «UR»-skriften på venstre side."
+      },
+      "Task4": {
+        "Title": "Fullfør 1 legendarisk hemmelig oppgave (~150.000 poeng):",
+        "Description": "I det hemmelige mobile laget finnes aktiviteter av forskjellige typer og nivåer. Bruk knappen «Oppdater» nederst for å endre de aktuelle oppdragene (hvorved 1 hemmelig oppdragsobjekt, «Hemmelig ordre», forbrukes). Se etter oppdragene med det gule/gylne kvadratet og start dem. Hvis du beholder hemmelige oppdragsobjekter i løpet av uken, kan du starte alle legendariske oppdrag denne dagen."
+      },
+      "Task5": {
+        "Title": "Rekrutter én overlevende (~3.000 poeng):",
+        "Description": "Bruk de gyldne overlevende-rekrutteringsbilletter (som skiller seg fra de gyldne helte-rekrutteringsbillettene), som du finner i helteområdet. Klikk på knappen «Rekrutter helter» og gå deretter til «Rekrutter overlevende»-området. Samle rekrutteringsbilletter for overlevende i løpet av hele uken, og bruk dem kun denne dagen."
+      }
     },
     "Day3": {
-      "Title": "Dag 3 - Vitenskapens Tidsepoke",
+      "Title": "Dag 3 - Vitenskapens Tidsalder",
       "DayText": "Onsdag",
-      "Task1": "Bruk 1 minutt forskningsakselerator",
-      "Task2": "Øk teknologiens kampkraft med 1 poeng",
-      "Task3": "Fullfør 1 radaroppdrag",
-      "Task4": "Kjøp en gavepakke med diamanter (1 diamant)",
-      "Task5": "Hver gang du åpner en dronekomponent av nivå 1",
-      "Task6": "Hver gang du åpner en dronekomponent av nivå 2",
-      "Task7": "Hver gang du åpner en dronekomponent av nivå 3",
-      "Task8": "Hver gang du åpner en dronekomponent av nivå 4",
-      "Task9": "Hver gang du åpner en dronekomponent av nivå 5",
-      "Task10": "Hver gang du åpner en dronekomponent av nivå 6",
-      "Task11": "Hver gang du åpner en dronekomponent av nivå 7"
+      "Task1": {
+        "Title": "Fullfør en radaroppgave (~23.000 poeng):",
+        "Description": "Gå til radarsymbolet nederst til venstre og åpne radarskjermen. Her ser du oppdrag, noen av dem er allerede fullført (med en rød prikk øverst til høyre), mens andre må fullføres. For å fullføre et oppdrag må du først utføre det (hvis det ikke allerede er utført) og deretter klikke på oppdraget med den røde prikken. Med denne handlingen samler du det inn og får poengene. For å maksimere poengene bør du vurdere å stable oppdragene dagen før."
+      },
+      "Task2": {
+        "Title": "Bruk en forskningsforsterkning i 1 minutt (~120 poeng):",
+        "Description": "Bruk en forskningsforsterkning (generiske er også i orden, vilkårlig lengde)."
+      },
+      "Task3": {
+        "Title": "Øk teknologisk ytelse med 1 poeng (~21 poeng):",
+        "Description": "Teknologiske ytelsespoeng får du ved å klikke på symbolet for fullført forskning i teknologisenteret. For å maksimere poengene, start en lang forskning på dagen/dagene slik at den avsluttes på denne dagen, eller fullfør den i hvert fall ved å klikke på symbolet for fullført forskning kun denne dagen."
+      },
+      "Task4": {
+        "Title": "Bruk et tapperhetsmerke (~600 poeng):",
+        "Description": "Gå til forskningssenteret og til seksjonen «Alliansekamp». Start en av søkene som bruker tapperhetsmerker (de blå medaljene i midten, gullmedaljene på utsiden, og båndet nederst som kan vinnes i duellkister)."
+      },
+      "Task5": {
+        "Title": "For hver åpnet dronekomponentkiste på nivå 1/2/3/4/5/6/7:",
+        "Description": "Få poeng når du åpner dronekomponentkister fra inventaret (ikke forveksles med drone-datakortkister)."
+      }
     },
     "Day4": {
-      "Title": "Dag 4 - Utvikling av Helter",
+      "Title": "Dag 4 - Helteutvikling",
       "DayText": "Torsdag",
-      "Task1": "Utfør 1 helte rekruttering",
-      "Task2": "Bruk minst 660 helt-erfaring per gang",
-      "Task3": "Bruk 1 legendarisk heltebrikke",
-      "Task4": "Bruk 1 sjelden heltebrikke",
+      "Task1": {
+        "Title": "Utfør en avansert rekruttering én gang (~3.750 poeng):",
+        "Description": "Bruk de legendariske rekrutteringsbilletter i helteområdet for å rekruttere helter (ikke forveksles med «Overlevende rekruttere»-billetter). Samle rekrutteringsbilletter for helter i løpet av hele uken, og bruk dem kun denne dagen."
+      },
+      "Task2": {
+        "Title": "Bruk minst 660 Hero EXP-poeng (~6 poeng):",
+        "Description": "Bruk erfaringspoeng ved å klikke på «Oppgrader»-knappen etter å ha valgt en helt."
+      },
+      "Task3": {
+        "Title": "Bruk en legendarisk, episk eller sjelden brikke (~20.000, ~7.000 eller ~2.000 poeng):",
+        "Description": "Bruk den gyldne, lilla eller blå brikken (puslespillbiter) for heltene for å øke deres nivå i helteområdet. Klikk på en helt, gå til klasseområdet og oppdater heltens klasse."
+      },
+      "Task4": {
+        "Title": "Bruk en ferdighetsmedalje (~20 poeng):",
+        "Description": "Forbedre heltenes ferdigheter ved å gå til helteområdet, velge en helt, klikke på «Ferdigheter»-området, velge en av ferdighetene (kvadratene) øverst og bruke «Styrk»-knappen (dette er ikke alltid mulig)."
+      },
       "Task5": "Bruk 1 ferdighetsmedalje",
       "Task6": "Kjøp en gavepakke med diamanter (1 diamant)"
     },
     "Day5": {
       "Title": "Dag 5 - Kampberedskap",
       "DayText": "Fredag",
-      "Task1": "Fullfør 1 radaroppdrag",
-      "Task2": "Bruk 1 minutt byggevareakselerator",
-      "Task3": "Øk byggekraften med 1 poeng",
-      "Task4": "Bruk 1 minutt forskningsakselerator",
-      "Task5": "Øk teknologiens kampkraft med 1 poeng",
-      "Task6": "Bruk 1 minutt treningsakselerator",
-      "Task7": "Tren 1 soldat til nivå 1",
-      "Task8": "Tren 1 soldat til nivå 2",
-      "Task9": "Tren 1 soldat til nivå 3",
-      "Task10": "Tren 1 soldat til nivå 4",
-      "Task11": "Tren 1 soldat til nivå 5",
-      "Task12": "Tren 1 soldat til nivå 6",
-      "Task13": "Tren 1 soldat til nivå 7",
-      "Task14": "Tren 1 soldat til nivå 8",
-      "Task15": "Tren 1 soldat til nivå 9",
-      "Task16": "Tren 1 soldat til nivå 10",
-      "Task17": "Kjøp en gavepakke med diamanter (1 diamant)"
+      "Task1": {
+        "Title": "Fullfør en radaroppgave (~23.000 poeng):",
+        "Description": "Gå til radarsymbolet nederst til venstre og åpne radarskjermen. Her ser du oppdrag, noen av dem er allerede fullført (med en rød prikk øverst til høyre), mens andre må fullføres. For å fullføre et oppdrag må du først utføre det (hvis det ikke allerede er utført) og deretter klikke på oppdraget med den røde prikken. Med denne handlingen samler du oppdraget inn og får poengene. For å maksimere poengene bør du vurdere å stable oppdragene dagen før."
+      },
+      "Task2": {
+        "Title": "Bruk en 1-minutts konstruksjonsforsterkning (~120 poeng):",
+        "Description": "Bruk en konstruksjonsforsterkning (generiske er også i orden, vilkårlig lengde)."
+      },
+      "Task3": {
+        "Title": "Øk bygningens styrke med 1 poeng (~21 poeng):",
+        "Description": "Hver gang du fullfører en bygning, økes styrken til denne bygningen, og du får poeng for forskjellen. Vær oppmerksom på at styrkeøkningen for bygningen bare skjer når du åpner gaveesken som inneholder den nylig oppgraderte bygningen."
+      },
+      "Task4": {
+        "Title": "Bruk en 1-minutts forskningsforsterkning (~120 poeng):",
+        "Description": "Bruk en forskningsforsterkning (generiske er også i orden, vilkårlig lengde)."
+      },
+      "Task5": {
+        "Title": "Øk teknologisk ytelse med 1 poeng (~21 poeng):",
+        "Description": "Teknologiske ytelsespoeng oppnås når en forskning er fullført i teknologisenteret."
+      },
+      "Task6": {
+        "Title": "Bruk en 1-minutts treningsforsterkning (~122 poeng):",
+        "Description": "Bruk en treningsforsterkning (generiske er også i orden, vilkårlig lengde). Poeng utdeles også når du trener for å forbedre soldatens nivå. Det er faktisk bedre å forberede mange soldater med lavt nivå før denne dagen og først oppgradere dem til et høyere nivå, da poengene utdeles basert på nivået til den ankommende soldaten."
+      },
+      "Task7": {
+        "Title": "Tren en soldat på nivå 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 poeng):",
+        "Description": "Poengene du får, baseres på ankomstnivået til en soldat. Så hvis du oppgraderer en soldat fra nivå 4 til nivå 5, får du poengene for en soldat på nivå 5, på samme måte som hvis du trener en soldat fra bunnen av. Forbered derfor mange soldater på middels nivå for å oppgradere dem på samlebåndet."
+      }
     },
     "Day6": {
-      "Title": "Dag 6 - Fjerne Fiender",
+      "Title": "Dag 6 - Eliminering av fiender",
       "DayText": "Lørdag",
-      "Task1": "Send den legendariske handelsvognen 1 gang",
-      "Task2": "Fullfør 1 oransje hemmelig oppdrag",
-      "Task3": "Bruk 1 minutt byggevareakselerator",
-      "Task4": "Bruk 1 minutt forskningsakselerator",
-      "Task5": "Bruk 1 minutt treningsakselerator",
-      "Task6": "Bruk 1 minutt helbredelsesakselerator",
-      "Task7": "Hver drepte nivå 1 enhet fra en rivaliserende allianse",
-      "Task8": "Hver drepte nivå 2 enhet fra en rivaliserende allianse",
-      "Task9": "Hver drepte nivå 3 enhet fra en rivaliserende allianse",
-      "Task10": "Hver drepte nivå 4 enhet fra en rivaliserende allianse",
-      "Task11": "Hver drepte nivå 5 enhet fra en rivaliserende allianse",
-      "Task12": "Hver drepte nivå 6 enhet fra en rivaliserende allianse",
-      "Task13": "Hver drepte nivå 7 enhet fra en rivaliserende allianse",
-      "Task14": "Hver drepte nivå 8 enhet fra en rivaliserende allianse",
-      "Task15": "Hver drepte nivå 9 enhet fra en rivaliserende allianse",
-      "Task16": "Hver drepte nivå 10 enhet fra en rivaliserende allianse",
-      "Task17": "Hver drepte nivå 1 enhet",
-      "Task18": "Hver drepte nivå 2 enhet",
-      "Task19": "Hver drepte nivå 3 enhet",
-      "Task20": "Hver drepte nivå 4 enhet",
-      "Task21": "Hver drepte nivå 5 enhet",
-      "Task22": "Hver drepte nivå 6 enhet",
-      "Task23": "Hver drepte nivå 7 enhet",
-      "Task24": "Hver drepte nivå 8 enhet",
-      "Task25": "Hver drepte nivå 9 enhet",
-      "Task26": "Hver drepte nivå 10 enhet",
-      "Task27": "Hver tapt nivå 1 enhet",
-      "Task28": "Hver tapt nivå 2 enhet",
-      "Task29": "Hver tapt nivå 3 enhet",
-      "Task30": "Hver tapt nivå 4 enhet",
-      "Task31": "Hver tapt nivå 5 enhet",
-      "Task32": "Hver tapt nivå 6 enhet",
-      "Task33": "Hver tapt nivå 7 enhet",
-      "Task34": "Hver tapt nivå 8 enhet",
-      "Task35": "Hver tapt nivå 9 enhet",
-      "Task36": "Hver tapt nivå 10 enhet",
-      "Task37": "Kjøp en gavepakke med diamanter (1 diamant)"
+      "Task1": {
+        "Title": "Send en legendarisk handels-LKW én gang (~200.000 poeng):",
+        "Description": "Handels-LKW kan være av ulik type og derfor inneholde forskjellige belønninger. Du kan endre innholdet ved hjelp av handelskontrakten. For å bruke dem, gå til seksjonen der du kan sende en LKW. Når du forhåndsviser innholdet øverst til høyre, finner du en knapp med en terning. For å få «legendarisk» versjon, må du oppdatere mange ganger til du ser den gule bakgrunnen og «UR»-skriften på venstre side."
+      },
+      "Task2": {
+        "Title": "Utfør en legendarisk hemmelig oppgave (~150.000 poeng):",
+        "Description": "I den hemmelige mobile enheten finner du aktiviteter av forskjellige typer og nivåer. Bruk «Oppdater»-knappen nederst for å endre de nåværende oppdragene (hvor 1 hemmelig oppdragsobjekt, «Hemmelig ordre», blir brukt). Se etter oppdrag med gult/gullfarget kvadrat og start dem. Hvis du beholder hemmelige oppdragsobjekter i løpet av uken, kan du starte alle legendariske oppdrag på denne dagen."
+      },
+      "Task3": {
+        "Title": "Bruk en 1-minutts konstruksjonsforsterkning (~120 poeng):",
+        "Description": "Bruk en konstruksjonsforsterkning (generiske er også i orden)."
+      },
+      "Task4": {
+        "Title": "Bruk en forskningsforsterkning i 1 minutt (~120 poeng):",
+        "Description": "Bruk en forskningsforsterkning (generiske er også i orden)."
+      },
+      "Task5": {
+        "Title": "Bruk en 1-minutts treningsforsterkning (~122 poeng):",
+        "Description": "Bruk treningsforsterkeren (generiske er også i orden). Poeng utdeles også når du trener for å forbedre soldatens nivå. Det er faktisk bedre å forberede mange soldater med lavt nivå før denne dagen og først oppgradere dem til et høyere nivå, da poengene utdeles basert på nivået til den ankommende soldaten."
+      },
+      "Task6": {
+        "Title": "Bruk en 1-minutts helingsforsterkning (~122 poeng):",
+        "Description": "Bruk en helingsforsterkning."
+      },
+      "Task7": {
+        "Title": "Hver død enhet på nivå 1/2/3/4/5/6/7/8/9/10 fra en fiendtlig allianse gir ~25/38/50/63/75/88/100/113/125/138 poeng:",
+        "Description": "Disse poengene utdeles hver gang du dreper en soldat fra en fiendtlig allianse i duell. Bruk teleporten (Duell mot en motstander-symbol -> Allianseangrep -> Angrep) for å komme til serveren til motstanderen din og drepe så mange soldater som mulig som angriper basene til den fiendtlige alliansen. Hvis en fiende har fjernet troppene fra forsvaret, kan du ikke få poeng på denne basen. Derfor bør du først utforske og bare angripe de som fortsatt er i forsvar."
+      },
+      "Task8": {
+        "Title": "Hver død enhet på nivå 1/2/3/4/5/6/7/8/9/10 gir ~5/8/10/13/15/18/20/23/25/28 poeng:",
+        "Description": "Disse poengene utdeles hver gang du dreper en soldat fra en annen allianse på en annen server, bortsett fra alliansen til motstanderen din i duell VS, for hvilke poengene gjelder i avsnittet ovenfor. Det er bedre å alltid prøve å drepe soldater fra motstanderens allianse i duell VS, da dette gir fem ganger så mange poeng. Hvis de imidlertid er skjermet eller ikke har noen tropp, kan du også drepe soldater fra andre allianser på denne serveren. Dette vil kreve mer tid og treff for å oppnå samme antall poeng."
+      },
+      "Task9": {
+        "Title": "Hver tapt enhet på nivå 1/2/3/4/5/6/7/8/9/10 gir ~6/8/10/12/14/16/18/20 poeng:",
+        "Description": "Uansett om du angriper eller forsvarer, hver gang en av soldatene dine blir drept, får du dette antallet poeng. Hvis du på slutten av en duell må samle poeng for å åpne kister, og alliansen din vinner spillet klart, kan du vurdere å ofre noen av troppene dine for å angripe et høyere nivå hovedkvarter hvis bare de er tilgjengelige. På denne måten kan du tape enheter og tjene poeng."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Overlap med Rustningskappløp",
+      "Day1": {
+        "Title": "Det er to overlapp, så jeg anbefaler å gjennomføre aktivitetene i de respektive fasene:",
+        "Overlap1": {
+          "Title": "Droner-Boost-fasen:",
+          "Description": "Bruk en utholdenhet.",
+          "Description2": "Bruk 10 dronetransfer-data."
+        },
+        "Overlap2": {
+          "Title": "Heltenes Oppgraderingsfase:",
+          "Description": "Bruk 2000 EXP-poeng."
+        }
+      },
+      "Day2": {
+        "Title": "Følgende aktiviteter overlapper med bygningsfasen i rustningskappløpet. Jeg anbefaler å gjennomføre disse aktivitetene i løpet av denne fasen:",
+        "Overlap1": {
+          "Description": "Bruk 1-minutts byggforsterkning.",
+          "Description2": "Øk byggkraften med 1 poeng."
+        }
+      },
+      "Day3": {
+        "Title": "Følgende aktiviteter overlapper med den teknologiske forskningsfasen i rustningskappløpet. Jeg anbefaler å gjennomføre disse aktivitetene i løpet av denne fasen:",
+        "Overlap1": {
+          "Description": "Bruk 1-minutts forskningsforsterkning.",
+          "Description2": "Øk teknologisk ytelse med 1 poeng."
+        }
+      },
+      "Day4": {
+        "Title": "Følgende aktiviteter overlapper med helteutviklingsfasen i rustningskappløpet. Jeg anbefaler å gjennomføre disse aktivitetene i løpet av denne fasen:",
+        "Overlap1": {
+          "Description": "Utfør 1 avansert rekruttering.",
+          "Description2": "Bruk 2000 EXP-poeng."
+        }
+      },
+      "Day5": {
+        "Title": "Det er tre overlapp. Jeg anbefaler å gjennomføre aktivitetene i de respektive fasene:",
+        "Overlap1": {
+          "Title": "Bygningsfase:",
+          "Description": "Bruk 1-minutts byggforsterkning.",
+          "Description2": "Øk byggkraften med 1 poeng."
+        },
+        "Overlap2": {
+          "Title": "Teknologisk forskningsfase:",
+          "Description": "Bruk 1-minutts forskningsforsterkning.",
+          "Description2": "Øk teknologisk ytelse med 1 poeng."
+        },
+        "Overlap3": {
+          "Title": "Enhetsfremskrittfase:",
+          "Description": "Bruk 1-minutts treningsforsterkning.",
+          "Description2": "Tren en soldat på nivå 1/2/3/4/5/6/7/8/9/10."
+        }
+      },
+      "Day6": {
+        "Title": "Det er tre overlapp. Jeg anbefaler å gjennomføre aktivitetene i de respektive fasene:",
+        "Overlap1": {
+          "Title": "Bygningsfase:",
+          "Description": "Bruk 1-minutts byggforsterkning."
+        },
+        "Overlap2": {
+          "Title": "Teknologisk forskningsfase:",
+          "Description": "Bruk 1-minutts forskningsforsterkning."
+        },
+        "Overlap3": {
+          "Title": "Enhetsfremskrittfase:",
+          "Description": "Bruk 1-minutts treningsforsterkning."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Strategisk Forberedelse",
+      "Description": "For visse aktiviteter er det poeng å hente når de er fullført. Derfor kan du starte dem dagen før den nødvendige tiden og fullføre dem i løpet av den respektive fasen for å oppnå maksimal poengsum. Her er fasene og de tilsvarende aktivitetene:",
+      "List1": "På dager når radaroppdrag belønnes, stable oppdragene dagen før til maks. Dette lar deg oppnå maksimal poengsum når oppdragene fullføres på selve dagen.",
+      "List2": "Begynn på dager når innsamling av mat, jern eller gull gir belønningspoeng, samle inn dagen før og sørg for å fullføre det på den nye dagen. Før innsamlingen vises det hvor mye du trenger for å oppnå maks poeng.",
+      "List3": "På dager når oppgradering av bygninger gir poeng basert på ytelsesøkning, er det fordelaktig å oppgradere flere bygninger de foregående dagene og la dem være i gaveinnpakningsmodus. Bygningens ytelse økes kun ved åpning av gavepakken, og på dette tidspunktet utdeles også duell-mot-poeng.",
+      "List4": "På dager når forskning gir poeng, start en langvarig forskning dagen før, slik at forskningen avsluttes disse dagene. Poengene utdeles når du klikker på symbolet for fullført forskning.",
+      "List5": "Åpne ikke esken med drone-datapaneler og komponenter når de er i inventaret, da du får poeng for disse aktivitetene på dag 1 og 3.",
+      "FightDay": {
+        "Title": "Kampdag Forberedelse",
+        "Description": "På den siste dagen av duellen er det poeng for å drepe fiendens tropp, så det er viktig å forberede seg til denne dagen.",
+        "AttackPreparation": {
+          "Title": "Angrepsforberedelse",
+          "List1": "Prøv å oppgradere kasernen til høyest mulig nivå i løpet av uken for å låse opp trening av høyere nivå tropp. Dette gjør det lettere å samle poeng ved å trene soldater på høyere nivå.",
+          "List2": "Tren så mange tropp som mulig, da du vil trenge dem under krigen. Bruk treningsforsterkningene dine best på dag 5 for å maksimere poengene.",
+          "List3": "Kjøp treningsforsterkninger og helingsforsterkninger. Disse kan hjelpe deg med å fullføre trening og heling av troppene dine raskere, noe som er spesielt viktig for å holde deg effektiv i de avgjørende fasene av krigen."
+        },
+        "DefensePreparation": {
+          "Title": "Forsvarsforberedelse",
+          "List1": "Kjøp skjold (eller spar ressurser for å kjøpe dem) for å bruke dem i løpet av de 24 timene på den siste dagen. Ellers trenger du 1.500 diamanter for et 8-timers skjold.",
+          "List2": "Fjern troppene fra ditt forsvar, slik at du ved et treff bare lider minimale tap sammenlignet med tapene ved nederlag med aktivt forsvar. Gå til basen din, klikk på muren og gå til forsvarsoppsettet. Fjern hake for troppene for å fjerne dem fra forsvarsoppsettet."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Belønning",
+      "Description": "For hver nødvendig aktivitet under duellen mottar du et visst antall poeng. Denne poengutbyttet kan du øke gjennom forskning i «Allianse-Duell»-området. For å utføre slike forskninger trenger du tapperhetsmerker, som du bare kan få ved å åpne kister i duellen."
     },
     "GeneralTips": {
       "Title": "Generelle Tips:",

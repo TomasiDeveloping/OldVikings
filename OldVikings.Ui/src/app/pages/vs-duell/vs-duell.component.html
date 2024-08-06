@@ -1,241 +1,520 @@
 <div class="container">
-  <h3 class="custom-font mt-3 text-center">{{'VS.Title' | translate}}</h3>
+  <h3 class="custom-font mt-3 text-center">{{ 'VS.Title' | translate }}</h3>
   <hr>
-  <section>{{'VS.Description' | translate}}</section>
+  <section>{{ 'VS.Description' | translate }}</section>
   <hr>
   <section>
-    <h5>{{'VS.GeneralTips.Title' | translate}}</h5>
+    <h4>{{ 'VS.StrategicPreparation.Title' | translate }}</h4>
+    <p>{{ 'VS.StrategicPreparation.Description' | translate }}</p>
     <ul>
-      <li>{{'VS.GeneralTips.Tip1' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip2' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip3' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip4' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip5' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip6' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip7' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip8' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip9' | translate}}</li>
-      <li>{{'VS.GeneralTips.Tip10' | translate}}</li>
+      <li>{{ 'VS.StrategicPreparation.List1' | translate }}</li>
+      <li>{{ 'VS.StrategicPreparation.List2' | translate }}</li>
+      <li>{{ 'VS.StrategicPreparation.List3' | translate }}</li>
+      <li>{{ 'VS.StrategicPreparation.List4' | translate }}</li>
+      <li>{{ 'VS.StrategicPreparation.List5' | translate }}</li>
     </ul>
-    <small>{{'VS.YouTubeNote' | translate}}</small>
+    <h5>{{ 'VS.StrategicPreparation.FightDay.Title' | translate }}</h5>
+    <p>{{ 'VS.StrategicPreparation.FightDay.Description' | translate }}</p>
+    <h6>{{ 'VS.StrategicPreparation.FightDay.AttackPreparation.Title' | translate }}</h6>
+    <ul>
+      <li>{{ 'VS.StrategicPreparation.FightDay.AttackPreparation.List1' | translate }}</li>
+      <li>{{ 'VS.StrategicPreparation.FightDay.AttackPreparation.List2' | translate }}</li>
+      <li>{{ 'VS.StrategicPreparation.FightDay.AttackPreparation.List3' | translate }}</li>
+    </ul>
+    <h6>{{ 'VS.StrategicPreparation.FightDay.DefensePreparation.Title' | translate }}</h6>
+    <ul>
+      <li>{{ 'VS.StrategicPreparation.FightDay.DefensePreparation.List1' | translate }}</li>
+      <li>{{ 'VS.StrategicPreparation.FightDay.DefensePreparation.List2' | translate }}</li>
+    </ul>
+
+    <h5>{{ 'VS.Reward.Title' | translate }}</h5>
+    <p>{{ 'VS.Reward.Description' | translate }}</p>
+
+  </section>
+  <hr>
+  <section>
+    <h5>{{ 'VS.GeneralTips.Title' | translate }}</h5>
+    <ul>
+      <li>{{ 'VS.GeneralTips.Tip1' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip2' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip3' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip4' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip5' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip6' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip7' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip8' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip9' | translate }}</li>
+      <li>{{ 'VS.GeneralTips.Tip10' | translate }}</li>
+    </ul>
+    <small>{{ 'VS.YouTubeNote' | translate }}</small>
     <hr>
   </section>
-    <div class="accordion" id="vsDayAccordion">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day1" aria-expanded="false" aria-controls="day1">
-            {{'VS.Day1.Title' | translate}}
-          </button>
-        </h2>
-        <div #day1 id="day1" class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion">
-          <div class="accordion-body">
+  <div class="accordion" id="vsDayAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button aria-controls="day1" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#day1"
+                data-bs-toggle="collapse" type="button">
+          {{ 'VS.Day1.Title' | translate }}
+        </button>
+      </h2>
+      <div #day1 class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion" id="day1">
+        <div class="accordion-body">
+          <section>
+            <h5>{{ 'VS.Day1.DayText' | translate }}</h5>
+            <ul>
+              <li>
+                {{ 'VS.Day1.Task1.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day1.Task1.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day1.Task2.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day1.Task2.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day1.Task3.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day1.Task3.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day1.Task4.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day1.Task4.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day1.Task5.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day1.Task5.Description' | translate }}</small>
+                    <ol>
+                      <li><small>{{ 'VS.Day1.Task5.Description2' | translate }}</small></li>
+                      <li><small>{{ 'VS.Day1.Task5.Description3' | translate }}</small></li>
+                    </ol>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day1.Task6.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day1.Task6.Description' | translate }}</small></li>
+                </ul>
+              </li>
+            </ul>
             <section>
-              <h5>{{'VS.Day1.DayText' | translate}}</h5>
-              <ul>
-                <li>{{'VS.Day1.Task1' | translate}}</li>
-                <li>{{'VS.Day1.Task2' | translate}}</li>
-                <li>{{'VS.Day1.Task3' | translate}}</li>
-                <li>{{'VS.Day1.Task4' | translate}}</li>
-                <li>{{'VS.Day1.Task5' | translate}}</li>
-                <li>{{'VS.Day1.Task6' | translate}}</li>
-                <li>{{'VS.Day1.Task7' | translate}}</li>
-                <li>{{'VS.Day1.Task8' | translate}}</li>
-                <li>{{'VS.Day1.Task9' | translate}}</li>
-                <li>{{'VS.Day1.Task10' | translate}}</li>
-              </ul>
-              <div class="video-container mt-4 mb-4">
-                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                        src="https://www.youtube.com/embed/mlvFYgZCtJc?si=SkzXJD0xNNAUKtAx" title="YouTube video player"></iframe>
-              </div>
+              <hr>
+              <h5>{{ 'VS.OverlapWithArmsRace.Title' | translate }}</h5>
+              <p>{{ 'VS.OverlapWithArmsRace.Day1.Title' | translate }}</p>
+              <ol>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day1.Overlap1.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day1.Overlap1.Description' | translate }}</li>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day1.Overlap1.Description2' | translate }}</li>
+                  </ul>
+                </li>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day1.Overlap2.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day1.Overlap2.Description' | translate }}</li>
+                  </ul>
+                </li>
+              </ol>
               <hr>
             </section>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day2" aria-expanded="false" aria-controls="day2">
-            {{'VS.Day2.Title' | translate}}
-          </button>
-        </h2>
-        <div #day2 id="day2" class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion">
-          <div class="accordion-body">
-            <section>
-              <h5>{{'VS.Day2.DayText' | translate}}</h5>
-              <ul>
-                <li>{{'VS.Day2.Task1' | translate}}</li>
-                <li>{{'VS.Day2.Task2' | translate}}</li>
-                <li>{{'VS.Day2.Task3' | translate}}</li>
-                <li>{{'VS.Day2.Task4' | translate}}</li>
-                <li>{{'VS.Day2.Task5' | translate}}</li>
-                <li>{{'VS.Day2.Task6' | translate}}</li>
-              </ul>
-              <div class="video-container mt-4 mb-4">
-                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                        src="https://www.youtube.com/embed/JIpHHLUGQ2g?si=or90W7TWl0kluhcD" title="YouTube video player"></iframe>
-              </div>
-              <hr>
-            </section>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day3" aria-expanded="false" aria-controls="day3">
-            {{'VS.Day3.Title' | translate}}
-          </button>
-        </h2>
-        <div #day3 id="day3" class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion">
-          <div class="accordion-body">
-            <section>
-              <h5>{{'VS.Day3.DayText' | translate}}</h5>
-              <ul>
-                <li>{{'VS.Day3.Task1' | translate}}</li>
-                <li>{{'VS.Day3.Task2' | translate}}</li>
-                <li>{{'VS.Day3.Task3' | translate}}</li>
-                <li>{{'VS.Day3.Task4' | translate}}</li>
-                <li>{{'VS.Day3.Task5' | translate}}</li>
-                <li>{{'VS.Day3.Task6' | translate}}</li>
-                <li>{{'VS.Day3.Task7' | translate}}</li>
-                <li>{{'VS.Day3.Task8' | translate}}</li>
-                <li>{{'VS.Day3.Task9' | translate}}</li>
-                <li>{{'VS.Day3.Task10' | translate}}</li>
-                <li>{{'VS.Day3.Task11' | translate}}</li>
-              </ul>
-              <div class="video-container mt-4 mb-4">
-                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                        src="https://www.youtube.com/embed/LEYXyzYYhKM?si=h_50-TOJCPhrJBCx" title="YouTube video player"></iframe>
-              </div>
-              <hr>
-            </section>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day4" aria-expanded="false" aria-controls="day4">
-            {{'VS.Day4.Title' | translate}}
-          </button>
-        </h2>
-        <div #day4 id="day4" class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion">
-          <div class="accordion-body">
-            <section>
-              <h5>{{'VS.Day4.DayText' | translate}}</h5>
-              <ul>
-                <li>{{'VS.Day4.Task1' | translate}}</li>
-                <li>{{'VS.Day4.Task2' | translate}}</li>
-                <li>{{'VS.Day4.Task3' | translate}}</li>
-                <li>{{'VS.Day4.Task4' | translate}}</li>
-                <li>{{'VS.Day4.Task5' | translate}}</li>
-                <li>{{'VS.Day4.Task6' | translate}}</li>
-              </ul>
-              <div class="video-container mt-4 mb-4">
-                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                        src="https://www.youtube.com/embed/4W19YbENDm4?si=jElwl_hbTBcesGHl" title="YouTube video player"></iframe>
-              </div>
-              <hr>
-            </section>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day5" aria-expanded="false" aria-controls="day5">
-            {{'VS.Day5.Title' | translate}}
-          </button>
-        </h2>
-        <div #day5 id="day5" class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion">
-          <div class="accordion-body">
-            <section>
-              <h5>{{'VS.Day5.DayText' | translate}}</h5>
-              <ul>
-                <li>{{'VS.Day5.Task1' | translate}}</li>
-                <li>{{'VS.Day5.Task2' | translate}}</li>
-                <li>{{'VS.Day5.Task3' | translate}}</li>
-                <li>{{'VS.Day5.Task4' | translate}}</li>
-                <li>{{'VS.Day5.Task5' | translate}}</li>
-                <li>{{'VS.Day5.Task6' | translate}}</li>
-                <li>{{'VS.Day5.Task7' | translate}}</li>
-                <li>{{'VS.Day5.Task8' | translate}}</li>
-                <li>{{'VS.Day5.Task9' | translate}}</li>
-                <li>{{'VS.Day5.Task10' | translate}}</li>
-                <li>{{'VS.Day5.Task11' | translate}}</li>
-                <li>{{'VS.Day5.Task12' | translate}}</li>
-                <li>{{'VS.Day5.Task13' | translate}}</li>
-                <li>{{'VS.Day5.Task14' | translate}}</li>
-                <li>{{'VS.Day5.Task15' | translate}}</li>
-                <li>{{'VS.Day5.Task16' | translate}}</li>
-                <li>{{'VS.Day5.Task17' | translate}}</li>
-              </ul>
-              <div class="video-container mt-4 mb-4">
-                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                        src="https://www.youtube.com/embed/7IFl9zWWXLw?si=OTLEvRw-D9nJtx9T" title="YouTube video player"></iframe>
-              </div>
-              <hr>
-            </section>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day6" aria-expanded="false" aria-controls="day6">
-            {{'VS.Day6.Title' | translate}}
-          </button>
-        </h2>
-        <div #day6 id="day6" class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion">
-          <div class="accordion-body">
-            <section>
-              <h5>{{'VS.Day6.DayText' | translate}}</h5>
-              <ul>
-                <li>{{'VS.Day6.Task1' | translate}}</li>
-                <li>{{'VS.Day6.Task2' | translate}}</li>
-                <li>{{'VS.Day6.Task3' | translate}}</li>
-                <li>{{'VS.Day6.Task4' | translate}}</li>
-                <li>{{'VS.Day6.Task5' | translate}}</li>
-                <li>{{'VS.Day6.Task6' | translate}}</li>
-                <li>{{'VS.Day6.Task7' | translate}}</li>
-                <li>{{'VS.Day6.Task8' | translate}}</li>
-                <li>{{'VS.Day6.Task9' | translate}}</li>
-                <li>{{'VS.Day6.Task10' | translate}}</li>
-                <li>{{'VS.Day6.Task11' | translate}}</li>
-                <li>{{'VS.Day6.Task12' | translate}}</li>
-                <li>{{'VS.Day6.Task13' | translate}}</li>
-                <li>{{'VS.Day6.Task14' | translate}}</li>
-                <li>{{'VS.Day6.Task15' | translate}}</li>
-                <li>{{'VS.Day6.Task16' | translate}}</li>
-                <li>{{'VS.Day6.Task17' | translate}}</li>
-                <li>{{'VS.Day6.Task18' | translate}}</li>
-                <li>{{'VS.Day6.Task19' | translate}}</li>
-                <li>{{'VS.Day6.Task20' | translate}}</li>
-                <li>{{'VS.Day6.Task21' | translate}}</li>
-                <li>{{'VS.Day6.Task22' | translate}}</li>
-                <li>{{'VS.Day6.Task23' | translate}}</li>
-                <li>{{'VS.Day6.Task24' | translate}}</li>
-                <li>{{'VS.Day6.Task25' | translate}}</li>
-                <li>{{'VS.Day6.Task26' | translate}}</li>
-                <li>{{'VS.Day6.Task27' | translate}}</li>
-                <li>{{'VS.Day6.Task28' | translate}}</li>
-                <li>{{'VS.Day6.Task29' | translate}}</li>
-                <li>{{'VS.Day6.Task30' | translate}}</li>
-                <li>{{'VS.Day6.Task31' | translate}}</li>
-                <li>{{'VS.Day6.Task32' | translate}}</li>
-                <li>{{'VS.Day6.Task33' | translate}}</li>
-                <li>{{'VS.Day6.Task34' | translate}}</li>
-                <li>{{'VS.Day6.Task35' | translate}}</li>
-                <li>{{'VS.Day6.Task36' | translate}}</li>
-                <li>{{'VS.Day6.Task37' | translate}}</li>
-              </ul>
-              <div class="video-container mt-4 mb-4">
-                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                        src="https://www.youtube.com/embed/KukQTIgdAgU?si=2Xg-lFLvVV6kBJ5E" title="YouTube video player"></iframe>
-              </div>
-            </section>
-          </div>
+            <div class="video-container mt-4 mb-4">
+              <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                      src="https://www.youtube.com/embed/mlvFYgZCtJc?si=SkzXJD0xNNAUKtAx"
+                      title="YouTube video player"></iframe>
+            </div>
+            <hr>
+          </section>
         </div>
       </div>
     </div>
-
-
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button aria-controls="day2" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#day2"
+                data-bs-toggle="collapse" type="button">
+          {{ 'VS.Day2.Title' | translate }}
+        </button>
+      </h2>
+      <div #day2 class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion" id="day2">
+        <div class="accordion-body">
+          <section>
+            <h5>{{ 'VS.Day2.DayText' | translate }}</h5>
+            <ul>
+              <li>
+                {{ 'VS.Day2.Task1.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day2.Task1.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day2.Task2.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day2.Task2.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day2.Task3.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day2.Task3.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day2.Task4.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day2.Task4.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day2.Task5.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day2.Task5.Description' | translate }}</small></li>
+                </ul>
+              </li>
+            </ul>
+            <section>
+              <hr>
+              <h5>{{ 'VS.OverlapWithArmsRace.Title' | translate }}</h5>
+              <p>{{ 'VS.OverlapWithArmsRace.Day2.Title' | translate }}</p>
+              <ul>
+                <li>{{ 'VS.OverlapWithArmsRace.Day2.Overlap1.Description' | translate }}</li>
+                <li>{{ 'VS.OverlapWithArmsRace.Day2.Overlap1.Description2' | translate }}</li>
+              </ul>
+              <hr>
+            </section>
+            <div class="video-container mt-4 mb-4">
+              <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                      src="https://www.youtube.com/embed/JIpHHLUGQ2g?si=or90W7TWl0kluhcD"
+                      title="YouTube video player"></iframe>
+            </div>
+            <hr>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button aria-controls="day3" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#day3"
+                data-bs-toggle="collapse" type="button">
+          {{ 'VS.Day3.Title' | translate }}
+        </button>
+      </h2>
+      <div #day3 class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion" id="day3">
+        <div class="accordion-body">
+          <section>
+            <h5>{{ 'VS.Day3.DayText' | translate }}</h5>
+            <ul>
+              <li>
+                {{ 'VS.Day3.Task1.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day3.Task1.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day3.Task2.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day3.Task2.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day3.Task3.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day3.Task3.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day3.Task4.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day3.Task4.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day3.Task5.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day3.Task5.Description' | translate }}</small></li>
+                </ul>
+              </li>
+            </ul>
+            <section>
+              <hr>
+              <h5>{{ 'VS.OverlapWithArmsRace.Title' | translate }}</h5>
+              <p>{{ 'VS.OverlapWithArmsRace.Day3.Title' | translate }}</p>
+              <ul>
+                <li>{{ 'VS.OverlapWithArmsRace.Day3.Overlap1.Description' | translate }}</li>
+                <li>{{ 'VS.OverlapWithArmsRace.Day3.Overlap1.Description2' | translate }}</li>
+              </ul>
+              <hr>
+            </section>
+            <div class="video-container mt-4 mb-4">
+              <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                      src="https://www.youtube.com/embed/LEYXyzYYhKM?si=h_50-TOJCPhrJBCx"
+                      title="YouTube video player"></iframe>
+            </div>
+            <hr>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button aria-controls="day4" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#day4"
+                data-bs-toggle="collapse" type="button">
+          {{ 'VS.Day4.Title' | translate }}
+        </button>
+      </h2>
+      <div #day4 class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion" id="day4">
+        <div class="accordion-body">
+          <section>
+            <h5>{{ 'VS.Day4.DayText' | translate }}</h5>
+            <ul>
+              <li>
+                {{ 'VS.Day4.Task1.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day4.Task1.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day4.Task2.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day4.Task2.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day4.Task3.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day4.Task3.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day4.Task4.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day4.Task4.Description' | translate }}</small></li>
+                </ul>
+              </li>
+            </ul>
+            <section>
+              <hr>
+              <h5>{{ 'VS.OverlapWithArmsRace.Title' | translate }}</h5>
+              <p>{{ 'VS.OverlapWithArmsRace.Day4.Title' | translate }}</p>
+              <ul>
+                <li>{{ 'VS.OverlapWithArmsRace.Day4.Overlap1.Description' | translate }}</li>
+                <li>{{ 'VS.OverlapWithArmsRace.Day4.Overlap1.Description2' | translate }}</li>
+              </ul>
+              <hr>
+            </section>
+            <div class="video-container mt-4 mb-4">
+              <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                      src="https://www.youtube.com/embed/4W19YbENDm4?si=jElwl_hbTBcesGHl"
+                      title="YouTube video player"></iframe>
+            </div>
+            <hr>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button aria-controls="day5" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#day5"
+                data-bs-toggle="collapse" type="button">
+          {{ 'VS.Day5.Title' | translate }}
+        </button>
+      </h2>
+      <div #day5 class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion" id="day5">
+        <div class="accordion-body">
+          <section>
+            <h5>{{ 'VS.Day5.DayText' | translate }}</h5>
+            <ul>
+              <li>
+                {{ 'VS.Day5.Task1.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day5.Task1.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day5.Task2.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day5.Task2.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day5.Task3.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day5.Task3.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day5.Task4.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day5.Task4.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day5.Task5.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day5.Task5.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day5.Task6.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day5.Task6.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day5.Task7.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day5.Task7.Description' | translate }}</small></li>
+                </ul>
+              </li>
+            </ul>
+            <section>
+              <hr>
+              <h5>{{ 'VS.OverlapWithArmsRace.Title' | translate }}</h5>
+              <p>{{ 'VS.OverlapWithArmsRace.Day5.Title' | translate }}</p>
+              <ol>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day5.Overlap1.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day5.Overlap1.Description' | translate }}</li>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day5.Overlap1.Description2' | translate }}</li>
+                  </ul>
+                </li>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day5.Overlap2.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day5.Overlap2.Description' | translate }}</li>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day5.Overlap2.Description2' | translate }}</li>
+                  </ul>
+                </li>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day5.Overlap3.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day5.Overlap3.Description' | translate }}</li>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day5.Overlap3.Description2' | translate }}</li>
+                  </ul>
+                </li>
+              </ol>
+              <hr>
+            </section>
+            <div class="video-container mt-4 mb-4">
+              <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                      src="https://www.youtube.com/embed/7IFl9zWWXLw?si=OTLEvRw-D9nJtx9T"
+                      title="YouTube video player"></iframe>
+            </div>
+            <hr>
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button aria-controls="day6" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#day6"
+                data-bs-toggle="collapse" type="button">
+          {{ 'VS.Day6.Title' | translate }}
+        </button>
+      </h2>
+      <div #day6 class="accordion-collapse collapse" data-bs-parent="#vsDayAccordion" id="day6">
+        <div class="accordion-body">
+          <section>
+            <h5>{{ 'VS.Day6.DayText' | translate }}</h5>
+            <ul>
+              <li>
+                {{ 'VS.Day6.Task1.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task1.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task2.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task2.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task3.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task3.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task4.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task4.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task5.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task5.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task6.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task6.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task7.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task7.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task8.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task8.Description' | translate }}</small></li>
+                </ul>
+              </li>
+              <li>
+                {{ 'VS.Day6.Task9.Title' | translate }}
+                <ul>
+                  <li><small>{{ 'VS.Day6.Task9.Description' | translate }}</small></li>
+                </ul>
+              </li>
+            </ul>
+            <section>
+              <hr>
+              <h5>{{ 'VS.OverlapWithArmsRace.Title' | translate }}</h5>
+              <p>{{ 'VS.OverlapWithArmsRace.Day6.Title' | translate }}</p>
+              <ol>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day6.Overlap1.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day6.Overlap1.Description' | translate }}</li>
+                  </ul>
+                </li>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day6.Overlap2.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day6.Overlap2.Description' | translate }}</li>
+                  </ul>
+                </li>
+                <li>
+                  {{ 'VS.OverlapWithArmsRace.Day6.Overlap3.Title' | translate }}
+                  <ul>
+                    <li>{{ 'VS.OverlapWithArmsRace.Day6.Overlap3.Description' | translate }}</li>
+                  </ul>
+                </li>
+              </ol>
+              <hr>
+            </section>
+            <div class="video-container mt-4 mb-4">
+              <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                      src="https://www.youtube.com/embed/KukQTIgdAgU?si=2Xg-lFLvVV6kBJ5E"
+                      title="YouTube video player"></iframe>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 </div>

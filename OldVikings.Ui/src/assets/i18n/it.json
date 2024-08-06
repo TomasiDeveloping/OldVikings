@@ -140,113 +140,271 @@
     "Day1": {
       "Title": "Giorno 1 - Addestramento Radar Speciale",
       "DayText": "Lunedì",
-      "Task1": "Usa 1 resistenza",
-      "Task2": "Completa 1 missione radar",
-      "Task3": "Usa almeno 660 esperienza eroi per volta",
-      "Task4": "Usa 1 punto dati di combattimento droni",
-      "Task5": "Usa 1 componente drone",
-      "Task6": "Acquista un pacchetto regalo con diamanti (1 diamante)",
-      "Task7": "Raccogli 100 cibo",
-      "Task8": "Raccogli 100 ferro",
-      "Task9": "Raccogli 60 oro",
-      "Task10": "Per ogni chip abilità drone guadagnato"
+      "Task1": {
+        "Title": "Completa 1 missione Radar (~25.000 punti):",
+        "Description": "Vai al simbolo del radar in basso a sinistra e apri lo schermo del radar. Qui vedrai le missioni, alcune delle quali sono già completate (con un punto rosso in alto a destra), mentre altre devono ancora essere completate. Per completare una missione, devi eseguirla prima (se non è già stata eseguita) e poi cliccare sulla missione con il punto rosso. Con questa azione la raccogli e ottieni i punti. Per massimizzare i punti, considera di accumulare missioni il giorno precedente."
+      },
+      "Task2": {
+        "Title": "Usa 1 Stamina (~300 punti):",
+        "Description": "Usa la stamina per attacchi, azioni di raccolta e missioni radar."
+      },
+      "Task3": {
+        "Title": "Utilizza almeno 660 punti EXP Eroe contemporaneamente (~6 punti):",
+        "Description": "Vai al Centro Droni e clicca sul pulsante 'Addestramento Dati' per utilizzare i dati di combattimento. A determinati livelli, sono necessari pezzi di droni per continuare l'addestramento."
+      },
+      "Task4": {
+        "Title": "Usa 1 pezzo di droni:",
+        "Description": "Vai al Centro Droni e clicca sul pulsante 'Addestramento Dati' per utilizzare i dati di combattimento. A determinati livelli, sono necessari pezzi di droni.\n\n\n\n\n\n\n"
+      },
+      "Task5": {
+        "Title": "Raccogli 100/100/60 unità di cibo/ferro/monete (~40 punti):",
+        "Description": "Puoi raccogliere unità di cibo, ferro o monete in due modi:",
+        "Description2": "Con missioni radar speciali per raccogliere cibo, ferro o monete. In questo caso, la velocità di raccolta è molto alta.",
+        "Description3": "Passa alla modalità mappa, clicca sulla lente d'ingrandimento, poi su Raccogli, e seleziona 'Campo', 'Miniera di Ferro' o 'Miniera d'Oro'. Trova un punto a cui inviare le tue truppe per raccogliere. I punti vengono assegnati quando le truppe lasciano il punto di raccolta, sia perché le risorse da guadagnare sono esaurite o perché le truppe sono state richiamate. Inizia quindi a raccogliere il giorno prima di questo giorno e assicurati che il tempo di raccolta finale sia dopo l'inizio di questo giorno."
+      },
+      "Task6": {
+        "Title": "Per ogni punto di chip dati droni ottenuto (~2000 punti):",
+        "Description": "Ottieni punti aprendo le casse chip dati droni dall'inventario (da non confondere con le casse componenti droni)."
+      }
     },
     "Day2": {
-      "Title": "Giorno 2 - Costruzione della Base",
+      "Title": "Giorno 2 - Costruzione Base",
       "DayText": "Martedì",
-      "Task1": "Usa 1 minuto acceleratore di costruzione",
-      "Task2": "Aumenta la potenza di combattimento dell'edificio di 1 punto",
-      "Task3": "Invia il carro leggendario 1 volta",
-      "Task4": "Completa 1 missione segreta arancione",
-      "Task5": "Acquista un pacchetto regalo con diamanti (1 diamante)",
-      "Task6": "Recluta sopravvissuti 1 volta nella taverna"
+      "Task1": {
+        "Title": "Usa un potenziamento di costruzione di 1 minuto (~120 punti):",
+        "Description": "Usa potenziamenti di costruzione (quelli generici sono accettabili, qualsiasi durata)."
+      },
+      "Task2": {
+        "Title": "Aumenta la forza dell'edificio di 1 punto (~21 punti):",
+        "Description": "Ogni volta che completi un edificio, la forza di quell'edificio aumenta e ricevi punti per questa differenza. Nota che l'aumento della forza dell'edificio avviene solo quando apri la cassa regalo in cui è confezionato l'edificio recentemente migliorato."
+      },
+      "Task3": {
+        "Title": "Invia un camion commerciale leggendario una volta (~200.000 punti):",
+        "Description": "I camion commerciali possono essere di diverso tipo e quindi contenere diverse ricompense. Puoi cambiare il loro contenuto usando il contratto commerciale. Vai alla sezione in cui puoi inviare un camion. Se visualizzi l'anteprima del contenuto in alto a destra, troverai un pulsante con un dado. Per ottenere la versione 'leggendaria', devi aggiornare più volte finché non vedi lo sfondo giallo e la scritta 'UR' sul lato sinistro."
+      },
+      "Task4": {
+        "Title": "Completa 1 missione segreta leggendaria (~150.000 punti):",
+        "Description": "Nel gruppo mobile segreto ci sono attività di vari tipi e livelli. Usa il pulsante 'Aggiorna' in basso per cambiare le missioni attuali (consumando 1 oggetto missione segreta, il 'Comando Segreto'). Cerca le missioni con il quadrato giallo/oro e avviale. Se conservi oggetti missione segreta durante la settimana, puoi avviare tutte le missioni leggendarie in questo giorno."
+      },
+      "Task5": {
+        "Title": "Recluta una volta un sopravvissuto (~3.000 punti):",
+        "Description": "Usa i biglietti di reclutamento sopravvissuti dorati (diversi dai biglietti di reclutamento eroi dorati), che puoi trovare nella sezione Eroi. Clicca sul pulsante 'Recluta Eroi' e poi nella sezione 'Recluta Sopravvissuti'. Raccogli biglietti di reclutamento per sopravvissuti durante tutta la settimana e usali solo in questo giorno."
+      }
     },
     "Day3": {
       "Title": "Giorno 3 - Era della Scienza",
       "DayText": "Mercoledì",
-      "Task1": "Usa 1 minuto acceleratore di ricerca",
-      "Task2": "Aumenta la potenza di combattimento della tecnologia di 1 punto",
-      "Task3": "Completa 1 missione radar",
-      "Task4": "Acquista un pacchetto regalo con diamanti (1 diamante)",
-      "Task5": "Ogni volta che apri un componente drone di livello 1",
-      "Task6": "Ogni volta che apri un componente drone di livello 2",
-      "Task7": "Ogni volta che apri un componente drone di livello 3",
-      "Task8": "Ogni volta che apri un componente drone di livello 4",
-      "Task9": "Ogni volta che apri un componente drone di livello 5",
-      "Task10": "Ogni volta che apri un componente drone di livello 6",
-      "Task11": "Ogni volta che apri un componente drone di livello 7"
+      "Task1": {
+        "Title": "Completa una missione Radar (~23.000 punti):",
+        "Description": "Vai al simbolo del radar in basso a sinistra e apri lo schermo del radar. Qui vedrai le missioni, alcune delle quali sono già completate (con un punto rosso in alto a destra), mentre altre devono ancora essere completate. Per completare una missione, devi eseguirla prima (se non è già stata eseguita) e poi cliccare sulla missione con il punto rosso. Con questa azione la raccogli e ottieni i punti. Per massimizzare i punti, considera di accumulare missioni il giorno precedente."
+      },
+      "Task2": {
+        "Title": "Usa un potenziamento della ricerca per 1 minuto (~120 punti):",
+        "Description": "Usa un potenziamento della ricerca (quelli generici sono accettabili, qualsiasi durata è possibile)."
+      },
+      "Task3": {
+        "Title": "Aumenta i punti di performance tecnologica di 1 (~21 punti):",
+        "Description": "Ottieni punti di performance tecnologica quando clicchi sul simbolo della ricerca completata nel Centro Tecnologia. Per massimizzare i punti, inizia una ricerca lunga nei giorni precedenti in modo che termini in questo giorno, oppure completa la ricerca solo in questo giorno cliccando sul simbolo della ricerca completata."
+      },
+      "Task4": {
+        "Title": "Usa una Medaglia di Coraggio (~600 punti):",
+        "Description": "Vai al Centro di Ricerca e alla sezione 'Duello Allianz'. Avvia una delle ricerche che consumano Medaglie di Coraggio (sono le medaglie blu al centro, dorate all'esterno e con il nastro in basso, che si possono vincere nelle casse duello)."
+      },
+      "Task5": {
+        "Title": "Per ogni cassa componente droni di livello 1/2/3/4/5/6/7 aperta:",
+        "Description": "Ottieni punti aprendo le casse componente droni dall'inventario (da non confondere con le casse chip dati droni)."
+      }
     },
     "Day4": {
-      "Title": "Giorno 4 - Sviluppo degli Eroi",
+      "Title": "Giorno 4 - Sviluppo Eroi",
       "DayText": "Giovedì",
-      "Task1": "Effettua 1 reclutamento eroe",
-      "Task2": "Usa almeno 660 esperienza eroi per volta",
-      "Task3": "Usa 1 frammento eroe leggendario",
-      "Task4": "Usa 1 frammento eroe raro",
-      "Task5": "Usa 1 medaglia abilità",
+      "Task1": {
+        "Title": "Esegui una recluta avanzata (~3.750 punti):",
+        "Description": "Usa i biglietti di reclutamento leggendari nella sezione Eroi per reclutare eroi (da non confondere con i biglietti per reclutare sopravvissuti). Raccogli biglietti di reclutamento per eroi durante tutta la settimana e usali solo in questo giorno."
+      },
+      "Task2": {
+        "Title": "Usa almeno 660 punti EXP Eroe (~6 punti):",
+        "Description": "Usa punti esperienza cliccando il pulsante 'Aggiorna' dopo aver selezionato un eroe."
+      },
+      "Task3": {
+        "Title": "Usa un frammento leggendario, epico o raro (~20.000, ~7.000 o ~2.000 punti):",
+        "Description": "Usa il frammento dorato, viola o blu (pezzi di puzzle) degli eroi per aumentare il loro livello nella sezione Eroi. Clicca su un eroe, vai alla sezione 'Classi' e aggiorna la classe dell'eroe."
+      },
+      "Task4": {
+        "Title": "Usa una Medaglia di Abilità (~20 punti):",
+        "Description": "Migliora le abilità degli eroi andando alla sezione Eroi, selezionando un eroe, cliccando sulla sezione 'Abilità', scegliendo una delle abilità (i quadrati) in alto e usando il pulsante 'Migliora' (questo non è sempre possibile)."
+      },
+      "Task5": "Usa 1 medaglia di abilità",
       "Task6": "Acquista un pacchetto regalo con diamanti (1 diamante)"
     },
     "Day5": {
       "Title": "Giorno 5 - Prontezza al Combattimento",
       "DayText": "Venerdì",
-      "Task1": "Completa 1 missione radar",
-      "Task2": "Usa 1 minuto acceleratore di costruzione",
-      "Task3": "Aumenta la potenza di combattimento dell'edificio di 1 punto",
-      "Task4": "Usa 1 minuto acceleratore di ricerca",
-      "Task5": "Aumenta la potenza di combattimento della tecnologia di 1 punto",
-      "Task6": "Usa 1 minuto acceleratore di addestramento",
-      "Task7": "Allena 1 soldato a livello 1",
-      "Task8": "Allena 1 soldato a livello 2",
-      "Task9": "Allena 1 soldato a livello 3",
-      "Task10": "Allena 1 soldato a livello 4",
-      "Task11": "Allena 1 soldato a livello 5",
-      "Task12": "Allena 1 soldato a livello 6",
-      "Task13": "Allena 1 soldato a livello 7",
-      "Task14": "Allena 1 soldato a livello 8",
-      "Task15": "Allena 1 soldato a livello 9",
-      "Task16": "Allena 1 soldato a livello 10",
-      "Task17": "Acquista un pacchetto regalo con diamanti (1 diamante)"
+      "Task1": {
+        "Title": "Completa una missione Radar (~23.000 punti):",
+        "Description": "Vai al simbolo del radar in basso a sinistra e apri lo schermo del radar. Qui vedrai le missioni, alcune delle quali sono già completate (con un punto rosso in alto a destra), mentre altre devono ancora essere completate. Per completare una missione, devi eseguirla prima (se non è già stata eseguita) e poi cliccare sulla missione con il punto rosso. Con questa azione raccogli la missione e ottieni i punti. Per massimizzare i punti, considera di accumulare missioni il giorno precedente."
+      },
+      "Task2": {
+        "Title": "Usa un potenziamento della costruzione di 1 minuto (~120 punti):",
+        "Description": "Usa un potenziamento della costruzione (quelli generici sono accettabili, qualsiasi durata è possibile)."
+      },
+      "Task3": {
+        "Title": "Aumenta la forza dell'edificio di 1 punto (~21 punti):",
+        "Description": "Ogni volta che completi un edificio, la forza di quell'edificio aumenta e ottieni punti per la differenza. Nota che l'aumento della forza dell'edificio avviene solo quando apri la cassa regalo in cui è confezionato l'edificio migliorato."
+      },
+      "Task4": {
+        "Title": "Usa un potenziamento della ricerca di 1 minuto (~120 punti):",
+        "Description": "Usa un potenziamento della ricerca (quelli generici sono accettabili, qualsiasi durata è possibile)."
+      },
+      "Task5": {
+        "Title": "Aumenta i punti di performance tecnologica di 1 (~21 punti):",
+        "Description": "Ottieni punti di performance tecnologica quando una ricerca viene completata nel Centro Tecnologia."
+      },
+      "Task6": {
+        "Title": "Usa un potenziamento dell'addestramento di 1 minuto (~122 punti):",
+        "Description": "Usa un potenziamento dell'addestramento (quelli generici sono accettabili, qualsiasi durata è possibile). I punti vengono assegnati anche quando alleni un soldato per aumentare il suo livello. È in effetti meglio preparare molti soldati a basso livello prima di questo giorno e poi farli salire di livello, poiché i punti vengono assegnati in base al livello del soldato in arrivo."
+      },
+      "Task7": {
+        "Title": "Addestra un soldato di livello 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 punti):",
+        "Description": "I punti che ricevi si basano sul livello di arrivo di un soldato. Se ad esempio potenzi un soldato di livello 4 a livello 5, ottieni i punti per un soldato di livello 5, così come se addestri un soldato di livello 5 fin dall'inizio. Prepara quindi molti soldati di livello medio per poterli potenziare il giorno stesso."
+      }
     },
     "Day6": {
       "Title": "Giorno 6 - Eliminazione dei Nemici",
       "DayText": "Sabato",
-      "Task1": "Invia il carro leggendario 1 volta",
-      "Task2": "Completa 1 missione segreta arancione",
-      "Task3": "Usa 1 minuto acceleratore di costruzione",
-      "Task4": "Usa 1 minuto acceleratore di ricerca",
-      "Task5": "Usa 1 minuto acceleratore di addestramento",
-      "Task6": "Usa 1 minuto acceleratore di guarigione",
-      "Task7": "Ogni unità di livello 1 uccisa di una alleanza rivale",
-      "Task8": "Ogni unità di livello 2 uccisa di una alleanza rivale",
-      "Task9": "Ogni unità di livello 3 uccisa di una alleanza rivale",
-      "Task10": "Ogni unità di livello 4 uccisa di una alleanza rivale",
-      "Task11": "Ogni unità di livello 5 uccisa di una alleanza rivale",
-      "Task12": "Ogni unità di livello 6 uccisa di una alleanza rivale",
-      "Task13": "Ogni unità di livello 7 uccisa di una alleanza rivale",
-      "Task14": "Ogni unità di livello 8 uccisa di una alleanza rivale",
-      "Task15": "Ogni unità di livello 9 uccisa di una alleanza rivale",
-      "Task16": "Ogni unità di livello 10 uccisa di una alleanza rivale",
-      "Task17": "Ogni unità di livello 1 uccisa",
-      "Task18": "Ogni unità di livello 2 uccisa",
-      "Task19": "Ogni unità di livello 3 uccisa",
-      "Task20": "Ogni unità di livello 4 uccisa",
-      "Task21": "Ogni unità di livello 5 uccisa",
-      "Task22": "Ogni unità di livello 6 uccisa",
-      "Task23": "Ogni unità di livello 7 uccisa",
-      "Task24": "Ogni unità di livello 8 uccisa",
-      "Task25": "Ogni unità di livello 9 uccisa",
-      "Task26": "Ogni unità di livello 10 uccisa",
-      "Task27": "Ogni unità di livello 1 persa",
-      "Task28": "Ogni unità di livello 2 persa",
-      "Task29": "Ogni unità di livello 3 persa",
-      "Task30": "Ogni unità di livello 4 persa",
-      "Task31": "Ogni unità di livello 5 persa",
-      "Task32": "Ogni unità di livello 6 persa",
-      "Task33": "Ogni unità di livello 7 persa",
-      "Task34": "Ogni unità di livello 8 persa",
-      "Task35": "Ogni unità di livello 9 persa",
-      "Task36": "Ogni unità di livello 10 persa",
-      "Task37": "Acquista un pacchetto regalo con diamanti (1 diamante)"
+      "Task1": {
+        "Title": "Invia una volta un camion leggendario (~200.000 punti):",
+        "Description": "I camion commerciali possono essere di tipo diverso e quindi contenere ricompense diverse. Puoi modificare il loro contenuto utilizzando il Contratto Commerciale. Per usarli, vai alla sezione per inviare un camion. Se visualizzi l'anteprima del contenuto in alto a destra, troverai un pulsante con un dado. Per ottenere la versione 'leggendaria', devi aggiornare molte volte fino a vedere lo sfondo giallo e la scritta 'UR' sul lato sinistro."
+      },
+      "Task2": {
+        "Title": "Completa una missione segreta leggendaria (~150.000 punti):",
+        "Description": "Nel gruppo mobile segreto troverai attività di vari tipi e livelli. Usa il pulsante 'Aggiorna' in basso per cambiare le missioni attuali (consumando 1 oggetto di missione segreta, il 'Comando Segreto'). Cerca le missioni con il quadrato giallo/oro e avviale. Se durante la settimana hai conservato oggetti di missione segreta, puoi avviare tutte le missioni leggendarie in questo giorno."
+      },
+      "Task3": {
+        "Title": "Usa un potenziamento della costruzione di 1 minuto (~120 punti):",
+        "Description": "Usa un potenziamento della costruzione (quelli generici sono accettabili, qualsiasi durata è possibile)."
+      },
+      "Task4": {
+        "Title": "Usa un potenziamento della ricerca di 1 minuto (~120 punti):",
+        "Description": "Usa un potenziamento della ricerca (quelli generici sono accettabili, qualsiasi durata è possibile)."
+      },
+      "Task5": {
+        "Title": "Usa un potenziamento dell'addestramento di 1 minuto (~122 punti):",
+        "Description": "Usa un potenziamento dell'addestramento (quelli generici sono accettabili, qualsiasi durata è possibile). I punti vengono assegnati anche quando alleni un soldato per aumentare il suo livello. È in effetti meglio preparare molti soldati a basso livello prima di questo giorno e poi farli salire di livello, poiché i punti vengono assegnati in base al livello del soldato in arrivo."
+      },
+      "Task6": {
+        "Title": "Usa un potenziamento della guarigione di 1 minuto (~122 punti):",
+        "Description": "Usa un potenziamento della guarigione."
+      },
+      "Task7": {
+        "Title": "Ogni unità nemica di livello 1/2/3/4/5/6/7/8/9/10 uccisa dà ~25/38/50/63/75/88/100/113/125/138 punti:",
+        "Description": "Questi punti vengono assegnati ogni volta che uccidi un soldato dell'alleanza nemica in un duello. Usa il teletrasporto (simbolo Duello contro un avversario -> Attacchi alleanza -> Attacco) per accedere al server del tuo avversario e uccidere quanti più soldati possibile che attaccano le basi della tua alleanza nemica. Se un nemico ha rimosso le truppe dalla difesa, non puoi guadagnare punti su quella base. Pertanto, esplora prima e attacca solo quelli che sono ancora in difesa."
+      },
+      "Task8": {
+        "Title": "Ogni unità uccisa di livello 1/2/3/4/5/6/7/8/9/10 dà ~5/8/10/13/15/18/20/23/25/28 punti:",
+        "Description": "Questi punti vengono assegnati ogni volta che uccidi un soldato di un'altra alleanza su un altro server, diverso dall'alleanza del tuo avversario nel duello VS, per la quale i punti nel paragrafo precedente si applicano. È meglio cercare sempre di uccidere soldati della tua alleanza nemica nel duello VS, poiché ciò dà cinque volte più punti. Tuttavia, se sono schermati o non hanno truppe, puoi anche uccidere soldati di altre alleanze su questo server. Questo richiederà più tempo e colpi per ottenere lo stesso numero di punti."
+      },
+      "Task9": {
+        "Title": "Ogni unità persa di livello 1/2/3/4/5/6/7/8/9/10 dà ~6/8/10/12/14/16/18/20 punti:",
+        "Description": "Indipendentemente dal fatto che tu stia attaccando o difendendo, ogni volta che un tuo soldato viene ucciso, ricevi questo numero di punti. Se devi accumulare punti alla fine di un duello per aprire casse e la tua alleanza vince chiaramente il gioco, potresti considerare di sacrificare alcune delle tue truppe per attaccare una sede di livello più alto, se sono disponibili solo quelle. In questo modo, puoi perdere unità e guadagnare punti."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Sovrapposizione con la Corsa agli Armamenti",
+      "Day1": {
+        "Title": "Ci sono due sovrapposizioni, quindi consiglio di completare le attività durante le rispettive fasi:",
+        "Overlap1": {
+          "Title": "Fase Potenziamento Droni:",
+          "Description": "Consuma una resistenza.",
+          "Description2": "Usa 10 punti dati di combattimento dei droni."
+        },
+        "Overlap2": {
+          "Title": "Fase Avanzamento Eroi:",
+          "Description": "Usa 2000 punti EXP."
+        }
+      },
+      "Day2": {
+        "Title": "Le seguenti attività si sovrappongono alla fase di costruzione della città della Corsa agli Armamenti. Ti consiglio di completare queste attività durante questa fase:",
+        "Overlap1": {
+          "Description": "Usa un potenziamento della costruzione di 1 minuto.",
+          "Description2": "Aumenta la potenza di costruzione di 1 punto."
+        }
+      },
+      "Day3": {
+        "Title": "Le seguenti attività si sovrappongono alla fase di ricerca tecnologica della Corsa agli Armamenti. Ti consiglio di completare queste attività durante questa fase:",
+        "Overlap1": {
+          "Description": "Usa un potenziamento della ricerca di 1 minuto.",
+          "Description2": "Aumenta la performance tecnologica di 1 punto."
+        }
+      },
+      "Day4": {
+        "Title": "Le seguenti attività si sovrappongono alla fase di sviluppo degli eroi della Corsa agli Armamenti. Ti consiglio di completare queste attività durante questa fase:",
+        "Overlap1": {
+          "Description": "Completa 1 reclutamento avanzato.",
+          "Description2": "Usa 2000 punti EXP."
+        }
+      },
+      "Day5": {
+        "Title": "Ci sono tre sovrapposizioni. Ti consiglio di completare le attività durante le rispettive fasi:",
+        "Overlap1": {
+          "Title": "Fase Costruzione della Città:",
+          "Description": "Usa un potenziamento della costruzione di 1 minuto.",
+          "Description2": "Aumenta la potenza di costruzione di 1 punto."
+        },
+        "Overlap2": {
+          "Title": "Fase Ricerca Tecnologica:",
+          "Description": "Usa un potenziamento della ricerca di 1 minuto.",
+          "Description2": "Aumenta la performance tecnologica di 1 punto."
+        },
+        "Overlap3": {
+          "Title": "Fase Progresso delle Unità:",
+          "Description": "Usa un potenziamento dell'addestramento di 1 minuto.",
+          "Description2": "Addestra un soldato di livello 1/2/3/4/5/6/7/8/9/10."
+        }
+      },
+      "Day6": {
+        "Title": "Ci sono tre sovrapposizioni. Ti consiglio di completare le attività durante le rispettive fasi:",
+        "Overlap1": {
+          "Title": "Fase Costruzione della Città:",
+          "Description": "Usa un potenziamento della costruzione di 1 minuto."
+        },
+        "Overlap2": {
+          "Title": "Fase Ricerca Tecnologica:",
+          "Description": "Usa un potenziamento della ricerca di 1 minuto."
+        },
+        "Overlap3": {
+          "Title": "Fase Progresso delle Unità:",
+          "Description": "Usa un potenziamento dell'addestramento di 1 minuto."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Preparazione Strategica",
+      "Description": "Per alcune attività ci sono punti se completate. Pertanto, puoi iniziarle il giorno prima del momento richiesto e completarle durante la rispettiva fase per ottenere il punteggio massimo. Ecco le fasi e le attività corrispondenti:",
+      "List1": "Nei giorni in cui le missioni radar sono premiate, accumula le missioni il giorno precedente fino al massimo. Questo ti permetterà di ottenere il massimo numero di punti quando le missioni vengono completate il giorno stesso.",
+      "List2": "Nei giorni in cui la raccolta di cibo, ferro o oro porta punti premio, inizia a raccogliere il giorno precedente e assicurati di completare la raccolta il nuovo giorno. Prima della raccolta, verrà mostrato quanto ti serve per ottenere il punteggio massimo.",
+      "List3": "Nei giorni in cui il miglioramento degli edifici porta punti basati sul loro incremento di prestazioni, è vantaggioso migliorare più edifici nei giorni precedenti e lasciarli nello stato di confezionamento del regalo. La performance degli edifici verrà aumentata solo quando apri il pacchetto regalo e in quel momento verranno assegnati anche i punti per il duello.",
+      "List4": "Nei giorni in cui la ricerca porta punti, inizia una lunga ricerca il giorno precedente, così che la ricerca si completi in questi giorni. I punti vengono assegnati quando clicchi sul simbolo per la ricerca completata.",
+      "List5": "Non aprire la cassa con il chip dati dei droni e i componenti quando sono nell'inventario, poiché ottieni punti tramite queste attività nei giorni 1 e 3.",
+      "FightDay": {
+        "Title": "Preparazione per il Giorno del Combattimento",
+        "Description": "Nel giorno finale del duello ci sono punti per l'uccisione delle truppe del tuo avversario, quindi è importante prepararsi per questo giorno.",
+        "AttackPreparation": {
+          "Title": "Preparazione per l'Attacco",
+          "List1": "Durante la settimana, cerca di portare la caserma al livello più alto possibile per sbloccare l'addestramento di truppe di livello superiore. Questo ti permetterà di guadagnare punti più efficientemente addestrando soldati di livello più alto.",
+          "List2": "Addestra quante più truppe possibile, poiché ne avrai bisogno durante la guerra. Usa i tuoi potenziamenti dell'addestramento meglio il giorno 5 per massimizzare i punti.",
+          "List3": "Acquista potenziamenti dell'addestramento e della guarigione. Questi possono aiutarti a completare l'addestramento e la guarigione delle tue truppe più rapidamente, il che è particolarmente importante per rimanere efficienti nelle fasi cruciali della guerra."
+        },
+        "DefensePreparation": {
+          "Title": "Preparazione per la Difesa",
+          "List1": "Acquista scudi (o risparmia risorse per acquistarli) per usarli durante le 24 ore dell'ultimo giorno. Altrimenti, avrai bisogno di 1500 diamanti per uno scudo di 8 ore.",
+          "List2": "Rimuovi le truppe dalla tua configurazione difensiva in modo da subire perdite minori in caso di attacco, rispetto alle perdite che subiresti con una difesa attiva. Per fare ciò, vai alla tua base, clicca sul muro e vai alla configurazione difensiva. Rimuovi i segni di spunta dalle truppe per toglierle dalla configurazione difensiva."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Ricompensa",
+      "Description": "Per ogni attività richiesta durante il duello ricevi una certa quantità di punti. Questo rendimento di punti può essere ulteriormente aumentato tramite ricerche nella sezione 'Duello dell'Alleanza'. Per effettuare tali ricerche, hai bisogno di medaglie di coraggio, che puoi ottenere solo aprendo casse nel duello."
     },
     "GeneralTips": {
       "Title": "Suggerimenti Generali:",
