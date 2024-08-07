@@ -133,7 +133,8 @@
     "Alliances": "Alliances",
     "Basics": "Bases",
     "TipsAndTricks": "Conseils/Trucs",
-    "Buildings": "Bâtiments"
+    "Buildings": "Bâtiments",
+    "Squad": "Équipe"
   },
   "VS": {
     "Title": "Duel VS",
@@ -736,6 +737,45 @@
     "PasswordExpired": {
       "Title": "Mot de passe expiré",
       "Information": "Le mot de passe a changé"
+    }
+  },
+  "Squad": {
+    "Title": "Équipe",
+    "Description": "Pour maximiser la puissance de vos héros, vous devez optimiser la configuration de votre équipe.",
+    "Basics": {
+      "Title": "Principes de base de la configuration de l'équipe",
+      "Description": "Chaque héros a son propre type, ses propres compétences et des caractéristiques spéciales.",
+      "Defend": {
+        "Title": "Héros de Défense",
+        "Description": "doivent être placés à l'avant de l'équipe."
+      },
+      "Attack": {
+        "Title": "Héros d'Attaque",
+        "Description": "doivent être placés à l'arrière."
+      },
+      "Support": {
+        "Title": "Héros de Soutien",
+        "Description": "doivent être placés à l'arrière."
+      }
+    },
+    "Example": {
+      "Title": "Exemple d'une équipe",
+      "List1": "<b>Violet</b> et <b>Scarlett</b> en défense et donc à l'avant",
+      "List2": "<b>Mason</b> et <b>Richard</b> attaquent et donc sont placés à l'arrière",
+      "List3": "un héros de soutien, <b>Monica</b>, à l'arrière-plan",
+      "Image": "Héros de défense à l'avant, héros d'attaque et de soutien à l'arrière pour un positionnement optimal."
+    },
+    "FormationBonus": {
+      "Title": "Bonus de Formation",
+      "Description": "Le bonus que vous utilisez actuellement peut être vu sur le symbole en haut à gauche de la zone de configuration de l'équipe.",
+      "Image": "<ul><li>3 héros du même type : +5 %</li><li>3 héros du même type + 2 d'un autre : +10 %</li><li>4 héros du même type : +15 %</li><li>5 héros du même type : 20 %</li></ul>",
+      "Description2": "Si vous avez tous les héros du même type (dans l'exemple ci-dessus, tous des tanks), vous recevrez un bonus de puissance de 20 %. De plus, améliorer le bâtiment de tanks augmente la puissance de tous les héros tanks."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Troupes et Soldats",
+      "Description": "Lors de la réalisation d'une attaque ou d'une rallye avec une équipe, des soldats sont ajoutés à la force de base des héros. Le nombre de soldats impliqués dans l'attaque dépend de l'attribut de commandement des héros dans l'équipe.",
+      "Image": "Dans l'exemple, vous pouvez voir que le nombre d'unités (soldats) impliquées dans l'attaque est de 1 965 (393 avec Murphy, 393 avec Williams, etc.), et en cliquant sur le i, vous obtenez des informations indiquant qu'il s'agit de soldats de niveau T6 et T7.",
+      "Description2": "Notez que, si disponible, les soldats de niveaux plus élevés sont toujours utilisés en premier, puis ceux de niveaux inférieurs sont utilisés pour compléter."
     }
   }
 }

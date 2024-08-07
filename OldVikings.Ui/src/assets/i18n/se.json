@@ -133,7 +133,8 @@
     "Alliances": "Allianser",
     "Basics": "Grunder",
     "TipsAndTricks": "Tips och tricks",
-    "Buildings": "Byggnader"
+    "Buildings": "Byggnader",
+    "Squad": "Team"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -740,6 +741,45 @@
     "PasswordExpired": {
       "Title": "Lösenordet har gått ut",
       "Information": "Lösenordet har ändrats"
+    }
+  },
+  "Squad": {
+    "Title": "Team",
+    "Description": "För att maximera dina hjältars kraft bör du optimera din teamuppställning.",
+    "Basics": {
+      "Title": "Grundläggande om teamuppställning",
+      "Description": "Varje hjälte har sin egen typ, sina egna förmågor och speciella egenskaper.",
+      "Defend": {
+        "Title": "Försvarshjältar",
+        "Description": "bör placeras längst fram i laget."
+      },
+      "Attack": {
+        "Title": "Angreppshjältar",
+        "Description": "bör placeras längst bak."
+      },
+      "Support": {
+        "Title": "Stödjande Hjältar",
+        "Description": "bör placeras längst bak."
+      }
+    },
+    "Example": {
+      "Title": "Exempel på ett team",
+      "List1": "<b>Violet</b> och <b>Scarlett</b> i försvar och därmed längst fram",
+      "List2": "<b>Mason</b> och <b>Richard</b> attackerar och placeras därför längst bak",
+      "List3": "en stödjande hjälte, <b>Monica</b>, i bakgrunden",
+      "Image": "Försvarshjältar längst fram, angrepps- och stödjande hjältar längst bak för optimal positionering."
+    },
+    "FormationBonus": {
+      "Title": "Formationsbonus",
+      "Description": "Vilken bonus du för närvarande använder kan ses på symbolen uppe till vänster i teamuppställningsområdet.",
+      "Image": "<ul><li>3 hjältar av samma typ: +5 %</li><li>3 hjältar av samma typ + 2 av en annan: +10 %</li><li>4 hjältar av samma typ: +15 %</li><li>5 hjältar av samma typ: 20 %</li></ul>",
+      "Description2": "Om du har alla hjältar av samma typ (i exemplet ovan, alla tanks), får du en kraftbonus på 20 %. Dessutom, att uppgradera tankbyggnaden ökar kraften hos alla tankhjältar."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Trupper och Soldater",
+      "Description": "När du genomför ett angrepp eller en rally med ett team läggs soldater till hjältarnas grundstyrka. Antalet soldater som är inblandade i angreppet beror på kommandotypen hos hjältarna i teamet.",
+      "Image": "I exemplet kan du se att antalet enheter (soldater) som är inblandade i angreppet är 1 965 (393 med Murphy, 393 med Williams, osv.), och genom att klicka på i visas information som visar att det är soldater av nivå T6 och T7.",
+      "Description2": "Notera att, om tillgängligt, soldater med högre nivåer alltid används först, och sedan används soldater med lägre nivåer för att fylla på."
     }
   }
 }

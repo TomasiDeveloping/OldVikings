@@ -133,7 +133,8 @@
     "Alliances": "Alianzas",
     "Basics": "Conceptos Básicos",
     "TipsAndTricks": "Consejos/Trucos",
-    "Buildings": "Edificios"
+    "Buildings": "Edificios",
+    "Squad": "Escuadra"
   },
   "VS": {
     "Title": "Duelo VS",
@@ -740,6 +741,45 @@
     "PasswordExpired": {
       "Title": "Contraseña expirada",
       "Information": "La contraseña ha cambiado"
+    }
+  },
+  "Squad": {
+    "Title": "Escuadra",
+    "Description": "Para maximizar el poder de tus héroes, deberías optimizar la disposición de tu escuadra.",
+    "Basics": {
+      "Title": "Fundamentos de la disposición de la escuadra",
+      "Description": "Cada héroe tiene su propio tipo, habilidades y características especiales.",
+      "Defend": {
+        "Title": "Héroes de Defensa",
+        "Description": "deberían colocarse en la parte delantera del equipo."
+      },
+      "Attack": {
+        "Title": "Héroes de Ataque",
+        "Description": "deberían colocarse en la parte trasera."
+      },
+      "Support": {
+        "Title": "Héroes de Apoyo",
+        "Description": "deberían colocarse en la parte trasera."
+      }
+    },
+    "Example": {
+      "Title": "Ejemplo de una escuadra",
+      "List1": "<b>Violet</b> y <b>Scarlett</b> en defensa y, por lo tanto, en la parte delantera",
+      "List2": "<b>Mason</b> y <b>Richard</b> están atacando y, por lo tanto, se colocan en la parte trasera",
+      "List3": "un héroe de apoyo, <b>Monica</b>, en el fondo",
+      "Image": "Héroes de defensa al frente, héroes de ataque y apoyo en la parte trasera para una disposición óptima."
+    },
+    "FormationBonus": {
+      "Title": "Bonificación de Formación",
+      "Description": "La bonificación que estás usando actualmente se puede ver en el símbolo en la esquina superior izquierda del área de disposición de la escuadra.",
+      "Image": "<ul><li>3 héroes del mismo tipo: +5 %</li><li>3 héroes del mismo tipo + 2 de otro: +10 %</li><li>4 héroes del mismo tipo: +15 %</li><li>5 héroes del mismo tipo: 20 %</li></ul>",
+      "Description2": "Si tienes todos los héroes del mismo tipo (en el ejemplo anterior, todos tanques), recibirás una bonificación de poder del 20 %. Además, mejorar el edificio de tanques aumenta el poder de todos los héroes tanque."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Tropas y Soldados",
+      "Description": "Cuando llevas a cabo un ataque o una rally con un equipo, se añaden soldados a la fuerza base de los héroes. El número de soldados involucrados en el ataque depende del atributo de mando de los héroes en el equipo.",
+      "Image": "En el ejemplo, puedes ver que el número de unidades (soldados) involucradas en el ataque es 1.965 (393 con Murphy, 393 con Williams, etc.), y al hacer clic en la i, se muestra la información de que se trata de soldados de nivel T6 y T7.",
+      "Description2": "Ten en cuenta que, si está disponible, siempre se utilizan primero los soldados de niveles más altos, y luego se utilizan los de niveles más bajos para completar."
     }
   }
 }

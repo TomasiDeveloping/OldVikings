@@ -1,0 +1,77 @@
+<div class="container pb-5">
+  <h3 class="custom-font mt-3 text-center">{{ 'Squad.Title' | translate }}</h3>
+  <hr>
+
+  <section>
+    <p>{{ 'Squad.Description' | translate }}</p>
+    <h5>{{ 'Squad.Basics.Title' | translate }}</h5>
+    <p>{{ 'Squad.Basics.Description' | translate }}</p>
+
+    <div class="flex-container">
+      <div class="text"><b>{{ 'Squad.Basics.Defend.Title' | translate }}</b></div>
+      <div class="image-container">
+        <img alt="Bild" class="image" src="assets/images/squad/hero-defender.png">
+      </div>
+      <div class="text-column">
+        <div class="text">{{ 'Squad.Basics.Defend.Description' | translate }}</div>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="text"><b>{{ 'Squad.Basics.Attack.Title' | translate }}</b></div>
+      <div class="image-container">
+        <img alt="Bild" class="image" src="assets/images/squad/hero-attacker.png">
+      </div>
+      <div class="text-column">
+        <div class="text">{{ 'Squad.Basics.Attack.Description' | translate }}</div>
+      </div>
+    </div>
+    <div class="flex-container">
+      <div class="text"><b>{{ 'Squad.Basics.Support.Title' | translate }}</b></div>
+      <div class="image-container">
+        <img alt="Bild" class="image" src="assets/images/squad/hero-support.png">
+      </div>
+      <div class="text-column">
+        <div class="text">{{ 'Squad.Basics.Support.Description' | translate }}</div>
+      </div>
+    </div>
+    <h6>{{ 'Squad.Example.Title' | translate }}</h6>
+    <ul>
+      <li [innerHTML]="'Squad.Example.List1' | translate"></li>
+      <li [innerHTML]="'Squad.Example.List2' | translate"></li>
+      <li [innerHTML]="'Squad.Example.List3' | translate"></li>
+    </ul>
+    <div class="image-text-container">
+      <small [innerHTML]="'Squad.Example.Image' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/squad/squad3.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <hr>
+    <h5>{{ 'Squad.FormationBonus.Title' | translate }}</h5>
+    <p>{{ 'Squad.FormationBonus.Description' | translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'Squad.FormationBonus.Image' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/squad/squad2.jpg">
+      </div>
+    </div>
+    <p>{{ 'Squad.FormationBonus.Description2' | translate }}</p>
+  </section>
+
+  <section>
+    <hr>
+    <h5>{{ 'Squad.TroopsAndSoldiers.Title' | translate }}</h5>
+    <p>{{ 'Squad.TroopsAndSoldiers.Description' | translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'Squad.TroopsAndSoldiers.Image' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/squad/squad.jpg">
+      </div>
+    </div>
+    <p>{{ 'Squad.TroopsAndSoldiers.Description2' | translate }}</p>
+  </section>
+
+</div>

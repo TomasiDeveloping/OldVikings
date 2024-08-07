@@ -10,6 +10,7 @@ import {TipsAndTricksComponent} from "./pages/tips-and-tricks/tips-and-tricks.co
 import {BuildingsComponent} from "./pages/buildings/buildings.component";
 import {MemberLoginComponent} from "./auth/member-login/member-login.component";
 import {memberGuard} from "./guards/member.guard";
+import {SquadComponent} from "./pages/squad/squad.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'basics', component: BasicsComponent},
   {path: 'tips-and-tricks', component: TipsAndTricksComponent, canActivate: [memberGuard]},
   {path: 'buildings', component: BuildingsComponent, canActivate: [memberGuard]},
+  {path: 'squad', component: SquadComponent},
   {path: 'member-login', component: MemberLoginComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];

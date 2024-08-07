@@ -133,7 +133,8 @@
     "Alliances": "Alliances",
     "Basics": "Basics",
     "TipsAndTricks": "Tips/Tricks",
-    "Buildings": "Buildings"
+    "Buildings": "Buildings",
+    "Squad": "Squad"
   },
   "VS": {
     "Title": "VS Duel",
@@ -740,6 +741,45 @@
     "PasswordExpired": {
       "Title": "Password expired",
       "Information": "The password has changed"
+    }
+  },
+  "Squad": {
+    "Title": "Squad",
+    "Description": "To maximize your heroes' power, you should optimize your squad setup.",
+    "Basics": {
+      "Title": "Basics of Squad Setup",
+      "Description": "Each hero has their own type, abilities, and special characteristics.",
+      "Defend": {
+        "Title": "Defensive Heroes",
+        "Description": "should be placed at the front of the team."
+      },
+      "Attack": {
+        "Title": "Offensive Heroes",
+        "Description": "should be placed at the back."
+      },
+      "Support": {
+        "Title": "Support Heroes",
+        "Description": "should be placed at the back."
+      }
+    },
+    "Example": {
+      "Title": "Example of a Squad",
+      "List1": "<b>Violet</b> and <b>Scarlett</b> in defense and thus at the front",
+      "List2": "<b>Mason</b> and <b>Richard</b> are attacking and therefore placed at the back",
+      "List3": "a support hero, <b>Monica</b>, in the background",
+      "Image": "Defensive heroes at the front, offensive and support heroes at the back for optimal positioning."
+    },
+    "FormationBonus": {
+      "Title": "Formation Bonus",
+      "Description": "The bonus you are currently using can be seen on the symbol in the top left of the squad setup area.",
+      "Image": "<ul><li>3 heroes of the same type: +5 %</li><li>3 heroes of the same type + 2 of another: +10 %</li><li>4 heroes of the same type: +15 %</li><li>5 heroes of the same type: 20 %</li></ul>",
+      "Description2": "If you have all heroes of the same type (in the example above, all tanks), you receive a power bonus of 20 %. Additionally, upgrading the tank building increases the power of all tank heroes."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Troops and Soldiers",
+      "Description": "When carrying out an attack or rally with a team, soldiers are added to the base strength of the heroes. The number of soldiers involved in the attack depends on the command attribute of the heroes in the team.",
+      "Image": "In the example, you can see that the number of units (soldiers) involved in the attack is 1,965 (393 with Murphy, 393 with Williams, etc.), and by clicking on the i, it shows the information that these are soldiers of level T6 and T7.",
+      "Description2": "Note that, if available, soldiers with higher levels are always used first, and then those with lower levels are used to fill in."
     }
   }
 }

@@ -24,6 +24,7 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {NgxSpinnerModule} from "ngx-spinner";
 import {spinnerInterceptor} from "./interceptors/spinner.interceptor";
 import { MemberLoginComponent } from './auth/member-login/member-login.component';
+import { SquadComponent } from './pages/squad/squad.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -44,7 +45,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BuildingsComponent,
     HeadqartersTableComponent,
     GreetingModalComponent,
-    MemberLoginComponent
+    MemberLoginComponent,
+    SquadComponent
   ],
   imports: [
     BrowserModule,

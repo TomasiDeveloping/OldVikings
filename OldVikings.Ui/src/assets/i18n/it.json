@@ -133,7 +133,8 @@
     "Alliances": "Alleanze",
     "Basics": "Fondamenti",
     "TipsAndTricks": "Suggerimenti/Trucchi",
-    "Buildings": "Edifici"
+    "Buildings": "Edifici",
+    "Squad": "Squadra"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -736,6 +737,45 @@
     "PasswordExpired": {
       "Title": "Password scaduta",
       "Information": "La password è stata modificata"
+    }
+  },
+  "Squad": {
+    "Title": "Squadra",
+    "Description": "Per massimizzare il potere dei tuoi eroi, dovresti ottimizzare la disposizione della tua squadra.",
+    "Basics": {
+      "Title": "Fondamenti della disposizione della squadra",
+      "Description": "Ogni eroe ha il proprio tipo, le proprie abilità e caratteristiche speciali.",
+      "Defend": {
+        "Title": "Eroi Difensivi",
+        "Description": "dovrebbero essere collocati nella parte anteriore della squadra."
+      },
+      "Attack": {
+        "Title": "Eroi Offensivi",
+        "Description": "dovrebbero essere collocati nella parte posteriore."
+      },
+      "Support": {
+        "Title": "Eroi di Supporto",
+        "Description": "dovrebbero essere collocati nella parte posteriore."
+      }
+    },
+    "Example": {
+      "Title": "Esempio di una squadra",
+      "List1": "<b>Violet</b> e <b>Scarlett</b> in difesa e quindi in prima linea",
+      "List2": "<b>Mason</b> e <b>Richard</b> attaccano e quindi sono posizionati dietro",
+      "List3": "un eroe di supporto, <b>Monica</b>, sullo sfondo",
+      "Image": "Eroi difensivi davanti, eroi offensivi e di supporto dietro per una disposizione ottimale."
+    },
+    "FormationBonus": {
+      "Title": "Bonus di Formazione",
+      "Description": "Il bonus che stai attualmente utilizzando può essere visto sull'icona in alto a sinistra nell'area di disposizione della squadra.",
+      "Image": "<ul><li>3 eroi dello stesso tipo: +5 %</li><li>3 eroi dello stesso tipo + 2 di un altro: +10 %</li><li>4 eroi dello stesso tipo: +15 %</li><li>5 eroi dello stesso tipo: 20 %</li></ul>",
+      "Description2": "Se hai tutti gli eroi dello stesso tipo (nell'esempio sopra, tutti tank), ricevi un bonus di potenza del 20 %. Inoltre, migliorare l'edificio dei tank aumenta la potenza di tutti gli eroi tank."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Truppe e Soldati",
+      "Description": "Quando esegui un attacco o una rally con una squadra, i soldati vengono aggiunti alla forza base degli eroi. Il numero di soldati coinvolti nell'attacco dipende dall'attributo di comando degli eroi nella squadra.",
+      "Image": "Nell'esempio, puoi vedere che il numero di unità (soldati) coinvolti nell'attacco è 1.965 (393 con Murphy, 393 con Williams, ecc.), e cliccando sull'icona i vengono mostrate informazioni che indicano che si tratta di soldati di livello T6 e T7.",
+      "Description2": "Nota che, se disponibili, vengono sempre utilizzati prima i soldati di livello più alto, e poi quelli di livello inferiore vengono utilizzati per riempire."
     }
   }
 }

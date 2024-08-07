@@ -51,6 +51,11 @@
         </li>
 
         <li class="nav-item">
+          <a (click)="isShown = false" class="nav-link" routerLink="/squad" routerLinkActive="active">{{'Navigation.Squad' | translate}}
+          </a>
+        </li>
+
+        <li class="nav-item">
           <a (click)="isShown = false" class="nav-link" routerLink="/vs" routerLinkActive="active">{{'Navigation.VS' | translate}}
           </a>
         </li>

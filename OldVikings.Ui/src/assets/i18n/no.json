@@ -133,7 +133,8 @@
     "Alliances": "Allianser",
     "Basics": "Grunnleggende",
     "TipsAndTricks": "Tips/Triks",
-    "Buildings": "Bygninger"
+    "Buildings": "Bygninger",
+    "Squad": "Lag"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -736,6 +737,45 @@
     "PasswordExpired": {
       "Title": "Passord utløpt",
       "Information": "Passordet har blitt endret"
+    }
+  },
+  "Squad": {
+    "Title": "Lag",
+    "Description": "For å maksimere kraften til heltene dine, bør du optimalisere lagoppsettet ditt.",
+    "Basics": {
+      "Title": "Grunnleggende om lagoppsett",
+      "Description": "Hver helt har sin egen type, ferdigheter og spesielle egenskaper.",
+      "Defend": {
+        "Title": "Forsvarshold",
+        "Description": "bør plasseres foran i laget."
+      },
+      "Attack": {
+        "Title": "Angrepshelter",
+        "Description": "bør plasseres bak."
+      },
+      "Support": {
+        "Title": "Støttehelter",
+        "Description": "bør plasseres bak."
+      }
+    },
+    "Example": {
+      "Title": "Eksempel på et lag",
+      "List1": "<b>Violet</b> og <b>Scarlett</b> i forsvar og derfor foran",
+      "List2": "<b>Mason</b> og <b>Richard</b> angriper og derfor plasseres bak",
+      "List3": "en støttehelt, <b>Monica</b>, i bakgrunnen",
+      "Image": "Forsvarshold foran, angreps- og støttehelter bak for optimal posisjonering."
+    },
+    "FormationBonus": {
+      "Title": "Formasjonsbonus",
+      "Description": "Hvilken bonus du bruker for øyeblikket kan sees på symbolet øverst til venstre i lagoppsettingsområdet.",
+      "Image": "<ul><li>3 helter av samme type: +5 %</li><li>3 helter av samme type + 2 av en annen: +10 %</li><li>4 helter av samme type: +15 %</li><li>5 helter av samme type: 20 %</li></ul>",
+      "Description2": "Hvis du har alle helter av samme type (i eksempelet ovenfor, alle tanks), får du en kraftbonus på 20 %. I tillegg vil oppgradering av tankbygningen øke styrken til alle tankhelter."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Tropper og Soldater",
+      "Description": "Når du utfører et angrep eller en rally med et lag, blir soldater lagt til heltenes grunnstyrke. Antallet soldater som deltar i angrepet avhenger av kommandokarakteristikken til heltene i laget.",
+      "Image": "I eksempelet kan du se at antall enheter (soldater) som deltar i angrepet er 1.965 (393 med Murphy, 393 med Williams, osv.), og ved å klikke på i vises informasjon som viser at det er soldater på nivå T6 og T7.",
+      "Description2": "Merk at, dersom tilgjengelig, soldater med høyere nivåer alltid brukes først, og deretter benyttes soldater med lavere nivåer for å fylle opp."
     }
   }
 }

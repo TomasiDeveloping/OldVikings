@@ -133,7 +133,8 @@
     "Alliances": "Alliancer",
     "Basics": "Grundlæggende",
     "TipsAndTricks": "Tips/Tricks",
-    "Buildings": "Bygninger"
+    "Buildings": "Bygninger",
+    "Squad": "Enhed"
   },
   "VS": {
     "Title": "VS Duel",
@@ -740,6 +741,45 @@
     "PasswordExpired": {
       "Title": "Adgangskode udløbet",
       "Information": "Adgangskoden er blevet ændret"
+    }
+  },
+  "Squad": {
+    "Title": "Enhed",
+    "Description": "For at maksimere dine heltes styrke bør du optimere din enheds opstilling.",
+    "Basics": {
+      "Title": "Grundlæggende om enhedsopstilling",
+      "Description": "Hver helt har sin egen type, sine egne færdigheder og særlige egenskaber.",
+      "Defend": {
+        "Title": "Forsvarshjul",
+        "Description": "bør placeres foran i teamet."
+      },
+      "Attack": {
+        "Title": "Angrebshelte",
+        "Description": "bør placeres bagved."
+      },
+      "Support": {
+        "Title": "Støttehelte",
+        "Description": "bør placeres bagved."
+      }
+    },
+    "Example": {
+      "Title": "Eksempel på en enhed",
+      "List1": "<b>Violet</b> og <b>Scarlett</b> i forsvar og dermed i front",
+      "List2": "<b>Mason</b> og <b>Richard</b> angriber og derfor placeres de bagved",
+      "List3": "en støttehelt, <b>Monica</b>, i baggrunden",
+      "Image": "Forsvarshjul foran, angrebs- og støttehelte bagved for optimal placering."
+    },
+    "FormationBonus": {
+      "Title": "Formation Bonus",
+      "Description": "Hvilken bonus du aktuelt bruger, kan ses på symbolet øverst til venstre i enhedsopstillingsområdet.",
+      "Image": "<ul><li>3 helte af samme type: +5 %</li><li>3 helte af samme type + 2 af en anden: +10 %</li><li>4 helte af samme type: +15 %</li><li>5 helte af samme type: 20 %</li></ul>",
+      "Description2": "Hvis du har alle helte af samme type (i det ovenstående eksempel alt tank), får du en styrkebonus på 20 %. Hvis du desuden opgraderer tankbygningen, øger det styrken af alle tankhelte."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Enheder og Soldater",
+      "Description": "Når du gennemfører et angreb eller en rally med et team, tilføjes soldater til heltenes grundstyrke. Antallet af soldater involveret i angrebet afhænger af kommandokarakteristikken af de helte, der er i teamet.",
+      "Image": "I eksemplet kan du se, at antallet af enheder (soldater) involveret i angrebet er 1.965 (393 hos Murphy, 393 hos Williams osv.), og ved at klikke på i vises informationen om, at det er soldater af niveau T6 og T7.",
+      "Description2": "Bemærk, at hvis det er muligt, altid først anvendes soldater med højere niveauer, og derefter dem med lavere niveauer anvendes til at fylde op."
     }
   }
 }

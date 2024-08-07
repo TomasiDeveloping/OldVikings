@@ -133,7 +133,8 @@
     "Alliances": "Allianz",
     "Basics": "Grundlagen",
     "TipsAndTricks": "Tipps/Tricks",
-    "Buildings": "Gebäude"
+    "Buildings": "Gebäude",
+    "Squad": "Truppe"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -736,6 +737,45 @@
     "PasswordExpired": {
       "Title": "Paswort abgelaufen",
       "Information": "Das Passwort hat sich geändert"
+    }
+  },
+  "Squad": {
+    "Title": "Truppe",
+    "Description": "Um die Macht Ihrer Helden zu maximieren, sollten Sie Ihre Trupps optimal aufstellen",
+    "Basics": {
+      "Title": "Grundlagen der Truppaufstellung",
+      "Description": "Jeder Held hat seinen eigenen Typ, seine eigenen Fähigkeiten und besondere Merkmale.",
+      "Defend": {
+        "Title": "Verteidigungshelden",
+        "Description": "sollten an der Vorderseite des Teams platziert werden."
+      },
+      "Attack": {
+        "Title": "Angriffshelden",
+        "Description": "sollten hinten platziert werden."
+      },
+      "Support": {
+        "Title": "Unterstützungshelden",
+        "Description": "sollten hinten platziert werden."
+      }
+    },
+    "Example": {
+      "Title": "Beispiel für ein Trupp",
+      "List1": "<b>Violet</b> und <b>Scarlett</b> in der Verteidigung und damit an vordester Front",
+      "List2": "<b>Mason</b> und <b>Richard</b> greifen an und deshalb stellt man sie nach hinten",
+      "List3": "ein Support-Held, <b>Monica</b>, im Hintergrund",
+      "Image": "Verteidigungshelden vorne, Angriffs- und Unterstützungshelden hinten für optimale Positionierung."
+    },
+    "FormationBonus": {
+      "Title": "Formationsbonus",
+      "Description": "Welchen Bonus Du aktuell nutzt, erkennst Du am Symbol oben links im Bereich Truppaufstellung",
+      "Image": "<ul><li>3 Helden des gleichen Typs: +5 %</li><li>3 Helden des gleichen Typs + 2 eines anderen: +10 %</li><li>4 Helden des gleichen Typs: +15 %</li><li>5 Helden des gleichen Typs: 20 %</li></ul>",
+      "Description2": "Wenn Sie alle Helden des gleichen Typs haben (im Beispiel oben alles Panzer), dann bekommen Sie einen Kraftbonus von 20 %. Wenn Sie außerdem das Panzergebäude aufrüsten, erhöht das die Kraft aller Panzerhelden."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Trupps und Soldaten",
+      "Description": "Bei der Durchführung eines Angriffs oder einer Rallye mit einem Team werden Soldaten zur Grundstärke der Helden hinzugefügt. Die Anzahl der am Angriff beteiligten Soldaten hängt vom  Befehlsattribut  der im Team enthaltenen Helden ab.",
+      "Image": "Im Beispiel kannst Du sehen, dass die Anzahl der am Angriff beteiligten Einheiten (Soldaten) 1.965 beträgt (393 bei Murphy, 393 bei Williams usw.) und durch Klicken auf das i wird die Information angezeigt, dass es sich um Soldaten der Stufe T6 und T7 handelt.",
+      "Description2": "Beachten Sie, dass, sofern verfügbar, immer zuerst Soldaten mit höheren Levels eingesetzt werden und dann diejenigen mit niedrigeren Levels zum Auffüllen herangezogen werden."
     }
   }
 }

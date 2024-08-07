@@ -133,7 +133,8 @@
     "Alliances": "Alliances",
     "Basics": "Basisprincipes",
     "TipsAndTricks": "Tips/Trucs",
-    "Buildings": "Gebouwen"
+    "Buildings": "Gebouwen",
+    "Squad": "Team"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -736,6 +737,45 @@
     "PasswordExpired": {
       "Title": "Wachtwoord verlopen",
       "Information": "Het wachtwoord is gewijzigd"
+    }
+  },
+  "Squad": {
+    "Title": "Team",
+    "Description": "Om de kracht van je helden te maximaliseren, moet je je teamopstelling optimaliseren.",
+    "Basics": {
+      "Title": "Basisprincipes van teamopstelling",
+      "Description": "Elke held heeft zijn eigen type, vaardigheden en speciale kenmerken.",
+      "Defend": {
+        "Title": "Defensieve Helden",
+        "Description": "moeten aan de voorkant van het team worden geplaatst."
+      },
+      "Attack": {
+        "Title": "Aanvalshelden",
+        "Description": "moeten achterin worden geplaatst."
+      },
+      "Support": {
+        "Title": "Ondersteunende Helden",
+        "Description": "moeten achterin worden geplaatst."
+      }
+    },
+    "Example": {
+      "Title": "Voorbeeld van een team",
+      "List1": "<b>Violet</b> en <b>Scarlett</b> in de verdediging en dus aan de voorkant",
+      "List2": "<b>Mason</b> en <b>Richard</b> vallen aan en worden daarom achterin geplaatst",
+      "List3": "een ondersteunende held, <b>Monica</b>, op de achtergrond",
+      "Image": "Defensieve helden vooraan, aanvals- en ondersteunende helden achteraan voor optimale positionering."
+    },
+    "FormationBonus": {
+      "Title": "Formatiebonus",
+      "Description": "De bonus die je momenteel gebruikt, kan worden gezien op het symbool linksboven in het teamopstellingsgebied.",
+      "Image": "<ul><li>3 helden van hetzelfde type: +5 %</li><li>3 helden van hetzelfde type + 2 van een ander: +10 %</li><li>4 helden van hetzelfde type: +15 %</li><li>5 helden van hetzelfde type: 20 %</li></ul>",
+      "Description2": "Als je alle helden van hetzelfde type hebt (in het bovenstaande voorbeeld allemaal tanks), ontvang je een krachtbonus van 20 %. Bovendien verhoogt het upgraden van het tankgebouw de kracht van alle tankhelden."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Troepen en Soldaten",
+      "Description": "Bij het uitvoeren van een aanval of rally met een team worden soldaten toegevoegd aan de basissterkte van de helden. Het aantal soldaten dat betrokken is bij de aanval hangt af van het commandokenmerk van de helden in het team.",
+      "Image": "In het voorbeeld kun je zien dat het aantal eenheden (soldaten) dat betrokken is bij de aanval 1.965 is (393 bij Murphy, 393 bij Williams, enz.), en door op de i te klikken wordt informatie weergegeven dat het gaat om soldaten van niveau T6 en T7.",
+      "Description2": "Let op dat, indien beschikbaar, altijd eerst soldaten van hogere niveaus worden gebruikt en daarna soldaten van lagere niveaus worden ingezet om aan te vullen."
     }
   }
 }

@@ -1,0 +1,45 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  //padding: 10px;
+}
+
+.text {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.image {
+  height: 2em; /* Ensures the image is twice the size of the text */
+  margin: 5px;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the text vertically if needed */
+  margin: 5px;
+}
+
+/* Ensuring responsiveness */
+@media (max-width: 600px) {
+  .text, .image {
+    margin: 5px;
+    font-size: 14px; /* Optionally adjust text size for smaller screens */
+  }
+
+  .flex-container {
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+  }
+
+  .text-column {
+    margin: 5px 0; /* Adjust margin for small screens */
+  }
+}
