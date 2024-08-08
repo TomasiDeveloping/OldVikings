@@ -134,7 +134,9 @@
     "Basics": "Basics",
     "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Buildings",
-    "Squad": "Squad"
+    "Squad": "Squad",
+    "DesertStorm": "Desert Storm",
+    "SeasonOne": "Season 1"
   },
   "VS": {
     "Title": "VS Duel",
@@ -780,6 +782,282 @@
       "Description": "When carrying out an attack or rally with a team, soldiers are added to the base strength of the heroes. The number of soldiers involved in the attack depends on the command attribute of the heroes in the team.",
       "Image": "In the example, you can see that the number of units (soldiers) involved in the attack is 1,965 (393 with Murphy, 393 with Williams, etc.), and by clicking on the i, it shows the information that these are soldiers of level T6 and T7.",
       "Description2": "Note that, if available, soldiers with higher levels are always used first, and then those with lower levels are used to fill in."
+    }
+  },
+  "SeasonOne": {
+    "Title": "Season 1 – The Purple Plague",
+    "Content": {
+      "Title": "Content",
+      "NewResources": "New Base Resources",
+      "WorldMap": "The World and the Map",
+      "NewBuildings": "New Buildings",
+      "MilitaryBase": "Military Base",
+      "NewFarms": "New Alliance Farms",
+      "MilitaryStrongholds": "Military Strongholds",
+      "Cities": "Cities",
+      "Conquest": "Conquest",
+      "HeroUpgrade": "Hero Upgrades",
+      "Virus": "Virus",
+      "Gameplay": "Gameplay"
+    },
+    "Resources": {
+      "Title": "New Base Resources – Immune Protein, Mutant Crystal, and Gene Fragment",
+      "Description": "New resources are now available in the game, with 2 of them (Immune Protein and Mutant Crystal) being managed similarly to existing resources like food, iron, and gold.",
+      "ImmuneProtein": {
+        "Title": "Immune Protein",
+        "Description": "Used for constructing and upgrading the Virus Research Institute and military outposts.",
+        "Description2": "You can obtain Immune Protein through:",
+        "List1": "Protein Farm",
+        "List2": "Rewards for killing zombies for the first time",
+        "List3": "Achieving Season 1 goals to increase virus resistance",
+        "List4": "Using the Hero’s Return Recruitment Ticket"
+      },
+      "MutantCrystal": {
+        "Title": "Mutant Crystal",
+        "Description": "Used for constructing and upgrading Protein Farms and military bases.",
+        "Description2": "You can obtain Mutant Crystals through:",
+        "List1": "Rewards for killing a zombie for the first time",
+        "List2": "Completing season quest missions",
+        "List3": "Completing Season 1 goals to increase virus resistance",
+        "List4": "Doom Walker First Blood Kill (first DW kill of the day)",
+        "List5": "Genetic Recombination",
+        "List6": "Using the Hero’s Return Recruitment Ticket",
+        "List7": "Weekly Pass and Season Battle Pass"
+      },
+      "GeneFragment": {
+        "Title": "Gene Fragment",
+        "Description": "There are 6 types of Gene Fragments. Combine them to obtain mutated crystals and rewards. Gene Fragments can be exchanged with your allies.",
+        "Description2": "You can earn Gene Fragments through:",
+        "List1": "Completing Radar Missions: Killing Doom Elites, gathering resources, and killing Doom Walkers gives you Types I, II, III",
+        "List2": "Killing Crimson Zombies (any level) gives you Types I, II, III",
+        "List3": "Killing Infected Zombies (any level) gives you Types I, II, III",
+        "List4": "Killing Doom Elites (any level) gives you Types I, II, III",
+        "List5": "Healing Allies gives you Types IV, V, VI",
+        "List6": "Attacking Cities"
+      },
+      "Description2": "You can manage the amount of these resources (except Gene Fragments) in the upper part of the game display, just like other resources. Also, remember to check your inventory as these resources are typically available as rewards."
+    },
+    "WorldMap": {
+      "Title": "The World and the Map",
+      "Description": "With this new season, the server map changes drastically, becoming larger and filled with new creatures.",
+      "Description2": "You will encounter terrifying and infested villages, military fortresses, and the capital, which has transformed into the Apocalypse City.",
+      "Image1": "Infested Villages",
+      "Image2": "Military Strongholds",
+      "Image3": "City of the Apocalypse (Capitol)",
+      "Description3": "At the start of the season, you and your allies are stranded on the edge of the server with no city of your own. Cities must be reclaimed, but new rules apply...",
+      "Description4": "IMPORTANT: Alliances that hold the capital last will continue to hold it once Season 1 begins. The conquest of the capital will only start 28 days after the City Clash event.",
+      "Description5": "Doom Elite monsters transform into aggressive, infectious scorpion monsters, and most zombies are contagious.",
+      "Description6": "This is what the map looks like. The buildings you see are the cities, while the other fields in between are military fortresses."
+    },
+    "NewBuildings": {
+      "Title": "New Buildings",
+      "Description": "New building types are available and necessary. They can only be constructed outside the radius of your base. Some appear at the start of the season, while others will be introduced later.",
+      "Image1": "A powerful, zombie-transmitted virus is infecting the land. To survive, a Virus Research Institute must be built.",
+      "VirusResearchInstitute": {
+        "Title": "Virus Research Institute",
+        "Image1": "The Virus Research Institute allows for an increase in virus resistance.",
+        "LevelUp": {
+          "Title": "Leveling Up the Virus Research Institute",
+          "Description": "To increase the level of the Virus Research Institute, you need Immune Protein.",
+          "Description2": "Leveling up this building increases virus resistance, which is crucial for survival in these apocalyptic times.",
+          "Image1": "This building can be upgraded up to level 30, regardless of your HQ level."
+        }
+      },
+      "ProteinFarm": {
+        "Title": "Protein Farm",
+        "Description": "In this new building, Immune Proteins are cultivated, one of the new resources of the season.",
+        "Image1": "A total of 5 Protein Farms are available; the fifth is accessible only with the Season's Weekly Pass.",
+        "LevelUp": {
+          "Title": "Upgrade Your Protein Farms",
+          "Description": "To increase the level of Protein Farms, you need Mutant Crystals.",
+          "Description2": "Once your first Protein Farm reaches level 5, a new Protein Farm will become available.",
+          "Description3": "Subsequent Protein Farms will become available as the previous one reaches level 10.",
+          "Description4": "A Protein Farm is immediately available with the Weekly Season Pass.",
+          "Image1": "This building can be upgraded up to level 30, regardless of your HQ level."
+        }
+      },
+      "MilitaryBase": {
+        "Title": "Military Base",
+        "Description": "Starting from the third week, three new buildings will be available that provide upgrades for hero types.",
+        "Description2": "To upgrade, you will need both Immune Proteins and Mutant Crystals. These buildings can be upgraded up to level 30, regardless of your HQ level.",
+        "Description3": "Each level-up increases the HP, attack, and defense of the corresponding hero type by 1%."
+      }
+    },
+    "NewFarms": {
+      "Title": "New Farms – Alliance Resources",
+      "Description": "After randomly killing Doom Elites, a new temporary Alliance Resources Farm may appear. Send your squad to collect resources such as food, iron, gold, diamonds, or Mutant Crystals together with your allies."
+    },
+    "MilitaryStrongholds": {
+      "Title": "Military Strongholds",
+      "Description": "On the map, you will find buildings with military strongholds between cities (villages), which are surrounded by infectious zombies that protect them.",
+      "Description2": "Alliances must first secure a Level 1 stronghold to claim their initial territory. By conquering additional military strongholds, they can then expand.",
+      "Description3": "Alliances can conquer up to 2 military strongholds per day, with a limit on the total number of strongholds they can hold.",
+      "Image1": "Military strongholds serve as bases for the queen’s elite troops."
+    },
+    "Cities": {
+      "Title": "Cities",
+      "Description": "Conquering cities brings many benefits, from buffs to alliance influence points, and most importantly, rewards.",
+      "Description2": "To declare war on a city, an alliance must control at least one adjacent military stronghold.",
+      "Influence": {
+        "Title": "Influence",
+        "Description": "By conquering cities, the alliance’s influence points increase. Each city in their possession provides a different amount based on its level:",
+        "List1": "Level 1: 100 km",
+        "List2": "Level 2: 200 km",
+        "List3": "Level 3: 300 km",
+        "List4": "Level 4: 400 km",
+        "List5": "Level 5: 500 km",
+        "List6": "Level 6: 1 M",
+        "Description2": "You can check the amount of your alliance's influence points by clicking on the Season 1 event icon directly above the Duel VS icon, then on the Season 1 banner, and finally on the 'Leaderboard' button."
+      }
+    },
+    "ConquestOfCities": {
+      "Title": "City and Stronghold Conquest – Alliance Territory",
+      "Description": "At the start of the season, all alliances are stranded on the edge of the server and do not own a city. Cities and military strongholds are now considered alliance territory. Your goal is to expand your territory and increase your alliance's influence.",
+      "Image1": "Alliance territory must be connected to military strongholds that are adjacent to the target city where war will be declared.",
+      "Description2": "You can view your strongholds and cities by going to Alliance -> Alliance City, where the boundaries are also shown.",
+      "RulesForConqueringFortresses": {
+        "Title": "Rules for Conquering Strongholds",
+        "Rule1": "Alliances can conquer up to 2 military strongholds per day, regardless of the daily limit for conquering cities.",
+        "Rule2": "An alliance must conquer a Level 1 stronghold to acquire the first piece of alliance territory and then expand it by continuously conquering additional military strongholds.",
+        "Rule3": "To conquer a military stronghold, the alliance must own a neighboring stronghold.",
+        "Rule4": "The initial limit for the number of owned strongholds is 3.",
+        "Rule5": "For each city of levels 1–5 conquered, the alliance’s stronghold limit is increased by 1.",
+        "Rule6": "For each city of Level 6 conquered, the alliance’s stronghold limit is increased by 2.",
+        "Rule7": "Conquering a military stronghold requires virus resistance.",
+        "Rule8": "At the start of the season, the stronghold belongs to the Crimson Legion and is guarded by Corruptors and Infected Zombies. To take the stronghold, both enemy types must be defeated.",
+        "Rule9": "Once a stronghold is conquered, it is in a protection phase for 36 hours and cannot be conquered by another alliance during this time.",
+        "Rule10": "Once a stronghold is captured by an alliance, a defensive army will appear, with its level proportional to the stronghold's level. Any alliance wishing to take the stronghold must defeat these defenders before they can capture it. An alert about the attack on the defenders will be shown to allies as an attack notification."
+      },
+      "RulesForConqueringACity": {
+        "Title": "Rules for Conquering a City",
+        "Rule1": "Alliances can declare war on up to two cities per day; this restriction is independent of the daily limit for city conquests.",
+        "Rule2": "The alliance’s territory must be connected to the target city via military strongholds to declare war.",
+        "Rule3": "Each alliance can only declare war on one city at a time.",
+        "Rule4": "The duration of a war declaration is 1 hour.",
+        "Rule5": "In the same war area, an alliance can conquer up to 6 cities.",
+        "Rule6": "During the season, alliances can additionally conquer up to 6 cities in other war areas.",
+        "Rule7": "After conquering a city, the maximum number of military strongholds that the alliance can hold in the target war area (as mentioned above) will increase.",
+        "Rule8": "To declare war on a city, the alliance must have conquered at least one adjacent military stronghold.",
+        "Rule9": "Once a city enters the war protection status, the protection period lasts until 6 days later at 12:00 server time of the next declaration day."
+      }
+    },
+    "HeroUpgrades": {
+      "Title": "Hero Upgrades and Weapons",
+      "Description": "Season 1 brings updates to heroes and weapons, with availability varying over time.",
+      "ReturnOfHero": {
+        "Title": "Return of the Hero",
+        "Description": "If you previously missed out on obtaining a hero, you can now get them.",
+        "Description2": "Starting from the beginning of the first season, a new type of recruitment ticket will be available: the Hero’s Return Ticket.",
+        "Description3": "With this recruitment ticket, you can obtain shards of most UR heroes from the first day of Season 1.",
+        "Image1": "These tickets grant the same number of points as the hero recruitment tickets in the arms race and duel modes."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Exclusive Weapons",
+        "Description": "In Season 1, each legendary hero has a unique, exclusive weapon, with availability times varying by hero. To activate them, you need specific shards.",
+        "Description2": "Exclusive weapons unlock new vehicle appearances and abilities at levels 1, 10, 20, and 30.",
+        "Description3": "Upgrading exclusive weapons significantly improves various attributes and increases the maximum levels of existing skills."
+      },
+      "MasonUpgrade": {
+        "Title": "Mason Upgrade to UR",
+        "Description": "The rumors are true; you will be able to upgrade Mason to UR hero status."
+      }
+    },
+    "InfectVirus": {
+      "Title": "Infect Virus",
+      "Description": "When fighting zombies, there is a risk of infection. You can build virus resistance at the Virus Research Institute, but if it hasn’t reached a certain level, your troops will get infected. Returning troops can negatively impact the base.",
+      "Description2": "The spreading virus is the RA virus.",
+      "VirusStack": {
+        "Title": "Virus Stack",
+        "Description": "When your troops get infected and return to your base, the infection begins to accumulate there.",
+        "Description2": "The infection stacks range from 0 to 100, where 0 indicates no infection and 100 is the maximum.",
+        "Description3": "Even if you attack multiple infected monsters or are attacked by enemies, the infection stack cannot exceed 100.",
+        "Description4": "The virus infection stack is displayed by an icon above the radar icon:",
+        "List1": "when you are not infected",
+        "List2": "when you are infected, and the number on the icon shows the value of the infection stack",
+        "Description5": "Clicking on the icon will show you more details about the active debuffs and their severity."
+      },
+      "InfectionStackLogic": {
+        "Title": "Infection Stack Logic",
+        "Description": "Each infection increases the infection stack.",
+        "Description2": "You can get infected or increase your infection stack if:",
+        "List1": "You attack a zombie whose virus level is higher than your virus resistance (the game will warn you about this)",
+        "List2": "You attack a Corruptor or an Infected Zombie, regardless of your virus resistance.",
+        "List3": "You attack a world boss like Frankenstein, etc.",
+        "List4": "You are attacked by enemy troops carrying the virus",
+        "Description3": "You will NOT be infected if:",
+        "List5": "You reinforce a base",
+        "Description4": "When certain infection stack thresholds are reached (1, 20, 40, 60, 80), various debuffs are activated.",
+        "Description5": "There are five types of debuffs (symbols under the stack thresholds), from left to right:",
+        "Debuff1": "Hospital Stay (activated with stack >=1): Every (300 to 200 seconds) a unit is severely injured",
+        "Debuff2": "Low Morale (activated when the stack ≥20): Damage dealt is less effective (between -4% and -20%).",
+        "Debuff3": "Deadly Virus (activated at a stack of ≥40): Increased loss rate of enemy units (between +4% and +10%).",
+        "Debuff4": "Severe Infection (activated at a stack of ≥60): The infection transmitted by troops increases by 11% to 15% upon deployment.",
+        "Debuff5": "Virus Plague (activated when the stack ≥80): Your troops have a 8% to 10% chance to infect the enemy even if they lose."
+      },
+      "AutomaticHealing": {
+        "Title": "Automatic Healing",
+        "Description": "If you don’t get further infected and no one heals you, you will slowly heal based on the debuff timers and eventually reach infection stack 0. However, this healing process can take quite a long time.",
+        "Description2": "Therefore, it is better to treat the virus immediately."
+      },
+      "Treatments": {
+        "Title": "Treatments",
+        "Description": "Treatments can reduce the virus intensity, while overcoming other commanders can contribute to spreading the infection.",
+        "Description2": "To treat an ally, click on their base and then on the 'Healing' icon. Your aircraft, similar to a scout, will fly out and reduce the infection by 1. This will consume your immunoproteins.",
+        "Description3": "But here’s the interesting part: For each treatment you perform, you will receive a gene fragment (Type IV, V, or VI) as a reward."
+      },
+      "VirusResistance": {
+        "Title": "Virus Resistance",
+        "Description": "Virus resistance is now very important, and you need to continually improve it by upgrading the Virus Research Institute. This way, you can receive numerous rewards.",
+        "Image1": "When you attack a zombie, the information window will show you how much virus resistance is required. If your resistance is insufficient and you still attack, your troops will be infected."
+      }
+    },
+    "Gameplay": {
+      "Title": "Gameplay",
+      "Description": "In this new world, many dynamics are changing. Let’s explore these, particularly focusing on how to kill zombies.",
+      "DamageDebuff": {
+        "Title": "Damage Debuff and Unconditional Infection",
+        "Description": "The first thing you need to know when attacking zombies is that two new things may apply:",
+        "List1": "Damage Reduction: When you attack a zombie whose virus level is higher than your resistance level, you deal less damage. The percentage reduction will be shown in the attack display.",
+        "List2": "Unconditional Infection: Some enemies infect you regardless of your virus resistance, such as Corruptors, infected zombies, and world bosses. This will be shown in the attack display, where information about the additional virus infection stack can be seen.",
+        "Image1": "A +1 RA Virus molecule means that you will increase your infection stack by one regardless of your virus resistance.",
+        "Description2": "Additionally, you can see that your virus resistance is insufficient as 1900 is required, but you only have 1090. Therefore, you can expect:",
+        "List3": "to be infected",
+        "List4": "that your attack in this specific case will have a damage debuff of -96%."
+      },
+      "ZombieElite": {
+        "Title": "Zombie and Doom Elite",
+        "Description": "There is news regarding the food, iron, and gold of zombies: They now have similar types to heroes, such as tanks, planes, and rocket vehicles.",
+        "Description2": "Once you select the zombie to attack, details will be shown.",
+        "Description3": "In particular, given that the virus resistance is lower than the zombie virus, you should be aware of the following:",
+        "List1": "Once you hit the zombie, you will be infected.",
+        "List2": "The damage you cause will be reduced by 18%. Therefore, make sure your power is at least this much higher – ideally, it should be somewhat higher.",
+        "Description4": "Doom Elites are also different; they are gigantic, infectious scorpions."
+      },
+      "DoomedElite": {
+        "Title": "Effective Rally Against the Doomed Elite",
+        "Image1": "With a virus resistance of 500/2200, you cannot defeat this zombie alone, as the damage caused is reduced by -99.9%.",
+        "Description": "If you have low virus resistance and the damage is severely reduced, a rally against a Doom Elite, regardless of success or failure, will result in significant troop losses.",
+        "Description2": "To avoid this, you can ask your allies for support:",
+        "List1": "Create a hero team with the hero who has the lowest command attribute (to bring fewer troops).",
+        "List2": "Start a rally against Doom Elite monsters and ask those with sufficient virus resistance to participate in the action.",
+        "Description3": "With this approach, you will defeat the zombie and earn many mutant crystals, while troop losses remain minimal."
+      },
+      "WorldBoss": {
+        "Title": "World Boss",
+        "Description": "World bosses now change their appearance, but the basic rules remain the same – except that they infect you with the virus on contact, though it is a very mild infection."
+      },
+      "Spoilers": {
+        "Title": "Spoilers",
+        "Description": "When you attempt to capture a military stronghold for the first time, you will face its guardian, a new and powerful enemy: the Spoiler.",
+        "Description2": "They are indeed very powerful. Remember that you will always get infected when attacking them, regardless of your virus resistance.",
+        "Description3": "Additionally, a damage debuff will be applied if your virus resistance is lower than the virus strength."
+      },
+      "InfectedZombies": {
+        "Title": "Infected Zombies",
+        "Description": "Not only Corruptors are the guardians of military strongholds, but there are also infected zombies.",
+        "Description2": "These zombies will infect you no matter how resistant you are to viruses.",
+        "Description3": "Additionally, a damage debuff will be applied if your virus resistance is lower than the virus strength."
+      }
     }
   }
 }

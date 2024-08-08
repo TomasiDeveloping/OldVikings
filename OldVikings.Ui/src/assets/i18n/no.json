@@ -134,7 +134,10 @@
     "Basics": "Grunnleggende",
     "TipsAndTricks": "Tips/Triks",
     "Buildings": "Bygninger",
-    "Squad": "Lag"
+    "Squad": "Lag",
+    "DesertStorm": "Ørkenstorm",
+    "SeasonOne": "Sesong 1"
+
   },
   "VS": {
     "Title": "VS-Duell",
@@ -776,6 +779,282 @@
       "Description": "Når du utfører et angrep eller en rally med et lag, blir soldater lagt til heltenes grunnstyrke. Antallet soldater som deltar i angrepet avhenger av kommandokarakteristikken til heltene i laget.",
       "Image": "I eksempelet kan du se at antall enheter (soldater) som deltar i angrepet er 1.965 (393 med Murphy, 393 med Williams, osv.), og ved å klikke på i vises informasjon som viser at det er soldater på nivå T6 og T7.",
       "Description2": "Merk at, dersom tilgjengelig, soldater med høyere nivåer alltid brukes først, og deretter benyttes soldater med lavere nivåer for å fylle opp."
+    }
+  },
+  "SeasonOne": {
+    "Title": "Sesong 1 – Den Purpurrøde Plagen",
+    "Content": {
+      "Title": "Innhold",
+      "NewResources": "Nye Basisressurser",
+      "WorldMap": "Verden og kartet",
+      "NewBuildings": "Nye Bygninger",
+      "MilitaryBase": "Militærbase",
+      "NewFarms": "Nye Alliansegårder",
+      "MilitaryStrongholds": "Militære Festninger",
+      "Cities": "Byer",
+      "Conquest": "Erobring",
+      "HeroUpgrade": "Helteoppgraderinger",
+      "Virus": "Virus",
+      "Gameplay": "Spillopplevelse"
+    },
+    "Resources": {
+      "Title": "Nye Basisressurser – Immunprotein, Mutantkrystall og genetisk fragment",
+      "Description": "Det er nå tilgjengelige ekstra ressurser i spillet, hvorav 2 (Immunprotein og Mutantkrystall) administreres på samme måte som de eksisterende matvarene, jern og gull.",
+      "ImmuneProtein": {
+        "Title": "Immunprotein",
+        "Description": "Brukes til bygging og forbedring av virusforskningsinstituttet og militærbaser.",
+        "Description2": "Immunprotein får du ved:",
+        "List1": "Proteinfarm",
+        "List2": "Belønninger for å drepe zombier for første gang",
+        "List3": "Oppnå mål i sesong 1 for å øke virusresistensen",
+        "List4": "Bruke Hero’s Return-rekrutteringsbilletter"
+      },
+      "MutantCrystal": {
+        "Title": "Mutantkrystall",
+        "Description": "Brukes til bygging og forbedring av proteinfarm og militærbaser.",
+        "Description2": "Mutantkrystall får du ved:",
+        "List1": "Belønninger for å drepe en zombie for første gang",
+        "List2": "Fullføre sesong-oppdrag",
+        "List3": "Oppnå mål i sesong 1 for å øke virusresistensen",
+        "List4": "Doom Walker First Blood Kill (første DW-drap på en dag)",
+        "List5": "Genetisk rekombinasjon",
+        "List6": "Bruke Hero’s Return-rekrutteringsbilletter",
+        "List7": "Ukepass og sesong-Battle Pass"
+      },
+      "GeneFragment": {
+        "Title": "Genfragment",
+        "Description": "Det finnes 6 typer genfragmenter. Kombiner dem for å få muterte krystaller og belønninger. Genfragmenter kan byttes med dine allierte.",
+        "Description2": "Du kan tjene genfragmenter ved å:",
+        "List1": "Fullføre radaroppdrag: Drepe Doom Elite, samle ressurser, drepe Doom Walker gir deg Type I, II, III",
+        "List2": "Drepe Crimson Zombies (hvilket som helst nivå) gir deg Type I, II, III",
+        "List3": "Drepe Infiserte Zombies (hvilket som helst nivå) gir deg Type I, II, III",
+        "List4": "Drepe Doom Elite (hvilket som helst nivå) gir deg Type I, II, III",
+        "List5": "Hele allierte gir deg Type IV, V, VI",
+        "List6": "Angripe byer"
+      },
+      "Description2": "Du kan styre mengden av disse ressursene (unntatt genfragmenter) i den øvre delen av spillskjermen, på samme måte som med andre ressurser. Husk også å sjekke inventaret ditt, da disse ressursene vanligvis er tilgjengelige når du vinner dem som belønning."
+    },
+    "WorldMap": {
+      "Title": "Verden og kartet",
+      "Description": "Med denne nye sesongen endres serverkartet drastisk; det blir større og fylt med nye skapninger.",
+      "Description2": "Du vil finne skremmende og infiserte landsbyer, militære festninger og hovedstaden som har blitt til Apokalypsens by.",
+      "Image1": "Infiserte landsbyer",
+      "Image2": "Militære festninger",
+      "Image3": "Apokalypsens by (Kapitol)",
+      "Description3": "I starten av sesongen er du og dine allierte strandet på kanten av serveren uten en egen by. Byene må erobres tilbake, men nye regler gjelder ...",
+      "Description4": "VIKTIG: Alliansene som holder hovedstaden sist, vil fortsette å holde hovedstaden når sesong 1 begynner. Erobringen av hovedstaden begynner først 28 dager etter City Clash-arrangementet.",
+      "Description5": "Doom Elite-monstre blir til aggressive, infiserte skorpionmonstre, og de fleste zombier er smittsomme.",
+      "Description6": "Slik ser kartet ut. Bygningene du ser er byene, mens de andre feltene imellom er militære festninger."
+    },
+    "NewBuildings": {
+      "Title": "Nye Bygninger",
+      "Description": "Nye bygningstyper er tilgjengelige og nødvendige. De kan kun bygges utenfor omkretsen av din base. Noen vises ved starten av sesongen, mens andre vil komme senere.",
+      "Image1": "Et sterkt, zombieoverført virus infiserer landet. For å overleve må et virusforskningsinstitutt bygges.",
+      "VirusResearchInstitute": {
+        "Title": "Virusforskningsinstitutt",
+        "Image1": "Virusforskningsinstituttet muliggjør en økning i virusresistensen.",
+        "LevelUp": {
+          "Title": "Oppgradere Virusforskningsinstituttet",
+          "Description": "For å øke nivået på virusforskningsinstituttet trenger du immunprotein.",
+          "Description2": "Ved å oppgradere denne bygningen økes virusresistensen, som er avgjørende for overlevelse i disse apokalyptiske tider.",
+          "Image1": "Denne bygningen kan oppgraderes til nivå 30 uavhengig av ditt HQ-nivå."
+        }
+      },
+      "ProteinFarm": {
+        "Title": "Proteinfarm",
+        "Description": "I denne nye bygningen blir immunproteiner dyrket, en av de nye ressursene denne sesongen.",
+        "Image1": "Det er totalt 5 proteinfarmer tilgjengelig; den femte er kun tilgjengelig med Season's Weekly Pass.",
+        "LevelUp": {
+          "Title": "Øk kvaliteten på proteinfarmene dine",
+          "Description": "For å øke nivået på proteinfarmene trenger du mutantkrystaller.",
+          "Description2": "Når din første proteinfarm når nivå 5, vil en ny proteinfarm bli tilgjengelig.",
+          "Description3": "Senere proteinfarmer blir tilgjengelige når den foregående når nivå 10.",
+          "Description4": "En proteinfarm er umiddelbart tilgjengelig med den ukentlige sesongpasset.",
+          "Image1": "Denne bygningen kan oppgraderes til nivå 30 uavhengig av ditt HQ-nivå."
+        }
+      },
+      "MilitaryBase": {
+        "Title": "Militærbase",
+        "Description": "Fra og med tredje uke vil tre nye bygninger bli tilgjengelige som gir oppgraderinger for helttypene.",
+        "Description2": "For å oppgradere trenger du både immunprotein og mutantkrystaller. Disse bygningene kan oppgraderes til nivå 30 uavhengig av ditt HQ-nivå.",
+        "Description3": "Hvert nivå-oppgradering øker HP, angrep og forsvar for den aktuelle helttypen med 1 %."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nye Gårder – Allianseressurser",
+      "Description": "Etter tilfeldig å ha drept Doom Elite kan en ny allianseressursgård midlertidig vises. Send ut troppene dine for å samle mat, jern, gull, diamanter eller mutantkrystaller sammen med dine allierte."
+    },
+    "MilitaryStrongholds": {
+      "Title": "Militære Festninger",
+      "Description": "På kartet vil du finne bygninger med militære festninger mellom byene (landsbyene), som er omringet av smittsomme zombier som beskytter dem.",
+      "Description2": "Allianser må først sikre en festning på nivå 1 for å kreve sitt innledende territorium. Ved å erobre flere militære festninger kan de deretter ekspandere.",
+      "Description3": "Allianser kan erobre opptil 2 militærfestninger per dag, med en begrensning på det totale antallet festninger de kan eie.",
+      "Image1": "Militære festninger fungerer som baser for dronningens eliteenheter."
+    },
+    "Cities": {
+      "Title": "Byer",
+      "Description": "Erobringen av byer gir mange bonuser, fra buffere til alliansepunkter og belønninger som er de viktigste.",
+      "Description2": "For å erklære krig mot en by må en allianse kontrollere minst en nabomilitærfestning.",
+      "Influence": {
+        "Title": "Påvirkning",
+        "Description": "Ved å erobre byer øker alliansens påvirkningspoeng. Hver by i deres besittelse gir en forskjellig mengde poeng avhengig av nivå:",
+        "List1": "Nivå 1: 100 km",
+        "List2": "Nivå 2: 200 km",
+        "List3": "Nivå 3: 300 km",
+        "List4": "Nivå 4: 400 km",
+        "List5": "Nivå 5: 500 km",
+        "List6": "Nivå 6: 1 M",
+        "Description2": "Du kan sjekke mengden av din allianses påvirkningspoeng ved å klikke på symbolet for sesong 1-hendelsen rett over duell-VS-symbolet, deretter på sesong 1-banneret og til slutt på knappen «Toppliste»."
+      }
+    },
+    "ConquestOfCities": {
+      "Title": "By- og Festningserobring – Allianseområde",
+      "Description": "Ved sesongstart er alle allianser strandet ved kanten av serveren og eier ingen egen by. Byer og militære baser regnes nå som allianseområde. Målet ditt er å utvide området ditt og øke alliansens innflytelse.",
+      "Image1": "Allianseområdet må være koblet til militærfestninger med målbyen som det erklæres krig mot.",
+      "Description2": "Du kan se dine festninger og byer ved å gå til Allianse -> Allianseby, hvor også grensene vises.",
+      "RulesForConqueringFortresses": {
+        "Title": "Regler for Erobring av Festninger",
+        "Rule1": "Allianser kan erobre opptil 2 militærbaser per dag, uavhengig av den daglige grensen for erobring av byer.",
+        "Rule2": "Alliansen må erobre en festning på nivå 1 for å få sitt første område og utvide dette ved å kontinuerlig erobre flere militære festninger.",
+        "Rule3": "Forutsetningen for å erobre en militærfestning er å eie en nabofestning.",
+        "Rule4": "Den innledende grensen for antall besittede festninger er 3.",
+        "Rule5": "For hver erobret by på nivå 1–5 økes festningsgrensen for alliansen med 1.",
+        "Rule6": "For hver erobret by på nivå 6 økes festningsgrensen for alliansen med 2.",
+        "Rule7": "Erobring av en militærfestning krever virusresistens.",
+        "Rule8": "Ved sesongstart tilhører festningen Crimson Legion og beskyttes derfor av Corruptors og Infiserte Zombier. For å ta festningen må begge fiendetype beseires.",
+        "Rule9": "Når en festning er erobret, er den i en beskyttelsesfase i 36 timer og kan ikke erobres av andre allianser i løpet av denne tiden.",
+        "Rule10": "Når en festning er tatt av en allianse, vises en hær av festningsforsvarere, hvis nivå er proporsjonalt med nivået på festningen. Hver allianse som ønsker å ta festningen, må beseire disse forsvarerne før de kan ta festningen. En varsling om angrepet på forsvarerne vil bli vist til allierte som et angrep."
+      },
+      "RulesForConqueringACity": {
+        "Title": "Regler for Erobring av Byer",
+        "Rule1": "Allianser kan erklære krig mot opptil to byer per dag; denne begrensningen er uavhengig av den daglige grensen for erobring av byer.",
+        "Rule2": "Allianseområdet må være koblet til målbyen gjennom militære festninger før krig kan erklæres.",
+        "Rule3": "Hver allianse kan alltid kun erklære krig mot én by.",
+        "Rule4": "Krigserklæringen varer i 1 time.",
+        "Rule5": "Innenfor samme krigsområde kan en allianse erobre opptil 6 byer.",
+        "Rule6": "I løpet av sesongen kan allianser også erobre opptil 6 byer i andre krigsområder.",
+        "Rule7": "Etter erobringen av en by øker det maksimale antallet militære baser som alliansen kan holde i målkrigsområdet (se forrige avsnitt).",
+        "Rule8": "For å erklære krig mot en by, må alliansen ha erobret minst én nabofestning.",
+        "Rule9": "Når byen har gått inn i krigsbeskyttelsesstatus, varer beskyttelsestiden til 6 dager senere, kl. 12:00 servertid på neste erklæringsdag."
+      }
+    },
+    "HeroUpgrades": {
+      "Title": "Helteoppgraderinger og Våpen",
+      "Description": "Sesong 1 bringer nyheter om helter og våpen, som er tilgjengelige til forskjellige tider.",
+      "ReturnOfHero": {
+        "Title": "Heltenes Tilbakekomst",
+        "Description": "Hvis du tidligere ikke har klart å skaffe en helt, kan du nå gjøre det.",
+        "Description2": "Fra starten av første sesong vil en ny type rekrutteringsbillett være tilgjengelig: Hero’s Return Ticket.",
+        "Description3": "Med denne rekrutteringsbilletten kan du fra første dag av 1. sesong få fragmenter av de fleste UR-heltene.",
+        "Image1": "Disse billettene gir det samme antallet poeng som helterekrutteringsbillettene ved våpenkappløp og duell mot hverandre."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Eksklusive Våpen",
+        "Description": "I sesong 1 har hver legendariske helt et unikt, eksklusivt våpen med varierende tilgjengelighetstider for hver helt. For å aktivere dem trenger du spesifikke fragmenter.",
+        "Description2": "Eksklusive våpen låser opp nye kjøretøyutseender og ferdigheter på nivåene 1, 10, 20 og 30.",
+        "Description3": "Ved å oppgradere eksklusive våpen forbedres ulike attributter betydelig og de maksimale nivåene av eksisterende ferdigheter økes."
+      },
+      "MasonUpgrade": {
+        "Title": "Mason-oppgradering til UR",
+        "Description": "Ryktene er sanne, du vil kunne oppgradere Mason til UR-helt."
+      }
+    },
+    "InfectVirus": {
+      "Title": "Infisere Virus",
+      "Description": "Når du kjemper mot zombier, er det en risiko for infeksjon. Du kan bygge opp virusmotstand på Virusforskningsinstituttet, men hvis dette ikke har nådd et visst nivå, vil troppene dine bli infisert. Tilbakevendende tropper kan negativt påvirke basen din.",
+      "Description2": "Det spredende viruset er RA-virus.",
+      "VirusStack": {
+        "Title": "Virusstakk",
+        "Description": "Når troppene dine blir infisert og vender tilbake til basen din, begynner infeksjonen å hope seg opp der.",
+        "Description2": "Infeksjonsstakkene varierer fra 0 til 100, hvor 0 betyr ingen infeksjon og 100 er maksverdien.",
+        "Description3": "Selv om du angriper flere infiserte monstre eller blir angrepet av fiender, kan ikke infeksjonsstakkene gå over 100.",
+        "Description4": "Virusinfeksjonsstakken vises med et symbol over radar-symbolet:",
+        "List1": "hvis du ikke er infisert",
+        "List2": "hvis du er infisert, og tallet på symbolet angir verdien på infeksjonsstakken",
+        "Description5": "Hvis du klikker på symbolet, vil du se flere detaljer om de gjeldende debuffene og deres alvorlighetsgrad."
+      },
+      "InfectionStackLogic": {
+        "Title": "Infeksjonsstakk-logikk",
+        "Description": "Hver infeksjon øker infeksjonsstakken.",
+        "Description2": "Du kan bli infisert eller øke infeksjonsstakken din hvis:",
+        "List1": "Du angriper en zombie hvis virusnivå er høyere enn din virusmotstand (spillet varsler deg om dette)",
+        "List2": "Du angriper en korrupter eller en infisert zombie, uavhengig av din virusmotstand.",
+        "List3": "Du angriper en verdensboss som Frankenstein osv.",
+        "List4": "Du blir angrepet av fiendtlige tropper som bærer viruset",
+        "Description3": "Du vil IKKE bli infisert hvis:",
+        "List5": "Du forsterker en base",
+        "Description4": "Når bestemte terskelverdier for infeksjonsstakker nås (1, 20, 40, 60, 80), vil ulike debuffer aktiveres.",
+        "Description5": "Det er fem typer debuffer (symboler under stakktersklene), fra venstre til høyre:",
+        "Debuff1": "Sykehusopphold (aktiveres ved stakk >=1): Alle (300 til 200 sekunder) vil en enhet bli alvorlig skadet",
+        "Debuff2": "Lav moral (aktiveres ved stakk ≥20): Skaden som påføres er mindre effektiv (mellom -4 % og -20 %).",
+        "Debuff3": "Dødelig virus (aktiveres ved stakk ≥40): Økt tapshastighet på fiendtlige enheter (mellom +4 % og +10 %).",
+        "Debuff4": "Alvorlig infeksjon (aktiveres ved stakk ≥60): Infeksjonen som overføres av tropper økes med 11 % til 15 % ved avmarsj.",
+        "Debuff5": "Virusplage (aktiveres ved stakk ≥80): Troppene dine har en sjanse på 8 % til 10 % for å infisere fienden, selv ved tap."
+      },
+      "AutomaticHealing": {
+        "Title": "Automatisk Helbredelse",
+        "Description": "Hvis du ikke blir mer infisert og ingen behandler deg, vil du sakte bli helbredet basert på debuff-timere og til slutt oppnå infeksjonsstakk 0. Denne helbredelsesprosessen kan imidlertid ta ganske lang tid.",
+        "Description2": "Derfor er det bedre å behandle viruset med en gang."
+      },
+      "Treatments": {
+        "Title": "Behandlinger",
+        "Description": "Behandlinger kan redusere virusintensiteten, mens overvinning av andre kommandører kan bidra til å spre infeksjonen.",
+        "Description2": "For å behandle en alliert, klikker du på basen deres og deretter på symbolet 'Helbredelse'. Flyet ditt, som ligner en scout, vil fly ut og redusere infeksjonen med 1. Dette vil bruke opp immunproteinene dine.",
+        "Description3": "Men nå kommer den interessante delen: For hver behandling du utfører, får du som belønning et genfragment (Type IV, V eller VI)."
+      },
+      "VirusResistance": {
+        "Title": "Virusmotstand",
+        "Description": "Virusmotstand er nå veldig viktig, og du må kontinuerlig øke den ved å forbedre Virusforskningsinstituttet. På denne måten kan du motta mange belønninger.",
+        "Image1": "Når du angriper en zombie, vil informasjonsvinduet vise deg hvor mye virusmotstand som er nødvendig. Hvis motstanden din ikke er tilstrekkelig og du likevel angriper, vil troppene dine bli infisert."
+      }
+    },
+    "Gameplay": {
+      "Title": "Spillopplevelse",
+      "Description": "I denne nye verden endres mange dynamikker. La oss utforske dem, med særlig fokus på hvordan man dreper zombier.",
+      "DamageDebuff": {
+        "Title": "Skadedebuff og ubetinget infeksjon",
+        "Description": "Det første du må vite når du angriper zombier, er at to nye forhold kan gjelde:",
+        "List1": "Skadereduksjon: Når du angriper en zombie med et virusnivå høyere enn ditt motstands-nivå, vil du påføre mindre skade. Reduksjonsprosenten vil bli vist i angrepsvinduet.",
+        "List2": "Betingelsesløs infeksjon: Noen fiender infiserer deg uavhengig av din virusmotstand, som Korruptere, infiserte zombier og verdensbosser. Dette vil vises i angrepsvinduet, hvor informasjon om ekstra virusinfeksjonsstakk vil være synlig.",
+        "Image1": "Et +1 RA-virusmolekyl betyr at du vil øke infeksjonsstakken med én, uavhengig av din virusmotstand.",
+        "Description2": "I tillegg kan du se at din virusmotstand ikke er tilstrekkelig, da 1900 er nødvendig, men du har bare 1090. Du kan derfor forvente:",
+        "List3": "å bli infisert",
+        "List4": "at angrepet ditt i dette spesifikke tilfellet vil ha en skadedebuff på -96 %"
+      },
+      "ZombieElite": {
+        "Title": "Zombie- og Doom-Elite",
+        "Description": "Det er nyheter angående mat, jern og gull til zombiene: De har nå typer som ligner på heltene, som tank, fly og rakettvogn.",
+        "Description2": "Når du har valgt zombien å angripe, vil detaljene bli vist.",
+        "Description3": "Spesielt i dette tilfellet, og med tanke på at virusmotstanden er lavere enn zombie-virusets, bør du være oppmerksom på:",
+        "List1": "Når du treffer zombien, vil du bli infisert",
+        "List2": "Skaden du påfører vil reduseres med 18 %. Sørg derfor for at kraften din er minst denne høyere – helst litt høyere.",
+        "Description4": "Doom-Elite er også annerledes, de er gigantiske, smittsomme skorpioner."
+      },
+      "DoomedElite": {
+        "Title": "Effektiv kamp mot Doom-Elite",
+        "Image1": "Med en virusmotstand på 500/2200 kan du ikke beseire denne zombien alene, da den påførte skaden reduseres med -99,9 %.",
+        "Description": "Hvis du har lav virusmotstand og skaden er sterkt redusert, vil en kamp mot en Doom-Elite, uavhengig av suksess eller fiasko, føre til betydelige tap av tropper.",
+        "Description2": "For å unngå dette kan du be dine allierte om støtte:",
+        "List1": "Opprett en heldenhet med helten som har lavest kommandotall (for å ha færre tropper med).",
+        "List2": "Start en rally mot Doom-Elite-monstre og be de som har tilstrekkelig virusmotstand om å delta i aksjonen.",
+        "Description3": "Med denne tilnærmingen vil du beseire zombien og tjene mange mutantekrystaller, mens tapet av tropper er minimalt."
+      },
+      "WorldBoss": {
+        "Title": "Verdensboss",
+        "Description": "Verdensbossene endrer nå sitt utseende, men reglene forblir i hovedsak som før – bortsett fra at de infiserer deg ved kontakt med viruset, men det er en svært lett infeksjon."
+      },
+      "Spoilers": {
+        "Title": "Korrupter",
+        "Description": "Når du først prøver å ta en militærfestning, må du møte dens vokter, en ny og mektig fiende: Korrupteren.",
+        "Description2": "De er faktisk veldig mektige. Husk at du alltid blir infisert når du angriper dem, uavhengig av din virusmotstand.",
+        "Description3": "I tillegg vil en skadedebuff bli påført hvis din virusmotstand er lavere enn virusstyrken."
+      },
+      "InfectedZombies": {
+        "Title": "Infiserte Zombier",
+        "Description": "Ikke bare Korruptere er voktere av militære festninger, men det finnes også infiserte zombier.",
+        "Description2": "Disse zombiene vil infisere deg uansett hvor mye virusmotstand du har.",
+        "Description3": "I tillegg vil en skadedebuff bli påført hvis din virusmotstand er lavere enn virusstyrken."
+      }
     }
   }
 }

@@ -134,7 +134,9 @@
     "Basics": "Grundlagen",
     "TipsAndTricks": "Tipps/Tricks",
     "Buildings": "Gebäude",
-    "Squad": "Truppe"
+    "Squad": "Truppe",
+    "DesertStorm": "Wüstensturm",
+    "SeasonOne": "Saison 1"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -179,7 +181,7 @@
         "Title": "Erhöhe die Gebäudestärke um 1 Punkt (~21 Punkte):",
         "Description": "Jedes Mal, wenn du ein Gebäude fertigstellst, wird die Stärke dieses Gebäudes erhöht und du erhältst Punkte für diese Differenz. Beachte, dass die Stärkesteigerung des Gebäudes nur dann erfolgt, wenn du die Geschenkbox öffnest, in der das neu verbesserte Gebäude verpackt ist."
       },
-      "Task3":{
+      "Task3": {
         "Title": "Versende den legendären Handels-LKW einmal (~200.000 Punkte):",
         "Description": "Handels-LKW können von unterschiedlicher Art sein und daher verschiedene Belohnungen enthalten. Du kannst ihren Inhalt mithilfe des Handelsvertrags ändern. Gehe dazu zum Abschnitt, in dem du einen LKW senden kannst. Wenn du dir den Inhalt oben rechts in der Vorschau ansiehst, findest du eine Schaltfläche mit einem Würfel. Um die „legendäre“ Version zu erhalten, musst du mehrmals aktualisieren, bis du den gelben Hintergrund und die „UR“-Schrift auf der linken Seite siehst."
       },
@@ -229,7 +231,7 @@
       },
       "Task3": {
         "Title": "Benutze eine legendäre, epische oder seltene Scherbe (~20.000, ~7.000 oder ~2.000 Punkte):",
-          "Description": "Benutze die goldene, lila oder blaue Scherbe (Puzzleteile) der Helden, um ihr Level im Heldenbereich zu erhöhen. Klicke auf einen Helden, gehe zum Klassenbereich und aktualisiere die Heldenklasse."
+        "Description": "Benutze die goldene, lila oder blaue Scherbe (Puzzleteile) der Helden, um ihr Level im Heldenbereich zu erhöhen. Klicke auf einen Helden, gehe zum Klassenbereich und aktualisiere die Heldenklasse."
       },
       "Task4": {
         "Title": "Nutze eine Fertigkeitsmedaille (~20 Punkte):",
@@ -776,6 +778,282 @@
       "Description": "Bei der Durchführung eines Angriffs oder einer Rallye mit einem Team werden Soldaten zur Grundstärke der Helden hinzugefügt. Die Anzahl der am Angriff beteiligten Soldaten hängt vom  Befehlsattribut  der im Team enthaltenen Helden ab.",
       "Image": "Im Beispiel kannst Du sehen, dass die Anzahl der am Angriff beteiligten Einheiten (Soldaten) 1.965 beträgt (393 bei Murphy, 393 bei Williams usw.) und durch Klicken auf das i wird die Information angezeigt, dass es sich um Soldaten der Stufe T6 und T7 handelt.",
       "Description2": "Beachten Sie, dass, sofern verfügbar, immer zuerst Soldaten mit höheren Levels eingesetzt werden und dann diejenigen mit niedrigeren Levels zum Auffüllen herangezogen werden."
+    }
+  },
+  "SeasonOne": {
+    "Title": "Saison 1 – Die Purpurne Pest",
+    "Content": {
+      "Title": "Inhalt",
+      "NewResources": "Neue Basisressourcen",
+      "WorldMap": "Die Welt und die Karte",
+      "NewBuildings": "Neue Gebäude",
+      "MilitaryBase": "Militärbasis",
+      "NewFarms": "Neue Allianz Farmen",
+      "MilitaryStrongholds": "Militärische Hochburgen",
+      "Cities": "Städte",
+      "Conquest": "Eroberung",
+      "HeroUpgrade": "Helden-Upgrades",
+      "Virus": "Virus",
+      "Gameplay": "Spielablauf"
+    },
+    "Resources": {
+      "Title": "Neue Basisressourcen – Immunprotein, Mutantenkristall und genetisches Fragment",
+      "Description": "Im Spiel sind nun zusätzliche Ressourcen verfügbar, von denen 2 (Immunprotein und Mutantenkristall) ähnlich wie die vorhandenen Lebensmittel, Eisen und Gold verwaltet werden.",
+      "ImmuneProtein": {
+        "Title": "Immunprotein",
+        "Description": "Wird zum Bau und zur Verbesserung des Virusforschungsinstituts und von Militärstützpunkten benötigt.",
+        "Description2": "Immunprotein erhältst du durch:",
+        "List1": "Proteinfarm",
+        "List2": "Belohnungen für das erstmalige Töten von Zombies",
+        "List3": "Erreichen der Ziele der Saison 1 zur Steigerung der Virusresistenz",
+        "List4": "Verwenden des Hero’s Return-Rekrutierungstickets"
+      },
+      "MutantCrystal": {
+        "Title": "Mutantenkristall",
+        "Description": "Wird zum Bau und zur Verbesserung der Proteinfarm und der Militärbasen verwendet.",
+        "Description2": "Mutantenkristall erhältst du durch:",
+        "List1": "Belohnungen für das erstmalige Töten eines Zombies",
+        "List2": "Abschließen von Saison-Quest-Missionen",
+        "List3": "Abschließen von Saison-1-Zielen zur Erhöhung der Virenresistenz",
+        "List4": "Doom Walker First Blood Kill (erster DW-Kill eines Tages)",
+        "List5": "Genetische Rekombination",
+        "List6": "Verwenden des Hero's Return-Rekrutierungstickets",
+        "List7": "Wochenpass und Saison-Battle-Pass"
+      },
+      "GeneFragment": {
+        "Title": "Genfragment",
+        "Description": "Es gibt 6 Arten von Genfragmenten. Kombinieren Sie sie neu, um mutierte Kristalle und Belohnungen zu erhalten. Genfragmente können mit Ihren Verbündeten ausgetauscht werden",
+        "Description2": "Sie können Genfragmente durch folgendes verdienen:",
+        "List1": "Radarmissionen abschließen: Doom Elite töten, Ressourcen sammeln, Doom Walker töten gibt Ihnen Typ I, II, III",
+        "List2": "Crimson Zombies töten (beliebiges Level) gibt Ihnen Typ I, II, III",
+        "List3": "Infizierte Zombies töten (beliebiges Level) gibt Ihnen Typ I, II, III",
+        "List4": "Doom Elite töten (beliebiges Level) gibt Ihnen Typ I, II, III",
+        "List5": "Verbündete heilen gibt Ihnen Typ IV, V, VI",
+        "List6": "Städte angreifen"
+      },
+      "Description2": "Du kannst die Menge dieser Ressourcen (außer Genfragmente) im oberen Teil des Spieldisplays steuern, genau wie bei anderen Ressourcen. Denke auch daran, dein Inventar zu überprüfen, denn normalerweise sind diese Ressourcen verfügbar, wenn du sie als Belohnung gewinnst."
+    },
+    "WorldMap": {
+      "Title": "Die Welt und die Karte",
+      "Description": "Mit dieser neuen Saison ändert sich die Serverkarte drastisch, sie wird größer und mit neuen Kreaturen gefüllt.",
+      "Description2": "Sie werden furchterregende und verseuchte Dörfer, Militärfestungen und die Hauptstadt vorfinden, die sich in die Stadt der Apokalypse verwandelt hat.",
+      "Image1": "Befallene Dörfer",
+      "Image2": "Militärische Hochburgen",
+      "Image3": "Stadt der Apokalypse (Kapitol)",
+      "Description3": "Zu Beginn der Saison sind Sie und Ihre Verbündeten am Rand des Servers gestrandet und haben keine eigene Stadt. Städte müssen zurückerobert werden, aber es gelten neue Regeln …",
+      "Description4": "WICHTIG: Die Allianzen, die die Hauptstadt zuletzt halten, werden die Hauptstadt weiterhin halten, sobald Saison 1 beginnt. Die Eroberung der Hauptstadt beginnt erst 28 Tage nach dem City Clash-Event.",
+      "Description5": "Doom-Elite-Monster verwandeln sich in aggressive, infektiöse Skorpionmonster, und die meisten Zombies sind ansteckend.",
+      "Description6": "So sieht die Karte aus. Die Gebäude, die Sie sehen, sind die Städte, die anderen Felder dazwischen sind Militärfestungen."
+    },
+    "NewBuildings": {
+      "Title": "Neue Gebäude",
+      "Description": "Neue Gebäudetypen sind verfügbar und notwendig. Sie können nur außerhalb des Umkreises Ihrer Basis gebaut werden. Einige erscheinen gleich zu Beginn der Saison, andere werden später folgen.",
+      "Image1": "Ein starkes, von Zombies übertragenes Virus infiziert das Land. Um zu überleben, muss ein Institut für Virenforschung gebaut werden.",
+      "VirusResearchInstitute": {
+        "Title": "Institut für Virusforschung",
+        "Image1": "Das Institut für Virenforschung ermöglicht eine Steigerung der Virenresistenz.",
+        "LevelUp": {
+          "Title": "Level-up des Virusforschungsinstituts",
+          "Description": "Um das Level des Virenforschungsinstituts zu erhöhen, benötigen Sie Immunprotein.",
+          "Description2": "Durch das Aufleveln dieses Gebäudes wird die Virenresistenz erhöht, die für das Überleben in diesen apokalyptischen Zeiten von grundlegender Bedeutung ist.",
+          "Image1": "Dieses Gebäude kann unabhängig von Ihrem HQ-Level bis auf Level 30 aufgerüstet werden."
+        }
+      },
+      "ProteinFarm": {
+        "Title": "Proteinfarm",
+        "Description": "In diesem neuen Gebäude werden Immunproteine gezüchtet, eine der neuen Ressourcen der Saison.",
+        "Image1": "Es stehen insgesamt 5 Proteinfarmen zur Verfügung; die fünfte ist nur mit dem Season's Weekly Pass zugänglich.",
+        "LevelUp": {
+          "Title": "Erhöhen Sie die Qualität Ihrer Proteinfarmen",
+          "Description": "Um das Level der Proteinfarmen zu erhöhen, benötigen Sie Mutantenkristalle.",
+          "Description2": "Sobald Ihre erste Proteinfarm Level 5 erreicht, wird eine neue Proteinfarm verfügbar.",
+          "Description3": "Nachfolgende Proteinfarmen werden verfügbar, sobald die vorherige Level 10 erreicht.",
+          "Description4": "Eine Proteinfarm ist sofort mit dem wöchentlichen Saisonpass verfügbar.",
+          "Image1": "Dieses Gebäude kann unabhängig von Ihrem HQ-Level bis auf Level 30 aufgerüstet werden."
+        }
+      },
+      "MilitaryBase": {
+        "Title": "Militärbasis",
+        "Description": "Ab der dritten Woche werden drei neue Gebäude verfügbar, die Verbesserungen für Heldentypen ermöglichen.",
+        "Description2": "Zum Aufrüsten benötigen Sie sowohl Immunproteine als auch Mutantenkristalle. Diese Gebäude können bis auf Level 30 aufgerüstet werden, unabhängig von Ihrem HQ-Level.",
+        "Description3": "Jedes Level-Upgrade erhöht die HP, den Angriff und die Verteidigung des entsprechenden Heldentyps um 1 %."
+      }
+    },
+    "NewFarms": {
+      "Title": "Neue Farmen– Alliance Resources",
+      "Description": "Nach dem zufälligen Töten von Doom-Eliten kann vorübergehend eine neue Allianz-Ressourcenfarm erscheinen. Schicken Sie Ihren Trupp aus, um gemeinsam mit Ihren Verbündeten die Ressourcen Nahrung, Eisen, Gold, Diamanten oder Mutantenkristalle zu sammeln."
+    },
+    "MilitaryStrongholds": {
+      "Title": "Militärische Hochburgen",
+      "Description": "Auf der Karte finden Sie zwischen den Städten (Dörfern) Gebäude mit militärischen Festungen, die von ansteckenden Zombies umgeben sind und diese beschützen.",
+      "Description2": "Allianzen müssen zunächst eine Festung der Stufe 1 sichern, um ihr anfängliches Territorium zu beanspruchen. Durch die Eroberung zusätzlicher militärischer Festungen können sie dann expandieren.",
+      "Description3": "Allianzen können bis zu 2 Militärfestungen pro Tag erobern, wobei eine Beschränkung für die Gesamtanzahl der im Besitz befindlichen Festungen gilt.",
+      "Image1": "Militärische Festungen dienen als Stützpunkte für die Elitetruppen der Königin."
+    },
+    "Cities": {
+      "Title": "Städte",
+      "Description": "Die Stadteroberung bringt viele Boni mit sich, von Buffs über Einflusspunkte der Allianz bis hin zu Belohnungen, die am wichtigsten sind.",
+      "Description2": "Um einer Stadt den Krieg zu erklären, muss eine Allianz mindestens eine benachbarte Militärfestung kontrollieren.",
+      "Influence": {
+        "Title": "Beeinflussen",
+        "Description": "Durch die Eroberung von Städten erhöht sich die Einflusspunkte der Allianz. Jede Stadt in ihrem Besitz bringt je nach Level eine unterschiedliche Menge ein:",
+        "List1": "Level 1: 100 km",
+        "List2": "Level 2: 200 km",
+        "List3": "Level 3: 300 km",
+        "List4": "Level 4: 400 km",
+        "List5": "Level 5: 500 km",
+        "List6": "Level 6: 1 M",
+        "Description2": "Sie können die Menge Ihrer Allianz-Einflusspunkte überprüfen, indem Sie auf das Symbol für das Ereignis der Saison 1 direkt über dem Duell-VS-Symbol klicken, dann auf das Banner der Saison 1 und anschließend auf die Schaltfläche „Bestenliste“."
+      }
+    },
+    "ConquestOfCities": {
+      "Title": "Städte- und Festungseroberung – Allianzterritorium",
+      "Description": "Zu Saisonbeginn sind alle Allianzen am Rand des Servers gestrandet und besitzen keine eigene Stadt. Städte und Militärstützpunkte gelten nun als Allianzgebiet. Ihr Ziel ist es, Ihr Gebiet zu erweitern und den Einfluss Ihrer Allianz zu erhöhen.",
+      "Image1": "Das Allianz-Territorium muss über Militärfestungen mit der Zielstadt verbunden sein, gegen die der Krieg erklärt wird.",
+      "Description2": "Sie können Ihre Festungen und Städte sehen, indem Sie zu Allianz -> Allianzstadt gehen, wo auch die Grenzen angezeigt werden.",
+      "RulesForConqueringFortresses": {
+        "Title": "Regeln zur Eroberung von Festungen",
+        "Rule1": "Allianzen können bis zu 2 Militärstützpunkte pro Tag erobern, unabhängig von der täglichen Grenze für die Eroberung von Städten.",
+        "Rule2": "Die Allianz muss eine Festung der Stufe 1 erobern, um das erste Stück Allianzgebiet zu erhalten und dieses durch die kontinuierliche Eroberung weiterer militärischer Festungen zu erweitern.",
+        "Rule3": "Voraussetzung für die Eroberung einer Militärfestung ist der Besitz einer benachbarten Festung.",
+        "Rule4": "Die anfängliche Grenze für die Anzahl der besessenen Festungen liegt bei 3.",
+        "Rule5": "Für jede eroberte Stadt der Stufen 1–5 wird das Festungslimit der Allianz um 1 erhöht.",
+        "Rule6": "Für jede eroberte Stadt der Stufe 6 wird das Festungslimit der Allianz um 2 erhöht.",
+        "Rule7": "Die Eroberung einer Militärfestung erfordert Virenresistenz.",
+        "Rule8": "Zu Beginn der Saison gehört die Festung der Crimson Legion und wird daher von Corruptors und Infected Zombies bewacht. Um die Festung einzunehmen, müssen beide Feindarten besiegt werden.",
+        "Rule9": "Sobald eine Festung erobert ist, befindet sie sich 36 Stunden lang in einer Schutzphase und kann während dieser Zeit von keiner anderen Allianz erobert werden.",
+        "Rule10": "Sobald eine Festung von einer Allianz eingenommen wurde, erscheint eine Armee von Festungsverteidigern, deren Level proportional zum Level der Festung ist. Jede Allianz, die die Festung einnehmen möchte, muss diese Verteidiger besiegen, bevor sie die Festung einnehmen kann. Eine Benachrichtigung über den Angriff auf die Verteidiger wird den Verbündeten als Angriff angezeigt."
+      },
+      "RulesForConqueringACity": {
+        "Title": "Regeln zur Stadteroberung",
+        "Rule1": "Allianzen können bis zu zwei Städten pro Tag den Krieg erklären; diese Beschränkung ist unabhängig von der täglichen Begrenzung für die Eroberung von Städten.",
+        "Rule2": "Das Territorium einer Allianz muss über Militärfestungen mit der Zielstadt verbunden sein, gegen die der Krieg erklärt werden soll.",
+        "Rule3": "Jede Allianz kann immer nur einer Stadt den Krieg erklären.",
+        "Rule4": "Die Dauer der Kriegserklärung beträgt 1 Stunde",
+        "Rule5": "Im selben Kriegsgebiet kann eine Allianz bis zu 6 Städte erobern.",
+        "Rule6": "Während der Saison können Allianzen zusätzlich bis zu 6 Städte in anderen Kriegsgebieten erobern.",
+        "Rule7": "Nach der Eroberung einer Stadt erhöht sich die maximale Anzahl militärischer Stützpunkte, die die Allianz im Zielkriegsgebiet halten kann (siehe vorheriger Absatz).",
+        "Rule8": "Um einer Stadt den Krieg zu erklären, muss die Allianz mindestens eine benachbarte Militärfestung erobert haben.",
+        "Rule9": "Nachdem die Stadt in den Kriegsschutzstatus getreten ist, dauert die Schutzzeit bis 6 Tage später, 12:00 Uhr Serverzeit des nächsten Erklärungstags."
+      }
+    },
+    "HeroUpgrades": {
+      "Title": "Helden-Upgrades und Waffen",
+      "Description": "Staffel 1 bringt Neuigkeiten zu Helden und Waffen, deren Verfügbarkeit je nach Zeit variiert.",
+      "ReturnOfHero": {
+        "Title": "Die Rückkehr des Helden",
+        "Description": "Wenn es Ihnen zuvor nicht gelungen ist, einen Helden zu ergattern, können Sie dies jetzt nachholen.",
+        "Description2": "Ab Beginn der ersten Saison wird eine neue Art von Rekrutierungsticket verfügbar sein: das Hero’s Return Ticket.",
+        "Description3": "Mit diesem Rekrutierungsticket können Sie ab dem ersten Tag der 1. Saison Scherben der meisten UR-Helden erhalten.",
+        "Image1": "Diese Tickets geben dieselbe Anzahl an Punkten wie die Helden-Rekrutierungstickets beim Wettrüsten und Duell gegeneinander."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Exklusive Waffen",
+        "Description": "In Staffel 1 verfügt jeder legendäre Held über eine einzigartige, exklusive Waffe, deren Verfügbarkeitszeiten bei jedem Helden unterschiedlich sind. Um sie zu aktivieren, benötigst du bestimmte Scherben.",
+        "Description2": "Exklusive Waffen schalten auf den Leveln 1, 10, 20 und 30 neue Fahrzeugerscheinungsbilder und Fähigkeiten frei.",
+        "Description3": "Durch das Aufrüsten exklusiver Waffen werden verschiedene Attribute deutlich verbessert und die Höchststufen vorhandener Fertigkeiten erhöht."
+      },
+      "MasonUpgrade": {
+        "Title": "Mason-Upgrade auf UR",
+        "Description": "Die Gerüchte sind wahr, Sie werden Mason auf den Held UR aktualisieren können"
+      }
+    },
+    "InfectVirus": {
+      "Title": "Virus infizieren",
+      "Description": "Wenn Sie mit Zombies kämpfen, besteht die Gefahr einer Infektion. Sie können im Virus Research Institute eine Virusresistenz aufbauen, aber wenn diese noch nicht ein bestimmtes Niveau erreicht hat, werden Ihre Truppen infiziert. Zurückkehrende Truppen können die Basis negativ beeinflussen.",
+      "Description2": "Das sich verbreitende Virus ist das RA-Virus.",
+      "VirusStack": {
+        "Title": "Virenstapel",
+        "Description": "Wenn Ihre Truppen infiziert werden und zu Ihrer Basis zurückkehren, beginnt sich die Infektion dort anzuhäufen",
+        "Description2": "Die Infektionsstapel reichen von 0 bis 100, wobei 0 keine Infektion und 100 den Höchstwert darstellt.",
+        "Description3": "Selbst wenn Sie mehrere infizierte Monster angreifen oder von Feinden angegriffen werden, können die Infektionsstapel nicht über 100 hinausgehen.",
+        "Description4": "Der Vireninfektionsstapel wird durch ein Symbol über dem Radarsymbol angezeigt:",
+        "List1": "wenn Sie nicht infiziert sind",
+        "List2": "wenn Sie infiziert sind, und die Zahl auf dem Symbol gibt den Wert des Infektionsstapels an",
+        "Description5": "Wenn Sie auf das Symbol klicken, werden Ihnen weitere Details zu den geltenden Debuffs und deren Schwere angezeigt."
+      },
+      "InfectionStackLogic": {
+        "Title": "Infektionsstapellogik",
+        "Description": "Bei jeder Infektion erhöht sich der Infektionsstapel.",
+        "Description2": "Sie können sich infizieren oder Ihren Infektionsstapel erhöhen, wenn:",
+        "List1": "Du greifst einen Zombie an, dessen Virenlevel höher ist als deine Virenresistenz (das Spiel warnt dich davor)",
+        "List2": "Du greifst einen Corruptor oder einen Infizierten Zombie an , unabhängig von deiner Virenresistenz.",
+        "List3": "Sie greifen einen Weltboss wie Frankenstein usw. an.",
+        "List4": "Sie werden von feindlichen Truppen angegriffen, die das Virus in sich tragen",
+        "Description3": "Sie werden NICHT infiziert, wenn:",
+        "List5": "Sie verstärken eine Basis",
+        "Description4": "Wenn bestimmte Schwellenwerte für Infektionsstapel erreicht werden (1, 20, 40, 60, 80), werden verschiedene Debuffs aktiviert.",
+        "Description5": "Es gibt fünf Arten von Debuffs (Symbole unter den Stapelschwellen), von links nach rechts:",
+        "Debuff1": "Krankenhausaufenthalt (aktiviert mit Stapel >=1): Alle (300 bis 200 Sekunden) wird eine Einheit schwer verletzt",
+        "Debuff2": "Die Moral ist niedrig (wird aktiviert, wenn der Stapel ≥20 ist): Der zugefügte Schaden ist weniger effektiv (zwischen -4 % und -20 %).",
+        "Debuff3": "Tödliches Virus (wird bei einem Stapel von ≥40 aktiviert): Erhöhte Verlustrate bei feindlichen Einheiten (zwischen +4 % und +10 %).",
+        "Debuff4": "Schwere Infektion (wird bei einem Stapel von ≥60 aktiviert): Die von Truppen übertragene Infektion erhöht sich beim Ausmarschieren um 11 % bis 15 %.",
+        "Debuff5": "Virusseuche (wird aktiviert, wenn der Stapel ≥80 ist): Deine Truppen haben selbst im Falle einer Niederlage eine Chance von 8 % bis 10 %, den Feind zu infizieren."
+      },
+      "AutomaticHealing": {
+        "Title": "Automatische Heilung",
+        "Description": "Wenn Sie sich nicht weiter infizieren und niemand Sie heilt, werden Sie basierend auf den Debuff-Timern langsam geheilt und erreichen schließlich den Infektionsstapel 0. Allerdings kann dieser Heilungsprozess ziemlich lange dauern.",
+        "Description2": "Daher ist es besser, diesen Virus sofort zu behandeln."
+      },
+      "Treatments": {
+        "Title": "Behandlungen",
+        "Description": "Behandlungen können die Virusintensität verringern, während die Überwindung anderer Kommandeure zur Verbreitung der Infektion beitragen kann.",
+        "Description2": "Um einen Verbündeten zu behandeln, klicken Sie auf seine Basis und dann auf das Symbol 'Heilung'. Ihr Flugzeug, ähnlich einem Scout, wird losfliegen und die Infektion um 1 reduzieren. Dabei werden Ihre Immunproteine verbraucht.",
+        "Description3": "Doch jetzt kommt der interessante Teil: Für jede Heilung, die Sie durchführen, erhalten Sie als Belohnung ein Genfragment (Typ IV, V oder VI)."
+      },
+      "VirusResistance": {
+        "Title": "Virenresistenz",
+        "Description": "Die Virenresistenz ist jetzt sehr wichtig, und Sie müssen sie kontinuierlich steigern, indem Sie das Institut für Virenforschung verbessern. Auf diese Weise können Sie zahlreiche Belohnungen erhalten.",
+        "Image1": "Wenn Sie einen Zombie angreifen, wird Ihnen im Informationsfenster angezeigt, wie viel Virenresistenz erforderlich ist. Wenn Ihre Resistenz nicht ausreicht und Sie dennoch angreifen, werden Ihre Truppen infiziert."
+      }
+    },
+    "Gameplay": {
+      "Title": "Spielablauf",
+      "Description": "In dieser neuen Welt ändern sich viele Dynamiken. Lassen Sie uns diese untersuchen und dabei insbesondere darauf konzentrieren, wie man Zombies tötet.",
+      "DamageDebuff": {
+        "Title": "Schadensdebuff und unbedingte Infektion",
+        "Description": "Das Erste, was Sie beim Angriff auf Zombies wissen müssen, ist, dass zwei neue Dinge gelten können:",
+        "List1": "Schadensreduzierung: Wenn du einen Zombie angreifst, dessen Viruslevel höher ist als dein Widerstandslevel, verursachst du weniger Schaden. Der Prozentsatz der Reduzierung wird dir in der Angriffsanzeige angezeigt.",
+        "List2": "Bedingungslose Infektion: Einige Feinde infizieren dich unabhängig von deiner Virenresistenz, wie Korrumpierer, infizierte Zombies und Weltbosse. Dies wird in der Angriffsanzeige angezeigt, wo eine Information über den zusätzlichen Vireninfektionsstapel zu sehen ist.",
+        "Image1": "Ein +1 RA-Virus-Molekül bedeutet, dass Sie sich unabhängig von Ihrer Virenresistenz um einen Infektionsstapel erhöhen werden.",
+        "Description2": "Darüber hinaus können Sie sehen, dass Ihre Virenresistenz nicht ausreicht, da 1900 erforderlich sind, Sie jedoch nur 1090 haben. Sie können also mit Folgendem rechnen:",
+        "List3": "zu infizieren",
+        "List4": "dass Ihr Angriff in diesem speziellen Fall einen Schadensdebuff von -96 % hat"
+      },
+      "ZombieElite": {
+        "Title": "Zombie- und Doom-Elite",
+        "Description": "Es gibt Neuigkeiten bezüglich der Nahrung, des Eisens und des Goldes der Zombies: Diese haben jetzt ähnliche Typen wie die der Helden, wie Panzer, Flugzeuge und Raketenfahrzeuge.",
+        "Description2": "Sobald Sie den Zombie zum Angreifen ausgewählt haben, werden Ihnen die Details angezeigt.",
+        "Description3": "Insbesondere in diesem Fall und angesichts der Tatsache, dass die Virenresistenz geringer ist als die des Zombie-Virus, sollten Sie folgendes beachten:",
+        "List1": "Sobald Sie den Zombie treffen, werden Sie infiziert",
+        "List2": "Der von dir verursachte Schaden wird um 18 % reduziert. Vergewissere dich daher vor dem Angriff, dass deine Kraft mindestens um diesen Betrag höher ist – eigentlich sollte sie sogar etwas höher sein.",
+        "Description4": "Auch die Doom-Eliten sind anders, sie sind gigantische, ansteckende Skorpione"
+      },
+      "DoomedElite": {
+        "Title": "Effektive Kundgebung gegen die Untergangselite",
+        "Image1": "Mit einer Virenresistenz von 500/2200 können Sie diesen Zombie nicht alleine besiegen, da der verursachte Schaden um -99,9 % reduziert wird.",
+        "Description": "Wenn Sie über eine geringe Virenresistenz verfügen und der Schaden stark reduziert ist, führt ein Aufstand gegen eine Doom-Elite, unabhängig vom Erfolg oder Misserfolg, zu einem erheblichen Verlust an Truppen.",
+        "Description2": "Um dies zu vermeiden, können Sie Ihre Verbündeten um Unterstützung bitten:",
+        "List1": "Erstellen Sie eine Heldentruppe mit dem Helden, der das niedrigste Befehlsattribut hat (um weniger Truppen mitzubringen).",
+        "List2": "Starten Sie eine Rallye gegen Doom-Elite-Monster und bitten Sie diejenigen, die über ausreichende Virenresistenz verfügen, um den Zombie besiegen zu können, an der Aktion teilzunehmen.",
+        "Description3": "Mit diesem Ansatz besiegen Sie den Zombie und verdienen dabei viele Mutantenkristalle, während der Truppenverlust minimal bleibt."
+      },
+      "WorldBoss": {
+        "Title": "Weltboss",
+        "Description": "Die Weltbosse ändern nun ihr Aussehen, aber im Grunde bleiben die Regeln wie zuvor bestehen – mit der Ausnahme, dass sie dich bei Kontakt mit dem Virus infizieren, wobei es sich jedoch um eine sehr leichte Infektion handelt."
+      },
+      "Spoilers": {
+        "Title": "Verderber",
+        "Description": "Wenn Sie zum ersten Mal versuchen, eine Militärfestung einzunehmen, müssen Sie sich ihrem Wächter stellen, einem neuen und mächtigen Feind: dem Verderber.",
+        "Description2": "Sie sind tatsächlich sehr mächtig. Denken Sie daran, dass Sie sich bei einem Angriff auf sie immer infizieren, unabhängig von Ihrer Virenresistenz.",
+        "Description3": "Zusätzlich wird ein Schadensdebuff angewendet, wenn Ihre Virenresistenz geringer ist als die Virenstärke."
+      },
+      "InfectedZombies": {
+        "Title": "Infizierte Zombies",
+        "Description": "Nicht nur Korruptoren sind die Wächter militärischer Festungen, sondern es gibt auch infizierte Zombies.",
+        "Description2": "Diese Zombies werden Sie infizieren, ganz gleich, wie resistent Sie gegen Viren sind.",
+        "Description3": "Zusätzlich wird ein Schadensdebuff angewendet, wenn Ihre Virenresistenz niedriger ist als die Virenstärke."
+      }
     }
   }
 }

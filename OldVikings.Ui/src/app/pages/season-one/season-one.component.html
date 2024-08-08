@@ -1,0 +1,439 @@
+<div class="container pb-5">
+  <h3 class="custom-font mt-3 text-center">{{ 'SeasonOne.Title' | translate }}</h3>
+  <hr>
+  <!--  Content-->
+  <section>
+    <h5>{{ 'SeasonOne.Content.Title' | translate }}</h5>
+    <ul>
+      <li><a fragment="new-resources" routerLink="/season-one">{{ 'SeasonOne.Content.NewResources' | translate }}</a>
+      </li>
+      <li><a fragment="world-map" routerLink="/season-one">{{ 'SeasonOne.Content.WorldMap' | translate }}</a></li>
+      <li><a fragment="new-buildings" routerLink="/season-one">{{ 'SeasonOne.Content.NewBuildings' | translate }}</a>
+      </li>
+      <li><a fragment="military-base" routerLink="/season-one">{{ 'SeasonOne.Content.MilitaryBase' | translate }}</a>
+      </li>
+      <li><a fragment="new-farms" routerLink="/season-one">{{ 'SeasonOne.Content.NewFarms' | translate }}</a></li>
+      <li><a fragment="military-strongholds"
+             routerLink="/season-one">{{ 'SeasonOne.Content.MilitaryStrongholds' | translate }}</a></li>
+      <li><a fragment="cities" routerLink="/season-one">{{ 'SeasonOne.Content.Cities' | translate }}</a></li>
+      <li><a fragment="conquest" routerLink="/season-one">{{ 'SeasonOne.Content.Conquest' | translate }}</a></li>
+      <li><a fragment="hero-upgrades" routerLink="/season-one">{{ 'SeasonOne.Content.HeroUpgrade' | translate }}</a>
+      </li>
+      <li><a fragment="virus" routerLink="/season-one">{{ 'SeasonOne.Content.Virus' | translate }}</a></li>
+      <li><a fragment="gameplay" routerLink="/season-one">{{ 'SeasonOne.Content.Gameplay' | translate }}</a></li>
+    </ul>
+  </section>
+  <!--  New Resources-->
+  <section id="new-resources">
+    <hr>
+    <h5>{{ 'SeasonOne.Resources.Title' | translate }}</h5>
+    <p>{{ 'SeasonOne.Resources.Description' | translate }}</p>
+    <div>
+      <img alt="proteine" class="img-fluid" src="assets/images/seasonOne/immune-proteine.png">
+      <p><b>{{ 'SeasonOne.Resources.ImmuneProtein.Title' | translate }}</b></p>
+      <p>{{ 'SeasonOne.Resources.ImmuneProtein.Description' | translate }}</p>
+      <p>{{ 'SeasonOne.Resources.ImmuneProtein.Description2' | translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.Resources.ImmuneProtein.List1' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.ImmuneProtein.List2' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.ImmuneProtein.List3' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.ImmuneProtein.List4' | translate }}</li>
+      </ul>
+    </div>
+    <div>
+      <img alt="crystal" class="img-fluid" src="assets/images/seasonOne/mutant-crystal.png">
+      <p><b>{{ 'SeasonOne.Resources.MutantCrystal.Title' | translate }}</b></p>
+      <p>{{ 'SeasonOne.Resources.MutantCrystal.Description' | translate }}</p>
+      <p>{{ 'SeasonOne.Resources.MutantCrystal.Description2' | translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.Resources.MutantCrystal.List1' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.MutantCrystal.List2' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.MutantCrystal.List3' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.MutantCrystal.List4' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.MutantCrystal.List5' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.MutantCrystal.List6' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.MutantCrystal.List7' | translate }}</li>
+      </ul>
+    </div>
+    <div>
+      <img alt="genetic" class="img-fluid" src="assets/images/seasonOne/genetic-fragment-iii.png">
+      <p><b>{{ 'SeasonOne.Resources.GeneFragment.Title' | translate }}</b></p>
+      <p>{{ 'SeasonOne.Resources.GeneFragment.Description' | translate }}</p>
+      <p>{{ 'SeasonOne.Resources.GeneFragment.Description2' | translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.Resources.GeneFragment.List1' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.GeneFragment.List2' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.GeneFragment.List3' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.GeneFragment.List4' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.GeneFragment.List5' | translate }}</li>
+        <li>{{ 'SeasonOne.Resources.GeneFragment.List6' | translate }}</li>
+      </ul>
+    </div>
+    <p>{{ 'SeasonOne.Resources.Description2' | translate }}</p>
+  </section>
+  <!--  World Map-->
+  <section id="world-map">
+    <hr>
+    <h5>{{ 'SeasonOne.WorldMap.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.WorldMap.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.WorldMap.Description2'| translate }}</p>
+    <div class="image-text-container">
+      <div [innerHTML]="'SeasonOne.WorldMap.Image1' | translate"></div>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/Infeste-%20villages.png">
+      </div>
+    </div>
+    <div class="image-text-container">
+      <div [innerHTML]="'SeasonOne.WorldMap.Image2' | translate"></div>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/Military-strongholds.png">
+      </div>
+    </div>
+    <div class="image-text-container">
+      <div [innerHTML]="'SeasonOne.WorldMap.Image3' | translate"></div>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/City-of-the-Apocalypse.png">
+      </div>
+    </div>
+    <p>{{ 'SeasonOne.WorldMap.Description3'| translate }}</p>
+    <p>{{ 'SeasonOne.WorldMap.Description4'| translate }}</p>
+    <p>{{ 'SeasonOne.WorldMap.Description5'| translate }}</p>
+    <div class="d-flex justify-content-between">
+      <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/doom-elite.png">
+      <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/infected-zombie.png">
+    </div>
+    <p>{{ 'SeasonOne.WorldMap.Description6'| translate }}</p>
+    <div class="d-flex justify-content-center">
+      <img alt="..." class="img-fluid" src="assets/images/seasonOne/season-1-map.jpg">
+    </div>
+  </section>
+  <!--  New Buildings-->
+  <section id="new-buildings">
+    <hr>
+    <h5>{{ 'SeasonOne.NewBuildings.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.NewBuildings.Description'| translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.NewBuildings.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/virus-research-institute.png">
+      </div>
+    </div>
+
+    <h6>{{ 'SeasonOne.NewBuildings.VirusResearchInstitute.Title'| translate }}</h6>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.NewBuildings.VirusResearchInstitute.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/virus-research.png">
+      </div>
+    </div>
+    <h6>{{ 'SeasonOne.NewBuildings.VirusResearchInstitute.LevelUp.Title'| translate }}</h6>
+    <p>{{ 'SeasonOne.NewBuildings.VirusResearchInstitute.LevelUp.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.NewBuildings.VirusResearchInstitute.LevelUp.Description2'| translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.NewBuildings.VirusResearchInstitute.LevelUp.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/research-level-up.png">
+      </div>
+    </div>
+
+    <h6>{{ 'SeasonOne.NewBuildings.ProteinFarm.Title'| translate }}</h6>
+    <p>{{ 'SeasonOne.NewBuildings.ProteinFarm.Description'| translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.NewBuildings.ProteinFarm.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/protein-farm.png">
+      </div>
+    </div>
+    <h6>{{ 'SeasonOne.NewBuildings.ProteinFarm.LevelUp.Title'| translate }}</h6>
+    <p>{{ 'SeasonOne.NewBuildings.ProteinFarm.LevelUp.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.NewBuildings.ProteinFarm.LevelUp.Description2'| translate }}</p>
+    <p>{{ 'SeasonOne.NewBuildings.ProteinFarm.LevelUp.Description3'| translate }}</p>
+    <p>{{ 'SeasonOne.NewBuildings.ProteinFarm.LevelUp.Description4'| translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.NewBuildings.ProteinFarm.LevelUp.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/protein-farm-upgrade.png">
+      </div>
+    </div>
+  </section>
+  <!--  Military Base-->
+  <section id="military-base">
+    <hr>
+    <h5>{{ 'SeasonOne.NewBuildings.MilitaryBase.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.NewBuildings.MilitaryBase.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.NewBuildings.MilitaryBase.Description2'| translate }}</p>
+    <p>{{ 'SeasonOne.NewBuildings.MilitaryBase.Description3'| translate }}</p>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img alt="Bild 1" src="assets/images/seasonOne/tank-base.png">
+      </div>
+      <div class="flex-item">
+        <img alt="Bild 2" src="assets/images/seasonOne/tank-base.png">
+      </div>
+      <div class="flex-item">
+        <img alt="Bild 3" src="assets/images/seasonOne/tank-base.png">
+      </div>
+    </div>
+  </section>
+  <!--  New Farms-->
+  <section id="new-farms">
+    <hr>
+    <h5>{{ 'SeasonOne.NewFarms.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.NewFarms.Description'| translate }}</p>
+    <div class="d-flex justify-content-center">
+      <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/new-resource.png">
+    </div>
+  </section>
+  <!--  Military Strongholds-->
+  <section id="military-strongholds">
+    <hr>
+    <h5>{{ 'SeasonOne.MilitaryStrongholds.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.MilitaryStrongholds.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.MilitaryStrongholds.Description2'| translate }}</p>
+    <p>{{ 'SeasonOne.MilitaryStrongholds.Description3'| translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.MilitaryStrongholds.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/military-stronhold.png">
+      </div>
+    </div>
+  </section>
+  <!--  Cities-->
+  <section id="cities">
+    <hr>
+    <h5>{{ 'SeasonOne.Cities.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.Cities.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.Cities.Description2'| translate }}</p>
+    <div class="d-flex justify-content-center">
+      <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/cities.png">
+    </div>
+    <h6>{{ 'SeasonOne.Cities.Influence.Title'| translate }}</h6>
+    <p>{{ 'SeasonOne.Cities.Influence.Description'| translate }}</p>
+    <ul>
+      <li>{{ 'SeasonOne.Cities.Influence.List1'| translate }}</li>
+      <li>{{ 'SeasonOne.Cities.Influence.List2'| translate }}</li>
+      <li>{{ 'SeasonOne.Cities.Influence.List3'| translate }}</li>
+      <li>{{ 'SeasonOne.Cities.Influence.List4'| translate }}</li>
+      <li>{{ 'SeasonOne.Cities.Influence.List5'| translate }}</li>
+      <li>{{ 'SeasonOne.Cities.Influence.List6'| translate }}</li>
+    </ul>
+    <p>{{ 'SeasonOne.Cities.Influence.Description2'| translate }}</p>
+  </section>
+  <!--  Conquest-->
+  <section id="conquest">
+    <hr>
+    <h5>{{ 'SeasonOne.ConquestOfCities.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.ConquestOfCities.Description'| translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.ConquestOfCities.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/alliance-territorium.png">
+      </div>
+    </div>
+    <h6>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Title'| translate }}</h6>
+    <ul>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule1'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule2'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule3'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule4'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule5'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule6'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule7'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule8'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule9'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringFortresses.Rule10'| translate }}</li>
+    </ul>
+    <h6>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Title'| translate }}</h6>
+    <ul>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule1'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule2'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule3'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule4'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule5'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule6'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule7'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule8'| translate }}</li>
+      <li>{{ 'SeasonOne.ConquestOfCities.RulesForConqueringACity.Rule9'| translate }}</li>
+    </ul>
+  </section>
+  <!--  Hero Upgrades-->
+  <section id="hero-upgrades">
+    <hr>
+    <h5>{{ 'SeasonOne.HeroUpgrades.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.HeroUpgrades.Description'| translate }}</p>
+    <h6>{{ 'SeasonOne.HeroUpgrades.ReturnOfHero.Title'| translate }}</h6>
+    <p>{{ 'SeasonOne.HeroUpgrades.ReturnOfHero.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.HeroUpgrades.ReturnOfHero.Description2'| translate }}</p>
+    <p>{{ 'SeasonOne.HeroUpgrades.ReturnOfHero.Description3'| translate }}</p>
+    <div class="image-text-container">
+      <small [innerHTML]="'SeasonOne.HeroUpgrades.ReturnOfHero.Image1' | translate"></small>
+      <div>
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/return-hero.png">
+      </div>
+    </div>
+    <section>
+      <h6>{{ 'SeasonOne.HeroUpgrades.ExclusiveWeapons.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.HeroUpgrades.ExclusiveWeapons.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.HeroUpgrades.ExclusiveWeapons.Description2'| translate }}</p>
+      <p>{{ 'SeasonOne.HeroUpgrades.ExclusiveWeapons.Description3'| translate }}</p>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.HeroUpgrades.MasonUpgrade.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.HeroUpgrades.MasonUpgrade.Description'| translate }}</p>
+    </section>
+  </section>
+  <!--  Virus-->
+  <section id="virus">
+    <hr>
+    <h5>{{ 'SeasonOne.InfectVirus.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.InfectVirus.Description'| translate }}</p>
+    <p>{{ 'SeasonOne.InfectVirus.Description2'| translate }}</p>
+    <section>
+      <h6>{{ 'SeasonOne.InfectVirus.VirusStack.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.InfectVirus.VirusStack.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.VirusStack.Description2'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.VirusStack.Description3'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.VirusStack.Description4'| translate }}</p>
+      <ul>
+        <li class="d-flex align-items-center">
+          <img alt="Icon" class="mr-2 icon" src="assets/images/seasonOne/ra-virus.png">
+          <span>{{ 'SeasonOne.InfectVirus.VirusStack.List1'| translate }}</span>
+        </li>
+        <li class="d-flex align-items-center">
+          <img alt="Icon" class="mr-2 icon" src="assets/images/seasonOne/virus-stack-positive.png">
+          <span>{{ 'SeasonOne.InfectVirus.VirusStack.List2'| translate }}</span>
+        </li>
+      </ul>
+      <p>{{ 'SeasonOne.InfectVirus.VirusStack.Description5'| translate }}</p>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Description2'| translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.List1'| translate }}</li>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.List2'| translate }}</li>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.List3'| translate }}</li>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.List4'| translate }}</li>
+      </ul>
+      <p>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Description3'| translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.List5'| translate }}</li>
+      </ul>
+      <p>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Description4'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Description5'| translate }}</p>
+      <ol>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Debuff1'| translate }}</li>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Debuff2'| translate }}</li>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Debuff3'| translate }}</li>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Debuff4'| translate }}</li>
+        <li>{{ 'SeasonOne.InfectVirus.InfectionStackLogic.Debuff5'| translate }}</li>
+      </ol>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.InfectVirus.AutomaticHealing.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.InfectVirus.AutomaticHealing.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.AutomaticHealing.Description2'| translate }}</p>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.InfectVirus.Treatments.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.InfectVirus.Treatments.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.Treatments.Description2'| translate }}</p>
+      <p>{{ 'SeasonOne.InfectVirus.Treatments.Description2'| translate }}</p>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.InfectVirus.VirusResistance.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.InfectVirus.VirusResistance.Description'| translate }}</p>
+      <div class="image-text-container">
+        <small [innerHTML]="'SeasonOne.InfectVirus.VirusResistance.Image1' | translate"></small>
+        <div>
+          <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/crimson-zombie.png">
+        </div>
+      </div>
+    </section>
+  </section>
+  <!--Gameplay-->
+  <section id="gameplay">
+    <hr>
+    <h5>{{ 'SeasonOne.Gameplay.Title'| translate }}</h5>
+    <p>{{ 'SeasonOne.Gameplay.Description'| translate }}</p>
+    <section>
+      <h6>{{ 'SeasonOne.Gameplay.DamageDebuff.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.Gameplay.DamageDebuff.Description'| translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.Gameplay.DamageDebuff.List1'| translate }}</li>
+        <li>{{ 'SeasonOne.Gameplay.DamageDebuff.List2'| translate }}</li>
+      </ul>
+      <div class="image-text-container">
+        <small [innerHTML]="'SeasonOne.Gameplay.DamageDebuff.Image1' | translate"></small>
+        <div>
+          <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/infectedZombieTank.png">
+        </div>
+      </div>
+      <p>{{ 'SeasonOne.Gameplay.DamageDebuff.Description2'| translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.Gameplay.DamageDebuff.List3'| translate }}</li>
+        <li>{{ 'SeasonOne.Gameplay.DamageDebuff.List4'| translate }}</li>
+      </ul>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.Gameplay.ZombieElite.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.Gameplay.ZombieElite.Description'| translate }}</p>
+      <div class="d-flex justify-content-center">
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/zombieTank.png">
+      </div>
+      <p>{{ 'SeasonOne.Gameplay.ZombieElite.Description2'| translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.Gameplay.ZombieElite.List1'| translate }}</li>
+        <li>{{ 'SeasonOne.Gameplay.ZombieElite.List2'| translate }}</li>
+      </ul>
+      <p>{{ 'SeasonOne.Gameplay.ZombieElite.Description3'| translate }}</p>
+      <div class="d-flex justify-content-center">
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/doomElite.png">
+      </div>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.Gameplay.DoomedElite.Title'| translate }}</h6>
+      <div class="image-text-container">
+        <small [innerHTML]="'SeasonOne.Gameplay.DoomedElite.Image1' | translate"></small>
+        <div>
+          <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/doomedElite.png">
+        </div>
+      </div>
+      <p>{{ 'SeasonOne.Gameplay.DoomedElite.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.Gameplay.DoomedElite.Description2'| translate }}</p>
+      <ul>
+        <li>{{ 'SeasonOne.Gameplay.DoomedElite.List1'| translate }}</li>
+        <li>{{ 'SeasonOne.Gameplay.DoomedElite.List2'| translate }}</li>
+      </ul>
+      <p>{{ 'SeasonOne.Gameplay.DoomedElite.Description3'| translate }}</p>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.Gameplay.WorldBoss.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.Gameplay.WorldBoss.Description'| translate }}</p>
+      <div class="d-flex justify-content-center">
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/worldBoss.png">
+      </div>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.Gameplay.Spoilers.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.Gameplay.Spoilers.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.Gameplay.Spoilers.Description2'| translate }}</p>
+      <p>{{ 'SeasonOne.Gameplay.Spoilers.Description3'| translate }}</p>
+      <div class="d-flex justify-content-between">
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/spolier.png">
+        <img alt=".." class="img-fluid custom-image" src="assets/images/seasonOne/spoiler2.png">
+      </div>
+    </section>
+    <section>
+      <h6>{{ 'SeasonOne.Gameplay.InfectedZombies.Title'| translate }}</h6>
+      <p>{{ 'SeasonOne.Gameplay.InfectedZombies.Description'| translate }}</p>
+      <p>{{ 'SeasonOne.Gameplay.InfectedZombies.Description2'| translate }}</p>
+      <p>{{ 'SeasonOne.Gameplay.InfectedZombies.Description3'| translate }}</p>
+      <div class="d-flex justify-content-center">
+        <img alt="..." class="img-fluid custom-image" src="assets/images/seasonOne/infectedZombie.png">
+      </div>
+    </section>
+  </section>
+
+</div>

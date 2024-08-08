@@ -134,7 +134,9 @@
     "Basics": "Fondamenti",
     "TipsAndTricks": "Suggerimenti/Trucchi",
     "Buildings": "Edifici",
-    "Squad": "Squadra"
+    "Squad": "Squadra",
+    "DesertStorm": "Tempesta del deserto",
+    "SeasonOne": "Stagione 1"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -776,6 +778,282 @@
       "Description": "Quando esegui un attacco o una rally con una squadra, i soldati vengono aggiunti alla forza base degli eroi. Il numero di soldati coinvolti nell'attacco dipende dall'attributo di comando degli eroi nella squadra.",
       "Image": "Nell'esempio, puoi vedere che il numero di unità (soldati) coinvolti nell'attacco è 1.965 (393 con Murphy, 393 con Williams, ecc.), e cliccando sull'icona i vengono mostrate informazioni che indicano che si tratta di soldati di livello T6 e T7.",
       "Description2": "Nota che, se disponibili, vengono sempre utilizzati prima i soldati di livello più alto, e poi quelli di livello inferiore vengono utilizzati per riempire."
+    }
+  },
+  "SeasonOne": {
+    "Title": "Stagione 1 – La Peste Purpurea",
+    "Content": {
+      "Title": "Contenuto",
+      "NewResources": "Nuove Risorse di Base",
+      "WorldMap": "Il Mondo e la Mappa",
+      "NewBuildings": "Nuovi Edifici",
+      "MilitaryBase": "Base Militare",
+      "NewFarms": "Nuove Fattorie dell'Alleanza",
+      "MilitaryStrongholds": "Roccaforti Militari",
+      "Cities": "Città",
+      "Conquest": "Conquista",
+      "HeroUpgrade": "Aggiornamenti degli Eroi",
+      "Virus": "Virus",
+      "Gameplay": "Meccaniche di Gioco"
+    },
+    "Resources": {
+      "Title": "Nuove Risorse di Base – Proteina Immunitaria, Cristallo Mutante e Framanto Genetico",
+      "Description": "Nel gioco sono ora disponibili risorse aggiuntive, di cui 2 (Proteina Immunitaria e Cristallo Mutante) vengono gestite in modo simile ai cibi, ferro e oro esistenti.",
+      "ImmuneProtein": {
+        "Title": "Proteina Immunitaria",
+        "Description": "Necessaria per costruire e migliorare l'Istituto di Ricerca sui Virus e le Basi Militari.",
+        "Description2": "Puoi ottenere Proteina Immunitaria tramite:",
+        "List1": "Fattoria di Proteine",
+        "List2": "Ricompense per l'uccisione di zombie per la prima volta",
+        "List3": "Raggiungimento degli obiettivi della Stagione 1 per aumentare la resistenza al virus",
+        "List4": "Utilizzo del biglietto di reclutamento Hero’s Return"
+      },
+      "MutantCrystal": {
+        "Title": "Cristallo Mutante",
+        "Description": "Utilizzato per costruire e migliorare la Fattoria di Proteine e le Basi Militari.",
+        "Description2": "Puoi ottenere Cristallo Mutante tramite:",
+        "List1": "Ricompense per l'uccisione di uno zombie per la prima volta",
+        "List2": "Completamento delle missioni della stagione",
+        "List3": "Completamento degli obiettivi della Stagione 1 per aumentare la resistenza ai virus",
+        "List4": "Doom Walker First Blood Kill (primo kill DW del giorno)",
+        "List5": "Ricombinazione Genetica",
+        "List6": "Utilizzo del biglietto di reclutamento Hero’s Return",
+        "List7": "Pass settimanale e Pass Battaglia della stagione"
+      },
+      "GeneFragment": {
+        "Title": "Frammento Genetico",
+        "Description": "Esistono 6 tipi di frammenti genetici. Combinali per ottenere cristalli mutati e ricompense. I frammenti genetici possono essere scambiati con i tuoi alleati.",
+        "Description2": "Puoi guadagnare Frammenti Genetici tramite:",
+        "List1": "Completamento delle missioni radar: uccidere Doom Elite, raccogliere risorse, uccidere Doom Walker ti darà Tipo I, II, III",
+        "List2": "Uccidere Zombie Crimson (di qualsiasi livello) ti darà Tipo I, II, III",
+        "List3": "Uccidere Zombie Infetti (di qualsiasi livello) ti darà Tipo I, II, III",
+        "List4": "Uccidere Doom Elite (di qualsiasi livello) ti darà Tipo I, II, III",
+        "List5": "Guarire gli alleati ti darà Tipo IV, V, VI",
+        "List6": "Attaccare città"
+      },
+      "Description2": "Puoi gestire la quantità di queste risorse (eccetto i frammenti genetici) nella parte superiore dello schermo di gioco, proprio come con le altre risorse. Ricorda anche di controllare il tuo inventario, poiché di solito queste risorse sono disponibili quando le guadagni come ricompensa."
+    },
+    "WorldMap": {
+      "Title": "Il Mondo e la Mappa",
+      "Description": "Con questa nuova stagione, la mappa del server cambia drasticamente, diventando più grande e popolata da nuove creature.",
+      "Description2": "Troverai villaggi infestati e contaminati, fortezze militari e la capitale, che si è trasformata nella Città dell'Apocalisse.",
+      "Image1": "Villaggi Infestati",
+      "Image2": "Fortezze Militari",
+      "Image3": "Città dell'Apocalisse (Capitolo)",
+      "Description3": "All'inizio della stagione, tu e i tuoi alleati sarete bloccati ai margini del server senza una città propria. Le città devono essere riconquistate, ma ci sono nuove regole...",
+      "Description4": "IMPORTANTE: Le alleanze che terranno la capitale per ultime continueranno a tenerla all'inizio della Stagione 1. La conquista della capitale inizierà solo 28 giorni dopo l'evento City Clash.",
+      "Description5": "I mostri Doom Elite si trasformeranno in mostri scorpioni aggressivi e infetti, e la maggior parte degli zombie sarà contagiosa.",
+      "Description6": "Ecco come appare la mappa. Gli edifici che vedi sono le città, gli altri campi tra di essi sono le fortezze militari."
+    },
+    "NewBuildings": {
+      "Title": "Nuovi Edifici",
+      "Description": "Sono disponibili nuovi tipi di edifici e sono necessari. Possono essere costruiti solo al di fuori del perimetro della tua base. Alcuni sono disponibili fin dall'inizio della stagione, altri verranno aggiunti successivamente.",
+      "Image1": "Un potente virus trasmesso dagli zombie infetta la terra. Per sopravvivere, è necessario costruire un Istituto di Ricerca sui Virus.",
+      "VirusResearchInstitute": {
+        "Title": "Istituto di Ricerca sui Virus",
+        "Image1": "L'Istituto di Ricerca sui Virus permette di aumentare la resistenza ai virus.",
+        "LevelUp": {
+          "Title": "Aggiornamento dell'Istituto di Ricerca sui Virus",
+          "Description": "Per aumentare il livello dell'Istituto di Ricerca sui Virus, è necessaria la Proteina Immunitaria.",
+          "Description2": "L'aggiornamento di questo edificio aumenta la resistenza ai virus, fondamentale per la sopravvivenza in questi tempi apocalittici.",
+          "Image1": "Questo edificio può essere potenziato fino al livello 30, indipendentemente dal livello del tuo HQ."
+        }
+      },
+      "ProteinFarm": {
+        "Title": "Fattoria di Proteine",
+        "Description": "In questo nuovo edificio vengono coltivate le Proteine Immunitarie, una delle nuove risorse della stagione.",
+        "Image1": "Sono disponibili un totale di 5 Fattorie di Proteine; la quinta è accessibile solo con il Pass Settimanale della Stagione.",
+        "LevelUp": {
+          "Title": "Migliora la Qualità delle Tue Fattorie di Proteine",
+          "Description": "Per aumentare il livello delle Fattorie di Proteine, sono necessari Cristalli Mutanti.",
+          "Description2": "Una volta che la tua prima Fattoria di Proteine raggiunge il livello 5, verrà disponibile una nuova Fattoria di Proteine.",
+          "Description3": "Le Fattorie di Proteine successive saranno disponibili non appena la precedente raggiunge il livello 10.",
+          "Description4": "Una Fattoria di Proteine è immediatamente disponibile con il Pass Settimanale della Stagione.",
+          "Image1": "Questo edificio può essere potenziato fino al livello 30, indipendentemente dal livello del tuo HQ."
+        }
+      },
+      "MilitaryBase": {
+        "Title": "Base Militare",
+        "Description": "A partire dalla terza settimana, saranno disponibili tre nuovi edifici che permettono miglioramenti per i tipi di eroi.",
+        "Description2": "Per potenziare questi edifici, sono necessarie sia Proteine Immunitarie che Cristalli Mutanti. Questi edifici possono essere potenziati fino al livello 30, indipendentemente dal livello del tuo HQ.",
+        "Description3": "Ogni aggiornamento di livello aumenta HP, attacco e difesa del tipo di eroe corrispondente del 1%."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nuove Fattorie – Risorse dell'Alleanza",
+      "Description": "Dopo l'uccisione casuale di Doom Elite, può apparire temporaneamente una nuova fattoria di risorse dell'alleanza. Invia il tuo gruppo per raccogliere risorse come cibo, ferro, oro, diamanti o cristalli mutanti insieme ai tuoi alleati."
+    },
+    "MilitaryStrongholds": {
+      "Title": "Roccaforti Militari",
+      "Description": "Sulla mappa, tra le città (villaggi), troverai edifici con roccaforti militari, circondate da zombie infetti che le proteggono.",
+      "Description2": "Le alleanze devono prima conquistare una roccaforte di livello 1 per reclamare il loro territorio iniziale. Conquistando ulteriori roccaforti militari, possono poi espandere il loro dominio.",
+      "Description3": "Le alleanze possono conquistare fino a 2 roccaforti militari al giorno, con una limitazione sul numero totale di roccaforti possedute.",
+      "Image1": "Le roccaforti militari servono come basi per le truppe d'élite della regina."
+    },
+    "Cities": {
+      "Title": "Città",
+      "Description": "La conquista delle città porta molti bonus, dai buff ai punti di influenza dell'alleanza fino alle ricompense, che sono le più importanti.",
+      "Description2": "Per dichiarare guerra a una città, un'alleanza deve controllare almeno una roccaforte militare vicina.",
+      "Influence": {
+        "Title": "Influenza",
+        "Description": "Conquistando città si aumenta il punteggio di influenza dell'alleanza. Ogni città in suo possesso porta, a seconda del livello, una quantità diversa di influenza:",
+        "List1": "Livello 1: 100 km",
+        "List2": "Livello 2: 200 km",
+        "List3": "Livello 3: 300 km",
+        "List4": "Livello 4: 400 km",
+        "List5": "Livello 5: 500 km",
+        "List6": "Livello 6: 1 M",
+        "Description2": "Puoi controllare la quantità dei punti di influenza della tua alleanza cliccando sull'icona dell'evento della Stagione 1 direttamente sopra l'icona del duello VS, poi sul banner della Stagione 1 e infine sul pulsante ‘Classifica’."
+      }
+    },
+    "ConquestOfCities": {
+      "Title": "Conquista di Città e Roccaforti – Territorio dell'Alleanza",
+      "Description": "All'inizio della stagione, tutte le alleanze sono bloccate ai margini del server e non possiedono città proprie. Le città e i punti di forza militari sono ora considerati territori dell'alleanza. Il tuo obiettivo è espandere il tuo territorio e aumentare l'influenza della tua alleanza.",
+      "Image1": "Il territorio dell'alleanza deve essere collegato alle roccaforti militari con la città obiettivo contro la quale è dichiarata guerra.",
+      "Description2": "Puoi vedere le tue roccaforti e città andando su Alleanza -> Città dell'Alleanza, dove verranno mostrate anche le frontiere.",
+      "RulesForConqueringFortresses": {
+        "Title": "Regole per la Conquista delle Roccaforti",
+        "Rule1": "Le alleanze possono conquistare fino a 2 punti di forza militari al giorno, indipendentemente dal limite giornaliero per la conquista delle città.",
+        "Rule2": "L'alleanza deve conquistare una roccaforte di livello 1 per ottenere il primo pezzo di territorio dell'alleanza e poi espandere questo territorio conquistando ulteriori roccaforti militari.",
+        "Rule3": "Per conquistare una roccaforte militare è necessario possedere una roccaforte adiacente.",
+        "Rule4": "Il limite iniziale per il numero di roccaforti possedute è di 3.",
+        "Rule5": "Per ogni città conquistata dei livelli 1-5, il limite delle roccaforti dell'alleanza aumenta di 1.",
+        "Rule6": "Per ogni città conquistata di livello 6, il limite delle roccaforti dell'alleanza aumenta di 2.",
+        "Rule7": "La conquista di una roccaforte richiede resistenza ai virus.",
+        "Rule8": "All'inizio della stagione, la roccaforte appartiene alla Crimson Legion e quindi è protetta da Corruptors e Zombie Infetti. Per prendere la roccaforte, entrambi i tipi di nemici devono essere sconfitti.",
+        "Rule9": "Una volta conquistata una roccaforte, essa entrerà in una fase di protezione di 36 ore durante la quale non può essere conquistata da un'altra alleanza.",
+        "Rule10": "Una volta che una roccaforte è stata conquistata da un'alleanza, apparirà un esercito di difensori della roccaforte, il cui livello è proporzionale al livello della roccaforte. Ogni alleanza che desidera conquistare la roccaforte deve sconfiggere questi difensori prima di poter prendere la roccaforte. Una notifica dell'attacco ai difensori sarà mostrata agli alleati come attacco."
+      },
+      "RulesForConqueringACity": {
+        "Title": "Regole per la Conquista delle Città",
+        "Rule1": "Le alleanze possono dichiarare guerra a un massimo di due città al giorno; questa restrizione è indipendente dal limite giornaliero per la conquista delle città.",
+        "Rule2": "Il territorio di un'alleanza deve essere collegato alle roccaforti militari con la città obiettivo contro la quale è dichiarata guerra.",
+        "Rule3": "Ogni alleanza può dichiarare guerra solo a una città alla volta.",
+        "Rule4": "La durata della dichiarazione di guerra è di 1 ora.",
+        "Rule5": "Nella stessa zona di guerra, un'alleanza può conquistare fino a 6 città.",
+        "Rule6": "Durante la stagione, le alleanze possono conquistare fino a 6 città aggiuntive in altre zone di guerra.",
+        "Rule7": "Dopo la conquista di una città, aumenta il numero massimo di punti di forza militari che l'alleanza può mantenere nell'area di guerra obiettivo (vedi il paragrafo precedente).",
+        "Rule8": "Per dichiarare guerra a una città, l'alleanza deve aver conquistato almeno una roccaforte militare adiacente.",
+        "Rule9": "Una volta che la città entra in stato di protezione dalla guerra, il tempo di protezione dura fino a 6 giorni successivi, alle 12:00 ora del server del giorno successivo alla dichiarazione."
+      }
+    },
+    "HeroUpgrades": {
+      "Title": "Aggiornamenti degli Eroi e Armi",
+      "Description": "La Stagione 1 porta novità sugli eroi e le armi, la cui disponibilità varia nel tempo.",
+      "ReturnOfHero": {
+        "Title": "Il Ritorno dell'Eroe",
+        "Description": "Se non sei riuscito a ottenere un eroe in precedenza, ora puoi farlo.",
+        "Description2": "All'inizio della prima stagione sarà disponibile un nuovo tipo di biglietto di reclutamento: il Biglietto del Ritorno dell'Eroe.",
+        "Description3": "Con questo biglietto di reclutamento, puoi ottenere frammenti della maggior parte degli eroi UR fin dal primo giorno della Stagione 1.",
+        "Image1": "Questi biglietti danno lo stesso numero di punti dei biglietti di reclutamento per eroi nella corsa agli armamenti e nei duelli."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Armi Esclusive",
+        "Description": "Nella Stagione 1, ogni eroe leggendario dispone di un'arma esclusiva unica, la cui disponibilità varia per ciascun eroe. Per attivarla, hai bisogno di frammenti specifici.",
+        "Description2": "Le armi esclusive sbloccano nuove apparizioni di veicoli e abilità ai livelli 1, 10, 20 e 30.",
+        "Description3": "Potenziare le armi esclusive migliora notevolmente vari attributi e aumenta i livelli massimi delle abilità esistenti."
+      },
+      "MasonUpgrade": {
+        "Title": "Aggiornamento di Mason a UR",
+        "Description": "Le voci sono vere, potrai aggiornare Mason all'eroe UR."
+      }
+    },
+    "InfectVirus": {
+      "Title": "Infettare il Virus",
+      "Description": "Quando combatti contro gli zombi, esiste il rischio di infezione. Puoi costruire una resistenza ai virus presso l'Istituto di Ricerca sui Virus, ma se questa non ha ancora raggiunto un certo livello, le tue truppe saranno infettate. Le truppe che tornano possono influenzare negativamente la base.",
+      "Description2": "Il virus che si diffonde è il Virus RA.",
+      "VirusStack": {
+        "Title": "Accumulo di Virus",
+        "Description": "Quando le tue truppe vengono infettate e ritornano alla tua base, l'infezione inizia ad accumularsi lì.",
+        "Description2": "Gli accumuli di infezione vanno da 0 a 100, con 0 che rappresenta nessuna infezione e 100 il valore massimo.",
+        "Description3": "Anche se attacchi più mostri infetti o vieni attaccato dai nemici, gli accumuli di infezione non possono superare 100.",
+        "Description4": "L'accumulo di infezione da virus viene mostrato tramite un'icona sopra il simbolo del radar:",
+        "List1": "quando non sei infettato",
+        "List2": "quando sei infettato, e il numero sull'icona indica il valore dell'accumulo di infezione",
+        "Description5": "Se clicchi sull'icona, verranno mostrati ulteriori dettagli sui debuff applicabili e sulla loro gravità."
+      },
+      "InfectionStackLogic": {
+        "Title": "Logica dell'Accumulo di Infezione",
+        "Description": "Ad ogni infezione, l'accumulo di infezione aumenta.",
+        "Description2": "Puoi infettarti o aumentare il tuo accumulo di infezione se:",
+        "List1": "Attacchi uno zombi il cui livello di virus è più alto della tua resistenza ai virus (il gioco ti avviserà)",
+        "List2": "Attacchi un Corruptor o uno Zombi Infetto, indipendentemente dalla tua resistenza ai virus.",
+        "List3": "Attacchi un Boss Mondiale come Frankenstein, ecc.",
+        "List4": "Vieni attaccato da truppe nemiche che portano il virus",
+        "Description3": "Non sarai infettato se:",
+        "List5": "Rafforzi una base",
+        "Description4": "Quando vengono raggiunti determinati valori soglia per l'accumulo di infezione (1, 20, 40, 60, 80), vengono attivati vari debuff.",
+        "Description5": "Ci sono cinque tipi di debuff (icone sotto le soglie di accumulo), da sinistra a destra:",
+        "Debuff1": "Ospedalizzazione (attivato con accumulo >=1): Ogni 300-200 secondi, un'unità viene gravemente ferita.",
+        "Debuff2": "Bassa Morale (attivato con accumulo ≥20): Il danno inflitto è meno efficace (tra -4 % e -20 %).",
+        "Debuff3": "Virus Letale (attivato con accumulo ≥40): Aumento del tasso di perdita di unità nemiche (tra +4 % e +10 %).",
+        "Debuff4": "Infezione Grave (attivato con accumulo ≥60): L'infezione trasmessa dalle truppe aumenta del 11 % fino al 15 % durante la partenza.",
+        "Debuff5": "Peste Virale (attivato con accumulo ≥80): Le tue truppe hanno una probabilità del 8 % fino al 10 % di infettare il nemico anche in caso di sconfitta."
+      },
+      "AutomaticHealing": {
+        "Title": "Guarigione Automatica",
+        "Description": "Se non ti infetti ulteriormente e nessuno ti cura, verrai guarito lentamente in base ai timer dei debuff e raggiungerai infine un accumulo di infezione di 0. Tuttavia, questo processo di guarigione può richiedere molto tempo.",
+        "Description2": "Pertanto, è meglio trattare immediatamente questo virus."
+      },
+      "Treatments": {
+        "Title": "Trattamenti",
+        "Description": "I trattamenti possono ridurre l'intensità del virus, mentre il superamento di altri comandanti può contribuire alla diffusione dell'infezione.",
+        "Description2": "Per trattare un alleato, clicca sulla sua base e poi sull'icona 'Guarigione'. Il tuo aereo, simile a uno scout, volerà e ridurrà l'infezione di 1. Durante questo processo, verranno consumate le tue proteine immunitarie.",
+        "Description3": "Ma ora arriva la parte interessante: per ogni cura che esegui, ricevi come ricompensa un frammento genetico (Tipo IV, V o VI)."
+      },
+      "VirusResistance": {
+        "Title": "Resistenza ai Virus",
+        "Description": "La resistenza ai virus è ora molto importante e devi aumentarla continuamente migliorando l'Istituto di Ricerca sui Virus. In questo modo, puoi ottenere numerose ricompense.",
+        "Image1": "Quando attacchi uno zombi, verrà mostrato nella finestra delle informazioni quanto è necessaria la resistenza ai virus. Se la tua resistenza non è sufficiente e attacchi comunque, le tue truppe verranno infettate."
+      }
+    },
+    "Gameplay": {
+      "Title": "Gameplay",
+      "Description": "In questo nuovo mondo, molte dinamiche cambiano. Esaminiamo queste e concentriamoci in particolare su come uccidere gli zombi.",
+      "DamageDebuff": {
+        "Title": "Debuff del Danno e Infezione Incondizionata",
+        "Description": "La prima cosa che devi sapere quando attacchi gli zombi è che possono applicarsi due nuove cose:",
+        "List1": "Riduzione del Danno: Quando attacchi uno zombi il cui livello di virus è superiore al tuo livello di resistenza, infliggi meno danno. La percentuale di riduzione verrà mostrata nella schermata di attacco.",
+        "List2": "Infezione Incondizionata: Alcuni nemici ti infettano indipendentemente dalla tua resistenza ai virus, come i Corruptor, gli zombi infetti e i boss mondiali. Questo verrà mostrato nella schermata di attacco, dove sarà visibile un'informazione sull'accumulo di infezione da virus aggiuntivo.",
+        "Image1": "Una molecola di Virus RA +1 significa che ti infetterai con un aumento dell'accumulo di infezione indipendentemente dalla tua resistenza ai virus.",
+        "Description2": "Inoltre, puoi vedere che la tua resistenza ai virus non è sufficiente poiché sono necessari 1900, ma ne hai solo 1090. Puoi quindi aspettarti:",
+        "List3": "di infettarti",
+        "List4": "che il tuo attacco in questo caso specifico avrà un debuff di danno del -96 %"
+      },
+      "ZombieElite": {
+        "Title": "Zombie e Doom Elite",
+        "Description": "Ci sono novità riguardo al cibo, al ferro e all'oro degli zombi: ora hanno tipi simili a quelli degli eroi, come carri armati, aerei e veicoli missilistici.",
+        "Description2": "Una volta selezionato lo zombi da attaccare, verranno mostrati i dettagli.",
+        "Description3": "Particolarmente in questo caso, e visto che la resistenza ai virus è inferiore a quella del virus dello zombi, dovresti considerare quanto segue:",
+        "List1": "Una volta che colpisci lo zombi, sarai infettato",
+        "List2": "Il danno che infliggi sarà ridotto del 18 %. Assicurati quindi prima dell'attacco che la tua forza sia almeno superiore di questa quantità – in realtà dovrebbe essere anche un po' più alta.",
+        "Description4": "Anche le Doom Elite sono diverse, sono scorpioni infettanti giganti."
+      },
+      "DoomedElite": {
+        "Title": "Riunione Efficace contro le Doom Elite",
+        "Image1": "Con una resistenza ai virus di 500/2200 non puoi sconfiggere questo zombi da solo, poiché il danno inflitto sarà ridotto del -99,9 %.",
+        "Description": "Se hai una bassa resistenza ai virus e il danno è fortemente ridotto, un assalto a una Doom Elite, indipendentemente dal successo o dal fallimento, porterà a una significativa perdita di truppe.",
+        "Description2": "Per evitare questo, puoi chiedere supporto ai tuoi alleati:",
+        "List1": "Crea una squadra di eroi con l'eroe che ha il punteggio di comando più basso (per portare meno truppe).",
+        "List2": "Avvia una manifestazione contro i mostri Doom Elite e chiedi a chi ha una resistenza ai virus sufficiente per partecipare all'azione.",
+        "Description3": "Con questo approccio, sconfiggerai lo zombi e guadagnerai molti cristalli mutanti, mantenendo al minimo la perdita di truppe."
+      },
+      "WorldBoss": {
+        "Title": "Boss Mondiale",
+        "Description": "I Boss Mondiali ora cambiano aspetto, ma in linea di massima le regole rimangono le stesse – con l'eccezione che ti infettano al contatto con il virus, sebbene si tratti di un'infezione molto leggera."
+      },
+      "Spoilers": {
+        "Title": "Corrotti",
+        "Description": "Quando provi per la prima volta a prendere una fortezza militare, dovrai affrontare il suo guardiano, un nemico nuovo e potente: il Corrotto.",
+        "Description2": "Sono effettivamente molto potenti. Ricorda che quando li attacchi, ti infetti sempre, indipendentemente dalla tua resistenza ai virus.",
+        "Description3": "In aggiunta, viene applicato un debuff di danno se la tua resistenza ai virus è inferiore alla forza del virus."
+      },
+      "InfectedZombies": {
+        "Title": "Zombi Infetti",
+        "Description": "Non solo i Corruptor sono i guardiani delle fortezze militari, ma ci sono anche zombi infetti.",
+        "Description2": "Questi zombi ti infetteranno, indipendentemente da quanto sei resistente ai virus.",
+        "Description3": "Inoltre, viene applicato un debuff di danno se la tua resistenza ai virus è inferiore alla forza del virus."
+      }
     }
   }
 }

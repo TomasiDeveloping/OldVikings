@@ -11,6 +11,7 @@ import {BuildingsComponent} from "./pages/buildings/buildings.component";
 import {MemberLoginComponent} from "./auth/member-login/member-login.component";
 import {memberGuard} from "./guards/member.guard";
 import {SquadComponent} from "./pages/squad/squad.component";
+import {SeasonOneComponent} from "./pages/season-one/season-one.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -27,6 +28,7 @@ const routes: Routes = [
   {path: 'buildings', component: BuildingsComponent, canActivate: [memberGuard]},
   {path: 'squad', component: SquadComponent},
   {path: 'member-login', component: MemberLoginComponent},
+  {path: 'season-one', component: SeasonOneComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 

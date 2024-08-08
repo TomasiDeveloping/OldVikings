@@ -134,7 +134,10 @@
     "Basics": "Basisprincipes",
     "TipsAndTricks": "Tips/Trucs",
     "Buildings": "Gebouwen",
-    "Squad": "Team"
+    "Squad": "Team",
+    "DesertStorm": "Woestijnstorm",
+    "SeasonOne": "Seizoen 1"
+
   },
   "VS": {
     "Title": "VS-Duel",
@@ -776,6 +779,282 @@
       "Description": "Bij het uitvoeren van een aanval of rally met een team worden soldaten toegevoegd aan de basissterkte van de helden. Het aantal soldaten dat betrokken is bij de aanval hangt af van het commandokenmerk van de helden in het team.",
       "Image": "In het voorbeeld kun je zien dat het aantal eenheden (soldaten) dat betrokken is bij de aanval 1.965 is (393 bij Murphy, 393 bij Williams, enz.), en door op de i te klikken wordt informatie weergegeven dat het gaat om soldaten van niveau T6 en T7.",
       "Description2": "Let op dat, indien beschikbaar, altijd eerst soldaten van hogere niveaus worden gebruikt en daarna soldaten van lagere niveaus worden ingezet om aan te vullen."
+    }
+  },
+  "SeasonOne": {
+    "Title": "Seizoen 1 – De Paarse Pest",
+    "Content": {
+      "Title": "Inhoud",
+      "NewResources": "Nieuwe Basisbronnen",
+      "WorldMap": "De Wereld en de Kaart",
+      "NewBuildings": "Nieuwe Gebouwen",
+      "MilitaryBase": "Militaire Basis",
+      "NewFarms": "Nieuwe Alliantie Boerderijen",
+      "MilitaryStrongholds": "Militaire Bolwerken",
+      "Cities": "Steden",
+      "Conquest": "Verovering",
+      "HeroUpgrade": "Held-Upgrades",
+      "Virus": "Virus",
+      "Gameplay": "Spelverloop"
+    },
+    "Resources": {
+      "Title": "Nieuwe Basisbronnen – Immunoproteïne, Mutantkristal en genetisch Fragment",
+      "Description": "In het spel zijn nu extra bronnen beschikbaar, waarvan 2 (Immunoproteïne en Mutantkristal) op dezelfde manier worden beheerd als de bestaande voedsel, ijzer en goud.",
+      "ImmuneProtein": {
+        "Title": "Immunoproteïne",
+        "Description": "Wordt gebruikt voor de bouw en verbetering van het Virus Onderzoeksinstituut en militaire basissen.",
+        "Description2": "Immunoproteïne krijg je door:",
+        "List1": "Eiwitboerderij",
+        "List2": "Beloningen voor het eerste doden van zombies",
+        "List3": "Het bereiken van de doelen van Seizoen 1 voor het verhogen van de virusbestendigheid",
+        "List4": "Gebruik van het Hero’s Return-rekruteringsbon"
+      },
+      "MutantCrystal": {
+        "Title": "Mutantkristal",
+        "Description": "Wordt gebruikt voor de bouw en verbetering van de eiwitboerderij en militaire basissen.",
+        "Description2": "Mutantkristal krijg je door:",
+        "List1": "Beloningen voor het eerste doden van een zombie",
+        "List2": "Voltoien van Seizoen-missies",
+        "List3": "Voltoien van Seizoen 1-doelen voor het verhogen van de virusbestendigheid",
+        "List4": "Doom Walker First Blood Kill (eerste DW-kill van de dag)",
+        "List5": "Genetische Rekombinatie",
+        "List6": "Gebruik van het Hero’s Return-rekruteringsbon",
+        "List7": "Weekpas en Seizoen Battle Pass"
+      },
+      "GeneFragment": {
+        "Title": "Genetisch Fragment",
+        "Description": "Er zijn 6 soorten genetische fragmenten. Combineer ze opnieuw om gemuteerde kristallen en beloningen te ontvangen. Genetische fragmenten kunnen worden uitgewisseld met je bondgenoten.",
+        "Description2": "Je kunt genetische fragmenten verdienen door:",
+        "List1": "Radar Missies te voltooien: Doom Elite doden, bronnen verzamelen, Doom Walker doden geeft je Type I, II, III",
+        "List2": "Crimson Zombies doden (elke niveau) geeft je Type I, II, III",
+        "List3": "Infectieuze Zombies doden (elke niveau) geeft je Type I, II, III",
+        "List4": "Doom Elite doden (elke niveau) geeft je Type I, II, III",
+        "List5": "Bondgenoten genezen geeft je Type IV, V, VI",
+        "List6": "Steden aanvallen"
+      },
+      "Description2": "Je kunt de hoeveelheid van deze bronnen (behalve genetische fragmenten) bovenaan het speldisplay beheren, net zoals bij andere bronnen. Vergeet ook niet je inventaris te controleren, want normaal gesproken zijn deze bronnen beschikbaar wanneer je ze als beloning wint."
+    },
+    "WorldMap": {
+      "Title": "De Wereld en de Kaart",
+      "Description": "Met dit nieuwe seizoen verandert de serverkaart drastisch, hij wordt groter en gevuld met nieuwe wezens.",
+      "Description2": "Je zult angstaanjagende en besmette dorpen, militaire forten en de hoofdstad tegenkomen, die is veranderd in de Stad van de Apocalyps.",
+      "Image1": "Bevuilde Dorpen",
+      "Image2": "Militaire Bolwerken",
+      "Image3": "Stad van de Apocalyps (Capitool)",
+      "Description3": "Aan het begin van het seizoen zijn jij en je bondgenoten aan de rand van de server gestrand en hebben jullie geen eigen stad. Steden moeten heroverd worden, maar er zijn nieuwe regels van kracht...",
+      "Description4": "BELANGRIJK: De allianties die de hoofdstad het laatst vasthouden, zullen de hoofdstad behouden zodra Seizoen 1 begint. Het veroveren van de hoofdstad begint pas 28 dagen na het City Clash-evenement.",
+      "Description5": "Doom-Elite-monsters transformeren in agressieve, besmettelijke schorpioenmonsters, en de meeste zombies zijn besmettelijk.",
+      "Description6": "Zo ziet de kaart eruit. De gebouwen die je ziet, zijn de steden; de andere velden ertussen zijn militaire forten."
+    },
+    "NewBuildings": {
+      "Title": "Nieuwe Gebouwen",
+      "Description": "Nieuwe gebouwtypen zijn beschikbaar en noodzakelijk. Ze kunnen alleen buiten de kring van je basis worden gebouwd. Sommige verschijnen onmiddellijk aan het begin van het seizoen, andere volgen later.",
+      "Image1": "Een sterk, door zombies overgedragen virus besmet het land. Om te overleven, moet er een Virus Onderzoeksinstituut worden gebouwd.",
+      "VirusResearchInstitute": {
+        "Title": "Virus Onderzoeksinstituut",
+        "Image1": "Het Virus Onderzoeksinstituut maakt een verhoging van de virusbestendigheid mogelijk.",
+        "LevelUp": {
+          "Title": "Level-up van het Virus Onderzoeksinstituut",
+          "Description": "Om het niveau van het Virus Onderzoeksinstituut te verhogen, heb je Immunoproteïne nodig.",
+          "Description2": "Door dit gebouw op te waarderen wordt de virusbestendigheid verhoogd, wat essentieel is voor overleving in deze apocalyptische tijden.",
+          "Image1": "Dit gebouw kan tot niveau 30 worden opgewaardeerd, ongeacht je HQ-niveau."
+        }
+      },
+      "ProteinFarm": {
+        "Title": "Eiwitboerderij",
+        "Description": "In dit nieuwe gebouw worden Immunoproteïnen gekweekt, een van de nieuwe bronnen van het seizoen.",
+        "Image1": "Er zijn in totaal 5 Eiwitboerderijen beschikbaar; de vijfde is alleen toegankelijk met de Season's Weekly Pass.",
+        "LevelUp": {
+          "Title": "Verhoog de kwaliteit van je Eiwitboerderijen",
+          "Description": "Om het niveau van de Eiwitboerderijen te verhogen, heb je Mutantkristallen nodig.",
+          "Description2": "Zodra je eerste Eiwitboerderij niveau 5 heeft bereikt, wordt een nieuwe Eiwitboerderij beschikbaar.",
+          "Description3": "Vervolg Eiwitboerderijen worden beschikbaar zodra de vorige niveau 10 heeft bereikt.",
+          "Description4": "Een Eiwitboerderij is onmiddellijk beschikbaar met de wekelijkse seizoenspas.",
+          "Image1": "Dit gebouw kan tot niveau 30 worden opgewaardeerd, ongeacht je HQ-niveau."
+        }
+      },
+      "MilitaryBase": {
+        "Title": "Militaire Basis",
+        "Description": "Vanaf de derde week worden drie nieuwe gebouwen beschikbaar die verbeteringen voor heldentypen mogelijk maken.",
+        "Description2": "Voor de opwaardering heb je zowel Immunoproteïne als Mutantkristallen nodig. Deze gebouwen kunnen tot niveau 30 worden opgewaardeerd, ongeacht je HQ-niveau.",
+        "Description3": "Elk niveau-upgrade verhoogt de HP, aanval en verdediging van het betreffende heldentype met 1 %."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nieuwe Boerderijen – Alliantiebronnen",
+      "Description": "Na het willekeurig doden van Doom-Elites kan tijdelijk een nieuwe alliantiebronnenboerderij verschijnen. Stuur je team uit om samen met je bondgenoten de bronnen voedsel, ijzer, goud, diamanten of Mutantkristallen te verzamelen."
+    },
+    "MilitaryStrongholds": {
+      "Title": "Militaire Bolwerken",
+      "Description": "Op de kaart vind je tussen de steden (dorpen) gebouwen met militaire bolwerken, die omgeven zijn door besmettelijke zombies die deze beschermen.",
+      "Description2": "Allianties moeten eerst een bolwerk van niveau 1 beveiligen om hun aanvankelijke territorium op te eisen. Door het veroveren van extra militaire bolwerken kunnen ze uitbreiden.",
+      "Description3": "Allianties kunnen tot 2 militaire bolwerken per dag veroveren, met een beperking op het totale aantal bolwerken in hun bezit.",
+      "Image1": "Militaire bolwerken dienen als steunpunten voor de elitetroupes van de koningin."
+    },
+    "Cities": {
+      "Title": "Steden",
+      "Description": "Het veroveren van steden brengt vele voordelen met zich mee, van buffs over invloedspunten van de alliantie tot de belangrijkste beloningen.",
+      "Description2": "Om oorlog te verklaren aan een stad, moet een alliantie minimaal één aangrenzend militaire bolwerk controleren.",
+      "Influence": {
+        "Title": "Invloed",
+        "Description": "Door steden te veroveren, verhoogt de invloedspunten van de alliantie. Elke stad in hun bezit brengt afhankelijk van het niveau een verschillend aantal punten op:",
+        "List1": "Niveau 1: 100 km",
+        "List2": "Niveau 2: 200 km",
+        "List3": "Niveau 3: 300 km",
+        "List4": "Niveau 4: 400 km",
+        "List5": "Niveau 5: 500 km",
+        "List6": "Niveau 6: 1 M",
+        "Description2": "Je kunt de hoeveelheid invloedspunten van je alliantie controleren door op het icoon voor het Seizoen 1-evenement direct boven het Duel-VS-icoon te klikken, vervolgens op de banner van Seizoen 1 en daarna op de knop 'Leaderboard' te klikken."
+      }
+    },
+    "ConquestOfCities": {
+      "Title": "Steden- en Fortverovering – Alliantiegebied",
+      "Description": "Aan het begin van het seizoen zijn alle allianties aan de rand van de server gestrand en bezitten zij geen eigen stad. Steden en militaire steunpunten worden nu beschouwd als alliantiegebied. Je doel is om je gebied uit te breiden en de invloed van je alliantie te vergroten.",
+      "Image1": "Het alliantiegebied moet verbonden zijn met militaire bolwerken bij de doelstad waartegen de oorlog wordt verklaard.",
+      "Description2": "Je kunt je forten en steden bekijken door naar Alliantie -> Alliantiestad te gaan, waar ook de grenzen worden weergegeven.",
+      "RulesForConqueringFortresses": {
+        "Title": "Regels voor het Veroveren van Forten",
+        "Rule1": "Allianties kunnen tot 2 militaire steunpunten per dag veroveren, ongeacht de dagelijkse limiet voor het veroveren van steden.",
+        "Rule2": "De alliantie moet een fort van niveau 1 veroveren om het eerste stuk alliantiegebied te verkrijgen en dit uit te breiden door verder militaire forten te veroveren.",
+        "Rule3": "Voor de verovering van een militaire bolwerk is het bezit van een aangrenzend fort vereist.",
+        "Rule4": "De initiële limiet voor het aantal bezette forten is 3.",
+        "Rule5": "Voor elke veroverde stad van niveau 1-5 wordt de limiet van forten van de alliantie met 1 verhoogd.",
+        "Rule6": "Voor elke veroverde stad van niveau 6 wordt de limiet van forten van de alliantie met 2 verhoogd.",
+        "Rule7": "Het veroveren van een militaire bolwerk vereist virusbestendigheid.",
+        "Rule8": "Aan het begin van het seizoen behoort het fort tot de Crimson Legion en wordt het bewaakt door Corruptors en Infected Zombies. Om het fort te veroveren, moeten beide vijandelijke soorten worden verslagen.",
+        "Rule9": "Zodra een fort is veroverd, bevindt het zich gedurende 36 uur in een beschermingsfase en kan het gedurende deze tijd niet door een andere alliantie worden veroverd.",
+        "Rule10": "Zodra een fort door een alliantie is ingenomen, verschijnt er een leger van fortverdedigers, wiens niveau proportioneel is aan het niveau van het fort. Elke alliantie die het fort wil veroveren, moet deze verdedigers verslaan voordat ze het fort kan innemen. Een melding over de aanval op de verdedigers wordt aan de bondgenoten als een aanval weergegeven."
+      },
+      "RulesForConqueringACity": {
+        "Title": "Regels voor het Veroveren van een Stad",
+        "Rule1": "Allianties kunnen tot twee steden per dag de oorlog verklaren; deze beperking is onafhankelijk van de dagelijkse limiet voor het veroveren van steden.",
+        "Rule2": "Het gebied van een alliantie moet verbonden zijn met militaire bolwerken bij de doelstad waartegen de oorlog wordt verklaard.",
+        "Rule3": "Elke alliantie kan altijd maar één stad de oorlog verklaren.",
+        "Rule4": "De duur van de oorlogsverklaring is 1 uur.",
+        "Rule5": "Binnen hetzelfde oorlogsgebied kan een alliantie tot 6 steden veroveren.",
+        "Rule6": "Gedurende het seizoen kunnen allianties daarnaast tot 6 steden in andere oorlogsgebieden veroveren.",
+        "Rule7": "Na de verovering van een stad wordt het maximale aantal militaire steunpunten dat de alliantie in het doeloorlogsgebied kan behouden verhoogd (zie vorige alinea).",
+        "Rule8": "Om een stad de oorlog te verklaren, moet de alliantie minimaal één aangrenzend militair fort hebben veroverd.",
+        "Rule9": "Nadat de stad de oorlogsstatus heeft bereikt, duurt de bescherming tot 6 dagen later, 12:00 uur servertijd van de volgende verklaringdag."
+      }
+    },
+    "HeroUpgrades": {
+      "Title": "Held-Upgrades en Wapens",
+      "Description": "Seizoen 1 brengt nieuwtjes voor helden en wapens, waarvan de beschikbaarheid varieert afhankelijk van de tijd.",
+      "ReturnOfHero": {
+        "Title": "De Terugkeer van de Held",
+        "Description": "Als het je eerder niet is gelukt om een held te bemachtigen, kun je dit nu inhalen.",
+        "Description2": "Vanaf het begin van seizoen 1 zal er een nieuw type rekruteringsbon beschikbaar zijn: het Hero’s Return Ticket.",
+        "Description3": "Met dit rekruteringsbon kun je vanaf de eerste dag van seizoen 1 fragmenten van de meeste UR-helden ontvangen.",
+        "Image1": "Deze tickets geven hetzelfde aantal punten als de helden-rekruteringsbonnen bij de wapenwedloop en de duels."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Exclusieve Wapens",
+        "Description": "In seizoen 1 beschikt elke legendarische held over een uniek, exclusief wapen, waarvan de beschikbaarheidstijden variëren bij elke held. Om ze te activeren, heb je bepaalde fragmenten nodig.",
+        "Description2": "Exclusieve wapens ontgrendelen nieuwe voertuigverschijningen en vaardigheden op niveaus 1, 10, 20 en 30.",
+        "Description3": "Door het upgraden van exclusieve wapens worden verschillende attributen aanzienlijk verbeterd en worden de maximale niveaus van bestaande vaardigheden verhoogd."
+      },
+      "MasonUpgrade": {
+        "Title": "Mason Upgrade naar UR",
+        "Description": "De geruchten kloppen, je kunt Mason upgraden naar de held UR."
+      }
+    },
+    "InfectVirus": {
+      "Title": "Virus Infecteren",
+      "Description": "Wanneer je tegen zombies vecht, bestaat het risico op besmetting. Je kunt virusresistentie opbouwen in het Virus Research Institute, maar als deze nog niet een bepaald niveau heeft bereikt, zullen je troepen geïnfecteerd raken. Terugkerende troepen kunnen de basis negatief beïnvloeden.",
+      "Description2": "Het zich verspreidende virus is het RA-virus.",
+      "VirusStack": {
+        "Title": "Virusstapel",
+        "Description": "Wanneer je troepen geïnfecteerd raken en terugkeren naar je basis, begint de infectie zich daar op te stapelen.",
+        "Description2": "De infectiestapels variëren van 0 tot 100, waarbij 0 geen infectie en 100 de hoogste waarde vertegenwoordigt.",
+        "Description3": "Zelfs als je meerdere geïnfecteerde monsters aanvalt of door vijanden wordt aangevallen, kunnen de infectiestapels niet boven de 100 uitkomen.",
+        "Description4": "De virusinfectiestapel wordt weergegeven door een symbool boven het radarsymbool:",
+        "List1": "als je niet geïnfecteerd bent",
+        "List2": "als je geïnfecteerd bent, en het getal op het symbool geeft de waarde van de infectiestapel aan",
+        "Description5": "Als je op het symbool klikt, worden meer details over de geldige debuffs en hun ernst weergegeven."
+      },
+      "InfectionStackLogic": {
+        "Title": "Infectiestapel Logica",
+        "Description": "Bij elke infectie wordt de infectiestapel verhoogd.",
+        "Description2": "Je kunt geïnfecteerd raken of je infectiestapel verhogen als:",
+        "List1": "Je een zombie aanvalt wiens virusniveau hoger is dan jouw virusresistentie (het spel waarschuwt je hiervoor)",
+        "List2": "Je een Corruptor of een Geïnfecteerde Zombie aanvalt, ongeacht jouw virusresistentie.",
+        "List3": "Je een wereldbaas zoals Frankenstein aanvalt.",
+        "List4": "Je wordt aangevallen door vijandige troepen die het virus bij zich dragen.",
+        "Description3": "Je raakt NIET geïnfecteerd als:",
+        "List5": "Je een basis versterkt.",
+        "Description4": "Wanneer bepaalde drempelwaarden voor de infectiestapel worden bereikt (1, 20, 40, 60, 80), worden verschillende debuffs geactiveerd.",
+        "Description5": "Er zijn vijf soorten debuffs (symbolen onder de stapeldrempels), van links naar rechts:",
+        "Debuff1": "Ziekenhuisopname (geactiveerd bij een stapel >=1): Elke (300 tot 200 seconden) wordt een eenheid zwaar verwond.",
+        "Debuff2": "Lage moraal (geactiveerd bij een stapel ≥20): De toegebrachte schade is minder effectief (tussen -4% en -20%).",
+        "Debuff3": "Dodelijk Virus (geactiveerd bij een stapel ≥40): Verhoogde verliespercentage bij vijandige eenheden (tussen +4% en +10%).",
+        "Debuff4": "Ernstige Infectie (geactiveerd bij een stapel ≥60): De door troepen overgedragen infectie stijgt bij het uitmarscheren met 11% tot 15%.",
+        "Debuff5": "Virusplague (geactiveerd bij een stapel ≥80): Je troepen hebben zelfs bij een nederlaag een kans van 8% tot 10% om de vijand te infecteren."
+      },
+      "AutomaticHealing": {
+        "Title": "Automatische Genezing",
+        "Description": "Als je je niet verder infecteert en niemand je geneest, wordt je langzaam genezen op basis van de debuff-timers en bereik je uiteindelijk infectiestapel 0. Deze genezingsprocedure kan echter behoorlijk lang duren.",
+        "Description2": "Het is dus beter om dit virus onmiddellijk te behandelen."
+      },
+      "Treatments": {
+        "Title": "Behandelingen",
+        "Description": "Behandelingen kunnen de virusintensiteit verminderen, terwijl het overwinnen van andere commandanten kan bijdragen aan de verspreiding van de infectie.",
+        "Description2": "Om een bondgenoot te behandelen, klik je op hun basis en vervolgens op het 'Genezing'-symbool. Je vliegtuig, vergelijkbaar met een scout, zal opstijgen en de infectie met 1 verminderen. Hierbij worden je Immunproteïnen verbruikt.",
+        "Description3": "Maar nu komt het interessante deel: Voor elke behandeling die je uitvoert, ontvang je als beloning een Genfragment (Type IV, V of VI)."
+      },
+      "VirusResistance": {
+        "Title": "Virusresistentie",
+        "Description": "Virusresistentie is nu erg belangrijk en je moet het voortdurend verhogen door het Virus Research Institute te verbeteren. Op deze manier kun je talrijke beloningen ontvangen.",
+        "Image1": "Wanneer je een zombie aanvalt, wordt in het informatievenster weergegeven hoeveel virusresistentie vereist is. Als je resistentie niet genoeg is en je toch aanvalt, worden je troepen geïnfecteerd."
+      }
+    },
+    "Gameplay": {
+      "Title": "Spelverloop",
+      "Description": "In deze nieuwe wereld veranderen veel dynamieken. Laten we deze onderzoeken en ons daarbij vooral richten op hoe je zombies kunt doden.",
+      "DamageDebuff": {
+        "Title": "Schade Debuff en Onvoorwaardelijke Infectie",
+        "Description": "Het eerste wat je moet weten bij het aanvallen van zombies is dat twee nieuwe dingen van toepassing kunnen zijn:",
+        "List1": "Schadevermindering: Als je een zombie aanvalt wiens virusniveau hoger is dan je weerstandslevel, veroorzaak je minder schade. Het percentage van de vermindering wordt weergegeven in de aanvalsaanduiding.",
+        "List2": "Onvoorwaardelijke Infectie: Sommige vijanden infecteren je ongeacht je virusresistentie, zoals Corruptors, geïnfecteerde zombies en wereldbazen. Dit wordt weergegeven in de aanvalsaanduiding, waar informatie over de extra virusinfectiestapel te zien is.",
+        "Image1": "Een +1 RA-virusmolecuul betekent dat je je infectiestapel verhoogt, ongeacht je virusresistentie.",
+        "Description2": "Bovendien kun je zien dat je virusresistentie niet voldoende is, omdat 1900 vereist is, terwijl je er maar 1090 hebt. Je kunt dus het volgende verwachten:",
+        "List3": "te infecteren",
+        "List4": "dat je aanval in dit specifieke geval een schade debuff van -96% heeft"
+      },
+      "ZombieElite": {
+        "Title": "Zombie- en Doom-Elite",
+        "Description": "Er zijn nieuwtjes over het voedsel, ijzer en goud van de zombies: deze hebben nu vergelijkbare types als die van de helden, zoals tanks, vliegtuigen en raketvoertuigen.",
+        "Description2": "Wanneer je de zombie hebt geselecteerd om aan te vallen, worden de details weergegeven.",
+        "Description3": "In dit geval en gezien het feit dat de virusresistentie lager is dan die van het zombievirus, moet je het volgende in gedachten houden:",
+        "List1": "Zodra je de zombie raakt, raak je geïnfecteerd",
+        "List2": "De door jou veroorzaakte schade wordt met 18% verminderd. Zorg ervoor dat je kracht minimaal dit bedrag hoger is – eigenlijk zou het zelfs iets hoger moeten zijn.",
+        "Description4": "Ook de Doom-Elites zijn anders, ze zijn gigantische, aanstekelijke schorpioenen."
+      },
+      "DoomedElite": {
+        "Title": "Effectieve Aanpak Tegen de Doom-Elite",
+        "Image1": "Met een virusresistentie van 500/2200 kun je deze zombie niet alleen verslaan, omdat de veroorzaakte schade met -99,9% wordt verminderd.",
+        "Description": "Als je een lage virusresistentie hebt en de schade sterk is verminderd, leidt een aanval tegen een Doom-Elite, ongeacht succes of falen, tot een aanzienlijk verlies aan troepen.",
+        "Description2": "Om dit te voorkomen, kun je je bondgenoten om hulp vragen:",
+        "List1": "Stel een heldenteam samen met de held die de laagste commandowert heeft (om minder troepen mee te nemen).",
+        "List2": "Start een rally tegen Doom-Elite-monsters en vraag degenen die over voldoende virusresistentie beschikken om deel te nemen aan de actie.",
+        "Description3": "Met deze aanpak versla je de zombie en verdien je veel Mutantkristallen, terwijl het verlies van troepen minimaal blijft."
+      },
+      "WorldBoss": {
+        "Title": "Wereldbaas",
+        "Description": "Wereldbazen veranderen nu van uiterlijk, maar in wezen blijven de regels zoals voorheen – met uitzondering van het feit dat ze je infecteren bij contact met het virus, hoewel het een zeer lichte infectie is."
+      },
+      "Spoilers": {
+        "Title": "Verderber",
+        "Description": "Als je voor het eerst probeert een militaire bolwerk in te nemen, moet je het opnemen tegen hun bewaker, een nieuwe en krachtige vijand: de Verderber.",
+        "Description2": "Ze zijn in feite erg krachtig. Vergeet niet dat je je altijd zult infecteren bij een aanval op hen, ongeacht je virusresistentie.",
+        "Description3": "Daarnaast wordt er een schade debuff toegepast als je virusresistentie lager is dan de virussterkte."
+      },
+      "InfectedZombies": {
+        "Title": "Geïnfecteerde Zombies",
+        "Description": "Niet alleen Corruptors zijn de bewakers van militaire bolwerken, maar er zijn ook geïnfecteerde zombies.",
+        "Description2": "Deze zombies zullen je infecteren, ongeacht hoe resistent je bent tegen virussen.",
+        "Description3": "Daarnaast wordt er een schade debuff toegepast als je virusresistentie lager is dan de virussterkte."
+      }
     }
   }
 }
