@@ -8,7 +8,7 @@ import { ToastrService} from "ngx-toastr";
   styleUrl: './navigation.component.scss'
 })
 export class NavigationComponent implements OnInit{
-  version: string = '1.6.0';
+  version: string = '1.6.1';
   isShown: boolean = false;
   siteLanguage: string = 'Deutsch';
   languageList = [
@@ -17,10 +17,10 @@ export class NavigationComponent implements OnInit{
     {code: 'fr', label: 'Français'},
     {code: 'it', label: 'Italiano'},
     {code: 'nl', label: 'Néerlandais'},
-    {code: 'no', label: 'Norvégien'},
-    {code: 'dk', label: 'Danois'},
+    {code: 'nb', label: 'Norvégien'},
+    {code: 'da', label: 'Danois'},
     {code: 'es', label: 'Español'},
-    {code: 'se', label: 'Svenska'}
+    {code: 'sv', label: 'Svenska'}
   ];
 
   private readonly translate: TranslateService = inject(TranslateService);
@@ -28,7 +28,7 @@ export class NavigationComponent implements OnInit{
 
 
   ngOnInit() {
-    this.translate.addLangs(['de', 'en', 'fr', 'it','nl', 'no', 'dk', 'es', 'se']);
+    this.translate.addLangs(['de', 'en', 'fr', 'it','nl', 'nb', 'da', 'es', 'sv']);
     let userLanguage = this.translate.getBrowserLang();
     if (!userLanguage || !this.languageList.some(x => x.code === userLanguage)) {
       if (userLanguage) {
@@ -36,6 +36,7 @@ export class NavigationComponent implements OnInit{
       }
       userLanguage = 'en';
     }
+    this.translate.use(userLanguage);
     this.translate.setDefaultLang(userLanguage);
   }
 

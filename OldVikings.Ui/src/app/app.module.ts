@@ -27,6 +27,8 @@ import { MemberLoginComponent } from './auth/member-login/member-login.component
 import { SquadComponent } from './pages/squad/squad.component';
 import { SeasonOneComponent } from './pages/season-one/season-one.component';
 import { CounterCharactersPipe } from './pipes/counter-characters.pipe';
+import { GuestbookComponent } from './pages/guestbook/guestbook.component';
+import {NgxPaginationModule} from "ngx-pagination";
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -50,7 +52,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MemberLoginComponent,
     SquadComponent,
     SeasonOneComponent,
-    CounterCharactersPipe
+    CounterCharactersPipe,
+    GuestbookComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +72,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       positionClass: 'toast-bottom-right'
     }),
     NgxScrollTopModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    NgxPaginationModule
   ],
   providers: [
     provideHttpClient(withInterceptors([spinnerInterceptor]))

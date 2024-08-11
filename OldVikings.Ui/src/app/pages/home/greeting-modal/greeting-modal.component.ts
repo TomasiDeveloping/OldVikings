@@ -1,10 +1,11 @@
-import {Component, inject} from '@angular/core';
+import {Component, inject, SecurityContext} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {GreetingModel} from "../../../models/greeting.model";
 import {GreetingService} from "../../../services/greeting.service";
 import {HttpErrorResponse} from "@angular/common/http";
 import {ToastrService} from "ngx-toastr";
 import {TranslateService} from "@ngx-translate/core";
+import {DomSanitizer} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-greeting-modal',
@@ -16,6 +17,7 @@ export class GreetingModalComponent {
   private readonly _greetingService: GreetingService = inject(GreetingService);
   private readonly _toastr: ToastrService = inject(ToastrService);
   private readonly _translate: TranslateService = inject(TranslateService);
+  private readonly _sanitizer: DomSanitizer = inject(DomSanitizer);
 
   public greetingForm: FormGroup = new FormGroup({
     serverNumber: new FormControl<number | null>(null, [Validators.required]),
@@ -34,6 +36,7 @@ export class GreetingModalComponent {
     }
 
     const greeting: GreetingModel = this.greetingForm.value;
+    greeting.comment = this._sanitizer.sanitize(SecurityContext.HTML, greeting.comment) ?? '';
 
     this.greetingForm.reset();
     const element = document.getElementById('close-modal')!;

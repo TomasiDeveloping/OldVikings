@@ -3,6 +3,7 @@ using OldVikings.Api.Database;
 using OldVikings.Api.Interfaces;
 using OldVikings.Api.Profiles;
 using OldVikings.Api.Repositories;
+using OldVikings.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,7 @@ builder.Services.AddAutoMapper(options =>
 });
 
 builder.Services.AddScoped<IGreetingRepository, GreetingRepository>();
+builder.Services.AddTransient<ITranslateService, TranslateService>();
 
 var app = builder.Build();
 

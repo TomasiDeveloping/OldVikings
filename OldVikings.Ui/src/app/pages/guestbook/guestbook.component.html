@@ -1,0 +1,37 @@
+<div class="container pb-5">
+  <h3 class="custom-font mt-3 text-center">Gästebuch</h3>
+  <hr>
+  <p>Seht euch an, wie weit unsere Webseite bereits gereist ist! Hier könnt ihr sehen, aus welchen Servern und Allianzen unsere Besucher kommen und welche Teile der Welt unsere Community erreicht hat.“</p>
+
+
+  @if (greetings.length > 0){
+    @for (greeting of greetings | paginate: { itemsPerPage: 3, currentPage: page }; track greeting.id) {
+      <div class="card mb-3">
+        <div class="card-header text-center">
+          Server <span class="text-warning">#{{greeting.serverNumber}}</span> - <small>{{greeting.createdAt | date: 'dd.MM.yyyy HH:mm.ss'}}</small>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"><span class="text-info">{{greeting.allianceName}}</span> - ({{greeting.playerName ? greeting.playerName : 'Anonym'}})</h5>
+          @if (greeting.comment) {
+            @if (!isLoading) {
+              <p class="card-text">{{greeting.comment}}</p>
+              <div class="d-flex justify-content-end">
+                <i (click)="onTranslate(greeting)" class="bi bi-translate"></i>
+              </div>
+            } @else {
+              <div class="d-flex justify-content-center">
+                <div class="spinner-border text-primary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+                <span class="ms-2">Translate...</span>
+              </div>
+            }
+          }
+        </div>
+      </div>
+    }
+    <pagination-controls (pageChange)="onPageChange($event)"></pagination-controls>
+  }
+
+
+</div>
