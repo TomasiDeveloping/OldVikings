@@ -15,7 +15,7 @@ namespace OldVikings.Api.Controllers.v1
             try
             {
                 var greetings = await greetingRepository.GetGreetingsAsync(cancellationToken);
-                return greetings.Count > 1 ? Ok(greetings) : NoContent();
+                return greetings.Count > 0 ? Ok(greetings) : NoContent();
             }
             catch (Exception e)
             {
