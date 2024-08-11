@@ -710,6 +710,10 @@
           "Label": "Nom de l'alliance",
           "Required": "Le nom de l'alliance est obligatoire"
         },
+        "Comment": {
+          "Label": "Commentaire",
+          "MaxLength": "La limite maximale de caractères est de 200. Veuillez raccourcir votre commentaire."
+        },
         "PlayerName": "Nom du joueur",
         "Optional": "Optionnel",
         "CloseButton": "Annuler",

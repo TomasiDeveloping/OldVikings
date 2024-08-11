@@ -26,6 +26,7 @@ import {spinnerInterceptor} from "./interceptors/spinner.interceptor";
 import { MemberLoginComponent } from './auth/member-login/member-login.component';
 import { SquadComponent } from './pages/squad/squad.component';
 import { SeasonOneComponent } from './pages/season-one/season-one.component';
+import { CounterCharactersPipe } from './pipes/counter-characters.pipe';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -48,7 +49,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     GreetingModalComponent,
     MemberLoginComponent,
     SquadComponent,
-    SeasonOneComponent
+    SeasonOneComponent,
+    CounterCharactersPipe
   ],
   imports: [
     BrowserModule,

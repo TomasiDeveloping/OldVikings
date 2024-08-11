@@ -710,6 +710,10 @@
           "Label": "Alliantie naam",
           "Required": "Alliantie naam is verplicht"
         },
+        "Comment": {
+          "Label": "Opmerking",
+          "MaxLength": "De maximale tekenlimiet is 200. Verkort alstublieft uw opmerking."
+        },
         "PlayerName": "Speler naam",
         "Optional": "Optioneel",
         "CloseButton": "Annuleren",

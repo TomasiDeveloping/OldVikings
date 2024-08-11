@@ -3,5 +3,6 @@ export interface GreetingModel {
   serverNumber: number;
   allianceName: string;
   playerName: string;
+  comment: string;
   createdAt?: Date;
 }

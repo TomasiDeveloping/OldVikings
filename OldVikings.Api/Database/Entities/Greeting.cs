@@ -10,5 +10,7 @@ public class Greeting
 
     public string PlayerName { get; set; } = string.Empty;
 
+    public string Comment { get; set; } = string.Empty;
+
     public DateTime CreatedAt { get; set; }
 }

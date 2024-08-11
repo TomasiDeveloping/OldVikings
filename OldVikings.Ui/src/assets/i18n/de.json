@@ -709,6 +709,10 @@
           "Label": "Allianz name",
           "Required": "Allianz name ist ein Pflichtfeld"
         },
+        "Comment": {
+          "Label": "Kommentar",
+          "MaxLength": "Die maximale Zeichenanzahl beträgt 200. Bitte kürzen Sie Ihren Kommentar."
+        },
         "PlayerName": "Spieler Name",
         "Optional": "Optional",
         "CloseButton": "Abbrechen",

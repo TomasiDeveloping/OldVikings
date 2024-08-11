@@ -21,6 +21,7 @@ export class GreetingModalComponent {
     serverNumber: new FormControl<number | null>(null, [Validators.required]),
     allianceName: new FormControl<string>('', [Validators.required]),
     playerName: new FormControl<string>(''),
+    comment: new FormControl<string>('', [Validators.maxLength(200)])
   });
 
   get f() {
@@ -49,5 +50,9 @@ export class GreetingModalComponent {
         console.error(error);
       }
     });
+  }
+
+  onCancel() {
+    this.greetingForm.reset();
   }
 }

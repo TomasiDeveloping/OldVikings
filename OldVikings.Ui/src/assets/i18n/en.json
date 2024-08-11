@@ -713,6 +713,10 @@
           "Label": "Alliance Name",
           "Required": "Alliance name is required"
         },
+        "Comment": {
+          "Label": "Comment",
+          "MaxLength": "The maximum character limit is 200. Please shorten your comment."
+        },
         "PlayerName": "Player Name",
         "Optional": "Optional",
         "CloseButton": "Cancel",

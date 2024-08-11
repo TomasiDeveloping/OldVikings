@@ -713,6 +713,10 @@
           "Label": "Alliance navn",
           "Required": "Alliance navn er påkrævet"
         },
+        "Comment": {
+          "Label": "Kommentar",
+          "MaxLength": "Det maksimale antal tegn er 200. Venligst forkort din kommentar."
+        },
         "PlayerName": "Spiller navn",
         "Optional": "Valgfrit",
         "CloseButton": "Annuller",

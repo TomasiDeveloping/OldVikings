@@ -8,4 +8,6 @@ public class InsertGreetingDto
     public required string AllianceName { get; set; }
 
     public string PlayerName { get; set; } = string.Empty;
+
+    public string Comment { get; set; } = string.Empty;
 }

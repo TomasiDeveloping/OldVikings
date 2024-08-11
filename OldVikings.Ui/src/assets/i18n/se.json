@@ -713,6 +713,10 @@
           "Label": "Alliansnamn",
           "Required": "Alliansnamn är ett obligatoriskt fält"
         },
+        "Comment": {
+          "Label": "Kommentar",
+          "MaxLength": "Det maximala antalet tecken är 200. Vänligen förkorta din kommentar."
+        },
         "PlayerName": "Spelarnamn",
         "Optional": "Valfritt",
         "CloseButton": "Avbryt",

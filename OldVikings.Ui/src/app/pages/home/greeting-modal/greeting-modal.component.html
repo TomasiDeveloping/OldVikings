@@ -38,8 +38,25 @@
             <input type="text" class="form-control" id="playerName" placeholder="ThorCH" formControlName="playerName">
             <label for="playerName">{{'Greeting.Modal.Form.PlayerName' | translate}} <small>({{'Greeting.Modal.Form.Optional' | translate}})</small></label>
           </div>
+          <div class="form-floating is-invalid mb-3">
+            <textarea [ngClass]="{'is-invalid': f['comment'].invalid && (f['comment'].touched || f['comment'].dirty), 'is-valid': f['comment'].valid}"
+              #comment class="form-control" maxlength="201" placeholder="Leave a comment here" style="height: 100px" formControlName="comment" id="comment"></textarea>
+            <label for="comment">{{'Greeting.Modal.Form.Comment.Label' | translate}} <small>({{'Greeting.Modal.Form.Optional' | translate}})</small></label>
+            @if (f['comment'].valid){
+              <div class="d-flex justify-content-end">
+                <span class="text-end">{{comment.value | counterCharacters}}/200</span>
+              </div>
+            }
+            @if (f['comment'].invalid && f['comment'].touched || f['comment'].dirty) {
+              <div class="invalid-feedback">
+                @if (f['comment'].hasError('maxlength')) {
+                  <p>{{'Greeting.Modal.Form.Comment.MaxLength' | translate}}</p>
+                }
+              </div>
+            }
+          </div>
           <div class="modal-footer">
-            <button id="close-modal" type="button" class="btn btn-danger" data-bs-dismiss="modal">{{'Greeting.Modal.Form.CloseButton' | translate}}</button>
+            <button (click)="onCancel()" id="close-modal" type="button" class="btn btn-danger" data-bs-dismiss="modal">{{'Greeting.Modal.Form.CloseButton' | translate}}</button>
             <button [disabled]="greetingForm.invalid" type="submit" class="btn btn-success">{{'Greeting.Modal.Form.SubmitButton' | translate}}</button>
           </div>
         </form>
