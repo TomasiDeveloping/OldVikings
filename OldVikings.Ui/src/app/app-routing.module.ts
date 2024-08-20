@@ -13,6 +13,7 @@ import {memberGuard} from "./guards/member.guard";
 import {SquadComponent} from "./pages/squad/squad.component";
 import {SeasonOneComponent} from "./pages/season-one/season-one.component";
 import {GuestbookComponent} from "./pages/guestbook/guestbook.component";
+import {MapComponent} from "./pages/map/map.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path: 'squad', component: SquadComponent},
   {path: 'member-login', component: MemberLoginComponent},
   {path: 'season-one', component: SeasonOneComponent},
+  {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'guestbook', component: GuestbookComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];

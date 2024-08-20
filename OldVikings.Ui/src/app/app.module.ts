@@ -29,6 +29,7 @@ import { SeasonOneComponent } from './pages/season-one/season-one.component';
 import { CounterCharactersPipe } from './pipes/counter-characters.pipe';
 import { GuestbookComponent } from './pages/guestbook/guestbook.component';
 import {NgxPaginationModule} from "ngx-pagination";
+import { MapComponent } from './pages/map/map.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -53,7 +54,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SquadComponent,
     SeasonOneComponent,
     CounterCharactersPipe,
-    GuestbookComponent
+    GuestbookComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
