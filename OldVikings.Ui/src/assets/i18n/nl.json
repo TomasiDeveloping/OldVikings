@@ -547,6 +547,15 @@
       },
       "Footer": "Op de afbeelding hieronder wordt de Alliantie Teleportatie getoond, en op de afbeelding hierboven is de winkel te zien. Je kunt beide teleportaties zoals hierboven beschreven in de alliantie winkel inwisselen. De Alliantie Teleportatie kost minder.",
       "Image": "Klik op: <b><br> 1. Inventaris <br> 2. Speciaal <br> 3. Alliantie Teleportatie <br> 3. Gebruiken"
+    },
+    "Formation": {
+      "Title": "Formatie van spelers",
+      "Description": "De plekken rondom de Maarschalk Wacht zijn gereserveerd voor R5 en R4. Deze 9 plekken moeten vrijgehouden worden door de andere spelers, omdat R4 en R5 een speciale bonus ontvangen tijdens dit evenement.",
+      "Info": {
+        "Title": "Belangrijke opmerkingen:",
+        "Info1": "Respecteer de plaatsing: Zorg ervoor dat jullie je zo positioneren dat er geen gaten ontstaan tussen de plekken die de vijand kan uitbuiten.",
+        "Info2": "Strategische plaatsing: De juiste formatie is cruciaal om de verdediging te versterken en het maximale voordeel uit de bonussen voor R4 en R5 te halen."
+      }
     }
   },
   "Basics": {

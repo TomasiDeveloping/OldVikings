@@ -547,6 +547,15 @@
       },
       "Footer": "Dans l'image ci-dessous, la Téléportation d'Alliance est montrée, et dans l'image ci-dessus se trouve la boutique. Vous pouvez échanger les deux téléportations comme décrit ci-dessus dans la boutique de l'alliance. La Téléportation d'Alliance coûte moins cher.",
       "Image": "Cliquez sur: <b><br> 1. Inventaire <br> 2. Spécial <br> 3. Téléportation d'Alliance <br> 3. Utiliser"
+    },
+    "Formation": {
+      "Title": "Formation des joueurs",
+      "Description": "Les places autour de la Garde du Maréchal sont réservées pour R5 et R4. Ces 9 places doivent être laissées libres par les autres joueurs, car R4 et R5 reçoivent un bonus spécial lors de cet événement.",
+      "Info": {
+        "Title": "Remarques importantes:",
+        "Info1": "Respectez le placement : Veuillez vous assurer de vous positionner de manière à ce qu'il n'y ait pas de lacunes entre les places que l'ennemi pourrait exploiter.",
+        "Info2": "Placement stratégique : La bonne formation est cruciale pour renforcer la défense et maximiser les avantages des bonus pour R4 et R5."
+      }
     }
   },
   "Basics": {

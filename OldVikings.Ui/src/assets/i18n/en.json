@@ -550,6 +550,15 @@
       },
       "Footer": "In the image below, the Alliance Teleport is shown, and in the image above is the shop. You can exchange both teleports as described above in the Alliance Shop. The Alliance Teleport costs less.",
       "Image": "Click on: <b><br> 1. Inventory <br> 2. Special <br> 3. Alliance Teleport <br> 3. Use"
+    },
+    "Formation": {
+      "Title": "Formation of Players",
+      "Description": "The spots around the Marshal Guard are reserved for R5 and R4. These 9 spots must be kept free by other players, as R4 and R5 receive a special bonus during this event.",
+      "Info": {
+        "Title": "Important Notes:",
+        "Info1": "Respect the placement: Please ensure that you position yourselves in such a way that no gaps arise between the spots, which the enemy could exploit.",
+        "Info2": "Strategic placement: The correct formation is crucial for strengthening defense and maximizing the benefits of the bonuses for R4 and R5."
+      }
     }
   },
   "Basics": {

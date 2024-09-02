@@ -550,6 +550,15 @@
       },
       "Footer": "På billedet nedenfor vises Alliance Teleportering, og på billedet ovenfor er butikken. Du kan bytte begge teleporteringer som beskrevet ovenfor i Alliancens Butik. Alliance Teleportering koster mindre.",
       "Image": "Klik på: <b><br> 1. Inventar <br> 2. Special <br> 3. Alliance Teleportering <br> 4. Brug"
+    },
+    "Formation": {
+      "Title": "Formation af spillere",
+      "Description": "Pladserne omkring Marskalvagten er reserveret til R5 og R4. Disse 9 pladser skal holdes fri af de andre spillere, da R4 og R5 får en særlig bonus ved denne begivenhed.",
+      "Info": {
+        "Title": "Vigtige bemærkninger:",
+        "Info1": "Respektér placeringen: Sørg venligst for, at I positionerer jer, så der ikke opstår huller mellem pladserne, som fjenden kan udnytte.",
+        "Info2": "Strategisk placering: Den rigtige formation er afgørende for at styrke forsvaret og maksimere fordelene ved bonusserne til R4 og R5."
+      }
     }
   },
   "Basics": {

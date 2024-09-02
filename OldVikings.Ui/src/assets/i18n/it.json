@@ -546,6 +546,15 @@
       },
       "Footer": "Nell'immagine in basso è mostrato il Teletrasporto dell'Alleanza, e nell'immagine in alto c'è il negozio. Puoi scambiare entrambi i teletrasporti come descritto sopra nel Negozio dell'Alleanza. Il Teletrasporto dell'Alleanza costa meno.",
       "Image": "Clicca su: <b><br> 1. Inventario <br> 2. Speciale <br> 3. Teletrasporto dell'Alleanza <br> 3. Usa"
+    },
+    "Formation": {
+      "Title": "Formazione dei giocatori",
+      "Description": "I posti intorno alla Guardia del Maresciallo sono riservati a R5 e R4. Questi 9 posti devono essere tenuti liberi dagli altri giocatori, poiché R4 e R5 ricevono un bonus speciale durante questo evento.",
+      "Info": {
+        "Title": "Note importanti:",
+        "Info1": "Rispetta il posizionamento: Assicurati di posizionarti in modo tale che non si creino spazi tra i posti che il nemico potrebbe sfruttare.",
+        "Info2": "Posizionamento strategico: La formazione corretta è cruciale per rafforzare la difesa e massimizzare i vantaggi dei bonus per R4 e R5."
+      }
     }
   },
   "Basics": {

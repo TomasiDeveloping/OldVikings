@@ -550,6 +550,15 @@
       },
       "Footer": "På bilden nedan visas Alliansförflyttning, och på bilden ovan är butiken. Dessa två förflyttningar kan du byta ut som beskrivs ovan i Alliansbutiken. Alliansförflyttning kostar mindre.",
       "Image": "Klicka på: <b><br> 1. Inventarium <br> 2. Speciell <br> 3. Alliansförflyttning <br> 4. Använd"
+    },
+    "Formation": {
+      "Title": "Spelarnas formation",
+      "Description": "Platserna runt Marskalkvakten är reserverade för R5 och R4. Dessa 9 platser måste hållas fria av de andra spelarna, eftersom R4 och R5 får en speciell bonus under detta evenemang.",
+      "Info": {
+        "Title": "Viktiga anmärkningar:",
+        "Info1": "Respektera placeringen: Se till att ni positionerar er så att inga luckor uppstår mellan platserna som fienden kan utnyttja.",
+        "Info2": "Strategisk placering: Rätt formation är avgörande för att stärka försvaret och maximera fördelarna med bonusarna för R4 och R5."
+      }
     }
   },
   "Basics": {

@@ -547,6 +547,15 @@
       },
       "Footer": "På bildet nedenfor vises Allianse Teleportering, og på bildet ovenfor er butikken. Du kan bytte begge teleporteringene som beskrevet ovenfor i Alliansebutikken. Allianse Teleportering koster mindre.",
       "Image": "Klikk på: <b><br> 1. Inventar <br> 2. Spesial <br> 3. Allianse Teleportering <br> 4. Bruk"
+    },
+    "Formation": {
+      "Title": "Formasjon av spillere",
+      "Description": "Plassene rundt Marskalkvakten er reservert for R5 og R4. Disse 9 plassene må holdes frie av de andre spillerne, da R4 og R5 får en spesiell bonus under dette arrangementet.",
+      "Info": {
+        "Title": "Viktige merknader:",
+        "Info1": "Respekter plasseringen: Sørg for at dere posisjonerer dere slik at det ikke oppstår hull mellom plassene som fienden kan utnytte.",
+        "Info2": "Strategisk plassering: Riktig formasjon er avgjørende for å styrke forsvaret og maksimere fordelene med bonusene for R4 og R5."
+      }
     }
   },
   "Basics": {

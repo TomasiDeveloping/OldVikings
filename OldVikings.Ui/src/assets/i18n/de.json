@@ -546,6 +546,15 @@
       },
       "Footer": "Im Bild unten wird die Allianz Verlagerung gezeigt, und im Bild oben ist der Laden. Diese beiden Verlagerungen kannst du wie oben beschrieben im Allianz Laden eintauschen. Die Allianz Verlagerung kostet weniger.",
       "Image": "Klicke auf: <b><br> 1. Inventar <br> 2. Speziell <br> 3. Allianz Verlagerung <br> 3. Benützen"
+    },
+    "Formation": {
+      "Title": "Formation der Spieler",
+      "Description": "Die Plätze rund um die Marschall Wache sind für R5 und R4 reserviert. Diese 9 Plätze müssen von den anderen Spielern freigehalten werden, da R4 und R5 bei diesem Event einen besonderen Bonus erhalten.",
+      "Info": {
+        "Title": "Wichtige Hinweise:",
+        "Info1": "Respektiert die Platzierung: Bitte stellt sicher, dass ihr euch so positioniert, dass keine Lücken zwischen den Plätzen entstehen, die der Feind ausnutzen könnte.",
+        "Info2": "Strategische Platzierung: Die richtige Formation ist entscheidend, um die Verteidigung zu stärken und den maximalen Vorteil aus den Boni für R4 und R5 zu ziehen."
+      }
     }
   },
   "Basics": {
