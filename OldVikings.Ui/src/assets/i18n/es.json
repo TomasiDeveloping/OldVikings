@@ -136,7 +136,8 @@
     "Buildings": "Edificios",
     "Squad": "Escuadra",
     "DesertStorm": "Tormenta del desierto",
-    "SeasonOne": "Temporada 1"
+    "SeasonOne": "Temporada 1",
+    "Marshall": "Guardia de Mariscal"
   },
   "VS": {
     "Title": "Duelo VS",
@@ -1071,6 +1072,36 @@
         "Description2": "Estos zombis te infectarán sin importar cuán resistente seas al virus.",
         "Description3": "Además, se aplicará una reducción de daño si tu resistencia al virus es menor que la fuerza del virus."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Vigilancia de Mariscal",
+    "Instruction": {
+      "Title": "Introducción",
+      "Description1": "El Ejercicio del Mariscal o Ejercicio de la Alianza es un evento regular en el que la alianza puede recibir varias recompensas. Está dividido en niveles y pone a prueba la fuerza de combate de la alianza.",
+      "Description2": "Los miembros R4 y R5 de la alianza pueden establecer el momento para el inicio del ejercicio (lo cual puede variar cada vez), así que asegúrate de leer cuidadosamente los anuncios de la alianza."
+    },
+    "Attack": {
+      "Title": "Ataque",
+      "Description": "Para aquellos que tienen 2 equipos, la estrategia es muy simple:",
+      "List1": "Haz clic en los tanques para iniciar rallys (¡durante 3 minutos!) con el equipo más débil contra los tanques.",
+      "List2": "Únete a los rallys de otros con el equipo más fuerte (primero en aquellos cuyo contador esté más cerca de cero).",
+      "List3": "No te detengas hasta que el evento haya terminado.",
+      "List4": "Quien tenga 3 equipos puede usar dos equipos (el más fuerte) para participar en otros rallys, y el tercero (el más débil) puede iniciar rallys.",
+      "List5": "Cada miembro de la alianza solo puede iniciar un rally a la vez. Incluso si tienes 3 escuadras, no puedes iniciar 2 rallys simultáneamente. Sin embargo, puedes unirte a tantos rallys como desees al mismo tiempo."
+    },
+    "Tricks": {
+      "Title": "Trucos",
+      "Trick1": "Explora una base que no pertenezca a ninguna alianza unos minutos antes del ejercicio. Esto activa el modo de Fiebre de Guerra, que te otorga un +1% de daño. IMPORTANTE: No utilices este truco mientras lleves un escudo, ya que lo perderás.",
+      "Trick2": "Para maximizar tus puntos individuales, participa en los rallys iniciados por R4 y R5 que te otorguen +2,5% (R4 sin rol) / +5% (R5 y R4 con rol) (el texto aparecerá en la lista de rallys).",
+      "Trick3": "Si dejas que el equipo más fuerte participe en los rallys de otros jugadores, podrás ganar más puntos mientras que el equipo más débil 'se queda fuera' y espera a que comience el rally."
+    },
+    "Important": {
+      "Title": "Importante",
+      "List1": "Los miembros de la alianza deben estar cerca de la base de la alianza y preferiblemente más cerca de la plataforma del Mariscal. Los miembros distantes pueden causar que los anuncios, que pueden durar hasta 3 minutos, se retrasen (incluso más de 30 minutos).",
+      "List2": "Es importante que todos los miembros revoquen sus equipos si han sido enviados a recolectar recursos en minas o campos unos minutos antes de que comience el evento.",
+      "List3": "Si un escuadrón de un miembro lejano se une al rally por diversas razones y retrasa el inicio, es posible eliminar este escuadrón del rally. Esto debe hacerlo la persona que inició el rally.",
+      "List4": "También puedes realizar el Ejercicio del Mariscal mientras lleves un escudo. No uses el truco para activar la Fiebre de Guerra si llevas un escudo, ya que lo perderás."
     }
   }
 }

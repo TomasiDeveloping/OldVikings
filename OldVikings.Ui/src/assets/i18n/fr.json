@@ -136,8 +136,8 @@
     "Buildings": "Bâtiments",
     "Squad": "Équipe",
     "DesertStorm": "Tempête du désert",
-    "SeasonOne": "Saison 1"
-
+    "SeasonOne": "Saison 1",
+    "Marshall": "Garde du Maréchal"
   },
   "VS": {
     "Title": "Duel VS",
@@ -1068,6 +1068,36 @@
         "Description2": "Ces zombies vous infecteront, peu importe votre résistance au virus.",
         "Description3": "De plus, un debuff de dégâts est appliqué si votre résistance au virus est inférieure à la force du virus."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Veille du Maréchal",
+    "Instruction": {
+      "Title": "Introduction",
+      "Description1": "L'exercice du Maréchal ou exercice de l'Alliance est un événement régulier au cours duquel l'alliance peut recevoir diverses récompenses. Il est divisé en niveaux et teste la force de combat de l'alliance.",
+      "Description2": "Les membres R4 et R5 de l'alliance peuvent définir le moment du début de l'exercice (ce qui peut varier à chaque fois), alors assurez-vous de lire attentivement les annonces de l'alliance."
+    },
+    "Attack": {
+      "Title": "Attaque",
+      "Description": "Pour ceux qui ont 2 équipes, la stratégie est très simple :",
+      "List1": "Cliquez sur les tanks pour lancer des rallyes (pendant 3 minutes !) avec l'équipe la plus faible contre les tanks.",
+      "List2": "Participez aux rallyes des autres avec l'équipe la plus forte (d'abord ceux dont le compte à rebours est le plus proche de zéro).",
+      "List3": "Ne vous arrêtez jamais jusqu'à ce que l'événement soit terminé.",
+      "List4": "Celui qui a 3 équipes peut utiliser deux équipes (les plus fortes) pour participer à d'autres rallyes, et la troisième (la plus faible) peut lancer des rallyes.",
+      "List5": "Chaque membre de l'alliance ne peut lancer qu'un seul rallye à la fois. Même si vous avez 3 escouades, vous ne pouvez pas lancer 2 rallyes simultanément. Cependant, vous pouvez participer à autant de rallyes que vous le souhaitez en même temps."
+    },
+    "Tricks": {
+      "Title": "Trucs",
+      "Trick1": "Explorez une base qui n'appartient à aucune alliance quelques minutes avant l'exercice. Cela active le mode Fièvre de Guerre, qui vous donne +1 % de dégâts. IMPORTANT : N'utilisez pas ce truc lorsque vous portez un bouclier, sinon vous le perdrez.",
+      "Trick2": "Pour maximiser vos points individuels, participez aux rallyes lancés par les R4 et R5 qui vous donnent +2,5 % (R4 sans rôle) / +5 % (R5 et R4 avec rôle) (le texte apparaîtra dans la liste des rallyes).",
+      "Trick3": "Si vous laissez l'équipe la plus forte participer aux rallyes des autres joueurs, vous pouvez obtenir plus de points, tandis que l'équipe la plus faible 'reste en attente' et attend le début du rallye."
+    },
+    "Important": {
+      "Title": "Important",
+      "List1": "Les membres de l'alliance doivent être proches de la base de l'alliance et de préférence plus près de la plateforme du Maréchal. Les membres éloignés peuvent provoquer des retards dans les annonces, qui peuvent durer jusqu'à 3 minutes (voire plus de 30 minutes).",
+      "List2": "Il est important que tous les membres rappellent leurs équipes s'ils ont été envoyés pour collecter des ressources dans des mines ou sur des champs quelques minutes avant le début de l'événement.",
+      "List3": "Si un escadron d'un membre éloigné rejoint le rallye pour diverses raisons et retarde le début, il est possible d'éliminer cet escadron du rallye. Cela doit être fait par la personne qui a lancé le rallye.",
+      "List4": "Vous pouvez également effectuer l'exercice du Maréchal même si vous portez un bouclier. Ne utilisez pas le truc pour activer la Fièvre de Guerre si vous portez un bouclier, car vous risquez de le perdre."
     }
   }
 }

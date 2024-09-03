@@ -136,8 +136,8 @@
     "Buildings": "Gebouwen",
     "Squad": "Team",
     "DesertStorm": "Woestijnstorm",
-    "SeasonOne": "Seizoen 1"
-
+    "SeasonOne": "Seizoen 1",
+    "Marshall": "Maarschalkwacht"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -1068,6 +1068,36 @@
         "Description2": "Deze zombies zullen je infecteren, ongeacht hoe resistent je bent tegen virussen.",
         "Description3": "Daarnaast wordt er een schade debuff toegepast als je virusresistentie lager is dan de virussterkte."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Marshalle Wach",
+    "Instruction": {
+      "Title": "Inleiding",
+      "Description1": "De Marshalle-oefening of Alliantie-oefening is een regelmatig evenement waarbij de alliantie verschillende beloningen kan ontvangen. Het is opgedeeld in niveaus en test de vechtkracht van de alliantie.",
+      "Description2": "De R4 en R5 van de alliantie kunnen het tijdstip van de start van de oefening bepalen (dit kan elke keer anders zijn), dus lees de aankondigingen van de alliantie zorgvuldig door."
+    },
+    "Attack": {
+      "Title": "Aanval",
+      "Description": "Voor degenen met 2 teams is de strategie heel eenvoudig:",
+      "List1": "Klik op de tanks om rally's (voor 3 minuten!) te starten met het zwakste team tegen de tanks.",
+      "List2": "Neem met het sterkste team deel aan de rally's van anderen (eerst aan die waarvan de afteller het dichtst bij nul is).",
+      "List3": "Stop nooit tot het evenement voorbij is.",
+      "List4": "Wie 3 teams heeft, kan twee teams (de sterkste) inzetten om deel te nemen aan andere rally's, en het derde (de zwakste) kan rally's starten.",
+      "List5": "Het is voor elk lid van de alliantie alleen mogelijk om één rally tegelijk te starten. Zelfs als je 3 squads hebt, kun je geen 2 rally's tegelijkertijd starten. Je kunt echter wel deelnemen aan zoveel rally's als je wilt, tegelijk."
+    },
+    "Tricks": {
+      "Title": "Trucs",
+      "Trick1": "Verken een basis die niet tot een alliantie behoort enkele minuten voor de oefening. Dit activeert de Oorlogskoortsmodus, die je +1% schade geeft. BELANGRIJK: Gebruik deze truc niet terwijl je een schild draagt, want je verliest het anders.",
+      "Trick2": "Om je individuele punten te maximaliseren, neem deel aan de rally's die door R4 en R5 zijn gestart, die je +2,5% (R4 zonder rol) / +5% (R5 en R4 met rol) geven (de tekst verschijnt in de lijst van rally's).",
+      "Trick3": "Als je het sterkste team laat deelnemen aan de rally's van andere spelers, kun je meer punten behalen, terwijl het zwakste team ‘vastzit’ en moet wachten tot de rally begint."
+    },
+    "Important": {
+      "Title": "Belangrijk",
+      "List1": "Alliantieleden moeten zich in de buurt van de alliantiebasis en bij voorkeur dichter bij het platform van de Marskalle bevinden. Verre leden kunnen ervoor zorgen dat aankondigingen, die maximaal 3 minuten mogen duren, vertraging oplopen (zelfs meer dan 30 minuten).",
+      "List2": "Het is belangrijk dat alle leden hun teams terugroepen als ze enkele minuten voor het evenement naar mijnen of velden zijn gestuurd om middelen te verzamelen.",
+      "List3": "Als een squad van een ver lid zich om verschillende redenen bij de rally voegt en de start vertraagt, is het mogelijk deze squad uit de rally te verwijderen. Dit moet worden gedaan door degene die de rally heeft gestart.",
+      "List4": "Je kunt de Marshalle-oefening ook uitvoeren terwijl je een schild draagt. Gebruik de truc voor het activeren van Oorlogskoorts niet als je een schild draagt, anders verlies je het."
     }
   }
 }

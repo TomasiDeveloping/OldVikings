@@ -136,7 +136,8 @@
     "Buildings": "Gebäude",
     "Squad": "Truppe",
     "DesertStorm": "Wüstensturm",
-    "SeasonOne": "Saison 1"
+    "SeasonOne": "Saison 1",
+    "Marshall": "Marschall-Wache"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -1067,6 +1068,36 @@
         "Description2": "Diese Zombies werden Sie infizieren, ganz gleich, wie resistent Sie gegen Viren sind.",
         "Description3": "Zusätzlich wird ein Schadensdebuff angewendet, wenn Ihre Virenresistenz niedriger ist als die Virenstärke."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Marschall Wache",
+    "Instruction": {
+      "Title": "Einführung",
+      "Description1": "Die Marschallübung oder Allianzübung ist ein regelmäßiges Ereignis, bei dem die Allianz verschiedene Belohnungen erhalten kann. Es ist in Levels gegliedert und testet die Kampfstärke der Allianz.",
+      "Description2": "Der R4 und R5 der Allianz können den Zeitpunkt für den Beginn der Übung festlegen (dies kann auch jedes Mal anders sein), lesen Sie daher die Ankündigungen der Allianz sorgfältig durch."
+    },
+    "Attack": {
+      "Title": "Angriff",
+      "Description": "Für diejenigen, die 2 Teams haben, ist die Strategie sehr einfach:",
+      "List1": "Klicken Sie auf die Panzer, um Rallyes (  3 Minuten lang  !) mit dem schwächsten Team gegen die Panzer zu starten",
+      "List2": "Nimm mit dem stärksten Team an den Rallyes der anderen teil (  zuerst an denen, deren Countdown am nächsten bei Null ist ).",
+      "List3": "Höre nie auf, bis die Veranstaltung vorbei ist",
+      "List4": "Wer 3 Teams hat, kann zwei Teams (das stärkste) einsetzen, um an anderen Rallyes teilzunehmen, und das andere (das schwächste) kann Rallyes starten.",
+      "List5": "Es ist für jedes Allianzmitglied nur möglich, eine Rallye gleichzeitig zu starten. Selbst wenn Sie also 3 Trupps haben, können Sie nicht 2 Rallyes gleichzeitig starten. Sie können jedoch gleichzeitig an so vielen Rallyes teilnehmen, wie Sie möchten."
+    },
+    "Tricks": {
+      "Title": "Tricks",
+      "Trick1": "Erkunden Sie einige Minuten vor der Übung eine Basis, die keiner Allianz angehört. Dadurch wird der Kriegsfiebermodus aktiviert, der Ihnen +1 % Schaden ermöglicht. WICHTIG: Verwenden Sie diesen Trick nicht, während Sie einen Schild tragen, da Sie ihn sonst verlieren.",
+      "Trick2": "Um deine individuellen Punkte zu maximieren, nimm an den von R4 und R5 gestarteten Rallyes teil, die dir +2,5 % (R4 ohne Rolle) / +5 % (R5 und R4 mit Rolle) geben (der Schriftzug erscheint in der Liste der Rallyes).",
+      "Trick3": "Wenn Sie das stärkste Team an den Rallyes anderer Spieler teilnehmen lassen, können Sie mehr Punkte erzielen, während das schwächste Team „feststeckt“ und auf den Beginn der Rallye warten muss."
+    },
+    "Important": {
+      "Title": "Wichtig",
+      "List1": "Allianzmitglieder müssen sich in der Nähe der Allianzbasis und möglichst näher an der Plattform des Marschalls befinden. Entfernte Mitglieder können dazu führen, dass Kundgebungen, die maximal 3 Minuten dauern dürfen, verlangsamt werden (sogar mehr als 30 Minuten).",
+      "List2": "Es ist wichtig, dass alle Mitglieder ihre Teams zurückrufen, wenn sie einige Minuten vor Beginn der Veranstaltung zum Sammeln in Minen oder auf Feldern geschickt wurden.",
+      "List3": "Sollte aus verschiedenen Gründen ein Squad eines weit entfernten Mitglieds zur Rallye hinzukommen und dadurch den Start der Rallye verzögern, so besteht die Möglichkeit diesen Squad aus der Rallye zu entfernen, dies muss dann derjenige tun, der die Rallye gestartet hat.",
+      "List4": "Sie können die Marshall-Übung auch dann durchführen, wenn Sie einen Schild tragen. Verwenden Sie den Trick zum Aktivieren des Kriegsfiebers nicht, wenn Sie einen Schild tragen, da Sie ihn sonst verlieren."
     }
   }
 }

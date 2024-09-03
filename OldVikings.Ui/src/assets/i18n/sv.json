@@ -136,7 +136,8 @@
     "Buildings": "Byggnader",
     "Squad": "Team",
     "DesertStorm": "Ökenstorm",
-    "SeasonOne": "Säsong 1"
+    "SeasonOne": "Säsong 1",
+    "Marshall": "Marskalkvakt"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -1071,6 +1072,36 @@
         "Description2": "Dessa zombies kommer att infektera dig oavsett hur resistent du är mot virus.",
         "Description3": "Dessutom appliceras en skadedebuff om din virusresistens är lägre än virusstyrkan."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Marshal Vakt",
+    "Instruction": {
+      "Title": "Introduktion",
+      "Description1": "Marshal-övningen eller alliansövningen är ett regelbundet evenemang där alliansen kan få olika belöningar. Den är uppdelad i nivåer och testar alliansens stridsstyrka.",
+      "Description2": "R4 och R5 i alliansen kan bestämma tidpunkten för övningens start (detta kan variera varje gång), så se till att noga läsa alliansens meddelanden."
+    },
+    "Attack": {
+      "Title": "Attack",
+      "Description": "För dem med 2 lag är strategin mycket enkel:",
+      "List1": "Klicka på tankarna för att starta rallyn (i 3 minuter!) med det svagaste laget mot tankarna.",
+      "List2": "Delta med det starkaste laget i andras rallyn (först i de vars nedräkning är närmast noll).",
+      "List3": "Sluta aldrig förrän evenemanget är över.",
+      "List4": "Den som har 3 lag kan använda två lag (de starkaste) för att delta i andra rallyn, och det tredje (det svagaste) kan starta rallyn.",
+      "List5": "Varje medlem i alliansen kan endast starta en rally åt gången. Även om du har 3 enheter, kan du inte starta 2 rallyn samtidigt. Du kan dock delta i så många rallyn som du vill samtidigt."
+    },
+    "Tricks": {
+      "Title": "Tricks",
+      "Trick1": "Utforska en bas som inte tillhör någon allians några minuter innan övningen. Detta aktiverar krigsfeberläget, vilket ger dig +1% skada. VIKTIGT: Använd inte detta trick medan du bär ett skydd, eftersom du då kommer att förlora det.",
+      "Trick2": "För att maximera dina individuella poäng, delta i rallyn som startats av R4 och R5, som ger dig +2,5% (R4 utan roll) / +5% (R5 och R4 med roll) (texten kommer att visas i rallylistan).",
+      "Trick3": "Om du låter det starkaste laget delta i andras rallyn kan du få fler poäng, medan det svagaste laget 'sitter fast' och väntar på att rallyn ska börja."
+    },
+    "Important": {
+      "Title": "Viktigt",
+      "List1": "Alliansmedlemmar måste befinna sig nära alliansbasen och helst närmare marskalkens plattform. Avlägsna medlemmar kan orsaka att meddelanden, som får pågå i upp till 3 minuter, försenas (till och med mer än 30 minuter).",
+      "List2": "Det är viktigt att alla medlemmar återkallar sina lag om de har skickats för att samla resurser i gruvor eller på fält några minuter innan evenemanget börjar.",
+      "List3": "Om en enhet från en avlägsen medlem går med i rallyn av olika skäl och försenar starten, är det möjligt att ta bort denna enhet från rallyn. Detta måste göras av den som startade rallyn.",
+      "List4": "Du kan också genomföra Marshal-övningen även om du bär ett skydd. Använd inte tricket för att aktivera krigsfeberläget om du bär ett skydd, eftersom du annars kommer att förlora det."
     }
   }
 }

@@ -136,7 +136,8 @@
     "Buildings": "Edifici",
     "Squad": "Squadra",
     "DesertStorm": "Tempesta del deserto",
-    "SeasonOne": "Stagione 1"
+    "SeasonOne": "Stagione 1",
+    "Marshall": "Guardia del Maresciallo"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -1067,6 +1068,36 @@
         "Description2": "Questi zombi ti infetteranno, indipendentemente da quanto sei resistente ai virus.",
         "Description3": "Inoltre, viene applicato un debuff di danno se la tua resistenza ai virus è inferiore alla forza del virus."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Sorveglianza del Maresciallo",
+    "Instruction": {
+      "Title": "Introduzione",
+      "Description1": "L'esercizio del Maresciallo o esercizio dell'Alleanza è un evento regolare in cui l'alleanza può ricevere diverse ricompense. È suddiviso in livelli e testa la forza di combattimento dell'alleanza.",
+      "Description2": "I membri R4 e R5 dell'alleanza possono stabilire il momento dell'inizio dell'esercizio (che può variare ogni volta), quindi assicurati di leggere attentamente gli annunci dell'alleanza."
+    },
+    "Attack": {
+      "Title": "Attacco",
+      "Description": "Per coloro che hanno 2 squadre, la strategia è molto semplice:",
+      "List1": "Fai clic sui carri armati per avviare rally (per 3 minuti!) con la squadra più debole contro i carri armati.",
+      "List2": "Partecipa ai rally degli altri con la squadra più forte (prima a quelli il cui conto alla rovescia è più vicino allo zero).",
+      "List3": "Non fermarti mai fino al termine dell'evento.",
+      "List4": "Chi ha 3 squadre può utilizzare due squadre (le più forti) per partecipare ad altri rally, e la terza (la più debole) può avviare rally.",
+      "List5": "Ogni membro dell'alleanza può avviare solo un rally alla volta. Anche se hai 3 squadre, non puoi avviare 2 rally simultaneamente. Tuttavia, puoi partecipare a quanti più rally desideri contemporaneamente."
+    },
+    "Tricks": {
+      "Title": "Trucchi",
+      "Trick1": "Esplora una base che non appartiene a nessuna alleanza alcuni minuti prima dell'esercizio. Questo attiva la modalità Febbre di Guerra, che ti concede un +1% di danno. IMPORTANTE: Non utilizzare questo trucco mentre porti uno scudo, altrimenti lo perderai.",
+      "Trick2": "Per massimizzare i tuoi punti individuali, partecipa ai rally avviati da R4 e R5 che ti danno +2,5% (R4 senza ruolo) / +5% (R5 e R4 con ruolo) (il testo apparirà nella lista dei rally).",
+      "Trick3": "Se lasci che la squadra più forte partecipi ai rally degli altri giocatori, puoi ottenere più punti mentre la squadra più debole 'resta in attesa' e aspetta l'inizio del rally."
+    },
+    "Important": {
+      "Title": "Importante",
+      "List1": "I membri dell'alleanza devono trovarsi vicino alla base dell'alleanza e preferibilmente più vicino alla piattaforma del Maresciallo. I membri lontani possono causare ritardi negli annunci, che possono durare fino a 3 minuti (anche più di 30 minuti).",
+      "List2": "È importante che tutti i membri richiamino le loro squadre se sono stati inviati a raccogliere risorse nelle miniere o nei campi pochi minuti prima dell'inizio dell'evento.",
+      "List3": "Se uno squadrone di un membro lontano si unisce al rally per vari motivi e ritarda l'inizio, è possibile rimuovere questo squadrone dal rally. Questo deve essere fatto dalla persona che ha avviato il rally.",
+      "List4": "Puoi anche effettuare l'esercizio del Maresciallo mentre porti uno scudo. Non usare il trucco per attivare la Febbre di Guerra se porti uno scudo, altrimenti lo perderai."
     }
   }
 }

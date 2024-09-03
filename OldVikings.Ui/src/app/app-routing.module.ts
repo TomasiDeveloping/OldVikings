@@ -14,6 +14,7 @@ import {SquadComponent} from "./pages/squad/squad.component";
 import {SeasonOneComponent} from "./pages/season-one/season-one.component";
 import {GuestbookComponent} from "./pages/guestbook/guestbook.component";
 import {MapComponent} from "./pages/map/map.component";
+import {MarshallComponent} from "./pages/marshall/marshall.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'vs', component: VsDuellComponent, canActivate: [memberGuard]},
   {path: 'rules', component: RulesComponent},
   {path: 'desert-storm', component: DesertStormComponent, canActivate: [memberGuard]},
+  {path: 'marshall', component: MarshallComponent, canActivate: [memberGuard]},
   {path: 'alliances', component: AlliancesComponent},
   {path: 'basics', component: BasicsComponent},
   {path: 'tips-and-tricks', component: TipsAndTricksComponent, canActivate: [memberGuard]},

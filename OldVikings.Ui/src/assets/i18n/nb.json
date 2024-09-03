@@ -136,8 +136,8 @@
     "Buildings": "Bygninger",
     "Squad": "Lag",
     "DesertStorm": "Ørkenstorm",
-    "SeasonOne": "Sesong 1"
-
+    "SeasonOne": "Sesong 1",
+    "Marshall": "Marskalkvakt"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -1068,6 +1068,36 @@
         "Description2": "Disse zombiene vil infisere deg uansett hvor mye virusmotstand du har.",
         "Description3": "I tillegg vil en skadedebuff bli påført hvis din virusmotstand er lavere enn virusstyrken."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Marskalkvakt",
+    "Instruction": {
+      "Title": "Introduksjon",
+      "Description1": "Marskalkøvelsen eller allianseøvelsen er et regelmessig arrangement der alliansen kan motta forskjellige belønninger. Den er delt opp i nivåer og tester alliansens kampstyrke.",
+      "Description2": "R4 og R5 i alliansen kan bestemme tidspunktet for starten av øvelsen (dette kan variere hver gang), så vær nøye med å lese alliansens kunngjøringer."
+    },
+    "Attack": {
+      "Title": "Angrep",
+      "Description": "For de som har 2 lag, er strategien veldig enkel:",
+      "List1": "Klikk på tankene for å starte rallyer (i 3 minutter!) med det svakeste laget mot tankene.",
+      "List2": "Delta med det sterkeste laget i rallyene til andre (først i de der nedtellingen er nærmest null).",
+      "List3": "Stopp aldri før arrangementet er over.",
+      "List4": "De som har 3 lag kan bruke to lag (de sterkeste) til å delta i andre rallyer, og det tredje (det svakeste) kan starte rallyer.",
+      "List5": "Hvert medlem av alliansen kan kun starte én rally om gangen. Selv om du har 3 lag, kan du ikke starte 2 rallyer samtidig. Du kan imidlertid delta i så mange rallyer du ønsker samtidig."
+    },
+    "Tricks": {
+      "Title": "Triks",
+      "Trick1": "Utforsk en base som ikke tilhører noen allianse noen minutter før øvelsen. Dette aktiverer krigsfebermodus, som gir deg +1% skade. VIKTIG: Bruk ikke dette trikset mens du bærer et skjold, da du vil miste det.",
+      "Trick2": "For å maksimere dine individuelle poeng, delta i rallyene som er startet av R4 og R5, som gir deg +2,5% (R4 uten rolle) / +5% (R5 og R4 med rolle) (teksten vil vises i rallylisten).",
+      "Trick3": "Hvis du lar det sterkeste laget delta i rallyene til andre spillere, kan du oppnå flere poeng, mens det svakeste laget 'sitter fast' og venter på at rallyet skal starte."
+    },
+    "Important": {
+      "Title": "Viktig",
+      "List1": "Alliansemedlemmer må være i nærheten av alliansebassen og helst nærmere marskalkens plattform. Fjerne medlemmer kan føre til at kunngjøringer, som kan vare i opptil 3 minutter, blir forsinket (til og med mer enn 30 minutter).",
+      "List2": "Det er viktig at alle medlemmer tilbakekaller lagene sine hvis de har blitt sendt for å samle ressurser i miner eller på marker noen minutter før arrangementet starter.",
+      "List3": "Hvis et skvadron fra et fjernt medlem blir med på rallyet av ulike grunner og forsinker starten, er det mulig å fjerne dette skvadronet fra rallyet. Dette må gjøres av den som startet rallyet.",
+      "List4": "Du kan også gjennomføre Marskalkøvelsen selv om du bærer et skjold. Ikke bruk trikset for å aktivere krigsfebermodus hvis du bærer et skjold, da du ellers vil miste det."
     }
   }
 }

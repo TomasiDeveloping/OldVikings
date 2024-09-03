@@ -136,7 +136,8 @@
     "Buildings": "Bygninger",
     "Squad": "Enhed",
     "DesertStorm": "Ørkenstorm",
-    "SeasonOne": "Sæson 1"
+    "SeasonOne": "Sæson 1",
+    "Marshall": "Marschallvagt"
   },
   "VS": {
     "Title": "VS Duel",
@@ -1071,6 +1072,36 @@
         "Description2": "Disse zombier vil smitte dig, uanset hvor resistent du er mod virus.",
         "Description3": "Derudover anvendes der en skadedebuff, hvis din virusresistens er lavere end virusstyrken."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Marskal Vagt",
+    "Instruction": {
+      "Title": "Introduktion",
+      "Description1": "Marskal-øvelsen eller Alliancens øvelse er en regelmæssig begivenhed, hvor alliancen kan modtage forskellige belønninger. Den er opdelt i niveauer og tester alliancens kampstyrke.",
+      "Description2": "R4 og R5 i alliancen kan bestemme, hvornår øvelsen starter (det kan også være forskelligt hver gang), så læs alliancens meddelelser grundigt."
+    },
+    "Attack": {
+      "Title": "Angreb",
+      "Description": "For dem, der har 2 hold, er strategien meget enkel:",
+      "List1": "Klik på tankene for at starte rallyer (i 3 minutter!) med det svageste hold mod tankene.",
+      "List2": "Deltag med det stærkeste hold i rallyerne fra andre (først i dem, der har tælleren nærmest nul).",
+      "List3": "Stop aldrig, før begivenheden er slut.",
+      "List4": "Den, der har 3 hold, kan bruge to hold (det stærkeste) til at deltage i andre rallyer, og det tredje (det svageste) kan starte rallyer.",
+      "List5": "Hvert alliancemedlem kan kun starte én rally ad gangen. Selv hvis du har 3 hold, kan du ikke starte 2 rallyer samtidig. Du kan dog deltage i så mange rallyer, som du vil, på samme tid."
+    },
+    "Tricks": {
+      "Title": "Tricks",
+      "Trick1": "Udforsk en base, der ikke tilhører nogen alliance, nogle minutter før øvelsen. Dette aktiverer krigsfebertilstanden, som giver dig +1 % skade. VIGTIGT: Brug ikke denne trick, mens du bærer et skjold, da du ellers mister det.",
+      "Trick2": "For at maksimere dine individuelle point, deltag i de rallyer, der er startet af R4 og R5, som giver dig +2,5 % (R4 uden rolle) / +5 % (R5 og R4 med rolle) (skriftet vises på listen over rallyer).",
+      "Trick3": "Hvis du lader det stærkeste hold deltage i rallyer fra andre spillere, kan du opnå flere point, mens det svageste hold 'sidder fast' og skal vente på, at rallyen starter."
+    },
+    "Important": {
+      "Title": "Vigtigt",
+      "List1": "Alliancemedlemmer skal befinde sig nær alliancens base og helst tættere på marskallens platform. Fjerne medlemmer kan medføre, at meddelelser, der maksimalt må vare 3 minutter, bliver forsinket (endda op til 30 minutter).",
+      "List2": "Det er vigtigt, at alle medlemmer tilbagekalder deres hold, hvis de er sendt til at samle ressourcer i miner eller på marker et par minutter før begivenheden starter.",
+      "List3": "Hvis en squad fra et fjernt medlem tilslutter sig rallyen af forskellige årsager og forsinker starten, er det muligt at fjerne denne squad fra rallyen. Dette skal gøres af den person, der har startet rallyen.",
+      "List4": "Du kan også gennemføre Marskal-øvelsen, mens du bærer et skjold. Brug ikke trick til at aktivere krigsfebertilstanden, hvis du bærer et skjold, da du ellers mister det."
     }
   }
 }

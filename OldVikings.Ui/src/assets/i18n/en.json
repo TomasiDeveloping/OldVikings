@@ -136,7 +136,8 @@
     "Buildings": "Buildings",
     "Squad": "Squad",
     "DesertStorm": "Desert Storm",
-    "SeasonOne": "Season 1"
+    "SeasonOne": "Season 1",
+    "Marshall": "Marshal Guard"
   },
   "VS": {
     "Title": "VS Duel",
@@ -1071,6 +1072,36 @@
         "Description2": "These zombies will infect you no matter how resistant you are to viruses.",
         "Description3": "Additionally, a damage debuff will be applied if your virus resistance is lower than the virus strength."
       }
+    }
+  },
+  "Marshall": {
+    "Title": "Marshall Watch",
+    "Instruction": {
+      "Title": "Introduction",
+      "Description1": "The Marshall Exercise or Alliance Exercise is a regular event where the alliance can receive various rewards. It is divided into levels and tests the alliance's combat strength.",
+      "Description2": "The R4 and R5 members of the alliance can set the start time for the exercise (which can vary each time), so be sure to read the alliance announcements carefully."
+    },
+    "Attack": {
+      "Title": "Attack",
+      "Description": "For those with 2 teams, the strategy is very simple:",
+      "List1": "Click on the tanks to start rallies (for 3 minutes!) with the weakest team against the tanks.",
+      "List2": "Join the rallies of others with the strongest team (first those whose countdown is closest to zero).",
+      "List3": "Never stop until the event is over.",
+      "List4": "Those with 3 teams can use two teams (the strongest) to join other rallies, and the third (the weakest) can start rallies.",
+      "List5": "Each alliance member can only start one rally at a time. Even if you have 3 squads, you cannot start 2 rallies simultaneously. However, you can join as many rallies as you like at the same time."
+    },
+    "Tricks": {
+      "Title": "Tricks",
+      "Trick1": "Scout a base that does not belong to any alliance a few minutes before the exercise. This activates the War Fever mode, which gives you +1% damage. IMPORTANT: Do not use this trick while carrying a shield, as you will lose it.",
+      "Trick2": "To maximize your individual points, participate in rallies started by R4 and R5 that give you +2.5% (R4 without role) / +5% (R5 and R4 with role) (the text will appear in the rally list).",
+      "Trick3": "If you let the strongest team participate in rallies from other players, you can earn more points while the weakest team 'sits out' and waits for the rally to start."
+    },
+    "Important": {
+      "Title": "Important",
+      "List1": "Alliance members need to be close to the alliance base and preferably nearer to the Marshall's platform. Distant members can cause announcements, which are allowed to last up to 3 minutes, to be delayed (even more than 30 minutes).",
+      "List2": "It is important that all members recall their teams if they have been sent to gather resources in mines or on fields a few minutes before the event starts.",
+      "List3": "If a squad from a distant member joins the rally for various reasons and delays the start, it is possible to remove this squad from the rally. This must be done by the person who started the rally.",
+      "List4": "You can also perform the Marshall Exercise while carrying a shield. Do not use the War Fever trick if you are carrying a shield, as you will lose it."
     }
   }
 }
