@@ -54,7 +54,8 @@
       "Rules": "Regels",
       "Basics": "Basisprincipes",
       "TipsAndTricks": "Tips en trucs"
-    }
+    },
+    "Guestbook": "Gastenboek"
   },
   "Rules": {
     "Title": "Alliantie Regels",
@@ -707,7 +708,7 @@
     }
   },
   "Greeting": {
-    "HomeButton": "Zeg hallo!",
+    "HomeButton": "Laat een bericht achter",
     "Modal": {
       "Title": "Laat een begroeting achter",
       "Form": {
@@ -1098,6 +1099,16 @@
       "List2": "Het is belangrijk dat alle leden hun teams terugroepen als ze enkele minuten voor het evenement naar mijnen of velden zijn gestuurd om middelen te verzamelen.",
       "List3": "Als een squad van een ver lid zich om verschillende redenen bij de rally voegt en de start vertraagt, is het mogelijk deze squad uit de rally te verwijderen. Dit moet worden gedaan door degene die de rally heeft gestart.",
       "List4": "Je kunt de Marshalle-oefening ook uitvoeren terwijl je een schild draagt. Gebruik de truc voor het activeren van Oorlogskoorts niet als je een schild draagt, anders verlies je het."
+    }
+  },
+  "Guestbook": {
+    "Title": "Gastenboek",
+    "Description1": "De Old Vikings zeilen moedig door de uitgestrektheid van vele servers en hebben al veel bondgenoten en vijanden ontmoet. Of je nu van nabijgelegen of verre kusten komt, uit een vriendschappelijke alliantie of een vijandige factie – we kijken uit naar je bericht!",
+    "Description2": "Proost en moge de wind altijd in je voordeel zijn! De Old Vikings",
+    "Anonymous": "Anoniem",
+    "Pagination": {
+      "NextLabel": "Volgende",
+      "PreviousLabel": "Vorige"
     }
   }
 }

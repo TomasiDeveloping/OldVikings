@@ -54,7 +54,8 @@
       "Rules": "Rules",
       "Basics": "Basics",
       "TipsAndTricks": "Tips and Tricks"
-    }
+    },
+    "Guestbook": "Guestbook"
   },
   "Rules": {
     "Title": "Alliance Rules",
@@ -711,7 +712,7 @@
     }
   },
   "Greeting": {
-    "HomeButton": "Say Hello!",
+    "HomeButton": "Leave a greeting",
     "Modal": {
       "Title": "Leave a Greeting",
       "Form": {
@@ -1102,6 +1103,16 @@
       "List2": "It is important that all members recall their teams if they have been sent to gather resources in mines or on fields a few minutes before the event starts.",
       "List3": "If a squad from a distant member joins the rally for various reasons and delays the start, it is possible to remove this squad from the rally. This must be done by the person who started the rally.",
       "List4": "You can also perform the Marshall Exercise while carrying a shield. Do not use the War Fever trick if you are carrying a shield, as you will lose it."
+    }
+  },
+  "Guestbook": {
+    "Title": "Guestbook",
+    "Description1": "The Old Vikings sail bravely through the vastness of many servers and have already met many allies and enemies. Whether you come from near or distant shores, from a friendly alliance or a hostile faction – we look forward to your message!",
+    "Description2": "Skål, and may the wind always be in your favor! The Old Vikings",
+    "Anonymous": "Anonymous",
+    "Pagination": {
+      "NextLabel": "Next",
+      "PreviousLabel": "Previous"
     }
   }
 }

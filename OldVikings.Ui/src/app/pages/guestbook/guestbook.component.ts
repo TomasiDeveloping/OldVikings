@@ -5,6 +5,7 @@ import {TranslateService} from "@ngx-translate/core";
 import {DeeplTranslateService} from "../../services/deeplTranslate.service";
 import {TranslationRequestModel} from "../../models/translationRequest.model";
 import {ToastrService} from "ngx-toastr";
+import {DomSanitizer, SafeHtml} from "@angular/platform-browser";
 
 @Component({
   selector: 'app-guestbook',
@@ -17,6 +18,7 @@ export class GuestbookComponent implements OnInit{
   private readonly _translateService: TranslateService = inject(TranslateService);
   private readonly _deeplTranslateService: DeeplTranslateService = inject(DeeplTranslateService);
   private readonly _toastr: ToastrService = inject(ToastrService);
+  private readonly _sanitizer: DomSanitizer = inject(DomSanitizer);
 
   public greetings: GreetingModel[] = [];
   public isLoading: boolean = false;
@@ -38,7 +40,6 @@ export class GuestbookComponent implements OnInit{
 
   onTranslate(greeting: GreetingModel) {
     this.isLoading = true;
-    console.log(this._translateService.currentLang);
     const request: TranslationRequestModel = {
       text: greeting.comment,
       language: this._translateService.currentLang
@@ -62,5 +63,9 @@ export class GuestbookComponent implements OnInit{
 
   onPageChange(event: number) {
     this.page = event;
+  }
+
+  getSafeHtml(comment: string) : SafeHtml {
+    return this._sanitizer.bypassSecurityTrustHtml(comment);
   }
 }

@@ -19,7 +19,7 @@ import { TipsAndTricksComponent } from './pages/tips-and-tricks/tips-and-tricks.
 import { BuildingsComponent } from './pages/buildings/buildings.component';
 import { HeadqartersTableComponent } from './pages/buildings/headqarters-table/headqarters-table.component';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
-import { GreetingModalComponent } from './pages/home/greeting-modal/greeting-modal.component';
+import { GreetingModalComponent } from './pages/guestbook/greeting-modal/greeting-modal.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import {NgxSpinnerModule} from "ngx-spinner";
 import {spinnerInterceptor} from "./interceptors/spinner.interceptor";

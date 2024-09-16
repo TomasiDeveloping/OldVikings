@@ -1,23 +1,30 @@
 <div class="container pb-5">
-  <h3 class="custom-font mt-3 text-center">Gästebuch</h3>
+  <h3 class="custom-font mt-3 text-center">{{'Guestbook.Title' | translate}}</h3>
   <hr>
-  <p>Seht euch an, wie weit unsere Webseite bereits gereist ist! Hier könnt ihr sehen, aus welchen Servern und Allianzen unsere Besucher kommen und welche Teile der Welt unsere Community erreicht hat.“</p>
+  <p>{{'Guestbook.Description1' | translate}}</p>
+  <p>{{'Guestbook.Description2' | translate}}</p>
 
+  <section class="d-grid gap-2 col-6 mx-auto mb-3">
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#greetingModal">
+      {{'Greeting.HomeButton' | translate}}
+    </button>
+    <app-greeting-modal></app-greeting-modal>
+  </section>
 
   @if (greetings.length > 0){
-    @for (greeting of greetings | paginate: { itemsPerPage: 3, currentPage: page }; track greeting.id) {
+    @for (greeting of greetings | paginate: { itemsPerPage: 5, currentPage: page }; track greeting.id) {
       <div class="card mb-3">
         <div class="card-header text-center">
           Server <span class="text-warning">#{{greeting.serverNumber}}</span> - <small>{{greeting.createdAt | date: 'dd.MM.yyyy HH:mm.ss'}}</small>
         </div>
         <div class="card-body">
-          <h5 class="card-title"><span class="text-info">{{greeting.allianceName}}</span> - ({{greeting.playerName ? greeting.playerName : 'Anonym'}})</h5>
+          <h5 class="card-title"><span class="text-info">{{greeting.allianceName}}</span> - ({{greeting.playerName ? greeting.playerName : 'Guestbook.Anonymous' | translate}})</h5>
           @if (greeting.comment) {
             @if (!isLoading) {
-              <p class="card-text">{{greeting.comment}}</p>
-              <div class="d-flex justify-content-end">
-                <i (click)="onTranslate(greeting)" class="bi bi-translate"></i>
-              </div>
+              <p class="card-text" [innerHTML]="getSafeHtml(greeting.comment)"></p>
+<!--              <div class="d-flex justify-content-end">-->
+<!--                <i (click)="onTranslate(greeting)" class="bi bi-translate"></i>-->
+<!--              </div>-->
             } @else {
               <div class="d-flex justify-content-center">
                 <div class="spinner-border text-primary" role="status">
@@ -30,7 +37,7 @@
         </div>
       </div>
     }
-    <pagination-controls (pageChange)="onPageChange($event)"></pagination-controls>
+    <pagination-controls [nextLabel]="'Guestbook.Pagination.NextLabel' | translate" [previousLabel]="'Guestbook.Pagination.PreviousLabel' | translate" (pageChange)="onPageChange($event)"></pagination-controls>
   }
 
 

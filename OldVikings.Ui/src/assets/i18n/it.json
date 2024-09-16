@@ -54,7 +54,8 @@
       "Rules": "Regole",
       "Basics": "Fondamenti",
       "TipsAndTricks": "Suggerimenti e trucchi"
-    }
+    },
+    "Guestbook": "Libro degli ospiti"
   },
   "Rules": {
     "Title": "Alleanza Regole",
@@ -707,7 +708,7 @@
     }
   },
   "Greeting": {
-    "HomeButton": "Dì ciao!",
+    "HomeButton": "Lascia un saluto",
     "Modal": {
       "Title": "Lascia un saluto",
       "Form": {
@@ -1098,6 +1099,16 @@
       "List2": "È importante che tutti i membri richiamino le loro squadre se sono stati inviati a raccogliere risorse nelle miniere o nei campi pochi minuti prima dell'inizio dell'evento.",
       "List3": "Se uno squadrone di un membro lontano si unisce al rally per vari motivi e ritarda l'inizio, è possibile rimuovere questo squadrone dal rally. Questo deve essere fatto dalla persona che ha avviato il rally.",
       "List4": "Puoi anche effettuare l'esercizio del Maresciallo mentre porti uno scudo. Non usare il trucco per attivare la Febbre di Guerra se porti uno scudo, altrimenti lo perderai."
+    }
+  },
+  "Guestbook": {
+    "Title": "Libro degli ospiti",
+    "Description1": "Gli Old Vikings navigano coraggiosamente attraverso l'immensità di molti server e hanno già incontrato molti alleati e nemici. Che tu venga da coste vicine o lontane, da un'alleanza amica o da una fazione avversaria, siamo ansiosi di ricevere il tuo messaggio!",
+    "Description2": "Skål e che il vento sia sempre a tuo favore! Gli Old Vikings",
+    "Anonymous": "Anonimo",
+    "Pagination": {
+      "NextLabel": "Avanti",
+      "PreviousLabel": "Precedente"
     }
   }
 }

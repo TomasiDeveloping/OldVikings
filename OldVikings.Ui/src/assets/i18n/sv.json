@@ -54,7 +54,8 @@
       "Rules": "Regler",
       "Basics": "Grunder",
       "TipsAndTricks": "Tips och tricks"
-    }
+    },
+    "Guestbook": "Gästbok"
   },
   "Rules": {
     "Title": "Alliansregler",
@@ -711,7 +712,7 @@
     }
   },
   "Greeting": {
-    "HomeButton": "Säg Hej!",
+    "HomeButton": "Lämna en hälsning",
     "Modal": {
       "Title": "Lämna en hälsning",
       "Form": {
@@ -1102,6 +1103,16 @@
       "List2": "Det är viktigt att alla medlemmar återkallar sina lag om de har skickats för att samla resurser i gruvor eller på fält några minuter innan evenemanget börjar.",
       "List3": "Om en enhet från en avlägsen medlem går med i rallyn av olika skäl och försenar starten, är det möjligt att ta bort denna enhet från rallyn. Detta måste göras av den som startade rallyn.",
       "List4": "Du kan också genomföra Marshal-övningen även om du bär ett skydd. Använd inte tricket för att aktivera krigsfeberläget om du bär ett skydd, eftersom du annars kommer att förlora det."
+    }
+  },
+  "Guestbook": {
+    "Title": "Gästbok",
+    "Description1": "Old Vikings seglar tappert genom vidderna av många servrar och har redan mött många allierade och fiender. Oavsett om du kommer från nära eller avlägsna kuster, från en vänlig allians eller en fiendtlig fraktion – vi ser fram emot ditt meddelande!",
+    "Description2": "Skål och må vinden alltid vara till din fördel! Old Vikings",
+    "Anonymous": "Anonym",
+    "Pagination": {
+      "NextLabel": "Nästa",
+      "PreviousLabel": "Föregående"
     }
   }
 }

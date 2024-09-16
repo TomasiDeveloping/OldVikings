@@ -54,7 +54,8 @@
       "Rules": "Regeln",
       "Basics": "Grundlagen",
       "TipsAndTricks": "Tipps und Tricks"
-    }
+    },
+    "Guestbook": "Gästebuch"
   },
   "Rules": {
     "Title": "Allianz Regeln",
@@ -707,7 +708,7 @@
     }
   },
   "Greeting": {
-    "HomeButton": "Sag Hallo!",
+    "HomeButton": "Einen Gruß eintragen",
     "Modal": {
       "Title": "Hinterlasse einen Gruss",
       "Form": {
@@ -1098,6 +1099,16 @@
       "List2": "Es ist wichtig, dass alle Mitglieder ihre Teams zurückrufen, wenn sie einige Minuten vor Beginn der Veranstaltung zum Sammeln in Minen oder auf Feldern geschickt wurden.",
       "List3": "Sollte aus verschiedenen Gründen ein Squad eines weit entfernten Mitglieds zur Rallye hinzukommen und dadurch den Start der Rallye verzögern, so besteht die Möglichkeit diesen Squad aus der Rallye zu entfernen, dies muss dann derjenige tun, der die Rallye gestartet hat.",
       "List4": "Sie können die Marshall-Übung auch dann durchführen, wenn Sie einen Schild tragen. Verwenden Sie den Trick zum Aktivieren des Kriegsfiebers nicht, wenn Sie einen Schild tragen, da Sie ihn sonst verlieren."
+    }
+  },
+  "Guestbook": {
+    "Title": "Gästebuch",
+    "Description1": "Die Old Vikings segeln tapfer durch die Weiten vieler Server und haben schon viele Verbündete und Gegner kennengelernt. Ob du von nahen oder fernen Ufern kommst, aus einer befreundeten Allianz oder einer gegnerischen Fraktion – wir freuen uns über deine Nachricht!",
+    "Description2": "Skål und möge der Wind euch stets gut gesonnen sein! Die Old Vikings",
+    "Anonymous": "Anonym",
+    "Pagination": {
+      "NextLabel": "Weiter",
+      "PreviousLabel": "Vorherige"
     }
   }
 }

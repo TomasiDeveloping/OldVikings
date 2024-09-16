@@ -54,7 +54,8 @@
       "Rules": "Règles",
       "Basics": "Bases",
       "TipsAndTricks": "Conseils et astuces"
-    }
+    },
+    "Guestbook": "Livre d'or"
   },
   "Rules": {
     "Title": "Alliance Règles",
@@ -707,7 +708,7 @@
     }
   },
   "Greeting": {
-    "HomeButton": "Dis bonjour !",
+    "HomeButton": "Laisser un message",
     "Modal": {
       "Title": "Laisse un message",
       "Form": {
@@ -1098,6 +1099,16 @@
       "List2": "Il est important que tous les membres rappellent leurs équipes s'ils ont été envoyés pour collecter des ressources dans des mines ou sur des champs quelques minutes avant le début de l'événement.",
       "List3": "Si un escadron d'un membre éloigné rejoint le rallye pour diverses raisons et retarde le début, il est possible d'éliminer cet escadron du rallye. Cela doit être fait par la personne qui a lancé le rallye.",
       "List4": "Vous pouvez également effectuer l'exercice du Maréchal même si vous portez un bouclier. Ne utilisez pas le truc pour activer la Fièvre de Guerre si vous portez un bouclier, car vous risquez de le perdre."
+    }
+  },
+  "Guestbook": {
+    "Title": "Livre d'or",
+    "Description1": "Les Old Vikings naviguent bravement à travers l'immensité de nombreux serveurs et ont déjà rencontré de nombreux alliés et ennemis. Que vous veniez de rivages proches ou lointains, d'une alliance amie ou d'une faction ennemie, nous attendons avec impatience votre message !",
+    "Description2": "Skål et que le vent soit toujours en votre faveur ! Les Old Vikings",
+    "Anonymous": "Anonyme",
+    "Pagination": {
+      "NextLabel": "Suivant",
+      "PreviousLabel": "Précédent"
     }
   }
 }

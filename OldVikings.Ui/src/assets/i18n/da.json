@@ -54,7 +54,8 @@
       "Rules": "Regler",
       "Basics": "Grundlæggende",
       "TipsAndTricks": "Tips og Tricks"
-    }
+    },
+    "Guestbook": "Gæstebog"
   },
   "Rules": {
     "Title": "Alliance Regler",
@@ -711,7 +712,7 @@
     }
   },
   "Greeting": {
-    "HomeButton": "Sig hej!",
+    "HomeButton": "Efterlad en hilsen",
     "Modal": {
       "Title": "Efterlad en hilsen",
       "Form": {
@@ -1102,6 +1103,16 @@
       "List2": "Det er vigtigt, at alle medlemmer tilbagekalder deres hold, hvis de er sendt til at samle ressourcer i miner eller på marker et par minutter før begivenheden starter.",
       "List3": "Hvis en squad fra et fjernt medlem tilslutter sig rallyen af forskellige årsager og forsinker starten, er det muligt at fjerne denne squad fra rallyen. Dette skal gøres af den person, der har startet rallyen.",
       "List4": "Du kan også gennemføre Marskal-øvelsen, mens du bærer et skjold. Brug ikke trick til at aktivere krigsfebertilstanden, hvis du bærer et skjold, da du ellers mister det."
+    }
+  },
+  "Guestbook": {
+    "Title": "Gæstebog",
+    "Description1": "De Old Vikings sejler tappert gennem mange serveres vidder og har allerede mødt mange allierede og fjender. Uanset om du kommer fra nære eller fjerne kyster, fra en venlig alliance eller en fjendtlig fraktion – vi glæder os til din besked!",
+    "Description2": "Skål, og må vinden altid være til jeres fordel! De Old Vikings",
+    "Anonymous": "Anonym",
+    "Pagination": {
+      "NextLabel": "Videre",
+      "PreviousLabel": "Forrige"
     }
   }
 }
