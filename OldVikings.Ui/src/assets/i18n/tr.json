@@ -1,0 +1,1114 @@
+{
+  "Home": {
+    "Welcome": "Hoş geldiniz, cesur savaşçılar, Alliance Old Viking'e!",
+    "Section1": "Fırtınalı denizlere ve sonsuz savaş alanlarına Alliance Old Viking yanınızda. Burada omuz omuza savaşır, baltalarımızı keskinleştirir, kalkanlarımızı yükseltir ve her zaman bir sonraki savaşa hazır oluruz.",
+    "WhatToExpect": {
+      "Title": "Neler Beklemelisiniz:",
+      "List1": "Savaşta kardeşler ve kardeşler: Size her savaşta destek olacak ve şerefi sizinle paylaşacak sadık dostlar bulun.",
+      "List2": "Stratejik ustalık: Güçlü planlar yapın ve düşmanlarınızı akıllı taktikler ve sarsılmaz cesaretle yenin.",
+      "List3": "Şerefli kutlamalar: Epik savaşlara ve görkemli yağmalara katılın, bolca ödül kazanın ve kahramanlık öykünüzü devam ettirin.",
+      "List4": "Eski bilgelerden öğrenin: Deneyimli savaşçılardan öğrenin ve gerçek bir Viking olarak başarılı olmak için yeteneklerinizi geliştirin."
+    },
+    "Allies": {
+      "Title": "Müttefiklerimiz:",
+      "Allie1": "FYU - IMPERIVM XXIV"
+    },
+    "Nap": {
+      "Title": "Saldırı Anlaşmaları (NAP):",
+      "Nap1": "dkW - DKwar"
+    },
+    "Section2": "Alliance Old Viking'e katılın ve efsaneye birlikte adım atalım. Birlikte yenilmez olacağız ve dünyayı saygıdan titretir hale getireceğiz.",
+    "Vs": {
+      "Title": "VS-Duel:",
+      "Description": "Burada en fazla puanı nasıl toplayabileceğinizi öğrenin.",
+      "Link": "Daha fazla bilgi",
+      "Day1": {
+        "Link": "day1",
+        "Description": "Gün 1 - Radar özel eğitimi"
+      },
+      "Day2": {
+        "Link": "day2",
+        "Description": "Gün 2 - Temel yapılandırma"
+      },
+      "Day3": {
+        "Link": "day3",
+        "Description": "Gün 3 - Bilimin Çağı"
+      },
+      "Day4": {
+        "Link": "day4",
+        "Description": "Gün 4 - Kahraman geliştirme"
+      },
+      "Day5": {
+        "Link": "day5",
+        "Description": "Gün 5 - Savaş hazırlığı"
+      },
+      "Day6": {
+        "Link": "day6",
+        "Description": "Gün 6 - Düşmanın yok edilmesi"
+      }
+    },
+    "Information": {
+      "Title": "Ek Bilgiler",
+      "Description": "Web sitemizdeki en önemli sayfalara ilişkin faydalı bağlantıları burada bulabilirsiniz:",
+      "Vs": "VS-Duel",
+      "Rules": "Kurallar",
+      "Basics": "Temel Bilgiler",
+      "TipsAndTricks": "İpuçları ve Püf Noktaları"
+    },
+    "Guestbook": "Ziyaretçi Defteri"
+  },
+  "Rules": {
+    "Title": "Alliance Kuralları",
+    "Rule1": {
+      "Title": "Pasiflik",
+      "Description": "3 gün boyunca çevrimdışısınız ve haber vermediyseniz, 4. gün ittifaktan atılırsınız."
+    },
+    "Rule2": {
+      "Title": "Toplanma Yeri",
+      "Description": "Pazar günü savaş sona erer ve tüm üyeler ittifak toplama noktasında toplanmalıdır.",
+      "Description2": "Çarşamba günü toplanma noktasında değilseniz, ittifaktan atılırsınız.",
+      "Description3": "Toplanma noktasına nasıl ulaşırım?"
+    },
+    "Rule3": {
+      "Title": "İttifak Teknoloji Bağışları",
+      "Description": "Pazar günü itibarıyla her üye ittifak teknolojisine puan bağışlamış olmalıdır (bağış yapmak ücretsizdir).",
+      "Description2": "Bunu yapmazsanız, ittifaktan atılırsınız.",
+      "Description3": "Nasıl bağış yaparım?"
+    },
+    "Rule4": {
+      "Title": "Oyuncu İsimleri",
+      "Description": "Her üye kendi oyuncu ismini seçmelidir.",
+      "Description2": "Kendi oyuncu isminizi seçmezseniz, ittifaktan atılırsınız."
+    },
+    "Rule5": {
+      "Title": "Genel Saldırılar",
+      "Description": "Müttefiklerimize veya NAP (Saldırı Anlaşması) olanlara saldırı yapmak yasaktır.",
+      "Description2": "Diğer ittifaklardaki oyunculara saldırmak genellikle yasaktır. Özel durumlar veya çatışmalar ortaya çıkarsa, bu tür eylemler önceden R5 veya R4 ile tartışılmalı ve onaylanmalıdır, aksi takdirde gereksiz stres oluşabilir.",
+      "Description3": "Kendi sunucunuzdaki kamyonları veya trenleri yağmalamak yasaktır.",
+      "Description4": "Kendi kamyonlarımın saldırılardan nasıl korunurum?"
+    },
+    "Note": {
+      "Title": "Not:",
+      "Description": "Kuralları nasıl uygulayacağınızı bilmiyorsanız veya diğer sorularınız varsa, lütfen bizimle iletişime geçin. Size yardımcı olmak için buradayız."
+    },
+    "Footer": "Birlikte güçlü ve başarılı olalım!",
+    "ServerRules": {
+      "Title": "Sunucu Kuralları",
+      "Abuse": {
+        "Title": "Kötüye Kullanım:",
+        "Rule1": "Siber zorbalık, cinsiyetçilik, ırkçılık, homofobi veya diğer nefret temelli sohbetler, etnik, cinsel, dini, engelli, yaş veya transfobi hakaretleri dahil yasaktır. Sonuç olarak oyuncuya uyarı yapılır; tekrar eden ihlaller ittifaktan atılmaya neden olur."
+      },
+      "Zeroing": {
+        "Title": "Sıfırlama:",
+        "Rule1": "Sunucumuzdaki ittifaklara ait üsleri sıfırlamak (yok etmek) yasaktır. Sonuç olarak, üs sıfırlanır ve üssün dışındaki birlikler geri döner."
+      },
+      "Trucks": {
+        "Title": "Kamyonlar:",
+        "Rule1": "Sunucumuzdaki kamyonlara ve trenlere saldırmak yasaktır. Bunun önüne geçmek için filtreyi kullanın. Eğer saldırı gerçekleşirse, doğrudan kişiyle iletişime geçin ve karşılık olarak yağmalanacak bir kamyon düzenleyin. Yanıt alamazsanız, durumu R4/R5'e bildirin."
+      },
+      "Villages": {
+        "Title": "Köyler:",
+        "Rule1": "Oyuncular köy ele geçirme sırasında üsleri saldıramazlar; sadece köye takviye yapabilirler veya köye saldırabilirler. Sonuç olarak, üs dışındaki birliklerle eşit sayıda saldırı yapılır."
+      },
+      "Nap10": {
+        "Title": "NAP10:",
+        "Rule1": {
+          "Title": "Saldırı 1: ",
+          "Rule": "Top 10'da yer alan bir oyuncuyu saldırmak için ittifaktan ayrılan oyuncular, 1 hafta boyunca Top 10'da yer alamazlar. Bu hafta Top 10 tarafından korunamazlar."
+        },
+        "Rule2": {
+          "Title": "Saldırı 2: ",
+          "Rule": "Top 10'daki diğer oyunculara saldıran oyuncular, aynı sayıda saldırı ve hasar alacaklar ve ikinci ihlalde Top 10'dan 1 hafta süreyle men edilirler."
+        }
+      },
+      "Cities": {
+        "Title": "Şehirler:",
+        "Rule1": "Seviye 6 şehirleri Top 3 ittifaklarına aittir. Top 3 değiştiğinde, seviye 6 şehirleri buna göre değişir."
+      }
+    }
+  },
+  "Navigation": {
+    "Home": "Anasayfa",
+    "Rules": "Kurallar",
+    "VS": "VS-Duel",
+    "Alliances": "İttifaklar",
+    "Basics": "Temel Bilgiler",
+    "TipsAndTricks": "İpuçları ve Püf Noktaları",
+    "Buildings": "Binalar",
+    "Squad": "Birlik",
+    "DesertStorm": "Çöl Fırtınası",
+    "SeasonOne": "Sezon 1",
+    "Marshall": "Marschall-Guard"
+  },
+  "VS": {
+    "Title": "VS-Düellosu",
+    "Day1": {
+      "Title": "Gün 1 - Radar Özel Eğitim",
+      "DayText": "Pazartesi",
+      "Task1": {
+        "Title": "1 Radar Görevi Tamamla (~25.000 Puan):",
+        "Description": "Sol alttaki radar simgesine git ve radar ekranını aç. Burada tamamlanmış (sağ üst köşede kırmızı nokta ile) ve tamamlanması gereken görevleri göreceksin. Görevi tamamlamak için önce görevi gerçekleştirmen gerekiyor (henüz yapılmadıysa) ve sonra kırmızı noktaya tıklaman gerekiyor. Bu işlemi yaparak görevi toplar ve puan alırsın. Puanları maksimum seviyeye çıkarmak için görevleri bir önceki gün yığmayı düşünebilirsin."
+      },
+      "Task2": {
+        "Title": "1 Dayanıklılık Kullan (~300 Puan):",
+        "Description": "Saldırılar, toplama işlemleri ve radar görevleri için dayanıklılık kullan."
+      },
+      "Task3": {
+        "Title": "Aynı anda en az 660 Kahraman-EXP Puanı Kullan (~6 Puan):",
+        "Description": "Dron Merkezi'ne git ve ‘Veri Eğitimi’ butonuna tıklayarak savaş verilerini kullan. Belirli seviyelerde, eğitim için drone parçaları gereklidir."
+      },
+      "Task4": {
+        "Title": "1 Drone Parçası Kullan:",
+        "Description": "Dron Merkezi'ne git ve ‘Veri Eğitimi’ butonuna tıklayarak savaş verilerini kullan. Belirli seviyelerde drone parçaları gereklidir."
+      },
+      "Task5": {
+        "Title": "100/100/60 Birim Gıda/ Demir/ Altın Topla (~40 Puan):",
+        "Description": "Gıda, demir veya altın birimlerini iki şekilde toplayabilirsin:",
+        "Description2": "Özel radar görevleri aracılığıyla gıda, demir veya altın toplama. Bu durumda toplama hızı oldukça yüksektir.",
+        "Description3": "Harita moduna geç, büyütece tıkla, sonra ‘Topla’ butonuna tıkla ve ‘Tarla’, ‘Demir Madeni’ veya ‘Altın Madeni’ni seç. Askerlerini toplama yapabileceğin bir yer ara. Puanlar, askerler toplama noktasından ayrıldığında verilir, bu ya kazanılacak kaynaklar tükendiğinde ya da askerler geri çağrıldığında olur. Bu nedenle, bu gün başlamadan önce toplama işlemine başlamayı ve son toplama zamanının bu günün başlangıcından sonra olmasını sağlamayı unutma."
+      },
+      "Task6": {
+        "Title": "Kazandığın Her Drone Veri Çipi Puanı İçin (~2000 Puan):",
+        "Description": "Drone veri çipi sandıklarını envanterinden açarak puan al (drone bileşenleri sandıklarıyla karıştırma)."
+      }
+    },
+    "Day2": {
+      "Title": "Gün 2 - Üs İnşası",
+      "DayText": "Salı",
+      "Task1": {
+        "Title": "1 Dakikalık İnşaat Hızlandırması Kullan (~120 Puan):",
+        "Description": "İnşaat hızlandırmaları kullan (genel hızlandırmalar da geçerlidir, herhangi bir uzunlukta)."
+      },
+      "Task2": {
+        "Title": "Bir Bina Gücünü 1 Puan Artır (~21 Puan):",
+        "Description": "Bir bina tamamlandığında, bu binanın gücü artırılır ve bu fark için puan alırsın. Bina gücü ancak yeni geliştirilmiş bina paketli hediye kutusunu açtığında artar."
+      },
+      "Task3": {
+        "Title": "Bir Efsanevi Ticaret Kamyonu Gönder (~200.000 Puan):",
+        "Description": "Ticaret kamyonları farklı türlerde olabilir ve dolayısıyla farklı ödüller içerebilir. İçeriğini ticaret anlaşması kullanarak değiştirebilirsin. Bir kamyon gönderebileceğin bölüme git. Sağ üst köşede içeriği önizleyerek, bir zar simgesi göreceksin. ‘Efsanevi’ versiyonunu almak için, sarı arka plan ve sol tarafta ‘UR’ yazısını görene kadar birkaç kez güncelleme yapman gerekir."
+      },
+      "Task4": {
+        "Title": "1 Efsanevi Gizli Görev Tamamla (~150.000 Puan):",
+        "Description": "Gizli mobil birim içinde çeşitli türlerde ve seviyelerde aktiviteler bulabilirsin. Güncel görevleri değiştirmek için alt kısımdaki ‘Güncelle’ butonunu kullan (bu, 1 gizli görev nesnesi, ‘Gizli Emir’, tüketir). Sarı/altın kareli görevleri ara ve başlat. Haftalık olarak gizli görev nesnelerini saklarsan, bu gün tüm efsanevi görevleri başlatabilirsin."
+      },
+      "Task5": {
+        "Title": "Bir Kişiyi Bir Kez Rehin Al (~3.000 Puan):",
+        "Description": "Kahramanlar bölümünde bulabileceğin altın rehine alma biletlerini kullan. ‘Kahramanları Rehin Al’ butonuna tıkla ve sonra ‘Rehin Al’ alanına geç. Haftanın geri kalanında rehin alma biletlerini biriktir ve sadece bu gün kullan."
+      }
+    },
+    "Day3": {
+      "Title": "Gün 3 - Bilim Çağı",
+      "DayText": "Çarşamba",
+      "Task1": {
+        "Title": "Bir Radar Görevi Tamamla (~23.000 Puan):",
+        "Description": "Sol alttaki radar simgesine git ve radar ekranını aç. Burada tamamlanmış (sağ üst köşede kırmızı nokta ile) ve tamamlanması gereken görevleri göreceksin. Görevi tamamlamak için önce görevi gerçekleştirmen gerekiyor (henüz yapılmadıysa) ve sonra kırmızı noktaya tıklaman gerekiyor. Bu işlemi yaparak görevi toplar ve puan alırsın. Puanları maksimum seviyeye çıkarmak için görevleri bir önceki gün yığmayı düşünebilirsin."
+      },
+      "Task2": {
+        "Title": "1 Dakikalık Araştırma Hızlandırması Kullan (~120 Puan):",
+        "Description": "Bir araştırma hızlandırması kullan (genel hızlandırmalar da geçerlidir, herhangi bir uzunlukta olabilir)."
+      },
+      "Task3": {
+        "Title": "Teknolojik Performansı 1 Puan Artır (~21 Puan):",
+        "Description": "Teknolojik performans puanlarını, Teknoloji Merkezi'nde tamamlanmış araştırma simgesine tıklayarak alırsın. Puanları maksimum seviyeye çıkarmak için bir veya birden fazla gün süren uzun bir araştırma başlat, böylece bu gün tamamlanır veya bu gün tamamlayarak sadece tamamlanmış araştırma simgesine tıklayarak puan al."
+      },
+      "Task4": {
+        "Title": "Bir Cesaret Rozeti Kullan (~600 Puan):",
+        "Description": "Araştırma Merkezi'ne git ve ‘Günlük Savaş’ bölümüne geç. Cesaret rozetlerini (orta kısımda mavi madalyalar, dışarıda altın madalyalar ve altta kurdele olanlar, düello sandıklarında kazanılır) tüketen aramalardan birini başlat."
+      },
+      "Task5": {
+        "Title": "Açılan Drone Bileşen Sandıkları İçin Her Seviye 1/2/3/4/5/6/7:",
+        "Description": "Drone bileşen sandıklarını envanterinden açarak puan al (drone veri çipi sandıklarıyla karıştırma)."
+      }
+    },
+    "Day4": {
+      "Title": "Gün 4 - Kahraman Gelişimi",
+      "DayText": "Perşembe",
+      "Task1": {
+        "Title": "Bir Kez İleri Düzey Rehin Alma Yap (~3.750 Puan):",
+        "Description": "Kahramanlar bölümünde bulunan efsanevi rehin alma biletlerini kullanarak kahramanları rehin al (bu biletler ‘Rehin Al’ biletlerinden farklıdır). Haftanın geri kalanında kahraman rehin alma biletlerini biriktir ve sadece bu gün kullan."
+      },
+      "Task2": {
+        "Title": "En Az 660 Kahraman EXP Puanı Kullan (~6 Puan):",
+        "Description": "Bir kahramanı seçtikten sonra ‘Yükselt’ butonuna tıklayarak deneyim puanlarını kullan."
+      },
+      "Task3": {
+        "Title": "Bir Efsanevi, Epik veya Nadir Parça Kullan (~20.000, ~7.000 veya ~2.000 Puan):",
+        "Description": "Kahraman alanında kahraman seviyesini artırmak için altın, mor veya mavi parçaları (bulmacaları) kullan. Bir kahramanı tıkla, sınıf alanına geç ve kahraman sınıfını güncelle."
+      },
+      "Task4": {
+        "Title": "Bir Beceri Madalyası Kullan (~20 Puan):",
+        "Description": "Kahramanların becerilerini geliştirmek için Kahramanlar alanına git, bir kahramanı seç, ‘Beceriler’ alanına tıkla, yukarıdaki becerilerden birini seç ve ‘Güçlendir’ butonunu kullan (bu her zaman mümkün olmayabilir)."
+      },
+      "Task5": "1 Beceri Madalyası Tüket",
+      "Task6": "1 Elmas ile Bir Hediye Paketi Satın Al"
+    },
+    "Day5": {
+      "Title": "Gün 5 - Savaş Hazırlığı",
+      "DayText": "Cuma",
+      "Task1": {
+        "Title": "Bir Radar Görevi Tamamla (~23.000 Puan):",
+        "Description": "Sol alttaki radar simgesine git ve radar ekranını aç. Burada tamamlanmış (sağ üst köşede kırmızı nokta ile) ve tamamlanması gereken görevleri göreceksin. Görevi tamamlamak için önce görevi gerçekleştirmen gerekiyor (henüz yapılmadıysa) ve sonra kırmızı noktaya tıklaman gerekiyor. Bu işlemi yaparak görevi toplar ve puan alırsın. Puanları maksimum seviyeye çıkarmak için görevleri bir önceki gün yığmayı düşünebilirsin."
+      },
+      "Task2": {
+        "Title": "1 Dakikalık İnşaat Hızlandırması Kullan (~120 Puan):",
+        "Description": "Bir inşaat hızlandırması kullan (genel hızlandırmalar da geçerlidir, herhangi bir uzunlukta olabilir)."
+      },
+      "Task3": {
+        "Title": "Bir Bina Gücünü 1 Puan Artır (~21 Puan):",
+        "Description": "Bir bina tamamlandığında, bu binanın gücü artırılır ve bu fark için puan alırsın. Bina gücü ancak yeni geliştirilmiş bina paketli hediye kutusunu açtığında artar."
+      },
+      "Task4": {
+        "Title": "1 Dakikalık Araştırma Hızlandırması Kullan (~120 Puan):",
+        "Description": "Bir araştırma hızlandırması kullan (genel hızlandırmalar da geçerlidir, herhangi bir uzunlukta olabilir)."
+      },
+      "Task5": {
+        "Title": "Teknolojik Performansı 1 Puan Artır (~21 Puan):",
+        "Description": "Teknolojik performans puanlarını, Teknoloji Merkezi'nde bir araştırma tamamlandığında alırsın."
+      },
+      "Task6": {
+        "Title": "1 Dakikalık Eğitim Hızlandırması Kullan (~122 Puan):",
+        "Description": "Bir eğitim hızlandırması kullan (genel hızlandırmalar da geçerlidir, herhangi bir uzunlukta olabilir). Puanlar, askerin seviyesini artırmak için eğitim yaptığında da verilir. Aslında, bu gün öncesinde düşük seviyeli birçok askeri hazırlamak ve sonra yüksek seviyeye getirmek daha iyidir, çünkü puanlar gelen askerin seviyesine göre verilir."
+      },
+      "Task7": {
+        "Title": "1/2/3/4/5/6/7/8/9/10 Seviyeli Bir Asker Eğit (~46/70/93/117/140/164/197/211/234/258 Puan):",
+        "Description": "Aldığın puanlar, bir askerin geldiği seviyeye bağlıdır. Örneğin, bir 4. seviye askeri 5. seviyeye yükseltirsen, 5. seviye askere verilen puanı alırsın, tıpkı bir 5. seviye askeri sıfırdan eğitirken olduğu gibi. Bu nedenle, orta seviyeli birçok asker hazırlayıp, onları akışta yükseltmen iyi olur."
+      }
+    },
+    "Day6": {
+      "Title": "Gün 6 - Düşmanların Yok Edilmesi",
+      "DayText": "Cumartesi",
+      "Task1": {
+        "Title": "Bir Efsanevi Ticaret Kamyonu Gönder (~200.000 Puan):",
+        "Description": "Ticaret kamyonları çeşitli türlerde olabilir ve dolayısıyla farklı ödüller içerebilir. İçeriğini Ticaret Sözleşmesi kullanarak değiştirebilirsin. Kullanmak için bir kamyon gönderim bölümüne git. İçeriği sağ üst köşedeki önizlemede görebilir ve bir küp simgesi bulunan bir buton bulabilirsin. 'Efsanevi' versiyonu almak için birçok kez güncelleme yapman gerekir, ta ki sarı arka plan ve sol tarafta 'UR' yazısını görene kadar."
+      },
+      "Task2": {
+        "Title": "Bir Efsanevi Gizli Görev Yap (~150.000 Puan):",
+        "Description": "Gizli mobil birimde çeşitli türlerde ve seviyelerde aktiviteler bulabilirsin. Mevcut görevleri değiştirmek için alttaki 'Güncelle' butonunu kullan (bu, 'Gizli Emir' adlı bir gizli görev nesnesini tüketir). Sarı/altın kareli görevleri ara ve başlat. Haftanın geri kalanında gizli görev nesnelerini saklarsan, bu gün tüm efsanevi görevleri başlatabilirsin."
+      },
+      "Task3": {
+        "Title": "1 Dakikalık İnşaat Hızlandırması Kullan (~120 Puan):",
+        "Description": "Bir inşaat hızlandırması kullan (genel hızlandırmalar da geçerlidir)."
+      },
+      "Task4": {
+        "Title": "1 Dakikalık Araştırma Hızlandırması Kullan (~120 Puan):",
+        "Description": "Bir araştırma hızlandırması kullan (genel hızlandırmalar da geçerlidir)."
+      },
+      "Task5": {
+        "Title": "1 Dakikalık Eğitim Hızlandırması Kullan (~122 Puan):",
+        "Description": "Bir eğitim hızlandırması kullan (genel hızlandırmalar da geçerlidir). Puanlar, askerin seviyesini artırmak için eğitim yaptığında da verilir. Bu gün öncesinde düşük seviyeli birçok askeri hazırlayıp sonra yüksek seviyeye getirmek daha iyidir, çünkü puanlar gelen askerin seviyesine göre verilir."
+      },
+      "Task6": {
+        "Title": "1 Dakikalık İyileştirme Hızlandırması Kullan (~122 Puan):",
+        "Description": "Bir iyileştirme hızlandırması kullan."
+      },
+      "Task7": {
+        "Title": "Her Öldürülen 1/2/3/4/5/6/7/8/9/10 Seviyeli Birim ~25/38/50/63/75/88/100/113/125/138 Puan Getirir:",
+        "Description": "Bu puanlar, bir düşman birliğini düelloda her öldürdüğünde verilir. Rakibin sunucusuna ulaşmak ve rakiplerindeki üsleri mümkün olduğunca hedef almak için Teleport (Düello -> Birlik Saldırıları -> Saldırı) kullan. Bir düşman savunmadan birliklerini çekmişse, o üs üzerinden puan kazanamazsın. Bu nedenle, önce keşif yapmalı ve yalnızca savunmada olanları hedef almalısın."
+      },
+      "Task8": {
+        "Title": "Her Öldürülen 1/2/3/4/5/6/7/8/9/10 Seviyeli Birim ~5/8/10/13/15/18/20/23/25/28 Puan Getirir:",
+        "Description": "Bu puanlar, rakibinin düelloda olmayan başka sunuculardaki birliklerini öldürdüğünde verilir. Rakibinin düellodaki birliğini öldürmek beş kat puan getirir, ancak savunmasız veya birlikleri olmayan diğer sunuculardaki rakip birimleri öldürmen gerekebilir. Bu, aynı puanı elde etmek için daha fazla zaman ve saldırı gerektirir."
+      },
+      "Task9": {
+        "Title": "Her Kaybedilen 1/2/3/4/5/6/7/8/9/10 Seviyeli Birim ~6/8/10/12/14/16/18/20 Puan Getirir:",
+        "Description": "Saldırı veya savunma yaparken, her kaybedilen birim için bu puanları alırsın. Puan toplaman gereken bir düellonun sonunda, ittifakının oyunu belirgin şekilde kazanacağı bir durumda, yalnızca bu birimleri mevcut olan bir ana üsse saldırmayı düşünebilirsin. Bu şekilde birimleri kaybedip puan kazanabilirsin."
+      }
+    },
+    "OverlapWithArmsRace": {
+      "Title": "Silahlanma Yarışıyla Çakışmalar",
+      "Day1": {
+        "Title": "İki çakışma var, bu nedenle her bir aşamada etkinlikleri gerçekleştirmenizi öneririm:",
+        "Overlap1": {
+          "Title": "Drone Güçlendirme Aşaması:",
+          "Description": "Bir dayanıklılık tüket.",
+          "Description2": "10 Drone Savaş Verisi Noktası kullan."
+        },
+        "Overlap2": {
+          "Title": "Kahraman Yükseltme Aşaması:",
+          "Description": "2000 EXP Puanı kullan."
+        }
+      },
+      "Day2": {
+        "Title": "Aşağıdaki etkinlikler, Silahlanma Yarışı'nın şehir inşaat aşamasıyla çakışmaktadır. Bu etkinlikleri bu aşamada gerçekleştirmenizi öneririm:",
+        "Overlap1": {
+          "Description": "1 dakikalık inşaat hızlandırmasını kullan.",
+          "Description2": "İnşaat gücünü 1 puan artır."
+        }
+      },
+      "Day3": {
+        "Title": "Aşağıdaki etkinlikler, Silahlanma Yarışı'nın teknik araştırma aşamasıyla çakışmaktadır. Bu etkinlikleri bu aşamada gerçekleştirmenizi öneririm:",
+        "Overlap1": {
+          "Description": "1 dakikalık araştırma hızlandırmasını kullan.",
+          "Description2": "Teknolojik performansı 1 puan artır."
+        }
+      },
+      "Day4": {
+        "Title": "Aşağıdaki etkinlikler, Silahlanma Yarışı'nın kahraman geliştirme aşamasıyla çakışmaktadır. Bu etkinlikleri bu aşamada gerçekleştirmenizi öneririm:",
+        "Overlap1": {
+          "Description": "1 adet ileri düzey işe alım yap.",
+          "Description2": "2000 EXP Puanı kullan."
+        }
+      },
+      "Day5": {
+        "Title": "Üç çakışma var. Her bir aşamada etkinlikleri gerçekleştirmenizi öneririm:",
+        "Overlap1": {
+          "Title": "Şehir İnşaat Aşaması:",
+          "Description": "1 dakikalık inşaat hızlandırmasını kullan.",
+          "Description2": "İnşaat gücünü 1 puan artır."
+        },
+        "Overlap2": {
+          "Title": "Teknik Araştırma Aşaması:",
+          "Description": "1 dakikalık araştırma hızlandırmasını kullan.",
+          "Description2": "Teknolojik performansı 1 puan artır."
+        },
+        "Overlap3": {
+          "Title": "Birim Yükseltme Aşaması:",
+          "Description": "1 dakikalık eğitim hızlandırmasını kullan.",
+          "Description2": "1/2/3/4/5/6/7/8/9/10 seviyeli bir askeri eğit."
+        }
+      },
+      "Day6": {
+        "Title": "Üç çakışma var. Her bir aşamada etkinlikleri gerçekleştirmenizi öneririm:",
+        "Overlap1": {
+          "Title": "Şehir İnşaat Aşaması:",
+          "Description": "1 dakikalık inşaat hızlandırmasını kullan."
+        },
+        "Overlap2": {
+          "Title": "Teknik Araştırma Aşaması:",
+          "Description": "1 dakikalık araştırma hızlandırmasını kullan."
+        },
+        "Overlap3": {
+          "Title": "Birim Yükseltme Aşaması:",
+          "Description": "1 dakikalık eğitim hızlandırmasını kullan."
+        }
+      }
+    },
+    "StrategicPreparation": {
+      "Title": "Stratejik Hazırlık",
+      "Description": "Belirli etkinlikler tamamlandığında puanlar kazandırır. Bu nedenle, bunları gerekli günden önce başlatabilir ve ilgili aşamada tamamlayarak maksimum puanı elde edebilirsiniz. İşte aşamalar ve ilgili etkinlikler:",
+      "List1": "Radar görevlerinin ödüllendirildiği günlerde, görevleri bir gün önceden maksimuma kadar biriktirin. Bu, görevleri gerçek günde tamamladığınızda maksimum puanı elde etmenizi sağlar.",
+      "List2": "Gıda, demir veya altın toplamanın ödül puanları getirdiği günlerde, bir gün önceden toplama yapmaya başlayın ve yeni gün başladığında tamamlayın. Toplama yapmadan önce, maksimum puanı elde etmek için ne kadarına ihtiyacınız olduğunu gösteren bir bildirim alırsınız.",
+      "List3": "Binaların yükseltilmesinin puan getirdiği günlerde, önceki günlerde birçok bina yükseltmek faydalıdır ve bunları hediye paketi halinde bırakmak daha iyidir. Bina performansı sadece hediye paketini açarken artırılır ve bu anda düello puanları da verilir.",
+      "List4": "Araştırma puanları getirildiği günlerde, bir gün önceden uzun bir araştırma başlatın, böylece bu günlerde araştırma tamamlanır. Puanlar, tamamlanan araştırma simgesine tıkladığınızda verilir.",
+      "List5": "Drone veri çipi ve bileşen kutularını envanterde bulundurmayın, çünkü bu aktiviteler 1. ve 3. günlerde puan almanızı sağlar.",
+      "FightDay": {
+        "Title": "Savaş Günü Hazırlığı",
+        "Description": "Düellodaki son günde rakip birlikleri öldürmek için puanlar vardır, bu nedenle bu güne hazırlıklı olmak önemlidir.",
+        "AttackPreparation": {
+          "Title": "Saldırı Hazırlığı",
+          "List1": "Hafta boyunca kışlanı en yüksek seviyeye getirmeye çalış, böylece yüksek seviyeli birliklerin eğitimi açılır. Bu, yüksek seviyeli askerleri eğiterek daha verimli puan toplamanı sağlar.",
+          "List2": "Savaş sırasında ihtiyaç duyacağın kadar çok birlik eğit. Eğitim hızlandırmalarını en iyi şekilde 5. gün kullanarak puanları maksimize et.",
+          "List3": "Eğitim hızlandırmaları ve iyileştirme hızlandırmaları satın al. Bu, birliklerinin eğitim ve iyileşmesini daha hızlı tamamlamana yardımcı olabilir, bu da savaşın kritik aşamalarında verimli kalman için önemlidir."
+        },
+        "DefensePreparation": {
+          "Title": "Savunma Hazırlığı",
+          "List1": "Son günün 24 saati boyunca kullanmak üzere kalkan satın al (veya kaynakları biriktirip al). Aksi takdirde, 8 saatlik bir kalkan için 1500 elmas gerekir.",
+          "List2": "Savunma düzeninden birlikleri kaldır, böylece bir saldırı durumunda daha az kayıp yaşarsın. Savunma düzenini düzenlemek için üssüne git, duvara tıkla ve savunma düzenine git. Birliklerin işaretlerini kaldırarak savunma düzeninden çıkar."
+        }
+      }
+    },
+    "Reward": {
+      "Title": "Ödül",
+      "Description": "Her gerekli etkinlik için düelloda belirli bir miktarda puan kazanırsınız. Bu puanları, ‘Güçlü Klan Düellosu’ alanındaki araştırmalarla artırabilirsiniz. Bu tür araştırmalar yapmak için, sadece düello sırasında sandıkları açarak elde edebileceğiniz Cesaret Rozetlerine ihtiyacınız olacak."
+    },
+    "GeneralTips": {
+      "Title": "Genel İpuçları:",
+      "Tip1": "Radar görevlerini yalnızca her ikinci gün yerine getirin, bu görevler etkinlikte puan veriyorsa (Pazartesi, Çarşamba, Cuma).",
+      "Tip2": "Drone savaş verilerini toplayın ve yalnızca Pazartesi günü kullanın.",
+      "Tip3": "Binaları inşaat tamamlandıktan sonra paketli bırakın ve yalnızca Salı günü açın, eğer puan alıyorsanız.",
+      "Tip4": "Ticaret kamyonu ve görev biletlerini toplayın ve sadece Altın Kamyonlar ve görevler puan getirdiğinde kullanın.",
+      "Tip5": "Hayatta kalanlar için biletleri toplayın ve yalnızca Salı günü kullanın (Ücretsiz olanlar hariç).",
+      "Tip6": "Drone bileşenleri sandıklarını envanterde bırakın ve sadece Çarşamba günü açın.",
+      "Tip7": "Kişi alım biletlerini toplayın ve sadece Perşembe günü kullanın (Ücretsiz olanlar hariç).",
+      "Tip8": "Kahraman parçalarını ve beceri madalyalarını toplayın ve sadece Perşembe günü kullanın.",
+      "Tip9": "Kahraman EXP’lerini toplayın ve sadece Pazartesi veya Perşembe günü kullanın.",
+      "Tip10": "Drone beceri çiplerini toplayın ve sadece Pazartesi günü kullanın."
+    },
+    "YouTubeNote": "Not: Aşağıdaki YouTube videoları VS gününe dair iyi örnekler göstermektedir. Ancak, videoların güncel olmayabileceğini unutmayın. Ayrıca en son değişiklikler ve prosedürler hakkında bilgi edinmeyi unutmayın.",
+    "Description": "Bu sayfada, VS düellosunda mümkün olan en yüksek puanı toplamak için para harcamadan kullanabileceğiniz yararlı ipuçları ve stratejiler bulabilirsiniz. Puanınızı maksimize etmek ve başarılı olmak için etkili stratejiler ve kanıtlanmış yöntemleri keşfedin!"
+  },
+  "DessertStorm": {
+    "Title": "Çöl Fırtınası",
+    "Register": {
+      "Title": "Kayıt",
+      "Description1": "Her bir ittifak üyesi, kayıtlar açık olduğunda katılım talebinde bulunabilir.",
+      "Description2": "Takım başına maksimum oyuncu sayısı 20’dir ve 10 yedek oyuncu mümkündür. Kayıtlar kapandıktan sonra, R4 ve R5 bile katılımcıları değiştiremez. R4/R5, katılan oyuncuların nihai kadrosuna karar verir.",
+      "Description3": "Gerçekten katılabileceğiniz zaman dilimleri için katılım talebinde bulunun çünkü sonradan yer değişikliği yapılamaz, en fazla 10 yedek oyuncu seçilebilir.",
+      "Step1": "Etkinlikler -> <br> Çöl Fırtınası Savaşı -> <br> Katılımcıları Seç",
+      "Step2": "\"Savaş Talebi\" seçeneğini tıklayın",
+      "Step3": "Her zaman 22:00 - 22:40 saatleri arasında oynuyoruz <br> Onay kutusunu işaretleyin ve onaylayın"
+    },
+    "Join": {
+      "Title": "Savaş Alanına Giriş",
+      "Description": "Etkinlik sayfasındaki geri sayım tamamlandığında ve etkinlik başladığında, katılımcıların zamanında savaş alanına girmeleri gerekmektedir. Sonraki 5 dakika içinde yedek oyuncular giriş yapabilir ve bağlantı kuramayanlar dışarıda kalır.",
+      "Step1": "Oyuna, eğitebileceğiniz en yüksek seviyedeki birliklerle ve egzersiz alanınızın kapasitesine uygun güçle başlayacaksınız.",
+      "Step2": "Birlikler etkinlik sırasında yaralanabilir ve özel bir etkinlik hastanesine götürülür (gerektiğinde etkinlik sırasında iyileştirebilirsiniz ve sahra hastanesine sahipseniz iyileşme hızlandırılır), ancak etkinlik sonunda yaralı birlikler normal durumlarına geri döner, sanki hiçbir şey olmamış gibi. Bu yüzden, elinizdeki tüm birlikleri kullanın. Maalesef, etkinlik hastanesinde ittifak yardımı mevcut değildir.",
+      "Step3": "Çöl Fırtınası'nda sadece normal oyunda üsse sahip olan birlikler kullanılabilir. Eğer bazı birlikler sahalarda kaldıysa, onları üssüne çağırın. Üsse döndüklerinde, ÇF'de kullanılabilirler."
+    },
+    "Goals": {
+      "Title": "Hedefler",
+      "Goal1": "Etkinlik sırasında, mümkün olduğunca fazla ittifak puanı kazanmaya çalışmalısınız, böylece etkinliği kazanabilirsiniz. Gerçek zamanlı sıralama ile desteklenen güzel bir HUD bannerı, ilerlemenizi takip etmenize yardımcı olacaktır.",
+      "Goal2": "İttifak puanları, binaları fethedip elinizde tuttuğunuzda kazanılır. İlk fetihte bazı ek puanlar kazanırsınız. Bir fetih ancak bir ittifak, binaları düşmanlardan kurtardıktan ve fetih geri sayım süresi (1 dakika) sona erdikten sonra tamamlanır. Bu andan itibaren fetih getirileri gerçek zamanlı sıralama panosuna eklenir.",
+      "Goal3": "Ekstra puanlar, bir bina fethedildiğinde ortaya çıkan puan kutularını toplayarak kazanılabilir (eğer ek puanlar varsa). Hızla toplamak için keşif gönderin.",
+      "Goal4": "Bireysel puanlar bireysel ödüller verecektir, ancak odağınız ittifak puanları üzerinde olmalıdır, çünkü ittifak ödülleri bireysel ödüllerden daha iyidir."
+    },
+    "MostImportant": {
+      "Title": "Bilmeniz Gereken En Önemli Şeyler",
+      "Important1": "Normal oyunda alışık olduğunuz gibi ittifak yardımını askerlerinizi hastanede iyileştirmek için kullanamazsınız, ancak iyileştirme hızlandırıcılarını kullanabilirsiniz.",
+      "Important2": "Desert Storm mini oyununda, birliklerinizin normal harita üzerindeki üste bulunması gerekir. Bu yüzden Desert Storm başlamadan önce birliklerinizin üste olduğunu doğrulayın. Bir birlik normal oyun modunda kullanılıyorsa, Desert Storm'da genellikle kullanılabilir değil.",
+      "Important3": "Kayıt aşamasını kaçırırsanız veya katılımcı ya da yedek katılımcı olarak kayıt edilmezseniz, Desert Storm Savaşı'na katılım mümkün değildir.",
+      "Important4": "Desert Storm'da teleportlar ücretsizdir, ancak her 2 dakikada 1 ile sınırlıdır. Geri sayım, ekranın sol alt köşesinde 'Kahramanlar' düğmesinin üstünde gösterilir.",
+      "Important5": "Desert Storm'da üssünüzün dayanıklılığı 4000 puandır. 4 vuruş sonrası üssünüz yanar ve güvenli bölgeye teleport edilirsiniz. Bu durumda teleportasyonun geri sayımı sıfırlanmaz. Dolayısıyla, eğer gerçekleştirilmişse beklemeniz gerekir.",
+      "Important6": "Genellikle Desert Storm tecrübesi olmayan kişiler birkaç dakika içinde birliklerini kaybederler. Birlik kaybınızı sınırlamanın yollarını öğrenmek için aşağıdaki stratejileri mutlaka okuyun.",
+      "Important7": "Desert Storm'da birliklerinizi serbestçe hareket ettiremezsiniz. Bir hedefe ulaşmalı ve başka bir hedefe gönderilmeden önce üssünüze dönmelisiniz. Yani, birkaç hızlı tıklama ve birkaç saniye içinde bir üssü yakmayı unutun.",
+      "Important8": "Desert Storm'da, teleport soğuma süresi dolduğunda, birlikleriniz üste olup olmadığından bağımsız olarak haritadaki herhangi bir yere teleport olabilirsiniz. Bu, normal oyundaki teleport kurallarından güzel bir değişikliktir, burada tüm birliklerinizin teleport yapmadan önce üste olması gerekir. P.S.: Bu kural, karşılaşma günü 6 sırasında diğer sunucuya geçiş yaparken de geçerlidir."
+    },
+    "Strategies": {
+      "Title": "Stratejiler",
+      "EmptyBuilding": {
+        "Title": "Boş Bir Bina Fethet",
+        "Description1": "Boş bir binayı fethetmek oldukça basittir: Saldırın ve bina sizin olsun.",
+        "Description2": "1 dakika sonra, fetih getirilerine dayalı olarak ittifakınıza (ve bireysel puanlarınıza) puanlar verilir. İlk fetihse, ayrıca ilk fetih için puanlar da alırsınız."
+      },
+      "ReduceTroopLosses": {
+        "Title": "Boş Binaları Fethetmek İçin Birlik Kaybını Azaltma Stratejisi",
+        "Description1": "Bir bina fethettiğinizde (ancak fetih puanları almazsanız) ve bir düşman ortaya çıkarsa, aşağıdaki stratejiyi kullanarak savaşı kazanabilir ve birlik kaybınızı azaltabilirsiniz (bu, düşmanın karargahı/gücü sizinle benzer veya daha düşükse iyi çalışır):",
+        "Tip1": "Birliklerinizi binada, düşman saldırıya başlamadan tutun (özellikle ilk bina fetihleri sırasında, başlangıç fetih puanlarını alabilirsiniz).",
+        "Tip2": "Düşman bina üzerinde bir saldırıya başladığında ve hala fetih getirilerini almadıysanız (1 dakikadan daha az bir süreyle destekliyorsunuz), birliği geri çekin ve düşmanın birliklerinizi binada hedef almasını önleyin. Böylece birlik kayıplarını önlersiniz.",
+        "Tip3": "Düşmanın bu binayı fethetmek için A takımını gönderme olasılığı yüksek olduğundan, savunmasız olabilir. Düşman üssünüze bu birliği saldırmak istiyorsa, önce üssüne geri göndermesi ve ardından sizin üssünüze göndermesi gerekir.",
+        "Tip4": "Tüm birliklerinizi A takımıyla birlikte düşman üssüne saldırıya gönderin.",
+        "Tip5": "Şanslıysanız, düşman savunma yapmıyor olabilir veya yalnızca zayıf birliklere sahip olabilir. Düşmanı devirdikten sonra, üssünü fethetmek için birliklerinizi gönderin.",
+        "Tip6": "Keşif kullandığınızda, gönderdiğiniz birliklerin düşman üssünü gerçekten kazanıp kazanamayacaklarını doğrulayabilirsiniz. Birlikleriniz düşmanı karşılamadan önce keşif göndermeyi birkaç kez yapın, böylece düşman savunmayı etkinleştirirse birliği geri çekebilirsiniz."
+      },
+      "Advantages": {
+        "Title": "Avantajlar:",
+        "Description1": "Düşmanın üssü fethetmek için A takımını kullanmasıyla birlik kaybından kaçınırsınız.",
+        "Description2": "Düşman savunma hattı yoksa, özellikle hızlıysanız ve düşman yakındaysa 0 birlik kaybı ile düşmanı etkisiz hale getirebilirsiniz.",
+        "Description3": "Düşman, fetih başlamadan önce puan almadığınız için puan kazanamaz, çünkü fetih başlamak 1 dakika sürer."
+      },
+      "Disadvantages": {
+        "Title": "Dezavantajlar:",
+        "Description1": "Eğer düşman güçlü B birliğine sahipse ve bu birliği savunma için kullanıyorsa, bu strateji işe yarayabilir, ancak A birliğinizle sadece ona vurabilirsiniz. Bu, düşmanın yakınında iseniz daha iyi çalışır.",
+        "Description2": "Birden fazla düşman ortaya çıkarsa, A birliğinizi düşmana saldırmak için gönderdiğinizde saldırılara maruz kalabilirsiniz.",
+        "Description3": "Düşman, sizi karşılamaya başladığında savunma yapabilir. Bu yüzden düşük seviyede bir kahramanla bir birlik kullanmak, birlik kaybı riskini azaltmak için iyi bir strateji olabilir.",
+        "Description4": "Eğer bina ilk fetihse ve düşmanı yeterince hızlı deviremezseniz, puanları alır.",
+        "Description5": "Bu strateji, birlik kaybını azaltmayı hedeflese de, bina fetih sürecinde değerli saniyeleri kaybetmenize neden olur. Bu yüzden stratejiyi dikkatli kullanın ve mevcut savaş durumu ve kalan birlik sayınızı dikkate alın."
+      },
+      "BuildingInEnemy": {
+        "Title": "Düşmanın Sahip Olduğu Bir Bini Fethet",
+        "Description1": "Bina diğer takıma aitse, iki şekilde hareket edebilirsiniz:",
+        "Description2": "Bini doğrudan en güçlü birliğinizle saldırarak fethedin ve binayı destekleyen tüm birlikleri yenmeye çalışın (köy fetihlerine benzer). Bu stratejinin ciddi bir problemi vardır çünkü muhtemelen birçok asker kaybedeceksiniz ve birkaç fetihten sonra birlikleriniz tükenebilir.",
+        "Description3": "Desteklerin bulunduğu üsleri belirleyin ve bu üsleri yok edin. Bu yaklaşım genellikle iyi çalışır, eğer üslerde savunma yoksa. Aksi halde, yukarıdaki yaklaşımda olduğu gibi aynı sorunla karşılaşırsınız, ancak düşman ilk birliği destek için göndermişse muhtemelen daha az asker kaybedersiniz."
+      },
+      "ShouldNotDo": {
+        "Title": "Yapmamanız Gerekenler",
+        "Description1": "Desert Storm'da birlikleriniz çok değerlidir, bu yüzden onları tehlikeye atacak hiçbir şey yapmamalısınız.",
+        "Description2": "İşte birlik kaybına neden olacak şeylerin bazı örnekleri:",
+        "Description3": "Zayıf bir düşman tarafından saldırıya uğradığınızda, ana birliklerinizle savunmada bekleyin ve ana birlik geri döndüğünde saldırın. Düşman size saldırmadan önce savunma birlikleriniz dışarıda olmamalıdır. Her saldırıda savunma düzenini kaldırdığınızda belirli bir sayıda birlik kaybedersiniz.",
+        "Description4": "Hareketsiz düşmanları zayıf birliklerle saldırmayın, çünkü savunmalarını kurmaları için zamanları olur ve birlik kaybedersiniz. Düşman birçok şey yapıyorsa, savunma kurmak için zamanları olmayabilir ve saldırdığınızda daha iyi sonuç alırsınız (bu, düşman üssüne yakınsanız daha iyi çalışır)."
+      }
+    }
+  },
+  "Alliances": {
+    "Title": "İttifak",
+    "Donate": {
+      "Title": "Nasıl Katkıda Bulunabilirsiniz / Bağışlayabilirsiniz",
+      "Description": "Bir İttifak Teknolojisine katkıda bulunmak için şu kurallar geçerlidir:",
+      "Rule1": "Tavsiye edilmeyen bir teknolojiye yapılan her bağış için 50 EXP ve İttifak Katkı Puanı alırsınız.",
+      "Rule2": "Tavsiye edilen teknolojiye yapılan her bağış için ek bir ödül olan %20 fazladan puan alırsınız: Yani 60 EXP ve 60 İttifak Katkı Puanı kazanırsınız.",
+      "Rule3": "Ayrıca, bağış yaparken kritik vuruş yapma şansınız vardır, bu da ek Teknoloji-EXP getirir. Kritik vuruş şansları şunlardır:",
+      "Hit1": "Kritik vuruş yok: %45",
+      "Hit2": "2x kritik vuruş (ek 50 İttifak Teknoloji-EXP): %30",
+      "Hit3": "3x kritik vuruş (ek 100 İttifak Teknoloji-EXP): %15",
+      "Hit4": "5x kritik vuruş (ek 200 İttifak Teknoloji-EXP): %10",
+      "Description2": "Bağışlama Şekli:",
+      "Donate": "Tavsiye edilen teknolojiye tıklayın ve ardından 'Bağışla' seçeneğine tıklayın, ister madeni paralarla ister elmaslarla.",
+      "Maximum": "Komutanların İttifak Teknolojisine madeni paralarla bağış yapma hakkı maksimum 20'dir. Her bağış, kritik vuruş yapıp yapmadığına bakılmaksızın bir hakkı tüketir. Bir komutanın mevcut bağış hakları 20'nin altına düştüğünde, her 20 dakikada bir hak kazanır.",
+      "Limit": "Komutanların İttifak Teknolojisine elmaslarla yapabileceği bağış sayısında günlük bir limit yoktur. Ancak, yapılan her bağış ile birlikte elmas maliyetleri artar, ancak sınırsız sayıda elmas bağışı yapabilirsiniz. 20 dakikadan sonra, bağış yapmak için gereken elmas miktarı kademeli olarak azalır. İlk bağış için 2 elmas başlar ve her ek bağışla 2 elmas artar, maksimum 50 elmas."
+    },
+    "Shop": {
+      "Title": "İttifak Dükkanı",
+      "Description1": "Bir ittifaka üye olduğunuzda, İttifak Dükkanına erişiminiz olur. İttifak -> İttifak Dükkanı",
+      "Description2": "İttifak Dükkanı, İttifak Katkı Puanları karşılığında talep edilebilen çok yararlı Güçlendirme eşyaları sunar. Her eşyanın talep edilebileceği miktar zamanla sınırlıdır ve dükkan bu sınırlamaları, İttifak Dükkanının üst kısmında gösterilen geri sayım sonrasında sıfırlar.",
+      "Image": "Resimde iki alan kırmızı ile işaretlenmiştir: <br> İlerlemenin Yükseltilmesi ve İttifak Yükseltilmesi <br> Bu iki alan, Toplantı Yeri'ne ulaşmak için önemlidir. <br> İlerlemenin Yükseltilmesi ile haritada istediğiniz herhangi bir yere teleport olabilirsiniz. <br> İttifak Yükseltilmesi ile, herhangi bir yere Toplantı Yeri'ne teleport olursunuz."
+    },
+    "AssemblyPlace": {
+      "Title": "Toplantı Yeri'ne Nasıl Ulaşılır?",
+      "Variant1": {
+        "Title": "Seçenek 1: İlerlemenin Yükseltilmesi",
+        "Description1": "Haritada İttifak Toplantı Yeri'ni (mor bayrak) bulun.",
+        "Description2": "Yakınlardaki boş bir alan seçin.",
+        "Description3": "‘Yükselt’ seçeneğine tıklayın. Bu, bir İlerlemenin Yükseltilmesi maliyetini karşılar."
+      },
+      "Variant2": {
+        "Title": "Seçenek 2: İttifak Yükseltilmesi",
+        "Description1": "Envanterinize gidin ve ‘Özel’ sekmesini seçin.",
+        "Description2": "İttifak Yükseltilmesini bulun.",
+        "Description3": "‘Kullan’ seçeneğine tıklayın. Bu sizi otomatik olarak Toplantı Yeri'ne teleport eder."
+      },
+      "Footer": "Aşağıdaki resimde İttifak Yükseltilmesi gösterilmektedir ve üstteki resimde dükkan bulunmaktadır. Bu iki yükseltme, yukarıda açıklandığı gibi İttifak Dükkanında değiştirilebilir. İttifak Yükseltilmesi daha az maliyetlidir.",
+      "Image": "Tıklayın: <b><br> 1. Envanter <br> 2. Özel <br> 3. İttifak Yükseltilmesi <br> 3. Kullan"
+    },
+    "Formation": {
+      "Title": "Oyuncu Formasyonu",
+      "Description": "Marschall Koruması çevresindeki alanlar R5 ve R4 için ayrılmıştır. Bu 9 alan diğer oyuncular tarafından boş bırakılmalıdır, çünkü R4 ve R5 bu etkinlikte özel bir bonus alır.",
+      "Info": {
+        "Title": "Önemli Notlar:",
+        "Info1": "Yerleşime Saygı Gösterin: Lütfen yerleşiminizin düşmanın kullanabileceği boşluklar bırakmayacak şekilde yapıldığından emin olun.",
+        "Info2": "Stratejik Yerleşim: Doğru formasyon, savunmayı güçlendirmek ve R4 ve R5 için bonuslardan en iyi şekilde yararlanmak için önemlidir."
+      }
+    }
+  },
+  "Basics": {
+    "Title": "Temel Bilgiler",
+    "Translate": {
+      "Title": "Çeviriler",
+      "Description": "Last War'da, metinleri kendi dilinize çevirmek için otomatik çeviri özelliğini kullanabilirsiniz. Sohbetler ve mesajları çevirmek için sağ alt köşedeki simgeyi kullanın – bu, oklar ve 'T' ile bir 'A' gösterir. Böylece tercih ettiğiniz dilde iletişim kurabilir ve oyuna tamamen odaklanabilirsiniz!",
+      "Image": "Resimde, metni çevirmek için simgenin nerede olduğunu görebileceğiniz iki örnek yer alıyor."
+    },
+    "Trucks": {
+      "Title": "Kendi Sunucunuzda Kamyonları Yağmalama",
+      "Description": "Kendi sunucunuzda kamyonları yağmalamak yasaktır. Bu tür kamyonların görünmesini engellemek için, tüm kamyonları kendi sunucunuzdan filtrelemenizi sağlayan bir onay kutusu vardır. Lütfen bu onay kutusunu işaretleyin ve kurallara uyun. Aşağıdaki resimde onay kutusunun nerede olduğunu görebilirsiniz.",
+      "Image": "Lütfen onay kutusunu, resimde gösterildiği gibi işaretleyin."
+    }
+  },
+  "TipsAndTricks": {
+    "Title": "İpuçları ve Püf Noktaları",
+    "Overview": {
+      "Title": "Genel Bakış"
+    },
+    "Pvp": {
+      "Title": "Saldırı ve Savunma",
+      "Description1": "İlk olarak temel savunmadan bahsedeceğiz. Ana birliğin ilk veya ikinci ardışık saldırıya dayanabileceğinden emin olmadan savunma yapmaya çalışmamalısın (yani, saldırgan neredeyse senin seviyende olmalı).",
+      "Tip1": "Savunma yapamayacaksan veya bu kararı vermek için çevrimdışıysan, SAVUNMALARINI DEVRE DIŞI BIRAK.",
+      "Tip2": "Savunmaları nasıl etkinleştireceğinizi/devre dışı bırakacağınızı: Üssündeki duvara git, artı (+) simgesine tıkla ve birlikleri devre dışı bırak. Her yeni birliği serbest bıraktığında, bunları da devre dışı bıraktığından emin ol. Bazen hiç savunma yapmamak mantıklı olabilir ve bazen ana birliği savunma olarak kullanmak mantıklı olabilir, ancak yapabileceğin en büyük hata, zayıf birliklerini savunmaya dahil etmektir.",
+      "Tip3": "Neden bu işe yarıyor: Farz edelim ki, çok daha güçlü bir oyuncu seni 5 kez saldırdı (örneğin, sen Level 20 ve 3 birliğin var). Bu 5 saldırıda yaklaşık 10k ile 12k birlik kaybedersin, eğer 3 savunma ekibin varsa. Sadece bir savunman (en güçlü birlik) varsa, yaklaşık 4k ile 5k birlik kaybedersin. Hiç savunman yoksa, yaklaşık 1k birlik kaybedersin (saldırganın öldürme sayısına dahil edilmeyen bir geçiş saldırısı nedeniyle). Bu büyük bir farktır.",
+      "Tip4": "Bu oyunda üsleri saldırmanın iki amacı vardır: (1) Kaynak toplamak ve (2) Öldürme etkinliklerinde (örneğin, Düşman Yok Edici - Düello 6. gün) puan toplamak.",
+      "Tip5": "Yağma, oyundaki en iyi kaynak/stamina oranını sunar, ancak savunmaları/karşı saldırıları, mevcut yağma limitlerini vs. göz önünde bulundurmalısın.",
+      "Tip6": "Öldürme etkinlikleri için diğer üsleri saldırırken, sadece dövüşler puan kazandırır. Yani, savunmasız veya birliği olmayan biri sana etkinlik puanı kazandırmaz veya bireysel öldürme sayını artırmaz. Bu, savunmalarını devre dışı bırakmanın diğer nedenidir, çünkü rakiplerinin sana saldırarak puan toplamasını engeller.",
+      "Image1": "Savunmaya gitmek için duvara tıklayın ve ardından artı simgesine tıklayın.",
+      "Image2": "Onay kutusunu işaretleyerek her birliği savunmaya dahil edip etmeyeceğinizi kontrol edebilirsiniz."
+    },
+    "Troops": {
+      "Title": "Birlik/Ekip Eğitimleri",
+      "Description1": "En iyi birlik eğitim stratejisi, 3 aşamada eğitim yapmaktır. Bu, eğitimi daha hızlı yapmaz veya daha az kaynak harcamaz, ancak etkinlikler sırasında (örneğin, silah yarışında birim eğitimi ve Düello 5. gününde) daha fazla puan kazanmanı sağlar.",
+      "Tip1": "Farz edelim ki, TX = eğitebileceğin en yüksek seviyedeki birlikler, TY = maksimum seviyenin bir altı ve TZ = maksimum seviyenin iki altı. Strateji, TZ'yi haftanın tamamında eğitmektir (tüm birimlerin için yeterince TX'ye sahipsen). Birim eğitimi etkinliği sırasında TZ'yi TY'ye ve/veya TY'yi TX'e terfi ettirirsin (bu aşamada, her kışlada iki tur da yapabilirsin). Düello'nun 5. günü geldiğinde, çoğu TY/TZ'yi TX'e terfi ettirirsin, ardından Çöl Fırtınası Savaş Alanı veya Düello'nun 6. gününe geçersin. Öldürme etkinliklerini tamamladıktan sonra, TZ'yi eğitmeye devam edersin.",
+      "Tip2": "Örneğin, HQ 25 isen, TX Level 8 birlikleri (Lv24 Kışla gerektirir), TY Lv 7 birlikleri (Lv20 Kışla gerektirir) ve TZ Lv 6 birlikleri (Lv17 Kışla gerektirir) olur. Bu stratejiyi uygulamak için bazı kışlaları maksimum seviyenin altında tutman gerekir. 4 kışladan 2'sinin TX seviyesine kadar eğitim verebileceğini ve diğer 2'sinin sadece TY seviyesine kadar eğitim verebileceğini öneririm. Bunun nedeni, birlik terfilerinin otomatik olarak kışlanın maksimum seviyesine gitmesidir.",
+      "Example": {
+        "Title": "Bir Örnek:",
+        "Example1": "Doğrudan Eğitim: 1 T9 Askeri = 250 Puan",
+        "Example2": "Aşamalı Eğitim: 1 T5 = 150 Puan, 1 T5 -> 1 T6 = 175 Puan, 1 T6 -> 1 T7 = 200 Puan, 1 T7 -> 1 T8 = 225 Puan, 1 T8 -> 1 T9 = 250 Puan toplamda 1000 Puan",
+        "Description": "Gördüğünüz gibi, bu durumda aşamalı yaklaşımla her bir asker için dört katı puan alıyorsunuz."
+      },
+      "Image1": "Bu resimde, hangi birlikleri yükseltebileceğinizi görebilirsiniz. Askerleri maksimum seviyeye getirmek için 'Yükselt' butonuna, 'Eğit' butonuna değil, tıklayın."
+    },
+    "Healing": {
+      "Title": "Spam Tedavi",
+      "Description1": "Bir diğer kavram 'Spam Tedavi'dir. 1000'den fazla ölü birliğiniz varsa ve hepsini tedavi etmek 4 saat sürecekse, her seferinde sadece 25 dakika tedavi süresi ayarlayıp, müttefiklerinizden yardım isteyin. Bu, kaynak maliyetini aynı tutar, ancak tedavi süresini %50'den fazla azaltır. Bu yöntem, savaş gücünüzü yüksek tutmak ve sürekli bir birlik akışını sağlamak için etkilidir."
+    },
+    "SmallTroops": {
+      "Title": "Küçük Birliklerle Kaynak Toplama",
+      "Description1": "Eğitim alanında yalnızca birkaç birliğiniz varsa (örneğin, Cumartesi savaşlarından sonra), tüm birlikleri kaynak toplamak için gönderemeyebilirsiniz, çünkü her birlik için belirli bir birlik sayısı gerekir.",
+      "Description2": "Bu şu şekilde çözülebilir:",
+      "Tip1": "Birliklerinizi üsse geri çağırarak değiştirin.",
+      "Tip2": "Her bir birliğin içindeki tüm kahramanları çıkarın ve sadece 1 kahramanı her birliğe ekleyin, mümkünse 'Komutan' özelliği düşük olanları seçin.",
+      "Tip3": "Şimdi birlikleri kaynak toplamaya gönderin. Her bir birlik, çok daha az birlik kullanarak gönderilecektir, böylece tüm birlikleri gönderebilirsiniz.",
+      "Tip4": "Ayrıca, Seviye 1 askerleri herhangi bir kışlada hızlıca eğitebilirsiniz, çünkü Seviye 1 askerlerin eğitimi hızlıdır."
+    },
+    "IncreasedDamage": {
+      "Title": "Artırılmış Hasar Yüzdesi",
+      "Description1": "Her saldırıda, savunmada veya nöbette, savaş ateşini kullanarak hasarı %1 artırabilirsiniz.",
+      "Description2": "Bu artırma, bir üssü saldırdığınızda veya keşfettiğinizde otomatik olarak etkinleşir, ancak sadece savunmada değil.",
+      "Description3": "Savaş ateşini tetiklemek için şu eylemlerden birini gerçekleştirebilirsiniz:",
+      "Tip1": "Bir üssü keşif uçağı ile gönderin.",
+      "Tip2": "Bir düşman üssüne saldırı veya toplanma başlatın (zombi saldırıları veya toplanmaları geçerli değildir). Savaş ateşi başladığında saldırıyı da iptal edebilirsiniz.",
+      "Tip3": "Savaş ateşinin durumunu ekranın sol üst köşesinde, yiyecek/metal/para/enerji göstergelerinin hemen altında görebilirsiniz. Simgeye tıkladığınızda geri sayım görüntülenir.",
+      "Tip4": "Geri sayımı her zaman 15 dakika olarak yeniden başlatmak için tetikleme eylemini tekrar edin.",
+      "Tip5": "ÖNEMLİ: Bu hileyi, kalkan kullanırken uygulamayın, aksi takdirde kalkanınızı kaybedersiniz."
+    }
+  },
+  "Buildings": {
+    "Title": "Binalar",
+    "Headquarters": {
+      "Title": "Genel Merkez",
+      "Description1": "Genel Merkez, oyundaki en önemli binadır. Diğer oyunlardaki belediye binalarına benzer işlevlere sahiptir. Bunu geliştirdikçe yeni binalar inşa edebilir ve mevcut binaları daha yüksek seviyelere getirebilirsiniz.",
+      "Description2": "Genel Merkez seviyesini artırdığınızda aşağıdakiler artar:",
+      "List1": "Performans",
+      "List2": "Kahraman Seviye Sınırı",
+      "List3": "Kahraman HP",
+      "List4": "Kahraman Saldırısı",
+      "List5": "Kahraman Savunması",
+      "List6": "Her Binanın Seviye Sınırı",
+      "LevelUp": {
+        "Title": "Seviye Atlama Gereksinimleri",
+        "Description1": "Genel Merkez'i daha yüksek bir seviyeye getirmek için her aşamada hem kaynak hem de bina gereksinimlerini karşılamanız gerekir.",
+        "Description2": "Genel Merkez'in aşamalı olarak yükseltilmesi, bir sonraki seviyeye geçişi daha akıcı hale getirir ve yeterli kaynak biriktirmenizi sağlar. Genel Merkez yükseltilmezse, bu, kahraman seviyeleri için üst sınırı belirleyen bu bina nedeniyle zayıf bir birlikle sonuçlanabilir.",
+        "Description3": "Aşağıda, her seviye için gereken binaları gösteren bir tablo bulunmaktadır.",
+        "Table": {
+          "ToUnlock": "Genel Merkez'i Açmak İçin",
+          "Condition1": "Bina 1",
+          "Condition2": "Bina 2",
+          "Iron": "Demir",
+          "Food": "Yiyecek",
+          "Gold": "Altın",
+          "Days": "Gün",
+          "Wall": "Duvar L.",
+          "TechCenter": "Araştırma Merkezi L.",
+          "DrillGround": "Alıştırma Alanı L.",
+          "Barracks": "Kışla L.",
+          "AllianceCenter": "İttifak Merkezi L.",
+          "Hospital": "Hastane L.",
+          "TankCenter": "Tank Merkezi L."
+        }
+      }
+    },
+    "Barracks": {
+      "Title": "Kışla",
+      "Description1": "Kışlalar, birliklerinizi işe almak ve terfi ettirmek için kullanılır. Kışlaları açtığınızda, kaynaklarınızı verimli bir şekilde kullanmak için her seferinde yalnızca bir kışlayı yükseltmelisiniz. Birliklerinizi terfi ettirmek, onları mevcut kışlalarınızın izin verdiği en yüksek seviyeye getirmeye olanak sağlar. Birlikleri terfi ettirmek, özellikle bunu açtığınızda faydalı olacaktır çünkü Seviye 1 birliklerinizi eğitip yükseltebilir, böylece daha az kaynak ve zaman harcarsınız."
+    },
+    "Hospital": {
+      "Title": "Hastane",
+      "Description1": "Hastane, savaş sonrası birliklerinizi iyileştirmek için kullanılır. Bir düşman yeterince güçlü olduğunda, birliklerinizi öldürebilir veya yaralayabilir. Ancak hastane ölen birlikleri yeniden hayata döndüremez, sadece yaralı birlikleri iyileştirir. Birliklerinizi hızlı bir şekilde iyileştirmenin verimli bir yolu, sadece 25 dakikada veya daha kısa sürede iyileştirilebilecek birimlerin sayısını seçmektir. Bu, ittifakınızın size yardım etmesine ve iyileştirme süresini neredeyse hemen azaltmasına olanak tanır. İyileştirme sistemini doğru kullanırsanız, iyileştirme süresi, tüm birliklerinizi aynı anda iyileştirmeye kıyasla %25 azaltılır."
+    },
+    "DrillGround": {
+      "Title": "Alıştırma Alanı",
+      "Description1": "Alıştırma Alanı, birliklerinizin konuşlandığı binadır. Alıştırma Alanı'nın maksimum seviyesi, Genel Merkez'inizin seviyesi ile artar. Alıştırma Alanı, birliklerinizin gücünü büyük ölçüde belirlediği için gücünüzün merkezi bir kaynağıdır. Oyunun ana hedefi olan mümkün olan en yüksek gücü elde etmek için, Alıştırma Alanı'nızı sürekli olarak en yüksek seviyeye getirmeli ve fırsat bulduğunuzda ek Alıştırma Alanları inşa etmelisiniz. İkinci Alıştırma Alanı'nı Seviye 16'da açar, üçüncüsünü ise Seviye 21'de açarsınız."
+    },
+    "Garages": {
+      "Title": "Garajlar",
+      "Description1": "Garajlar, kahramanlarınızı barındırır. Kahramanlarınıza ek güç ve yanlarına alabilecekleri birlikler sağlar. Oyunun başında bir garaj alırsınız ve oyunun ilerleyen safhalarında toplamda üç garaj daha açabilirsiniz. Dördüncü garaj, aylık geçiş kartı ile de elde edilebilir. Oyundaki çabalarınızın çoğu bu garaja odaklanacağından yalnızca Garaj 1'i yükseltmelisiniz. Garaj 2'yi sadece düşük maliyetli ordu yarışmaları puanları için ya da geri kaldığını düşündüğünüzde yükseltmelisiniz."
+    },
+    "TechCenter": {
+      "Title": "Teknoloji Merkezi",
+      "Description1": "Teknoloji Merkezi, diğer oyuncularla rekabet edebilmek için oyunun kritik bir parçasıdır. Genel Merkez'inizi yükseltmek istediğinizde, genellikle 'gerekli yükseltmeler' bölümünde özellikle sık gösterilmesinin iyi bir nedeni vardır. Teknoloji Merkezi, üssünüzdeki kahramanlar, birlikler, garajlar ve daha fazlası gibi belirli istatistikleri iyileştirmenizi sağlar. Bu, kaynakları daha fazla güç ve istatistiklere dönüştürür. Seviye 16'ya ulaştığınızda, ikinci bir Teknoloji Merkezi satın alma fırsatınız olacaktır, bu da şiddetle tavsiye edilir."
+    },
+    "GearFactory": {
+      "Title": "Ekipman Fabrikası",
+      "Description1": "Ekipman Fabrikası, kahramanlarınız için ekipman üretmenizi veya sökmenizi sağlar. Oyundaki mevcut tüm ekipman türlerini üretebilir ve ekipman parçalarını da sökebilirsiniz. Ayrıca, ekipman parçalarını birleştirerek, efsanevi bir ekipman parçası oluşturmak için gerekli olan Dielektrik Seramik Bileşen parçasını üretmenizi sağlar. Nadir, Süper-Nadir veya Süper-Süper-Nadir ekipman parçalarını üretmek veya yükseltmek önerilmez. Ana kahramanlarınız için en az tüm Süper-Süper-Nadir (SSR) ekipman parçalarına sahip olduğunuzda, diğer ekipman parçalarını efsanevi ekipman elde etmek için sökmeniz gerekir."
+    },
+    "ComponentFactory": {
+      "Title": "Bileşen Fabrikası",
+      "Description1": "Bileşen Fabrikası, dron bileşenleri içeren kutular üretir. Bu dron bileşenleri, dronunuz için ek yükseltmeler yapmak üzere Dron Merkezi'nde kullanılır. Bileşen Fabrikası inşa edildikten sonra daha fazla yükseltilemez."
+    },
+    "TankCenter": {
+      "Title": "Tank Merkezi",
+      "Description1": "Tank Merkezi, oyunda tank kahramanlarınızın istatistiklerini önemli ölçüde artıran kritik bir binadır. Genel Merkez'inizi her yükselttiğinizde, bu binayı mümkün olan en hızlı şekilde maksimum seviyeye getirmelisiniz."
+    },
+    "AircraftCenter": {
+      "Title": "Uçak Merkezi",
+      "Description1": "Uçak Merkezi, Tank Merkezi'ne benzer şekilde, uçak tipi kahramanlar için istatistikleri artırır. Başlangıçta bu binayı yükseltmek önemli değildir, çünkü kullanmanız gereken düzenlemeler için bonus sağlamaz. Ancak, DVA ve Carlie mevcut olduğunda, Uçak Merkezi'nin yükseltilmesi de Tank Merkezi kadar önemli olacaktır çünkü bu, bu kahramanlara ek istatistikler sağlar."
+    },
+    "MissileCenter": {
+      "Title": "Roket Merkezi",
+      "Description1": "Yukarıdaki iki bina gibi, Roket Merkezi de roket tipi kahramanların istatistiklerini artırır."
+    },
+    "ResourceCenters": {
+      "Title": "Kaynak Merkezleri",
+      "Description1": "Gıda, demir ve eritme merkezleri, ilgili kaynakları üreten binalardır. Eğitim Merkezi, kahraman XP'si üreten binadır. Deneyimlere göre, Eğitim Merkezi binaları kullanılan kaynaklara oranla iyi bir XP verimi sağlar ve yükseltilmeleri verimlidir."
+    }
+  },
+  "Greeting": {
+    "HomeButton": "Selam Gönder",
+    "Modal": {
+      "Title": "Bir Selam Bırak",
+      "Form": {
+        "ServerNumber": {
+          "Label": "Sunucu Numarası",
+          "Required": "Sunucu numarası bir zorunluluk alanıdır"
+        },
+        "AllianceName": {
+          "Label": "İttifak Adı",
+          "Required": "İttifak adı bir zorunluluk alanıdır"
+        },
+        "Comment": {
+          "Label": "Yorum",
+          "MaxLength": "Maksimum karakter sayısı 200'dür. Lütfen yorumunuzu kısaltın."
+        },
+        "PlayerName": "Oyuncu Adı",
+        "Optional": "Opsiyonel",
+        "CloseButton": "İptal",
+        "SubmitButton": "Gönder"
+      },
+      "Toastr": {
+        "Label": "Selamınız",
+        "Success": "Selamınız için teşekkür ederiz",
+        "Error": "Üzgünüz, bir sorun oluştu. Lütfen daha sonra tekrar deneyin."
+      }
+    }
+  },
+  "Spinner": {
+    "Label": "Lütfen bekleyin..."
+  },
+  "MemberLogin": {
+    "Title": "Üye Girişi",
+    "Description": "Bu alan sadece üyelere açıktır.",
+    "Form": {
+      "Label": "Şifreyi girin",
+      "Required": "Şifre bir zorunluluk alanıdır",
+      "LoginButton": "Giriş"
+    },
+    "Toastr": {
+      "Title": "Giriş",
+      "Error": "Giriş başarısız"
+    },
+    "PasswordExpired": {
+      "Title": "Şifre Süresi Doldu",
+      "Information": "Şifre değiştirildi"
+    }
+  },
+  "Squad": {
+    "Title": "Birlik",
+    "Description": "Kahramanlarınızın gücünü maksimize etmek için birliklerinizi en iyi şekilde düzenlemelisiniz.",
+    "Basics": {
+      "Title": "Birlik Düzenleme Temelleri",
+      "Description": "Her kahramanın kendi türü, yetenekleri ve özel özellikleri vardır.",
+      "Defend": {
+        "Title": "Savunma Kahramanları",
+        "Description": "Birliğin ön saflarında yer almalıdırlar."
+      },
+      "Attack": {
+        "Title": "Saldırı Kahramanları",
+        "Description": "Arka planda yer almalıdırlar."
+      },
+      "Support": {
+        "Title": "Destek Kahramanları",
+        "Description": "Arka planda yer almalıdırlar."
+      }
+    },
+    "Example": {
+      "Title": "Bir Birlik Örneği",
+      "List1": "<b>Violet</b> ve <b>Scarlett</b> savunmada ve ön saflarda",
+      "List2": "<b>Mason</b> ve <b>Richard</b> saldırı yapıyor ve bu yüzden arka planda yer almalı",
+      "List3": "Bir destek kahramanı, <b>Monica</b>, arka planda",
+      "Image": "Savunma kahramanları önde, saldırı ve destek kahramanları arkada optimal yerleşim için."
+    },
+    "FormationBonus": {
+      "Title": "Formasyon Bonusları",
+      "Description": "Kullandığınız bonusu, birlik düzenleme bölümündeki sol üst köşedeki simgeden anlayabilirsiniz.",
+      "Image": "<ul><li>3 aynı tür kahraman: +%5</li><li>3 aynı tür kahraman + 2 başka türden: +%10</li><li>4 aynı tür kahraman: +%15</li><li>5 aynı tür kahraman: %20</li></ul>",
+      "Description2": "Tüm kahramanlarınız aynı türde (örneğin yukarıdaki örnekte tüm tanklar) olduğunda, %20 güç bonusu alırsınız. Ayrıca, tank binasını yükseltmek, tüm tank kahramanlarınızın gücünü artırır."
+    },
+    "TroopsAndSoldiers": {
+      "Title": "Birlikler ve Askerler",
+      "Description": "Bir saldırı veya toplantı gerçekleştirdiğinizde, kahramanların temel gücüne askerler eklenir. Saldırıya katılan asker sayısı, takımda bulunan kahramanların komuta özelliğine bağlıdır.",
+      "Image": "Örnekte, saldırıya katılan birimlerin (askerlerin) sayısının 1.965 olduğunu görebilirsiniz (Murphy'de 393, Williams'ta 393 vb.) ve i'ye tıklayarak T6 ve T7 seviyesindeki askerler olduğunu gösteren bilgiyi alabilirsiniz.",
+      "Description2": "Eğer mevcutsa, her zaman önce yüksek seviyeli askerler kullanılır ve daha sonra eksiklikleri doldurmak için düşük seviyeli askerler devreye girer."
+    }
+  },
+  "SeasonOne": {
+    "Title": "Sezon 1 – Mor Veba",
+    "Content": {
+      "Title": "İçerik",
+      "NewResources": "Yeni Üs Kaynakları",
+      "WorldMap": "Dünya ve Harita",
+      "NewBuildings": "Yeni Binalar",
+      "MilitaryBase": "Askeri Üs",
+      "NewFarms": "Yeni Birlik Çiftlikleri",
+      "MilitaryStrongholds": "Askeri Kalesi",
+      "Cities": "Şehirler",
+      "Conquest": "Fetih",
+      "HeroUpgrade": "Kahraman Yükseltmeleri",
+      "Virus": "Virüs",
+      "Gameplay": "Oynanış"
+    },
+    "Resources": {
+      "Title": "Yeni Üs Kaynakları – Bağışıklık Proteini, Mutant Kristali ve Genetik Parça",
+      "Description": "Oyunda artık ek kaynaklar mevcuttur. Bunlardan 2'si (Bağışıklık Proteini ve Mutant Kristali) mevcut yiyecek, demir ve altın gibi yönetilir.",
+      "ImmuneProtein": {
+        "Title": "Bağışıklık Proteini",
+        "Description": "Virüs Araştırma Enstitüsü ve askeri üslerin inşası ve geliştirilmesi için gereklidir.",
+        "Description2": "Bağışıklık Proteini şu şekilde elde edilebilir:",
+        "List1": "Proteinziraat",
+        "List2": "Zombileri ilk öldürme ödülleri",
+        "List3": "Virüs direncini artırma sezon hedeflerine ulaşma",
+        "List4": "Hero’s Return işe alım bileti kullanma"
+      },
+      "MutantCrystal": {
+        "Title": "Mutant Kristali",
+        "Description": "Proteinziraat ve askeri üslerin inşası ve geliştirilmesi için kullanılır.",
+        "Description2": "Mutant Kristali şu şekilde elde edilebilir:",
+        "List1": "Zombileri ilk öldürme ödülleri",
+        "List2": "Sezon görevlerini tamamlama",
+        "List3": "Virüs direncini artırma sezon 1 hedeflerini tamamlama",
+        "List4": "Doom Walker İlk Kan (günün ilk DW öldürme) ödülleri",
+        "List5": "Genetik Rekombinasyon",
+        "List6": "Hero's Return işe alım bileti kullanma",
+        "List7": "Haftalık geçiş ve sezon savaş geçişi"
+      },
+      "GeneFragment": {
+        "Title": "Genetik Parça",
+        "Description": "6 tür Genetik Parça mevcuttur. Bunları birleştirerek mutant kristaller ve ödüller elde edebilirsiniz. Genetik parçaları müttefiklerinizle takas edebilirsiniz.",
+        "Description2": "Genetik parçaları şu şekilde kazanabilirsiniz:",
+        "List1": "Radar görevlerini tamamlama: Doom Elite öldürme, kaynak toplama, Doom Walker öldürme size Tip I, II, III verir",
+        "List2": "Crimson Zombileri öldürme (herhangi bir seviye) size Tip I, II, III verir",
+        "List3": "Enfekte Zombileri öldürme (herhangi bir seviye) size Tip I, II, III verir",
+        "List4": "Doom Elite öldürme (herhangi bir seviye) size Tip I, II, III verir",
+        "List5": "Müttefikleri iyileştirme size Tip IV, V, VI verir",
+        "List6": "Şehirlere saldırma"
+      },
+      "Description2": "Bu kaynakların miktarını (Genetik Parçalar hariç) ekranın üst kısmında diğer kaynaklarla aynı şekilde yönetebilirsiniz. Ayrıca, genellikle bu kaynaklar ödül olarak kazandığınızda mevcuttur, bu yüzden envanterinizi kontrol etmeyi unutmayın."
+    },
+    "WorldMap": {
+      "Title": "Dünya ve Harita",
+      "Description": "Bu yeni sezonda, sunucu haritası köklü bir şekilde değişir; daha büyük ve yeni yaratıklarla dolu hale gelir.",
+      "Description2": "Korkutucu ve enfekte olmuş köyler, askeri üsler ve Apokalipsin Şehri haline gelmiş başkenti bulacaksınız.",
+      "Image1": "Enfekte Köyler",
+      "Image2": "Askeri Üsler",
+      "Image3": "Apokalipsin Şehri (Kapitol)",
+      "Description3": "Sezonun başında siz ve müttefikleriniz sunucunun kenarında mahsur kaldınız ve kendi şehriniz yok. Şehirler geri alınmalıdır, ancak yeni kurallar geçerlidir...",
+      "Description4": "ÖNEMLİ: Başkenti en son elinde tutan ittifaklar, sezon 1 başladığında başkenti tutmaya devam edecektir. Başkenti fethetme, City Clash etkinliğinden 28 gün sonra başlayacaktır.",
+      "Description5": "Doom Elite canavarı, saldırgan, enfekte olmuş akrep canavarlarına dönüşür ve çoğu zombi bulaşıcıdır.",
+      "Description6": "Harita bu şekilde görünmektedir. Görülen binalar şehirlerdir, aralarındaki diğer alanlar askeri üslerdir."
+    },
+    "NewBuildings": {
+      "Title": "Yeni Binalar",
+      "Description": "Yeni bina türleri mevcut ve gereklidir. Bu binalar sadece üs çevresinin dışında inşa edilebilir. Bazıları sezonun başında hemen görünecek, diğerleri daha sonra gelecektir.",
+      "Image1": "Güçlü bir şekilde zombiler tarafından bulaşmış virüs toprakları enfekte ediyor. Hayatta kalmak için bir Virüs Araştırma Enstitüsü inşa edilmelidir.",
+      "VirusResearchInstitute": {
+        "Title": "Virüs Araştırma Enstitüsü",
+        "Image1": "Virüs Araştırma Enstitüsü, virüs direncini artırmanızı sağlar.",
+        "LevelUp": {
+          "Title": "Virüs Araştırma Enstitüsü Seviyelendirme",
+          "Description": "Virüs Araştırma Enstitüsü seviyesini artırmak için Bağışıklık Proteini gereklidir.",
+          "Description2": "Bu binanın seviyesini yükseltmek, bu apokaliptik zamanlarda hayatta kalmak için temel olan virüs direncini artırır.",
+          "Image1": "Bu bina, HQ seviyenizden bağımsız olarak 30. seviyeye kadar yükseltilebilir."
+        }
+      },
+      "ProteinFarm": {
+        "Title": "Proteinziraat",
+        "Description": "Bu yeni bina, sezonun yeni kaynaklarından biri olan Bağışıklık Proteinlerini yetiştirir.",
+        "Image1": "Toplamda 5 Proteinziraat mevcuttur; beşincisi sadece Sezon Haftalık Geçiş ile erişilebilir.",
+        "LevelUp": {
+          "Title": "Proteinziraat Kalitesini Artırma",
+          "Description": "Proteinziraat seviyesini artırmak için Mutant Kristalleri gereklidir.",
+          "Description2": "İlk Proteinziraatınız 5. seviyeye ulaştığında, yeni bir Proteinziraat kullanılabilir hale gelir.",
+          "Description3": "Sonraki Proteinziraatlar, önceki bina 10. seviyeye ulaştığında kullanılabilir.",
+          "Description4": "Bir Proteinziraat, hemen Sezon Haftalık Geçiş ile erişilebilir.",
+          "Image1": "Bu bina, HQ seviyenizden bağımsız olarak 30. seviyeye kadar yükseltilebilir."
+        }
+      },
+      "MilitaryBase": {
+        "Title": "Askeri Üs",
+        "Description": "Üçüncü haftadan itibaren, hero tipleri için iyileştirmeler sağlayan üç yeni bina kullanılabilir olacak.",
+        "Description2": "Yükseltme için Bağışıklık Proteinleri ve Mutant Kristalleri gereklidir. Bu binalar, HQ seviyenizden bağımsız olarak 30. seviyeye kadar yükseltilebilir.",
+        "Description3": "Her seviye yükseltme, ilgili hero tipinin HP, saldırı ve savunmasını %1 artırır."
+      }
+    },
+    "NewFarms": {
+      "Title": "Yeni Farmalar – İttifak Kaynakları",
+      "Description": "Doom Elite'leri rastgele öldürdüğünüzde, geçici olarak yeni bir ittifak kaynak farması görünebilir. Kaynakları toplamak için müttefiklerinizle birlikte bir birlik oluşturun: yiyecek, demir, altın, elmas veya mutant kristalleri."
+    },
+    "MilitaryStrongholds": {
+      "Title": "Askeri Kalesi",
+      "Description": "Haritada, şehirler (köyler) arasında, bulaşıcı zombilerle çevrili ve onları koruyan askeri kaleler bulacaksınız.",
+      "Description2": "İttifaklar, ilk bölgelerini talep etmek için öncelikle 1. seviye bir kaledeki güvenliği sağlamalıdır. Ek askeri kaleleri fethederek genişleyebilirler.",
+      "Description3": "İttifaklar, günde en fazla 2 askeri kalesi fethedebilir, ancak sahip olunan toplam kale sayısı için bir sınır vardır.",
+      "Image1": "Askeri kaleler, kraliçenin elit birlikleri için üs olarak hizmet eder."
+    },
+    "Cities": {
+      "Title": "Şehirler",
+      "Description": "Şehirlerin fethedilmesi, iyileştirmelerden ittifak etki puanlarına kadar birçok bonus getirir ve en önemlisi ödüllerdir.",
+      "Description2": "Bir şehre savaş açmak için bir ittifak, en az bir komşu askeri kaledeki kontrolü elinde bulundurmalıdır.",
+      "Influence": {
+        "Title": "Etkileme",
+        "Description": "Şehirlerin fethedilmesi, ittifakın etki puanlarını artırır. Sahip olunan her şehir, seviyeye bağlı olarak farklı miktarda etki puanı sağlar:",
+        "List1": "Seviye 1: 100 km",
+        "List2": "Seviye 2: 200 km",
+        "List3": "Seviye 3: 300 km",
+        "List4": "Seviye 4: 400 km",
+        "List5": "Seviye 5: 500 km",
+        "List6": "Seviye 6: 1 M",
+        "Description2": "İttifak etki puanlarınızı kontrol etmek için, Sezon 1 olay simgesinin hemen üstünde bulunan düello-VS simgesine tıklayın, ardından Sezon 1 bannersına ve son olarak 'Lider Tablosu' düğmesine tıklayın."
+      }
+    },
+    "ConquestOfCities": {
+      "Title": "Şehir ve Kale Fethi – İttifak Bölgesi",
+      "Description": "Sezon başında tüm ittifaklar sunucunun kenarında mahsur kalmış ve kendi şehirlerine sahip değildir. Şehirler ve askeri üsler artık ittifak bölgesi olarak kabul edilir. Amacınız bölgenizi genişletmek ve ittifakınızın etkisini artırmaktır.",
+      "Image1": "İttifak bölgesi, savaş açılacak hedef şehri ile bağlantılı askeri kalelere sahip olmalıdır.",
+      "Description2": "Kalenizi ve şehirlerinizi görmek için İttifak -> İttifak Şehri bölümüne gidin, burada sınırlar da görüntülenir.",
+      "RulesForConqueringFortresses": {
+        "Title": "Kale Fetih Kuralları",
+        "Rule1": "İttifaklar günde en fazla 2 askeri üs fethedebilir, şehirlerin fethedilmesi için günlük sınırdan bağımsızdır.",
+        "Rule2": "İttifak, ilk ittifak bölgesini elde etmek için Seviye 1 bir kalesini fethetmeli ve bunu sürekli olarak diğer askeri kalelerle genişletmelidir.",
+        "Rule3": "Bir askeri kaleyi fethetmek için komşu bir kaleye sahip olma gerekliliği vardır.",
+        "Rule4": "Başlangıçta sahip olunabilecek kale sınırı 3’tür.",
+        "Rule5": "Seviye 1-5 şehirlerinden her biri için ittifakın kale sınırı 1 artar.",
+        "Rule6": "Seviye 6 şehirlerinden her biri için ittifakın kale sınırı 2 artar.",
+        "Rule7": "Bir askeri kaleyi fethetmek için virüs direnci gereklidir.",
+        "Rule8": "Sezon başında kale Crimson Legion’a aittir ve bu nedenle Corruptors ve Infected Zombies tarafından korunur. Kalenin alınabilmesi için her iki düşman türü de yenilmelidir.",
+        "Rule9": "Bir kale fethedildiğinde, 36 saatlik bir koruma aşamasına girer ve bu süre zarfında başka bir ittifak tarafından fethedilemez.",
+        "Rule10": "Bir kale ittifak tarafından alındığında, kalenin seviyesine orantılı olarak bir kale savunucuları ordusu ortaya çıkar. Kalenin fethedilmesi için her ittifak bu savunucuları yenmelidir. Savunuculara yapılan saldırı, müttefiklere saldırı olarak bildirilir."
+      },
+      "RulesForConqueringACity": {
+        "Title": "Şehir Fetih Kuralları",
+        "Rule1": "İttifaklar günde en fazla iki şehre savaş açabilir; bu sınırlama şehirlerin fethedilmesi için günlük sınırdan bağımsızdır.",
+        "Rule2": "Bir şehre savaş açılabilmesi için ittifakın, hedef şehirle bağlantılı askeri kalelere sahip olması gerekir.",
+        "Rule3": "Her ittifak her zaman yalnızca bir şehre savaş açabilir.",
+        "Rule4": "Savaş ilan süresi 1 saattir.",
+        "Rule5": "Aynı savaş bölgesinde bir ittifak en fazla 6 şehir fethedebilir.",
+        "Rule6": "Sezon boyunca ittifaklar, diğer savaş bölgelerinde ek olarak en fazla 6 şehir fethedebilir.",
+        "Rule7": "Bir şehir fethedildikten sonra, ittifakın hedef savaş bölgesinde tutabileceği maksimum askeri üs sayısı artar (önceki paragrafa bakınız).",
+        "Rule8": "Bir şehre savaş açmak için ittifakın en az bir komşu askeri kaleyi fethetmiş olması gerekir.",
+        "Rule9": "Şehir savaş koruma durumuna girdikten sonra koruma süresi, bir sonraki açıklama gününde saat 12:00 sunucu saati itibarıyla 6 güne kadar devam eder."
+      }
+    },
+    "HeroUpgrades": {
+      "Title": "Kahraman Yükseltmeleri ve Silahlar",
+      "Description": "Sezon 1, kahramanlar ve silahlarla ilgili yenilikler getiriyor, bunların kullanılabilirliği zamana bağlı olarak değişiyor.",
+      "ReturnOfHero": {
+        "Title": "Kahramanın Dönüşü",
+        "Description": "Daha önce bir kahraman elde edemediyseniz, bunu şimdi yapabilirsiniz.",
+        "Description2": "Sezon 1'in başlangıcından itibaren yeni bir tür işe alım bileti kullanılabilir olacak: Kahramanın Dönüş Bileti.",
+        "Description3": "Bu işe alım bileti ile, 1. Sezonun ilk gününden itibaren çoğu UR kahramanının parçalarını alabilirsiniz.",
+        "Image1": "Bu biletler, silahlanma yarışı ve düello karşılaşmalarında kullanılan kahraman işe alım biletleri ile aynı sayıda puan verir."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Özel Silahlar",
+        "Description": "Sezon 1'de her efsanevi kahramanın benzersiz, özel bir silahı var ve bu silahların kullanılabilirlik süreleri her kahraman için farklılık gösteriyor. Onları aktive etmek için belirli parçalar gereklidir.",
+        "Description2": "Özel silahlar, 1, 10, 20 ve 30. seviyelerde yeni araç görünümleri ve yetenekler açar.",
+        "Description3": "Özel silahların yükseltilmesi, çeşitli özellikleri belirgin şekilde artırır ve mevcut yeteneklerin maksimum seviyelerini yükseltir."
+      },
+      "MasonUpgrade": {
+        "Title": "Mason'un UR'ye Yükseltilmesi",
+        "Description": "Söylentiler doğru, Mason'u kahraman UR seviyesine yükseltebileceksiniz."
+      }
+    },
+    "InfectVirus": {
+      "Title": "Virüs Bulaşması",
+      "Description": "Zombilerle savaşırken enfekte olma riski vardır. Virüs Araştırma Enstitüsü'nde bir virüs direnci oluşturabilirsiniz, ancak bu belirli bir seviyeye ulaşmamışsa, birlikleriniz enfekte olur. Geri dönen birlikler üssünüzü olumsuz etkileyebilir.",
+      "Description2": "Yayılan virüs RA-Virüsü'dür.",
+      "VirusStack": {
+        "Title": "Virüs Yığını",
+        "Description": "Birlikleriniz enfekte olduğunda ve üssünüze döndüğünde, enfeksiyon üssünüzde birikir.",
+        "Description2": "Enfeksiyon yığınları 0'dan 100'e kadar değişir; 0 enfeksiyon yok, 100 ise maksimum değeri temsil eder.",
+        "Description3": "Birden fazla enfekte canavara saldırı yapsanız veya düşmanlar tarafından saldırıya uğrasanız bile, enfeksiyon yığını 100'ü geçemez.",
+        "Description4": "Virüs enfeksiyon yığını bir sembol ile radyo simgesinin üzerinde gösterilir:",
+        "List1": "enfekte olmadığınızda",
+        "List2": "enfekte olduğunuzda ve semboldeki sayı enfeksiyon yığını değerini gösterir",
+        "Description5": "Sembole tıklayarak mevcut debuff'lar ve bunların şiddeti hakkında daha fazla bilgi edinebilirsiniz."
+      },
+      "InfectionStackLogic": {
+        "Title": "Enfeksiyon Yığını Mantığı",
+        "Description": "Her enfeksiyonla birlikte enfeksiyon yığını artar.",
+        "Description2": "Enfekte olabilir veya enfeksiyon yığınınızı artırabilirsiniz, eğer:",
+        "List1": "Viral seviyesi virüs direncinizden yüksek olan bir zombiyi saldırırsanız (oyun sizi uyarır)",
+        "List2": "Bir Corruptor veya Enfekte Zombiye saldırırsanız, virüs direncinizden bağımsız olarak.",
+        "List3": "Bir Dünya Patronuna, örneğin Frankenstein'a saldırırsanız.",
+        "List4": "Virüs taşıyan düşman birlikleri tarafından saldırıya uğrarsanız",
+        "Description3": "Enfekte olmazsınız eğer:",
+        "List5": "Bir üssü güçlendirirseniz",
+        "Description4": "Belirli enfeksiyon yığını eşik değerlerine ulaşıldığında (1, 20, 40, 60, 80), çeşitli debuff'lar etkinleşir.",
+        "Description5": "Beş tür debuff vardır (yığın eşiği sembolleri soldan sağa):",
+        "Debuff1": "Hastane Tedavisi (yığın >=1 olduğunda etkinleşir): Her 300 ila 200 saniyede bir ünite ağır şekilde yaralanır.",
+        "Debuff2": "Düşük Moral (yığın ≥20 olduğunda etkinleşir): Verilen hasar daha az etkili olur (yüzde -4 ila -20 arasında).",
+        "Debuff3": "Öldürücü Virüs (yığın ≥40 olduğunda etkinleşir): Düşman birimlerde kayıp oranı artar (yüzde +4 ila +10 arasında).",
+        "Debuff4": "Şiddetli Enfeksiyon (yığın ≥60 olduğunda etkinleşir): Birliklerinizin yaydığı enfeksiyon, seferde %11 ila %15 oranında artar.",
+        "Debuff5": "Virüs Salgını (yığın ≥80 olduğunda etkinleşir): Birimleriniz, yenilgi durumunda bile düşmanı %8 ila %10 oranında enfekte etme şansına sahip."
+      },
+      "AutomaticHealing": {
+        "Title": "Otomatik İyileşme",
+        "Description": "Eğer enfekte olmaya devam etmezseniz ve kimse sizi iyileştirmezse, debuff zamanlayıcılarına göre yavaşça iyileşir ve sonunda enfeksiyon yığını 0'a düşer. Ancak bu iyileşme süreci oldukça uzun sürebilir.",
+        "Description2": "Bu yüzden, bu virüsü hemen tedavi etmek daha iyidir."
+      },
+      "Treatments": {
+        "Title": "Tedaviler",
+        "Description": "Tedaviler virüsün yoğunluğunu azaltabilir, diğer komutanların enfeksiyonu yaymasına katkıda bulunabilir.",
+        "Description2": "Bir müttefiki tedavi etmek için üssüne tıklayın ve ardından 'Tedavi' simgesine tıklayın. Uçak, bir keşif aracı gibi hareket edecek ve enfeksiyonu 1 azaltacaktır. Bu işlem sırasında Immun Proteinleriniz harcanır.",
+        "Description3": "Ancak şimdi ilginç kısım geliyor: Her tedavi için bir Gen Parçası (Tip IV, V veya VI) ödül olarak alırsınız."
+      },
+      "VirusResistance": {
+        "Title": "Virüs Direnci",
+        "Description": "Virüs direnci şimdi çok önemlidir ve sürekli olarak Virüs Araştırma Enstitüsü'nü geliştirerek artırmalısınız. Bu şekilde birçok ödül alabilirsiniz.",
+        "Image1": "Bir zombiye saldırdığınızda, bilgi penceresinde ne kadar virüs direncine ihtiyacınız olduğu gösterilir. Eğer direnciniz yeterli değilse ve yine de saldırırsanız, birlikleriniz enfekte olur."
+      }
+    },
+    "Gameplay": {
+      "Title": "Oynanış",
+      "Description": "Bu yeni dünyada birçok dinamik değişiyor. Bunları inceleyelim ve özellikle zombileri nasıl öldüreceğinize odaklanalım.",
+      "DamageDebuff": {
+        "Title": "Hasar Debuff'ı ve Koşulsuz Enfeksiyon",
+        "Description": "Zombilere saldırırken bilmeniz gereken ilk şey, iki yeni şeyin geçerli olabileceğidir:",
+        "List1": "Hasar Azaltma: Eğer bir zombi ile karşılaşırsanız ve virüs seviyeniz direncinizden daha yüksekse, verdiğiniz hasar azalır. Azaltma yüzdesi saldırı ekranında size gösterilecektir.",
+        "List2": "Koşulsuz Enfeksiyon: Bazı düşmanlar, virüs direncinizden bağımsız olarak sizi enfekte eder, örneğin Korrumpörler, enfekte zombiler ve dünya patronları. Bu, saldırı ekranında ek virüs enfeksiyon yığını ile gösterilir.",
+        "Image1": "Bir +1 RA-Virüs Molekülü, virüs direncinizden bağımsız olarak bir enfeksiyon yığını artışını temsil eder.",
+        "Description2": "Ayrıca, virüs direncinizin yeterli olmadığını görebilirsiniz çünkü 1900 gerekli, ancak sadece 1090'a sahipsiniz. Bu durumda şunları bekleyebilirsiniz:",
+        "List3": "enfekte olma",
+        "List4": "ve bu özel durumda saldırınızın -96 % hasar debuff'ına sahip olması"
+      },
+      "ZombieElite": {
+        "Title": "Zombi ve Kıyamet Eliti",
+        "Description": "Zombilerin gıda, demir ve altın ile ilgili yenilikleri var: Şimdi, kahramanların tankları, uçakları ve roket araçları gibi benzer türleri var.",
+        "Description2": "Bir zombiyi saldırmak için seçtiğinizde, detaylar size gösterilir.",
+        "Description3": "Özellikle bu durumda ve virüs direncinizin zombi virüsünden düşük olduğu dikkate alındığında, şunlara dikkat etmelisiniz:",
+        "List1": "Zombiye çarptığınızda enfekte olursunuz",
+        "List2": "Verdiğiniz hasar %18 oranında azalır. Bu nedenle, saldırıya geçmeden önce gücünüzün en azından bu miktarın üzerinde olduğundan emin olun – aslında biraz daha yüksek olmalıdır.",
+        "Description4": "Kıyamet elitleri de farklıdır, devasa, enfekte akrepler olarak görünürler."
+      },
+      "DoomedElite": {
+        "Title": "Kıyamet Elitine Karşı Etkili Direniş",
+        "Image1": "500/2200 virüs direnci ile bu zombi yalnız başına yenilemezsiniz, çünkü verilen hasar -99,9 % oranında azaltılır.",
+        "Description": "Düşük virüs direncine sahip olduğunuzda ve hasar büyük ölçüde azaldığında, bir Kıyamet Elitine karşı yapılan bir isyan, başarılı olup olmamanızdan bağımsız olarak büyük bir birlik kaybına neden olur.",
+        "Description2": "Bunu önlemek için müttefiklerinizden yardım isteyebilirsiniz:",
+        "List1": "En düşük komuta özelliğine sahip kahramanla bir kahraman birliği oluşturun (daha az birlik getirmek için).",
+        "List2": "Kıyamet Eliti canavarlarına karşı bir sefer başlatın ve yeterli virüs direncine sahip olanları bu eyleme katılmaları için davet edin.",
+        "Description3": "Bu yaklaşım ile zombiyi yenecek ve birçok mutant kristali kazanacak, birlik kaybınızı en aza indireceksiniz."
+      },
+      "WorldBoss": {
+        "Title": "Dünya Patronu",
+        "Description": "Dünya patronlarının görünümü artık değişmiş durumda, ancak kurallar temel olarak aynı kalıyor – tek fark, virüsle temas ettiğinizde sizi enfekte ederler, ancak bu çok hafif bir enfeksiyondur."
+      },
+      "Spoilers": {
+        "Title": "Bozucu",
+        "Description": "Bir askeri üssü ilk kez ele geçirmeye çalıştığınızda, size bir yeni ve güçlü düşman olan Bozucu ile karşılaşmanız gerekecek.",
+        "Description2": "Gerçekten çok güçlüdürler. Onlara saldırdığınızda her zaman enfekte olacağınızı unutmayın, virüs direncinizden bağımsız olarak.",
+        "Description3": "Ayrıca, virüs gücünüzden düşükse bir hasar debuff'ı uygulanır."
+      },
+      "InfectedZombies": {
+        "Title": "Enfekte Zombiler",
+        "Description": "Sadece Korrumpörler değil, askeri üslerin koruyucuları enfekte zombiler de var.",
+        "Description2": "Bu zombiler, virüslere karşı ne kadar dirençli olursanız olun sizi enfekte eder.",
+        "Description3": "Ayrıca, virüs gücünüzden düşükse bir hasar debuff'ı uygulanır."
+      }
+    }
+  },
+  "Marshall": {
+    "Title": "Marschall Görevleri",
+    "Instruction": {
+      "Title": "Giriş",
+      "Description1": "Marschall Görevleri veya Alliance Görevleri, tümli ittifakların çeşitli ödüller kazanabileceği düzenli bir etkinliktir. Bu etkinlik seviyelere ayrılmıştır ve ittifakın savaş gücünü test eder.",
+      "Description2": "İttifakın R4 ve R5'leri, görevlerin başlama zamanını belirleyebilir (bu her seferinde farklı olabilir), bu nedenle ittifakın duyurularını dikkatle okuyun."
+    },
+    "Attack": {
+      "Title": "Saldırı",
+      "Description": "İki takımı olanlar için strateji oldukça basittir:",
+      "List1": "Tanklara tıklayarak en zayıf takımla tanklara karşı 3 dakikalık saldırılar başlatın.",
+      "List2": "En güçlü takımınızla diğerlerinin saldırılarına katılın (öncelikle geri sayımı sıfıra en yakın olanlara).",
+      "List3": "Etkinlik bitene kadar devam edin.",
+      "List4": "Üç takımı olanlar, iki takımı (en güçlü) diğer saldırılara katılmak için kullanabilir ve diğerini (en zayıf) saldırılar başlatmak için kullanabilir.",
+      "List5": "Her ittifak üyesi aynı anda yalnızca bir saldırı başlatabilir. Yani, üç takımınız olsa bile, aynı anda iki saldırı başlatamazsınız. Ancak, istediğiniz kadar saldırıya katılabilirsiniz."
+    },
+    "Tricks": {
+      "Title": "İpuçları",
+      "Trick1": "Görevlerden birkaç dakika önce, hiçbir ittifaka ait olmayan bir üssü keşfedin. Bu, savaş ateşi modunu etkinleştirir ve size %1 ek hasar sağlar. ÖNEMLİ: Bu ipucunu kalkan kullanırken uygulamayın, aksi takdirde kalkanınızı kaybedersiniz.",
+      "Trick2": "Bireysel puanlarınızı maksimize etmek için, R4 ve R5 tarafından başlatılan saldırılara katılın. Bu size %2,5 (R4 rolü yok) / %5 (R5 ve R4 rolü olan) ek puan verir (yazı saldırı listesinin içinde görünür).",
+      "Trick3": "En güçlü takımınızı diğer oyuncuların saldırılarına katılmak için gönderirseniz, daha fazla puan kazanabilirsiniz, zayıf takım ise 'sıkışmış' kalır ve saldırının başlamasını bekler."
+    },
+    "Important": {
+      "Title": "Önemli",
+      "List1": "İttifak üyeleri, ittifak üssüne ve mümkünse Marschall platformuna yakın bir konumda olmalıdır. Uzak üyeler, en fazla 3 dakika sürebilen seferlerin yavaşlamasına neden olabilir (hatta 30 dakikadan fazla).",
+      "List2": "Etkinlik başlamadan birkaç dakika önce, tüm üyelerin takımlarını madenlere veya tarım alanlarına göndermeleri önemlidir.",
+      "List3": "Farklı nedenlerle uzak bir üyenin takımı saldırıya katılırsa ve bu, saldırının başlamasını geciktirirse, saldırıyı başlatan kişi takımı saldırıdan çıkarabilir.",
+      "List4": "Kalkan kullanırken de Marschall Görevlerini gerçekleştirebilirsiniz. Ancak, kalkan kullanırken savaş ateşi modunu etkinleştirme ipucunu kullanmayın, aksi takdirde kalkanınızı kaybedersiniz."
+    }
+  },
+  "Guestbook": {
+    "Title": "Ziyaretçi Defteri",
+    "Description1": "Eski Vikingler birçok sunucuda cesurca seyahat ediyor ve birçok müttefik ve rakip ile tanıştı. Yakın veya uzak kıyılardan geliyor olabilirsiniz, dost bir ittifaktan ya da düşman bir fraksiyondan – mesajınızı duymaktan memnuniyet duyarız!",
+    "Description2": "Şerefe ve rüzgar her zaman size iyi olsun! Eski Vikingler",
+    "Anonymous": "Anonim",
+    "Pagination": {
+      "NextLabel": "Sonraki",
+      "PreviousLabel": "Önceki"
+    }
+  }
+}

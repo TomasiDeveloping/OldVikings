@@ -8,7 +8,7 @@ import { ToastrService} from "ngx-toastr";
   styleUrl: './navigation.component.scss'
 })
 export class NavigationComponent implements OnInit{
-  version: string = '1.11.0';
+  version: string = '1.12.0';
   isShown: boolean = false;
   siteLanguage: string = 'Deutsch';
   languageList = [
@@ -20,7 +20,8 @@ export class NavigationComponent implements OnInit{
     {code: 'nb', label: 'Norvégien'},
     {code: 'da', label: 'Danois'},
     {code: 'es', label: 'Español'},
-    {code: 'sv', label: 'Svenska'}
+    {code: 'sv', label: 'Svenska'},
+    {code: 'tr', label: 'Türkçe'}
   ];
 
   private readonly translate: TranslateService = inject(TranslateService);
@@ -28,7 +29,7 @@ export class NavigationComponent implements OnInit{
 
 
   ngOnInit() {
-    this.translate.addLangs(['de', 'en', 'fr', 'it','nl', 'nb', 'da', 'es', 'sv']);
+    this.translate.addLangs(['de', 'en', 'fr', 'it','nl', 'nb', 'da', 'es', 'sv', 'tr']);
     let userLanguage = this.translate.getBrowserLang();
     if (!userLanguage || !this.languageList.some(x => x.code === userLanguage)) {
       if (userLanguage) {
