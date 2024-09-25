@@ -2,7 +2,7 @@ import {Component, inject, SecurityContext} from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import {GreetingModel} from "../../../models/greeting.model";
 import {GreetingService} from "../../../services/greeting.service";
-import {HttpErrorResponse} from "@angular/common/http";
+import { HttpErrorResponse } from "@angular/common/http";
 import {ToastrService} from "ngx-toastr";
 import {TranslateService} from "@ngx-translate/core";
 import {DomSanitizer} from "@angular/platform-browser";
