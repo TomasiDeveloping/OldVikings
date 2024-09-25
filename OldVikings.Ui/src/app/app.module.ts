@@ -8,7 +8,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { VsDuellComponent } from './pages/vs-duell/vs-duell.component';
 import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import { HttpClient, provideHttpClient, withInterceptors, provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
+import { HttpClient, withInterceptors, provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import {ToastrModule} from "ngx-toastr";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { RulesComponent } from './pages/rules/rules.component';
