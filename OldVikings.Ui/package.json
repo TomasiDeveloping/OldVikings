@@ -26,7 +26,7 @@
     "bootswatch": "^5.3.3",
     "jest-editor-support": "*",
     "ngx-pagination": "^6.0.3",
-    "ngx-scrolltop": "^7.0.0",
+    "ngx-scrolltop": "^18.0.1",
     "ngx-spinner": "^17.0.0",
     "ngx-toastr": "^19.0.0",
     "rxjs": "~7.8.0",
