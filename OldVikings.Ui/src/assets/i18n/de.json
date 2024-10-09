@@ -138,6 +138,7 @@
     "Squad": "Truppe",
     "DesertStorm": "Wüstensturm",
     "SeasonOne": "Saison 1",
+    "SeasonTwo": "Saison 2",
     "Marshall": "Marschall-Wache"
   },
   "VS": {
@@ -1109,6 +1110,400 @@
     "Pagination": {
       "NextLabel": "Weiter",
       "PreviousLabel": "Vorherige"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Saison 2 - Polarsturm",
+    "Content": {
+      "Title": "Inhalt",
+      "NewResources": "Neue Grundressourcen",
+      "WorldMap": "Die Welt und die Karte",
+      "NewBuildings": "Neue Gebäude",
+      "AllianceFurnace": "Allianzofen",
+      "NewFarms": "Neue Farmen – Allianzressourcen",
+      "MilitaryBase": "Militärstützpunkte",
+      "Cities": "Städte",
+      "DigSites": "Ausgrabungsstätten",
+      "StockCollection": "Vorratssammlung",
+      "RareSoil": "Seltener Boden",
+      "RareSoilWar": "Krieg um seltenen Boden",
+      "RadarMission": "Radarmissionen",
+      "HeroUpgrade": "Helden-Upgrades und Waffen",
+      "Temperature": "Temperatur",
+      "HelpTheAllies": "Helfen Sie den Verbündeten, die Temperatur zu erhöhen",
+      "VirusResistance": "Virenresistenz",
+      "Profession": "Berufe – Level-Cap auf Level 70 erweitert"
+    },
+    "Resources": {
+      "Title": "Neue Grundressourcen – Kohle und Titanlegierungen",
+      "Description": "Im Spiel sind jetzt zusätzliche Ressourcen verfügbar: Titanlegierung und Kohle.",
+      "Titanium": {
+        "Title": "Titanlegierung",
+        "Description": "Wird zum Bauen und Aufrüsten saisonaler Gebäude verwendet.",
+        "Description2": "Titanlegierungen erhältst du durch:",
+        "List1": "Belohnungen für das erstmalige Töten von Zombies auf Level",
+        "List2": "Abschließen von Saison-Quest-Missionen",
+        "List3": "Abschließen von Saison-2-Zielen für das Hochhitzeofen-Level",
+        "List4": "Ersten Blutkill von Doom Walker (erster DW-Kill des Tages)",
+        "List5": "Verwenden des 'Hero's Return'-Rekrutierungstickets in S2: Legend Returns",
+        "List6": "Belohnung für die erste Eroberung einer Stadt/Ausgrabungsstätte"
+      },
+      "Coal": {
+        "Title": "Kohle",
+        "Description": "Wird zum Bauen und Aufrüsten saisonaler Strukturen oder zum Befeuern des Hochhitzeofens verwendet.",
+        "Description2": "Kohle kannst du verdienen durch:",
+        "List1": "Belohnungen für das erstmalige Töten von Zombies auf Level",
+        "List2": "Abschließen von Saison-Quest-Missionen",
+        "List3": "Erobern von Ausgrabungsstätten ermöglicht kontinuierliche Kohleproduktion",
+        "List4": "Abschließen von Saison-2-Zielen für das Hochhitzeofen-Level",
+        "List5": "Verwenden des 'Hero's Return'-Rekrutierungstickets in S2: Legend Returns",
+        "List6": "Wochenpass und Saison-Battle-Pass (größter Boost)",
+        "List7": "Belohnungen für das Sammeln von Vorräten",
+        "List8": "Belohnung für die erste Eroberung einer Stadt/Ausgrabungsstätte",
+        "List9": "Füttern von Snowflake mit einer Mahlzeit, die er durch das 'Polar Dishes'-Event erhält"
+      }
+    },
+    "WorldMap": {
+      "Title": "Die Welt und die Karte",
+      "Description": "Die Welt hat sich erneut verändert. Die Karte besteht aus wechselnden Städten und Ausgrabungsstätten.",
+      "Description2": "Um die Ambitionen von Kaiser Boreas zu vereiteln, versammeln Sie sich mit Ihren Verbündeten am Rand der Polarregion. Es ist sehr kalt und die Temperatur sinkt weiter, je näher Sie dem Zentrum kommen.",
+      "Image1": "Städte",
+      "Image2": "Ausgrabungsstätten",
+      "Image3": "Atomofen (Kapitol)",
+      "Description3": "Zu Beginn der Saison stranden Sie und Ihre Verbündeten am Rand des Servers (aber immer noch zusammen als Allianz-Hive) und haben keine eigene Stadt. Städte müssen zurückerobert werden, aber es gelten neue Regeln …",
+      "Description4": "Doom-Elite-Monster verwandeln sich in aggressive Polarmonster, und die meisten Zombies erfordern eine hohe Virenresistenz, um getötet zu werden.",
+      "Description5": "So sieht die Karte aus. Die Gebäude, die Sie sehen, sind die Städte, die anderen Kacheln dazwischen sind die Ausgrabungsstätten. Kacheln gelten als an den Ecken verbunden, sodass beispielsweise jede Stadtkachel an den Ecken mit den Kacheln der anderen Städte verbunden ist. Dasselbe gilt für Ausgrabungsstätten.",
+      "ThermalMap": {
+        "Title": "Thermische Kartenansicht",
+        "Description": "Wie Sie in der Kartenansicht sehen können, gibt es einen Schalter zum Aktivieren der Wärmekarte, die Ihnen die Temperatur anzeigt. Wenn Sie auf jeden Punkt der Karte klicken, wird Ihnen die Temperatur an diesem Ort angezeigt.",
+        "Description2": "Je weiter Sie sich zur Mitte der Karte bewegen, desto niedriger wird die Temperatur.",
+        "Description3": "Ausgehend von jeder Ausgrabungsstätte in der Ecke diagonal zur Mitte, weist jedes Kartenfeld eine sinkende Temperatur auf, und zwar: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (Das Kapitol).",
+        "Description4": "Dies ist die vollständige Wärmekartenüberlagerung, die keine städtischen Brennöfen, Atomöfen, Schneestürme oder andere wärmeverändernde Effekte berücksichtigt. Es zeigt die Basistemperatur des Kriegsgebietes."
+      }
+    },
+    "NewBuildings": {
+      "Title": "Neue Gebäude",
+      "Description": "In Saison 2 sind neue Gebäudetypen verfügbar.",
+      "Description2": "Die Gebäude, die zu Ihrer Basis gehören, können nur außerhalb des Umkreises Ihrer Basis gebaut werden (derselbe Bereich wie in Saison 1).",
+      "Description3": "Einige erscheinen gleich zu Beginn der Saison, andere werden folgen.",
+      "Description4": "In Saison 2 sind auch neue Allianzgebäude verfügbar.",
+      "TitanFabric": {
+        "Title": "Titanlegierungsfabrik",
+        "Image1": "Die Titanlegierungsfabrik produziert Titanlegierungen, die für die Aufrüstung Ihres Ofens von entscheidender Bedeutung sind.",
+        "Update": {
+          "Title": "Erhöhen Sie die Stufe der Titanlegierungsfabrik",
+          "Description": "Sie benötigen Kohle, um die Titanlegierungsfabrik aufzurüsten.",
+          "Description2": "Dieses Gebäude kann unabhängig von Ihrem HQ-Level bis auf Level 30 aufgerüstet werden.",
+          "Description3": "Sobald Ihre erste Titanlegierungsfabrik Level 15 erreicht, wird eine neue Titanlegierungsfabrik verfügbar sein.",
+          "Description4": "Nachfolgende Titanlegierungsfabriken werden verfügbar, wenn die vorherige Stufe 15 erreicht.",
+          "Description5": "Eine Titanlegierungsfabrik wird mit dem wöchentlichen Saisonpass sofort verfügbar sein.",
+          "Image": "WICHTIG: Jeder Levelaufstieg bringt Ihnen immer einen Zuwachs von 720 Output/h, unabhängig vom erreichten Level. Seien Sie also schlau und leveln Sie immer zuerst die Fabrik mit dem niedrigsten Level hoch."
+        },
+        "Requirements": {
+          "Title": "Kohlebedarf einer Titanlegierungsfabrik",
+          "Description": "Die Werte in der folgenden Tabelle sind die URSPRÜNGLICHEN Kosten für Kohle. Auf diese Kosten werden einige Abschläge angewendet, basierend auf:",
+          "List1": "Ihren technischen Forschungen über Gebäude-Kostensenkung",
+          "List2": "Ihrem Allianz-Tech zum Thema Baukostenreduktion",
+          "List3": "der Berufsspezialisierung, insbesondere der Fähigkeit „Ressourcenschonung“ der Stufe 35 (bis zu -5 %)",
+          "Image": "Um Ihre tatsächlichen Kosten zu ermitteln, ermitteln Sie den Prozentsatz der „Reduzierung der für den Bau des Gebäudes erforderlichen Ressourcen“ und ziehen Sie diesen Prozentsatz von den URSPRÜNGLICHEN Kosten ab."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Hochtemperaturofen",
+        "Description": "Dieser Neubau ist sehr wichtig.",
+        "Image": "Er ermöglicht es, mit Kohle die Temperatur zu erhöhen und so die Virenresistenz zu steigern.",
+        "Update": {
+          "Title": "Erhöhen Sie das Level des Hochtemperaturofens",
+          "Description": "Sie benötigen eine Titanlegierung, um den Hochtemperaturofen aufzurüsten.",
+          "Description2": "Durch das Aufleveln dieses Gebäudes können folgende Punkte verbessert werden:",
+          "List1": "die Virusresistenz",
+          "List2": "die Aktivierungswärme des Ofens (das ist die Grundtemperatur des Ofens)",
+          "List3": "die Überhitzung des Ofens (das ist die maximale Temperatur, die Sie mit dem Ofen erreichen können, wenn Sie zulassen, dass er mehr Kohle pro Minute verbraucht)",
+          "Image": "Dieses Gebäude kann unabhängig von Ihrem HQ-Level bis auf Level 30 aufgerüstet werden."
+        },
+        "Control": {
+          "Title": "Bedienfeld des Hochtemperaturofens",
+          "Description": "Um die Temperatur Ihrer Basis zu erhöhen, können Sie den Hochtemperaturofen einschalten.",
+          "Description2": "Das Bedienfeld ist recht einfach zu verstehen:",
+          "List1": "Schalter zum Ein-/Ausschalten",
+          "List2": "Schalter zum Aktivieren des Overdrive, der mehr Kohle pro Minute verbraucht, aber mehr heizt",
+          "List3": "Schalter zum automatischen Aktivieren des Ofens, wenn ein Blizzard eintrifft.",
+          "Image": "Wenn Sie den Overdrive aktivieren, steigt die Temperatur noch schneller."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Allianzofen",
+      "Description": "Zusätzlich zu Ihrem eigenen Hochtemperaturofen wird es auch den Allianzofen geben. Dies ist eine nette Ergänzung, da die gesamte Allianz dazu beitragen kann, die Temperatur für alle Verbündeten zu erhöhen.",
+      "Description2": "Ab Tag 1 der zweiten Saison können die Allianzen den Bauplatz für den Allianzofen auf der Karte positionieren (Gebiet der Stufe 1) und mit der Reparatur des Allianzofens beginnen, um ihn zu nutzen (beginnt auf Stufe 1). Dieser Vorgang ähnelt dem Bau eines Außenpostens mit bis zu 20 Verstärkungen.",
+      "Description3": "Der Allianzofen kann gefunden werden, indem man auf die Schaltfläche Allianz -> Allianzofen -> auf die Koordinaten klickt. Aktionen darauf können nur von R4/R5-Mitgliedern ausgeführt werden.",
+      "HeatingRange": {
+        "Title": "Wärmebereich des Allianzofens",
+        "Description": "Es ist wichtig zu beachten, dass der Allianzofen die Temperatur nur in seinem Wirkungsbereich erhöht. Stellen Sie daher sicher, dass sich Ihre Basis in der Nähe des Ofens befindet.",
+        "Description2": "Ein guter Vorschlag für eine Allianz wäre, sich immer in der Nähe des Allianzofens niederzulassen und Mitglieder mit niedrigeren Temperaturen und einem niedrigen Hochtemperaturofen-Level näher heranzulassen.",
+        "Description3": "Unten sehen Sie die Wirkung des Ofens auf das Gebiet, wenn er ein- und ausgeschaltet ist. Links ist der Ofen eingeschaltet und heizt daher die Umgebung, rechts ist er ausgeschaltet und die Temperatur an genau derselben Stelle ist niedriger.",
+        "Description4": "Unten können Sie die Wärmekarte rund um den Ofen sehen und wie sie die Temperatur im Umkreis beeinflusst."
+      }
+    },
+    "NewFarms": {
+      "Title": "Neue Farmen – Allianzressourcen",
+      "Description": "Wie bereits in Staffel 1 zu sehen war, kann nach dem zufälligen Töten von Doom-Eliten vorübergehend ein neuer Allianz-Ressourcenfarmtyp erscheinen. In Staffel 2 können sie auch vom Typ Titanlegierung und Kohle sein."
+    },
+    "MilitaryBase": {
+      "Title": "Militärstützpunkte",
+      "Description": "Sobald der Hochtemperaturofen Level 30 erreicht, werden drei neue Gebäude verfügbar sein, die Verbesserungen für Heldentypen ermöglichen.",
+      "Description2": "WICHTIG: Diese Gebäude werden am Ende von Staffel 2 verschwinden, wie es bereits in Staffel 1 der Fall war.",
+      "Description3": "Zum Aufrüsten benötigen Sie sowohl Kohle als auch Titanlegierung. Diese Gebäude können bis auf Level 30 aufgerüstet werden, unabhängig von Ihrem HQ-Level.",
+      "Description4": "Jedes Level-Upgrade erhöht den entsprechenden Schadensboost, der von Panzer-, Flugzeug- oder Raketenhelden verursacht wird.",
+      "Description5": "Die zum Aufrüsten jeder Stufe benötigte Menge an Kohle und Titanlegierung ist bei allen Gebäuden gleich, ebenso der Boost-Prozentsatz."
+    },
+    "Cities": {
+      "Title": "Städte",
+      "List1": "Maximale Anzahl an Städten und Ausgrabungsstätten, die Sie erobern können: 6 Städte und 4 Ausgrabungsstätten.",
+      "List2": "Durch die Eroberung von Städten erhöht sich die Anzahl der Ausgrabungsstätten, die Sie erobern können, nicht, da diese immer 4 beträgt.",
+      "Description": "Eigene Städte und Ausgrabungsstätten produzieren Seltene Erde, die für den Sieg in Staffel 2 von grundlegender Bedeutung ist. Die Menge hängt vom Stadtlevel ab: Menge Seltener Erde in Städten und Menge Seltener Erde in Ausgrabungsstätten.",
+      "Heating": {
+        "Title": "Stadtofen",
+        "Description": "Städte versorgen das gesamte Stadtgebiet mit Wärme, sobald sie erobert wurden. Die Menge hängt von ihrem Level ab:",
+        "List1": "Stufe 1: 5 °C",
+        "List2": "Stufe 2: 20 °C",
+        "List3": "Stufe 3: 30 °C",
+        "List4": "Stufe 4: 40 °C",
+        "List5": "Stufe 5: 50 °C",
+        "List6": "Stufe 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Ausgrabungsstätten",
+      "Description": "Ausgrabungsstätten waren einst für die Kohleproduktion von entscheidender Bedeutung, wurden jedoch von mutierten Bestien unter der Kontrolle von Kaiser Boreas übernommen. Besiege die Bestien, erobere die Stätten zurück und nimm die Kohleproduktion wieder auf.",
+      "Description2": "Kohle ist für die Beheizung Ihrer Basis unerlässlich. Daher ist die Eroberung von Ausgrabungsstätten, die Kohle produzieren, ein sehr wichtiger Schritt für jede Allianz. Ausgrabungsstätten auf höherem Level produzieren größere Mengen Kohle.",
+      "Description3": "Mit dem neuesten Spiel-Update produzieren Ausgrabungsstätten auch Seltene Erde.",
+      "Description4": "Die Ausgrabungsstätte wird von Eisbestien bewacht, die eingefroren werden können. Sie müssen sie also vor der Eroberung auftauen.",
+      "Description5": "Klicken Sie dazu auf die Bestie und verwenden Sie die Schaltfläche „Auftauen“, um Ihren Trupp in Aktion zu schicken. Besiegen Sie anschließend die Eisbestie, wie Sie die Verderber in Staffel 1 besiegt haben.",
+      "Description6": "Sie können alle Ausgrabungsstätten der Allianz anzeigen, indem Sie auf die Schaltfläche „Allianz“ -> „Allianzstadt“ klicken.",
+      "Description7": "Auf der ersten Registerkarte finden Sie Städte und Ausgrabungsstätten, die Seltene Erde produzieren, auf der zweiten Registerkarte finden Sie Ausgrabungsstätten, die Kohle produzieren. Diese können Sie stündlich beanspruchen, indem Sie auf die einzelnen aufgelisteten Ausgrabungsstätten oder auf die Schaltfläche „Alle beanspruchen“ klicken.",
+      "Coal": {
+        "Title": "Ausgrabungsstätten für Kohle und Seltene Erde",
+        "Description": "Ausgrabungsstätten produzieren Kohle und Seltene Erde basierend auf ihrem Level, hier die genaue Menge pro Level:",
+        "List1": "Level 1: 2.736/h Kohle – 100/h Seltene Erde",
+        "List2": "Level 2: 2.880/h Kohle – 110/h Seltene Erde",
+        "List3": "Level 3: 3.024/h Kohle – 120/h Seltene Erde",
+        "List4": "Level 4: 3.168/h Kohle – 130/h Seltene Erde",
+        "List5": "Level 5: 3.312/h Kohle – 140/h Seltene Erde",
+        "List6": "Level 6: 3.456/h Kohle – 150/h Seltene Erde"
+      },
+      "Protection": {
+        "Title": "Erfassungs- und Schutzstatus",
+        "Description": "Ausgrabungsstätten ähneln den Festungen der ersten Staffel.",
+        "List1": "Maximale Anzahl an Ausgrabungsstätten, die Sie besitzen können: 4, unabhängig davon, wie viele Städte Sie besitzen.",
+        "List2": "Maximales Tageslimit für die Eroberung von Ausgrabungsstätten: 2.",
+        "List3": "Die erste Eroberung erfordert die Niederlage von mutierten Bestien mit ausreichender Virusresistenz. Das Polar Beast könnte eingefroren sein, daher müssen Sie Trupps aussenden, um es aufzutauen, bevor Sie es angreifen. Um diese Bestien zu besiegen, sind mehrere Sammelaktionen erforderlich (jeder Treffer verursacht % Schaden). Sobald das Polar Beast besiegt ist, müssen Sie die Ausgrabungsstätte mit bis zu 10 Trupps verstärken.",
+        "List4": "Der Eroberungsprozess der Ausgrabungsstätte ist eine Herausforderung, bei der die erste Allianz gewinnt, die 100 % erreicht. Die maximale Eroberungszeit beträgt 4 Stunden. Wenn innerhalb dieser Zeit kein vollständiger Fortschritt von 100 % erreicht wird, schlägt der Versuch fehl. Wenn die Ausgrabungsstätte nicht in Besitz war, bleibt sie neutral; wenn sie in Besitz war, bleibt sie beim vorherigen Besitzer. Der Eroberungsprozentsatz einer Allianz steigt, während die Stätte verstärkt wird. Stärkere Trupps beschleunigen den Prozess.",
+        "List5": "Sobald eine Ausgrabungsstätte eingenommen ist, wird sie 36 Stunden lang geschützt und von Wachen umstellt.",
+        "List6": "Technisch gesehen können Sie eine unbegrenzte Anzahl von Ausgrabungsstätten gleichzeitig angreifen und verstärken, aber sobald Sie die zweite tägliche Eroberung abgeschlossen haben, können Sie keine neutralen oder eigenen Ausgrabungsstätten mehr angreifen. Wenn Sie eine andere Ausgrabungsstätte verstärkt haben (was als dritte Eroberung zählt), werden Ihre Trupps automatisch rausgeworfen, sobald die zweite Eroberung abgeschlossen ist.",
+        "List7": "Wenn eine Ausgrabungsstätte einer Allianz gehört und von einer anderen angegriffen wird, zählt ein fehlgeschlagener Eroberungsversuch nicht als tägliche Eroberung für die verteidigende Allianz.",
+        "List8": "Ihr erstes Allianzgebiet muss eine Ausgrabungsstätte der Stufe 1 sein. Von hier aus können Sie jedes angrenzende Gebiet erobern. Gebiete in Staffel 2 sind auch an ihren Ecken angrenzend.",
+        "List9": "Die Gebietseroberung kann auf angrenzende Gebiete (Ausgrabungsstätten und Städte) sowohl von eigenen Städten als auch von Ausgrabungsstätten ausgeweitet werden.",
+        "List10": "Wenn Sie ein Bündnisgebiet aufgeben oder verlieren und nun über zwei separate Sätze an Bündnisgebieten verfügen, können Sie weiterhin alle Gebiete erobern, die an den einen oder anderen Satz angrenzen.",
+        "List11": "Wenn Ihre Allianz eine Ausgrabungsstätte aufgibt (dies dauert eine Stunde), wird sie neutral und jede Allianz, einschließlich Ihrer, kann sie zurückerobern. Wenn die Ausgrabungsstätte jedoch beim Verlassen noch unter Schutzstatus steht, muss die Abklingzeit des Schutzstatus ablaufen, bevor eine Allianz, einschließlich Ihrer eigenen, die Kontrolle übernehmen kann.",
+        "List12": "In Staffel 2 wird es keine kriegszonenübergreifenden Eroberungen von Ausgrabungsstätten geben.",
+        "Description2": "Unten sehen Sie einen mutierten Gorilla, der eine Ausgrabungsstätte der Stufe 2 beschützt. Der mutierte Gorilla ist noch eingefroren und die Allianz hat ihn teilweise aufgetaut.",
+        "Description3": "Das Spiel ermöglicht die Eroberung von Ausgrabungsstätten, die diagonal an anderen Ausgrabungsstätten an einer Ecke angrenzen. So können Sie beispielsweise in den Bildern unten sehen, dass es nicht notwendig war, Stadtebene 2 zu erobern, um die anderen Ausgrabungsstätten zu erobern, die an der Ecke an die anderen Ausgrabungsstätten angrenzen. Diese Screenshots stammen von Tag 3, als nur Stadtebene 1 erobert werden konnte."
+      }
+    },
+    "StockCollection": {
+      "Title": "Vorratssammlung",
+      "Description": "In Staffel 2 erscheint ein neuer Schatztyp für Allianzressourcen.",
+      "Description2": "Diese neuen Schätze können nur entdeckt werden, wenn die Landtemperatur 0 °C erreicht.",
+      "Description3": "Um sie zu finden, verlegen Sie den Allianzofen, um das Land zu erhitzen und es auf 0 °C zu bringen. Sie können auch eine Stadt erobern, sodass der Stadtofen das gesamte Stadtgebiet aufheizt. Dann verlegen Sie den Allianzofen und aktivieren ihn im Overdrive-Modus (natürlich müssen Sie sicherstellen, dass Ihr aktuelles Allianzofen-Level hoch genug ist, um die richtige Temperatur zu erreichen). Sobald das Land 0 °C erreicht, erscheint die Vorratssammlung im Auftauzustand.",
+      "Description4": "Schicken Sie Truppen zum Auftauen der Vorratssammlung und fordern Sie anschließend Ihre Belohnung an.",
+      "Description5": "Vorratssammlungen haben unterschiedliche Stufen und bieten daher unterschiedliche Belohnungen.",
+      "Description6": "Es besteht die Möglichkeit, auf das Symbol der Saison 2 -> Vorratssammlung zuzugreifen und von dort aus zu sehen, ob Vorratssammlungen entdeckt wurden.",
+      "Image1": "Es besteht ein Limit von 5 Rückforderungsversuchen pro Tag."
+    },
+    "RareSoil": {
+      "Title": "Seltener Boden",
+      "Description": "Sobald Städte und Ausgrabungsstätten in der Polarregion erobert sind, beginnen sie mit der Zeit, seltene Erde zu produzieren. Seltene Erde ist in dieser Saison eine wichtige Ressource der Allianzen, und am Ende der Saison werden die Allianzen nach ihrer Menge eingestuft. Je höher der Rang, desto besser die Belohnungen.",
+      "Description2": "Je höher die Stufen der Stadt und der Ausgrabungsstätte, desto mehr seltene Erde wird pro Stunde produziert.",
+      "Production": {
+        "Title": "Produktion von seltenem Boden",
+        "Description": "Sobald Städte und Ausgrabungsstätten erobert sind, beginnen sie, abhängig von ihrem Level, seltene Erde zu produzieren.",
+        "Description2": "Sie können die Einzelheiten zur Produktion seltener Erde sehen, indem Sie auf die Schaltfläche „Allianz“ -> „Allianzstadt“ klicken. Dort sind sowohl Städte als auch Ausgrabungsstätten sichtbar, die seltene Erde produzieren.",
+        "Description3": "Die Gesamtmenge der produzierten seltenen Erde ist in der Allianz-Ofen-Ansicht sichtbar: Allianz-Schaltfläche -> Allianz-Ofen, und wirkt sich auf die Stufe des Allianz-Ofens aus.",
+        "Description4": "Auf die Ranglisten für seltenen Boden kann über die Seite „Staffel 2“ zugegriffen werden: Symbol „Staffel 2“ -> Bestenliste.",
+        "Description5": "Sie können mehr seltene Erde erhalten, indem Sie als Angreifer im Krieg um seltene Erde gewinnen."
+      },
+      "CityProduction": {
+        "Title": "Produktion von seltener Erde in der Stadt",
+        "Description": "Hier die genaue Menge an seltener Erde pro Stadtlevel:",
+        "List1": "Stufe 1: 350/h",
+        "List2": "Stufe 2: 400/h",
+        "List3": "Stufe 3: 450/h",
+        "List4": "Stufe 4: 800/h",
+        "List5": "Stufe 5: 900/h",
+        "List6": "Stufe 6: 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Produktion seltener Erde in Ausgrabungsstätten",
+        "Description": "Hier die genaue Menge an seltener Erde pro Ausgrabungsstättenlevel:",
+        "List1": "Stufe 1: 100/h",
+        "List2": "Stufe 2: 110/h",
+        "List3": "Stufe 3: 120/h",
+        "List4": "Stufe 4: 130/h",
+        "List5": "Stufe 5: 140/h",
+        "List6": "Stufe 6: 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Krieg um seltenen Boden",
+      "Description": "In Staffel 2 wird es Kriege um seltene Erde geben. Es wird keine kriegszonenübergreifende Eroberung von Städten oder Ausgrabungsstätten geben."
+    },
+    "RadarMission": {
+      "Title": "Radarmissionen",
+      "Description": "In Staffel 2 wird eine neue Radarmission verfügbar sein: „In Not geratener Überlebender“.",
+      "Description2": "Um die Mission abzuschließen, schicken Sie Ihren Trupp los, um dem Überlebenden in Not zu helfen und erhalten Sie Belohnungen, darunter auch Kohle."
+    },
+    "HeroUpgrade": {
+      "Title": "Helden-Upgrades und Waffen",
+      "Description": "Staffel 2 bringt Neuigkeiten zu Helden und Waffen, deren Verfügbarkeit zeitlich begrenzt ist.",
+      "Violette": {
+        "Title": "Violets Upgrade auf UR",
+        "Description": "Es wird möglich sein, Violet auf UR zu upgraden. Das Event startet voraussichtlich nach Woche 2."
+      },
+      "Legend": {
+        "Title": "S2: Die Rückkehr der Legende",
+        "Description": "Nach jeweils 50 Rekruten ist ein legendärer Held garantiert."
+      },
+      "RecruitHeroes": {
+        "Title": "Helden rekrutieren"
+      },
+      "Weapon": {
+        "Title": "S2: Waffen der Legenden",
+        "Description": "Ein neuer Bereich in der Taverne ermöglicht den Erhalt von Helden-exklusiven Waffensplitter-Auswahltruhen II. Diese enthalten Waffensplitter von Kimberly, DVA und Tesla.",
+        "Image1": "Zum Rekrutieren in diesem Bereich benötigen Sie ein New Era-Rekrutierungsticket.",
+        "Image2": "Alle 20 Rekruten erhalten garantiert 2 exklusive Waffensplitter."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Exklusive Waffen",
+        "Description": "Staffel 2 bringt exklusive Waffen für Murphy, Carlie und ???.",
+        "Murphy": {
+          "Title": "Murphys exklusive Waffe",
+          "Description": "Ab Tag 4 der Saison 1 können Sie durch Murphys exklusiven Waffen-Battle-Pass Waffensplitter sammeln, um Murphys exklusive Waffe zu aktivieren und zu verbessern. Universelle Waffensplitter können nur zur Verbesserung, nicht zur Aktivierung, verwendet werden."
+        },
+        "Carlie": {
+          "Title": "Carlies exklusive Waffe",
+          "Description": "Ab Tag 4 der Woche 3 können Sie durch Carlies exklusiven Waffen-Battle-Pass Waffensplitter sammeln, um Carlies exklusive Waffe zu aktivieren und zu verbessern. Universelle Waffensplitter können nur zur Verbesserung, nicht zur Aktivierung, verwendet werden."
+        },
+        "Swift": {
+          "Title": "Swifts exklusive Waffe",
+          "Description": "Ab Tag 4 der Woche 6 können Sie durch Swifts exklusiven Waffen-Battle-Pass Waffensplitter sammeln, um Swifts exklusive Waffe zu aktivieren und zu verbessern. Universelle Waffensplitter können nur zur Verbesserung, nicht zur Aktivierung, verwendet werden."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Temperatur",
+      "Description": "Die Temperatur stellt in der Polarregion eine große Herausforderung dar und beeinflusst kontinuierlich die Statistiken Ihrer Basis. Ihre Basistemperatur passt sich langsam der Umgebung an. Die Aufrechterhaltung höherer Temperaturen bringt Ihnen Bonusstatistiken. Die Temperatur Ihrer Basis kann zwischen -270 °C und +300 °C liegen.",
+      "Location": {
+        "Title": "Standort",
+        "Description": "Sie können Ihre Temperatur über das Symbol überwachen oder die Temperaturdetailseite aufrufen, indem Sie auf das entsprechende Symbol klicken. Auf dieser Detailseite sind alle Faktoren aufgelistet, die sich auf die Temperatur Ihrer Basis auswirken.",
+        "Description2": "Im oberen Bereich können Sie sehen, wie sich das Symbol für die Temperatur Ihrer Basis (Haussymbol) bewegt und sich mit dem Symbol für die Umgebungstemperatur (Kartensymbol) deckt."
+      },
+      "Base": {
+        "Title": "Basis",
+        "Description": "Die oben angezeigte Endtemperatur der Standorte beeinflusst Ihre Basis und verursacht Buffs/Debuffs. Die Stärke in % des Buffs/Debuffs hängt von der Temperatur ab und wird in den Schemata angezeigt, die Sie in den Bildern unten sehen können. Hier die Beschreibung der Buffs/Debuffs.",
+        "Title2": "Grundlegende Ressourcenproduktion:",
+        "Description2": "Produktion von Ackerland, Eisenminen und Goldminen +10 % (bei 4 °C)",
+        "Title3": "Thermalwaffe:",
+        "Description3": "Truppenhaltbarkeitsschaden während der Spielsaison +100 (bei 4 °C)",
+        "Title4": "Heilungsgeschwindigkeit der Einheit:",
+        "Description4": "Heilungsgeschwindigkeit verwundeter Einheiten während der Saison +0 % (bei 4 °C)",
+        "Title5": "Einheitenmoral:",
+        "Description5": "Einheitenmoral während der Saison +0 % (bei 4 °C)"
+      },
+      "Factors": {
+        "Title": "Temperaturbeeinflussende Faktoren",
+        "Description": "Die Temperatur wird von vielen Faktoren beeinflusst:",
+        "List1": "Basisstandort auf der Karte: Je weiter man ins Zentrum geht, desto kälter wird es.",
+        "List2": "Ofenaktivität: Das neue saisonale Gebäude „Hochhitzeofen“ erzeugt Wärme für Ihre Basis, wenn es aktiviert ist, und noch mehr Wärme im Overdrive-Modus.",
+        "List3": "Intensive Overdrive-Fähigkeit: Eine saisonale Fähigkeit, die es ermöglicht, die Overdrive-Hitze zu erhöhen.",
+        "List4": "Alliance Furnace-Aktivität: Das neue saisonale Allianzgebäude ermöglicht die Erzeugung von Wärme im Nahbereich. Stützpunkte in der Nähe des Alliance Furnace werden von dieser Wärme beeinflusst.",
+        "List5": "Verbündetes Aufklärungsflugzeug: Verbündete können Aufklärungsflugzeuge schicken, um einem Verbündeten vorübergehend zuzusetzen.",
+        "List6": "Heizbereich der Stadt: Wenn der Stadtofen aktiviert ist, erwärmt sich der gesamte Stadtbereich (Feld, auf dem sich die Stadt befindet). Die Nähe zu einer Stadt hilft, warm zu bleiben.",
+        "List7": "Atomofen: Der ultimative Heizer, der nach der Aktivierung die gesamte Karte mit Wärme versorgt.",
+        "List8": "Blizzards: Seit Tag 1 der Saison finden Ereignisse statt, die stundenlang einen enormen Temperaturabfall in allen Kriegsgebieten verursachen. Je höher das Level, desto stärker sinkt die Temperatur.",
+        "List9": "Truppaktivität: Trupps, die Ihre Basis verlassen, verursachen einen vorübergehenden Wärmeverlust.",
+        "List10": "Polarmonster: Ihre Basis wird von Polarmonstern angegriffen, was zu einem Temperaturabfall von -5 °C führt (Verteidigungsversagen verursacht einen weiteren Abfall von -10 °C)."
+      },
+      "Burn": {
+        "Title": "Einfrieren und Brennen",
+        "Description": "Ihr Ziel ist es, Ihre Basis auf der richtigen Temperatur zu halten, damit Sie nicht von Debuffs betroffen sind und Ihre Basis nicht einfriert oder Feuer fängt. Achten Sie darauf, nicht zu viel Kohle auszugeben, da Sie diese für Ihren Ofen (und den Ofen der Allianz) benötigen, je weiter sich Ihre Allianz ins Zentrum bewegt.",
+        "Description2": "Wenn die Temperatur Ihrer Basis zu niedrig oder zu hoch wird, besteht die Gefahr, dass Ihre Basis einfriert oder Feuer fängt."
+      },
+      "LowTemperatures": {
+        "Title": "Niedrige Temperaturen",
+        "Description": "Die Temperatur Ihrer Basis kann nicht unter -270 °C fallen.",
+        "Title2": "Basis fast eingefroren:",
+        "Description2": "Wenn Sie unter -20 °C bleiben, wird ein 5-Minuten-Countdown gestartet, der „Bald einfrieren“ anzeigt. Wärmen Sie die Basis auf, bevor die Gefrierzeit endet, um ein Einfrieren zu verhindern.",
+        "Solutions": "Lösungen:",
+        "Solution1": "In eine wärmere Zone umziehen.",
+        "Solution2": "Hochtemperaturofen aktivieren oder in den Overdrive-Modus schalten.",
+        "Solution3": "Wenn Sie sich in Reichweite des Ofens der Allianz befinden, fordern Sie an, dass dieser aktiviert oder in den Overdrive-Modus geschaltet wird.",
+        "Solution4": "Bitten Sie Ihre Verbündeten, ein Aufklärungsflugzeug zu schicken, um Sie aufzuwärmen."
+      },
+      "FrozenBase": {
+        "Title": "Gefrorene Basis:",
+        "Description": "Wenn eine Basis länger als 5 Minuten unter -20 °C bleibt, ist sie eingefroren. In diesem Zustand sind Standortwechsel und Zusammenkünfte nicht möglich (Allianz- und zufällige Standortwechsel sind weiterhin möglich). Beachten Sie, dass auch Debuffs gelten, wie im Abschnitt „Basis“ gezeigt.",
+        "Solutions": "Lösungen:",
+        "Solution1": "Begeben Sie sich mit Hilfe der Allianz oder per Zufallsteleport in wärmere Zonen.",
+        "Solution2": "Aktivieren Sie den Hochtemperaturofen oder versetzen Sie ihn in den Overdrive-Modus.",
+        "Solution3": "Wenn Sie sich in Reichweite des Ofens der Allianz befinden, fordern Sie an, dass dieser in den Overdrive-Modus versetzt wird.",
+        "Solution4": "Bitten Sie Ihre Verbündeten, Ihnen ein Aufklärungsflugzeug zum Aufwärmen zu schicken oder Trupps zum Brechen des Eises (5 Treffer kosten jeweils 5 Ausdauerpunkte)."
+      },
+      "IceMelts": {
+        "Title": "Eis schmilzt bald:",
+        "Description": "Wenn Ihre Basis gefroren ist, können Sie sie abtauen, indem Sie die Temperatur auf über -20 °C bringen und diese Temperatur beibehalten. Ein 5-minütiger Abtau-Countdown wird gestartet. Fällt die Temperatur auch nur für eine Sekunde unter -20 °C, bleibt die Basis gefroren, und Sie müssen erneut mit dem Abtauen beginnen.",
+        "Description2": "Alternativ können Sie Ihre Verbündeten bitten, Trupps zu schicken, um das Eis zu brechen (5 Treffer kosten jeweils 5 Ausdauer)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Helfen Sie den Verbündeten, die Temperatur zu erhöhen",
+      "Description": "Sie können Ihren Verbündeten helfen, ihre Temperatur zu erhöhen, indem Sie einen Aufklärungsplan senden und etwas Kohle ausgeben. Beachten Sie jedoch, dass der Effekt nicht lange anhält. Dies kann besonders hilfreich sein, wenn sie mit schwierigen Ereignissen wie Blizzards konfrontiert sind."
+    },
+    "VirusResistance": {
+      "Title": "Virenresistenz",
+      "Description": "In Staffel 2 ist das Virus weiterhin aktiv, hat jedoch einen geringeren Einfluss auf das Gameplay als in Staffel 1.",
+      "Description2": "Um Ihre Virenresistenz zu erhöhen, müssen Sie Ihren eigenen Hochhitzeofen aufrüsten. Dies steigert sowohl die Hitze- als auch die Virenresistenz.",
+      "Image": "Wie gewohnt gibt es einen Wochenpass, der Ihnen einen Boost von 250 Virenresistenzen bietet.",
+      "Description3": "Die Virusresistenz hat folgende Auswirkungen:",
+      "List1": "Doom Elite, die Sie angreifen können.",
+      "List2": "Polarbestien, die die Ausgrabungsstätten bewachen, können Sie ebenfalls angreifen."
+    },
+    "Profession": {
+      "Title": "Berufe – Level-Cap auf Level 70 erweitert",
+      "Description": "In Saison 2 wird die Level-Obergrenze für Berufe auf Level 70 angehoben.",
+      "Description2": "Die saisonalen Fähigkeiten für die Stufen bis 50 werden überarbeitet und an das Saisonthema angepasst. Einige Fähigkeiten auf niedrigeren Stufen bleiben jedoch wie in Staffel 1.",
+      "SeasonSkills": {
+        "Title": "Saisonale Fähigkeiten",
+        "Description": "Die saisonalen Fähigkeiten sind für die Berufe Ingenieur und Kriegsherr identisch und befinden sich rechts vom Träger auf grünem Hintergrund."
+      },
+      "Warlords": {
+        "Title": "Zusatzfertigkeiten der Kriegsherren – Level 45 bis 70",
+        "Description": "Fähigkeiten für Level 45",
+        "Description2": "Fähigkeiten für Level 50",
+        "Description3": "Fähigkeiten für Level 55",
+        "Description4": "Fähigkeiten für Level 60",
+        "Description5": "Fähigkeiten für Level 65",
+        "Description6": "Fähigkeiten für Level 70"
+      },
+      "Engineer": {
+        "Title": "Zusatzfertigkeiten des Ingenieurs – Level 45 bis 70",
+        "Description": "Fähigkeiten für Level 45",
+        "Description2": "Fähigkeiten für Level 50",
+        "Description3": "Fähigkeiten für Level 55",
+        "Description4": "Fähigkeiten für Level 60",
+        "Description5": "Fähigkeiten für Level 65",
+        "Description6": "Fähigkeiten für Level 70"
+      }
     }
   }
 }

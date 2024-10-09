@@ -138,6 +138,7 @@
     "Squad": "Squad",
     "DesertStorm": "Desert Storm",
     "SeasonOne": "Season 1",
+    "SeasonTwo": "Season 2",
     "Marshall": "Marshal Guard"
   },
   "VS": {
@@ -1113,6 +1114,400 @@
     "Pagination": {
       "NextLabel": "Next",
       "PreviousLabel": "Previous"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Season 2 - Polar Storm",
+    "Content": {
+      "Title": "Content",
+      "NewResources": "New Basic Resources",
+      "WorldMap": "The World and the Map",
+      "NewBuildings": "New Buildings",
+      "AllianceFurnace": "Alliance Furnace",
+      "NewFarms": "New Farms – Alliance Resources",
+      "MilitaryBase": "Military Bases",
+      "Cities": "Cities",
+      "DigSites": "Excavation Sites",
+      "StockCollection": "Stock Collection",
+      "RareSoil": "Rare Soil",
+      "RareSoilWar": "War for Rare Soil",
+      "RadarMission": "Radar Missions",
+      "HeroUpgrade": "Hero Upgrades and Weapons",
+      "Temperature": "Temperature",
+      "HelpTheAllies": "Help the Allies Increase the Temperature",
+      "VirusResistance": "Virus Resistance",
+      "Profession": "Professions – Level Cap Increased to Level 70"
+    },
+    "Resources": {
+      "Title": "New Base Resources – Coal and Titanium Alloys",
+      "Description": "Additional resources are now available in the game: titanium alloy and coal.",
+      "Titanium": {
+        "Title": "Titanium Alloy",
+        "Description": "Used for building and upgrading seasonal buildings.",
+        "Description2": "You can obtain titanium alloys by:",
+        "List1": "Rewards for the first-time killing of zombies at level",
+        "List2": "Completing seasonal quest missions",
+        "List3": "Completing Season 2 objectives for the high-temperature furnace level",
+        "List4": "First blood kill of Doom Walker (first DW kill of the day)",
+        "List5": "Using the 'Hero's Return' recruitment ticket in S2: Legend Returns",
+        "List6": "Reward for the first conquest of a city/excavation site"
+      },
+      "Coal": {
+        "Title": "Coal",
+        "Description": "Used for building and upgrading seasonal structures or for fueling the high-temperature furnace.",
+        "Description2": "You can earn coal by:",
+        "List1": "Rewards for the first-time killing of zombies at level",
+        "List2": "Completing seasonal quest missions",
+        "List3": "Conquering excavation sites allows for continuous coal production",
+        "List4": "Completing Season 2 objectives for the high-temperature furnace level",
+        "List5": "Using the 'Hero's Return' recruitment ticket in S2: Legend Returns",
+        "List6": "Weekly pass and seasonal battle pass (biggest boost)",
+        "List7": "Rewards for collecting supplies",
+        "List8": "Reward for the first conquest of a city/excavation site",
+        "List9": "Feeding Snowflake with a meal he receives through the 'Polar Dishes' event"
+      }
+    },
+    "WorldMap": {
+      "Title": "The World and the Map",
+      "Description": "The world has changed again. The map consists of changing cities and excavation sites.",
+      "Description2": "To thwart the ambitions of Emperor Boreas, gather with your allies at the edge of the polar region. It is very cold, and the temperature continues to drop as you get closer to the center.",
+      "Image1": "Cities",
+      "Image2": "Excavation Sites",
+      "Image3": "Atomic Furnace (Capitol)",
+      "Description3": "At the beginning of the season, you and your allies are stranded at the edge of the server (but still together as an alliance hive) and have no city of your own. Cities must be recaptured, but new rules apply …",
+      "Description4": "Doom elite monsters transform into aggressive polar monsters, and most zombies require high virus resistance to be killed.",
+      "Description5": "This is what the map looks like. The buildings you see are the cities; the other tiles in between are the excavation sites. Tiles are considered connected at the corners, so for example, each city tile is connected at the corners with the tiles of other cities. The same applies to excavation sites.",
+      "ThermalMap": {
+        "Title": "Thermal Map View",
+        "Description": "As you can see in the map view, there is a toggle to activate the heat map, which shows you the temperature. When you click on any point on the map, the temperature at that location will be displayed.",
+        "Description2": "The further you move toward the center of the map, the lower the temperature becomes.",
+        "Description3": "Starting from each excavation site in the corner diagonally to the center, each map square has a decreasing temperature of: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (The Capitol).",
+        "Description4": "This is the complete heat map overlay, which does not take into account urban furnaces, atomic furnaces, snowstorms, or other heat-altering effects. It shows the base temperature of the war zone."
+      }
+    },
+    "NewBuildings": {
+      "Title": "New Buildings",
+      "Description": "New building types are available in Season 2.",
+      "Description2": "The buildings that belong to your base can only be built outside the radius of your base (the same area as in Season 1).",
+      "Description3": "Some will appear at the very beginning of the season, while others will follow.",
+      "Description4": "New alliance buildings are also available in Season 2.",
+      "TitanFabric": {
+        "Title": "Titanium Alloy Factory",
+        "Image1": "The titanium alloy factory produces titanium alloys, which are crucial for upgrading your furnace.",
+        "Update": {
+          "Title": "Upgrade the Titanium Alloy Factory Level",
+          "Description": "You will need coal to upgrade the titanium alloy factory.",
+          "Description2": "This building can be upgraded to level 30 regardless of your HQ level.",
+          "Description3": "Once your first titanium alloy factory reaches level 15, a new titanium alloy factory will become available.",
+          "Description4": "Subsequent titanium alloy factories will become available once the previous level reaches 15.",
+          "Description5": "A titanium alloy factory will be immediately available with the weekly seasonal pass.",
+          "Image": "IMPORTANT: Each level increase always gives you an increase of 720 output/h, regardless of the level achieved. So be smart and always level up the factory with the lowest level first."
+        },
+        "Requirements": {
+          "Title": "Coal Requirements for a Titanium Alloy Factory",
+          "Description": "The values in the following table are the ORIGINAL costs for coal. Some deductions will be applied to these costs based on:",
+          "List1": "Your technical research on building cost reduction",
+          "List2": "Your alliance tech on construction cost reduction",
+          "List3": "The profession specialization, especially the 'Resource Conservation' skill at level 35 (up to -5%)",
+          "Image": "To determine your actual costs, calculate the percentage of 'reduction of resources required to build the building' and subtract that percentage from the ORIGINAL costs."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "High-Temperature Furnace",
+        "Description": "This new building is very important.",
+        "Image": "It allows you to increase the temperature using coal, thus increasing virus resistance.",
+        "Update": {
+          "Title": "Upgrade the High-Temperature Furnace Level",
+          "Description": "You will need a titanium alloy to upgrade the high-temperature furnace.",
+          "Description2": "Upgrading this building will improve the following points:",
+          "List1": "virus resistance",
+          "List2": "the activation heat of the furnace (this is the base temperature of the furnace)",
+          "List3": "the furnace overheating (this is the maximum temperature you can reach with the furnace if you allow it to consume more coal per minute)",
+          "Image": "This building can be upgraded to level 30 regardless of your HQ level."
+        },
+        "Control": {
+          "Title": "High-Temperature Furnace Control Panel",
+          "Description": "To increase the temperature of your base, you can turn on the high-temperature furnace.",
+          "Description2": "The control panel is quite simple to understand:",
+          "List1": "Switch to turn on/off",
+          "List2": "Switch to activate overdrive, which consumes more coal per minute but heats more",
+          "List3": "Switch to automatically activate the furnace when a blizzard arrives.",
+          "Image": "When you activate overdrive, the temperature rises even faster."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Alliance Furnace",
+      "Description": "In addition to your own high-temperature furnace, there will also be the Alliance Furnace. This is a nice addition as the entire alliance can contribute to raising the temperature for all allies.",
+      "Description2": "From day 1 of the second season, alliances can position the building site for the Alliance Furnace on the map (level 1 area) and begin repairing the Alliance Furnace for use (starts at level 1). This process is similar to building an outpost with up to 20 reinforcements.",
+      "Description3": "The Alliance Furnace can be found by clicking on the Alliance button -> Alliance Furnace -> and then clicking on the coordinates. Actions on it can only be performed by R4/R5 members.",
+      "HeatingRange": {
+        "Title": "Heating Range of the Alliance Furnace",
+        "Description": "It is important to note that the Alliance Furnace only increases the temperature within its effective range. Therefore, make sure your base is near the furnace.",
+        "Description2": "A good suggestion for an alliance would be to always settle near the Alliance Furnace and allow members with lower temperatures and a low high-temperature furnace level to come closer.",
+        "Description3": "Below, you can see the effect of the furnace on the area when it is turned on and off. On the left, the furnace is on and thus heating the surroundings; on the right, it is off and the temperature at exactly the same spot is lower.",
+        "Description4": "Below you can see the heat map around the furnace and how it influences the temperature in the vicinity."
+      }
+    },
+    "NewFarms": {
+      "Title": "New Farms – Alliance Resources",
+      "Description": "As seen in Season 1, a new type of alliance resource farm can temporarily appear after randomly killing Doom elites. In Season 2, they can also be of the titanium alloy and coal type."
+    },
+    "MilitaryBase": {
+      "Title": "Military Bases",
+      "Description": "Once the high-temperature furnace reaches level 30, three new buildings will become available, allowing upgrades for hero types.",
+      "Description2": "IMPORTANT: These buildings will disappear at the end of Season 2, just as they did in Season 1.",
+      "Description3": "To upgrade, you will need both coal and titanium alloy. These buildings can be upgraded to level 30 regardless of your HQ level.",
+      "Description4": "Each level upgrade increases the corresponding damage boost caused by tank, aircraft, or missile heroes.",
+      "Description5": "The amount of coal and titanium alloy required for each level upgrade is the same for all buildings, as is the boost percentage."
+    },
+    "Cities": {
+      "Title": "Cities",
+      "List1": "Maximum number of cities and excavation sites you can conquer: 6 cities and 4 excavation sites.",
+      "List2": "Conquering cities does not increase the number of excavation sites you can conquer, as this always remains 4.",
+      "Description": "Your own cities and excavation sites produce Rare Earth, which is crucial for victory in Season 2. The amount depends on the city level: amount of Rare Earth in cities and amount of Rare Earth in excavation sites.",
+      "Heating": {
+        "Title": "City Furnace",
+        "Description": "Cities supply the entire city area with heat once they are conquered. The amount depends on their level:",
+        "List1": "Level 1: 5 °C",
+        "List2": "Level 2: 20 °C",
+        "List3": "Level 3: 30 °C",
+        "List4": "Level 4: 40 °C",
+        "List5": "Level 5: 50 °C",
+        "List6": "Level 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Excavation Sites",
+      "Description": "Excavation sites were once crucial for coal production but have been taken over by mutated beasts under the control of Emperor Boreas. Defeat the beasts, reclaim the sites, and resume coal production.",
+      "Description2": "Coal is essential for heating your base. Therefore, conquering excavation sites that produce coal is a very important step for any alliance. Higher-level excavation sites produce greater amounts of coal.",
+      "Description3": "With the latest game update, excavation sites also produce Rare Earth.",
+      "Description4": "The excavation site is guarded by ice beasts, which can be thawed. You must thaw them before conquering the site.",
+      "Description5": "To do this, click on the beast and use the 'Thaw' button to send your troops into action. Then defeat the ice beast as you did with the Corruptors in Season 1.",
+      "Description6": "You can view all the alliance's excavation sites by clicking the 'Alliance' -> 'Alliance City' button.",
+      "Description7": "On the first tab, you'll find cities and excavation sites that produce Rare Earth; on the second tab, you'll find excavation sites that produce coal. You can claim these hourly by clicking on each listed excavation site or on the 'Claim All' button.",
+      "Coal": {
+        "Title": "Coal and Rare Earth Excavation Sites",
+        "Description": "Excavation sites produce coal and Rare Earth based on their level; here’s the exact amount per level:",
+        "List1": "Level 1: 2,736/h coal – 100/h Rare Earth",
+        "List2": "Level 2: 2,880/h coal – 110/h Rare Earth",
+        "List3": "Level 3: 3,024/h coal – 120/h Rare Earth",
+        "List4": "Level 4: 3,168/h coal – 130/h Rare Earth",
+        "List5": "Level 5: 3,312/h coal – 140/h Rare Earth",
+        "List6": "Level 6: 3,456/h coal – 150/h Rare Earth"
+      },
+      "Protection": {
+        "Title": "Capture and Protection Status",
+        "Description": "Excavation sites are similar to the fortresses of Season 1.",
+        "List1": "Maximum number of excavation sites you can own: 4, regardless of how many cities you own.",
+        "List2": "Maximum daily limit for conquering excavation sites: 2.",
+        "List3": "The first conquest requires defeating mutated beasts with sufficient virus resistance. The Polar Beast may be frozen, so you'll need to send troops to thaw it before attacking. Defeating these beasts requires multiple hits (each hit causes % damage). Once the Polar Beast is defeated, you must reinforce the excavation site with up to 10 troops.",
+        "List4": "The conquest process of the excavation site is a challenge, where the first alliance to reach 100% wins. The maximum conquest time is 4 hours. If full progress of 100% is not achieved within this time, the attempt fails. If the excavation site was not owned, it remains neutral; if it was owned, it stays with the previous owner. An alliance's conquest percentage increases while the site is being reinforced. Stronger troops accelerate the process.",
+        "List5": "Once an excavation site is captured, it will be protected for 36 hours and surrounded by guards.",
+        "List6": "Technically, you can attack and reinforce an unlimited number of excavation sites simultaneously, but once you complete the second daily conquest, you can no longer attack neutral or owned excavation sites. If you've reinforced another excavation site (counted as the third conquest), your troops will automatically be removed as soon as the second conquest is completed.",
+        "List7": "If an excavation site belongs to an alliance and is attacked by another, a failed conquest attempt does not count as a daily conquest for the defending alliance.",
+        "List8": "Your first alliance territory must be an excavation site of level 1. From here, you can conquer any adjacent area. Areas in Season 2 are also adjacent at their corners.",
+        "List9": "Territory conquest can be extended to adjacent areas (excavation sites and cities) from both owned cities and excavation sites.",
+        "List10": "If you give up or lose an alliance territory and now have two separate sets of alliance territories, you can still conquer all areas that are adjacent to either set.",
+        "List11": "If your alliance abandons an excavation site (which takes one hour), it becomes neutral, and any alliance, including yours, can reclaim it. However, if the excavation site was still under protection when abandoned, the protection cooldown must expire before any alliance, including your own, can take control.",
+        "List12": "In Season 2, there will be no cross-zone conquests of excavation sites.",
+        "Description2": "Below, you see a mutated gorilla guarding a level 2 excavation site. The mutated gorilla is still frozen, and the alliance has partially thawed it.",
+        "Description3": "The game allows the conquest of excavation sites that are diagonally adjacent to other excavation sites at a corner. For example, in the images below, it was not necessary to conquer city level 2 to conquer the other excavation sites that are corner-adjacent to the other excavation sites. These screenshots are from day 3 when only city level 1 could be conquered."
+      }
+    },
+    "StockCollection": {
+      "Title": "Supply Collection",
+      "Description": "In Season 2, a new treasure type for alliance resources appears.",
+      "Description2": "These new treasures can only be discovered when the land temperature reaches 0 °C.",
+      "Description3": "To find them, relocate the alliance furnace to heat the land and bring it to 0 °C. You can also conquer a city so that the city furnace heats the entire city area. Then, move the alliance furnace and activate it in overdrive mode (of course, you need to ensure that your current alliance furnace level is high enough to reach the right temperature). Once the land reaches 0 °C, the supply collection appears in thawed state.",
+      "Description4": "Send troops to thaw the supply collection and then claim your reward.",
+      "Description5": "Supply collections have different levels and therefore offer different rewards.",
+      "Description6": "There is an option to access the Season 2 icon -> Supply Collection and from there see if supply collections have been discovered.",
+      "Image1": "There is a limit of 5 redemption attempts per day."
+    },
+    "RareSoil": {
+      "Title": "Rare Soil",
+      "Description": "Once cities and dig sites in the polar region are conquered, they will begin to produce rare soil over time. Rare soil is an important alliance resource this season, and at the end of the season, alliances will be ranked based on their quantity. The higher the rank, the better the rewards.",
+      "Description2": "The higher the levels of the city and dig site, the more rare soil will be produced per hour.",
+      "Production": {
+        "Title": "Production of Rare Soil",
+        "Description": "Once cities and dig sites are conquered, they will begin to produce rare soil depending on their level.",
+        "Description2": "You can see the details of rare soil production by clicking on the 'Alliance' -> 'Alliance City' button. There you can see both cities and dig sites that produce rare soil.",
+        "Description3": "The total amount of produced rare soil is visible in the alliance furnace view: Alliance button -> Alliance Furnace, and it affects the level of the alliance furnace.",
+        "Description4": "The rankings for rare soil can be accessed through the 'Season 2' page: Season 2 icon -> Leaderboard.",
+        "Description5": "You can earn more rare soil by winning as an attacker in the war for rare soil."
+      },
+      "CityProduction": {
+        "Title": "Rare Soil Production in the City",
+        "Description": "Here is the exact amount of rare soil per city level:",
+        "List1": "Level 1: 350/h",
+        "List2": "Level 2: 400/h",
+        "List3": "Level 3: 450/h",
+        "List4": "Level 4: 800/h",
+        "List5": "Level 5: 900/h",
+        "List6": "Level 6: 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Rare Soil Production in Dig Sites",
+        "Description": "Here is the exact amount of rare soil per dig site level:",
+        "List1": "Level 1: 100/h",
+        "List2": "Level 2: 110/h",
+        "List3": "Level 3: 120/h",
+        "List4": "Level 4: 130/h",
+        "List5": "Level 5: 140/h",
+        "List6": "Level 6: 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "War for Rare Soil",
+      "Description": "In Season 2, there will be wars for rare soil. There will be no cross-zone conquest of cities or dig sites."
+    },
+    "RadarMission": {
+      "Title": "Radar Missions",
+      "Description": "In Season 2, a new radar mission will be available: 'Survivor in Distress.'",
+      "Description2": "To complete the mission, send your troop to help the survivor in distress and receive rewards, including coal."
+    },
+    "HeroUpgrade": {
+      "Title": "Hero Upgrades and Weapons",
+      "Description": "Season 2 brings news about heroes and weapons, which will be available for a limited time.",
+      "Violette": {
+        "Title": "Violet's Upgrade to UR",
+        "Description": "It will be possible to upgrade Violet to UR. The event is expected to start after week 2."
+      },
+      "Legend": {
+        "Title": "S2: The Return of the Legend",
+        "Description": "After every 50 recruits, a legendary hero is guaranteed."
+      },
+      "RecruitHeroes": {
+        "Title": "Recruit Heroes"
+      },
+      "Weapon": {
+        "Title": "S2: Weapons of Legends",
+        "Description": "A new area in the tavern allows you to receive hero-exclusive weapon shard selection chests II. These contain weapon shards from Kimberly, DVA, and Tesla.",
+        "Image1": "To recruit in this area, you need a New Era recruitment ticket.",
+        "Image2": "Every 20 recruits guarantees 2 exclusive weapon shards."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Exclusive Weapons",
+        "Description": "Season 2 brings exclusive weapons for Murphy, Carlie, and ???.",
+        "Murphy": {
+          "Title": "Murphy's Exclusive Weapon",
+          "Description": "Starting from day 4 of season 1, you can collect weapon shards through Murphy's exclusive weapon battle pass to activate and upgrade Murphy's exclusive weapon. Universal weapon shards can only be used for upgrading, not for activation."
+        },
+        "Carlie": {
+          "Title": "Carlie's Exclusive Weapon",
+          "Description": "Starting from day 4 of week 3, you can collect weapon shards through Carlie's exclusive weapon battle pass to activate and upgrade Carlie's exclusive weapon. Universal weapon shards can only be used for upgrading, not for activation."
+        },
+        "Swift": {
+          "Title": "Swift's Exclusive Weapon",
+          "Description": "Starting from day 4 of week 6, you can collect weapon shards through Swift's exclusive weapon battle pass to activate and upgrade Swift's exclusive weapon. Universal weapon shards can only be used for upgrading, not for activation."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Temperature",
+      "Description": "Temperature poses a significant challenge in the polar region and continuously affects the statistics of your base. The base temperature gradually adjusts to the environment. Maintaining higher temperatures gives you bonus statistics. The temperature of your base can range from -270 °C to +300 °C.",
+      "Location": {
+        "Title": "Location",
+        "Description": "You can monitor your temperature via the icon or access the temperature detail page by clicking on the corresponding icon. This detail page lists all the factors affecting your base's temperature.",
+        "Description2": "In the upper area, you can see how the symbol for your base's temperature (house icon) moves and overlaps with the symbol for the ambient temperature (map icon)."
+      },
+      "Base": {
+        "Title": "Base",
+        "Description": "The final temperature of the locations displayed above affects your base and causes buffs/debuffs. The strength of the buff/debuff in % depends on the temperature and is shown in the diagrams you can see in the images below. Here’s the description of the buffs/debuffs.",
+        "Title2": "Basic Resource Production:",
+        "Description2": "Production from farmland, iron mines, and gold mines +10% (at 4 °C)",
+        "Title3": "Thermal Weapon:",
+        "Description3": "Troop durability damage during the game season +100 (at 4 °C)",
+        "Title4": "Unit Healing Speed:",
+        "Description4": "Healing speed of wounded units during the season +0% (at 4 °C)",
+        "Title5": "Unit Morale:",
+        "Description5": "Unit morale during the season +0% (at 4 °C)"
+      },
+      "Factors": {
+        "Title": "Factors Affecting Temperature",
+        "Description": "Temperature is influenced by many factors:",
+        "List1": "Base location on the map: The further you go to the center, the colder it gets.",
+        "List2": "Furnace activity: The new seasonal building 'High-Heat Furnace' generates heat for your base when activated and even more heat in Overdrive mode.",
+        "List3": "Intense Overdrive Ability: A seasonal ability that allows you to increase Overdrive heat.",
+        "List4": "Alliance Furnace Activity: The new seasonal alliance building generates heat in the nearby area. Bases near the Alliance Furnace are influenced by this heat.",
+        "List5": "Allied Recon Aircraft: Allies can send recon aircraft to temporarily heat up an ally.",
+        "List6": "City Heating Area: When the city furnace is activated, the entire city area (field where the city is located) warms up. Proximity to a city helps stay warm.",
+        "List7": "Atomic Furnace: The ultimate heater that supplies heat to the entire map after activation.",
+        "List8": "Blizzards: Since day 1 of the season, events occur that cause a massive temperature drop across all war zones for hours. The higher the level, the more significantly the temperature drops.",
+        "List9": "Troop Activity: Troops leaving your base cause a temporary loss of heat.",
+        "List10": "Polar Monsters: Your base is attacked by polar monsters, resulting in a temperature drop of -5 °C (defensive failures cause an additional drop of -10 °C)."
+      },
+      "Burn": {
+        "Title": "Freezing and Burning",
+        "Description": "Your goal is to maintain your base at the right temperature so you are not affected by debuffs and your base does not freeze or catch fire. Be careful not to spend too much coal, as you will need it for your furnace (and the alliance furnace) the further your alliance moves to the center.",
+        "Description2": "If your base's temperature gets too low or too high, there is a risk that your base will freeze or catch fire."
+      },
+      "LowTemperatures": {
+        "Title": "Low Temperatures",
+        "Description": "The temperature of your base cannot fall below -270 °C.",
+        "Title2": "Base Nearly Frozen:",
+        "Description2": "If you stay below -20 °C, a 5-minute countdown will start, indicating 'About to Freeze.' Warm up the base before the freeze time ends to prevent freezing.",
+        "Solutions": "Solutions:",
+        "Solution1": "Move to a warmer zone.",
+        "Solution2": "Activate the high-temperature furnace or switch to Overdrive mode.",
+        "Solution3": "If you are within range of the alliance furnace, request for it to be activated or switched to Overdrive mode.",
+        "Solution4": "Ask your allies to send a recon aircraft to warm you up."
+      },
+      "FrozenBase": {
+        "Title": "Frozen Base:",
+        "Description": "If a base remains below -20 °C for more than 5 minutes, it becomes frozen. In this state, location changes and gatherings are not possible (alliance and random location changes are still possible). Note that debuffs also apply, as shown in the 'Base' section.",
+        "Solutions": "Solutions:",
+        "Solution1": "Get help from the alliance or teleport randomly to warmer zones.",
+        "Solution2": "Activate the high-temperature furnace or switch it to Overdrive mode.",
+        "Solution3": "If you are within range of the alliance furnace, request for it to be switched to Overdrive mode.",
+        "Solution4": "Ask your allies to send you a recon aircraft to warm you up or troops to break the ice (5 hits cost 5 stamina points each)."
+      },
+      "IceMelts": {
+        "Title": "Ice Melting Soon:",
+        "Description": "If your base is frozen, you can thaw it by raising the temperature above -20 °C and maintaining that temperature. A 5-minute thaw countdown will start. If the temperature falls below -20 °C even for a second, the base remains frozen, and you will need to start thawing again.",
+        "Description2": "Alternatively, you can ask your allies to send troops to break the ice (5 hits cost 5 stamina each)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Help Allies Increase Temperature",
+      "Description": "You can assist your allies in raising their temperature by sending a recon plan and spending some coal. However, note that the effect does not last long. This can be particularly helpful when they are facing difficult events like blizzards."
+    },
+    "VirusResistance": {
+      "Title": "Virus Resistance",
+      "Description": "In Season 2, the virus remains active but has a lesser impact on gameplay than in Season 1.",
+      "Description2": "To increase your virus resistance, you need to upgrade your own High-Heat Furnace. This enhances both heat and virus resistance.",
+      "Image": "As usual, there is a weekly pass that provides you with a boost of 250 virus resistances.",
+      "Description3": "Virus resistance has the following effects:",
+      "List1": "Doom Elite that you can attack.",
+      "List2": "Polar beasts guarding the excavation sites can also attack you."
+    },
+    "Profession": {
+      "Title": "Professions – Level Cap Increased to Level 70",
+      "Description": "In Season 2, the level cap for professions is raised to level 70.",
+      "Description2": "The seasonal abilities for levels up to 50 will be revised and adapted to the season theme. However, some abilities at lower levels will remain the same as in Season 1.",
+      "SeasonSkills": {
+        "Title": "Seasonal Abilities",
+        "Description": "The seasonal abilities are identical for the professions Engineer and Warlord and are located to the right of the carrier on a green background."
+      },
+      "Warlords": {
+        "Title": "Warlord Additional Skills – Levels 45 to 70",
+        "Description": "Skills for Level 45",
+        "Description2": "Skills for Level 50",
+        "Description3": "Skills for Level 55",
+        "Description4": "Skills for Level 60",
+        "Description5": "Skills for Level 65",
+        "Description6": "Skills for Level 70"
+      },
+      "Engineer": {
+        "Title": "Engineer Additional Skills – Levels 45 to 70",
+        "Description": "Skills for Level 45",
+        "Description2": "Skills for Level 50",
+        "Description3": "Skills for Level 55",
+        "Description4": "Skills for Level 60",
+        "Description5": "Skills for Level 65",
+        "Description6": "Skills for Level 70"
+      }
     }
   }
 }

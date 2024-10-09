@@ -138,6 +138,7 @@
     "Squad": "Squadra",
     "DesertStorm": "Tempesta del deserto",
     "SeasonOne": "Stagione 1",
+    "SeasonTwo": "Stagione 2",
     "Marshall": "Guardia del Maresciallo"
   },
   "VS": {
@@ -1109,6 +1110,400 @@
     "Pagination": {
       "NextLabel": "Avanti",
       "PreviousLabel": "Precedente"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Stagione 2 - Tempesta Polare",
+    "Content": {
+      "Title": "Contenuto",
+      "NewResources": "Nuove risorse di base",
+      "WorldMap": "Il mondo e la mappa",
+      "NewBuildings": "Nuovi edifici",
+      "AllianceFurnace": "Fornace dell'alleanza",
+      "NewFarms": "Nuove fattorie – Risorse dell'alleanza",
+      "MilitaryBase": "Basi militari",
+      "Cities": "Città",
+      "DigSites": "Siti di scavo",
+      "StockCollection": "Collezione di scorte",
+      "RareSoil": "Terreno raro",
+      "RareSoilWar": "Guerra per il terreno raro",
+      "RadarMission": "Missioni radar",
+      "HeroUpgrade": "Aggiornamenti degli eroi e armi",
+      "Temperature": "Temperatura",
+      "HelpTheAllies": "Aiuta gli alleati ad aumentare la temperatura",
+      "VirusResistance": "Resistenza ai virus",
+      "Profession": "Professioni – Limite di livello aumentato a 70"
+    },
+    "Resources": {
+      "Title": "Nuove risorse di base – Leghe di titanio e carbone",
+      "Description": "Ora sono disponibili risorse aggiuntive nel gioco: leghe di titanio e carbone.",
+      "Titanium": {
+        "Title": "Lega di Titanio",
+        "Description": "Utilizzata per costruire e potenziare edifici stagionali.",
+        "Description2": "Puoi ottenere leghe di titanio tramite:",
+        "List1": "Ricompense per il primo uccisione di zombie a livello",
+        "List2": "Completamento delle missioni della quest di stagione",
+        "List3": "Completamento degli obiettivi della stagione 2 per il livello del forno ad alta temperatura",
+        "List4": "Primo uccisione di Doom Walker (primo DW uccisione del giorno)",
+        "List5": "Utilizzo del biglietto di reclutamento 'Ritorno dell'Eroe' in S2: Ritorni Leggendari",
+        "List6": "Ricompensa per la prima conquista di una città/sito di scavo"
+      },
+      "Coal": {
+        "Title": "Carbone",
+        "Description": "Utilizzato per costruire e potenziare strutture stagionali o per alimentare il forno ad alta temperatura.",
+        "Description2": "Puoi guadagnare carbone tramite:",
+        "List1": "Ricompense per il primo uccisione di zombie a livello",
+        "List2": "Completamento delle missioni della quest di stagione",
+        "List3": "Conquistare siti di scavo consente una produzione continua di carbone",
+        "List4": "Completamento degli obiettivi della stagione 2 per il livello del forno ad alta temperatura",
+        "List5": "Utilizzo del biglietto di reclutamento 'Ritorno dell'Eroe' in S2: Ritorni Leggendari",
+        "List6": "Pass settimanale e Pass battaglia della stagione (miglior potenziamento)",
+        "List7": "Ricompense per la raccolta di rifornimenti",
+        "List8": "Ricompensa per la prima conquista di una città/sito di scavo",
+        "List9": "Nutrire Snowflake con un pasto che riceve tramite l'evento 'Pasti Polari'"
+      }
+    },
+    "WorldMap": {
+      "Title": "Il Mondo e la Mappa",
+      "Description": "Il mondo è nuovamente cambiato. La mappa è composta da città e siti di scavo variabili.",
+      "Description2": "Per sabotare le ambizioni dell'Imperatore Boreas, radunatevi con i vostri alleati ai margini della regione polare. Fa molto freddo e la temperatura continua a scendere man mano che ci si avvicina al centro.",
+      "Image1": "Città",
+      "Image2": "Siti di scavo",
+      "Image3": "Fornace Atomica (Capitolo)",
+      "Description3": "All'inizio della stagione, tu e i tuoi alleati vi ritrovate ai margini del server (ma comunque insieme come Alleanza-Hive) e non avete una città propria. Le città devono essere riconquistate, ma si applicano nuove regole ...",
+      "Description4": "I mostri Doom-Elite si trasformano in mostri polari aggressivi e la maggior parte degli zombie richiede un'alta resistenza ai virus per essere uccisi.",
+      "Description5": "Ecco com'è la mappa. Gli edifici che vedi sono le città, mentre le altre tessere tra di loro sono i siti di scavo. Le tessere si considerano connesse agli angoli, quindi ad esempio ogni tessera di città è connessa agli angoli con le tessere delle altre città. Lo stesso vale per i siti di scavo.",
+      "ThermalMap": {
+        "Title": "Vista della Mappa Termica",
+        "Description": "Come puoi vedere nella vista della mappa, c'è un interruttore per attivare la mappa termica, che ti mostra la temperatura. Cliccando su ogni punto della mappa, ti verrà mostrata la temperatura in quel luogo.",
+        "Description2": "Più ti sposti verso il centro della mappa, più bassa sarà la temperatura.",
+        "Description3": "Partendo da ogni sito di scavo nell'angolo diagonale verso il centro, ogni campo della mappa ha una temperatura in diminuzione, e cioè: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (Il Capitolo).",
+        "Description4": "Questa è la sovrapposizione completa della mappa termica, che non tiene conto di forni urbani, forni atomici, tempeste di neve o altri effetti che alterano il calore. Mostra la temperatura di base dell'area di guerra."
+      }
+    },
+    "NewBuildings": {
+      "Title": "Nuovi Edifici",
+      "Description": "Nella Stagione 2 sono disponibili nuovi tipi di edifici.",
+      "Description2": "Gli edifici che appartengono alla tua base possono essere costruiti solo al di fuori del raggio della tua base (la stessa area della Stagione 1).",
+      "Description3": "Alcuni appaiono fin dall'inizio della stagione, altri seguiranno.",
+      "Description4": "Nella Stagione 2 sono disponibili anche nuovi edifici per l'alleanza.",
+      "TitanFabric": {
+        "Title": "Fabbrica di Leghe di Titanio",
+        "Image1": "La fabbrica di leghe di titanio produce leghe di titanio, fondamentali per potenziare il tuo forno.",
+        "Update": {
+          "Title": "Aumenta il livello della fabbrica di leghe di titanio",
+          "Description": "Hai bisogno di carbone per potenziare la fabbrica di leghe di titanio.",
+          "Description2": "Questo edificio può essere potenziato fino al livello 30, indipendentemente dal livello del tuo HQ.",
+          "Description3": "Una volta che la tua prima fabbrica di leghe di titanio raggiunge il livello 15, sarà disponibile una nuova fabbrica di leghe di titanio.",
+          "Description4": "Fabbriche di leghe di titanio successive saranno disponibili quando il livello precedente raggiunge 15.",
+          "Description5": "Una fabbrica di leghe di titanio sarà immediatamente disponibile con il pass settimanale della stagione.",
+          "Image": "IMPORTANTE: Ogni aumento di livello ti garantisce sempre un incremento di 720 output/h, indipendentemente dal livello raggiunto. Quindi sii saggio e potenzia sempre prima la fabbrica con il livello più basso."
+        },
+        "Requirements": {
+          "Title": "Requisiti di Carbone per una Fabbrica di Leghe di Titanio",
+          "Description": "I valori nella tabella seguente sono i costi INIZIALI per il carbone. Su questi costi verranno applicati alcuni sconti, basati su:",
+          "List1": "Le tue ricerche tecnologiche sulla riduzione dei costi degli edifici",
+          "List2": "La tua tecnologia di alleanza relativa alla riduzione dei costi di costruzione",
+          "List3": "La specializzazione professionale, in particolare l'abilità 'Risparmio di Risorse' di livello 35 (fino a -5%)",
+          "Image": "Per determinare i tuoi costi effettivi, calcola la percentuale di 'riduzione delle risorse necessarie per costruire l'edificio' e sottrai questa percentuale dai costi INIZIALI."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Forno ad Alta Temperatura",
+        "Description": "Questo nuovo edificio è molto importante.",
+        "Image": "Permette di aumentare la temperatura utilizzando il carbone e quindi migliorare la resistenza ai virus.",
+        "Update": {
+          "Title": "Aumenta il livello del forno ad alta temperatura",
+          "Description": "Hai bisogno di una lega di titanio per potenziare il forno ad alta temperatura.",
+          "Description2": "Potenziare questo edificio permette di migliorare i seguenti aspetti:",
+          "List1": "la resistenza ai virus",
+          "List2": "il calore attivato del forno (questa è la temperatura di base del forno)",
+          "List3": "il surriscaldamento del forno (questa è la temperatura massima che puoi raggiungere con il forno, consentendo che consumi più carbone al minuto)",
+          "Image": "Questo edificio può essere potenziato fino al livello 30, indipendentemente dal livello del tuo HQ."
+        },
+        "Control": {
+          "Title": "Pannello di Controllo del Forno ad Alta Temperatura",
+          "Description": "Per aumentare la temperatura della tua base, puoi accendere il forno ad alta temperatura.",
+          "Description2": "Il pannello di controllo è piuttosto facile da capire:",
+          "List1": "Interruttore per accendere/spegnere",
+          "List2": "Interruttore per attivare l'Overdrive, che consuma più carbone al minuto, ma riscalda di più",
+          "List3": "Interruttore per attivare automaticamente il forno quando arriva una tempesta di neve.",
+          "Image": "Attivando l'Overdrive, la temperatura aumenterà ancora più rapidamente."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Fornace dell'Alleanza",
+      "Description": "Oltre al tuo forno ad alta temperatura, ci sarà anche il forno dell'alleanza. Questa è una bella aggiunta, poiché l'intera alleanza può contribuire ad aumentare la temperatura per tutti gli alleati.",
+      "Description2": "Dal giorno 1 della seconda stagione, le alleanze possono posizionare il sito di costruzione per il forno dell'alleanza sulla mappa (area di livello 1) e iniziare a riparare il forno dell'alleanza per utilizzarlo (inizia a livello 1). Questo processo è simile alla costruzione di un avamposto con un massimo di 20 rinforzi.",
+      "Description3": "Il forno dell'alleanza può essere trovato cliccando su alleanza -> forno dell'alleanza -> sulle coordinate. Le azioni su di esso possono essere eseguite solo dai membri R4/R5.",
+      "HeatingRange": {
+        "Title": "Area di Riscaldamento del Forno dell'Alleanza",
+        "Description": "È importante notare che il forno dell'alleanza aumenta la temperatura solo nella sua area di influenza. Assicurati quindi che la tua base sia vicina al forno.",
+        "Description2": "Un buon suggerimento per un'alleanza sarebbe sempre stabilirsi vicino al forno dell'alleanza e avvicinare i membri con temperature più basse e un livello del forno ad alta temperatura più basso.",
+        "Description3": "Qui sotto puoi vedere l'effetto del forno sull'area, quando è acceso e spento. A sinistra il forno è acceso e quindi riscalda l'ambiente, a destra è spento e la temperatura nello stesso punto è più bassa.",
+        "Description4": "Qui sotto puoi vedere la mappa termica attorno al forno e come influisce sulla temperatura nelle vicinanze."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nuove Fattorie – Risorse dell'Alleanza",
+      "Description": "Come già visto nella Stagione 1, dopo l'uccisione casuale di Doom-Elite, può apparire temporaneamente un nuovo tipo di fattoria di risorse dell'alleanza. Nella Stagione 2 possono anche essere di tipo lega di titanio e carbone."
+    },
+    "MilitaryBase": {
+      "Title": "Basi Militari",
+      "Description": "Una volta che il forno ad alta temperatura raggiunge il livello 30, saranno disponibili tre nuovi edifici che consentono miglioramenti per i tipi di eroi.",
+      "Description2": "IMPORTANTE: Questi edifici scompariranno alla fine della Stagione 2, come già accaduto nella Stagione 1.",
+      "Description3": "Per potenziare, hai bisogno sia di carbone che di leghe di titanio. Questi edifici possono essere potenziati fino al livello 30, indipendentemente dal livello del tuo HQ.",
+      "Description4": "Ogni aumento di livello aumenta il rispettivo incremento di danno causato dagli eroi carro armato, aereo o missilistico.",
+      "Description5": "La quantità di carbone e leghe di titanio necessaria per potenziare ogni livello è la stessa per tutti gli edifici, così come la percentuale di incremento."
+    },
+    "Cities": {
+      "Title": "Città",
+      "List1": "Numero massimo di città e siti di scavo che puoi conquistare: 6 città e 4 siti di scavo.",
+      "List2": "Conquistando città, il numero di siti di scavo che puoi conquistare non aumenta, poiché rimangono sempre 4.",
+      "Description": "Le città e i siti di scavo producono Terra Rara, fondamentale per la vittoria nella Stagione 2. La quantità dipende dal livello della città: quantità di Terra Rara nelle città e quantità di Terra Rara nei siti di scavo.",
+      "Heating": {
+        "Title": "Forno della Città",
+        "Description": "Le città forniscono calore all'intera area cittadina una volta conquistate. La quantità dipende dal loro livello:",
+        "List1": "Livello 1: 5 °C",
+        "List2": "Livello 2: 20 °C",
+        "List3": "Livello 3: 30 °C",
+        "List4": "Livello 4: 40 °C",
+        "List5": "Livello 5: 50 °C",
+        "List6": "Livello 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Siti di Scavo",
+      "Description": "I siti di scavo erano un tempo cruciali per la produzione di carbone, ma sono stati conquistati da bestie mutate sotto il controllo dell'Imperatore Boreas. Sconfiggi le bestie, riconquista i siti e riprendi la produzione di carbone.",
+      "Description2": "Il carbone è essenziale per il riscaldamento della tua base. Pertanto, la conquista dei siti di scavo che producono carbone è un passo molto importante per ogni alleanza. I siti di scavo di livello più alto producono maggiori quantità di carbone.",
+      "Description3": "Con l'ultimo aggiornamento del gioco, i siti di scavo producono anche Terra Rara.",
+      "Description4": "Il sito di scavo è sorvegliato da bestie di ghiaccio, che possono essere scongelate. Dovrai quindi scongelarle prima di conquistare.",
+      "Description5": "Fai clic sulla bestia e utilizza il pulsante 'Scongelare' per inviare la tua squadra in azione. Poi sconfiggi la bestia di ghiaccio, proprio come hai fatto con i Corrotti nella Stagione 1.",
+      "Description6": "Puoi visualizzare tutti i siti di scavo dell'alleanza facendo clic sul pulsante 'Alleanza' -> 'Città dell'alleanza'.",
+      "Description7": "Nella prima scheda troverai città e siti di scavo che producono Terra Rara; nella seconda scheda troverai siti di scavo che producono carbone. Questi possono essere rivendicati ogni ora cliccando sui singoli siti di scavo elencati o sul pulsante 'Rivendica tutto'.",
+      "Coal": {
+        "Title": "Siti di Scavo per Carbone e Terra Rara",
+        "Description": "I siti di scavo producono carbone e Terra Rara in base al loro livello. Ecco la quantità esatta per livello:",
+        "List1": "Livello 1: 2.736/h carbone – 100/h Terra Rara",
+        "List2": "Livello 2: 2.880/h carbone – 110/h Terra Rara",
+        "List3": "Livello 3: 3.024/h carbone – 120/h Terra Rara",
+        "List4": "Livello 4: 3.168/h carbone – 130/h Terra Rara",
+        "List5": "Livello 5: 3.312/h carbone – 140/h Terra Rara",
+        "List6": "Livello 6: 3.456/h carbone – 150/h Terra Rara"
+      },
+      "Protection": {
+        "Title": "Status di Cattura e Protezione",
+        "Description": "I siti di scavo assomigliano alle fortezze della prima stagione.",
+        "List1": "Numero massimo di siti di scavo che puoi possedere: 4, indipendentemente da quante città possiedi.",
+        "List2": "Limite massimo giornaliero per la conquista di siti di scavo: 2.",
+        "List3": "La prima conquista richiede la sconfitta di bestie mutate con una resistenza virale sufficiente. La Bestia Polare potrebbe essere congelata, quindi dovrai inviare squadre per scongelarla prima di attaccarla. Per sconfiggere queste bestie sono necessarie più azioni di raccolta (ogni colpo causa % di danno). Una volta sconfitta la Bestia Polare, dovrai rinforzare il sito di scavo con fino a 10 squadre.",
+        "List4": "Il processo di conquista del sito di scavo è una sfida, in cui vince la prima alleanza che raggiunge il 100%. Il tempo massimo di conquista è di 4 ore. Se non viene raggiunto il progresso completo del 100% entro questo tempo, il tentativo fallisce. Se il sito di scavo non era in possesso, rimarrà neutrale; se era in possesso, rimarrà con il precedente proprietario. La percentuale di conquista di un'alleanza aumenta mentre il sito è rinforzato. Squadre più forti accelerano il processo.",
+        "List5": "Una volta che un sito di scavo è preso, sarà protetto per 36 ore e circondato da guardie.",
+        "List6": "Tecnicamente, puoi attaccare e rinforzare un numero illimitato di siti di scavo contemporaneamente, ma una volta completata la seconda conquista giornaliera, non puoi più attaccare siti di scavo neutrali o tuoi. Se rinforzi un altro sito di scavo (che conta come terza conquista), le tue squadre verranno automaticamente ritirate non appena la seconda conquista è completata.",
+        "List7": "Se un sito di scavo appartiene a un'alleanza e viene attaccato da un'altra, un tentativo di conquista fallito non conta come conquista giornaliera per l'alleanza difensiva.",
+        "List8": "Il tuo primo territorio dell'alleanza deve essere un sito di scavo di livello 1. Da qui puoi conquistare qualsiasi territorio adiacente. I territori nella Stagione 2 sono anche adiacenti agli angoli.",
+        "List9": "La conquista del territorio può essere estesa ai territori adiacenti (siti di scavo e città) sia dalle tue città che dai siti di scavo.",
+        "List10": "Se rinunci o perdi un territorio dell'alleanza e ora hai due insiemi separati di territori dell'alleanza, puoi continuare a conquistare tutti i territori che si affacciano su uno o l'altro insieme.",
+        "List11": "Se la tua alleanza rinuncia a un sito di scavo (ciò richiede un'ora), diventa neutrale e qualsiasi alleanza, inclusa la tua, può riconquistarla. Tuttavia, se il sito di scavo era ancora sotto stato di protezione al momento dell'abbandono, deve trascorrere il tempo di recupero della protezione prima che un'alleanza, compresa la tua, possa riprendere il controllo.",
+        "List12": "Nella Stagione 2 non ci saranno conquiste di siti di scavo attraverso le zone di guerra.",
+        "Description2": "Qui sotto puoi vedere un gorilla mutato che protegge un sito di scavo di livello 2. Il gorilla mutato è ancora congelato e l'alleanza lo ha parzialmente scongelato.",
+        "Description3": "Il gioco consente la conquista di siti di scavo che sono diagonalmente adiacenti ad altri siti di scavo in un angolo. Ad esempio, nelle immagini sottostanti, puoi vedere che non era necessario conquistare il livello 2 della città per conquistare gli altri siti di scavo che sono adiacenti all'angolo agli altri siti di scavo. Queste schermate sono state catturate il giorno 3, quando era possibile conquistare solo il livello 1 della città."
+      }
+    },
+    "StockCollection": {
+      "Title": "Collezione di Rifornimenti",
+      "Description": "Nella Stagione 2 appare un nuovo tipo di tesoro per le risorse dell'alleanza.",
+      "Description2": "Questi nuovi tesori possono essere scoperti solo quando la temperatura del terreno raggiunge 0 °C.",
+      "Description3": "Per trovarli, sposta il forno dell'alleanza per riscaldare il terreno e portarlo a 0 °C. Puoi anche conquistare una città in modo che il forno della città riscaldi l'intera area cittadina. Poi sposta il forno dell'alleanza e attivalo in modalità Overdrive (ovviamente, devi assicurarti che il tuo attuale livello del forno dell'alleanza sia sufficientemente alto per raggiungere la temperatura corretta). Una volta che il terreno raggiunge 0 °C, la collezione di rifornimenti apparirà in stato di scongelamento.",
+      "Description4": "Invia truppe per scongelare la collezione di rifornimenti e poi richiedi le tue ricompense.",
+      "Description5": "Le collezioni di rifornimenti hanno diversi livelli e quindi offrono ricompense diverse.",
+      "Description6": "C'è la possibilità di accedere all'icona della Stagione 2 -> Collezione di Rifornimenti e vedere da lì se sono state scoperte collezioni di rifornimenti.",
+      "Image1": "C'è un limite di 5 tentativi di recupero al giorno."
+    },
+    "RareSoil": {
+      "Title": "Terra Rara",
+      "Description": "Una volta conquistate le città e i siti di scavo nella regione polare, iniziano a produrre nel tempo terra rara. La terra rara è una risorsa importante per le alleanze in questa stagione, e alla fine della stagione, le alleanze verranno classificate in base alla loro quantità. Più alta è la classifica, migliori sono le ricompense.",
+      "Description2": "Più alto è il livello della città e del sito di scavo, maggiore è la quantità di terra rara prodotta all'ora.",
+      "Production": {
+        "Title": "Produzione di Terra Rara",
+        "Description": "Una volta conquistate le città e i siti di scavo, iniziano a produrre terra rara in base al loro livello.",
+        "Description2": "Puoi vedere i dettagli sulla produzione di terra rara cliccando sul pulsante \"Alleanza\" -> \"Città dell'Alleanza\". Lì sono visibili sia le città che i siti di scavo che producono terra rara.",
+        "Description3": "La quantità totale di terra rara prodotta è visibile nella vista del forno dell'alleanza: Pulsante Alleanza -> Forno dell'Alleanza, e influisce sul livello del forno dell'alleanza.",
+        "Description4": "Le classifiche per la terra rara possono essere consultate tramite la pagina \"Stagione 2\": Simbolo \"Stagione 2\" -> Classifica.",
+        "Description5": "Puoi ottenere più terra rara vincendo come attaccante nella guerra per la terra rara."
+      },
+      "CityProduction": {
+        "Title": "Produzione di Terra Rara in Città",
+        "Description": "Ecco la quantità esatta di terra rara per livello di città:",
+        "List1": "Livello 1: 350/h",
+        "List2": "Livello 2: 400/h",
+        "List3": "Livello 3: 450/h",
+        "List4": "Livello 4: 800/h",
+        "List5": "Livello 5: 900/h",
+        "List6": "Livello 6: 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Produzione di Terra Rara nei Siti di Scavo",
+        "Description": "Ecco la quantità esatta di terra rara per livello di sito di scavo:",
+        "List1": "Livello 1: 100/h",
+        "List2": "Livello 2: 110/h",
+        "List3": "Livello 3: 120/h",
+        "List4": "Livello 4: 130/h",
+        "List5": "Livello 5: 140/h",
+        "List6": "Livello 6: 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Guerra per la Terra Rara",
+      "Description": "Nella stagione 2 ci saranno guerre per la terra rara. Non ci sarà conquista di città o siti di scavo oltre la zona di guerra."
+    },
+    "RadarMission": {
+      "Title": "Missioni Radar",
+      "Description": "Nella stagione 2 sarà disponibile una nuova missione radar: \"Sopravvissuto in Pericolo\".",
+      "Description2": "Per completare la missione, invia la tua squadra ad aiutare il sopravvissuto in pericolo e ricevi ricompense, tra cui carbone."
+    },
+    "HeroUpgrade": {
+      "Title": "Aggiornamenti degli Eroi e Armi",
+      "Description": "La stagione 2 porta novità per gli eroi e le armi, la cui disponibilità è limitata nel tempo.",
+      "Violette": {
+        "Title": "Aggiornamento di Violet a UR",
+        "Description": "Sarà possibile aggiornare Violet a UR. L'evento dovrebbe iniziare dopo la settimana 2."
+      },
+      "Legend": {
+        "Title": "S2: Il Ritorno della Leggenda",
+        "Description": "Dopo ogni 50 reclutamenti, un eroe leggendario è garantito."
+      },
+      "RecruitHeroes": {
+        "Title": "Recluta Eroi"
+      },
+      "Weapon": {
+        "Title": "S2: Armi delle Leggende",
+        "Description": "Una nuova sezione nella Taverna consente di ottenere casse di selezione di frammenti d'arma esclusivi per gli eroi II. Queste contengono frammenti d'arma di Kimberly, DVA e Tesla.",
+        "Image1": "Per reclutare in questa sezione, è necessario un biglietto di reclutamento New Era.",
+        "Image2": "Ogni 20 reclutamenti si ottengono garantiti 2 frammenti d'arma esclusivi."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Armi Esclusive",
+        "Description": "La stagione 2 porta armi esclusive per Murphy, Carlie e ???.",
+        "Murphy": {
+          "Title": "Arma Esclusiva di Murphy",
+          "Description": "A partire dal giorno 4 della stagione 1, puoi raccogliere frammenti d'arma attraverso il Battle Pass dell'arma esclusiva di Murphy per attivare e migliorare l'arma esclusiva di Murphy. I frammenti d'arma universali possono essere utilizzati solo per miglioramenti, non per l'attivazione."
+        },
+        "Carlie": {
+          "Title": "Arma Esclusiva di Carlie",
+          "Description": "A partire dal giorno 4 della settimana 3, puoi raccogliere frammenti d'arma attraverso il Battle Pass dell'arma esclusiva di Carlie per attivare e migliorare l'arma esclusiva di Carlie. I frammenti d'arma universali possono essere utilizzati solo per miglioramenti, non per l'attivazione."
+        },
+        "Swift": {
+          "Title": "Arma Esclusiva di Swift",
+          "Description": "A partire dal giorno 4 della settimana 6, puoi raccogliere frammenti d'arma attraverso il Battle Pass dell'arma esclusiva di Swift per attivare e migliorare l'arma esclusiva di Swift. I frammenti d'arma universali possono essere utilizzati solo per miglioramenti, non per l'attivazione."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Temperatura",
+      "Description": "La temperatura rappresenta una grande sfida nella regione polare e influisce continuamente sulle statistiche della tua base. La temperatura della tua base si adatta lentamente all'ambiente. Mantenere temperature più elevate ti porterà statistiche bonus. La temperatura della tua base può variare da -270 °C a +300 °C.",
+      "Location": {
+        "Title": "Posizione",
+        "Description": "Puoi monitorare la tua temperatura tramite l'icona oppure accedere alla pagina dei dettagli sulla temperatura cliccando sull'icona corrispondente. In questa pagina di dettaglio sono elencati tutti i fattori che influenzano la temperatura della tua base.",
+        "Description2": "Nella parte superiore puoi vedere come si muove l'icona della temperatura della tua base (icona della casa) e si sovrappone all'icona della temperatura ambientale (icona della mappa)."
+      },
+      "Base": {
+        "Title": "Base",
+        "Description": "La temperatura finale mostrata nei luoghi influisce sulla tua base e provoca buff/debuff. La forza in % del buff/debuff dipende dalla temperatura e sarà mostrata negli schemi che puoi vedere nelle immagini qui sotto. Ecco la descrizione dei buff/debuff.",
+        "Title2": "Produzione di risorse di base:",
+        "Description2": "Produzione di terreni agricoli, miniere di ferro e miniere d'oro +10 % (a 4 °C)",
+        "Title3": "Arma termica:",
+        "Description3": "Danno alla durabilità delle truppe durante la stagione di gioco +100 (a 4 °C)",
+        "Title4": "Velocità di guarigione dell'unità:",
+        "Description4": "Velocità di guarigione delle unità ferite durante la stagione +0 % (a 4 °C)",
+        "Title5": "Moral delle unità:",
+        "Description5": "Moral delle unità durante la stagione +0 % (a 4 °C)"
+      },
+      "Factors": {
+        "Title": "Fattori che influenzano la temperatura",
+        "Description": "La temperatura è influenzata da molti fattori:",
+        "List1": "Posizione della base sulla mappa: più ci si avvicina al centro, più diventa freddo.",
+        "List2": "Attività del forno: il nuovo edificio stagionale 'Forno ad alta temperatura' genera calore per la tua base quando è attivato, e ancora più calore in modalità Overdrive.",
+        "List3": "Abilità Overdrive intensa: un'abilità stagionale che consente di aumentare il calore in Overdrive.",
+        "List4": "Attività del forno dell'alleanza: il nuovo edificio stagionale dell'alleanza consente di generare calore nell'area circostante. Le basi nelle vicinanze del forno dell'alleanza sono influenzate da questo calore.",
+        "List5": "Aereo di ricognizione alleato: gli alleati possono inviare aerei di ricognizione per infliggere temporaneamente danno a un alleato.",
+        "List6": "Area di riscaldamento della città: quando il forno della città è attivato, l'intera area della città (il campo su cui si trova la città) si riscalda. La vicinanza a una città aiuta a rimanere al caldo.",
+        "List7": "Forno atomico: il riscaldatore definitivo, che dopo l'attivazione fornisce calore all'intera mappa.",
+        "List8": "Tempeste di neve: a partire dal giorno 1 della stagione, si verificano eventi che causano un enorme calo della temperatura in tutte le zone di guerra. Maggiore è il livello, più forte è la diminuzione della temperatura.",
+        "List9": "Attività delle truppe: le truppe che lasciano la tua base causano una perdita temporanea di calore.",
+        "List10": "Mostri polari: la tua base sarà attaccata da mostri polari, causando un abbassamento della temperatura di -5 °C (un fallimento nella difesa provoca un ulteriore abbassamento di -10 °C)."
+      },
+      "Burn": {
+        "Title": "Congelamento e Bruciore",
+        "Description": "Il tuo obiettivo è mantenere la tua base alla temperatura giusta per non subire debuff e per evitare che la tua base congeli o prenda fuoco. Fai attenzione a non spendere troppo carbone, poiché ne avrai bisogno per il tuo forno (e il forno dell'alleanza) man mano che la tua alleanza si muove verso il centro.",
+        "Description2": "Se la temperatura della tua base diventa troppo bassa o troppo alta, c'è il rischio che la tua base congeli o prenda fuoco."
+      },
+      "LowTemperatures": {
+        "Title": "Temperature Basse",
+        "Description": "La temperatura della tua base non può scendere sotto -270 °C.",
+        "Title2": "Base quasi congelata:",
+        "Description2": "Se rimani sotto -20 °C, verrà avviato un countdown di 5 minuti che mostra 'Presto congelato'. Riscalda la base prima che il tempo di congelamento finisca per evitare il congelamento.",
+        "Solutions": "Soluzioni:",
+        "Solution1": "Spostati in una zona più calda.",
+        "Solution2": "Attiva il forno ad alta temperatura o passalo in modalità Overdrive.",
+        "Solution3": "Se sei nell'area di effetto del forno dell'alleanza, richiedi che venga attivato o messo in modalità Overdrive.",
+        "Solution4": "Chiedi ai tuoi alleati di inviare un aereo di ricognizione per riscaldarti."
+      },
+      "FrozenBase": {
+        "Title": "Base Congelata:",
+        "Description": "Se una base rimane sotto -20 °C per più di 5 minuti, è congelata. In questo stato, i cambi di posizione e le riunioni non sono possibili (i cambi di posizione dell'alleanza e casuali sono ancora possibili). Tieni presente che si applicano anche debuff, come mostrato nella sezione 'Base'.",
+        "Solutions": "Soluzioni:",
+        "Solution1": "Spostati in zone più calde con l'aiuto dell'alleanza o tramite teletrasporto casuale.",
+        "Solution2": "Attiva il forno ad alta temperatura o mettilo in modalità Overdrive.",
+        "Solution3": "Se sei nell'area di effetto del forno dell'alleanza, richiedi che venga messo in modalità Overdrive.",
+        "Solution4": "Chiedi ai tuoi alleati di inviarti un aereo di ricognizione per riscaldarti o truppe per rompere il ghiaccio (5 colpi costano ciascuno 5 punti resistenza)."
+      },
+      "IceMelts": {
+        "Title": "Il ghiaccio si scioglie presto:",
+        "Description": "Se la tua base è congelata, puoi farla scongelare portando la temperatura sopra -20 °C e mantenendo questa temperatura. Verrà avviato un countdown di scongelamento di 5 minuti. Se la temperatura scende anche solo per un secondo sotto -20 °C, la base rimarrà congelata e dovrai ricominciare a scongelare.",
+        "Description2": "In alternativa, puoi chiedere ai tuoi alleati di inviare truppe per rompere il ghiaccio (5 colpi costano ciascuno 5 resistenza)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Aiuta gli alleati ad aumentare la temperatura",
+      "Description": "Puoi aiutare i tuoi alleati ad aumentare la loro temperatura inviando un piano di ricognizione e spendendo un po' di carbone. Tieni presente, però, che l'effetto non dura a lungo. Questo può essere particolarmente utile quando affrontano eventi difficili come le tempeste di neve."
+    },
+    "VirusResistance": {
+      "Title": "Resistenza ai virus",
+      "Description": "Nella Stagione 2 il virus è ancora attivo, ma ha un impatto minore sul gameplay rispetto alla Stagione 1.",
+      "Description2": "Per aumentare la tua resistenza ai virus, devi potenziare il tuo forno ad alta temperatura. Questo aumenterà sia la resistenza al calore che quella ai virus.",
+      "Image": "Come al solito, c'è un pass settimanale che ti offre un aumento di 250 punti di resistenza ai virus.",
+      "Description3": "La resistenza ai virus ha i seguenti effetti:",
+      "List1": "Doom Elite che puoi attaccare.",
+      "List2": "Le bestie polari che sorvegliano i siti di scavo possono anche attaccarti."
+    },
+    "Profession": {
+      "Title": "Professioni - Limite di livello aumentato a livello 70",
+      "Description": "Nella Stagione 2 il limite di livello per le professioni è stato aumentato a livello 70.",
+      "Description2": "Le abilità stagionali per i livelli fino a 50 saranno rivedute e adattate al tema della stagione. Tuttavia, alcune abilità a livelli inferiori rimarranno come nella Stagione 1.",
+      "SeasonSkills": {
+        "Title": "Abilità stagionali",
+        "Description": "Le abilità stagionali sono identiche per le professioni Ingegnere e Signore della guerra e si trovano a destra del portatore su uno sfondo verde."
+      },
+      "Warlords": {
+        "Title": "Abilità aggiuntive dei Signori della guerra - Livelli 45-70",
+        "Description": "Abilità per il livello 45",
+        "Description2": "Abilità per il livello 50",
+        "Description3": "Abilità per il livello 55",
+        "Description4": "Abilità per il livello 60",
+        "Description5": "Abilità per il livello 65",
+        "Description6": "Abilità per il livello 70"
+      },
+      "Engineer": {
+        "Title": "Abilità aggiuntive dell'Ingegnere - Livelli 45-70",
+        "Description": "Abilità per il livello 45",
+        "Description2": "Abilità per il livello 50",
+        "Description3": "Abilità per il livello 55",
+        "Description4": "Abilità per il livello 60",
+        "Description5": "Abilità per il livello 65",
+        "Description6": "Abilità per il livello 70"
+      }
     }
   }
 }

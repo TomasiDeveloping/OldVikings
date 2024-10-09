@@ -138,6 +138,7 @@
     "Squad": "Team",
     "DesertStorm": "Ökenstorm",
     "SeasonOne": "Säsong 1",
+    "SeasonTwo": "Säsong 2",
     "Marshall": "Marskalkvakt"
   },
   "VS": {
@@ -1113,6 +1114,400 @@
     "Pagination": {
       "NextLabel": "Nästa",
       "PreviousLabel": "Föregående"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Säsong 2 - Polarstorm",
+    "Content": {
+      "Title": "Innehåll",
+      "NewResources": "Nya grundresurser",
+      "WorldMap": "Världen och kartan",
+      "NewBuildings": "Nya byggnader",
+      "AllianceFurnace": "Alliansugn",
+      "NewFarms": "Nya gårdar – Alliansresurser",
+      "MilitaryBase": "Militärbaser",
+      "Cities": "Städer",
+      "DigSites": "Utgrävningsplatser",
+      "StockCollection": "Lagerinsamling",
+      "RareSoil": "Sällsynt jord",
+      "RareSoilWar": "Krig om sällsynt jord",
+      "RadarMission": "Radaruppdrag",
+      "HeroUpgrade": "Hjälteuppgraderingar och vapen",
+      "Temperature": "Temperatur",
+      "HelpTheAllies": "Hjälp de allierade att höja temperaturen",
+      "VirusResistance": "Virusresistens",
+      "Profession": "Yrken – Nivågräns ökad till nivå 70"
+    },
+    "Resources": {
+      "Title": "Nya grundresurser – Kol och titanlegeringar",
+      "Description": "Nu finns det extra resurser tillgängliga i spelet: titanlegeringar och kol.",
+      "Titanium": {
+        "Title": "Titanlegering",
+        "Description": "Används för att bygga och uppgradera säsongsbyggnader.",
+        "Description2": "Titanlegeringar får du genom:",
+        "List1": "Belöningar för att döda zombies första gången på nivå",
+        "List2": "Avsluta säsongsuppdragsmissioner",
+        "List3": "Avsluta säsong 2-mål för högtemperaturugnen",
+        "List4": "Första blodkillen av Doom Walker (första DW-kill av dagen)",
+        "List5": "Använda 'Hero's Return'-rekryteringstillståndet i S2: Legend Returns",
+        "List6": "Belöning för den första erövringen av en stad/grävplats"
+      },
+      "Coal": {
+        "Title": "Kol",
+        "Description": "Används för att bygga och uppgradera säsongsstrukturer eller för att elda den högtemperaturugnen.",
+        "Description2": "Kol kan du tjäna genom:",
+        "List1": "Belöningar för att döda zombies första gången på nivå",
+        "List2": "Avsluta säsongsuppdragsmissioner",
+        "List3": "Erövring av grävplatser möjliggör kontinuerlig kolproduktion",
+        "List4": "Avsluta säsong 2-mål för högtemperaturugnen",
+        "List5": "Använda 'Hero's Return'-rekryteringstillståndet i S2: Legend Returns",
+        "List6": "Veckopass och säsongens Battle Pass (största ökning)",
+        "List7": "Belöningar för att samla resurser",
+        "List8": "Belöning för den första erövringen av en stad/grävplats",
+        "List9": "Mata Snowflake med en måltid som han får genom 'Polar Dishes'-evenemanget"
+      }
+    },
+    "WorldMap": {
+      "Title": "Världen och kartan",
+      "Description": "Världen har återigen förändrats. Kartan består av växlande städer och grävplatser.",
+      "Description2": "För att förhindra kejsar Boreas ambitioner samlas du med dina allierade vid kanten av polarregionen. Det är mycket kallt och temperaturen sjunker ytterligare ju närmare du kommer centrum.",
+      "Image1": "Städer",
+      "Image2": "Grävplatser",
+      "Image3": "Atomugn (Kapitolium)",
+      "Description3": "I början av säsongen strander du och dina allierade vid kanten av servern (men fortfarande tillsammans som en allianshive) och har ingen egen stad. Städer måste återerövras, men nya regler gäller ...",
+      "Description4": "Doom-Elite-monster förvandlas till aggressiva polarmonster, och de flesta zombies kräver hög virusresistens för att kunna dödas.",
+      "Description5": "Så här ser kartan ut. Byggnaderna du ser är städerna, de andra rutorna emellan är grävplatser. Rutor anses vara kopplade vid hörnen, så varje stadsruta är till exempel kopplad vid hörnen med rutor från andra städer. Samma gäller för grävplatser.",
+      "ThermalMap": {
+        "Title": "Termisk kartvy",
+        "Description": "Som du kan se i kartvyn finns det en växel för att aktivera värmekartan, som visar dig temperaturen. Om du klickar på varje punkt på kartan visas temperaturen på den platsen.",
+        "Description2": "Ju längre du rör dig mot mitten av kartan, desto lägre blir temperaturen.",
+        "Description3": "Utgående från varje grävplats i hörnet diagonalt mot mitten har varje kartfält en sjunkande temperatur på: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (Kapitolium).",
+        "Description4": "Detta är den fullständiga värmekartläggningen som inte tar hänsyn till stadsugnar, atomugnar, snöstormar eller andra värmeförändrande effekter. Den visar bas temperaturen i krigszonen."
+      }
+    },
+    "NewBuildings": {
+      "Title": "Nya byggnader",
+      "Description": "I säsong 2 finns det nya byggnadstyper tillgängliga.",
+      "Description2": "Byggnader som tillhör din bas kan endast byggas utanför din bas cirkel (samma område som i säsong 1).",
+      "Description3": "Vissa dyker upp i början av säsongen, andra kommer senare.",
+      "Description4": "Nya alliansbyggnader är också tillgängliga i säsong 2.",
+      "TitanFabric": {
+        "Title": "Titanlegeringsfabrik",
+        "Image1": "Titanlegeringsfabriken producerar titanlegeringar, som är avgörande för att uppgradera din ugn.",
+        "Update": {
+          "Title": "Höj nivån på titanlegeringsfabriken",
+          "Description": "Du behöver kol för att uppgradera titanlegeringsfabriken.",
+          "Description2": "Denna byggnad kan uppgraderas till nivå 30 oavsett ditt HQ-nivå.",
+          "Description3": "När din första titanlegeringsfabrik når nivå 15 kommer en ny titanlegeringsfabrik att bli tillgänglig.",
+          "Description4": "Ytterligare titanlegeringsfabriker kommer att bli tillgängliga när föregående nivå 15 nås.",
+          "Description5": "En titanlegeringsfabrik kommer att vara omedelbart tillgänglig med säsongens veckopass.",
+          "Image": "VIKTIGT: Varje nivåhöjning ger alltid en ökning av 720 output/h, oavsett uppnådd nivå. Så var smart och uppgradera alltid först fabriken med den lägsta nivån."
+        },
+        "Requirements": {
+          "Title": "Kolbehov för en titanlegeringsfabrik",
+          "Description": "Värdena i följande tabell är de URSPRUNGLIGA kostnaderna för kol. Dessa kostnader kommer att justeras baserat på:",
+          "List1": "Dina tekniska forskningar om byggnadskostnadsreduktion",
+          "List2": "Din allians-teknik för byggnadskostnadsreduktion",
+          "List3": "Yrkespecialisering, särskilt förmågan 'Resursbesparing' på nivå 35 (upp till -5 %)",
+          "Image": "För att beräkna dina faktiska kostnader, beräkna procentandelen av 'minskning av resurser som krävs för att bygga byggnaden' och dra denna procentandel från de URSPRUNGLIGA kostnaderna."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Högtemperaturogn",
+        "Description": "Denna nybyggnad är mycket viktig.",
+        "Image": "Den gör det möjligt att öka temperaturen med kol och därigenom öka virusresistensen.",
+        "Update": {
+          "Title": "Höj nivån på högtemperaturofnen",
+          "Description": "Du behöver en titanlegering för att uppgradera högtemperaturofnen.",
+          "Description2": "Genom att uppgradera denna byggnad kan följande punkter förbättras:",
+          "List1": "virusresistens",
+          "List2": "ugnens aktiveringsvärme (det är ugnens grundtemperatur)",
+          "List3": "ugnens överhettning (det är den maximala temperaturen som du kan uppnå med ugnen om du låter den använda mer kol per minut)",
+          "Image": "Denna byggnad kan uppgraderas till nivå 30 oavsett ditt HQ-nivå."
+        },
+        "Control": {
+          "Title": "Kontrollpanel för högtemperaturogn",
+          "Description": "För att höja temperaturen i din bas kan du slå på högtemperaturofnen.",
+          "Description2": "Kontrollpanelen är ganska enkel att förstå:",
+          "List1": "Växel för att slå på/av",
+          "List2": "Växel för att aktivera överdrift, som använder mer kol per minut, men värmer mer",
+          "List3": "Växel för att automatiskt aktivera ugnen när en snöstorm inträffar.",
+          "Image": "Om du aktiverar överdrift stiger temperaturen ännu snabbare."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Alliansugn",
+      "Description": "Utöver din egen högtemperaturogn kommer det också att finnas en alliansugn. Detta är ett trevligt tillskott, eftersom hela alliansen kan bidra till att öka temperaturen för alla allierade.",
+      "Description2": "Från dag 1 av säsong 2 kan allianser placera byggplatsen för alliansugnen på kartan (område nivå 1) och börja reparera alliansugnen för att använda den (börjar på nivå 1). Denna process liknar byggandet av en utpost med upp till 20 förstärkningar.",
+      "Description3": "Alliansugnen kan hittas genom att klicka på knappen Allians -> Alliansugn -> klicka på koordinaterna. Åtgärder på den kan endast utföras av R4/R5-medlemmar.",
+      "HeatingRange": {
+        "Title": "Värmeområde för alliansugnen",
+        "Description": "Det är viktigt att notera att alliansugnen endast ökar temperaturen inom sitt effektområde. Se till att din bas ligger nära ugnen.",
+        "Description2": "Ett bra förslag för en allians skulle vara att alltid slå sig ner nära alliansugnen och låta medlemmar med lägre temperaturer och lågt högtemperaturogsnivå komma närmare.",
+        "Description3": "Nedan ser du ugnen effekt på området när den är på och av. Till vänster är ugnen på och värmer därmed omgivningen, till höger är den avstängd och temperaturen på exakt samma plats är lägre.",
+        "Description4": "Nedan kan du se värmekartan runt ugnen och hur den påverkar temperaturen i omgivningen."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nya gårdar – alliansresurser",
+      "Description": "Som redan sett i säsong 1 kan en ny typ av alliansresursgård tillfälligt dyka upp efter att doom-eliter har dödats slumpmässigt. I säsong 2 kan de också vara av typen titanlegering och kol."
+    },
+    "MilitaryBase": {
+      "Title": "Militärbaser",
+      "Description": "Så snart högtemperaturofnen når nivå 30 kommer tre nya byggnader att bli tillgängliga, vilket möjliggör förbättringar för hjältetyper.",
+      "Description2": "VIKTIGT: Dessa byggnader kommer att försvinna i slutet av säsong 2, precis som det var i säsong 1.",
+      "Description3": "För att uppgradera behöver du både kol och titanlegering. Dessa byggnader kan uppgraderas till nivå 30 oavsett ditt HQ-nivå.",
+      "Description4": "Varje nivåuppgradering ökar den motsvarande skadestegringen som orsakas av pansar-, flygplans- eller rakethjältar.",
+      "Description5": "Mängden kol och titanlegering som krävs för att uppgradera varje nivå är densamma för alla byggnader, likaså procentandelen av boost."
+    },
+    "Cities": {
+      "Title": "Städer",
+      "List1": "Maximalt antal städer och grävplatser som du kan erövra: 6 städer och 4 grävplatser.",
+      "List2": "Genom att erövra städer ökar inte antalet grävplatser som du kan erövra, eftersom det alltid är 4.",
+      "Description": "Egna städer och grävplatser producerar sällsynt jord, vilket är grundläggande för att vinna i säsong 2. Mängden beror på stadens nivå: mängd sällsynt jord i städer och mängd sällsynt jord i grävplatser.",
+      "Heating": {
+        "Title": "Stadsugn",
+        "Description": "Städerna ger hela stadsområdet värme så snart de har erövrats. Mängden beror på deras nivå:",
+        "List1": "Nivå 1: 5 °C",
+        "List2": "Nivå 2: 20 °C",
+        "List3": "Nivå 3: 30 °C",
+        "List4": "Nivå 4: 40 °C",
+        "List5": "Nivå 5: 50 °C",
+        "List6": "Nivå 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Grävplatser",
+      "Description": "Grävplatser var en gång avgörande för kolproduktionen, men har tagits över av muterade bestar under kontroll av kejsar Boreas. Besegra bestarna, återta platserna och återuppta kolproduktionen.",
+      "Description2": "Kol är avgörande för uppvärmning av din bas. Därför är erövringen av grävplatser som producerar kol ett mycket viktigt steg för varje allians. Grävplatser på högre nivåer producerar större mängder kol.",
+      "Description3": "Med den senaste spelförändringen producerar grävplatser också sällsynt jord.",
+      "Description4": "Grävplatsen bevakas av isbestar som kan frysas. Du måste därför tina upp dem innan du erövrar.",
+      "Description5": "Klicka på bestarna och använd knappen \"Tina\" för att skicka ditt team i aktion. Besegra sedan isbestarna precis som du gjorde med fördärvarna i säsong 1.",
+      "Description6": "Du kan se alla alliansens grävplatser genom att klicka på knappen \"Allians\" -> \"Alliansstad\".",
+      "Description7": "På den första fliken hittar du städer och grävplatser som producerar sällsynt jord, på den andra fliken hittar du grävplatser som producerar kol. Dessa kan du kräva varje timme genom att klicka på de enskilda listade grävplatserna eller på knappen \"Kräva alla\".",
+      "Coal": {
+        "Title": "Grävplatser för kol och sällsynt jord",
+        "Description": "Grävplatser producerar kol och sällsynt jord baserat på sin nivå, här är den exakta mängden per nivå:",
+        "List1": "Nivå 1: 2.736/h kol – 100/h sällsynt jord",
+        "List2": "Nivå 2: 2.880/h kol – 110/h sällsynt jord",
+        "List3": "Nivå 3: 3.024/h kol – 120/h sällsynt jord",
+        "List4": "Nivå 4: 3.168/h kol – 130/h sällsynt jord",
+        "List5": "Nivå 5: 3.312/h kol – 140/h sällsynt jord",
+        "List6": "Nivå 6: 3.456/h kol – 150/h sällsynt jord"
+      },
+      "Protection": {
+        "Title": "Erövrings- och skyddsstatus",
+        "Description": "Grävplatser liknar fästningarna från den första säsongen.",
+        "List1": "Maximalt antal grävplatser som du kan äga: 4, oavsett hur många städer du äger.",
+        "List2": "Maximalt dagligt tak för erövring av grävplatser: 2.",
+        "List3": "Den första erövringen kräver att du besegrar muterade bestar med tillräcklig virusresistens. Det polarbestet kan vara fryst, så du måste skicka trupper för att tina det innan du attackerar. För att besegra dessa bestar krävs flera samlingsaktioner (varje träff orsakar % skada). När det polarbestet är besegrat måste du förstärka grävplatsen med upp till 10 trupper.",
+        "List4": "Erövringsprocessen av grävplatsen är en utmaning där den första alliansen som når 100 % vinner. Den maximala erövringstiden är 4 timmar. Om inget fullständigt framsteg på 100 % uppnås inom denna tid misslyckas försöket. Om grävplatsen inte ägdes tidigare förblir den neutral; om den ägdes tidigare förblir den hos den tidigare ägaren. Erövringsprocenten för en allians ökar medan platsen förstärks. Starka trupper påskyndar processen.",
+        "List5": "När en grävplats har tagits blir den skyddad i 36 timmar och omges av vakter.",
+        "List6": "Tekniskt sett kan du attackera och förstärka ett obegränsat antal grävplatser samtidigt, men så snart du har genomfört den andra dagliga erövringen kan du inte längre attackera neutrala eller egna grävplatser. Om du har förstärkt en annan grävplats (vilket räknas som den tredje erövringen) kommer dina trupper automatiskt att kastas ut så snart den andra erövringen är slutförd.",
+        "List7": "Om en grävplats tillhör en allians och angrips av en annan, räknas ett misslyckat erövringsförsök inte som en daglig erövring för den försvarande alliansen.",
+        "List8": "Ditt första alliansområde måste vara en grävplats på nivå 1. Från här kan du erövra varje angränsande område. Områden i säsong 2 är också angränsande vid sina hörn.",
+        "List9": "Områdeerövringen kan utvidgas till angränsande områden (grävplatser och städer) både från egna städer och grävplatser.",
+        "List10": "Om du överger eller förlorar ett alliansområde och nu har två separata uppsättningar av alliansområden, kan du fortfarande erövra alla områden som angränsar till den ena eller andra uppsättningen.",
+        "List11": "Om din allians överger en grävplats (detta tar en timme) blir den neutral och varje allians, inklusive din, kan återta den. Om grävplatsen dock fortfarande är under skyddsstatus vid övergivandet måste nedräkningen för skyddsstatusen gå ut innan en allians, inklusive din egen, kan ta kontrollen.",
+        "List12": "I säsong 2 kommer det inte att finnas några gränsöverskridande erövringar av grävplatser.",
+        "Description2": "Nedan ser du en muterad gorilla som skyddar en grävplats på nivå 2. Den muterade gorillan är fortfarande fryst och alliansen har delvis tinat upp den.",
+        "Description3": "Spelet tillåter erövring av grävplatser som diagonalt angränsar till andra grävplatser vid ett hörn. Så du kan till exempel se på bilderna nedan att det inte var nödvändigt att erövra stadens nivå 2 för att erövra de andra grävplatserna som angränsar vid hörnet till de andra grävplatserna. Dessa skärmdumpar kommer från dag 3, när endast stadsnivå 1 kunde erövrats."
+      }
+    },
+    "StockCollection": {
+      "Title": "Lagerinsamling",
+      "Description": "I säsong 2 introduceras en ny typ av skatt för alliansresurser.",
+      "Description2": "Dessa nya skatter kan endast upptäckas när marktemperaturen når 0 °C.",
+      "Description3": "För att hitta dem, flytta alliansugnen för att värma upp marken och nå 0 °C. Du kan också erövra en stad så att stadsugnen värmer hela stadsområdet. Flytta sedan alliansugnen och aktivera den i överdriftsläge (naturligtvis måste du se till att din nuvarande nivå på alliansugnen är tillräckligt hög för att nå rätt temperatur). När marken når 0 °C visas lagerinsamlingen i tiningsläge.",
+      "Description4": "Skicka trupper för att tina upp lagerinsamlingen och begära sedan din belöning.",
+      "Description5": "Lagerinsamlingar har olika nivåer och erbjuder därför olika belöningar.",
+      "Description6": "Det finns möjlighet att få tillgång till symbolen för säsong 2 -> lagerinsamling och därifrån se om lagerinsamlingar har upptäckts.",
+      "Image1": "Det finns ett tak på 5 återkravförsök per dag."
+    },
+    "RareSoil": {
+      "Title": "Sällsynt jord",
+      "Description": "Så snart städer och grävplatser i polarregionen har erövrats börjar de över tid producera sällsynt jord. Sällsynt jord är en viktig resurs för allianserna denna säsong, och i slutet av säsongen rankas allianserna efter sin mängd. Ju högre rang, desto bättre belöningar.",
+      "Description2": "Ju högre nivåer staden och grävplatsen har, desto mer sällsynt jord produceras per timme.",
+      "Production": {
+        "Title": "Produktion av sällsynt jord",
+        "Description": "Så snart städer och grävplatser har erövrats börjar de producera sällsynt jord beroende på sin nivå.",
+        "Description2": "Du kan se detaljer om produktionen av sällsynt jord genom att klicka på knappen \"Allians\" -> \"Alliansstad\". Där är både städer och grävplatser synliga som producerar sällsynt jord.",
+        "Description3": "Den totala mängden producerad sällsynt jord är synlig i alliansugnens vy: Allians-knappen -> Alliansugn, och påverkar nivån på alliansugnen.",
+        "Description4": "Rangordningen för sällsynt jord kan nås via sidan \"Säsong 2\": Symbolen \"Säsong 2\" -> Topplista.",
+        "Description5": "Du kan få mer sällsynt jord genom att vinna som angripare i kriget om sällsynt jord."
+      },
+      "CityProduction": {
+        "Title": "Produktion av sällsynt jord i staden",
+        "Description": "Här är den exakta mängden sällsynt jord per stad nivå:",
+        "List1": "Nivå 1: 350/h",
+        "List2": "Nivå 2: 400/h",
+        "List3": "Nivå 3: 450/h",
+        "List4": "Nivå 4: 800/h",
+        "List5": "Nivå 5: 900/h",
+        "List6": "Nivå 6: 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Produktion av sällsynt jord i grävplatser",
+        "Description": "Här är den exakta mängden sällsynt jord per grävplats nivå:",
+        "List1": "Nivå 1: 100/h",
+        "List2": "Nivå 2: 110/h",
+        "List3": "Nivå 3: 120/h",
+        "List4": "Nivå 4: 130/h",
+        "List5": "Nivå 5: 140/h",
+        "List6": "Nivå 6: 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Krig om sällsynt jord",
+      "Description": "I säsong 2 kommer det att vara krig om sällsynt jord. Det kommer inte att finnas någon gränsöverskridande erövring av städer eller grävplatser."
+    },
+    "RadarMission": {
+      "Title": "Radarmissioner",
+      "Description": "I säsong 2 kommer en ny radarmission att vara tillgänglig: \"Nödställd överlevande\".",
+      "Description2": "För att slutföra uppdraget skickar du dina trupper för att hjälpa den nödställda överlevande och får belöningar, inklusive kol."
+    },
+    "HeroUpgrade": {
+      "Title": "Uppgraderingar och vapen för hjältar",
+      "Description": "Säsong 2 ger nyheter om hjältar och vapen, vars tillgänglighet är tidsbegränsad.",
+      "Violette": {
+        "Title": "Violetts uppgradering till UR",
+        "Description": "Det kommer att vara möjligt att uppgradera Violet till UR. Eventet startar förväntat efter vecka 2."
+      },
+      "Legend": {
+        "Title": "S2: Legendens återkomst",
+        "Description": "Efter varje 50 rekryter är en legendär hjälte garanterad."
+      },
+      "RecruitHeroes": {
+        "Title": "Rekrytera hjältar"
+      },
+      "Weapon": {
+        "Title": "S2: Legendernas vapen",
+        "Description": "Ett nytt område i tavernan möjliggör erhållande av hjältexklusiva vapenfragmentvalskistor II. Dessa innehåller vapenfragment av Kimberly, DVA och Tesla.",
+        "Image1": "För att rekrytera i detta område behöver du ett New Era-rekryteringsticket.",
+        "Image2": "Varje 20 rekryter garanterar 2 exklusiva vapenfragment."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Exklusiva vapen",
+        "Description": "Säsong 2 ger exklusiva vapen för Murphy, Carlie och ???.",
+        "Murphy": {
+          "Title": "Murphys exklusiva vapen",
+          "Description": "Från dag 4 i säsong 1 kan du samla vapenfragment genom Murphys exklusiva vapen-Battle Pass för att aktivera och förbättra Murphys exklusiva vapen. Universella vapenfragment kan endast användas för förbättring, inte för aktivering."
+        },
+        "Carlie": {
+          "Title": "Carlies exklusiva vapen",
+          "Description": "Från dag 4 i vecka 3 kan du samla vapenfragment genom Carlies exklusiva vapen-Battle Pass för att aktivera och förbättra Carlies exklusiva vapen. Universella vapenfragment kan endast användas för förbättring, inte för aktivering."
+        },
+        "Swift": {
+          "Title": "Swifts exklusiva vapen",
+          "Description": "Från dag 4 i vecka 6 kan du samla vapenfragment genom Swifts exklusiva vapen-Battle Pass för att aktivera och förbättra Swifts exklusiva vapen. Universella vapenfragment kan endast användas för förbättring, inte för aktivering."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Temperatur",
+      "Description": "Temperaturen utgör en stor utmaning i polarregionen och påverkar kontinuerligt statistiken för din bas. Din basens temperatur anpassar sig långsamt till omgivningen. Att upprätthålla högre temperaturer ger dig bonusstatistik. Temperaturen för din bas kan variera mellan -270 °C och +300 °C.",
+      "Location": {
+        "Title": "Plats",
+        "Description": "Du kan övervaka din temperatur via ikonen eller gå till temperaturens detaljsida genom att klicka på motsvarande ikon. På denna detaljsida listas alla faktorer som påverkar temperaturen för din bas.",
+        "Description2": "I den övre delen kan du se hur ikonen för din bas temperatur (husikonen) rör sig och överlappar med ikonen för omgivningstemperaturen (kartan)."
+      },
+      "Base": {
+        "Title": "Bas",
+        "Description": "Den sluttemperatur som visas ovan för platser påverkar din bas och orsakar buffar/debuffar. Styrkan i % av buffarna/debuffarna beror på temperaturen och visas i diagrammen som du kan se i bilderna nedan. Här är beskrivningen av buffarna/debuffarna.",
+        "Title2": "Grundläggande resursproduktion:",
+        "Description2": "Produktion av åkermark, järnmalmsgruvor och guldgruvor +10 % (vid 4 °C)",
+        "Title3": "Termisk vapen:",
+        "Description3": "Truppers hållbarhetsskad under spelsäsongen +100 (vid 4 °C)",
+        "Title4": "Enhetsläkningshastighet:",
+        "Description4": "Läkningshastighet för skadade enheter under säsongen +0 % (vid 4 °C)",
+        "Title5": "Enhetens moral:",
+        "Description5": "Enhetens moral under säsongen +0 % (vid 4 °C)"
+      },
+      "Factors": {
+        "Title": "Temperaturpåverkande faktorer",
+        "Description": "Temperaturen påverkas av många faktorer:",
+        "List1": "Basens plats på kartan: Ju längre in i centrum, desto kallare blir det.",
+        "List2": "Ugnsaktivitet: Den nya säsongsbyggnaden \"Högvärmeugn\" producerar värme för din bas när den är aktiverad, och ännu mer värme i överdriftsläge.",
+        "List3": "Intensiv överdriftsförmåga: En säsongsförmåga som gör att man kan öka överdriftsvärmen.",
+        "List4": "Aktivitet hos Alliance Furnace: Den nya säsongsalliansbyggnaden möjliggör produktion av värme i närheten. Utposter i närheten av Alliance Furnace påverkas av denna värme.",
+        "List5": "Allierat spaningsflygplan: Allierade kan skicka spaningsflygplan för att tillfälligt ge stöd.",
+        "List6": "Stadens uppvärmningsområde: När stadens ugn är aktiverad, värms hela stadsområdet (fältet där staden ligger). Närheten till en stad hjälper till att hålla sig varm.",
+        "List7": "Atomugn: Den ultimata värmaren som efter aktivering förser hela kartan med värme.",
+        "List8": "Snöstormar: Från dag 1 av säsongen sker händelser som orsakar en enorm temperaturminskning i alla krigsområden i flera timmar. Ju högre nivå, desto kraftigare sjunker temperaturen.",
+        "List9": "Truppaktivitet: Trupper som lämnar din bas orsakar ett tillfälligt värmeförlust.",
+        "List10": "Polariska monster: Din bas blir attackerad av polariska monster, vilket leder till en temperaturminskning på -5 °C (försvarsmisslyckande orsakar ytterligare en minskning på -10 °C)."
+      },
+      "Burn": {
+        "Title": "Frysning och bränning",
+        "Description": "Ditt mål är att hålla din bas på rätt temperatur så att du inte påverkas av debuffs och din bas inte fryser eller brinner. Se till att du inte spenderar för mycket kol, eftersom du behöver det för din ugn (och alliansugnen) ju längre din allians rör sig mot centrum.",
+        "Description2": "Om temperaturen på din bas blir för låg eller för hög, finns det en risk för att din bas fryser eller brinner."
+      },
+      "LowTemperatures": {
+        "Title": "Låga temperaturer",
+        "Description": "Temperaturen på din bas kan inte sjunka under -270 °C.",
+        "Title2": "Bas nästan fryst:",
+        "Description2": "Om du ligger under -20 °C startar en 5-minuters nedräkning som visar \"Snart frysa\". Värm basen innan frysningsperioden går ut för att förhindra frysning.",
+        "Solutions": "Lösningar:",
+        "Solution1": "Flytta till ett varmare område.",
+        "Solution2": "Aktivera högtemperaturugnen eller sätt den i överdriftsläge.",
+        "Solution3": "Om du är inom räckhåll för alliansugnen, begär att den aktiveras eller sätts i överdriftsläge.",
+        "Solution4": "Be dina allierade att skicka ett spaningsflygplan för att värma dig."
+      },
+      "FrozenBase": {
+        "Title": "Fryst bas:",
+        "Description": "Om en bas förblir under -20 °C i mer än 5 minuter är den fryst. I detta tillstånd är platsförändringar och möten inte möjliga (allians- och slumpmässiga platsförändringar är fortfarande möjliga). Observera att debuffs också gäller, som visat i avsnittet \"Bas\".",
+        "Solutions": "Lösningar:",
+        "Solution1": "Flytta med hjälp av alliansen eller via slumpmässig teleport till varmare zoner.",
+        "Solution2": "Aktivera högtemperaturugnen eller sätt den i överdriftsläge.",
+        "Solution3": "Om du är inom räckhåll för alliansugnen, begär att den sätts i överdriftsläge.",
+        "Solution4": "Be dina allierade att skicka ett spaningsflygplan för att värma dig eller trupper för att bryta isen (5 träffar kostar 5 uthållighet var)."
+      },
+      "IceMelts": {
+        "Title": "Is smälter snart:",
+        "Description": "Om din bas är fryst kan du tina den genom att höja temperaturen över -20 °C och hålla den temperaturen. En 5-minuters avfrostningsnedräkning startas. Om temperaturen faller under -20 °C ens för en sekund, förblir basen fryst och du måste börja tina igen.",
+        "Description2": "Alternativt kan du be dina allierade att skicka trupper för att bryta isen (5 träffar kostar 5 uthållighet)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Hjälp allierade att öka temperaturen",
+      "Description": "Du kan hjälpa dina allierade att öka sin temperatur genom att skicka en spaningsplan och spendera lite kol. Tänk på att effekten dock inte varar länge. Detta kan vara särskilt hjälpsamt när de står inför svåra händelser som snöstormar."
+    },
+    "VirusResistance": {
+      "Title": "Virusresistens",
+      "Description": "I säsong 2 är viruset fortfarande aktivt, men har mindre inverkan på spelupplägget än i säsong 1.",
+      "Description2": "För att öka din virusresistens måste du uppgradera din egen högvärmeugn. Detta ökar både värme- och virusresistens.",
+      "Image": "Som vanligt finns det ett veckopass som ger dig en boost på 250 virusresistens.",
+      "Description3": "Virusresistens har följande effekter:",
+      "List1": "Doom Elite, som du kan attackera.",
+      "List2": "Polariska bestar som bevakar utgrävningsplatser kan också attackera dig."
+    },
+    "Profession": {
+      "Title": "Yrken – Nivågräns upphöjd till nivå 70",
+      "Description": "I säsong 2 höjs nivågränsen för yrken till nivå 70.",
+      "Description2": "De säsongsbundna färdigheterna för nivåer upp till 50 revideras och anpassas efter säsongstemat. Vissa färdigheter på lägre nivåer förblir dock desamma som i säsong 1.",
+      "SeasonSkills": {
+        "Title": "Säsongsbundna färdigheter",
+        "Description": "De säsongsbundna färdigheterna är identiska för yrkena ingenjör och krigsherr och finns till höger om bäraren på grön bakgrund."
+      },
+      "Warlords": {
+        "Title": "Tilläggsfärdigheter för krigsherrarna – Nivå 45 till 70",
+        "Description": "Färdigheter för nivå 45",
+        "Description2": "Färdigheter för nivå 50",
+        "Description3": "Färdigheter för nivå 55",
+        "Description4": "Färdigheter för nivå 60",
+        "Description5": "Färdigheter för nivå 65",
+        "Description6": "Färdigheter för nivå 70"
+      },
+      "Engineer": {
+        "Title": "Tilläggsfärdigheter för ingenjören – Nivå 45 till 70",
+        "Description": "Färdigheter för nivå 45",
+        "Description2": "Färdigheter för nivå 50",
+        "Description3": "Färdigheter för nivå 55",
+        "Description4": "Färdigheter för nivå 60",
+        "Description5": "Färdigheter för nivå 65",
+        "Description6": "Färdigheter för nivå 70"
+      }
     }
   }
 }

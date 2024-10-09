@@ -138,6 +138,7 @@
     "Squad": "Team",
     "DesertStorm": "Woestijnstorm",
     "SeasonOne": "Seizoen 1",
+    "SeasonTwo": "Seizoen 2",
     "Marshall": "Maarschalkwacht"
   },
   "VS": {
@@ -1109,6 +1110,400 @@
     "Pagination": {
       "NextLabel": "Volgende",
       "PreviousLabel": "Vorige"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Seizoen 2 - Poolstorm",
+    "Content": {
+      "Title": "Inhoud",
+      "NewResources": "Nieuwe basisbronnen",
+      "WorldMap": "De wereld en de kaart",
+      "NewBuildings": "Nieuwe gebouwen",
+      "AllianceFurnace": "Alliantieoven",
+      "NewFarms": "Nieuwe boerderijen – Alliantiebronnen",
+      "MilitaryBase": "Militaire bases",
+      "Cities": "Steden",
+      "DigSites": "Opgravingslocaties",
+      "StockCollection": "Voorraadcollectie",
+      "RareSoil": "Zeldzame bodem",
+      "RareSoilWar": "Oorlog om zeldzame bodem",
+      "RadarMission": "Radar missies",
+      "HeroUpgrade": "Held-upgrades en wapens",
+      "Temperature": "Temperatuur",
+      "HelpTheAllies": "Help de bondgenoten de temperatuur te verhogen",
+      "VirusResistance": "Virusresistentie",
+      "Profession": "Beroepen – Niveaugrens verhoogd naar niveau 70"
+    },
+    "Resources": {
+      "Title": "Nieuwe basisgrondstoffen – Kolen en titaniumlegeringen",
+      "Description": "In het spel zijn nu extra grondstoffen beschikbaar: titaniumlegering en kolen.",
+      "Titanium": {
+        "Title": "Titaniumlegering",
+        "Description": "Wordt gebruikt voor het bouwen en upgraden van seizoensgebouwen.",
+        "Description2": "Titaniumlegeringen ontvang je door:",
+        "List1": "Beloningen voor het voor het eerst doden van zombies op niveau",
+        "List2": "Het voltooien van seizoensmissies",
+        "List3": "Het voltooien van Seizoen-2-doelen voor het hoge temperatuuroven-niveau",
+        "List4": "Eerste bloedkill van Doom Walker (eerste DW-kill van de dag)",
+        "List5": "Gebruik van het 'Hero's Return'-wervingsbewijs in S2: Legend Returns",
+        "List6": "Beloning voor de eerste verovering van een stad/opgraving"
+      },
+      "Coal": {
+        "Title": "Kolen",
+        "Description": "Wordt gebruikt voor het bouwen en upgraden van seizoensstructuren of voor het voeden van de hoge temperatuuroven.",
+        "Description2": "Kolen kun je verdienen door:",
+        "List1": "Beloningen voor het voor het eerst doden van zombies op niveau",
+        "List2": "Het voltooien van seizoensmissies",
+        "List3": "Veroveren van opgravingen zorgt voor continue kolenproductie",
+        "List4": "Het voltooien van Seizoen-2-doelen voor het hoge temperatuuroven-niveau",
+        "List5": "Gebruik van het 'Hero's Return'-wervingsbewijs in S2: Legend Returns",
+        "List6": "Wekelijks abonnement en seizoensbattlepass (grootste boost)",
+        "List7": "Beloningen voor het verzamelen van voorraden",
+        "List8": "Beloning voor de eerste verovering van een stad/opgraving",
+        "List9": "Het voeden van Snowflake met een maaltijd die hij ontvangt via het 'Polar Dishes'-evenement"
+      }
+    },
+    "WorldMap": {
+      "Title": "De wereld en de kaart",
+      "Description": "De wereld is opnieuw veranderd. De kaart bestaat uit wisselende steden en opgravingen.",
+      "Description2": "Om de ambities van keizer Boreas te dwarsbomen, verzamel je met je bondgenoten aan de rand van de poolregio. Het is erg koud en de temperatuur daalt verder naarmate je dichter bij het centrum komt.",
+      "Image1": "Steden",
+      "Image2": "Opgravingen",
+      "Image3": "Atoomoven (Kapitol)",
+      "Description3": "Aan het begin van het seizoen strand je met je bondgenoten aan de rand van de server (maar nog steeds samen als een alliantie-hive) en heb je geen eigen stad. Steden moeten heroverd worden, maar er gelden nieuwe regels ...",
+      "Description4": "Doom-elite-monsters veranderen in agressieve poolmonsters, en de meeste zombies vereisen een hoge virussenresistentie om gedood te worden.",
+      "Description5": "Zo ziet de kaart eruit. De gebouwen die je ziet, zijn de steden, de andere tegels er tussenin zijn de opgravingen. Tegels worden als verbonden aan de hoeken beschouwd, zodat bijvoorbeeld elke stadtegel aan de hoeken verbonden is met de tegels van andere steden. Hetzelfde geldt voor opgravingen.",
+      "ThermalMap": {
+        "Title": "Thermische kaartweergave",
+        "Description": "Zoals je in de kaartweergave kunt zien, is er een schakelaar om de warmtekaart in te schakelen, die je de temperatuur toont. Als je op elk punt van de kaart klikt, wordt je de temperatuur op die locatie weergegeven.",
+        "Description2": "Hoe dichter je bij het midden van de kaart komt, hoe lager de temperatuur.",
+        "Description3": "Vanaf elke opgraving in de hoek diagonaal naar het midden heeft elk kaartveld een dalende temperatuur van: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (Het Kapitol).",
+        "Description4": "Dit is de volledige warmtekaartoverlay, die geen stedelijke ovens, atoomovens, sneeuwstormen of andere temperatuurveranderende effecten in aanmerking neemt. Het toont de basistemperatuur van het oorlogsgebied."
+      }
+    },
+    "NewBuildings": {
+      "Title": "Nieuwe gebouwen",
+      "Description": "In Seizoen 2 zijn er nieuwe gebouwtypen beschikbaar.",
+      "Description2": "De gebouwen die bij uw basis horen, kunnen alleen buiten de cirkel van uw basis worden gebouwd (dezelfde zone als in Seizoen 1).",
+      "Description3": "Sommige verschijnen aan het begin van het seizoen, andere volgen later.",
+      "Description4": "In Seizoen 2 zijn ook nieuwe alliantiegebouwen beschikbaar.",
+      "TitanFabric": {
+        "Title": "Titaniumlegeringfabriek",
+        "Image1": "De titaniumlegeringfabriek produceert titaniumlegeringen, die cruciaal zijn voor het upgraden van uw oven.",
+        "Update": {
+          "Title": "Verhoog het niveau van de titaniumlegeringfabriek",
+          "Description": "U heeft kolen nodig om de titaniumlegeringfabriek te upgraden.",
+          "Description2": "Dit gebouw kan tot niveau 30 worden geüpgraded, ongeacht uw HQ-niveau.",
+          "Description3": "Zodra uw eerste titaniumlegeringfabriek niveau 15 bereikt, zal er een nieuwe titaniumlegeringfabriek beschikbaar zijn.",
+          "Description4": "Volgende titaniumlegeringfabrieken worden beschikbaar als de vorige naar niveau 15 gaat.",
+          "Description5": "Een titaniumlegeringfabriek zal onmiddellijk beschikbaar zijn met het wekelijkse seizoensabonnement.",
+          "Image": "BELANGRIJK: Elke niveauverhoging levert u altijd een toename van 720 output/u op, ongeacht het bereikte niveau. Wees dus slim en upgrade altijd eerst de fabriek met het laagste niveau."
+        },
+        "Requirements": {
+          "Title": "Kolenbehoefte van een titaniumlegeringfabriek",
+          "Description": "De waarden in de onderstaande tabel zijn de OORSPRONKELIJKE kosten voor kolen. Op deze kosten worden enkele kortingen toegepast, gebaseerd op:",
+          "List1": "Uw technische onderzoeken over gebouwkostenverlaging",
+          "List2": "Uw alliantie-technologie met betrekking tot bouwkostenreductie",
+          "List3": "De beroepspecialisatie, met name de vaardigheid 'Hulpbronnenbesparing' van niveau 35 (tot -5%)",
+          "Image": "Om uw werkelijke kosten te berekenen, bepaalt u het percentage van de 'verlaging van de voor de bouw van het gebouw vereiste hulpbronnen' en trekt u dat percentage af van de OORSPRONKELIJKE kosten."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Hoge temperatuuroven",
+        "Description": "Dit nieuwe gebouw is erg belangrijk.",
+        "Image": "Het stelt je in staat om met kolen de temperatuur te verhogen en zo de virussenresistentie te verhogen.",
+        "Update": {
+          "Title": "Verhoog het niveau van de hoge temperatuuroven",
+          "Description": "U heeft een titaniumlegering nodig om de hoge temperatuuroven te upgraden.",
+          "Description2": "Door dit gebouw te upgraden, kunnen de volgende punten worden verbeterd:",
+          "List1": "de virussenresistentie",
+          "List2": "de activeringswarmte van de oven (dit is de basis temperatuur van de oven)",
+          "List3": "de oververhitting van de oven (dit is de maximale temperatuur die u met de oven kunt bereiken als u hem meer kolen per minuut laat verbruiken)",
+          "Image": "Dit gebouw kan tot niveau 30 worden geüpgraded, ongeacht uw HQ-niveau."
+        },
+        "Control": {
+          "Title": "Bedieningspaneel van de hoge temperatuuroven",
+          "Description": "Om de temperatuur van uw basis te verhogen, kunt u de hoge temperatuuroven inschakelen.",
+          "Description2": "Het bedieningspaneel is vrij eenvoudig te begrijpen:",
+          "List1": "Schakelaar om in/uit te schakelen",
+          "List2": "Schakelaar om de overdrive in te schakelen, die meer kolen per minuut verbruikt, maar meer verwarmt",
+          "List3": "Schakelaar om de oven automatisch in te schakelen wanneer er een sneeuwstorm aankomt.",
+          "Image": "Als u de overdrive inschakelt, stijgt de temperatuur nog sneller."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Alliantieoven",
+      "Description": "Naast uw eigen hoge temperatuuroven zal er ook de alliantieoven zijn. Dit is een leuke aanvulling, omdat de hele alliantie kan helpen de temperatuur voor alle bondgenoten te verhogen.",
+      "Description2": "Vanaf dag 1 van het tweede seizoen kunnen de allianties de bouwlocatie voor de alliantieoven op de kaart positioneren (gebied van niveau 1) en beginnen met het repareren van de alliantieoven om deze te gebruiken (begint op niveau 1). Dit proces is vergelijkbaar met het bouwen van een buitenpost met tot 20 versterkingen.",
+      "Description3": "De alliantieoven kan worden gevonden door op de knop Alliantie -> Alliantieoven -> op de coördinaten te klikken. Acties hierop kunnen alleen door R4/R5-leden worden uitgevoerd.",
+      "HeatingRange": {
+        "Title": "Warmtebereik van de alliantieoven",
+        "Description": "Het is belangrijk op te merken dat de alliantieoven de temperatuur alleen binnen zijn bereik verhoogt. Zorg er dus voor dat uw basis in de buurt van de oven is.",
+        "Description2": "Een goed voorstel voor een alliantie zou zijn om altijd in de buurt van de alliantieoven te blijven en leden met lagere temperaturen en een laag niveau van de hoge temperatuuroven dichterbij te laten komen.",
+        "Description3": "Hieronder ziet u het effect van de oven op het gebied wanneer deze aan en uit is. Links is de oven aan en verwarmt daardoor de omgeving, rechts is deze uitgeschakeld en is de temperatuur op precies dezelfde plek lager.",
+        "Description4": "Hieronder kunt u de warmtemap rond de oven zien en hoe deze de temperatuur in de omgeving beïnvloedt."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nieuwe boerderijen - Alliantiebronnen",
+      "Description": "Zoals al gezien in Seizoen 1, kan na het willekeurig doden van Doom-eliten tijdelijk een nieuw type alliantiebronnenfarm verschijnen. In Seizoen 2 kunnen ze ook van het type titaniumlegering en kolen zijn."
+    },
+    "MilitaryBase": {
+      "Title": "Militaire bases",
+      "Description": "Zodra de hoge temperatuuroven niveau 30 bereikt, zullen er drie nieuwe gebouwen beschikbaar zijn die verbeteringen voor heldentypen mogelijk maken.",
+      "Description2": "BELANGRIJK: Deze gebouwen zullen aan het einde van seizoen 2 verdwijnen, zoals al het geval was in seizoen 1.",
+      "Description3": "Voor het upgraden heeft u zowel kolen als titaniumlegering nodig. Deze gebouwen kunnen tot niveau 30 worden geüpgraded, ongeacht uw HQ-niveau.",
+      "Description4": "Elke niveau-upgrade verhoogt de bijbehorende schadeboost die door tank-, vliegtuig- of rakethelden wordt veroorzaakt.",
+      "Description5": "De hoeveelheid kolen en titaniumlegering die nodig is voor het upgraden van elke fase is hetzelfde voor alle gebouwen, evenals het boostpercentage."
+    },
+    "Cities": {
+      "Title": "Steden",
+      "List1": "Maximale aantal steden en opgravingsplaatsen dat u kunt veroveren: 6 steden en 4 opgravingsplaatsen.",
+      "List2": "Door steden te veroveren, neemt het aantal opgravingsplaatsen dat u kunt veroveren niet toe, aangezien dit altijd 4 bedraagt.",
+      "Description": "Eigen steden en opgravingsplaatsen produceren zeldzame aarde, die cruciaal is voor de overwinning in seizoen 2. De hoeveelheid hangt af van het stadniveau: hoeveelheid zeldzame aarde in steden en hoeveelheid zeldzame aarde in opgravingsplaatsen.",
+      "Heating": {
+        "Title": "Stadoven",
+        "Description": "Steden voorzien het hele stadsgebied van warmte zodra ze zijn veroverd. De hoeveelheid hangt af van hun niveau:",
+        "List1": "Niveau 1: 5 °C",
+        "List2": "Niveau 2: 20 °C",
+        "List3": "Niveau 3: 30 °C",
+        "List4": "Niveau 4: 40 °C",
+        "List5": "Niveau 5: 50 °C",
+        "List6": "Niveau 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Opgravingsplaatsen",
+      "Description": "Opgravingsplaatsen waren ooit van cruciaal belang voor de kolenproductie, maar zijn overgenomen door gemuteerde beesten onder de controle van keizer Boreas. Versla de beesten, herover de plaatsen en hervat de kolenproductie.",
+      "Description2": "Kolen zijn essentieel voor de verwarming van uw basis. Daarom is het veroveren van opgravingsplaatsen die kolen produceren een zeer belangrijke stap voor elke alliantie. Opgravingsplaatsen op een hoger niveau produceren grotere hoeveelheden kolen.",
+      "Description3": "Met de nieuwste game-update produceren opgravingsplaatsen ook zeldzame aarde.",
+      "Description4": "De opgravingsplaats wordt bewaakt door ijsbeesten die kunnen worden ontdooid. U moet ze dus ontdooien voordat u kunt veroveren.",
+      "Description5": "Klik hiervoor op het beest en gebruik de knop 'Ontdooien' om uw troepen in actie te brengen. Versla vervolgens het ijsbeest zoals u de verderfelen in seizoen 1 hebt verslagen.",
+      "Description6": "U kunt alle opgravingsplaatsen van de alliantie bekijken door op de knop 'Alliantie' -> 'Alliantiestad' te klikken.",
+      "Description7": "Op het eerste tabblad vindt u steden en opgravingsplaatsen die zeldzame aarde produceren; op het tweede tabblad vindt u opgravingsplaatsen die kolen produceren. Deze kunt u elk uur opeisen door op de afzonderlijke opgravingsplaatsen of op de knop 'Alle opeisen' te klikken.",
+      "Coal": {
+        "Title": "Opgravingsplaatsen voor kolen en zeldzame aarde",
+        "Description": "Opgravingsplaatsen produceren kolen en zeldzame aarde op basis van hun niveau, hier de exacte hoeveelheid per niveau:",
+        "List1": "Niveau 1: 2.736/u kolen – 100/u zeldzame aarde",
+        "List2": "Niveau 2: 2.880/u kolen – 110/u zeldzame aarde",
+        "List3": "Niveau 3: 3.024/u kolen – 120/u zeldzame aarde",
+        "List4": "Niveau 4: 3.168/u kolen – 130/u zeldzame aarde",
+        "List5": "Niveau 5: 3.312/u kolen – 140/u zeldzame aarde",
+        "List6": "Niveau 6: 3.456/u kolen – 150/u zeldzame aarde"
+      },
+      "Protection": {
+        "Title": "Verwervings- en beschermingsstatus",
+        "Description": "Opgravingsplaatsen lijken op de vestigingen uit seizoen 1.",
+        "List1": "Maximale aantal opgravingsplaatsen dat u kunt bezitten: 4, ongeacht het aantal steden dat u bezit.",
+        "List2": "Maximaal dagelijks limiet voor het veroveren van opgravingsplaatsen: 2.",
+        "List3": "De eerste verovering vereist de nederlaag van gemuteerde beesten met voldoende virusresistentie. Het poolbeest kan bevroren zijn, dus u moet troepen uitzenden om het te ontdooien voordat u het aanvalt. Om deze beesten te verslaan, zijn meerdere verzamelacties vereist (elke hit veroorzaakt % schade). Zodra het poolbeest is verslagen, moet u de opgravingsplaats versterken met maximaal 10 troepen.",
+        "List4": "Het veroveringsproces van de opgravingsplaats is een uitdaging, waarbij de eerste alliantie die 100% bereikt, wint. De maximale veroveringstijd bedraagt 4 uur. Als binnen deze tijd geen volledige voortgang van 100% wordt bereikt, mislukt de poging. Als de opgravingsplaats niet in bezit was, blijft deze neutraal; als deze in bezit was, blijft deze bij de vorige eigenaar. Het veroveringspercentage van een alliantie stijgt terwijl de plaats wordt versterkt. Sterkere troepen versnellen het proces.",
+        "List5": "Zodra een opgravingsplaats is ingenomen, is deze 36 uur lang beschermd en omringd door wachters.",
+        "List6": "Technisch gezien kunt u een onbeperkt aantal opgravingsplaatsen tegelijkertijd aanvallen en versterken, maar zodra u de tweede dagelijkse verovering heeft voltooid, kunt u geen neutrale of eigen opgravingsplaatsen meer aanvallen. Als u een andere opgravingsplaats versterkt (wat als de derde verovering telt), worden uw troepen automatisch teruggetrokken zodra de tweede verovering is voltooid.",
+        "List7": "Als een opgravingsplaats toebehoort aan een alliantie en door een andere wordt aangevallen, telt een mislukte veroveringspoging niet als dagelijkse verovering voor de verdedigende alliantie.",
+        "List8": "Uw eerste alliantiegebied moet een opgravingsplaats van niveau 1 zijn. Van hieruit kunt u elk aangrenzend gebied veroveren. Gebieden in seizoen 2 zijn ook aan hun hoeken aangrenzend.",
+        "List9": "De gebiedsverovering kan worden uitgebreid naar aangrenzende gebieden (opgravingsplaatsen en steden) zowel van eigen steden als van opgravingsplaatsen.",
+        "List10": "Als u een alliantiegebied opgeeft of verliest en nu over twee afzonderlijke sets alliantiegebieden beschikt, kunt u nog steeds alle gebieden veroveren die aan de ene of andere set grenzen.",
+        "List11": "Als uw alliantie een opgravingsplaats opgeeft (dit duurt een uur), wordt deze neutraal en kan elke alliantie, inclusief de uwe, deze heroveren. Als de opgravingsplaats echter nog onder beschermingsstatus staat bij het verlaten, moet de afkoeltijd van de beschermingsstatus verstrijken voordat een alliantie, inclusief de uwe, de controle kan overnemen.",
+        "List12": "In seizoen 2 zullen er geen cross-zone veroveringen van opgravingsplaatsen zijn.",
+        "Description2": "Hieronder ziet u een gemuteerde gorilla die een opgravingsplaats van niveau 2 beschermt. De gemuteerde gorilla is nog bevroren en de alliantie heeft hem gedeeltelijk ontdooid.",
+        "Description3": "Het spel maakt de verovering van opgravingsplaatsen mogelijk die diagonaal aan andere opgravingsplaatsen op een hoek grenzen. U kunt bijvoorbeeld in de onderstaande afbeeldingen zien dat het niet nodig was om stadsniveau 2 te veroveren om de andere opgravingsplaatsen te veroveren die op de hoek aan de andere opgravingsplaatsen grenzen. Deze screenshots zijn gemaakt op dag 3, toen alleen stadsniveau 1 kon worden veroverd."
+      }
+    },
+    "StockCollection": {
+      "Title": "Voorraadverzameling",
+      "Description": "In seizoen 2 verschijnt er een nieuw type schat voor allianceresources.",
+      "Description2": "Deze nieuwe schatten kunnen alleen worden ontdekt wanneer de landtemperatuur 0 °C bereikt.",
+      "Description3": "Om ze te vinden, verplaats je de alliantieoven om het land op te warmen en naar 0 °C te brengen. Je kunt ook een stad veroveren, zodat de stadsoven het hele stadsgebied verwarmt. Verplaats dan de alliantieoven en activeer deze in de overdrive-modus (natuurlijk moet je ervoor zorgen dat je huidige niveau van de alliantieoven hoog genoeg is om de juiste temperatuur te bereiken). Zodra het land 0 °C bereikt, verschijnt de voorraadverzameling in de ontdooifase.",
+      "Description4": "Stuur troepen om de voorraadverzameling te ontdooien en vraag vervolgens je beloning aan.",
+      "Description5": "Voorraadverzamelingen hebben verschillende niveaus en bieden daarom verschillende beloningen.",
+      "Description6": "Er is een mogelijkheid om toegang te krijgen tot het seizoen 2-symbool -> Voorraadverzameling en van daaruit te zien of voorraadverzamelingen zijn ontdekt.",
+      "Image1": "Er is een limiet van 5 terugvorderingspogingen per dag."
+    },
+    "RareSoil": {
+      "Title": "Zeldzame Aarde",
+      "Description": "Zodra steden en opgravingsplaatsen in de poolregio zijn veroverd, beginnen ze in de loop van de tijd zeldzame aarde te produceren. Zeldzame aarde is in dit seizoen een belangrijke hulpbron voor de allianties, en aan het einde van het seizoen worden de allianties gerangschikt op basis van hun hoeveelheid. Hoe hoger de rang, hoe beter de beloningen.",
+      "Description2": "Hoe hoger de niveaus van de stad en de opgravingsplaats, hoe meer zeldzame aarde er per uur wordt geproduceerd.",
+      "Production": {
+        "Title": "Productie van zeldzame aarde",
+        "Description": "Zodra steden en opgravingsplaatsen zijn veroverd, beginnen ze, afhankelijk van hun niveau, zeldzame aarde te produceren.",
+        "Description2": "Je kunt de details van de productie van zeldzame aarde bekijken door op de knop 'Alliantie' -> 'Alliantiestad' te klikken. Daar zijn zowel steden als opgravingsplaatsen zichtbaar die zeldzame aarde produceren.",
+        "Description3": "De totale hoeveelheid geproduceerde zeldzame aarde is zichtbaar in de alliantieovenweergave: Alliantieknop -> Alliantieoven, en heeft invloed op het niveau van de alliantieoven.",
+        "Description4": "Toegang tot de ranglijsten voor zeldzame aarde kan worden verkregen via de pagina 'Seizoen 2': Seizoen 2-symbool -> Ranglijst.",
+        "Description5": "Je kunt meer zeldzame aarde verkrijgen door als aanvaller te winnen in de oorlog om zeldzame aarde."
+      },
+      "CityProduction": {
+        "Title": "Productie van zeldzame aarde in de stad",
+        "Description": "Hier de exacte hoeveelheid zeldzame aarde per stadsniveau:",
+        "List1": "Niveau 1: 350/u",
+        "List2": "Niveau 2: 400/u",
+        "List3": "Niveau 3: 450/u",
+        "List4": "Niveau 4: 800/u",
+        "List5": "Niveau 5: 900/u",
+        "List6": "Niveau 6: 1000/u"
+      },
+      "DigSiteProduction": {
+        "Title": "Productie van zeldzame aarde in opgravingsplaatsen",
+        "Description": "Hier de exacte hoeveelheid zeldzame aarde per opgravingsplaatsniveau:",
+        "List1": "Niveau 1: 100/u",
+        "List2": "Niveau 2: 110/u",
+        "List3": "Niveau 3: 120/u",
+        "List4": "Niveau 4: 130/u",
+        "List5": "Niveau 5: 140/u",
+        "List6": "Niveau 6: 150/u"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Oorlog om zeldzame aarde",
+      "Description": "In seizoen 2 zullen er oorlogen om zeldzame aarde zijn. Er zal geen cross-zone verovering van steden of opgravingsplaatsen zijn."
+    },
+    "RadarMission": {
+      "Title": "Radarmissies",
+      "Description": "In seizoen 2 zal er een nieuwe radarmissie beschikbaar zijn: 'In nood verkerende overlevende'.",
+      "Description2": "Om de missie te voltooien, stuur je je troepen om de overlevende in nood te helpen en ontvang je beloningen, waaronder kolen."
+    },
+    "HeroUpgrade": {
+      "Title": "Held-Upgrades en Wapens",
+      "Description": "Seizoen 2 brengt nieuws over helden en wapens, waarvan de beschikbaarheid tijdelijk is.",
+      "Violette": {
+        "Title": "Violets Upgrade naar UR",
+        "Description": "Het zal mogelijk zijn om Violet naar UR te upgraden. Het evenement begint naar verwachting na week 2."
+      },
+      "Legend": {
+        "Title": "S2: De Terugkeer van de Legende",
+        "Description": "Na elke 50 rekruten is een legendarische held gegarandeerd."
+      },
+      "RecruitHeroes": {
+        "Title": "Helden Rekruteren"
+      },
+      "Weapon": {
+        "Title": "S2: Wapens van de Legenden",
+        "Description": "Een nieuw gebied in de herberg maakt het mogelijk om helden-exclusieve wapensplinter-keuze-kisten II te ontvangen. Deze bevatten wapensplinters van Kimberly, DVA en Tesla.",
+        "Image1": "Voor rekrutering in dit gebied heeft u een New Era rekruteringticket nodig.",
+        "Image2": "Na elke 20 rekruten ontvangt u gegarandeerd 2 exclusieve wapensplinters."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Exclusieve Wapens",
+        "Description": "Seizoen 2 brengt exclusieve wapens voor Murphy, Carlie en ???.",
+        "Murphy": {
+          "Title": "Murphy's Exclusieve Wapen",
+          "Description": "Vanaf dag 4 van seizoen 1 kunt u via Murphy's exclusieve wapens Battle Pass wapensplinters verzamelen om Murphy's exclusieve wapen te activeren en te verbeteren. Universele wapensplinters kunnen alleen worden gebruikt voor verbetering, niet voor activatie."
+        },
+        "Carlie": {
+          "Title": "Carlie's Exclusieve Wapen",
+          "Description": "Vanaf dag 4 van week 3 kunt u via Carlie's exclusieve wapens Battle Pass wapensplinters verzamelen om Carlie's exclusieve wapen te activeren en te verbeteren. Universele wapensplinters kunnen alleen worden gebruikt voor verbetering, niet voor activatie."
+        },
+        "Swift": {
+          "Title": "Swift's Exclusieve Wapen",
+          "Description": "Vanaf dag 4 van week 6 kunt u via Swift's exclusieve wapens Battle Pass wapensplinters verzamelen om Swift's exclusieve wapen te activeren en te verbeteren. Universele wapensplinters kunnen alleen worden gebruikt voor verbetering, niet voor activatie."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Temperatuur",
+      "Description": "De temperatuur vormt een grote uitdaging in de poolregio en beïnvloedt continu de statistieken van uw basis. De basistemperatuur past zich langzaam aan de omgeving aan. Het handhaven van hogere temperaturen levert u bonusstatistieken op. De temperatuur van uw basis kan tussen -270 °C en +300 °C liggen.",
+      "Location": {
+        "Title": "Locatie",
+        "Description": "U kunt uw temperatuur volgen via het symbool of de temperatuur detailpagina openen door op het bijbehorende symbool te klikken. Op deze detailpagina staan alle factoren vermeld die invloed hebben op de temperatuur van uw basis.",
+        "Description2": "In het bovenste gedeelte kunt u zien hoe het symbool voor de temperatuur van uw basis (huis-symbool) beweegt en overlapt met het symbool voor de omgevingstemperatuur (kaart-symbool)."
+      },
+      "Base": {
+        "Title": "Basis",
+        "Description": "De eindtemperatuur van de locaties die hierboven wordt weergegeven beïnvloedt uw basis en veroorzaakt buffs/debuffs. De sterkte in % van de buff/debuff is afhankelijk van de temperatuur en wordt weergegeven in de schema's die u in de onderstaande afbeeldingen kunt zien. Hier is de beschrijving van de buffs/debuffs.",
+        "Title2": "Basisgrondstoffenproductie:",
+        "Description2": "Productie van akkerland, ijzer- en goudmijnen +10 % (bij 4 °C)",
+        "Title3": "Thermisch wapen:",
+        "Description3": "Troepen duurzaamheidsschade tijdens het spelseizoen +100 (bij 4 °C)",
+        "Title4": "Genezing snelheid van eenheid:",
+        "Description4": "Genezing snelheid van gewonde eenheden tijdens het seizoen +0 % (bij 4 °C)",
+        "Title5": "Eenheden moraal:",
+        "Description5": "Eenheden moraal tijdens het seizoen +0 % (bij 4 °C)"
+      },
+      "Factors": {
+        "Title": "Temperatuur beïnvloedende factoren",
+        "Description": "De temperatuur wordt door veel factoren beïnvloed:",
+        "List1": "Basislocatie op de kaart: Hoe verder je naar het midden gaat, hoe kouder het wordt.",
+        "List2": "Fornuisactiviteit: Het nieuwe seizoensgebouwe 'Hogetemperatuurfornuis' genereert warmte voor uw basis wanneer het is geactiveerd, en nog meer warmte in de Overdrive-modus.",
+        "List3": "Intensievere Overdrive-mogelijkheid: Een seizoensgebonden mogelijkheid die het mogelijk maakt om de Overdrive-hitte te verhogen.",
+        "List4": "Activiteit van de Alliantie Oven: Het nieuwe seizoensgebouwde alliantiegebouw maakt het mogelijk om warmte in de nabijheid te genereren. Basisposten in de buurt van de Alliantie Oven worden door deze warmte beïnvloed.",
+        "List5": "Bondgenoot verkenningsvliegtuig: Bondgenoten kunnen verkenningsvliegtuigen sturen om tijdelijk een bondgenoot te helpen.",
+        "List6": "Verwarmingsgebied van de stad: Wanneer de stadoven is geactiveerd, wordt het gehele stadsgebied verwarmd (veld waarop de stad zich bevindt). Dichtbij een stad blijven helpt om warm te blijven.",
+        "List7": "Atomische oven: De ultieme verwarming die na activatie de hele kaart van warmte voorziet.",
+        "List8": "Blizzards: Sinds dag 1 van het seizoen vinden er evenementen plaats die urenlang een enorme temperatuurdaling in alle oorlogsgebieden veroorzaken. Hoe hoger het niveau, hoe sterker de temperatuur daalt.",
+        "List9": "Troepenactiviteit: Troepen die uw basis verlaten, veroorzaken een tijdelijke warmteverlies.",
+        "List10": "Poolmonsters: Uw basis wordt aangevallen door poolmonsters, wat leidt tot een temperatuurdaling van -5 °C (verdedigingsfalen veroorzaakt een verdere daling van -10 °C)."
+      },
+      "Burn": {
+        "Title": "Bevriezen en Branden",
+        "Description": "Uw doel is om uw basis op de juiste temperatuur te houden, zodat u niet door debuffs wordt beïnvloed en uw basis niet bevriest of in brand vliegt. Zorg ervoor dat u niet te veel kolen uitgeeft, omdat u deze nodig heeft voor uw oven (en de oven van de alliantie) naarmate uw alliantie verder het midden in beweegt.",
+        "Description2": "Als de temperatuur van uw basis te laag of te hoog wordt, bestaat de kans dat uw basis bevriest of in brand vliegt."
+      },
+      "LowTemperatures": {
+        "Title": "Lage Temperatuur",
+        "Description": "De temperatuur van uw basis kan niet onder -270 °C dalen.",
+        "Title2": "Basis bijna bevroren:",
+        "Description2": "Als u onder -20 °C blijft, wordt een 5-minuten countdown gestart die 'Bijna bevroren' aangeeft. Verwarm de basis op voordat de bevriezingstijd eindigt om een bevriezing te voorkomen.",
+        "Solutions": "Oplossingen:",
+        "Solution1": "Verhuis naar een warmer gebied.",
+        "Solution2": "Activeer de hogetemperatuuroven of zet deze in de Overdrive-modus.",
+        "Solution3": "Als u zich binnen het bereik van de oven van de alliantie bevindt, vraag dan om deze te activeren of in de Overdrive-modus te zetten.",
+        "Solution4": "Vraag uw bondgenoten om een verkenningsvliegtuig te sturen om u op te warmen."
+      },
+      "FrozenBase": {
+        "Title": "Bevroren Basis:",
+        "Description": "Als een basis langer dan 5 minuten onder -20 °C blijft, is deze bevroren. In deze toestand zijn locatieveranderingen en bijeenkomsten niet mogelijk (alliantie- en willekeurige locatieveranderingen zijn nog steeds mogelijk). Let op, er zijn ook debuffs van toepassing zoals weergegeven in de sectie 'Basis'.",
+        "Solutions": "Oplossingen:",
+        "Solution1": "Ga naar warmere gebieden met hulp van de alliantie of via willekeurig teleporteren.",
+        "Solution2": "Activeer de hogetemperatuuroven of zet deze in de Overdrive-modus.",
+        "Solution3": "Als u zich binnen het bereik van de oven van de alliantie bevindt, vraag dan om deze in de Overdrive-modus te zetten.",
+        "Solution4": "Vraag uw bondgenoten om u een verkenningsvliegtuig te sturen om op te warmen of troepen te sturen om het ijs te breken (5 hits kosten elk 5 uithoudingspunten)."
+      },
+      "IceMelts": {
+        "Title": "IJs smelt binnenkort:",
+        "Description": "Als uw basis bevroren is, kunt u deze ontdooien door de temperatuur boven -20 °C te brengen en deze temperatuur vast te houden. Er wordt een 5-minuten ontdooi countdown gestart. Als de temperatuur zelfs maar één seconde onder -20 °C valt, blijft de basis bevroren en moet u opnieuw beginnen met ontdooien.",
+        "Description2": "Alternatief kunt u uw bondgenoten vragen om troepen te sturen om het ijs te breken (5 hits kosten elk 5 uithoudingspunten)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Help de bondgenoten om de temperatuur te verhogen",
+      "Description": "U kunt uw bondgenoten helpen hun temperatuur te verhogen door een verkenningsplan te sturen en wat kolen uit te geven. Houd er echter rekening mee dat het effect niet lang aanhoudt. Dit kan vooral nuttig zijn wanneer zij worden geconfronteerd met moeilijke gebeurtenissen zoals sneeuwstormen."
+    },
+    "VirusResistance": {
+      "Title": "Virusresistentie",
+      "Description": "In seizoen 2 is het virus nog steeds actief, maar heeft het een kleinere impact op de gameplay dan in seizoen 1.",
+      "Description2": "Om uw virusresistentie te verhogen, moet u uw eigen hogetemperatuuroven upgraden. Dit verhoogt zowel de hitte- als de virusresistentie.",
+      "Image": "Zoals gebruikelijk is er een weekpas die u een boost van 250 virusresistentie biedt.",
+      "Description3": "De virusresistentie heeft de volgende effecten:",
+      "List1": "Doom Elite, die u kunt aanvallen.",
+      "List2": "Poolbeesten, die de opgravingen bewaken, kunnen u ook aanvallen."
+    },
+    "Profession": {
+      "Title": "Beroepen - Level-cap verhoogd naar Level 70",
+      "Description": "In seizoen 2 wordt de level-maximum voor beroepen verhoogd naar level 70.",
+      "Description2": "De seizoensgebonden vaardigheden voor de niveaus tot 50 worden herzien en aangepast aan het seizoonthema. Sommige vaardigheden op lagere niveaus blijven echter zoals in seizoen 1.",
+      "SeasonSkills": {
+        "Title": "Seizoensgebonden vaardigheden",
+        "Description": "De seizoensgebonden vaardigheden zijn identiek voor de beroepen ingenieur en oorlogsheerser en bevinden zich rechts van de drager op een groene achtergrond."
+      },
+      "Warlords": {
+        "Title": "Aanvullende vaardigheden van de oorlogsheersers – Niveau 45 tot 70",
+        "Description": "Vaardigheden voor niveau 45",
+        "Description2": "Vaardigheden voor niveau 50",
+        "Description3": "Vaardigheden voor niveau 55",
+        "Description4": "Vaardigheden voor niveau 60",
+        "Description5": "Vaardigheden voor niveau 65",
+        "Description6": "Vaardigheden voor niveau 70"
+      },
+      "Engineer": {
+        "Title": "Aanvullende vaardigheden van de ingenieur – Niveau 45 tot 70",
+        "Description": "Vaardigheden voor niveau 45",
+        "Description2": "Vaardigheden voor niveau 50",
+        "Description3": "Vaardigheden voor niveau 55",
+        "Description4": "Vaardigheden voor niveau 60",
+        "Description5": "Vaardigheden voor niveau 65",
+        "Description6": "Vaardigheden voor niveau 70"
+      }
     }
   }
 }

@@ -138,6 +138,7 @@
     "Squad": "Escuadra",
     "DesertStorm": "Tormenta del desierto",
     "SeasonOne": "Temporada 1",
+    "SeasonTwo": "Temporada 2",
     "Marshall": "Guardia de Mariscal"
   },
   "VS": {
@@ -1113,6 +1114,400 @@
     "Pagination": {
       "NextLabel": "Siguiente",
       "PreviousLabel": "Anterior"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Temporada 2 - Tormenta Polar",
+    "Content": {
+      "Title": "Contenido",
+      "NewResources": "Nuevos recursos básicos",
+      "WorldMap": "El mundo y el mapa",
+      "NewBuildings": "Nuevos edificios",
+      "AllianceFurnace": "Horno de la alianza",
+      "NewFarms": "Nuevas granjas – Recursos de la alianza",
+      "MilitaryBase": "Bases militares",
+      "Cities": "Ciudades",
+      "DigSites": "Sitios de excavación",
+      "StockCollection": "Colección de suministros",
+      "RareSoil": "Tierra rara",
+      "RareSoilWar": "Guerra por tierra rara",
+      "RadarMission": "Misiones de radar",
+      "HeroUpgrade": "Mejoras de héroes y armas",
+      "Temperature": "Temperatura",
+      "HelpTheAllies": "Ayuda a los aliados a aumentar la temperatura",
+      "VirusResistance": "Resistencia a virus",
+      "Profession": "Profesiones – Límite de nivel aumentado a nivel 70"
+    },
+    "Resources": {
+      "Title": "Nuevos recursos básicos - Carbón y aleaciones de titanio",
+      "Description": "Ahora hay recursos adicionales disponibles en el juego: aleación de titanio y carbón.",
+      "Titanium": {
+        "Title": "Aleación de Titanio",
+        "Description": "Se utiliza para construir y mejorar edificios de temporada.",
+        "Description2": "Las aleaciones de titanio se obtienen mediante:",
+        "List1": "Recompensas por matar zombis por primera vez en el nivel",
+        "List2": "Completar misiones de la misión de temporada",
+        "List3": "Completar los objetivos de la temporada 2 para el nivel del horno de alta temperatura",
+        "List4": "Primer asesinato de sangre de Doom Walker (primer asesinato de DW del día)",
+        "List5": "Usar el boleto de reclutamiento 'Regreso del héroe' en S2: Regresos Legendarios",
+        "List6": "Recompensa por la primera conquista de una ciudad/sitio de excavación"
+      },
+      "Coal": {
+        "Title": "Carbón",
+        "Description": "Se utiliza para construir y mejorar estructuras de temporada o para alimentar el horno de alta temperatura.",
+        "Description2": "Puedes ganar carbón a través de:",
+        "List1": "Recompensas por matar zombis por primera vez en el nivel",
+        "List2": "Completar misiones de la misión de temporada",
+        "List3": "Conquistar sitios de excavación permite la producción continua de carbón",
+        "List4": "Completar los objetivos de la temporada 2 para el nivel del horno de alta temperatura",
+        "List5": "Usar el boleto de reclutamiento 'Regreso del héroe' en S2: Regresos Legendarios",
+        "List6": "Pase semanal y Pase de Batalla de temporada (mayor impulso)",
+        "List7": "Recompensas por recoger suministros",
+        "List8": "Recompensa por la primera conquista de una ciudad/sitio de excavación",
+        "List9": "Alimentar a Snowflake con una comida que recibe a través del evento 'Platos Polares'"
+      }
+    },
+    "WorldMap": {
+      "Title": "El Mundo y el Mapa",
+      "Description": "El mundo ha cambiado nuevamente. El mapa está compuesto por ciudades y sitios de excavación que varían.",
+      "Description2": "Para frustrar las ambiciones del emperador Boreas, reúnete con tus aliados en el borde de la región polar. Hace mucho frío y la temperatura sigue bajando a medida que te acercas al centro.",
+      "Image1": "Ciudades",
+      "Image2": "Sitios de Excavación",
+      "Image3": "Horno Atómico (Capitolio)",
+      "Description3": "Al comienzo de la temporada, tú y tus aliados aterrizan en el borde del servidor (pero aún juntos como colmena de alianza) y no tienen una ciudad propia. Las ciudades deben ser recapturadas, pero se aplican nuevas reglas...",
+      "Description4": "Los monstruos élite de Doom se convierten en monstruos polares agresivos, y la mayoría de los zombis requieren una alta resistencia a virus para ser eliminados.",
+      "Description5": "Así es como se ve el mapa. Los edificios que ves son las ciudades, y los otros mosaicos entre ellos son los sitios de excavación. Los mosaicos se consideran conectados en las esquinas, por lo que, por ejemplo, cada mosaico de ciudad está conectado en las esquinas con los mosaicos de otras ciudades. Lo mismo se aplica a los sitios de excavación.",
+      "ThermalMap": {
+        "Title": "Vista del Mapa Térmico",
+        "Description": "Como puedes ver en la vista del mapa, hay un interruptor para activar el mapa térmico, que te muestra la temperatura. Al hacer clic en cualquier punto del mapa, se te mostrará la temperatura en ese lugar.",
+        "Description2": "Cuanto más te acerques al centro del mapa, más baja será la temperatura.",
+        "Description3": "Partiendo de cada sitio de excavación en la esquina hacia el centro, cada cuadrícula del mapa tiene una temperatura decreciente, a saber: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (El Capitolio).",
+        "Description4": "Esta es la superposición completa del mapa térmico, que no tiene en cuenta los hornos urbanos, hornos atómicos, tormentas de nieve u otros efectos que alteran la temperatura. Muestra la temperatura base del campo de guerra."
+      }
+    },
+    "NewBuildings": {
+      "Title": "N nuevos Edificios",
+      "Description": "En la Temporada 2, están disponibles nuevos tipos de edificios.",
+      "Description2": "Los edificios que pertenecen a tu base solo pueden construirse fuera del área de tu base (la misma área que en la Temporada 1).",
+      "Description3": "Algunos aparecerán al comienzo de la temporada, otros seguirán.",
+      "Description4": "En la Temporada 2 también hay nuevos edificios de alianza disponibles.",
+      "TitanFabric": {
+        "Title": "Fábrica de Aleación de Titanio",
+        "Image1": "La fábrica de aleación de titanio produce aleaciones de titanio, que son cruciales para mejorar tu horno.",
+        "Update": {
+          "Title": "Aumenta el nivel de la Fábrica de Aleación de Titanio",
+          "Description": "Necesitarás carbón para mejorar la fábrica de aleación de titanio.",
+          "Description2": "Este edificio se puede mejorar hasta el nivel 30, independientemente de tu nivel de HQ.",
+          "Description3": "Una vez que tu primera fábrica de aleación de titanio alcance el nivel 15, se hará disponible una nueva fábrica de aleación de titanio.",
+          "Description4": "Las fábricas de aleación de titanio posteriores estarán disponibles cuando el nivel anterior alcance 15.",
+          "Description5": "Una fábrica de aleación de titanio estará disponible de inmediato con el pase de temporada semanal.",
+          "Image": "IMPORTANTE: Cada aumento de nivel te brinda un incremento de 720 producción/h, independientemente del nivel alcanzado. Así que sé inteligente y siempre mejora primero la fábrica con el nivel más bajo."
+        },
+        "Requirements": {
+          "Title": "Requerimiento de Carbón de una Fábrica de Aleación de Titanio",
+          "Description": "Los valores en la siguiente tabla son los costos INICIALES de carbón. A estos costos se les aplican algunos descuentos, basados en:",
+          "List1": "Tus investigaciones tecnológicas sobre reducción de costos de edificios",
+          "List2": "Tu tecnología de alianza sobre reducción de costos de construcción",
+          "List3": "la especialización profesional, especialmente la habilidad 'Ahorro de Recursos' de nivel 35 (hasta -5%)",
+          "Image": "Para determinar tus costos reales, calcula el porcentaje de 'reducción de los recursos requeridos para construir el edificio' y resta ese porcentaje de los costos INICIALES."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Horno de Alta Temperatura",
+        "Description": "Esta nueva construcción es muy importante.",
+        "Image": "Permite aumentar la temperatura utilizando carbón y, así, mejorar la resistencia a virus.",
+        "Update": {
+          "Title": "Aumenta el nivel del Horno de Alta Temperatura",
+          "Description": "Necesitarás una aleación de titanio para mejorar el horno de alta temperatura.",
+          "Description2": "Al mejorar este edificio, se pueden mejorar los siguientes puntos:",
+          "List1": "la resistencia a virus",
+          "List2": "el calor de activación del horno (que es la temperatura base del horno)",
+          "List3": "el sobrecalentamiento del horno (que es la temperatura máxima que puedes alcanzar con el horno, permitiendo que consuma más carbón por minuto)",
+          "Image": "Este edificio se puede mejorar hasta el nivel 30, independientemente de tu nivel de HQ."
+        },
+        "Control": {
+          "Title": "Panel de Control del Horno de Alta Temperatura",
+          "Description": "Para aumentar la temperatura de tu base, puedes encender el horno de alta temperatura.",
+          "Description2": "El panel de control es bastante fácil de entender:",
+          "List1": "Interruptor para encender/apagar",
+          "List2": "Interruptor para activar el Overdrive, que consume más carbón por minuto, pero calienta más",
+          "List3": "Interruptor para activar automáticamente el horno cuando llega una tormenta de nieve.",
+          "Image": "Al activar el Overdrive, la temperatura aumentará aún más rápido."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Horno de Alianza",
+      "Description": "Además de tu propio horno de alta temperatura, también habrá un horno de alianza. Esta es una buena adición, ya que toda la alianza puede contribuir a aumentar la temperatura para todos los aliados.",
+      "Description2": "Desde el día 1 de la segunda temporada, las alianzas pueden posicionar el lugar de construcción del horno de alianza en el mapa (área de nivel 1) y comenzar a reparar el horno de alianza para utilizarlo (comienza en nivel 1). Este proceso es similar a construir un puesto avanzado con hasta 20 refuerzos.",
+      "Description3": "El horno de alianza se puede encontrar haciendo clic en el botón de Alianza -> Horno de Alianza -> y luego en las coordenadas. Las acciones en él solo pueden ser realizadas por miembros de R4/R5.",
+      "HeatingRange": {
+        "Title": "Rango de Calor del Horno de Alianza",
+        "Description": "Es importante tener en cuenta que el horno de alianza solo aumenta la temperatura en su área de efecto. Por lo tanto, asegúrate de que tu base esté cerca del horno.",
+        "Description2": "Una buena sugerencia para una alianza sería establecerse siempre cerca del horno de alianza y permitir que los miembros con temperaturas más bajas y un nivel de horno de alta temperatura bajo se acerquen.",
+        "Description3": "A continuación, puedes ver el efecto del horno en el área cuando está encendido y apagado. A la izquierda, el horno está encendido y calienta la zona; a la derecha, está apagado y la temperatura en exactamente el mismo lugar es más baja.",
+        "Description4": "A continuación, puedes ver el mapa térmico alrededor del horno y cómo influye en la temperatura en el área."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nuevas Granjas - Recursos de Alianza",
+      "Description": "Como ya se vio en la Temporada 1, tras la muerte aleatoria de élites de Doom, puede aparecer temporalmente un nuevo tipo de granja de recursos de alianza. En la Temporada 2, también pueden ser del tipo aleación de titanio y carbón."
+    },
+    "MilitaryBase": {
+      "Title": "Bases Militares",
+      "Description": "Una vez que el horno de alta temperatura alcance el nivel 30, habrá tres nuevos edificios disponibles que permitirán mejoras para tipos de héroes.",
+      "Description2": "IMPORTANTE: Estos edificios desaparecerán al final de la Temporada 2, como ya ocurrió en la Temporada 1.",
+      "Description3": "Para mejorarlos, necesitarás tanto carbón como aleación de titanio. Estos edificios se pueden mejorar hasta el nivel 30, independientemente de tu nivel de HQ.",
+      "Description4": "Cada mejora de nivel aumenta el impulso de daño correspondiente causado por héroes de tanques, aviones o cohetes.",
+      "Description5": "La cantidad de carbón y aleación de titanio requerida para mejorar cada nivel es igual en todos los edificios, así como el porcentaje de impulso."
+    },
+    "Cities": {
+      "Title": "Ciudades",
+      "List1": "Número máximo de ciudades y excavaciones que puedes conquistar: 6 ciudades y 4 excavaciones.",
+      "List2": "La conquista de ciudades no aumenta la cantidad de excavaciones que puedes conquistar, ya que siempre son 4.",
+      "Description": "Las ciudades y excavaciones que posees producen Tierra Rara, que es fundamental para la victoria en la Temporada 2. La cantidad depende del nivel de la ciudad: cantidad de Tierra Rara en ciudades y cantidad de Tierra Rara en excavaciones.",
+      "Heating": {
+        "Title": "Horno de Ciudad",
+        "Description": "Las ciudades proporcionan calor a toda el área urbana una vez conquistadas. La cantidad depende de su nivel:",
+        "List1": "Nivel 1: 5 °C",
+        "List2": "Nivel 2: 20 °C",
+        "List3": "Nivel 3: 30 °C",
+        "List4": "Nivel 4: 40 °C",
+        "List5": "Nivel 5: 50 °C",
+        "List6": "Nivel 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Excavaciones",
+      "Description": "Las excavaciones alguna vez fueron fundamentales para la producción de carbón, pero fueron tomadas por bestias mutadas bajo el control del Emperador Boreas. Derrota a las bestias, recupera los sitios y reanuda la producción de carbón.",
+      "Description2": "El carbón es esencial para calentar tu base. Por lo tanto, la conquista de excavaciones que producen carbón es un paso muy importante para cualquier alianza. Las excavaciones de mayor nivel producen mayores cantidades de carbón.",
+      "Description3": "Con la última actualización del juego, las excavaciones también producen Tierra Rara.",
+      "Description4": "La excavación está custodiada por bestias de hielo que pueden ser descongeladas. Por lo tanto, debes descongelarlas antes de la conquista.",
+      "Description5": "Para hacerlo, haz clic en la bestia y utiliza el botón de 'Descongelar' para enviar a tu escuadrón a la acción. Luego, derrota a la bestia de hielo como lo hiciste con los Corruptores en la Temporada 1.",
+      "Description6": "Puedes ver todas las excavaciones de la alianza haciendo clic en el botón 'Alianza' -> 'Ciudad de la Alianza'.",
+      "Description7": "En la primera pestaña encontrarás ciudades y excavaciones que producen Tierra Rara, en la segunda pestaña encontrarás excavaciones que producen carbón. Puedes reclamarlas cada hora haciendo clic en las excavaciones listadas o en el botón 'Reclamar todas'.",
+      "Coal": {
+        "Title": "Excavaciones de carbón y Tierra Rara",
+        "Description": "Las excavaciones producen carbón y Tierra Rara según su nivel, aquí la cantidad exacta por nivel:",
+        "List1": "Nivel 1: 2.736/h carbón – 100/h Tierra Rara",
+        "List2": "Nivel 2: 2.880/h carbón – 110/h Tierra Rara",
+        "List3": "Nivel 3: 3.024/h carbón – 120/h Tierra Rara",
+        "List4": "Nivel 4: 3.168/h carbón – 130/h Tierra Rara",
+        "List5": "Nivel 5: 3.312/h carbón – 140/h Tierra Rara",
+        "List6": "Nivel 6: 3.456/h carbón – 150/h Tierra Rara"
+      },
+      "Protection": {
+        "Title": "Estado de captura y protección",
+        "Description": "Las excavaciones son similares a las fortalezas de la primera temporada.",
+        "List1": "Número máximo de excavaciones que puedes poseer: 4, independientemente de cuántas ciudades poseas.",
+        "List2": "Límite diario máximo para la conquista de excavaciones: 2.",
+        "List3": "La primera conquista requiere derrotar a bestias mutadas con suficiente resistencia a virus. La Bestia Polar podría estar congelada, por lo que necesitarás enviar escuadrones para descongelarla antes de atacarla. Para vencer a estas bestias, se requieren múltiples acciones de recolección (cada golpe causa un % de daño). Una vez que la Bestia Polar es derrotada, debes reforzar la excavación con hasta 10 escuadrones.",
+        "List4": "El proceso de conquista de la excavación es un desafío, donde gana la primera alianza que alcanza el 100%. El tiempo máximo de conquista es de 4 horas. Si no se alcanza un progreso completo del 100% dentro de este tiempo, el intento falla. Si la excavación no estaba en posesión, permanece neutral; si estaba en posesión, queda con el propietario anterior. El porcentaje de conquista de una alianza aumenta a medida que se refuerza el sitio. Escuadrones más fuertes aceleran el proceso.",
+        "List5": "Una vez que una excavación es ocupada, estará protegida durante 36 horas y rodeada de guardias.",
+        "List6": "Técnicamente, puedes atacar y reforzar un número ilimitado de excavaciones simultáneamente, pero una vez que completes la segunda conquista diaria, ya no podrás atacar excavaciones neutrales o propias. Si has reforzado otra excavación (lo que cuenta como la tercera conquista), tus escuadrones serán expulsados automáticamente una vez que se complete la segunda conquista.",
+        "List7": "Si una excavación pertenece a una alianza y es atacada por otra, un intento de conquista fallido no cuenta como una conquista diaria para la alianza defensora.",
+        "List8": "Tu primer territorio de alianza debe ser una excavación de nivel 1. A partir de aquí, puedes conquistar cualquier territorio adyacente. Los territorios en la Temporada 2 también son adyacentes en sus esquinas.",
+        "List9": "La conquista territorial puede extenderse a territorios adyacentes (excavaciones y ciudades) tanto desde tus propias ciudades como de excavaciones.",
+        "List10": "Si renuncias o pierdes un territorio de alianza y ahora tienes dos conjuntos separados de territorios de alianza, aún puedes conquistar todos los territorios que sean adyacentes a uno u otro conjunto.",
+        "List11": "Si tu alianza abandona una excavación (esto tarda una hora), se volverá neutral y cualquier alianza, incluida la tuya, podrá recuperarla. Sin embargo, si la excavación aún está bajo estado de protección al abandonarla, debe pasar el tiempo de enfriamiento del estado de protección antes de que una alianza, incluida la tuya, pueda tomar el control.",
+        "List12": "En la Temporada 2 no habrá conquistas de excavaciones que crucen zonas de guerra.",
+        "Description2": "A continuación se muestra un gorila mutado que protege una excavación de nivel 2. El gorila mutado aún está congelado y la alianza lo ha descongelado parcialmente.",
+        "Description3": "El juego permite la conquista de excavaciones que son adyacentes en diagonal a otras excavaciones en una esquina. Por ejemplo, en las imágenes a continuación, puedes ver que no era necesario conquistar la ciudad de nivel 2 para conquistar las otras excavaciones que están adyacentes en la esquina a otras excavaciones. Estas capturas de pantalla son del día 3, cuando solo se podía conquistar la ciudad de nivel 1."
+      }
+    },
+    "StockCollection": {
+      "Title": "Colección de Suministros",
+      "Description": "En la Temporada 2 aparece un nuevo tipo de tesoro para recursos de alianza.",
+      "Description2": "Estos nuevos tesoros solo pueden ser descubiertos cuando la temperatura del terreno alcanza 0 °C.",
+      "Description3": "Para encontrarlos, mueve el horno de la alianza para calentar el terreno y llevarlo a 0 °C. También puedes conquistar una ciudad para que el horno de la ciudad caliente todo el área de la ciudad. Luego, mueve el horno de la alianza y actívalo en modo de sobrecalentamiento (por supuesto, debes asegurarte de que el nivel actual de tu horno de la alianza sea lo suficientemente alto como para alcanzar la temperatura adecuada). Una vez que el terreno alcance 0 °C, la colección de suministros aparecerá en estado de descongelación.",
+      "Description4": "Envía tropas para descongelar la colección de suministros y luego reclama tu recompensa.",
+      "Description5": "Las colecciones de suministros tienen diferentes niveles y, por lo tanto, ofrecen diferentes recompensas.",
+      "Description6": "Hay una opción para acceder al símbolo de la Temporada 2 -> Colección de Suministros y desde allí ver si se han descubierto colecciones de suministros.",
+      "Image1": "Hay un límite de 5 intentos de reclamación por día."
+    },
+    "RareSoil": {
+      "Title": "Suelo Raro",
+      "Description": "Una vez que las ciudades y los sitios de excavación en la región polar sean conquistados, comenzarán a producir suelo raro con el tiempo. El suelo raro es un recurso importante para las alianzas en esta temporada, y al final de la temporada, las alianzas serán clasificadas según la cantidad que produzcan. Cuanto más alto sea el rango, mejor serán las recompensas.",
+      "Description2": "Cuanto más altos sean los niveles de la ciudad y del sitio de excavación, más suelo raro se producirá por hora.",
+      "Production": {
+        "Title": "Producción de Suelo Raro",
+        "Description": "Una vez que las ciudades y los sitios de excavación sean conquistados, comenzarán a producir suelo raro dependiendo de su nivel.",
+        "Description2": "Puedes ver los detalles de la producción de suelo raro haciendo clic en el botón \"Alianza\" -> \"Ciudad de la Alianza\". Allí se mostrarán tanto las ciudades como los sitios de excavación que producen suelo raro.",
+        "Description3": "La cantidad total de suelo raro producido es visible en la vista del horno de la alianza: botón de alianza -> horno de la alianza, y afecta al nivel del horno de la alianza.",
+        "Description4": "Las clasificaciones para el suelo raro se pueden acceder a través de la página \"Temporada 2\": símbolo de \"Temporada 2\" -> tabla de clasificación.",
+        "Description5": "Puedes obtener más suelo raro ganando como atacante en la guerra por el suelo raro."
+      },
+      "CityProduction": {
+        "Title": "Producción de Suelo Raro en la Ciudad",
+        "Description": "Aquí está la cantidad exacta de suelo raro por nivel de ciudad:",
+        "List1": "Nivel 1: 350/h",
+        "List2": "Nivel 2: 400/h",
+        "List3": "Nivel 3: 450/h",
+        "List4": "Nivel 4: 800/h",
+        "List5": "Nivel 5: 900/h",
+        "List6": "Nivel 6: 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Producción de Suelo Raro en Sitios de Excavación",
+        "Description": "Aquí está la cantidad exacta de suelo raro por nivel de sitio de excavación:",
+        "List1": "Nivel 1: 100/h",
+        "List2": "Nivel 2: 110/h",
+        "List3": "Nivel 3: 120/h",
+        "List4": "Nivel 4: 130/h",
+        "List5": "Nivel 5: 140/h",
+        "List6": "Nivel 6: 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Guerra por Suelo Raro",
+      "Description": "En la Temporada 2 habrá guerras por suelo raro. No habrá conquista de ciudades o sitios de excavación entre zonas de guerra."
+    },
+    "RadarMission": {
+      "Title": "Misiones de Radar",
+      "Description": "En la Temporada 2 estará disponible una nueva misión de radar: \"Sobreviviente en Peligro\".",
+      "Description2": "Para completar la misión, envía a tu tropa para ayudar al sobreviviente en peligro y recibe recompensas, incluyendo carbón."
+    },
+    "HeroUpgrade": {
+      "Title": "Mejoras de Héroes y Armas",
+      "Description": "La Temporada 2 trae novedades sobre héroes y armas, cuya disponibilidad es limitada en el tiempo.",
+      "Violette": {
+        "Title": "Mejora de Violette a UR",
+        "Description": "Será posible mejorar a Violette a UR. Se espera que el evento comience después de la semana 2."
+      },
+      "Legend": {
+        "Title": "S2: El Regreso de la Leyenda",
+        "Description": "Después de cada 50 reclutamientos, un héroe legendario está garantizado."
+      },
+      "RecruitHeroes": {
+        "Title": "Reclutar Héroes"
+      },
+      "Weapon": {
+        "Title": "S2: Armas de las Leyendas",
+        "Description": "Una nueva área en la taberna permite obtener cofres de selección de fragmentos de armas exclusivos para héroes II. Estos contienen fragmentos de armas de Kimberly, DVA y Tesla.",
+        "Image1": "Para reclutar en esta área, necesitas un boleto de reclutamiento de Nueva Era.",
+        "Image2": "Cada 20 reclutamientos garantiza 2 fragmentos de armas exclusivos."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Armas Exclusivas",
+        "Description": "La Temporada 2 trae armas exclusivas para Murphy, Carlie y ???.",
+        "Murphy": {
+          "Title": "Arma Exclusiva de Murphy",
+          "Description": "A partir del día 4 de la temporada 1, podrás recoger fragmentos de armas a través del pase de batalla de armas exclusivo de Murphy para activar y mejorar el arma exclusiva de Murphy. Los fragmentos de armas universales solo se pueden usar para mejorar, no para activar."
+        },
+        "Carlie": {
+          "Title": "Arma Exclusiva de Carlie",
+          "Description": "A partir del día 4 de la semana 3, podrás recoger fragmentos de armas a través del pase de batalla de armas exclusivo de Carlie para activar y mejorar el arma exclusiva de Carlie. Los fragmentos de armas universales solo se pueden usar para mejorar, no para activar."
+        },
+        "Swift": {
+          "Title": "Arma Exclusiva de Swift",
+          "Description": "A partir del día 4 de la semana 6, podrás recoger fragmentos de armas a través del pase de batalla de armas exclusivo de Swift para activar y mejorar el arma exclusiva de Swift. Los fragmentos de armas universales solo se pueden usar para mejorar, no para activar."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Temperatura",
+      "Description": "La temperatura representa un gran desafío en la región polar y afecta continuamente las estadísticas de tu base. La temperatura de tu base se adapta lentamente al entorno. Mantener temperaturas más altas te brinda estadísticas de bonificación. La temperatura de tu base puede variar entre -270 °C y +300 °C.",
+      "Location": {
+        "Title": "Ubicación",
+        "Description": "Puedes monitorear tu temperatura a través del ícono o acceder a la página de detalles de temperatura haciendo clic en el ícono correspondiente. En esta página de detalles, se enumeran todos los factores que afectan la temperatura de tu base.",
+        "Description2": "En la parte superior, puedes ver cómo se mueve el ícono de la temperatura de tu base (ícono de casa) y se superpone con el ícono de la temperatura ambiental (ícono de mapa)."
+      },
+      "Base": {
+        "Title": "Base",
+        "Description": "La temperatura final mostrada de las ubicaciones afecta tu base y provoca buffs/debuffs. La intensidad en % del buff/debuff depende de la temperatura y se muestra en los esquemas que puedes ver en las imágenes a continuación. Aquí está la descripción de los buffs/debuffs.",
+        "Title2": "Producción básica de recursos:",
+        "Description2": "Producción de tierras de cultivo, minas de hierro y minas de oro +10 % (a 4 °C)",
+        "Title3": "Arma térmica:",
+        "Description3": "Daño a la durabilidad de las tropas durante la temporada de juego +100 (a 4 °C)",
+        "Title4": "Velocidad de curación de la unidad:",
+        "Description4": "Velocidad de curación de unidades heridas durante la temporada +0 % (a 4 °C)",
+        "Title5": "Moral de las unidades:",
+        "Description5": "Moral de las unidades durante la temporada +0 % (a 4 °C)"
+      },
+      "Factors": {
+        "Title": "Factores que influyen en la temperatura",
+        "Description": "La temperatura se ve afectada por muchos factores:",
+        "List1": "Ubicación de la base en el mapa: Cuanto más te adentres en el centro, más frío será.",
+        "List2": "Actividad del horno: El nuevo edificio estacional 'Horno de alta temperatura' genera calor para tu base cuando está activado, y aún más calor en modo Overdrive.",
+        "List3": "Habilidad de Overdrive intensa: Una habilidad estacional que permite aumentar el calor de Overdrive.",
+        "List4": "Actividad del Horno de Alianza: El nuevo edificio estacional de la alianza permite generar calor en las cercanías. Las bases cercanas al Horno de Alianza se verán afectadas por este calor.",
+        "List5": "Avión de reconocimiento aliado: Los aliados pueden enviar aviones de reconocimiento para afectar temporalmente a un aliado.",
+        "List6": "Área de calentamiento de la ciudad: Cuando el horno de la ciudad está activado, toda el área de la ciudad (campo donde se encuentra la ciudad) se calienta. Estar cerca de una ciudad ayuda a mantenerse caliente.",
+        "List7": "Horno atómico: El calentador definitivo que, una vez activado, proporciona calor a todo el mapa.",
+        "List8": "Tormentas de nieve: Desde el día 1 de la temporada, se producen eventos que provocan una enorme caída de temperatura en todas las zonas de guerra durante horas. Cuanto mayor sea el nivel, mayor será la caída de temperatura.",
+        "List9": "Actividad de tropas: Las tropas que abandonan tu base causan una pérdida temporal de calor.",
+        "List10": "Monstruos polares: Tu base será atacada por monstruos polares, lo que provoca una caída de temperatura de -5 °C (el fracaso en la defensa provoca una caída adicional de -10 °C)."
+      },
+      "Burn": {
+        "Title": "Congelación y quema",
+        "Description": "Tu objetivo es mantener la temperatura de tu base en el nivel adecuado para que no sufra debuffs y no se congele o se incendie. Ten cuidado de no gastar demasiado carbón, ya que lo necesitarás para tu horno (y el horno de la alianza) a medida que tu alianza se adentra más en el centro.",
+        "Description2": "Si la temperatura de tu base se vuelve demasiado baja o demasiado alta, existe el riesgo de que tu base se congele o se incendie."
+      },
+      "LowTemperatures": {
+        "Title": "Temperaturas bajas",
+        "Description": "La temperatura de tu base no puede caer por debajo de -270 °C.",
+        "Title2": "Base casi congelada:",
+        "Description2": "Si permaneces por debajo de -20 °C, se iniciará un contador de 5 minutos que indica 'Pronto congelará'. Calienta la base antes de que finalice el tiempo de congelación para evitar que se congele.",
+        "Solutions": "Soluciones:",
+        "Solution1": "Mudarse a una zona más cálida.",
+        "Solution2": "Activar el horno de alta temperatura o ponerlo en modo Overdrive.",
+        "Solution3": "Si te encuentras en el rango del horno de la alianza, solicita que se active o se ponga en modo Overdrive.",
+        "Solution4": "Pide a tus aliados que envíen un avión de reconocimiento para calentarte."
+      },
+      "FrozenBase": {
+        "Title": "Base congelada:",
+        "Description": "Si una base permanece más de 5 minutos por debajo de -20 °C, está congelada. En este estado, no es posible cambiar de ubicación ni realizar reuniones (los cambios de ubicación de alianza y aleatorios aún son posibles). Ten en cuenta que también se aplican debuffs, como se muestra en la sección 'Base'.",
+        "Solutions": "Soluciones:",
+        "Solution1": "Utiliza la ayuda de la alianza o teletranspórtate aleatoriamente a zonas más cálidas.",
+        "Solution2": "Activa el horno de alta temperatura o ponlo en modo Overdrive.",
+        "Solution3": "Si te encuentras en el rango del horno de la alianza, solicita que se ponga en modo Overdrive.",
+        "Solution4": "Pide a tus aliados que te envíen un avión de reconocimiento para calentarte o tropas para romper el hielo (5 golpes cuestan 5 puntos de resistencia cada uno)."
+      },
+      "IceMelts": {
+        "Title": "El hielo se derrite pronto:",
+        "Description": "Si tu base está congelada, puedes descongelarla llevando la temperatura por encima de -20 °C y manteniendo esa temperatura. Se iniciará un conteo regresivo de descongelación de 5 minutos. Si la temperatura cae por debajo de -20 °C ni siquiera por un segundo, la base permanecerá congelada y deberás comenzar nuevamente el proceso de descongelación.",
+        "Description2": "Alternativamente, puedes pedir a tus aliados que envíen tropas para romper el hielo (5 golpes cuestan 5 de resistencia)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Ayuda a los aliados a aumentar la temperatura",
+      "Description": "Puedes ayudar a tus aliados a aumentar su temperatura enviando un plan de reconocimiento y gastando algo de carbón. Sin embargo, ten en cuenta que el efecto no durará mucho tiempo. Esto puede ser especialmente útil si se enfrentan a eventos difíciles como tormentas de nieve."
+    },
+    "VirusResistance": {
+      "Title": "Resistencia a virus",
+      "Description": "En la temporada 2, el virus sigue activo, pero tiene un menor impacto en el juego que en la temporada 1.",
+      "Description2": "Para aumentar tu resistencia a virus, necesitas mejorar tu propio horno de alta temperatura. Esto incrementa tanto la resistencia al calor como la resistencia a virus.",
+      "Image": "Como de costumbre, hay un pase semanal que te ofrece un impulso de 250 resistencias a virus.",
+      "Description3": "La resistencia a virus tiene los siguientes efectos:",
+      "List1": "Doom Elite, que puedes atacar.",
+      "List2": "Las bestias polares que custodian los sitios de excavación también pueden atacarte."
+    },
+    "Profession": {
+      "Title": "Profesiones – Límite de nivel aumentado a nivel 70",
+      "Description": "En la temporada 2, el límite de nivel para las profesiones se incrementa a nivel 70.",
+      "Description2": "Las habilidades estacionales para los niveles hasta 50 serán revisadas y adaptadas al tema de la temporada. Sin embargo, algunas habilidades en niveles más bajos permanecerán igual que en la temporada 1.",
+      "SeasonSkills": {
+        "Title": "Habilidades estacionales",
+        "Description": "Las habilidades estacionales son idénticas para las profesiones de ingeniero y señor de la guerra y se encuentran a la derecha del portador en un fondo verde."
+      },
+      "Warlords": {
+        "Title": "Habilidades adicionales de los señores de la guerra – Nivel 45 a 70",
+        "Description": "Habilidades para nivel 45",
+        "Description2": "Habilidades para nivel 50",
+        "Description3": "Habilidades para nivel 55",
+        "Description4": "Habilidades para nivel 60",
+        "Description5": "Habilidades para nivel 65",
+        "Description6": "Habilidades para nivel 70"
+      },
+      "Engineer": {
+        "Title": "Habilidades adicionales del ingeniero – Nivel 45 a 70",
+        "Description": "Habilidades para nivel 45",
+        "Description2": "Habilidades para nivel 50",
+        "Description3": "Habilidades para nivel 55",
+        "Description4": "Habilidades para nivel 60",
+        "Description5": "Habilidades para nivel 65",
+        "Description6": "Habilidades para nivel 70"
+      }
     }
   }
 }

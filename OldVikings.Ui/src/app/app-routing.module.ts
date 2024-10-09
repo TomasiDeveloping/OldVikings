@@ -15,6 +15,7 @@ import {SeasonOneComponent} from "./pages/season-one/season-one.component";
 import {GuestbookComponent} from "./pages/guestbook/guestbook.component";
 import {MapComponent} from "./pages/map/map.component";
 import {MarshallComponent} from "./pages/marshall/marshall.component";
+import {SeasonTwoComponent} from "./pages/season-two/season-two.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -33,6 +34,7 @@ const routes: Routes = [
   {path: 'squad', component: SquadComponent},
   {path: 'member-login', component: MemberLoginComponent},
   {path: 'season-one', component: SeasonOneComponent},
+  {path: 'season-two', component: SeasonTwoComponent},
   {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'guestbook', component: GuestbookComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'}

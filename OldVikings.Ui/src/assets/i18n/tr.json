@@ -138,6 +138,7 @@
     "Squad": "Birlik",
     "DesertStorm": "Çöl Fırtınası",
     "SeasonOne": "Sezon 1",
+    "SeasonTwo": "Sezon 2",
     "Marshall": "Marschall-Guard"
   },
   "VS": {
@@ -1109,6 +1110,400 @@
     "Pagination": {
       "NextLabel": "Sonraki",
       "PreviousLabel": "Önceki"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Sezon 2 - Kutuplar Fırtınası",
+    "Content": {
+      "Title": "İçerik",
+      "NewResources": "Yeni Temel Kaynaklar",
+      "WorldMap": "Dünya ve Harita",
+      "NewBuildings": "Yeni Binalar",
+      "AllianceFurnace": "İttifak Ocakları",
+      "NewFarms": "Yeni Çiftlikler – İttifak Kaynakları",
+      "MilitaryBase": "Askeri Üsler",
+      "Cities": "Şehirler",
+      "DigSites": "Kazı Alanları",
+      "StockCollection": "Stok Toplama",
+      "RareSoil": "Nadir Toprak",
+      "RareSoilWar": "Nadir Toprak İçin Savaş",
+      "RadarMission": "Radar Görevleri",
+      "HeroUpgrade": "Kahraman Yükseltmeleri ve Silahlar",
+      "Temperature": "Sıcaklık",
+      "HelpTheAllies": "Müttefiklere Sıcaklığı Artırmalarında Yardım Et",
+      "VirusResistance": "Virüs Direnci",
+      "Profession": "Meslekler – Seviye Sınırı 70'e Yükseltildi"
+    },
+    "Resources": {
+      "Title": "Yeni Temel Kaynaklar – Kömür ve Titan Alaşımları",
+      "Description": "Oyunda şimdi ek kaynaklar mevcuttur: Titan alaşımı ve kömür.",
+      "Titanium": {
+        "Title": "Titan Alaşımı",
+        "Description": "Mevsimsel binaların inşası ve yükseltilmesi için kullanılır.",
+        "Description2": "Titan alaşımlarını şunlardan elde edebilirsin:",
+        "List1": "Seviyede zombi öldürme ödülleri",
+        "List2": "Sezon görev görevlerini tamamlama",
+        "List3": "Yüksek ısı fırını seviyesindeki Sezon 2 hedeflerini tamamlama",
+        "List4": "Doom Walker'ın ilk kanı (günün ilk DW öldürmesi)",
+        "List5": "'Kahramanın Dönüşü' alım biletini S2: Efsane Dönüşler'de kullanma",
+        "List6": "Bir şehri/ kazı alanını ilk fethetme ödülü"
+      },
+      "Coal": {
+        "Title": "Kömür",
+        "Description": "Mevsimsel yapıları inşa etmek ve yükseltmek ya da yüksek ısı fırınını ateşlemek için kullanılır.",
+        "Description2": "Kömür kazanmak için şunları yapabilirsin:",
+        "List1": "Seviyede zombi öldürme ödülleri",
+        "List2": "Sezon görev görevlerini tamamlama",
+        "List3": "Kazı alanlarını fethetmek sürekli kömür üretimi sağlar",
+        "List4": "Yüksek ısı fırını seviyesindeki Sezon 2 hedeflerini tamamlama",
+        "List5": "'Kahramanın Dönüşü' alım biletini S2: Efsane Dönüşler'de kullanma",
+        "List6": "Haftalık geçiş ve sezon savaş geçişi (en büyük destek)",
+        "List7": "Stokları toplama ödülleri",
+        "List8": "Bir şehri/kazı alanını ilk fethetme ödülü",
+        "List9": "Snowflake'i, 'Kutup Tabakları' etkinliğinden aldığı bir öğünle besleme"
+      }
+    },
+    "WorldMap": {
+      "Title": "Dünya ve Harita",
+      "Description": "Dünya yeniden değişti. Harita, değişen şehirler ve kazı alanlarından oluşuyor.",
+      "Description2": "İmparator Boreas'ın hırslarını engellemek için, kutup bölgesinin kenarında müttefiklerinizle bir araya gelin. Çok soğuk ve merkeze yaklaştıkça sıcaklık daha da düşüyor.",
+      "Image1": "Şehirler",
+      "Image2": "Kazı Alanları",
+      "Image3": "Atom Fırını (Kapitol)",
+      "Description3": "Sezonun başında siz ve müttefikleriniz sunucunun kenarında mahsur kalıyorsunuz (ama hala bir ittifak arı kovanı olarak birlikte) ve kendi şehriniz yok. Şehirler geri alınmalı, ancak yeni kurallar geçerli...",
+      "Description4": "Doom-Elite canavarlara dönüşüyor, agresif kutup canavarları haline geliyor ve çoğu zombi öldürülmek için yüksek virüs direnci gerektiriyor.",
+      "Description5": "Harita böyle görünüyor. Gördüğünüz binalar şehirlerdir; aralarındaki diğer kareler kazı alanlarıdır. Kareler köşelerde birbirine bağlı sayılır, bu nedenle örneğin her şehir karnesi köşelerden diğer şehirlerin kareleriyle bağlantılıdır. Aynı durum kazı alanları için de geçerlidir.",
+      "ThermalMap": {
+        "Title": "Termal Harita Görünümü",
+        "Description": "Harita görünümünde görebileceğiniz gibi, sıcaklık gösteren termal haritayı etkinleştirmek için bir düğme var. Haritadaki her bir noktaya tıkladığınızda, o yerin sıcaklığı size gösterilecektir.",
+        "Description2": "Haritanın ortasına doğru ilerledikçe sıcaklık daha da düşer.",
+        "Description3": "Her kazı alanından merkeze doğru çapraz olarak her harita alanı, azalan sıcaklık gösterir: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (Kapitol).",
+        "Description4": "Bu, şehir ocakları, atom ocakları, kar fırtınaları veya diğer sıcaklık değiştirici etkileri dikkate almayan tam sıcaklık haritası örtüsüdür. Savaş bölgesinin temel sıcaklığını gösterir."
+      }
+    },
+    "NewBuildings": {
+      "Title": "Yeni Binalar",
+      "Description": "Sezon 2'de yeni bina türleri mevcut.",
+      "Description2": "Üssünüze ait binalar yalnızca üssünüzün çevresinin dışında inşa edilebilir (Sezon 1'deki aynı alan).",
+      "Description3": "Bazıları sezonun hemen başında görünecek, diğerleri daha sonra gelecek.",
+      "Description4": "Sezon 2'de yeni ittifak binaları da mevcuttur.",
+      "TitanFabric": {
+        "Title": "Titan Alaşımı Fabrikası",
+        "Image1": "Titan alaşımı fabrikası, fırınınızı yükseltmek için kritik öneme sahip olan titan alaşımları üretir.",
+        "Update": {
+          "Title": "Titan Alaşımı Fabrikasının seviyesini artırın",
+          "Description": "Titan alaşımı fabrikasını yükseltmek için kömüre ihtiyacınız var.",
+          "Description2": "Bu bina, HQ seviyenizden bağımsız olarak 30. seviyeye kadar yükseltilebilir.",
+          "Description3": "İlk titan alaşımı fabrikanız 15. seviyeye ulaştığında, yeni bir titan alaşımı fabrikası kullanılabilir hale gelecektir.",
+          "Description4": "Sonraki titan alaşımı fabrikaları, önceki seviye 15'e ulaştığında kullanılabilir olacaktır.",
+          "Description5": "Bir titan alaşımı fabrikası, haftalık sezon geçişi ile hemen kullanılabilir olacaktır.",
+          "Image": "ÖNEMLİ: Her seviye atlayışı, ulaşılan seviyeden bağımsız olarak size her zaman 720 Çıktı/saat artışı sağlar. Bu yüzden akıllı olun ve her zaman önce en düşük seviyedeki fabrikayı yükseltin."
+        },
+        "Requirements": {
+          "Title": "Titan Alaşımı Fabrikasının Kömür İhtiyacı",
+          "Description": "Aşağıdaki tablodaki değerler, ORJİNAL kömür maliyetleridir. Bu maliyetlere bazı indirimler uygulanacaktır, bunlar:",
+          "List1": "Binaların maliyet azaltma üzerine teknik araştırmalarınız",
+          "List2": "İttifak teknolojinizin inşaat maliyet azaltma konusundaki yetenekleri",
+          "List3": "Meslek uzmanlıkları, özellikle de 35. seviyedeki 'Kaynak Tasarrufu' yeteneği (-%5'e kadar)",
+          "Image": "Gerçek maliyetlerinizi belirlemek için, 'Bina inşaatında gerekli kaynakların azaltılması' yüzdesini belirleyin ve bu yüzdeleri ORJİNAL maliyetlerden çıkarın."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Yüksek Isı Fırını",
+        "Description": "Bu yeni bina çok önemlidir.",
+        "Image": "Kömür ile sıcaklığı artırmanıza ve böylece virüs direncini yükseltmenize olanak tanır.",
+        "Update": {
+          "Title": "Yüksek Isı Fırınının seviyesini artırın",
+          "Description": "Yüksek ısı fırınını yükseltmek için bir titan alaşımına ihtiyacınız var.",
+          "Description2": "Bu binanın seviyesini yükselterek aşağıdaki unsurları geliştirebilirsiniz:",
+          "List1": "Virüs direnci",
+          "List2": "Fırının aktivasyon ısısı (bu, fırının temel sıcaklığıdır)",
+          "List3": "Fırının aşırı ısınması (bu, fırının dakikada daha fazla kömür tüketmesine izin verdiğinizde ulaşabileceğiniz maksimum sıcaklıktır)",
+          "Image": "Bu bina, HQ seviyenizden bağımsız olarak 30. seviyeye kadar yükseltilebilir."
+        },
+        "Control": {
+          "Title": "Yüksek Isı Fırınının Kontrol Paneli",
+          "Description": "Üssünüzün sıcaklığını artırmak için yüksek ısı fırınını açabilirsiniz.",
+          "Description2": "Kontrol paneli oldukça basit anlaşılır:",
+          "List1": "Açma/Kapama anahtarı",
+          "List2": "Dakikada daha fazla kömür tüketen ama daha fazla ısıtan Overdrive'ı etkinleştiren anahtar",
+          "List3": "Bir kar fırtınası geldiğinde fırını otomatik olarak etkinleştiren anahtar.",
+          "Image": "Overdrive'ı etkinleştirdiğinizde sıcaklık daha hızlı yükselebilir."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "İttifak Fırını",
+      "Description": "Kendi yüksek ısı fırınınıza ek olarak, bir ittifak fırını da olacak. Bu, tüm ittifakın sıcaklığı artırmaya katkıda bulunabilmesi nedeniyle güzel bir eklemeye dönüşüyor.",
+      "Description2": "İkinci sezonun birinci gününden itibaren, ittifaklar harita üzerinde ittifak fırını inşa yeri belirleyebilir (Seviye 1 bölgesi) ve fırının onarımına başlayarak kullanmak için hazırlıklara başlayabilirler (Seviye 1 ile başlar). Bu işlem, 20 kadar güçlendirme ile bir ileri posta inşa etmeye benzer.",
+      "Description3": "İttifak fırını, İttifak -> İttifak Fırını -> Koordinatlara tıklanarak bulunabilir. Üzerindeki eylemler yalnızca R4/R5 üyeleri tarafından gerçekleştirilebilir.",
+      "HeatingRange": {
+        "Title": "İttifak Fırınının Isı Alanı",
+        "Description": "İttifak fırınının sıcaklığı yalnızca etki alanında artırdığını belirtmek önemlidir. Bu nedenle, üssünüzün fırının yakınında olduğundan emin olun.",
+        "Description2": "Bir ittifak için iyi bir öneri, her zaman ittifak fırınının yakınında yerleşmek ve daha düşük sıcaklık ve düşük yüksek ısı fırını seviyesine sahip üyeleri fırına yaklaştırmaktır.",
+        "Description3": "Aşağıda, fırının açılıp kapandığında bölge üzerindeki etkisini görebilirsiniz. Solda fırın açık ve bu nedenle çevreyi ısıtıyor, sağda ise kapalı ve aynı noktadaki sıcaklık daha düşük.",
+        "Description4": "Aşağıda, fırın çevresindeki sıcaklık haritasını ve fırının sıcaklığı nasıl etkilediğini görebilirsiniz."
+      }
+    },
+    "NewFarms": {
+      "Title": "Yeni Tarlalar – İttifak Kaynakları",
+      "Description": "Sezon 1'de görüldüğü gibi, rastgele Doom-Elitlerini öldürdüğünüzde geçici olarak yeni bir ittifak kaynak çiftliği türü belirebilir. Sezon 2'de bunlar ayrıca titan alaşımı ve kömür türünde de olabilir."
+    },
+    "MilitaryBase": {
+      "Title": "Askeri Üsler",
+      "Description": "Yüksek ısı fırını 30. seviyeye ulaştığında, kahraman türlerine iyileştirmeler sağlayan üç yeni bina kullanılabilir hale gelecektir.",
+      "Description2": "ÖNEMLİ: Bu binalar, Sezon 1'de olduğu gibi, Sezon 2'nin sonunda kaybolacaktır.",
+      "Description3": "Yükseltme için hem kömüre hem de titan alaşımına ihtiyacınız olacak. Bu binalar, HQ seviyenizden bağımsız olarak 30. seviyeye kadar yükseltilebilir.",
+      "Description4": "Her seviye yükseltmesi, tank, uçak veya roket kahramanları tarafından sağlanan ilgili hasar artışını artırır.",
+      "Description5": "Her seviyeyi yükseltmek için gereken kömür ve titan alaşımı miktarı, tüm binalarda aynıdır; ayrıca artış yüzdesi de aynıdır."
+    },
+    "Cities": {
+      "Title": "Şehirler",
+      "List1": "Fethedebileceğiniz maksimum şehir ve kazı alanı sayısı: 6 şehir ve 4 kazı alanı.",
+      "List2": "Şehirleri fethetmek, fethedebildiğiniz kazı alanı sayısını artırmaz; çünkü bu her zaman 4'tür.",
+      "Description": "Kendi şehirleriniz ve kazı alanlarınız, Sezon 2'de zafer için temel olan Nadir Toprak üretir. Miktar, şehir seviyesine bağlıdır: Şehirlerdeki Nadir Toprak miktarı ve Kazı alanlarındaki Nadir Toprak miktarı.",
+      "Heating": {
+        "Title": "Şehir Fırını",
+        "Description": "Şehirler fethedildiğinde tüm şehir bölgesine ısı sağlar. Miktar, seviyelerine bağlıdır:",
+        "List1": "Seviye 1: 5 °C",
+        "List2": "Seviye 2: 20 °C",
+        "List3": "Seviye 3: 30 °C",
+        "List4": "Seviye 4: 40 °C",
+        "List5": "Seviye 5: 50 °C",
+        "List6": "Seviye 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Kazı Alanları",
+      "Description": "Kazı alanları, bir zamanlar kömür üretimi için hayati öneme sahipti, ancak Kaiser Boreas'ın kontrolündeki mutant canavarlar tarafından ele geçirildi. Canavarları yen, alanları geri al ve kömür üretimini yeniden başlat.",
+      "Description2": "Kömür, üssünüzü ısıtmak için hayati öneme sahiptir. Bu nedenle, kömür üreten kazı alanlarını fethetmek, her ittifak için çok önemli bir adımdır. Daha yüksek seviyedeki kazı alanları daha fazla kömür üretir.",
+      "Description3": "Son oyun güncellemesi ile kazı alanları ayrıca Nadir Toprak üretmektedir.",
+      "Description4": "Kazı alanı, dondurulabilen buz canavarları tarafından korunmaktadır. Bu nedenle, fethinden önce onları çözmeniz gerekecek.",
+      "Description5": "Bunu yapmak için canavara tıklayın ve 'Çöz' butonunu kullanarak ekibinizi harekete geçirin. Ardından, birinci sezonunda Kirleticileri nasıl yendiyseniz buz canavarını yenin.",
+      "Description6": "İttifakınıza ait tüm kazı alanlarını görmek için 'İttifak' -> 'İttifak Şehri' butonuna tıklayın.",
+      "Description7": "İlk sekmede, Nadir Toprak üreten şehirler ve kazı alanları, ikinci sekmede ise kömür üreten kazı alanları bulunmaktadır. Bunları, listedeki her bir kazı alanına veya 'Hepsini talep et' butonuna tıklayarak saat başı talep edebilirsiniz.",
+      "Coal": {
+        "Title": "Kömür ve Nadir Toprak Üreten Kazı Alanları",
+        "Description": "Kazı alanları, seviyelerine bağlı olarak kömür ve Nadir Toprak üretir; işte her seviye için tam miktar:",
+        "List1": "Seviye 1: 2.736/h kömür – 100/h Nadir Toprak",
+        "List2": "Seviye 2: 2.880/h kömür – 110/h Nadir Toprak",
+        "List3": "Seviye 3: 3.024/h kömür – 120/h Nadir Toprak",
+        "List4": "Seviye 4: 3.168/h kömür – 130/h Nadir Toprak",
+        "List5": "Seviye 5: 3.312/h kömür – 140/h Nadir Toprak",
+        "List6": "Seviye 6: 3.456/h kömür – 150/h Nadir Toprak"
+      },
+      "Protection": {
+        "Title": "Ele Geçirme ve Koruma Durumu",
+        "Description": "Kazı alanları, ilk sezonun kalelerinin özelliklerine benzemektedir.",
+        "List1": "Sahip olabileceğiniz maksimum kazı alanı sayısı: 4, sahip olduğunuz şehir sayısından bağımsız olarak.",
+        "List2": "Kazı alanlarının fethedilmesi için maksimum günlük limit: 2.",
+        "List3": "İlk fetih, yeterli virüs direncine sahip mutant canavarların yenilmesini gerektirir. Kutup Canavarı dondurulmuş olabilir, bu nedenle ona saldırmadan önce çözmek için birlikler göndermeniz gerekecek. Bu canavarları yenmek için birden fazla saldırı gereklidir (her vurma % hasar verir). Kutup Canavarı yenildiğinde, kazı alanını 10 birliğe kadar güçlendirmeniz gerekecek.",
+        "List4": "Kazı alanının fetih süreci, %100'e ulaşan ilk ittifakın kazandığı bir zorluktur. Maksimum fetih süresi 4 saattir. Bu süre içinde %100'lük tam bir ilerleme sağlanmazsa, deneme başarısız olur. Kazı alanı daha önce sahiplenilmemişse, nötr kalır; sahiplenilmişse, önceki sahibinde kalır. Bir ittifakın fetih yüzdesi, alan güçlendirilirken artar. Daha güçlü birlikler süreci hızlandırır.",
+        "List5": "Bir kazı alanı ele geçirildiğinde, 36 saat boyunca korunur ve muhafızlarla çevrilidir.",
+        "List6": "Teknik olarak, aynı anda sınırsız sayıda kazı alanına saldırabilir ve güçlendirebilirsiniz, ancak ikinci günlük fetih tamamlandıktan sonra, nötr veya kendi kazı alanlarınıza daha fazla saldırı yapamazsınız. Eğer başka bir kazı alanını güçlendirirseniz (bu üçüncü fetih olarak sayılır), ikinci fetih tamamlandığında birlikleriniz otomatik olarak geri çekilecektir.",
+        "List7": "Bir kazı alanı bir ittifaka aitse ve başka bir ittifak tarafından saldırıya uğrarsa, başarısız bir fetih denemesi savunucu ittifak için günlük fetih olarak sayılmaz.",
+        "List8": "İlk ittifak bölgeniz, seviye 1 kazı alanı olmalıdır. Buradan itibaren, her komşu bölgeyi fethedebilirsiniz. Sezon 2'deki bölgeler de köşelerinde komşudur.",
+        "List9": "Bölge fetihleri, hem kendi şehirlerinizden hem de kazı alanlarından komşu bölgelere (kazı alanları ve şehirler) genişletilebilir.",
+        "List10": "Eğer bir ittifak bölgenizi terk eder veya kaybederseniz ve şimdi iki ayrı ittifak bölgesi setine sahipseniz, her iki sete de komşu olan tüm bölgeleri fethetmeye devam edebilirsiniz.",
+        "List11": "Eğer ittifakınız bir kazı alanını terk ederse (bu bir saat sürer), alan nötr hale gelir ve sizin de dahil olmak üzere herhangi bir ittifak onu geri fethedebilir. Ancak, kazı alanı terk edilirken koruma durumunda ise, ittifakınızın kontrolü alabilmesi için koruma durumunun geri sayımı sona ermelidir.",
+        "List12": "Sezon 2'de, kazı alanlarının savaş bölgeleri arasında fethedilmesi olmayacaktır.",
+        "Description2": "Aşağıda, seviye 2 kazı alanını koruyan mutant bir gorili görebilirsiniz. Mutant goril hala donmuş ve ittifak onu kısmen çözmüştür.",
+        "Description3": "Oyun, köşesinde diğer kazı alanlarına komşu olan kazı alanlarının fethedilmesini mümkün kılar. Örneğin, aşağıdaki resimlerde, diğer kazı alanlarına köşeden komşu olanları fethetmek için şehir seviye 2'yi fethetmek gerekmediği görülebilir. Bu ekran görüntüleri, yalnızca şehir seviye 1'in fethedilebildiği 3. günden alınmıştır."
+      }
+    },
+    "StockCollection": {
+      "Title": "Stok Toplama",
+      "Description": "Sezon 2'de ittifak kaynakları için yeni bir hazine türü ortaya çıkıyor.",
+      "Description2": "Bu yeni hazineler, toprak sıcaklığı 0 °C'ye ulaştığında keşfedilebilir.",
+      "Description3": "Onları bulmak için, ittifak ocaklarını yer değiştirerek toprakları ısıtın ve 0 °C'ye getirin. Ayrıca, bir şehri fethederek şehir ocağının tüm şehir bölgesini ısıtmasını sağlayabilirsiniz. Ardından, ittifak ocağını yer değiştirin ve aşırı hız modunu etkinleştirin (tabii ki, mevcut ittifak ocak seviyenizin doğru sıcaklığa ulaşmak için yeterince yüksek olduğunu kontrol etmelisiniz). Toprak 0 °C'ye ulaştığında, stok toplama çözülmüş durumda görünecektir.",
+      "Description4": "Stok toplama alanını çözmek için birlikler gönderin ve ardından ödüllerinizi talep edin.",
+      "Description5": "Stok toplama alanlarının farklı seviyeleri vardır ve bu nedenle farklı ödüller sunar.",
+      "Description6": "Sezon 2'ye ait simgeye -> Stok Toplama'ya erişme ve oradan stok toplama alanlarının keşfedilip keşfedilmediğini görmek mümkündür.",
+      "Image1": "Günde 5 geri talep denemesi ile sınırlıdır."
+    },
+    "RareSoil": {
+      "Title": "Nadir Toprak",
+      "Description": "Kuzey Kutbu bölgesindeki şehirler ve kazı alanları fethedildiğinde, zamanla nadir toprak üretmeye başlarlar. Nadir toprak, bu sezon ittifakların önemli bir kaynağıdır ve sezon sonunda ittifaklar, miktarlarına göre sıralanır. Daha yüksek sıralama, daha iyi ödüller anlamına gelir.",
+      "Description2": "Şehir ve kazı alanlarının seviyeleri yükseldikçe, saatte daha fazla nadir toprak üretilecektir.",
+      "Production": {
+        "Title": "Nadir Toprak Üretimi",
+        "Description": "Şehirler ve kazı alanları fethedildiğinde, seviyelerine bağlı olarak nadir toprak üretmeye başlarlar.",
+        "Description2": "Nadir toprak üretimine dair detayları görmek için 'İttifak' -> 'İttifak Şehri' butonuna tıklayabilirsiniz. Orada, nadir toprak üreten hem şehirler hem de kazı alanları görünür.",
+        "Description3": "Üretilen toplam nadir toprak miktarı, ittifak ocağı görünümünde görünür: İttifak butonu -> İttifak Ocağı ve ittifak ocağının seviyesini etkiler.",
+        "Description4": "Nadir toprak sıralamalarına, 'Sezon 2' sayfası üzerinden erişilebilir: 'Sezon 2' simgesi -> Liderlik Tablosu.",
+        "Description5": "Savaşta nadir toprak için saldırgan olarak kazanarak daha fazla nadir toprak elde edebilirsiniz."
+      },
+      "CityProduction": {
+        "Title": "Şehirde Nadir Toprak Üretimi",
+        "Description": "İşte şehir seviyesine göre tam nadir toprak miktarı:",
+        "List1": "Seviye 1: 350/h",
+        "List2": "Seviye 2: 400/h",
+        "List3": "Seviye 3: 450/h",
+        "List4": "Seviye 4: 800/h",
+        "List5": "Seviye 5: 900/h",
+        "List6": "Seviye 6: 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Kazı Alanlarında Nadir Toprak Üretimi",
+        "Description": "İşte kazı alanı seviyesine göre tam nadir toprak miktarı:",
+        "List1": "Seviye 1: 100/h",
+        "List2": "Seviye 2: 110/h",
+        "List3": "Seviye 3: 120/h",
+        "List4": "Seviye 4: 130/h",
+        "List5": "Seviye 5: 140/h",
+        "List6": "Seviye 6: 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Nadir Toprak Savaşı",
+      "Description": "Sezon 2'de nadir toprak için savaşlar olacak. Şehirler veya kazı alanları için savaş bölgeleri arasında fetih olmayacak."
+    },
+    "RadarMission": {
+      "Title": "Radar Görevleri",
+      "Description": "Sezon 2'de yeni bir radar görevi mevcut olacak: 'Zorda Kalan Hayatta Kalana Yardım'.",
+      "Description2": "Görevi tamamlamak için, zorda kalan hayatta kalana yardım etmek üzere birliklerinizi gönderin ve aralarında kömürün de bulunduğu ödüller kazanın."
+    },
+    "HeroUpgrade": {
+      "Title": "Kahraman Yükseltmeleri ve Silahlar",
+      "Description": "Sezon 2, sınırlı süreli olarak mevcut olan kahramanlar ve silahlar hakkında yenilikler getiriyor.",
+      "Violette": {
+        "Title": "Violet'in UR Yükseltmesi",
+        "Description": "Violet'i UR seviyesine yükseltmek mümkün olacak. Etkinliğin 2. haftadan sonra başlaması bekleniyor."
+      },
+      "Legend": {
+        "Title": "S2: Efsanenin Dönüşü",
+        "Description": "Her 50 askere alımda bir efsanevi kahraman garanti edilmektedir."
+      },
+      "RecruitHeroes": {
+        "Title": "Kahramanları Rehin Al"
+      },
+      "Weapon": {
+        "Title": "S2: Efsanelerin Silahları",
+        "Description": "Tavernde, kahramanlara özel silah parçaları seçim sandıkları II elde etmeyi sağlayan yeni bir alan mevcut. Bu sandıklar, Kimberly, DVA ve Tesla'nın silah parçalarını içerir.",
+        "Image1": "Bu alanda rehin almak için bir Yeni Dönem askere alım bileti gereklidir.",
+        "Image2": "Her 20 askere alımda 2 özel silah parçası garanti edilmektedir."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Özel Silahlar",
+        "Description": "Sezon 2, Murphy, Carlie ve ??? için özel silahlar getiriyor.",
+        "Murphy": {
+          "Title": "Murphy'nin Özel Silahı",
+          "Description": "Sezon 1'in 4. gününden itibaren, Murphy'nin özel silah savaş geçidi aracılığıyla silah parçaları toplayarak Murphy'nin özel silahını etkinleştirebilir ve geliştirebilirsiniz. Evrensel silah parçaları yalnızca geliştirme için kullanılabilir, etkinleştirme için kullanılamaz."
+        },
+        "Carlie": {
+          "Title": "Carlie'nin Özel Silahı",
+          "Description": "3. haftanın 4. gününden itibaren, Carlie'nin özel silah savaş geçidi aracılığıyla silah parçaları toplayarak Carlie'nin özel silahını etkinleştirebilir ve geliştirebilirsiniz. Evrensel silah parçaları yalnızca geliştirme için kullanılabilir, etkinleştirme için kullanılamaz."
+        },
+        "Swift": {
+          "Title": "Swift'in Özel Silahı",
+          "Description": "6. haftanın 4. gününden itibaren, Swift'in özel silah savaş geçidi aracılığıyla silah parçaları toplayarak Swift'in özel silahını etkinleştirebilir ve geliştirebilirsiniz. Evrensel silah parçaları yalnızca geliştirme için kullanılabilir, etkinleştirme için kullanılamaz."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Sıcaklık",
+      "Description": "Sıcaklık, kutup bölgesinde büyük bir zorluk oluşturur ve sürekli olarak üssünüzün istatistiklerini etkiler. Üssünüzün sıcaklığı çevreye yavaşça uyum sağlar. Daha yüksek sıcaklıkların korunması, size bonus istatistikler kazandırır. Üssünüzün sıcaklığı -270 °C ile +300 °C arasında olabilir.",
+      "Location": {
+        "Title": "Konum",
+        "Description": "Sıcaklığınızı simge üzerinden izleyebilir veya ilgili simgeye tıklayarak sıcaklık detay sayfasına erişebilirsiniz. Bu detay sayfasında, üssünüzün sıcaklığını etkileyen tüm faktörler listelenmiştir.",
+        "Description2": "Üst kısımda, üssünüzün sıcaklık simgesinin (ev simgesi) nasıl hareket ettiğini ve çevre sıcaklık simgesiyle (harita simgesi) nasıl örtüştüğünü görebilirsiniz."
+      },
+      "Base": {
+        "Title": "Üs",
+        "Description": "Yukarıda gösterilen konumların nihai sıcaklığı, üssünüzü etkiler ve buff/debuff'lara neden olur. Buff/debuff'ın yüzdesi, sıcaklığa bağlıdır ve aşağıdaki görsellerde görebileceğiniz şemalarda gösterilmektedir. İşte buff/debuff açıklamaları.",
+        "Title2": "Temel kaynak üretimi:",
+        "Description2": "Tarım arazisi, demir madenleri ve altın madenleri üretimi +10 % (4 °C'de)",
+        "Title3": "Termal silah:",
+        "Description3": "Oyun sezonu boyunca birliklerin dayanıklılık hasarı +100 (4 °C'de)",
+        "Title4": "Birlik iyileşme hızı:",
+        "Description4": "Sezon boyunca yaralı birimlerin iyileşme hızı +0 % (4 °C'de)",
+        "Title5": "Birlik moralı:",
+        "Description5": "Sezon boyunca birlik moralı +0 % (4 °C'de)"
+      },
+      "Factors": {
+        "Title": "Sıcaklığı Etkileyen Faktörler",
+        "Description": "Sıcaklık birçok faktörden etkilenir:",
+        "List1": "Haritadaki üs konumu: Merkeze yaklaştıkça sıcaklık düşer.",
+        "List2": "Fırın aktivitesi: Yeni sezon yapısı 'Yüksek Isı Fırını', etkinleştirildiğinde üssünüz için ısı üretir ve Overdrive modunda daha fazla ısı üretir.",
+        "List3": "Yoğun Overdrive yeteneği: Overdrive sıcaklığını artıran bir sezon yeteneği.",
+        "List4": "İttifak Fırını aktivitesi: Yeni sezon ittifak yapısı, yakın çevrede ısı üretimini sağlar. İttifak Fırını'nın yakınındaki üsler bu ısıdan etkilenir.",
+        "List5": "Müttefik keşif uçağı: Müttefikler, bir müttefike geçici olarak saldırmak için keşif uçakları gönderebilir.",
+        "List6": "Şehir ısıtma alanı: Şehir fırını etkinleştirildiğinde, tüm şehir alanı ısınır (şehrin bulunduğu alan). Bir şehre yakın olmak, sıcak kalmaya yardımcı olur.",
+        "List7": "Atom fırını: Aktifleştirildiğinde tüm haritayı ısıtan nihai ısıtıcı.",
+        "List8": "Karla karışık fırtınalar: Sezonun ilk gününden itibaren, tüm savaş alanlarında saatlerce büyük sıcaklık düşüşüne neden olan olaylar gerçekleşir. Seviye ne kadar yüksekse, sıcaklık o kadar düşer.",
+        "List9": "Birlik aktivitesi: Üssünüzü terk eden birlikler, geçici bir ısı kaybına neden olur.",
+        "List10": "Kutup canavarı: Üssünüz, kutup canavarı tarafından saldırıya uğrar, bu da -5 °C'lik bir sıcaklık düşüşüne yol açar (savunma başarısızlığı -10 °C'lik bir düşüşe neden olur)."
+      },
+      "Burn": {
+        "Title": "Donma ve Yanma",
+        "Description": "Amacınız, üssünüzü doğru sıcaklıkta tutmaktır, böylece debuff'lara maruz kalmaz ve üssünüz donmaz veya yanmaz. İttifakınız merkeze doğru hareket ettikçe, fırınınız için (ve ittifak fırını için) kömürü çok fazla harcamamaya dikkat edin.",
+        "Description2": "Eğer üssünüzün sıcaklığı çok düşük veya çok yüksek olursa, üssünüzün donma veya yanma riski vardır."
+      },
+      "LowTemperatures": {
+        "Title": "Düşük Sıcaklıklar",
+        "Description": "Üssünüzün sıcaklığı -270 °C'nin altına düşemez.",
+        "Title2": "Üs neredeyse donmuş:",
+        "Description2": "Eğer -20 °C'nin altında kalırsanız, 'Buzlanma Yakında' uyarısını gösteren 5 dakikalık bir geri sayım başlatılır. Donmayı önlemek için geri sayım süresi dolmadan üssü ısıtın.",
+        "Solutions": "Çözümler:",
+        "Solution1": "Daha sıcak bir bölgeye taşınmak.",
+        "Solution2": "Yüksek sıcaklık fırınını etkinleştirmek veya Overdrive moduna almak.",
+        "Solution3": "Eğer ittifak fırınının menzilindeyseniz, onun etkinleştirilmesini veya Overdrive moduna alınmasını talep edin.",
+        "Solution4": "Müttefiklerinizi, sizi ısıtmak için keşif uçağı göndermeleri konusunda bilgilendirin."
+      },
+      "FrozenBase": {
+        "Title": "Donmuş Üs:",
+        "Description": "Eğer bir üs -20 °C'nin altında 5 dakikadan fazla kalırsa, donmuş durumdadır. Bu durumda konum değişiklikleri ve toplanmalar mümkün değildir (ittifak ve rastgele konum değişiklikleri hala mümkündür). Ayrıca, 'Üs' bölümünde gösterildiği gibi debuff'lar da geçerlidir.",
+        "Solutions": "Çözümler:",
+        "Solution1": "İttifak yardımıyla veya rastgele teleport ile daha sıcak bölgelere gitmek.",
+        "Solution2": "Yüksek sıcaklık fırınını etkinleştirmek veya Overdrive moduna geçirmek.",
+        "Solution3": "Eğer ittifak fırınının menzilindeyseniz, onun Overdrive moduna geçirilmesini talep edin.",
+        "Solution4": "Müttefiklerinizi, sizi ısıtmak için bir keşif uçağı göndermeye veya buzu kırmak için birlikler göndermeye bilgilendirin (her 5 darbe için 5 dayanıklılık puanı gereklidir)."
+      },
+      "IceMelts": {
+        "Title": "Buz Yakında Eriyecek:",
+        "Description": "Eğer üssünüz donmuşsa, sıcaklığı -20 °C'nin üzerine getirerek ve bu sıcaklığı koruyarak çözebilirsiniz. 5 dakikalık bir çözme geri sayımı başlatılır. Sıcaklık -20 °C'nin altına düşerse, üs donmuş kalır ve yeniden çözme işlemi başlatmanız gerekir.",
+        "Description2": "Alternatif olarak, müttefiklerinize, buzu kırmak için birlikler göndermelerini isteyebilirsiniz (her 5 darbe için 5 dayanıklılık gerekmektedir)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Müttefiklere Sıcaklığı Artırmalarına Yardım Edin",
+      "Description": "Müttefiklerinize bir keşif planı göndererek ve biraz kömür harcayarak sıcaklıklarını artırmalarına yardımcı olabilirsiniz. Ancak, etkinin uzun sürmediğini unutmayın. Bu, kış fırtınası gibi zorlayıcı olaylarla karşılaşırken özellikle yararlı olabilir."
+    },
+    "VirusResistance": {
+      "Title": "Virüs Direnci",
+      "Description": "Sezon 2'de virüs hala aktiftir, ancak oyun üzerindeki etkisi Sezon 1'e göre daha azdır.",
+      "Description2": "Virüs direncinizi artırmak için kendi yüksek sıcaklık fırınınızı yükseltmelisiniz. Bu, hem ısı hem de virüs direncini artırır.",
+      "Image": "Her zamanki gibi, size 250 virüs direnci sağlayan bir haftalık geçiş bulunmaktadır.",
+      "Description3": "Virüs direncinin aşağıdaki etkileri vardır:",
+      "List1": "Saldırabileceğiniz Doom Elite.",
+      "List2": "Kazı alanlarını koruyan kutup canavarları da size saldırabilir."
+    },
+    "Profession": {
+      "Title": "Meslekler - Seviye Sınırı 70'e Yükseltildi",
+      "Description": "Sezon 2'de meslekler için seviye sınırı 70'e çıkarıldı.",
+      "Description2": "50. seviyeye kadar olan sezon becerileri gözden geçirilecek ve sezon temasına uyum sağlanacaktır. Ancak, bazı daha düşük seviyelerdeki beceriler Sezon 1'de olduğu gibi kalacaktır.",
+      "SeasonSkills": {
+        "Title": "Sezonsal Beceriler",
+        "Description": "Sezonsal beceriler, mühendis ve savaş lordu meslekleri için aynıdır ve taşıyıcının sağında yeşil bir arka planda bulunmaktadır."
+      },
+      "Warlords": {
+        "Title": "Savaş Lordlarının Ek Becerileri - Seviye 45 ile 70",
+        "Description": "45. seviye becerileri",
+        "Description2": "50. seviye becerileri",
+        "Description3": "55. seviye becerileri",
+        "Description4": "60. seviye becerileri",
+        "Description5": "65. seviye becerileri",
+        "Description6": "70. seviye becerileri"
+      },
+      "Engineer": {
+        "Title": "Mühendisin Ek Becerileri - Seviye 45 ile 70",
+        "Description": "45. seviye becerileri",
+        "Description2": "50. seviye becerileri",
+        "Description3": "55. seviye becerileri",
+        "Description4": "60. seviye becerileri",
+        "Description5": "65. seviye becerileri",
+        "Description6": "70. seviye becerileri"
+      }
     }
   }
 }

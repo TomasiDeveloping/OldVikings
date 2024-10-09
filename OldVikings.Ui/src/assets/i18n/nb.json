@@ -138,6 +138,7 @@
     "Squad": "Lag",
     "DesertStorm": "Ørkenstorm",
     "SeasonOne": "Sesong 1",
+    "SeasonTwo": "Sesong 2",
     "Marshall": "Marskalkvakt"
   },
   "VS": {
@@ -1109,6 +1110,400 @@
     "Pagination": {
       "NextLabel": "Neste",
       "PreviousLabel": "Forrige"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Sesong 2 - Polarstorm",
+    "Content": {
+      "Title": "Innhold",
+      "NewResources": "Nye grunnressurser",
+      "WorldMap": "Verden og kartet",
+      "NewBuildings": "Nye bygninger",
+      "AllianceFurnace": "Allianseovn",
+      "NewFarms": "Nye gårder – Allianseressurser",
+      "MilitaryBase": "Militærbaser",
+      "Cities": "Byer",
+      "DigSites": "Utgravingssteder",
+      "StockCollection": "Lagerinnsamling",
+      "RareSoil": "Sjeldent jord",
+      "RareSoilWar": "Krigen om sjeldent jord",
+      "RadarMission": "Radarmisjon",
+      "HeroUpgrade": "Helteoppgraderinger og våpen",
+      "Temperature": "Temperatur",
+      "HelpTheAllies": "Hjelp allierte med å heve temperaturen",
+      "VirusResistance": "Virusmotstand",
+      "Profession": "Yrker – Nivågrense utvidet til nivå 70"
+    },
+    "Resources": {
+      "Title": "Nye grunnressurser – Kull og titanlegeringer",
+      "Description": "Det er nå tilgjengelige ekstra ressurser i spillet: Titanlegering og kull.",
+      "Titanium": {
+        "Title": "Titanlegering",
+        "Description": "Brukes til å bygge og oppgradere sesongbaserte bygninger.",
+        "Description2": "Du får titanlegeringer ved:",
+        "List1": "Belønninger for å drepe zombier for første gang på nivå",
+        "List2": "Fullføre sesongoppdragsoppdrag",
+        "List3": "Fullføre sesong 2-mål for høytemperaturovnsnivå",
+        "List4": "Første blodkill av Doom Walker (første DW-drap for dagen)",
+        "List5": "Bruke 'Hero's Return'-rekrytering billett i S2: Legend Returns",
+        "List6": "Belønning for første erobring av en by/utgravningssted"
+      },
+      "Coal": {
+        "Title": "Kull",
+        "Description": "Brukes til å bygge og oppgradere sesongstrukturer eller til å fyre opp høytemperaturovnen.",
+        "Description2": "Du kan tjene kull ved:",
+        "List1": "Belønninger for å drepe zombier for første gang på nivå",
+        "List2": "Fullføre sesongoppdragsoppdrag",
+        "List3": "Erobre utgravningssteder for kontinuerlig kullproduksjon",
+        "List4": "Fullføre sesong 2-mål for høytemperaturovnsnivå",
+        "List5": "Bruke 'Hero's Return'-rekrytering billett i S2: Legend Returns",
+        "List6": "Uke-pass og sesongbattle-pass (størst boost)",
+        "List7": "Belønninger for å samle ressurser",
+        "List8": "Belønning for første erobring av en by/utgravningssted",
+        "List9": "Mate Snowflake med et måltid han får gjennom 'Polar Dishes'-arrangementet"
+      }
+    },
+    "WorldMap": {
+      "Title": "Verden og kartet",
+      "Description": "Verden har igjen forandret seg. Kartet består av varierende byer og utgravningssteder.",
+      "Description2": "For å motvirke ambisjonene til keiser Boreas, samles du med dine allierte ved kanten av polarregionen. Det er veldig kaldt, og temperaturen synker ytterligere jo nærmere du kommer sentrum.",
+      "Image1": "Byer",
+      "Image2": "Utgravningssteder",
+      "Image3": "Atomovn (Kapitol)",
+      "Description3": "I begynnelsen av sesongen strander du og dine allierte ved kanten av serveren (men fortsatt sammen som en allianse-bi) og har ingen egen by. Byer må erobres tilbake, men det gjelder nye regler…",
+      "Description4": "Doom Elite-monstre forvandles til aggressive polarmonstre, og de fleste zombier krever høy virusmotstand for å bli drept.",
+      "Description5": "Slik ser kartet ut. Bygningene du ser, er byene, de andre flisene imellom er utgravningssteder. Fliser regnes som forbundet ved hjørnene, så for eksempel er hver byflis forbundet med hjørnene til flisene til de andre byene. Det samme gjelder for utgravningssteder.",
+      "ThermalMap": {
+        "Title": "Termisk kartvisning",
+        "Description": "Som du kan se i kartvisningen, er det en bryter for å aktivere varmekartet, som viser temperaturen for deg. Når du klikker på ethvert punkt på kartet, vil du se temperaturen på det stedet.",
+        "Description2": "Jo lenger du beveger deg mot midten av kartet, jo lavere blir temperaturen.",
+        "Description3": "Fra hver utgravningssted i hjørnet diagonalt mot midten, har hvert kartfelt en synkende temperatur på: -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (Kapitol).",
+        "Description4": "Dette er den komplette varmekartoverleppen som ikke tar hensyn til byovner, atomovner, snøstormer eller andre temperaturforandrende effekter. Det viser basis temperatur i krigssonene."
+      }
+    },
+    "NewBuildings": {
+      "Title": "Nye bygninger",
+      "Description": "I sesong 2 er det nye bygningstyper tilgjengelig.",
+      "Description2": "Bygningene som tilhører basen din, kan kun bygges utenfor omkretsen av basen din (samme område som i sesong 1).",
+      "Description3": "Noen vil være tilgjengelige fra starten av sesongen, andre vil komme senere.",
+      "Description4": "I sesong 2 er det også nye alliansebygninger tilgjengelig.",
+      "TitanFabric": {
+        "Title": "Titanlegeringsfabrikk",
+        "Image1": "Titanlegeringsfabrikken produserer titanlegeringer, som er avgjørende for oppgradering av ovnen din.",
+        "Update": {
+          "Title": "Øk nivået på titanlegeringsfabrikken",
+          "Description": "Du trenger kull for å oppgradere titanlegeringsfabrikken.",
+          "Description2": "Denne bygningen kan oppgraderes uavhengig av HQ-nivået ditt opp til nivå 30.",
+          "Description3": "Når din første titanlegeringsfabrikk når nivå 15, vil en ny titanlegeringsfabrikk bli tilgjengelig.",
+          "Description4": "Påfølgende titanlegeringsfabrikker vil bli tilgjengelige når den forrige når nivå 15.",
+          "Description5": "En titanlegeringsfabrikk vil være umiddelbart tilgjengelig med det ukentlige sesongpasset.",
+          "Image": "VIKTIG: Hver nivåheving gir deg alltid en økning på 720 Output/h, uavhengig av oppnådd nivå. Så vær smart og oppgrader alltid fabrikken med lavest nivå først."
+        },
+        "Requirements": {
+          "Title": "Kullbehov for en titanlegeringsfabrikk",
+          "Description": "Verdiene i tabellen nedenfor er de OPPRINNELIGE kostnadene for kull. Det vil bli anvendt noen rabatter på disse kostnadene, basert på:",
+          "List1": "Dine teknologiske forskninger om bygningkostnadsreduksjon",
+          "List2": "Ditt allianse-teknologi for reduksjon av byggekostnader",
+          "List3": "Yrkes-spesialiseringen, spesielt evnen 'Ressursbesparelse' på nivå 35 (opptil -5 %)",
+          "Image": "For å finne de faktiske kostnadene dine, finn prosentandelen av 'reduksjonen av ressursene som kreves for å bygge bygningen' og trekk denne prosentandelen fra de OPPRINNELIGE kostnadene."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Høytemperaturovn",
+        "Description": "Denne nye bygningen er veldig viktig.",
+        "Image": "Den gjør det mulig å øke temperaturen med kull og dermed øke virusmotstanden.",
+        "Update": {
+          "Title": "Øk nivået på høytemperaturovnen",
+          "Description": "Du trenger en titanlegering for å oppgradere høytemperaturovnen.",
+          "Description2": "Ved å oppgradere denne bygningen kan følgende punkter forbedres:",
+          "List1": "virusmotstand",
+          "List2": "aktiveringsvarmen til ovnen (dette er grunn temperaturen til ovnen)",
+          "List3": "overoppheting av ovnen (dette er den maksimale temperaturen du kan oppnå med ovnen, når du lar den bruke mer kull per minutt)",
+          "Image": "Denne bygningen kan oppgraderes uavhengig av HQ-nivået ditt opp til nivå 30."
+        },
+        "Control": {
+          "Title": "Kontrollpanel for høytemperaturovnen",
+          "Description": "For å øke temperaturen på basen din kan du skru på høytemperaturovnen.",
+          "Description2": "Kontrollpanelet er ganske enkelt å forstå:",
+          "List1": "Bryter for å slå av/på",
+          "List2": "Bryter for å aktivere overdrive, som bruker mer kull per minutt, men varmer mer",
+          "List3": "Bryter for å automatisk aktivere ovnen når en snøstorm kommer.",
+          "Image": "Når du aktiverer overdrive, stiger temperaturen enda raskere."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Allianseovn",
+      "Description": "I tillegg til din egen høytemperaturovn, vil det også være en allianseovn. Dette er et fint tillegg, da hele alliansen kan bidra til å heve temperaturen for alle allierte.",
+      "Description2": "Fra dag 1 av sesong 2 kan alliansene plassere byggestedet for allianseovnen på kartet (område av nivå 1) og begynne å reparere allianseovnen for å bruke den (begynner på nivå 1). Denne prosessen ligner byggingen av en utpost med opptil 20 forsterkninger.",
+      "Description3": "Allianseovnen kan finnes ved å klikke på knappen Allianse -> Allianseovn -> klikk på koordinatene. Handlinger på den kan bare utføres av R4/R5-medlemmer.",
+      "HeatingRange": {
+        "Title": "Varmeområde for allianseovnen",
+        "Description": "Det er viktig å merke seg at allianseovnen kun hever temperaturen innen sitt virkeområde. Sørg derfor for at basen din er i nærheten av ovnen.",
+        "Description2": "Et godt forslag for en allianse ville være å alltid bosette seg nær allianseovnen og bringe medlemmer med lavere temperaturer og et lavt høytemperaturovn-nivå nærmere.",
+        "Description3": "Nedenfor kan du se effekten av ovnen på området når den er slått på og av. Til venstre er ovnen slått på og varmer dermed opp omgivelsene, til høyre er den slått av og temperaturen på nøyaktig samme sted er lavere.",
+        "Description4": "Nedenfor kan du se varmekartet rundt ovnen og hvordan det påvirker temperaturen i nærheten."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nye gårder – Allianseressurser",
+      "Description": "Som allerede sett i sesong 1, kan det etter tilfeldige drap av Doom-eliter midlertidig dukke opp en ny type allianse-ressursgård. I sesong 2 kan de også være av typen titanlegering og kull."
+    },
+    "MilitaryBase": {
+      "Title": "Militærbaser",
+      "Description": "Så snart høytemperaturovnen når nivå 30, vil tre nye bygninger bli tilgjengelige, som gjør forbedringer for helttypene.",
+      "Description2": "VIKTIG: Disse bygningene vil forsvinne ved slutten av sesong 2, slik de allerede gjorde i sesong 1.",
+      "Description3": "For å oppgradere trenger du både kull og titanlegering. Disse bygningene kan oppgraderes uavhengig av ditt HQ-nivå opp til nivå 30.",
+      "Description4": "Hver nivåheving øker den tilsvarende skadeøkningen for pansrede, fly- eller raketthelter.",
+      "Description5": "Mengden kull og titanlegering som kreves for å oppgradere hvert nivå er lik for alle bygningene, så vel som boost-prosenten."
+    },
+    "Cities": {
+      "Title": "Byer",
+      "List1": "Maksimalt antall byer og utgravningssteder du kan erobre: 6 byer og 4 utgravningssteder.",
+      "List2": "Ved å erobre byer øker ikke antallet utgravningssteder du kan erobre, da dette alltid er 4.",
+      "Description": "Egne byer og utgravningssteder produserer sjeldne jordarter, som er avgjørende for seieren i sesong 2. Mengden avhenger av byens nivå: Mengde sjeldne jordarter i byene og mengde sjeldne jordarter i utgravningsstedene.",
+      "Heating": {
+        "Title": "Byovn",
+        "Description": "Byene gir varme til hele byområdet så snart de er erobret. Mengden avhenger av deres nivå:",
+        "List1": "Nivå 1: 5 °C",
+        "List2": "Nivå 2: 20 °C",
+        "List3": "Nivå 3: 30 °C",
+        "List4": "Nivå 4: 40 °C",
+        "List5": "Nivå 5: 50 °C",
+        "List6": "Nivå 6: 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Utgravningssteder",
+      "Description": "Utgravningssteder var en gang avgjørende for kullproduksjonen, men har blitt overtatt av muterte beist under kontroll av keiser Boreas. Bekjemp beistene, gjenerobrer stedene og gjenoppta kullproduksjonen.",
+      "Description2": "Kull er avgjørende for oppvarming av basen din. Derfor er erobring av utgravningssteder som produserer kull et svært viktig skritt for enhver allianse. Utgravningssteder på høyere nivå produserer større mengder kull.",
+      "Description3": "Med den nyeste spilloppdateringen produserer utgravningssteder også sjeldne jordarter.",
+      "Description4": "Utgravningsstedet er voktet av isbeist som kan fryses. Du må derfor tine dem før du erobrer.",
+      "Description5": "Klikk på beistet og bruk knappen 'Tine' for å sende troppen din i aksjon. Bekjemp deretter isbeistet slik du bekjempet de korrupte i sesong 1.",
+      "Description6": "Du kan se alle utgravningssteder til alliansen ved å klikke på knappen 'Allianse' -> 'Allianseby'.",
+      "Description7": "På den første fanen finner du byer og utgravningssteder som produserer sjeldne jordarter, på den andre fanen finner du utgravningssteder som produserer kull. Disse kan du kreve hver time ved å klikke på de oppførte utgravningsstedene eller på knappen 'Krev alle'.",
+      "Coal": {
+        "Title": "Utgravningssteder for kull og sjeldne jordarter",
+        "Description": "Utgravningssteder produserer kull og sjeldne jordarter basert på sitt nivå, her er den nøyaktige mengden per nivå:",
+        "List1": "Nivå 1: 2.736/h kull – 100/h sjeldne jordarter",
+        "List2": "Nivå 2: 2.880/h kull – 110/h sjeldne jordarter",
+        "List3": "Nivå 3: 3.024/h kull – 120/h sjeldne jordarter",
+        "List4": "Nivå 4: 3.168/h kull – 130/h sjeldne jordarter",
+        "List5": "Nivå 5: 3.312/h kull – 140/h sjeldne jordarter",
+        "List6": "Nivå 6: 3.456/h kull – 150/h sjeldne jordarter"
+      },
+      "Protection": {
+        "Title": "Erobret- og beskyttelsesstatus",
+        "Description": "Utgravningssteder ligner på festningene fra sesong 1.",
+        "List1": "Maksimalt antall utgravningssteder du kan eie: 4, uavhengig av hvor mange byer du eier.",
+        "List2": "Maksimalt daglig grense for erobring av utgravningssteder: 2.",
+        "List3": "Den første erobringen krever at muterte beist med tilstrekkelig virusmotstand blir beseiret. Det polarbeistet kan være frosset, så du må sende troppene dine for å tine det før du angriper. For å bekjempe disse beistene kreves flere angrep (hver treff forårsaker % skade). Når polarbeistet er beseiret, må du forsterke utgravningsstedet med opptil 10 troppene.",
+        "List4": "Erobringprosessen for utgravningsstedet er en utfordring, hvor den første alliansen som når 100 % vinner. Maksimal erobringstid er 4 timer. Hvis det ikke oppnås full fremgang på 100 % innen denne tiden, mislykkes forsøket. Hvis utgravningsstedet ikke var i eie, forblir det nøytralt; hvis det var i eie, forblir det hos den forrige eieren. Erobringprosenten for en allianse øker mens stedet forsterkes. Sterkere tropper akselererer prosessen.",
+        "List5": "Når et utgravningssted er inntatt, vil det være beskyttet i 36 timer og omringet av vakter.",
+        "List6": "Teknisk sett kan du angripe og forsterke et ubegrenset antall utgravningssteder samtidig, men så snart du har fullført den andre daglige erobringen, kan du ikke angripe nøytrale eller egne utgravningssteder. Hvis du har forsterket et annet utgravningssted (som teller som tredje erobring), vil troppene dine automatisk bli kastet ut så snart den andre erobringen er fullført.",
+        "List7": "Hvis et utgravningssted tilhører en allianse og blir angrepet av en annen, vil et mislykket erobringsforsøk ikke telle som en daglig erobring for den forsvarende alliansen.",
+        "List8": "Ditt første allianseområde må være et utgravningssted av nivå 1. Herfra kan du erobre hvert tilstøtende område. Områder i sesong 2 er også tilstøtende i sine hjørner.",
+        "List9": "Områdeerobringen kan utvides til tilstøtende områder (utgravningssteder og byer) fra både egne byer og utgravningssteder.",
+        "List10": "Hvis du gir opp eller mister et allianseområde og nå har to separate sett med allianseområder, kan du fortsatt erobre alle områdene som grenser til ett eller annet sett.",
+        "List11": "Hvis alliansen din gir opp et utgravningssted (dette tar en time), blir det nøytralt, og hver allianse, inkludert din, kan gjenerobre det. Hvis utgravningsstedet imidlertid fortsatt er under beskyttelse ved oppgivelse, må nedetiden for beskyttelse gå ut før en allianse, inkludert din egen, kan ta kontroll.",
+        "List12": "I sesong 2 vil det ikke være grenseoverskridende erobringer av utgravningssteder.",
+        "Description2": "Nedenfor ser du en mutert gorilla som beskytter et utgravningssted av nivå 2. Den muterte gorillaen er fortsatt frosset, og alliansen har delvis tint den.",
+        "Description3": "Spillet tillater erobring av utgravningssteder som diagonalt grenser til andre utgravningssteder i et hjørne. Du kan for eksempel se på bildene nedenfor at det ikke var nødvendig å erobre bynivå 2 for å erobre de andre utgravningsstedene som grenses til de andre utgravningsstedene. Disse skjermbildene er tatt på dag 3, da kun bynivå 1 kunne erobres."
+      }
+    },
+    "StockCollection": {
+      "Title": "Lagerinnsamling",
+      "Description": "I sesong 2 vil en ny type skatt for allianse ressurser bli tilgjengelig.",
+      "Description2": "Disse nye skattene kan kun oppdages når landets temperatur når 0 °C.",
+      "Description3": "For å finne dem, flytt allianseovnen for å varme opp landet og få det opp til 0 °C. Du kan også erobre en by slik at byovnen varmer opp hele byområdet. Deretter flytter du allianseovnen og aktiverer den i overdrive-modus (selvfølgelig må du sørge for at ditt nåværende nivå på allianseovnen er høyt nok til å nå riktig temperatur). Når landet når 0 °C, vises lagerinnsamlingen i tine-tilstand.",
+      "Description4": "Send tropper for å tine lagerinnsamlingen, og be om belønningen din.",
+      "Description5": "Lagerinnsamlinger har ulike nivåer og tilbyr derfor forskjellige belønninger.",
+      "Description6": "Det er mulig å få tilgang til symbolet for sesong 2 -> lagerinnsamling og se derfra om lagerinnsamlinger har blitt oppdaget.",
+      "Image1": "Det er et tak på 5 innløsningsforsøk per dag."
+    },
+    "RareSoil": {
+      "Title": "Sjeldent jord",
+      "Description": "Når byer og utgravningssteder i polarregionen er erobret, begynner de over tid å produsere sjeldent jord. Sjeldent jord er en viktig ressurs for alliansene denne sesongen, og ved sesongens slutt vil alliansene bli rangert etter mengden. Jo høyere rang, jo bedre belønninger.",
+      "Description2": "Jo høyere nivåene på byen og utgravningsstedet, desto mer sjeldent jord vil bli produsert per time.",
+      "Production": {
+        "Title": "Produksjon av sjeldent jord",
+        "Description": "Når byer og utgravningssteder er erobret, begynner de, avhengig av nivået sitt, å produsere sjeldent jord.",
+        "Description2": "Du kan se detaljene om produksjonen av sjeldent jord ved å klikke på knappen 'Allianse' -> 'Allianseby'. Der kan du se både byer og utgravningssteder som produserer sjeldent jord.",
+        "Description3": "Den totale mengden produsert sjeldent jord er synlig i allianseovnsvisningen: Allianse-knappen -> Allianseovn, og påvirker nivået på allianseovnen.",
+        "Description4": "Du kan få tilgang til ranglistene for sjeldent jord via 'Sesong 2'-siden: Symbol for 'Sesong 2' -> Rangering.",
+        "Description5": "Du kan få mer sjeldent jord ved å vinne som angriper i krigen om sjeldent jord."
+      },
+      "CityProduction": {
+        "Title": "Produksjon av sjeldent jord i byen",
+        "Description": "Her er den nøyaktige mengden sjeldent jord per bynivå:",
+        "List1": "Nivå 1: 350/h",
+        "List2": "Nivå 2: 400/h",
+        "List3": "Nivå 3: 450/h",
+        "List4": "Nivå 4: 800/h",
+        "List5": "Nivå 5: 900/h",
+        "List6": "Nivå 6: 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Produksjon av sjeldent jord i utgravningssteder",
+        "Description": "Her er den nøyaktige mengden sjeldent jord per nivå på utgravningssteder:",
+        "List1": "Nivå 1: 100/h",
+        "List2": "Nivå 2: 110/h",
+        "List3": "Nivå 3: 120/h",
+        "List4": "Nivå 4: 130/h",
+        "List5": "Nivå 5: 140/h",
+        "List6": "Nivå 6: 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Krigen om sjeldent jord",
+      "Description": "I sesong 2 vil det være kriger om sjeldent jord. Det vil ikke være grenseoverskridende erobringer av byer eller utgravningssteder."
+    },
+    "RadarMission": {
+      "Title": "Radarmisjoner",
+      "Description": "I sesong 2 vil det være en ny radarmisjon tilgjengelig: 'Nødstilt overlevende'.",
+      "Description2": "For å fullføre oppdraget sender du troppen din for å hjelpe den nødstilte overlevende, og får belønninger, inkludert kull."
+    },
+    "HeroUpgrade": {
+      "Title": "Helteopgraderinger og våben",
+      "Description": "Sæson 2 bringer nyheder om helte og våben, hvis tilgængelighed er tidsbegrænset.",
+      "Violette": {
+        "Title": "Violets opgradering til UR",
+        "Description": "Det bliver muligt at opgradere Violet til UR. Begivenheden forventes at starte efter uge 2."
+      },
+      "Legend": {
+        "Title": "S2: Legenden vender tilbage",
+        "Description": "Efter hver 50 rekrutter er en legendarisk helt garanteret."
+      },
+      "RecruitHeroes": {
+        "Title": "Rekrutter helte"
+      },
+      "Weapon": {
+        "Title": "S2: Legendenes våben",
+        "Description": "Et nyt område i tavernen muliggør modtagelse af helte-eksklusive våbensplitter-udvalgskister II. Disse indeholder våbensplitter fra Kimberly, DVA og Tesla.",
+        "Image1": "For at rekruttere i dette område skal du have et New Era-rekrutteringsbillet.",
+        "Image2": "Hver 20. rekrutter garanterer 2 eksklusive våbensplitter."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Eksklusive våben",
+        "Description": "Sæson 2 bringer eksklusive våben til Murphy, Carlie og ???.",
+        "Murphy": {
+          "Title": "Murphys eksklusive våben",
+          "Description": "Fra dag 4 i sæson 1 kan du samle våbensplitter gennem Murphys eksklusive våben-battlepass for at aktivere og forbedre Murphys eksklusive våben. Universelle våbensplitter kan kun bruges til forbedring, ikke aktivering."
+        },
+        "Carlie": {
+          "Title": "Carlies eksklusive våben",
+          "Description": "Fra dag 4 i uge 3 kan du samle våbensplitter gennem Carlies eksklusive våben-battlepass for at aktivere og forbedre Carlies eksklusive våben. Universelle våbensplitter kan kun bruges til forbedring, ikke aktivering."
+        },
+        "Swift": {
+          "Title": "Swifts eksklusive våben",
+          "Description": "Fra dag 4 i uge 6 kan du samle våbensplitter gennem Swifts eksklusive våben-battlepass for at aktivere og forbedre Swifts eksklusive våben. Universelle våbensplitter kan kun bruges til forbedring, ikke aktivering."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Temperatur",
+      "Description": "Temperaturen udgør en stor udfordring i polarregionen og påvirker kontinuerligt statistikkerne for din base. Din basetemperatur tilpasser sig langsomt omgivelserne. At opretholde højere temperaturer giver dig bonusstatistikker. Temperaturen for din base kan ligge mellem -270 °C og +300 °C.",
+      "Location": {
+        "Title": "Placering",
+        "Description": "Du kan overvåge din temperatur via ikonet eller få adgang til temperaturside ved at klikke på det relevante ikon. På denne detaljeside er alle faktorer, der påvirker temperaturen i din base, opført.",
+        "Description2": "I den øverste del kan du se, hvordan ikonet for temperaturen i din base (husikonet) bevæger sig og overlapper med ikonet for omgivelsernes temperatur (kortikonet)."
+      },
+      "Base": {
+        "Title": "Base",
+        "Description": "Den endelige temperatur for placeringerne, der vises ovenfor, påvirker din base og forårsager buffs/debuffs. Styrken i % af buffs/debuffs afhænger af temperaturen og vises i de skemaer, du kan se i billederne nedenfor. Her er beskrivelsen af buffs/debuffs.",
+        "Title2": "Grundlæggende ressourcproduktion:",
+        "Description2": "Produktion fra agerland, jernminer og guldminer +10 % (ved 4 °C)",
+        "Title3": "Termisk våben:",
+        "Description3": "Enheders holdbarhedsskade i løbet af spilsæsonen +100 (ved 4 °C)",
+        "Title4": "Heleheling af enheder:",
+        "Description4": "Heleheling af sårede enheder i løbet af sæsonen +0 % (ved 4 °C)",
+        "Title5": "Enhedsmoral:",
+        "Description5": "Enhedsmoral i løbet af sæsonen +0 % (ved 4 °C)"
+      },
+      "Factors": {
+        "Title": "Temperaturpåvirkende faktorer",
+        "Description": "Temperaturen påvirkes af mange faktorer:",
+        "List1": "Basisplacering på kortet: Jo længere ind mod centrum, jo koldere bliver det.",
+        "List2": "Ovnsaktivitet: Den nye sæsonbygning 'Højtemperaturovn' genererer varme til din base, når den er aktiveret, og endnu mere varme i overdrive-tilstand.",
+        "List3": "Intensiv Overdrive-evne: En sæsonbestemt evne, der muliggør at øge overdrive-varmen.",
+        "List4": "Allianceovnens aktivitet: Den nye sæsonbaserede alliancebygning muliggør varmeproduktion i nærområdet. Støttepunkter nær allianceovnen påvirkes af denne varme.",
+        "List5": "Allieret opklaringsfly: Allierede kan sende opklaringsfly for midlertidigt at påvirke en allieret.",
+        "List6": "Opvarmningsområde i byen: Når byovnen er aktiveret, varmes hele byområdet op (feltet, hvor byen ligger). Nærhed til en by hjælper med at holde sig varm.",
+        "List7": "Atomovn: Den ultimative varmer, der efter aktivering giver hele kortet varme.",
+        "List8": "Snevejrsforhold: Siden dag 1 i sæsonen finder der begivenheder sted, der forårsager et enormt temperatursænkning i alle krigszoner i timevis. Jo højere niveau, jo kraftigere falder temperaturen.",
+        "List9": "Troppeaktivitet: Tropper, der forlader din base, forårsager et midlertidigt varmetab.",
+        "List10": "Polarmonstre: Din base bliver angrebet af polarmonstre, hvilket medfører et temperatursænkning på -5 °C (forsvarsmislykkelse medfører et yderligere fald på -10 °C)."
+      },
+      "Burn": {
+        "Title": "Frysning og brænding",
+        "Description": "Dit mål er at holde din base på den rigtige temperatur, så du ikke bliver påvirket af debuffs, og din base ikke fryser eller brænder. Vær forsigtig med ikke at bruge for meget kul, da du har brug for det til din ovn (og allianceovnen), jo længere din alliance bevæger sig ind mod centrum.",
+        "Description2": "Hvis temperaturen i din base bliver for lav eller for høj, er der risiko for, at din base fryser eller brænder."
+      },
+      "LowTemperatures": {
+        "Title": "Lav temperaturer",
+        "Description": "Temperaturen i din base kan ikke falde under -270 °C.",
+        "Title2": "Basis næsten frosset:",
+        "Description2": "Hvis du forbliver under -20 °C, vil der blive startet en 5-minutters nedtælling, der viser 'Snart frosset'. Varm basen op, inden fryseperioden slutter, for at forhindre en frysning.",
+        "Solutions": "Løsninger:",
+        "Solution1": "Flyt til et varmere område.",
+        "Solution2": "Aktiver højtemperaturovnen eller sæt den i overdrive-tilstand.",
+        "Solution3": "Hvis du er inden for rækkevidde af allianceovnen, bed om, at den aktiveres eller sættes i overdrive-tilstand.",
+        "Solution4": "Bed dine allierede om at sende et opklaringsfly for at varme dig op."
+      },
+      "FrozenBase": {
+        "Title": "Frosset base:",
+        "Description": "Hvis en base forbliver under -20 °C i mere end 5 minutter, er den frosset. I denne tilstand er det ikke muligt at skifte placering eller mødes (alliance- og tilfældige skift er stadig mulige). Vær opmærksom på, at der også gælder debuffs, som vist i afsnittet 'Base'.",
+        "Solutions": "Løsninger:",
+        "Solution1": "Bevæg dig med hjælp fra alliancen eller ved tilfældig teleportation til varmere zoner.",
+        "Solution2": "Aktiver højtemperaturovnen eller sæt den i overdrive-tilstand.",
+        "Solution3": "Hvis du er inden for rækkevidde af allianceovnen, bed om, at den sættes i overdrive-tilstand.",
+        "Solution4": "Bed dine allierede om at sende et opklaringsfly for at varme dig op eller tropper til at bryde isen (5 hits koster hver 5 udholdenhed)."
+      },
+      "IceMelts": {
+        "Title": "Is smelter snart:",
+        "Description": "Når din base er frosset, kan du tø den op ved at hæve temperaturen over -20 °C og opretholde denne temperatur. En 5-minutters tøning nedtælling startes. Faldet temperaturen også blot i et sekund under -20 °C, forbliver basen frosset, og du skal starte opvarmningen forfra.",
+        "Description2": "Alternativt kan du bede dine allierede om at sende tropper for at bryde isen (5 hits koster hver 5 udholdenhed)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Hjælp dine allierede med at hæve temperaturen",
+      "Description": "Du kan hjælpe dine allierede med at hæve deres temperatur ved at sende en opklaringsplan og bruge lidt kul. Vær dog opmærksom på, at effekten ikke varer længe. Dette kan være særligt nyttigt, når de står over for vanskelige begivenheder som snevejrsforhold."
+    },
+    "VirusResistance": {
+      "Title": "Virusresistens",
+      "Description": "I sæson 2 er virussen stadig aktiv, men har mindre indflydelse på gameplayet end i sæson 1.",
+      "Description2": "For at øge din virusresistens skal du opgradere din egen højtemperaturovn. Dette øger både varme- og virusresistensen.",
+      "Image": "Som sædvanligt er der et ugepas, der giver dig et boost på 250 virusresistens.",
+      "Description3": "Virusresistensen har følgende virkninger:",
+      "List1": "Doom Elite, som du kan angrebe.",
+      "List2": "Polarbeast, der vogter udgravningsstederne, kan også angrebe dig."
+    },
+    "Profession": {
+      "Title": "Professioner – Level-grænse udvidet til niveau 70",
+      "Description": "I sæson 2 hæves levelgrænsen for professioner til niveau 70.",
+      "Description2": "De sæsonbestemte evner for niveauer op til 50 revideres og tilpasses sæsonens tema. Nogle evner på lavere niveauer forbliver dog som i sæson 1.",
+      "SeasonSkills": {
+        "Title": "Sæsonbestemte evner",
+        "Description": "De sæsonbestemte evner er identiske for professionerne ingeniør og krigsherre og findes til højre for bæreren på grøn baggrund."
+      },
+      "Warlords": {
+        "Title": "Ekstra færdigheder for krigsherre – niveau 45 til 70",
+        "Description": "Færdigheder for niveau 45",
+        "Description2": "Færdigheder for niveau 50",
+        "Description3": "Færdigheder for niveau 55",
+        "Description4": "Færdigheder for niveau 60",
+        "Description5": "Færdigheder for niveau 65",
+        "Description6": "Færdigheder for niveau 70"
+      },
+      "Engineer": {
+        "Title": "Ekstra færdigheder for ingeniør – niveau 45 til 70",
+        "Description": "Færdigheder for niveau 45",
+        "Description2": "Færdigheder for niveau 50",
+        "Description3": "Færdigheder for niveau 55",
+        "Description4": "Færdigheder for niveau 60",
+        "Description5": "Færdigheder for niveau 65",
+        "Description6": "Færdigheder for niveau 70"
+      }
     }
   }
 }

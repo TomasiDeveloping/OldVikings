@@ -138,6 +138,7 @@
     "Squad": "Équipe",
     "DesertStorm": "Tempête du désert",
     "SeasonOne": "Saison 1",
+    "SeasonTwo": "Saison 2",
     "Marshall": "Garde du Maréchal"
   },
   "VS": {
@@ -1109,6 +1110,400 @@
     "Pagination": {
       "NextLabel": "Suivant",
       "PreviousLabel": "Précédent"
+    }
+  },
+  "SeasonTwo": {
+    "Title": "Saison 2 - Polarsturm",
+    "Content": {
+      "Title": "Contenu",
+      "NewResources": "Nouveaux ressources de base",
+      "WorldMap": "Le monde et la carte",
+      "NewBuildings": "Nouveaux bâtiments",
+      "AllianceFurnace": "Foyer de l'alliance",
+      "NewFarms": "Nouvelles fermes – Ressources de l'alliance",
+      "MilitaryBase": "Bases militaires",
+      "Cities": "Villes",
+      "DigSites": "Sites de fouilles",
+      "StockCollection": "Collection de stocks",
+      "RareSoil": "Sol rare",
+      "RareSoilWar": "Guerre pour le sol rare",
+      "RadarMission": "Missions radar",
+      "HeroUpgrade": "Améliorations de héros et armes",
+      "Temperature": "Température",
+      "HelpTheAllies": "Aidez les alliés à augmenter la température",
+      "VirusResistance": "Résistance aux virus",
+      "Profession": "Professions – Limite de niveau augmentée à 70"
+    },
+    "Resources": {
+      "Title": "Nouveaux ressources de base – Charbon et alliages de titane",
+      "Description": "Des ressources supplémentaires sont maintenant disponibles dans le jeu : alliages de titane et charbon.",
+      "Titanium": {
+        "Title": "Alliage de titane",
+        "Description": "Utilisé pour construire et améliorer des bâtiments saisonniers.",
+        "Description2": "Les alliages de titane peuvent être obtenus par :",
+        "List1": "Récompenses pour avoir tué des zombies pour la première fois au niveau",
+        "List2": "Accomplissement de missions de quête de saison",
+        "List3": "Accomplissement des objectifs de la saison 2 pour le niveau de four haute température",
+        "List4": "Premier kill de sang de Doom Walker (premier kill DW de la journée)",
+        "List5": "Utilisation du ticket de recrutement 'Retour du héros' dans S2 : Légende revient",
+        "List6": "Récompense pour la première conquête d'une ville/site de fouilles"
+      },
+      "Coal": {
+        "Title": "Charbon",
+        "Description": "Utilisé pour construire et améliorer des structures saisonnières ou pour alimenter le four haute température.",
+        "Description2": "Le charbon peut être gagné par :",
+        "List1": "Récompenses pour avoir tué des zombies pour la première fois au niveau",
+        "List2": "Accomplissement de missions de quête de saison",
+        "List3": "Conquérir des sites de fouilles permet une production continue de charbon",
+        "List4": "Accomplissement des objectifs de la saison 2 pour le niveau de four haute température",
+        "List5": "Utilisation du ticket de recrutement 'Retour du héros' dans S2 : Légende revient",
+        "List6": "Passe hebdomadaire et passe de bataille de saison (plus gros boost)",
+        "List7": "Récompenses pour la collecte de fournitures",
+        "List8": "Récompense pour la première conquête d'une ville/site de fouilles",
+        "List9": "Nourrir Snowflake avec un repas qu'il reçoit lors de l'événement 'Plats polaires'"
+      }
+    },
+    "WorldMap": {
+      "Title": "Le monde et la carte",
+      "Description": "Le monde a de nouveau changé. La carte est composée de villes et de sites de fouilles en constante évolution.",
+      "Description2": "Pour contrecarrer les ambitions de l'Empereur Boréas, rassemblez-vous avec vos alliés à la périphérie de la région polaire. Il fait très froid et la température continue de baisser à mesure que vous vous rapprochez du centre.",
+      "Image1": "Villes",
+      "Image2": "Sites de fouilles",
+      "Image3": "Four atomique (Capitole)",
+      "Description3": "Au début de la saison, vous et vos alliés vous échouez à la périphérie du serveur (mais toujours ensemble en tant que ruche d'alliance) et n'avez pas de ville propre. Les villes doivent être reconquises, mais de nouvelles règles s'appliquent …",
+      "Description4": "Les monstres d'élite Doom se transforment en monstres polaires agressifs, et la plupart des zombies nécessitent une haute résistance aux virus pour être tués.",
+      "Description5": "Voici à quoi ressemble la carte. Les bâtiments que vous voyez sont les villes, les autres cases entre elles sont les sites de fouilles. Les cases sont considérées comme reliées aux coins, de sorte que, par exemple, chaque case de ville est connectée aux coins des cases des autres villes. Il en va de même pour les sites de fouilles.",
+      "ThermalMap": {
+        "Title": "Vue thermique de la carte",
+        "Description": "Comme vous pouvez le voir dans la vue de la carte, il y a un interrupteur pour activer la carte thermique, qui vous montre la température. Si vous cliquez sur n'importe quel point de la carte, la température à cet endroit s'affichera.",
+        "Description2": "Plus vous vous rapprochez du centre de la carte, plus la température diminue.",
+        "Description3": "À partir de chaque site de fouilles dans le coin, en diagonale vers le centre, chaque case de la carte a une température décroissante de : -15 °C, -30 °C, -40 °C, -50 °C, -60 °C, -70 °C, -80 °C (Le Capitole).",
+        "Description4": "Ceci est la superposition complète de la carte thermique, qui ne prend pas en compte les fours urbains, les fours atomiques, les tempêtes de neige ou d'autres effets de variation de chaleur. Elle montre la température de base de la zone de guerre."
+      }
+    },
+    "NewBuildings": {
+      "Title": "Nouveaux bâtiments",
+      "Description": "De nouveaux types de bâtiments sont disponibles dans la saison 2.",
+      "Description2": "Les bâtiments appartenant à votre base ne peuvent être construits qu'en dehors du périmètre de votre base (même zone que dans la saison 1).",
+      "Description3": "Certains apparaissent dès le début de la saison, d'autres suivront.",
+      "Description4": "De nouveaux bâtiments d'alliance sont également disponibles dans la saison 2.",
+      "TitanFabric": {
+        "Title": "Usine d'alliage de titane",
+        "Image1": "L'usine d'alliage de titane produit des alliages de titane, qui sont essentiels pour améliorer votre four.",
+        "Update": {
+          "Title": "Augmentez le niveau de l'usine d'alliage de titane",
+          "Description": "Vous aurez besoin de charbon pour améliorer l'usine d'alliage de titane.",
+          "Description2": "Ce bâtiment peut être amélioré jusqu'au niveau 30, indépendamment de votre niveau de QG.",
+          "Description3": "Dès que votre première usine d'alliage de titane atteint le niveau 15, une nouvelle usine d'alliage de titane sera disponible.",
+          "Description4": "Les usines d'alliage de titane suivantes seront disponibles lorsque le niveau précédent atteindra 15.",
+          "Description5": "Une usine d'alliage de titane sera immédiatement disponible avec le passe saisonnier hebdomadaire.",
+          "Image": "IMPORTANT : Chaque montée de niveau vous apportera toujours une augmentation de 720 de production/h, quel que soit le niveau atteint. Donc, soyez astucieux et améliorez toujours d'abord l'usine de niveau le plus bas."
+        },
+        "Requirements": {
+          "Title": "Besoin en charbon d'une usine d'alliage de titane",
+          "Description": "Les valeurs dans le tableau ci-dessous sont les coûts INITIAUX en charbon. Des réductions seront appliquées sur ces coûts, basées sur :",
+          "List1": "Vos recherches techniques sur la réduction des coûts de construction",
+          "List2": "Votre technologie d'alliance concernant la réduction des coûts de construction",
+          "List3": "la spécialisation professionnelle, en particulier la compétence 'Économie de ressources' de niveau 35 (jusqu'à -5 %)",
+          "Image": "Pour déterminer vos coûts réels, calculez le pourcentage de 'réduction des ressources nécessaires à la construction du bâtiment' et soustrayez ce pourcentage des coûts INITIAUX."
+        }
+      },
+      "HighTemperatureFurnace": {
+        "Title": "Four haute température",
+        "Description": "Ce nouveau bâtiment est très important.",
+        "Image": "Il permet d'augmenter la température avec du charbon, ce qui augmente la résistance aux virus.",
+        "Update": {
+          "Title": "Augmentez le niveau du four haute température",
+          "Description": "Vous aurez besoin d'un alliage de titane pour améliorer le four haute température.",
+          "Description2": "En améliorant ce bâtiment, vous pouvez améliorer les points suivants :",
+          "List1": "la résistance aux virus",
+          "List2": "la chaleur d'activation du four (c'est la température de base du four)",
+          "List3": "la surchauffe du four (c'est la température maximale que vous pouvez atteindre avec le four si vous autorisez une consommation de charbon plus élevée par minute)",
+          "Image": "Ce bâtiment peut être amélioré jusqu'au niveau 30, indépendamment de votre niveau de QG."
+        },
+        "Control": {
+          "Title": "Panneau de contrôle du four haute température",
+          "Description": "Pour augmenter la température de votre base, vous pouvez activer le four haute température.",
+          "Description2": "Le panneau de contrôle est assez simple à comprendre :",
+          "List1": "Interrupteur pour allumer/éteindre",
+          "List2": "Interrupteur pour activer le mode overdrive, qui consomme plus de charbon par minute mais chauffe davantage",
+          "List3": "Interrupteur pour activer automatiquement le four lorsqu'une tempête de neige arrive.",
+          "Image": "Lorsque vous activez le mode overdrive, la température augmente encore plus rapidement."
+        }
+      }
+    },
+    "AllianceFurnace": {
+      "Title": "Four d'alliance",
+      "Description": "En plus de votre propre four haute température, il y aura également le four d'alliance. C'est un bel ajout, car toute l'alliance peut contribuer à augmenter la température pour tous les alliés.",
+      "Description2": "À partir du jour 1 de la deuxième saison, les alliances peuvent positionner l'emplacement de construction du four d'alliance sur la carte (zone de niveau 1) et commencer à réparer le four d'alliance pour l'utiliser (commence au niveau 1). Ce processus ressemble à la construction d'un avant-poste avec jusqu'à 20 renforcements.",
+      "Description3": "Le four d'alliance peut être trouvé en cliquant sur le bouton Alliance -> Four d'alliance -> sur les coordonnées. Les actions peuvent uniquement être effectuées par des membres R4/R5.",
+      "HeatingRange": {
+        "Title": "Zone de chaleur du four d'alliance",
+        "Description": "Il est important de noter que le four d'alliance n'augmente la température que dans son périmètre d'action. Assurez-vous donc que votre base est proche du four.",
+        "Description2": "Une bonne suggestion pour une alliance serait de toujours s'établir près du four d'alliance et de rapprocher les membres avec des températures plus basses et un faible niveau de four haute température.",
+        "Description3": "Ci-dessous, vous pouvez voir l'effet du four sur la zone lorsqu'il est allumé et éteint. À gauche, le four est allumé et chauffe donc l'environnement, à droite, il est éteint et la température au même endroit est plus basse.",
+        "Description4": "Ci-dessous, vous pouvez voir la carte thermique autour du four et comment elle influence la température dans la zone."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nouvelles fermes – Ressources d'alliance",
+      "Description": "Comme déjà vu dans la saison 1, après avoir tué aléatoirement des élites Doom, un nouveau type de ferme de ressources d'alliance peut temporairement apparaître. Dans la saison 2, elles peuvent également être du type alliage de titane et charbon."
+    },
+    "MilitaryBase": {
+      "Title": "Bases militaires",
+      "Description": "Dès que le four haute température atteint le niveau 30, trois nouveaux bâtiments seront disponibles, permettant des améliorations pour les types de héros.",
+      "Description2": "IMPORTANT : Ces bâtiments disparaîtront à la fin de la saison 2, comme c'était déjà le cas dans la saison 1.",
+      "Description3": "Pour améliorer ces bâtiments, vous aurez besoin à la fois de charbon et d'alliage de titane. Ces bâtiments peuvent être améliorés jusqu'au niveau 30, indépendamment de votre niveau de QG.",
+      "Description4": "Chaque montée de niveau augmente le boost de dégâts correspondant causé par les héros de chars, d'avions ou de missiles.",
+      "Description5": "La quantité de charbon et d'alliage de titane requise pour améliorer chaque niveau est identique pour tous les bâtiments, tout comme le pourcentage de boost."
+    },
+    "Cities": {
+      "Title": "Villes",
+      "List1": "Nombre maximum de villes et de sites de fouilles que vous pouvez conquérir : 6 villes et 4 sites de fouilles.",
+      "List2": "En conquérant des villes, le nombre de sites de fouilles que vous pouvez conquérir n'augmente pas, car il reste toujours à 4.",
+      "Description": "Vos propres villes et sites de fouilles produisent des terres rares, qui sont fondamentales pour gagner dans la saison 2. La quantité dépend du niveau de la ville : quantité de terres rares dans les villes et quantité de terres rares dans les sites de fouilles.",
+      "Heating": {
+        "Title": "Four de la ville",
+        "Description": "Les villes fournissent de la chaleur à l'ensemble de la zone urbaine une fois qu'elles ont été conquises. La quantité dépend de leur niveau :",
+        "List1": "Niveau 1 : 5 °C",
+        "List2": "Niveau 2 : 20 °C",
+        "List3": "Niveau 3 : 30 °C",
+        "List4": "Niveau 4 : 40 °C",
+        "List5": "Niveau 5 : 50 °C",
+        "List6": "Niveau 6 : 60 °C"
+      }
+    },
+    "DigSites": {
+      "Title": "Sites de fouilles",
+      "Description": "Les sites de fouilles étaient autrefois essentiels pour la production de charbon, mais ont été pris par des bêtes mutées sous le contrôle de l'Empereur Boreas. Vainquez les bêtes, reprenez possession des sites et reprenez la production de charbon.",
+      "Description2": "Le charbon est essentiel pour chauffer votre base. Par conséquent, conquérir des sites de fouilles produisant du charbon est une étape très importante pour chaque alliance. Les sites de fouilles de niveau supérieur produisent de plus grandes quantités de charbon.",
+      "Description3": "Avec la dernière mise à jour du jeu, les sites de fouilles produisent également des terres rares.",
+      "Description4": "Le site de fouilles est gardé par des bêtes de glace qui peuvent être décongelées. Vous devez donc les décongeler avant de les conquérir.",
+      "Description5": "Cliquez sur la bête et utilisez le bouton « Décongeler » pour envoyer votre équipe à l'action. Ensuite, vainquez la bête de glace comme vous avez vaincu les corrupteurs de la saison 1.",
+      "Description6": "Vous pouvez voir tous les sites de fouilles de l'alliance en cliquant sur le bouton « Alliance » -> « Ville de l'alliance ».",
+      "Description7": "Dans le premier onglet, vous trouverez des villes et des sites de fouilles produisant des terres rares, et dans le deuxième onglet, vous trouverez des sites de fouilles produisant du charbon. Vous pouvez les revendiquer chaque heure en cliquant sur les sites de fouilles listés ou sur le bouton « Tout revendiquer ».",
+      "Coal": {
+        "Title": "Sites de fouilles pour charbon et terres rares",
+        "Description": "Les sites de fouilles produisent du charbon et des terres rares en fonction de leur niveau, voici la quantité exacte par niveau :",
+        "List1": "Niveau 1 : 2.736/h de charbon – 100/h de terres rares",
+        "List2": "Niveau 2 : 2.880/h de charbon – 110/h de terres rares",
+        "List3": "Niveau 3 : 3.024/h de charbon – 120/h de terres rares",
+        "List4": "Niveau 4 : 3.168/h de charbon – 130/h de terres rares",
+        "List5": "Niveau 5 : 3.312/h de charbon – 140/h de terres rares",
+        "List6": "Niveau 6 : 3.456/h de charbon – 150/h de terres rares"
+      },
+      "Protection": {
+        "Title": "Statut de capture et de protection",
+        "Description": "Les sites de fouilles ressemblent aux forteresses de la première saison.",
+        "List1": "Nombre maximum de sites de fouilles que vous pouvez posséder : 4, indépendamment du nombre de villes que vous possédez.",
+        "List2": "Limite quotidienne maximale de conquêtes de sites de fouilles : 2.",
+        "List3": "La première conquête nécessite la défaite de bêtes mutées avec une résistance virale suffisante. La bête polaire pourrait être gelée, donc vous devez envoyer des équipes pour la décongeler avant de l'attaquer. Pour vaincre ces bêtes, plusieurs actions de collecte sont nécessaires (chaque coup inflige un % de dégâts). Une fois la bête polaire vaincue, vous devez renforcer le site de fouilles avec jusqu'à 10 équipes.",
+        "List4": "Le processus de conquête du site de fouilles est un défi où la première alliance à atteindre 100 % gagne. Le temps maximum de conquête est de 4 heures. Si aucun progrès complet de 100 % n'est atteint dans ce temps, la tentative échoue. Si le site de fouilles n'était pas possédé, il reste neutre ; s'il était en possession d'un joueur, il reste chez le propriétaire précédent. Le pourcentage de conquête d'une alliance augmente pendant que le site est renforcé. Des équipes plus fortes accélèrent le processus.",
+        "List5": "Une fois qu'un site de fouilles est pris, il est protégé pendant 36 heures et entouré de gardes.",
+        "List6": "Techniquement, vous pouvez attaquer et renforcer un nombre illimité de sites de fouilles simultanément, mais une fois que vous avez terminé votre deuxième conquête quotidienne, vous ne pouvez plus attaquer des sites de fouilles neutres ou déjà en possession. Si vous renforcez un autre site de fouilles (ce qui compte comme votre troisième conquête), vos équipes seront automatiquement retirées dès que votre deuxième conquête est terminée.",
+        "List7": "Si un site de fouilles appartient à une alliance et est attaqué par une autre, une tentative de conquête échouée ne compte pas comme une conquête quotidienne pour l'alliance défensive.",
+        "List8": "Votre premier territoire d'alliance doit être un site de fouilles de niveau 1. À partir de là, vous pouvez conquérir n'importe quel territoire adjacent. Les territoires de la saison 2 sont également adjacents à leurs coins.",
+        "List9": "La conquête de territoire peut être étendue à des territoires adjacents (sites de fouilles et villes) à partir de vos propres villes et sites de fouilles.",
+        "List10": "Si vous abandonnez ou perdez un territoire d'alliance et avez maintenant deux ensembles de territoires d'alliance séparés, vous pouvez toujours conquérir tous les territoires adjacents à l'un ou l'autre ensemble.",
+        "List11": "Si votre alliance abandonne un site de fouilles (cela prend une heure), il devient neutre et n'importe quelle alliance, y compris la vôtre, peut le reprendre. Cependant, si le site de fouilles est encore sous statut de protection au moment de l'abandon, le temps de recharge du statut de protection doit s'écouler avant qu'une alliance, y compris la vôtre, puisse reprendre le contrôle.",
+        "List12": "Dans la saison 2, il n'y aura pas de conquêtes de sites de fouilles à travers les zones de guerre.",
+        "Description2": "Ci-dessous, vous voyez un gorille muté protégeant un site de fouilles de niveau 2. Le gorille muté est encore gelé et l'alliance l'a partiellement décongelé.",
+        "Description3": "Le jeu permet de conquérir des sites de fouilles qui sont adjacents à d'autres sites de fouilles à un coin. Par exemple, dans les images ci-dessous, il n'était pas nécessaire de conquérir la ville de niveau 2 pour conquérir les autres sites de fouilles adjacents. Ces captures d'écran proviennent du jour 3, lorsque seule la ville de niveau 1 pouvait être conquise."
+      }
+    },
+    "StockCollection": {
+      "Title": "Collection de stocks",
+      "Description": "Dans la saison 2, un nouveau type de trésor pour les ressources de l'alliance apparaîtra.",
+      "Description2": "Ces nouveaux trésors ne peuvent être découverts que lorsque la température du sol atteint 0 °C.",
+      "Description3": "Pour les trouver, déplacez le four de l'alliance pour chauffer le sol et le porter à 0 °C. Vous pouvez également conquérir une ville, de sorte que le four de la ville chauffe l'ensemble du territoire de la ville. Ensuite, déplacez le four de l'alliance et activez-le en mode surmultiplié (vous devez bien sûr vous assurer que votre niveau actuel de four de l'alliance est suffisamment élevé pour atteindre la bonne température). Une fois que le sol atteint 0 °C, la collection de stocks apparaît dans un état de décongélation.",
+      "Description4": "Envoyez des troupes pour décongeler la collection de stocks et demandez ensuite votre récompense.",
+      "Description5": "Les collections de stocks ont différents niveaux et offrent donc différentes récompenses.",
+      "Description6": "Il est possible d'accéder à l'icône de la saison 2 -> Collection de stocks pour voir si des collections de stocks ont été découvertes.",
+      "Image1": "Il y a une limite de 5 tentatives de récupération par jour."
+    },
+    "RareSoil": {
+      "Title": "Terre rare",
+      "Description": "Une fois que les villes et les sites de fouilles de la région polaire sont conquis, ils commencent à produire de la terre rare au fil du temps. La terre rare est une ressource importante pour les alliances cette saison, et à la fin de la saison, les alliances seront classées en fonction de leur quantité. Plus le rang est élevé, meilleures sont les récompenses.",
+      "Description2": "Plus les niveaux de la ville et du site de fouilles sont élevés, plus la production de terre rare par heure est importante.",
+      "Production": {
+        "Title": "Production de terre rare",
+        "Description": "Une fois que les villes et les sites de fouilles sont conquis, ils commencent à produire de la terre rare en fonction de leur niveau.",
+        "Description2": "Vous pouvez voir les détails de la production de terre rare en cliquant sur le bouton « Alliance » -> « Ville de l'alliance ». Là, vous verrez les villes et les sites de fouilles qui produisent de la terre rare.",
+        "Description3": "La quantité totale de terre rare produite est visible dans la vue du four de l'alliance : bouton d'alliance -> four de l'alliance, et affecte le niveau du four de l'alliance.",
+        "Description4": "Les classements pour la terre rare peuvent être consultés via la page « Saison 2 » : icône « Saison 2 » -> classement.",
+        "Description5": "Vous pouvez obtenir plus de terre rare en gagnant en tant qu'attaquant dans la guerre pour la terre rare."
+      },
+      "CityProduction": {
+        "Title": "Production de terre rare dans les villes",
+        "Description": "Voici la quantité exacte de terre rare par niveau de ville :",
+        "List1": "Niveau 1 : 350/h",
+        "List2": "Niveau 2 : 400/h",
+        "List3": "Niveau 3 : 450/h",
+        "List4": "Niveau 4 : 800/h",
+        "List5": "Niveau 5 : 900/h",
+        "List6": "Niveau 6 : 1000/h"
+      },
+      "DigSiteProduction": {
+        "Title": "Production de terre rare dans les sites de fouilles",
+        "Description": "Voici la quantité exacte de terre rare par niveau de site de fouilles :",
+        "List1": "Niveau 1 : 100/h",
+        "List2": "Niveau 2 : 110/h",
+        "List3": "Niveau 3 : 120/h",
+        "List4": "Niveau 4 : 130/h",
+        "List5": "Niveau 5 : 140/h",
+        "List6": "Niveau 6 : 150/h"
+      }
+    },
+    "RareSoilWar": {
+      "Title": "Guerre pour la terre rare",
+      "Description": "Dans la saison 2, il y aura des guerres pour la terre rare. Il n'y aura pas de conquête interzone de villes ou de sites de fouilles."
+    },
+    "RadarMission": {
+      "Title": "Missions radar",
+      "Description": "Dans la saison 2, une nouvelle mission radar sera disponible : « Survivant en détresse ». ",
+      "Description2": "Pour compléter la mission, envoyez votre troupe aider le survivant en détresse et recevez des récompenses, y compris du charbon."
+    },
+    "HeroUpgrade": {
+      "Title": "Améliorations des héros et armes",
+      "Description": "La saison 2 apporte des nouveautés concernant les héros et les armes, dont la disponibilité est limitée dans le temps.",
+      "Violette": {
+        "Title": "Amélioration de Violette en UR",
+        "Description": "Il sera possible d'améliorer Violette en UR. L'événement commencera probablement après la semaine 2."
+      },
+      "Legend": {
+        "Title": "S2 : Le retour de la légende",
+        "Description": "Après chaque 50 recrues, un héros légendaire est garanti."
+      },
+      "RecruitHeroes": {
+        "Title": "Recruter des héros"
+      },
+      "Weapon": {
+        "Title": "S2 : Armes des légendes",
+        "Description": "Un nouveau domaine dans la taverne permet d'obtenir des coffres de sélection de fragments d'armes exclusifs aux héros II. Ceux-ci contiennent des fragments d'armes de Kimberly, DVA et Tesla.",
+        "Image1": "Pour recruter dans ce domaine, vous aurez besoin d'un ticket de recrutement New Era.",
+        "Image2": "Chaque 20 recrues garantit 2 fragments d'armes exclusifs."
+      },
+      "ExclusiveWeapons": {
+        "Title": "Armes exclusives",
+        "Description": "La saison 2 apporte des armes exclusives pour Murphy, Carlie et ???.",
+        "Murphy": {
+          "Title": "Arme exclusive de Murphy",
+          "Description": "À partir du jour 4 de la saison 1, vous pouvez collecter des fragments d'armes via le Battle Pass d'armes exclusives de Murphy pour activer et améliorer l'arme exclusive de Murphy. Les fragments d'armes universels ne peuvent être utilisés que pour l'amélioration, pas pour l'activation."
+        },
+        "Carlie": {
+          "Title": "Arme exclusive de Carlie",
+          "Description": "À partir du jour 4 de la semaine 3, vous pouvez collecter des fragments d'armes via le Battle Pass d'armes exclusives de Carlie pour activer et améliorer l'arme exclusive de Carlie. Les fragments d'armes universels ne peuvent être utilisés que pour l'amélioration, pas pour l'activation."
+        },
+        "Swift": {
+          "Title": "Arme exclusive de Swift",
+          "Description": "À partir du jour 4 de la semaine 6, vous pouvez collecter des fragments d'armes via le Battle Pass d'armes exclusives de Swift pour activer et améliorer l'arme exclusive de Swift. Les fragments d'armes universels ne peuvent être utilisés que pour l'amélioration, pas pour l'activation."
+        }
+      }
+    },
+    "Temperature": {
+      "Title": "Température",
+      "Description": "La température constitue un grand défi dans la région polaire et influence continuellement les statistiques de votre base. La température de votre base s'adapte lentement à l'environnement. Le maintien de températures plus élevées vous apporte des statistiques bonus. La température de votre base peut varier entre -270 °C et +300 °C.",
+      "Location": {
+        "Title": "Emplacement",
+        "Description": "Vous pouvez surveiller votre température via l'icône ou accéder à la page des détails de température en cliquant sur l'icône correspondante. Cette page de détails liste tous les facteurs qui affectent la température de votre base.",
+        "Description2": "Dans la partie supérieure, vous pouvez voir comment l'icône de température de votre base (icône de maison) se déplace et se superpose à l'icône de température ambiante (icône de carte)."
+      },
+      "Base": {
+        "Title": "Base",
+        "Description": "La température finale affichée des emplacements influence votre base et provoque des buffs/debuffs. La force en % du buff/debuff dépend de la température et est affichée dans les schémas que vous pouvez voir dans les images ci-dessous. Voici la description des buffs/debuffs.",
+        "Title2": "Production de ressources de base :",
+        "Description2": "Production de terres agricoles, de mines de fer et de mines d'or +10 % (à 4 °C)",
+        "Title3": "Arme thermique :",
+        "Description3": "Dégâts de durabilité des troupes pendant la saison de jeu +100 (à 4 °C)",
+        "Title4": "Vitesse de guérison de l'unité :",
+        "Description4": "Vitesse de guérison des unités blessées pendant la saison +0 % (à 4 °C)",
+        "Title5": "Moral des unités :",
+        "Description5": "Moral des unités pendant la saison +0 % (à 4 °C)"
+      },
+      "Factors": {
+        "Title": "Facteurs influençant la température",
+        "Description": "La température est influencée par de nombreux facteurs :",
+        "List1": "Emplacement de la base sur la carte : Plus on s'approche du centre, plus il fait froid.",
+        "List2": "Activité du four : Le nouveau bâtiment saisonnier 'Four à haute température' génère de la chaleur pour votre base lorsqu'il est activé, et encore plus de chaleur en mode Overdrive.",
+        "List3": "Capacité Overdrive intensive : Une capacité saisonnière permettant d'augmenter la chaleur Overdrive.",
+        "List4": "Activité du four d'alliance : Le nouveau bâtiment saisonnier d'alliance permet de générer de la chaleur à proximité. Les bases près du four d'alliance sont affectées par cette chaleur.",
+        "List5": "Avion de reconnaissance allié : Les alliés peuvent envoyer des avions de reconnaissance pour réchauffer temporairement un allié.",
+        "List6": "Zone de chauffage de la ville : Lorsque le four de la ville est activé, l'ensemble de la zone de la ville (champ où se trouve la ville) se réchauffe. La proximité d'une ville aide à rester au chaud.",
+        "List7": "Four atomique : Le chauffage ultime qui, une fois activé, fournit de la chaleur à l'ensemble de la carte.",
+        "List8": "Tempêtes de neige : Depuis le jour 1 de la saison, des événements se produisent, provoquant une chute de température énorme dans toutes les zones de guerre pendant des heures. Plus le niveau est élevé, plus la température chute.",
+        "List9": "Activité des troupes : Les troupes quittant votre base provoquent une perte de chaleur temporaire.",
+        "List10": "Monstres polaires : Votre base est attaquée par des monstres polaires, ce qui entraîne une chute de température de -5 °C (un échec de défense entraîne une autre chute de -10 °C)."
+      },
+      "Burn": {
+        "Title": "Gel et combustion",
+        "Description": "Votre objectif est de maintenir votre base à la bonne température afin de ne pas être affecté par des debuffs et d'éviter que votre base ne gèle ou ne prenne feu. Faites attention à ne pas dépenser trop de charbon, car vous en aurez besoin pour votre four (et le four de l'alliance), à mesure que votre alliance se rapproche du centre.",
+        "Description2": "Si la température de votre base devient trop basse ou trop élevée, il y a un risque que votre base gèle ou prenne feu."
+      },
+      "LowTemperatures": {
+        "Title": "Températures basses",
+        "Description": "La température de votre base ne peut pas descendre en dessous de -270 °C.",
+        "Title2": "Base presque gelée :",
+        "Description2": "Si vous restez en dessous de -20 °C, un compte à rebours de 5 minutes démarre, indiquant 'Bientôt gelée'. Réchauffez la base avant la fin du temps de congélation pour éviter un gel.",
+        "Solutions": "Solutions :",
+        "Solution1": "Déménager dans une zone plus chaude.",
+        "Solution2": "Activer le four à haute température ou passer en mode Overdrive.",
+        "Solution3": "Si vous êtes à portée du four de l'alliance, demandez à ce qu'il soit activé ou mis en mode Overdrive.",
+        "Solution4": "Demandez à vos alliés d'envoyer un avion de reconnaissance pour vous réchauffer."
+      },
+      "FrozenBase": {
+        "Title": "Base gelée :",
+        "Description": "Si une base reste sous -20 °C pendant plus de 5 minutes, elle est gelée. Dans cet état, les déplacements et rassemblements ne sont pas possibles (les déplacements d'alliance et aléatoires restent possibles). Notez également que des debuffs s'appliquent, comme indiqué dans la section 'Base'.",
+        "Solutions": "Solutions :",
+        "Solution1": "Utilisez l'aide de l'alliance ou le téléport aléatoire pour aller dans des zones plus chaudes.",
+        "Solution2": "Activez le four à haute température ou mettez-le en mode Overdrive.",
+        "Solution3": "Si vous êtes à portée du four de l'alliance, demandez à ce qu'il soit mis en mode Overdrive.",
+        "Solution4": "Demandez à vos alliés de vous envoyer un avion de reconnaissance pour vous réchauffer ou des troupes pour briser la glace (5 coups coûtent chacun 5 points d'endurance)."
+      },
+      "IceMelts": {
+        "Title": "La glace va bientôt fondre :",
+        "Description": "Lorsque votre base est gelée, vous pouvez la dégeler en portant la température au-dessus de -20 °C et en maintenant cette température. Un compte à rebours de dégivrage de 5 minutes démarre. Si la température tombe ne serait-ce qu'une seconde en dessous de -20 °C, la base reste gelée et vous devez recommencer le processus de dégivrage.",
+        "Description2": "Alternativement, vous pouvez demander à vos alliés d'envoyer des troupes pour briser la glace (5 coups coûtent chacun 5 points d'endurance)."
+      }
+    },
+    "HelpTheAllies": {
+      "Title": "Aider les alliés à augmenter la température",
+      "Description": "Vous pouvez aider vos alliés à augmenter leur température en envoyant un plan de reconnaissance et en dépensant un peu de charbon. Cependant, notez que l'effet ne dure pas longtemps. Cela peut être particulièrement utile lorsqu'ils sont confrontés à des événements difficiles comme des tempêtes de neige."
+    },
+    "VirusResistance": {
+      "Title": "Résistance aux virus",
+      "Description": "Dans la saison 2, le virus reste actif, mais a un impact moindre sur le gameplay que dans la saison 1.",
+      "Description2": "Pour augmenter votre résistance aux virus, vous devez améliorer votre propre four à haute température. Cela augmentera à la fois la résistance à la chaleur et aux virus.",
+      "Image": "Comme d'habitude, il y a un pass hebdomadaire qui vous offre un bonus de 250 résistances aux virus.",
+      "Description3": "La résistance aux virus a les impacts suivants :",
+      "List1": "Doom Elite que vous pouvez attaquer.",
+      "List2": "Les bêtes polaires qui gardent les sites de fouille peuvent également vous attaquer."
+    },
+    "Profession": {
+      "Title": "Professions – Cap de niveau augmenté à 70",
+      "Description": "Dans la saison 2, la limite de niveau pour les professions est augmentée à 70.",
+      "Description2": "Les capacités saisonnières pour les niveaux jusqu'à 50 seront révisées et adaptées au thème de la saison. Cependant, certaines capacités à des niveaux inférieurs resteront comme dans la saison 1.",
+      "SeasonSkills": {
+        "Title": "Capacités saisonnières",
+        "Description": "Les capacités saisonnières sont identiques pour les professions d'ingénieur et de seigneur de guerre et se trouvent à droite du porteur sur fond vert."
+      },
+      "Warlords": {
+        "Title": "Compétences supplémentaires des seigneurs de guerre – Niveaux 45 à 70",
+        "Description": "Compétences pour le niveau 45",
+        "Description2": "Compétences pour le niveau 50",
+        "Description3": "Compétences pour le niveau 55",
+        "Description4": "Compétences pour le niveau 60",
+        "Description5": "Compétences pour le niveau 65",
+        "Description6": "Compétences pour le niveau 70"
+      },
+      "Engineer": {
+        "Title": "Compétences supplémentaires de l'ingénieur – Niveaux 45 à 70",
+        "Description": "Compétences pour le niveau 45",
+        "Description2": "Compétences pour le niveau 50",
+        "Description3": "Compétences pour le niveau 55",
+        "Description4": "Compétences pour le niveau 60",
+        "Description5": "Compétences pour le niveau 65",
+        "Description6": "Compétences pour le niveau 70"
+      }
     }
   }
 }

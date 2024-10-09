@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.flex-item {
+  flex: 1;
+  margin: 5px;
+}
+.flex-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+h5{
+  color: red;
+}
+h6{
+  color: blue;
+  font-size: larger;
+}
