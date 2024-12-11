@@ -12,7 +12,7 @@
     "Allies": {
       "Title": "Onze bondgenoten:",
       "Allie1": "tES - The Walking Beer",
-      "Allie2": "7ci La 7e compagnie"
+      "Allie2": "7ci - La 7e compagnie"
     },
     "Nap": {
       "Title": "Non-agressiepacten (NAP):",
@@ -86,7 +86,8 @@
       "Description": "Elke aanval op onze bondgenoten of op het NAP (Non-Aanvalspact) is verboden.",
       "Description2": "Aanvallen op spelers van andere allianties zijn over het algemeen verboden. Als er bijzondere omstandigheden of conflicten ontstaan, moeten dergelijke acties vooraf besproken en goedgekeurd worden door een R5 of R4 om onnodige stress te vermijden.",
       "Description3": "Het plunderen van vrachtwagens of treinen van je eigen server is niet toegestaan.",
-      "Description4": "Hoe aanvallen op je eigen vrachtwagens te vermijden"
+      "Description4": "Hoe aanvallen op je eigen vrachtwagens te vermijden",
+      "Description5": "Het plunderen van geheime missies, zoals Ghost Ops-missies, van je eigen server is niet toegestaan"
     },
     "Note": {
       "Title": "Opmerking:",

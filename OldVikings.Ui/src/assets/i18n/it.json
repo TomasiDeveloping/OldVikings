@@ -12,7 +12,7 @@
     "Allies": {
       "Title": "I nostri alleati:",
       "Allie1": "tES - The Walking Beer",
-      "Allie2": "7ci La 7e compagnie"
+      "Allie2": "7ci - La 7e compagnie"
     },
     "Nap": {
       "Title": "Patti di non aggressione (NAP):",
@@ -86,7 +86,8 @@
       "Description": "Qualsiasi attacco ai nostri alleati o al NAP (Patto di Non Aggressione) è vietato.",
       "Description2": "Gli attacchi ai giocatori di altre alleanze sono generalmente vietati. Se sorgono circostanze particolari o conflitti, tali azioni devono essere discusse e approvate in anticipo da un R5 o R4 per evitare stress inutile.",
       "Description3": "Il saccheggio di camion o treni del proprio server non è consentito.",
-      "Description4": "Come evitare gli attacchi ai propri camion"
+      "Description4": "Come evitare gli attacchi ai propri camion",
+      "Description5": "Il saccheggio di missioni segrete, come le missioni Ghost Ops, dal proprio server non è consentito"
     },
     "Note": {
       "Title": "Nota:",

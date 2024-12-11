@@ -12,7 +12,7 @@
     "Allies": {
       "Title": "Unsere Verbündeten:",
       "Allie1": "tES - The Walking Beer",
-      "Allie2": "7ci La 7e compagnie"
+      "Allie2": "7ci - La 7e compagnie"
     },
     "Nap": {
       "Title": "Nichtangriffspakte (NAP):",
@@ -86,7 +86,8 @@
       "Description": "Jeglicher Angriff auf unsere Verbündeten oder auf den NAP (Nichtangriffspakt) ist untersagt.",
       "Description2": "Angriffe auf Spieler aus anderen Allianzen sind grundsätzlich untersagt. Sollten besondere Umstände oder Konflikte auftreten, müssen solche Aktionen vorher mit einem R5 oder R4 besprochen und genehmigt werden, um unnötigen Stress zu vermeiden.",
       "Description3": "Plündern von LKWs oder Zügen vom eigenen Server ist nicht gestattet.",
-      "Description4": "Wie vermeide ich Angriffe auf eigene LKWs"
+      "Description4": "Wie vermeide ich Angriffe auf eigene LKWs",
+      "Description5": "Plündern von Geheimen Missionen wie Geister-Ops Missionen vom eigenen Server ist nicht gestattet"
     },
     "Note": {
       "Title": "Hinweis:",

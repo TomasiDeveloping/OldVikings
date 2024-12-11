@@ -12,7 +12,7 @@
     "Allies": {
       "Title": "Nos alliés :",
       "Allie1": "tES - The Walking Beer",
-      "Allie2": "7ci La 7e compagnie"
+      "Allie2": "7ci - La 7e compagnie"
     },
     "Nap": {
       "Title": "Pactes de non-agression (NAP) :",
@@ -86,7 +86,8 @@
       "Description": "Toute attaque contre nos alliés ou contre le NAP (Pacte de Non-Agression) est interdite.",
       "Description2": "Les attaques contre les joueurs d'autres alliances sont généralement interdites. En cas de circonstances ou de conflits particuliers, ces actions doivent être discutées et approuvées au préalable par un R5 ou R4 afin d'éviter un stress inutile.",
       "Description3": "Le pillage des camions ou des trains de votre propre serveur n'est pas autorisé.",
-      "Description4": "Comment éviter les attaques contre vos propres camions"
+      "Description4": "Comment éviter les attaques contre vos propres camions",
+      "Description5": "Le pillage de missions secrètes, comme les missions Ghost Ops, depuis votre propre serveur n'est pas autorisé"
     },
     "Note": {
       "Title": "Remarque :",

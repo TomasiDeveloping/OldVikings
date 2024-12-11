@@ -12,7 +12,7 @@
     "Allies": {
       "Title": "Müttefiklerimiz:",
       "Allie1": "tES - The Walking Beer",
-      "Allie2": "7ci La 7e compagnie"
+      "Allie2": "7ci - La 7e compagnie"
     },
     "Nap": {
       "Title": "Saldırı Anlaşmaları (NAP):",
@@ -86,7 +86,8 @@
       "Description": "Müttefiklerimize veya NAP (Saldırı Anlaşması) olanlara saldırı yapmak yasaktır.",
       "Description2": "Diğer ittifaklardaki oyunculara saldırmak genellikle yasaktır. Özel durumlar veya çatışmalar ortaya çıkarsa, bu tür eylemler önceden R5 veya R4 ile tartışılmalı ve onaylanmalıdır, aksi takdirde gereksiz stres oluşabilir.",
       "Description3": "Kendi sunucunuzdaki kamyonları veya trenleri yağmalamak yasaktır.",
-      "Description4": "Kendi kamyonlarımın saldırılardan nasıl korunurum?"
+      "Description4": "Kendi kamyonlarımın saldırılardan nasıl korunurum?",
+      "Description5": "Kendi sunucunuzdan Ghost Ops görevleri gibi gizli görevleri soymak yasaktır"
     },
     "Note": {
       "Title": "Not:",

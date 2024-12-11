@@ -12,7 +12,7 @@
     "Allies": {
       "Title": "Våra allierade:",
       "Allie1": "tES - The Walking Beer",
-      "Allie2": "7ci La 7e compagnie"
+      "Allie2": "7ci - La 7e compagnie"
     },
     "Nap": {
       "Title": "Icke-angreppspakter (NAP):",
@@ -86,7 +86,8 @@
       "Description": "Alla attacker mot våra allierade eller mot NAP (icke-angreppspakt) är förbjudna.",
       "Description2": "Attacker mot spelare från andra allianser är i grunden förbjudna. Om särskilda omständigheter eller konflikter uppstår måste sådana åtgärder först diskuteras och godkännas av en R5 eller R4 för att undvika onödig stress.",
       "Description3": "Plundring av lastbilar eller tåg från den egna servern är inte tillåten.",
-      "Description4": "Hur undviker jag attacker mot egna lastbilar?"
+      "Description4": "Hur undviker jag attacker mot egna lastbilar?",
+      "Description5": "Plundring av hemliga uppdrag, som Ghost Ops-uppdrag, från din egen server är inte tillåtet"
     },
     "Note": {
       "Title": "Notera:",

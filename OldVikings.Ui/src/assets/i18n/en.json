@@ -12,7 +12,7 @@
     "Allies": {
       "Title": "Our Allies:",
       "Allie1": "tES - The Walking Beer",
-      "Allie2": "7ci La 7e compagnie"
+      "Allie2": "7ci - La 7e compagnie"
     },
     "Nap": {
       "Title": "Non-Aggression Pacts (NAP):",
@@ -86,7 +86,8 @@
       "Description": "Any attack on our allies or on the NAP (Non-Aggression Pact) is prohibited.",
       "Description2": "Attacks on players from other alliances are generally prohibited. If special circumstances or conflicts arise, such actions must be discussed and approved by an R5 or R4 beforehand to avoid unnecessary stress.",
       "Description3": "Plundering trucks or trains from your own server is not allowed.",
-      "Description4": "How to avoid attacks on your own trucks"
+      "Description4": "How to avoid attacks on your own trucks",
+      "Description5": "Looting secret missions like Ghost Ops missions from your own server is not allowed"
     },
     "Note": {
       "Title": "Note:",
