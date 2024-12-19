@@ -95,13 +95,32 @@ export class R4Component {
     { name: "Saphty", create: "10.12.2024", headquarter: 27, vsPoints: 0, marshal: 0, marshalPercent: "0.00%", desertStorm: 0, desertPercent: "0.00%" }
   ]
 
-  getRowClass(index: number): string {
+  getRowClass(index: number, name: string): string {
+    if (this.checkName(name)) {
+      return 'custom-to-check';
+    }
     if (index < 20) {
       return 'custom-success';
     } else if (index < 39) {
       return 'custom-warning';
     } else {
       return 'custom-danger';
+    }
+  }
+
+
+  checkName(name: string): boolean {
+    switch (name) {
+      case 'marsal': return true;
+      case 'WilsOn': return true;
+      case 'Tom0593': return true;
+      case 'OpalSpider': return true;
+      case 'Ben123321': return true;
+      case 'breker': return true;
+      case 'Jetlife Headquaters': return true;
+      case 'Blosqui': return true;
+      case 'Atg0000': return true;
+      default: return false;
     }
   }
 }

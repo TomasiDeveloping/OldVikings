@@ -18,7 +18,7 @@
     </thead>
     <tbody>
       @for (player of players; track player.name; let i = $index) {
-        <tr [ngClass]="getRowClass(i)" [style]="{background: 'blue'}">
+        <tr [ngClass]="getRowClass(i, player.name)">
           <td>{{i + 1}}</td>
           <td>{{player.name}}</td>
           <td>{{player.create}}</td>
