@@ -96,12 +96,12 @@ export class R4Component {
   ]
 
   getRowClass(index: number): string {
-    if (index < 25) {
-      return 'custom-success'; // Hellgrün für die ersten 20
+    if (index < 20) {
+      return 'custom-success';
     } else if (index < 39) {
       return 'custom-warning';
     } else {
-      return 'custom-danger'; // Rot für den Rest
+      return 'custom-danger';
     }
   }
 }
