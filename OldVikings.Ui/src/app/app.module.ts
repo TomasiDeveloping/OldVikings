@@ -33,6 +33,7 @@ import { MapComponent } from './pages/map/map.component';
 import { MarshallComponent } from './pages/marshall/marshall.component';
 import { SeasonTwoComponent } from './pages/season-two/season-two.component';
 import { VideosComponent } from './pages/videos/videos.component';
+import { R4Component } from './pages/r4/r4.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -60,7 +61,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         MapComponent,
         MarshallComponent,
         SeasonTwoComponent,
-        VideosComponent
+        VideosComponent,
+        R4Component
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,

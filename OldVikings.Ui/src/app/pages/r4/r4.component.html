@@ -1,0 +1,36 @@
+<div class="container pb-5">
+  <h3 class="custom-font mt-3 text-center">R4</h3>
+  <hr>
+  <div class="table-responsive">
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">Nr.</th>
+      <th scope="col">Name</th>
+      <th scope="col">Created</th>
+      <th scope="col">Headquarter</th>
+      <th scope="col">VS Points</th>
+      <th scope="col">Marshal Participation</th>
+      <th scope="col">Marshal in percent</th>
+      <th scope="col">Desert storm Participation</th>
+      <th scope="col">DS in percent</th>
+    </tr>
+    </thead>
+    <tbody>
+      @for (player of players; track player.name; let i = $index) {
+        <tr [ngClass]="getRowClass(i)" [style]="{background: 'blue'}">
+          <td>{{i + 1}}</td>
+          <td>{{player.name}}</td>
+          <td>{{player.create}}</td>
+          <td>{{player.headquarter}}</td>
+          <td>{{player.vsPoints | number}}</td>
+          <td>{{player.marshal}}</td>
+          <td>{{player.marshalPercent}}</td>
+          <td>{{player.desertStorm}}</td>
+          <td>{{player.desertPercent}}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+  </div>
+</div>
