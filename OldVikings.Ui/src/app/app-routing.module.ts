@@ -40,6 +40,7 @@ const routes: Routes = [
   {path: 'season-two', component: SeasonTwoComponent},
   {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'alliance-mvp', component: AllianceMvpComponent, canActivate: [memberGuard]},
+  {path: 'r4', component: R4Component, canActivate: [memberGuard]},
   {path: 'guestbook', component: GuestbookComponent},
   {path: 'videos', component: VideosComponent, canActivate: [memberGuard]},
   {path: '', redirectTo: '/home', pathMatch: 'full'}

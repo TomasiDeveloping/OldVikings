@@ -15,4 +15,7 @@ export class PlayerService {
   getMvpPlayers(): Observable<PlayerMvp[]> {
     return this._httpClient.get<PlayerMvp[]>(this._serviceUrl + 'GetAllianceMvpPlayers/' + '5EC07910-AD78-45DF-9FF8-08DD0A24FE1E');
   }
+    getLeadershipMvp(): Observable<PlayerMvp[]> {
+      return this._httpClient.get<PlayerMvp[]>(this._serviceUrl + 'GetAllianceLeadershipMvp/' + '5EC07910-AD78-45DF-9FF8-08DD0A24FE1E');
+    }
 }
