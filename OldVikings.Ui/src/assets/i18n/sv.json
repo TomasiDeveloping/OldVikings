@@ -134,6 +134,7 @@
     "Rules": "Regler",
     "VS": "VS-Duell",
     "Alliances": "Allianser",
+    "AllianceMvp": "Allians MVP",
     "Basics": "Grunder",
     "TipsAndTricks": "Tips och tricks",
     "Buildings": "Byggnader",
@@ -1509,6 +1510,54 @@
         "Description4": "Färdigheter för nivå 60",
         "Description5": "Färdigheter för nivå 65",
         "Description6": "Färdigheter för nivå 70"
+      }
+    }
+  },
+  "PlayerMvp": {
+    "Title": "Allians - MVP",
+    "MvpCard": {
+      "Title": "Utmärkt Spelare",
+      "VsPoints": "VS Poäng",
+      "MarshalParticipation": "Marshal Deltagande",
+      "DesertStormParticipation": "Desert Storm Deltagande",
+      "MvpPoint": "MVP Poäng"
+    },
+    "Table": {
+      "Name": "Namn",
+      "VsPoints": "VS Poäng",
+      "MarshalParticipation": "Marshal Deltagande",
+      "DesertStormParticipation": "Desert Storm Deltagande",
+      "MvpPoint": "MVP Poäng"
+    },
+    "EvaluationCriteria": {
+      "Title": "Utvärderingskriterier",
+      "VSDuel": {
+        "Title": "Veckopoäng (VS-Duell) – 70% Viktning:",
+        "Description": "Dina poäng baseras på summan av alla VS-poäng de senaste <strong>tre veckorna</strong>. Denna summa delas med 1.000.000 och multipliceras med 0,7:",
+        "DescriptionBold": "tre veckor",
+        "Formula": "(Summa av VS-poäng de senaste 3 veckorna / 1.000.000) * 0,7.",
+        "Description2": "Denna beräkning representerar din aktivitet i det veckovisa VS-duellen, som är den viktigaste faktorn."
+      },
+      "Marshal": {
+        "Title": "Marshal Deltagande – 15 poäng per deltagande:",
+        "Description": "Varje deltagande i evenemanget ger dig <strong>15 poäng</strong>. Detta visar att du är strategiskt tillgänglig när alliansen behöver dig."
+      },
+      "DesertStorm": {
+        "Title": "Desert Storm Deltagande – 10 poäng per deltagande:",
+        "Description": "Varje deltagande i Desert Storm ger dig <strong>10 poäng</strong>. Detta evenemang betraktas som en bonus, men belönar spelare som engagerar sig utöver sina ordinarie uppgifter."
+      },
+      "Example": {
+        "Title": "<strong>Exempel:</strong> En spelare har följande värden:",
+        "List1Bold": "VS-poäng de senaste 3 veckorna:",
+        "List1": "150 miljoner",
+        "List2Bold": "Marshal Deltagande:",
+        "List3Bold": "Desert Storm Deltagande:",
+        "Description": "MVP-poängen beräknas enligt följande:",
+        "List4Bold": "VS Poäng:",
+        "List5Bold": "Marshal Deltagande:",
+        "List6Bold": "Desert Storm Deltagande:",
+        "TotalBold": "Totalt:",
+        "Total": "105 + 150 + 80 = <strong>335 MVP Poäng</strong>"
       }
     }
   }

@@ -134,6 +134,7 @@
     "Rules": "Rules",
     "VS": "VS-Duel",
     "Alliances": "Alliances",
+    "AllianceMvp": "Alliance MVP",
     "Basics": "Basics",
     "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Buildings",
@@ -1509,6 +1510,54 @@
         "Description4": "Skills for Level 60",
         "Description5": "Skills for Level 65",
         "Description6": "Skills for Level 70"
+      }
+    }
+  },
+  "PlayerMvp": {
+    "Title": "Alliance - MVP",
+    "MvpCard": {
+      "Title": "Outstanding Player",
+      "VsPoints": "VS Points",
+      "MarshalParticipation": "Marshal Participation",
+      "DesertStormParticipation": "Desert Storm Participation",
+      "MvpPoint": "MVP Points"
+    },
+    "Table": {
+      "Name": "Name",
+      "VsPoints": "VS Points",
+      "MarshalParticipation": "Marshal Participation",
+      "DesertStormParticipation": "Desert Storm Participation",
+      "MvpPoint": "MVP Points"
+    },
+    "EvaluationCriteria": {
+      "Title": "Evaluation Criteria",
+      "VSDuel": {
+        "Title": "Weekly Points (VS Duel) – 70% Weighting:",
+        "Description": "Your points are based on the total VS points from the last <strong>three weeks</strong>. This total is divided by 1,000,000 and multiplied by 0.7:",
+        "DescriptionBold": "three weeks",
+        "Formula": "(Total VS Points from the last 3 weeks / 1,000,000) * 0.7.",
+        "Description2": "This calculation represents your activity in the weekly VS Duel, which is the most important factor."
+      },
+      "Marshal": {
+        "Title": "Marshal Participation – 15 points per participation:",
+        "Description": "Each participation in the event earns you <strong>15 points</strong>. This demonstrates your strategic availability when the alliance needs you."
+      },
+      "DesertStorm": {
+        "Title": "Desert Storm Participation – 10 points per participation:",
+        "Description": "Each participation in Desert Storm earns you <strong>10 points</strong>. This event is considered a bonus but rewards players who go above and beyond their regular tasks."
+      },
+      "Example": {
+        "Title": "<strong>Example:</strong> A player has the following values:",
+        "List1Bold": "VS Points from the last 3 weeks:",
+        "List1": "150 million",
+        "List2Bold": "Marshal Participations:",
+        "List3Bold": "Desert Storm Participations:",
+        "Description": "The MVP points are calculated as follows:",
+        "List4Bold": "VS Points:",
+        "List5Bold": "Marshal Participations:",
+        "List6Bold": "Desert Storm Participations:",
+        "TotalBold": "Total:",
+        "Total": "105 + 150 + 80 = <strong>335 MVP Points</strong>"
       }
     }
   }

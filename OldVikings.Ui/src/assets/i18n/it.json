@@ -134,6 +134,7 @@
     "Rules": "Regole",
     "VS": "Duello VS",
     "Alliances": "Alleanze",
+    "AllianceMvp": "Alleanza MVP",
     "Basics": "Fondamenti",
     "TipsAndTricks": "Suggerimenti/Trucchi",
     "Buildings": "Edifici",
@@ -1505,6 +1506,54 @@
         "Description4": "Abilità per il livello 60",
         "Description5": "Abilità per il livello 65",
         "Description6": "Abilità per il livello 70"
+      }
+    }
+  },
+  "PlayerMvp": {
+    "Title": "Alleanza - MVP",
+    "MvpCard": {
+      "Title": "Giocatore Eccezionale",
+      "VsPoints": "Punti VS",
+      "MarshalParticipation": "Partecipazione al Marshal",
+      "DesertStormParticipation": "Partecipazione alla Tempesta del Deserto",
+      "MvpPoint": "Punti MVP"
+    },
+    "Table": {
+      "Name": "Nome",
+      "VsPoints": "Punti VS",
+      "MarshalParticipation": "Partecipazione al Marshal",
+      "DesertStormParticipation": "Partecipazione alla Tempesta del Deserto",
+      "MvpPoint": "Punti MVP"
+    },
+    "EvaluationCriteria": {
+      "Title": "Criteri di Valutazione",
+      "VSDuel": {
+        "Title": "Punti Settimanali (Duello VS) – 70% di Peso:",
+        "Description": "I tuoi punti si basano sulla somma di tutti i punti VS delle ultime <strong>tre settimane</strong>. Questa somma viene divisa per 1.000.000 e moltiplicata per 0,7:",
+        "DescriptionBold": "tre settimane",
+        "Formula": "(Somma dei punti VS delle ultime 3 settimane / 1.000.000) * 0,7.",
+        "Description2": "Questo calcolo rappresenta la tua attività nel Duello VS settimanale, che è il fattore più importante."
+      },
+      "Marshal": {
+        "Title": "Partecipazioni al Marshal – 15 punti per partecipazione:",
+        "Description": "Ogni partecipazione all'evento ti guadagna <strong>15 punti</strong>. Questo dimostra la tua disponibilità strategica quando l'alleanza ha bisogno di te."
+      },
+      "DesertStorm": {
+        "Title": "Partecipazioni alla Tempesta del Deserto – 10 punti per partecipazione:",
+        "Description": "Ogni partecipazione alla Tempesta del Deserto ti guadagna <strong>10 punti</strong>. Questo evento è considerato un bonus, ma premia i giocatori che si impegnano oltre le loro attività regolari."
+      },
+      "Example": {
+        "Title": "<strong>Esempio:</strong> Un giocatore ha i seguenti valori:",
+        "List1Bold": "Punti VS delle ultime 3 settimane:",
+        "List1": "150 milioni",
+        "List2Bold": "Partecipazioni al Marshal:",
+        "List3Bold": "Partecipazioni alla Tempesta del Deserto:",
+        "Description": "I punti MVP vengono calcolati come segue:",
+        "List4Bold": "Punti VS:",
+        "List5Bold": "Partecipazioni al Marshal:",
+        "List6Bold": "Partecipazioni alla Tempesta del Deserto:",
+        "TotalBold": "Totale:",
+        "Total": "105 + 150 + 80 = <strong>335 Punti MVP</strong>"
       }
     }
   }

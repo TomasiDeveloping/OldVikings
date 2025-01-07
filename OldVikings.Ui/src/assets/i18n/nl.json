@@ -134,6 +134,7 @@
     "Rules": "Regels",
     "VS": "VS-Duel",
     "Alliances": "Alliances",
+    "AllianceMvp": "Alliantie MVP",
     "Basics": "Basisprincipes",
     "TipsAndTricks": "Tips/Trucs",
     "Buildings": "Gebouwen",
@@ -1505,6 +1506,54 @@
         "Description4": "Vaardigheden voor niveau 60",
         "Description5": "Vaardigheden voor niveau 65",
         "Description6": "Vaardigheden voor niveau 70"
+      }
+    }
+  },
+  "PlayerMvp": {
+    "Title": "Alliantie - MVP",
+    "MvpCard": {
+      "Title": "Uitstekende Speler",
+      "VsPoints": "VS Punten",
+      "MarshalParticipation": "Deelname aan Marshal",
+      "DesertStormParticipation": "Deelname aan Woestijnstorm",
+      "MvpPoint": "MVP Punten"
+    },
+    "Table": {
+      "Name": "Naam",
+      "VsPoints": "VS Punten",
+      "MarshalParticipation": "Deelname aan Marshal",
+      "DesertStormParticipation": "Deelname aan Woestijnstorm",
+      "MvpPoint": "MVP Punten"
+    },
+    "EvaluationCriteria": {
+      "Title": "Evaluatiecriteria",
+      "VSDuel": {
+        "Title": "Wekelijkse Punten (VS Duel) – 70% Weging:",
+        "Description": "Jouw punten zijn gebaseerd op de som van alle VS-punten van de laatste <strong>drie weken</strong>. Deze som wordt gedeeld door 1.000.000 en vermenigvuldigd met 0,7:",
+        "DescriptionBold": "drie weken",
+        "Formula": "(Som van VS-punten van de laatste 3 weken / 1.000.000) * 0,7.",
+        "Description2": "Deze berekening vertegenwoordigt je activiteit in de wekelijkse VS-duels, wat de belangrijkste factor is."
+      },
+      "Marshal": {
+        "Title": "Deelname aan Marshal – 15 punten per deelname:",
+        "Description": "Elke deelname aan het evenement levert je <strong>15 punten</strong> op. Dit toont aan dat je strategisch beschikbaar bent wanneer de alliantie je nodig heeft."
+      },
+      "DesertStorm": {
+        "Title": "Deelname aan Woestijnstorm – 10 punten per deelname:",
+        "Description": "Elke deelname aan Woestijnstorm levert je <strong>10 punten</strong> op. Dit evenement wordt als een bonus beschouwd, maar beloont spelers die zich extra inzetten naast hun reguliere taken."
+      },
+      "Example": {
+        "Title": "<strong>Voorbeeld:</strong> Een speler heeft de volgende waarden:",
+        "List1Bold": "VS-punten van de laatste 3 weken:",
+        "List1": "150 miljoen",
+        "List2Bold": "Deelname aan Marshal:",
+        "List3Bold": "Deelname aan Woestijnstorm:",
+        "Description": "De MVP-punten worden als volgt berekend:",
+        "List4Bold": "VS Punten:",
+        "List5Bold": "Deelname aan Marshal:",
+        "List6Bold": "Deelname aan Woestijnstorm:",
+        "TotalBold": "Totaal:",
+        "Total": "105 + 150 + 80 = <strong>335 MVP Punten</strong>"
       }
     }
   }

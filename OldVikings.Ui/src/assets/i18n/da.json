@@ -134,6 +134,7 @@
     "Rules": "Regler",
     "VS": "VS-Duel",
     "Alliances": "Alliancer",
+    "AllianceMvp": "Alliance MVP",
     "Basics": "Grundlæggende",
     "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Bygninger",
@@ -1509,6 +1510,54 @@
         "Description4": "Evner for niveau 60",
         "Description5": "Evner for niveau 65",
         "Description6": "Evner for niveau 70"
+      }
+    }
+  },
+  "PlayerMvp": {
+    "Title": "Alliance - MVP",
+    "MvpCard": {
+      "Title": "Fremragende Spiller",
+      "VsPoints": "VS Point",
+      "MarshalParticipation": "Marshal Deltagelse",
+      "DesertStormParticipation": "Ørkenstorm Deltagelse",
+      "MvpPoint": "MVP Point"
+    },
+    "Table": {
+      "Name": "Navn",
+      "VsPoints": "VS Point",
+      "MarshalParticipation": "Marshal Deltagelse",
+      "DesertStormParticipation": "Ørkenstorm Deltagelse",
+      "MvpPoint": "MVP Point"
+    },
+    "EvaluationCriteria": {
+      "Title": "Evalueringskriterier",
+      "VSDuel": {
+        "Title": "Ugepoint (VS Duel) – 70% Vægtning:",
+        "Description": "Dine point er baseret på summen af alle VS-point fra de sidste <strong>tre uger</strong>. Denne sum divideres med 1.000.000 og ganges med 0,7:",
+        "DescriptionBold": "tre uger",
+        "Formula": "(Summen af VS-point fra de sidste 3 uger / 1.000.000) * 0,7.",
+        "Description2": "Denne beregning repræsenterer din aktivitet i den ugentlige VS Duel, som er den vigtigste faktor."
+      },
+      "Marshal": {
+        "Title": "Marshal Deltagelse – 15 point pr. deltagelse:",
+        "Description": "Hver deltagelse i eventen giver dig <strong>15 point</strong>. Dette viser din strategiske tilgængelighed, når alliancen har brug for dig."
+      },
+      "DesertStorm": {
+        "Title": "Ørkenstorm Deltagelse – 10 point pr. deltagelse:",
+        "Description": "Hver deltagelse i Ørkenstorm giver dig <strong>10 point</strong>. Denne event betragtes som en bonus, men belønner spillere, der engagerer sig ud over de normale opgaver."
+      },
+      "Example": {
+        "Title": "<strong>Eksempel:</strong> En spiller har følgende værdier:",
+        "List1Bold": "VS-point fra de sidste 3 uger:",
+        "List1": "150 millioner",
+        "List2Bold": "Marshal Deltagelser:",
+        "List3Bold": "Ørkenstorm Deltagelser:",
+        "Description": "MVP-point beregnes som følger:",
+        "List4Bold": "VS-point:",
+        "List5Bold": "Marshal Deltagelser:",
+        "List6Bold": "Ørkenstorm Deltagelser:",
+        "TotalBold": "I alt:",
+        "Total": "105 + 150 + 80 = <strong>335 MVP-point</strong>"
       }
     }
   }

@@ -1,0 +1,90 @@
+<div class="container pb-5">
+  <h3 class="custom-font mt-3 text-center">{{'PlayerMvp.Title' | translate}}</h3>
+  <hr>
+
+  @if (mvpPlayers.length > 0) {
+    <div class="card text-center mb-4 shadow-lg position-relative" style="background: linear-gradient(135deg, #f9d423, #ff4e50); color: white; border: none; max-width: 600px; margin: 0 auto;">
+      <div class="ribbon" style="position: absolute; top: -10px; left: -10px; background-color: #ffc107; color: black; padding: 7px 20px; font-size: 14px; font-weight: bold; transform: rotate(-45deg);">
+        MVP 🏆
+      </div>
+      <div class="card-header" style="border-bottom: 1px solid white; padding: 10px;">
+        <h4 style="font-size: 18px; margin: 0;">{{'PlayerMvp.MvpCard.Title' | translate}}</h4>
+      </div>
+      <div class="card-body" style="padding: 15px;">
+        <!-- Pokal-Icon -->
+        <div class="icon-container mb-2">
+          <i class="bi bi-trophy-fill" style="font-size: 70px; color: white; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);"></i>
+        </div>
+        <h5 class="card-title text-black" style="font-size: 30px; margin-bottom: 10px;">{{mvpPlayers[0].playerName}}</h5>
+        <p class="card-text text-black" style="font-size: 14px; margin-bottom: 15px;">
+          {{'PlayerMvp.MvpCard.VsPoints' | translate}} <strong>{{mvpPlayers[0].totalVsDuelPoints | number}}</strong><br>
+          {{'PlayerMvp.MvpCard.MarshalParticipation' | translate}} <strong>{{mvpPlayers[0].marshalGuardParticipationCount}}</strong><br>
+          {{'PlayerMvp.MvpCard.DesertStormParticipation' | translate}} <strong>{{mvpPlayers[0].desertStormParticipationCount}}</strong><br>
+          <span class="text-white" style="font-size: 15px">{{'PlayerMvp.MvpCard.MvpPoint' | translate}} <strong>{{mvpPlayers[0].mvpPoints}}</strong></span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Tabelle für andere Spieler -->
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>{{'PlayerMvp.Table.Name' | translate}}</th>
+          <th>{{'PlayerMvp.Table.VsPoints' | translate}}</th>
+          <th>{{'PlayerMvp.Table.MarshalParticipation' | translate}}</th>
+          <th>{{'PlayerMvp.Table.DesertStormParticipation' | translate}}</th>
+          <th>{{'PlayerMvp.Table.MvpPoint' | translate}}</th>
+        </tr>
+        </thead>
+        <tbody>
+          @for (player of mvpPlayers | slice: 1; track player.playerName; let i = $index) {
+            <tr>
+              <td>{{i + 2}}</td>
+              <td>{{player.playerName}}</td>
+              <td>{{player.totalVsDuelPoints | number}}</td>
+              <td>{{player.marshalGuardParticipationCount}}</td>
+              <td>{{player.desertStormParticipationCount}}</td>
+              <td>{{player.mvpPoints}}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Erklärung der Punkte -->
+    <div class="mt-5 p-4 rounded bg-dark shadow-sm">
+      <h4 class="mb-3">{{'PlayerMvp.EvaluationCriteria.Title' | translate}}</h4>
+      <p><strong>{{'PlayerMvp.EvaluationCriteria.VSDuel.Title' | translate}}</strong></p>
+      <p>
+        <span [innerHTML]="'PlayerMvp.EvaluationCriteria.VSDuel.Description' | translate"></span>
+        <code> {{'PlayerMvp.EvaluationCriteria.VSDuel.Formula' | translate}}</code>
+        {{'PlayerMvp.EvaluationCriteria.VSDuel.Description2' | translate}}
+      </p>
+      <p><strong>{{'PlayerMvp.EvaluationCriteria.Marshal.Title' | translate}}</strong></p>
+      <p [innerHTML]="'PlayerMvp.EvaluationCriteria.Marshal.Description' | translate">
+      </p>
+      <p><strong>{{'PlayerMvp.EvaluationCriteria.DesertStorm.Title' | translate}}</strong></p>
+      <p [innerHTML]="'PlayerMvp.EvaluationCriteria.DesertStorm.Description' | translate">
+      </p>
+      <div class="alert alert-secondary mt-4">
+        <span [innerHTML]="'PlayerMvp.EvaluationCriteria.Example.Title' | translate"></span>
+        <ul>
+          <li><strong>{{'PlayerMvp.EvaluationCriteria.Example.List1Bold' | translate}}</strong> {{'PlayerMvp.EvaluationCriteria.Example.List1' | translate}}</li>
+          <li><strong>{{'PlayerMvp.EvaluationCriteria.Example.List2Bold' | translate}}</strong> 10</li>
+          <li><strong>{{'PlayerMvp.EvaluationCriteria.Example.List3Bold' | translate}}</strong> 8</li>
+        </ul>
+        {{'PlayerMvp.EvaluationCriteria.Example.Description' | translate}}
+        <ul>
+          <li>{{'PlayerMvp.EvaluationCriteria.Example.List4Bold' | translate}} <code>(150.000.000 / 1.000.000) * 0.7 = 105</code></li>
+          <li>{{'PlayerMvp.EvaluationCriteria.Example.List5Bold' | translate}} <code>10 * 15 = 150</code></li>
+          <li>{{'PlayerMvp.EvaluationCriteria.Example.List6Bold' | translate}} <code>8 * 10 = 80</code></li>
+        </ul>
+        {{'PlayerMvp.EvaluationCriteria.Example.TotalBold' | translate}} <code [innerHTML]="'PlayerMvp.EvaluationCriteria.Example.Total' | translate"></code>.
+      </div>
+    </div>
+  }
+
+</div>
+

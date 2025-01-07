@@ -134,6 +134,7 @@
     "Rules": "Kurallar",
     "VS": "VS-Duel",
     "Alliances": "İttifaklar",
+    "AllianceMvp": "İttifak MVP",
     "Basics": "Temel Bilgiler",
     "TipsAndTricks": "İpuçları ve Püf Noktaları",
     "Buildings": "Binalar",
@@ -1505,6 +1506,54 @@
         "Description4": "60. seviye becerileri",
         "Description5": "65. seviye becerileri",
         "Description6": "70. seviye becerileri"
+      }
+    }
+  },
+  "PlayerMvp": {
+    "Title": "İttifak - MVP",
+    "MvpCard": {
+      "Title": "Öne Çıkan Oyuncu",
+      "VsPoints": "VS Puanları",
+      "MarshalParticipation": "Marshal Katılımı",
+      "DesertStormParticipation": "Çöl Fırtınası Katılımı",
+      "MvpPoint": "MVP Puanları"
+    },
+    "Table": {
+      "Name": "İsim",
+      "VsPoints": "VS Puanları",
+      "MarshalParticipation": "Marshal Katılımı",
+      "DesertStormParticipation": "Çöl Fırtınası Katılımı",
+      "MvpPoint": "MVP Puanları"
+    },
+    "EvaluationCriteria": {
+      "Title": "Değerlendirme Kriterleri",
+      "VSDuel": {
+        "Title": "Haftalık Puanlar (VS-Düello) – %70 Ağırlık:",
+        "Description": "Puanlarınız son <strong>üç hafta</strong> boyunca elde ettiğiniz tüm VS puanlarının toplamına dayanır. Bu toplam 1.000.000'a bölünür ve 0,7 ile çarpılır:",
+        "DescriptionBold": "üç hafta",
+        "Formula": "(Son 3 haftadaki VS puanlarının toplamı / 1.000.000) * 0,7.",
+        "Description2": "Bu hesaplama, haftalık VS-düellolarındaki aktivitenizi temsil eder ve en önemli faktördür."
+      },
+      "Marshal": {
+        "Title": "Marshal Katılımları – Katılım başına 15 puan:",
+        "Description": "Her etkinliğe katılım size <strong>15 puan</strong> kazandırır. Bu, ittifakın sizi ihtiyaç duyduğunda stratejik olarak erişilebilir olduğunuzu gösterir."
+      },
+      "DesertStorm": {
+        "Title": "Çöl Fırtınası Katılımları – Katılım başına 10 puan:",
+        "Description": "Her Çöl Fırtınası katılımı size <strong>10 puan</strong> kazandırır. Bu etkinlik bir bonus olarak kabul edilir, ancak düzenli görevlerin yanı sıra ek olarak katılım gösteren oyuncuları ödüllendirir."
+      },
+      "Example": {
+        "Title": "<strong>Örnek:</strong> Bir oyuncunun şu değerleri vardır:",
+        "List1Bold": "Son 3 haftadaki VS Puanları:",
+        "List1": "150 milyon",
+        "List2Bold": "Marshal Katılımları:",
+        "List3Bold": "Çöl Fırtınası Katılımları:",
+        "Description": "MVP puanları şu şekilde hesaplanır:",
+        "List4Bold": "VS Puanları:",
+        "List5Bold": "Marshal Katılımları:",
+        "List6Bold": "Çöl Fırtınası Katılımları:",
+        "TotalBold": "Toplam:",
+        "Total": "105 + 150 + 80 = <strong>335 MVP Puanı</strong>"
       }
     }
   }
