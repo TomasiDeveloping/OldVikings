@@ -1121,6 +1121,7 @@
   },
   "SeasonTwo": {
     "Title": "Temporada 2 - Tormenta Polar",
+    "CelebrationButton": "Celebración S2",
     "Content": {
       "Title": "Contenido",
       "NewResources": "Nuevos recursos básicos",
@@ -1510,6 +1511,88 @@
         "Description4": "Habilidades para nivel 60",
         "Description5": "Habilidades para nivel 65",
         "Description6": "Habilidades para nivel 70"
+      }
+    },
+    "Celebration": {
+      "Title": "Celebración de la Temporada 2: La Era del Petróleo",
+      "Description": "Para celebrar el final de la Temporada 2, comenzamos el lunes 'La Era del Petróleo', que durará cinco semanas (4 semanas con misiones + 1 semana de duelos de campeonato). Hay muchas cosas nuevas por descubrir y preparar, por lo que hemos creado una guía para los curiosos que quieran optimizar su jugabilidad.",
+      "Profession": {
+        "Title": "Profesión",
+        "Description": "Este mes investigarás y construirás mucho, pero pelearás menos, por lo que el ingeniero es la profesión más interesante. ¡Maximiza las habilidades que te ayudarán a construir e investigar más rápido y más barato!"
+      },
+      "Week1": {
+        "Title": "Semana 1: Lista de tareas",
+        "List1": "Cambia a ingeniero y maximiza todas las habilidades que te ayudarán a construir e investigar más rápido y barato.",
+        "List2": "Asegúrate de desbloquear las misiones del servidor para comenzar con la nueva investigación y expansión de la base.",
+        "List3": "Construye tu pozo de petróleo y llévalo a nivel 30 lo antes posible para obtener la máxima producción de petróleo.",
+        "List4": "Optimiza la expansión del nuevo árbol de investigación de manera eficiente, comenzando solo con las investigaciones necesarias."
+      },
+      "ServerWideMissions": {
+        "Title": "Misiones del servidor",
+        "Description": "Para desbloquear las nuevas cosas buenas en el servidor, debemos completar algunas misiones. Cuanto más rápido se completen, más rápido podrá crecer nuestro servidor.",
+        "Mission1": {
+          "Title": "Misión 1: Desbloquear la tecnología (Día 1, Semana 1)",
+          "Description": "Objetivo: Completa 500 investigaciones en todo el servidor. Esto desbloqueará el nuevo árbol de investigación."
+        },
+        "Mission2": {
+          "Title": "Misión 2: Desbloquear el Nivel II de la expansión de la base (Día 2, Semana 1)",
+          "Description": "Objetivo: Completa 500 edificios en todo el servidor. Esto nos permitirá expandir el suelo de nuestra base con nuevos niveles.",
+          "Description2": "Completar losas en esta nueva área también da petróleo como recompensa, por lo que es importante completar estas lo antes posible para lograr el mayor progreso."
+        },
+        "Mission3": {
+          "Title": "Misión 3: Movilización de héroes (Día 2, Semana 1)",
+          "Description": "Objetivo: Se deben realizar un total de 10,000 reclutamientos en todo el servidor. No hay una recompensa específica por completar esta tarea, por lo que es menos importante."
+        }
+      },
+      "Research": {
+        "Title": "Nuevo árbol de investigación",
+        "Description": "El enfoque principal de este periodo es el nuevo árbol de investigación, que desbloquea un tercer centro de tecnología, una fábrica de equipamiento para drones y la posibilidad de expandir tu cuartel general de HQ31 a HQ35. Esta investigación requiere un nuevo recurso: petróleo.",
+        "Description2": "<strong>Nota:</strong> Este árbol de investigación solo está disponible si tu centro de tecnología está al nivel 30 y las unidades especiales están desbloqueadas al menos en un 40%.",
+        "Upgrade": {
+          "Title": "Mejora del pozo de petróleo",
+          "Description": "La primera investigación te permite construir un pozo de petróleo y comenzar la producción de petróleo. Mejora este pozo lo antes posible para alcanzar la tasa de producción más alta (¡utiliza muchos aceleradores!). Es posible llevarlo a nivel 30 el primer día, intenta lograrlo antes del segundo día."
+        },
+        "Strategy": {
+          "Title": "Estrategia de investigación",
+          "Description": "Al igual que con la investigación T10, no es necesario completar cada nivel de cada investigación para avanzar en el árbol. Dado que el petróleo será difícil de conseguir al principio, debes manejarlo de manera eficiente. Los niveles mínimos necesarios están indicados a continuación, los <span class=\"text-danger\">campos rojos</span> aumentan tu producción de petróleo, ¡por lo que deberían ser tu enfoque! Usa tus aceleradores y no esperes hasta el día VS. Los <span class=\"text-warning\">campos amarillos</span> aumentan la velocidad de construcción e investigación y son buenas opciones para regresar más tarde. Esta investigación tomará mucho tiempo, no esperes completarla en la primera semana."
+        },
+        "Hq": {
+          "Title": "Requisitos de HQ 31–35",
+          "Description": "Una vez que hayas completado la parte inferior del árbol de investigación, puedes comenzar con HQ31+. Los edificios requeridos están indicados a continuación e incluyen siempre el centro de investigación, el centro de tanque/aire/cohetes (uno de ellos) y el cuartel.<br> Para ver los tiempos y recursos necesarios, visita <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
+          "Table": {
+            "Header": "Nivel HQ",
+            "Header2": "Requisitos",
+            "Row1": "Centro de investigación nivel 30, Centro de tanque/aire/cohetes nivel 30, Cuartel nivel 30",
+            "Row2": "Centro de investigación nivel 31, Centro de tanque/aire/cohetes nivel 31, Cuartel nivel 31, Murallas nivel 31",
+            "Row3": "Centro de investigación nivel 32, Centro de tanque/aire/cohetes nivel 32, Cuartel nivel 32, Hospital nivel 32, Campo de entrenamiento nivel 32",
+            "Row4": "Centro de investigación nivel 33, Centro de tanque/aire/cohetes nivel 33, Cuartel nivel 33, Murallas nivel 33, Centro de alianza nivel 33",
+            "Row5": "Centro de investigación nivel 34, Centro de tanque/aire/cohetes nivel 34, Cuartel nivel 34, Hospital nivel 34, Campo de entrenamiento nivel 34"
+          }
+        },
+        "Week2": {
+          "Title": "Semana 2",
+          "ServerMission": "Misiones del servidor",
+          "Mission1": {
+            "Title": "Misión 1: Desbloquear la tarea de radar (Día 1, Semana 2)",
+            "Description": "Objetivo: Completa 5000 tareas de radar en todo el servidor."
+          },
+          "Mission2": {
+            "Title": "Misión 2: Tarea secreta: Conquistar el depósito de petróleo (Día 1, Semana 2)",
+            "Description": "Objetivo: Completa 1000 tareas secretas en todo el servidor."
+          },
+          "Mission3": {
+            "Title": "Misión 3: Expansión comercial (Día 1, Semana 2)",
+            "Description": "Objetivo: Envía 500 camiones en todo el servidor."
+          },
+          "Event": {
+            "Title": "Eventos adicionales",
+            "Description": "Al igual que en la celebración de la Temporada 1, en la semana 2 comenzarán nuevamente el evento Bingo, el mercado negro y el duelo de campeonatos. En el evento Bingo podrás recibir petróleo y efectivo del mercado negro como recompensas. Los eventos funcionan de la misma manera que en la Temporada 1."
+          }
+        },
+        "Week3": {
+          "Title": "Semana 3 & 4",
+          "Description": "En estas semanas no hay nada especial. En la semana 3, se desbloquearán zombis de niveles 31–35 en el mapa, y en la semana 4, se desbloquearán Elite-Dooms de niveles 31–35."
+        }
       }
     }
   },

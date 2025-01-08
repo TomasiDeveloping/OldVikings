@@ -35,6 +35,7 @@ import { SeasonTwoComponent } from './pages/season-two/season-two.component';
 import { VideosComponent } from './pages/videos/videos.component';
 import { R4Component } from './pages/r4/r4.component';
 import { AllianceMvpComponent } from './pages/alliance-mvp/alliance-mvp.component';
+import { SeasonTwoCelebrationComponent } from './pages/season-two/season-two-celebration/season-two-celebration.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -64,7 +65,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         SeasonTwoComponent,
         VideosComponent,
         R4Component,
-        AllianceMvpComponent
+        AllianceMvpComponent,
+        SeasonTwoCelebrationComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,

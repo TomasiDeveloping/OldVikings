@@ -1117,6 +1117,7 @@
   },
   "SeasonTwo": {
     "Title": "Sezon 2 - Kutuplar Fırtınası",
+    "CelebrationButton": "S2 Kutlaması",
     "Content": {
       "Title": "İçerik",
       "NewResources": "Yeni Temel Kaynaklar",
@@ -1506,6 +1507,88 @@
         "Description4": "60. seviye becerileri",
         "Description5": "65. seviye becerileri",
         "Description6": "70. seviye becerileri"
+      }
+    },
+    "Celebration": {
+      "Title": "Sezon 2: Petrol Çağı Kutlaması",
+      "Description": "Sezon 2'nin sonunu kutlamak için Pazartesi günü 'Petrol Çağı'na başlıyoruz, bu 5 hafta sürecek (4 hafta görevler + 1 hafta şampiyonluk düellosu). Keşfedecek ve hazırlık yapacak çok şey var, bu yüzden oyun deneyimlerini optimize etmek isteyen meraklılar için bir rehber oluşturduk.",
+      "Profession": {
+        "Title": "Meslek",
+        "Description": "Bu ay çok araştırma yapacak ve inşa edeceksiniz, ancak daha az savaşacaksınız, bu yüzden mühendislik en ilginç meslek. Daha hızlı ve daha ucuz inşa etmenize ve araştırma yapmanıza yardımcı olacak yetenekleri maksimize edin!"
+      },
+      "Week1": {
+        "Title": "Hafta 1: Görev Listesi",
+        "List1": "Mühendisliğe geçin ve daha hızlı ve daha ucuz inşa etmenize ve araştırma yapmanıza yardımcı olacak tüm yetenekleri maksimize edin.",
+        "List2": "Yeni araştırma ve üs genişletmesi için sunucu genelindeki görevlerin kilidini açmamız gerektiğinden emin olun.",
+        "List3": "Petrol kuyunuzu inşa edin ve maksimum petrol üretimi için onu mümkün olan en hızlı şekilde Seviye 30'a yükseltin!",
+        "List4": "Yeni araştırma ağacının genişlemesini verimli bir şekilde optimize edin, sadece gerekli araştırmaları önceleyin."
+      },
+      "ServerWideMissions": {
+        "Title": "Sunucu Genelindeki Görevler",
+        "Description": "Sunucu olarak yeni iyi şeyleri açmak için bazı görevleri tamamlamamız gerekiyor. Bu görevler ne kadar hızlı tamamlanırsa, sunucumuz o kadar hızlı büyür.",
+        "Mission1": {
+          "Title": "Görev 1: Teknolojiyi Açmak (Gün 1, Hafta 1)",
+          "Description": "Hedef: Sunucu genelinde 500 araştırma tamamlayın. Bu, yeni araştırma ağacının kilidini açacaktır."
+        },
+        "Mission2": {
+          "Title": "Görev 2: Üs Genişletme II. Seviyesini Açmak (Gün 2, Hafta 1)",
+          "Description": "Hedef: Sunucu genelinde 500 bina tamamlayın. Bu, üs tabanımızın yeni katmanlarla genişlemesini sağlayacaktır.",
+          "Description2": "Bu yeni alandaki karoları tamamlamak aynı zamanda ödül olarak petrol verecektir, bu yüzden en hızlı şekilde tamamlamak ilerlemenizi hızlandırmak için önemlidir."
+        },
+        "Mission3": {
+          "Title": "Görev 3: Kahramanları Seferber Etmek (Gün 2, Hafta 1)",
+          "Description": "Hedef: Sunucu genelinde toplamda 10.000 işe alım yapılması gerekmektedir. Bu görevi tamamlamanın belirli bir ödülü yoktur, bu yüzden öncelikli değildir."
+        }
+      },
+      "Research": {
+        "Title": "Yeni Araştırma Ağacı",
+        "Description": "Bu süre zarfındaki ana odak, üçüncü bir teknoloji merkezi, bir drone ekipman fabrikası ve ana karargahınızı HQ31'den HQ35'e kadar daha da yükseltme imkanı sunan yeni araştırma ağacına odaklanmaktadır. Bu araştırma, yeni bir kaynak olan petrolden gereksinim duyar.",
+        "Description2": "<strong>Not:</strong> Bu araştırma ağacı, teknoloji merkeziniz Seviye 30'da ve özel birimleriniz en az %40 açılmışsa kullanılabilir.",
+        "Upgrade": {
+          "Title": "Petrol Kuyusu Yükseltmesi",
+          "Description": "İlk araştırma, petrol üretmeye başlamak için bir petrol kuyusu inşa etmenizi sağlar. Bu petrol kuyusunu mümkün olan en hızlı şekilde yükseltin, böylece en yüksek üretim hızına ulaşabilirsiniz (birçok hızlandırıcı kullanın!). Onu ilk gün Seviye 30'a çıkarmak mümkündür, ikinci gün sonuna kadar bunu başarmaya çalışın."
+        },
+        "Strategy": {
+          "Title": "Araştırma Stratejisi",
+          "Description": "T10 araştırmalarındaki gibi, araştırma ağacında ilerlemek için her seviyedeki her araştırmayı tamamlamanıza gerek yoktur. Petrol başlangıçta zor bulunacağı için bunu mümkün olduğunca verimli kullanmalısınız. Aşağıda minimum gerekli seviyeler verilmiştir, <span class=\"text-danger\">kırmızı alanlar</span> petrol üretiminizi artırır, bu yüzden bunlar odak noktanız olmalı! Hızlandırıcılarınızı kullanın ve VS gününü beklemeyin. <span class=\"text-warning\">Sarı alanlar</span> inşa ve araştırma hızını artırır ve daha sonra dönmek için hoş seçeneklerdir. Bu araştırma uzun sürecek; ilk hafta sonunda tamamlanmasını beklemeyin."
+        },
+        "Hq": {
+          "Title": "HQ 31–35 Gereksinimleri",
+          "Description": "Araştırma ağacının alt kısmını tamamladıktan sonra HQ31+ ile başlayabilirsiniz. Gereken binalar aşağıda listelenmiştir ve her zaman teknoloji merkezi, tank/hava/r füze merkezi (bunlardan biri) ve kışlayı içerir.<br> Gerekli zaman ve kaynakları görmek için <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a> sayfasını ziyaret edin.",
+          "Table": {
+            "Header": "HQ Seviyesi",
+            "Header2": "Gereksinimler",
+            "Row1": "Teknoloji Merkezi Seviye 30, Tank/Hava/Roket Merkezi Seviye 30, Kışla Seviye 30",
+            "Row2": "Teknoloji Merkezi Seviye 31, Tank/Hava/Roket Merkezi Seviye 31, Kışla Seviye 31, Duvar Seviye 31",
+            "Row3": "Teknoloji Merkezi Seviye 32, Tank/Hava/Roket Merkezi Seviye 32, Kışla Seviye 32, Hastane Seviye 32, Eğitim Alanı Seviye 32",
+            "Row4": "Teknoloji Merkezi Seviye 33, Tank/Hava/Roket Merkezi Seviye 33, Kışla Seviye 33, Duvar Seviye 33, İttifak Merkezi Seviye 33",
+            "Row5": "Teknoloji Merkezi Seviye 34, Tank/Hava/Roket Merkezi Seviye 34, Kışla Seviye 34, Hastane Seviye 34, Eğitim Alanı Seviye 34"
+          }
+        },
+        "Week2": {
+          "Title": "Hafta 2",
+          "ServerMission": "Sunucu Genelindeki Görevler",
+          "Mission1": {
+            "Title": "Görev 1: Radar Görevlerini Açmak (Gün 1, Hafta 2)",
+            "Description": "Hedef: Sunucu genelinde 5000 radar görevi tamamlayın."
+          },
+          "Mission2": {
+            "Title": "Görev 2: Gizli Görev: Petrol Depolarını Ele Geçir (Gün 1, Hafta 2)",
+            "Description": "Hedef: Sunucu genelinde 1000 gizli görev tamamlayın."
+          },
+          "Mission3": {
+            "Title": "Görev 3: Ticaret Genişletmesi (Gün 1, Hafta 2)",
+            "Description": "Hedef: Sunucu genelinde 500 kamyon gönderin."
+          },
+          "Event": {
+            "Title": "Ek Etkinlikler",
+            "Description": "Sezon 1'deki kutlama gibi, Hafta 2'de tekrar Bingo Etkinliği, Kara Pazar ve Şampiyonluk Düellosu başlayacak. Bingo Etkinliği'nde ödül olarak petrol ve kara pazar kasası kazanabilirsiniz. Etkinlikler, Sezon 1'de olduğu gibi çalışacak."
+          }
+        },
+        "Week3": {
+          "Title": "Hafta 3 & 4",
+          "Description": "Bu haftalarda özel bir şey yok. Hafta 3'te 31-35 seviyeleri arasında zombiler haritada serbest bırakılacak ve Hafta 4'te 31-35 seviyeleri arasında Elit Doom'lar serbest bırakılacak."
+        }
       }
     }
   },

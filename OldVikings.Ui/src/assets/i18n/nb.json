@@ -1117,6 +1117,7 @@
   },
   "SeasonTwo": {
     "Title": "Sesong 2 - Polarstorm",
+    "CelebrationButton": "S2 Feiring",
     "Content": {
       "Title": "Innhold",
       "NewResources": "Nye grunnressurser",
@@ -1506,6 +1507,88 @@
         "Description4": "Færdigheder for niveau 60",
         "Description5": "Færdigheder for niveau 65",
         "Description6": "Færdigheder for niveau 70"
+      }
+    },
+    "Celebration": {
+      "Title": "Feiring av Sesong 2: Oljealderen",
+      "Description": "For å feire slutten av Sesong 2, starter vi mandag 'Oljealderen', som vil vare i fem uker (4 uker med oppdrag + 1 uke med mesterskapsduell). Det er mange nye ting å oppdage og forberede, så vi har laget en guide for de nysgjerrige som ønsker å optimalisere spillingen sin.",
+      "Profession": {
+        "Title": "Yrke",
+        "Description": "Denne måneden vil du gjøre mye forskning og bygging, men mindre kamp, så ingeniør er det mest interessante yrket. Maksimer ferdighetene som hjelper deg å bygge og forske raskere og billigere!"
+      },
+      "Week1": {
+        "Title": "Uke 1: Oppgaveliste",
+        "List1": "Bytt til ingeniør og maksimer alle ferdigheter som hjelper deg å bygge og forske raskere og billigere.",
+        "List2": "Sørg for at vi låser opp serverens oppdrag for å starte den nye forskningen og baseutvidelsen.",
+        "List3": "Bygg oljebrønnen din og få den til nivå 30 så raskt som mulig for maksimal oljeproduksjon!",
+        "List4": "Optimaliser utviklingen av det nye forskningstreet effektivt, og fokuser først på de nødvendige forskningen."
+      },
+      "ServerWideMissions": {
+        "Title": "Server-brede Oppdrag",
+        "Description": "For å låse opp de nye tingene på serveren, må vi fullføre noen oppdrag. Jo raskere disse oppdragene blir fullført, jo raskere kan serveren vår vokse.",
+        "Mission1": {
+          "Title": "Oppdrag 1: Lås opp teknologi (Dag 1, Uke 1)",
+          "Description": "Mål: Fullfør 500 forskninger på tvers av serveren. Dette låser opp det nye forskningstreet."
+        },
+        "Mission2": {
+          "Title": "Oppdrag 2: Lås opp nivå II av baseutvidelsen (Dag 2, Uke 1)",
+          "Description": "Mål: Fullfør 500 bygninger på tvers av serveren. Dette lar oss utvide gulvet i basen vår med nye nivåer.",
+          "Description2": "Fullføring av flisene i dette området gir også olje som belønning, så det er viktig å fullføre disse så raskt som mulig for å oppnå størst mulig fremgang."
+        },
+        "Mission3": {
+          "Title": "Oppdrag 3: Mobilisere heltene (Dag 2, Uke 1)",
+          "Description": "Mål: Totalt må 10 000 rekrutteringer gjennomføres på tvers av serveren. Det er ingen spesifik belønning for å fullføre dette oppdraget, så det er mindre viktig."
+        }
+      },
+      "Research": {
+        "Title": "Ny Forskningsgren",
+        "Description": "Hovedfokuset i denne perioden er den nye forskningsgrenen, som låser opp et tredje teknologisenter, en droneutstyrs-fabrikk og muligheten til å utvide hovedkvarteret ditt fra HQ31 til HQ35. Denne forskningen krever en ny ressurs: olje.",
+        "Description2": "<strong>Merk:</strong> Denne forskningsgrenen er bare tilgjengelig hvis teknologisenteret ditt er på nivå 30 og spesialenhetene er minst 40% låst opp.",
+        "Upgrade": {
+          "Title": "Oljebrønn-oppgradering",
+          "Description": "Den første forskningen lar deg bygge en oljebrønn for å begynne oljeproduksjon. Bygg denne oljebrønnen så raskt som mulig for å oppnå høyest produksjonshastighet (bruk mange akseleratorer!). Det er mulig å få den til nivå 30 på første dag, prøv å få det til senest på andre dag."
+        },
+        "Strategy": {
+          "Title": "Forskningsstrategi",
+          "Description": "På samme måte som T10-forskningen, trenger du ikke å fullføre hvert nivå av hver forskning for å komme videre i treet. Siden olje vil være vanskelig å få i begynnelsen, bør du bruke det så effektivt som mulig. De minimale nødvendige nivåene er angitt nedenfor, de <span class=\"text-danger\">røde feltene</span> øker oljeproduksjonen din, så dette bør være ditt fokus! Bruk akseleratorene dine og vent ikke på VS-dagen. De <span class=\"text-warning\">gule feltene</span> øker bygge- og forskningshastigheten og er gode alternativer å komme tilbake til senere. Denne forskningen vil ta tid, så ikke forvent å fullføre den i løpet av den første uken."
+        },
+        "Hq": {
+          "Title": "HQ 31–35 Krav",
+          "Description": "Når du har fullført den nedre delen av forskningen, kan du begynne med HQ31+. Kravene for bygningene er listet opp nedenfor og inkluderer alltid forskningssenteret, tank-/luft-/rakettsenteret (en av disse) og kasernen.<br> For å se nødvendig tid og ressurser, besøk <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
+          "Table": {
+            "Header": "HQ-nivå",
+            "Header2": "Krav",
+            "Row1": "Forskningssenter nivå 30, Tank-/luft-/rakettsenter nivå 30, Kaserne nivå 30",
+            "Row2": "Forskningssenter nivå 31, Tank-/luft-/rakettsenter nivå 31, Kaserne nivå 31, Mur nivå 31",
+            "Row3": "Forskningssenter nivå 32, Tank-/luft-/rakettsenter nivå 32, Kaserne nivå 32, Sykehus nivå 32, Treningsplass nivå 32",
+            "Row4": "Forskningssenter nivå 33, Tank-/luft-/rakettsenter nivå 33, Kaserne nivå 33, Mur nivå 33, Allianse-senter nivå 33",
+            "Row5": "Forskningssenter nivå 34, Tank-/luft-/rakettsenter nivå 34, Kaserne nivå 34, Sykehus nivå 34, Treningsplass nivå 34"
+          }
+        },
+        "Week2": {
+          "Title": "Uke 2",
+          "ServerMission": "Server-brede Oppdrag",
+          "Mission1": {
+            "Title": "Oppdrag 1: Lås opp radarbokser (Dag 1, Uke 2)",
+            "Description": "Mål: Fullfør 5000 radarbokser på serveren."
+          },
+          "Mission2": {
+            "Title": "Oppdrag 2: Hemmelig oppgave: Erobre olje-depotet (Dag 1, Uke 2)",
+            "Description": "Mål: Fullfør 1000 hemmelige oppdrag på serveren."
+          },
+          "Mission3": {
+            "Title": "Oppdrag 3: Handelsutvidelse (Dag 1, Uke 2)",
+            "Description": "Mål: Send 500 lastebiler på serveren."
+          },
+          "Event": {
+            "Title": "Ekstra Hendelser",
+            "Description": "Som med feiringen av Sesong 1, starter Bingo-arrangementet, svarte markeder og mesterskapsduell på nytt i uke 2. I Bingo-arrangementet kan du motta olje og svarte markedsbelønninger. Arrangementene fungerer på samme måte som i Sesong 1."
+          }
+        },
+        "Week3": {
+          "Title": "Uke 3 og 4",
+          "Description": "I disse ukene skjer det ingenting spesielt. I uke 3 vil zombier på nivå 31–35 bli låst opp på kartet, og i uke 4 vil elite-doomer på nivå 31–35 bli låst opp."
+        }
       }
     }
   },

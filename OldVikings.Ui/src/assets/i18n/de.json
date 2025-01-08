@@ -1117,6 +1117,7 @@
   },
   "SeasonTwo": {
     "Title": "Saison 2 - Polarsturm",
+    "CelebrationButton": "S2 Feier",
     "Content": {
       "Title": "Inhalt",
       "NewResources": "Neue Grundressourcen",
@@ -1506,6 +1507,88 @@
         "Description4": "Fähigkeiten für Level 60",
         "Description5": "Fähigkeiten für Level 65",
         "Description6": "Fähigkeiten für Level 70"
+      }
+    },
+    "Celebration": {
+      "Title": "Feier zu Saison 2: Das Zeitalter des Öls",
+      "Description": "Zur Feier des Endes von Saison 2 starten wir am Montag „Das Zeitalter des Öls“, das fünf Wochen dauern wird (4 Wochen mit Missionen + 1 Woche Meisterschaftsduell). Es gibt viele neue Dinge zu entdecken und vorzubereiten, deshalb haben wir einen Leitfaden für Neugierige erstellt, die ihr Gameplay optimieren möchten.",
+      "Profession": {
+        "Title": "Beruf",
+        "Description": "In diesem Monat wirst du viel forschen und bauen, aber weniger kämpfen, daher ist Ingenieur der interessanteste Beruf. Maximiere die Fähigkeiten, die dir helfen, schneller und günstiger zu bauen und zu forschen!"
+      },
+      "Week1": {
+        "Title": "Woche 1: Aufgabenliste",
+        "List1": "Wechsle zum Ingenieur und maximiere alle Fähigkeiten, die dir helfen, schneller und günstiger zu bauen und zu forschen.",
+        "List2": "Sorge dafür, dass wir die serverweiten Missionen freischalten, um mit der neuen Forschung und Basiserweiterung zu starten.",
+        "List3": "Baue deinen Ölbrunnen und bringe ihn so schnell wie möglich auf Stufe 30 für maximale Ölproduktion!",
+        "List4": "Optimiere den Ausbau des neuen Forschungsbaums effizient, zunächst nur die erforderlichen Forschungen."
+      },
+      "ServerWideMissions": {
+        "Title": "Serverweite Missionen",
+        "Description": "Um die neuen guten Dinge als Server freizuschalten, müssen wir einige Missionen abschließen. Je schneller diese abgeschlossen sind, desto schneller kann unser Server wachsen.",
+        "Mission1": {
+          "Title": "Mission 1: Technik freischalten (Tag 1, Woche 1)",
+          "Description": "Ziel: Schließe 500 Forschungen auf dem gesamten Server ab. Dadurch wird der neue Forschungsbaum freigeschaltet."
+        },
+        "Mission2": {
+          "Title": "Mission 2: Stufe II der Basiserweiterung freischalten (Tag 2, Woche 1)",
+          "Description": "Ziel: Schließe 500 Gebäude auf dem gesamten Server ab. Dies ermöglicht es uns, den Boden unserer Basis mit neuen Ebenen zu erweitern.",
+          "Description2": "Das Abschließen der Fliesen in diesem neuen Bereich bringt ebenfalls Öl als Belohnung, daher ist es wichtig, diese so schnell wie möglich abzuschließen, um den größtmöglichen Fortschritt zu erzielen."
+        },
+        "Mission3": {
+          "Title": "Mission 3: Mobilisierung der Helden (Tag 2, Woche 1)",
+          "Description": "Ziel: Insgesamt müssen 10.000 Rekrutierungen auf dem gesamten Server durchgeführt werden. Für das Abschließen dieser Aufgabe gibt es keine spezifische Belohnung, daher ist sie weniger wichtig."
+        }
+      },
+      "Research": {
+        "Title": "Neuer Forschungsbaum",
+        "Description": "Der Hauptfokus in diesem Zeitraum liegt auf dem neuen Forschungsbaum, der ein drittes Technikzentrum, eine Drohnen-Ausrüstungsfabrik und die Möglichkeit freischaltet, dein Hauptquartier weiter von HQ31 auf HQ35 auszubauen. Diese Forschung benötigt eine neue Ressource: Öl.",
+        "Description2": "<strong>Hinweis:</strong> Dieser Forschungsbaum ist nur verfügbar, wenn dein Technikzentrum auf Stufe 30 ist und die Spezialeinheiten mindestens zu 40 % freigeschaltet sind.",
+        "Upgrade": {
+          "Title": "Ölbrunnen-Upgrade",
+          "Description": "Die erste Forschung ermöglicht es dir, einen Ölbrunnen zu bauen, um mit der Ölproduktion zu beginnen. Baue diesen Ölbrunnen so schnell wie möglich aus, um die höchste Produktionsrate zu erreichen (nutze viele Beschleuniger!). Es ist möglich, ihn am ersten Tag auf Stufe 30 zu bringen, strebe an, dies spätestens bis zum zweiten Tag zu schaffen."
+        },
+        "Strategy": {
+          "Title": "Forschungsstrategie",
+          "Description": "Ähnlich wie bei der T10-Forschung musst du nicht jede Stufe jeder Forschung abschließen, um im Baum voranzukommen. Da Öl anfangs schwer zu bekommen sein wird, solltest du so effizient wie möglich damit umgehen. Die minimal erforderlichen Stufen sind unten angegeben, die <span class=\"text-danger\">roten Felder</span> steigern deine Ölproduktion, daher sollte dies dein Fokus sein! Nutze deine Beschleuniger und warte nicht bis zum VS-Tag. Die <span class=\"text-warning\">gelben Felder</span> erhöhen die Bau- und Forschungsgeschwindigkeit und sind nette Optionen, um später darauf zurückzukommen. Diese Forschung wird lange dauern; erwarte nicht, sie in der ersten Woche vollständig abzuschließen."
+        }
+      },
+      "Hq": {
+        "Title": "Hauptquartier 31–35 Anforderungen",
+        "Description": "Sobald du den unteren Bereich des Forschungsbaums abgeschlossen hast, kannst du mit HQ31+ beginnen. Die erforderlichen Gebäude sind unten aufgeführt und beinhalten immer das Forschungszentrum, das Tank-/Luft-/Raketenzentrum (eines davon) und die Kaserne.<br> Um die benötigte Zeit und Ressourcen zu sehen, besuche <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
+        "Table": {
+          "Header": "HQ-Stufe",
+          "Header2": "Anforderungen",
+          "Row1": "Forschungszentrum Stufe 30, Tank-/Luft-/Raketenzentrum Stufe 30, Kaserne Stufe 30",
+          "Row2": "Forschungszentrum Stufe 31, Tank-/Luft-/Raketenzentrum Stufe 31, Kaserne Stufe 31, Mauer Stufe 31",
+          "Row3": "Forschungszentrum Stufe 32, Tank-/Luft-/Raketenzentrum Stufe 32, Kaserne Stufe 32, Krankenhaus Stufe 32, Übungsplatz Stufe 32",
+          "Row4": "Forschungszentrum Stufe 33, Tank-/Luft-/Raketenzentrum Stufe 33, Kaserne Stufe 33, Mauer Stufe 33, Allianz-Zentrum Stufe 33",
+          "Row5": "Forschungszentrum Stufe 34, Tank-/Luft-/Raketenzentrum Stufe 34, Kaserne Stufe 34, Krankenhaus Stufe 34, Übungsplatz Stufe 34"
+        }
+      },
+      "Week2": {
+        "Title": "Woche 2",
+        "ServerMission": "Serverweite Missionen",
+        "Mission1": {
+          "Title": "Mission 1: Radaraufgabe freischalten (Tag 1, Woche 2)",
+          "Description": "Ziel: Schließe 5000 Radaraufgaben auf dem gesamten Server ab."
+        },
+        "Mission2": {
+          "Title": "Mission 2: Geheime Aufgabe: Erobere das Öldepot (Tag 1, Woche 2)",
+          "Description": "Ziel: Schließe 1000 geheime Aufgaben auf dem gesamten Server ab."
+        },
+        "Mission3": {
+          "Title": "Mission 3: Handelserweiterung (Tag 1, Woche 2)",
+          "Description": "Ziel: Verschicke 500 Lastwagen auf dem gesamten Server."
+        },
+        "Event": {
+          "Title": "Zusätzliche Events",
+          "Description": "Wie bei der Feier zu Saison 1 starten in Woche 2 erneut das Bingo-Event, der Schwarzmarkt und das Meisterschaftsduell. Beim Bingo-Event kannst du Öl und Schwarzmarktkasse als Belohnungen erhalten. Die Events funktionieren genauso wie in Saison 1."
+        }
+      },
+      "Week3": {
+        "Title": "Woche 3 & 4",
+        "Description": "In diesen Wochen gibt es nichts Besonderes. In Woche 3 werden Zombies der Stufen 31–35 auf der Karte freigeschaltet, und in Woche 4 werden Elite-Dooms der Stufen 31–35 freigeschaltet."
       }
     }
   },
