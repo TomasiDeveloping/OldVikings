@@ -41,7 +41,7 @@ const routes: Routes = [
   {path: 'member-login', component: MemberLoginComponent},
   {path: 'season-one', component: SeasonOneComponent},
   {path: 'season-two', component: SeasonTwoComponent},
-  {path: 'season-two-celebration', component: SeasonTwoCelebrationComponent, canActivate: [memberGuard]},
+  {path: 'season-two-celebration', component: SeasonTwoCelebrationComponent},
   {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'alliance-mvp', component: AllianceMvpComponent, canActivate: [memberGuard]},
   {path: 'r4', component: R4Component, canActivate: [memberGuard]},
