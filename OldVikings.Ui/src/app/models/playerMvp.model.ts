@@ -5,4 +5,5 @@ export interface PlayerMvp {
   marshalGuardParticipationCount : number;
   desertStormParticipationCount : number;
   mvpPoints : number;
+  isOldestVsDuelParticipated: boolean;
 }

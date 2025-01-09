@@ -1610,37 +1610,43 @@
       "VsPoints": "Puntos VS",
       "MarshalParticipation": "Participación en el Mariscal",
       "DesertStormParticipation": "Participación en Tormenta del Desierto",
-      "MvpPoint": "Puntos MVP"
+      "MvpPoint": "Puntos MVP",
+      "PlayerHasNotThreeWeeks": "Jugadores que no han participado en tres duelos VS aún."
     },
     "EvaluationCriteria": {
       "Title": "Criterios de Evaluación",
       "VSDuel": {
-        "Title": "Puntos Semanales (Duelo VS) – 70% de Peso:",
-        "Description": "Tus puntos se basan en la suma de todos los puntos VS de las últimas <strong>tres semanas</strong>. Esta suma se divide por 1.000.000 y se multiplica por 0,7:",
+        "Title": "Puntos Semanales (Duelo VS) – 80% de Peso:",
+        "Description": "Tus puntos se basan en la suma de todos los puntos VS de las últimas <strong>tres semanas</strong>. Esta suma se divide por 1.000.000 y se multiplica por 0,8:",
         "DescriptionBold": "tres semanas",
-        "Formula": "(Suma de los puntos VS de las últimas 3 semanas / 1.000.000) * 0,7.",
+        "Formula": "(Suma de los puntos VS de las últimas 3 semanas / 1.000.000) * 0,8.",
         "Description2": "Este cálculo representa tu actividad en el Duelo VS semanal, que es el factor más importante."
       },
       "Marshal": {
-        "Title": "Participaciones en el Mariscal – 15 puntos por participación:",
-        "Description": "Cada participación en el evento te otorga <strong>15 puntos</strong>. Esto demuestra tu disponibilidad estratégica cuando la alianza te necesita."
+        "Title": "Participaciones en el Mariscal – 20 puntos por participación:",
+        "Description": "Cada participación en el evento te otorga <strong>20 puntos</strong>. Esto demuestra tu disponibilidad estratégica cuando la alianza te necesita."
       },
       "DesertStorm": {
-        "Title": "Participaciones en Tormenta del Desierto – 10 puntos por participación:",
-        "Description": "Cada participación en Tormenta del Desierto te otorga <strong>10 puntos</strong>. Este evento se considera un bono, pero recompensa a los jugadores que se esfuerzan más allá de sus tareas regulares."
+        "Title": "Participaciones en Tormenta del Desierto – 40 puntos por participación:",
+        "Description": "Cada participación en Tormenta del Desierto te otorga <strong>40 puntos</strong>. Este evento se considera un bono, pero recompensa a los jugadores que se esfuerzan más allá de sus tareas regulares."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Participación en Marshal + Participación en Desert Storm – 20% de ponderación:",
+        "Description": "Los puntos de ambos eventos se suman y se multiplican por 0.2: <code>(Puntos de Marshal + Puntos de Desert Storm) * 0.2</code>"
       },
       "Example": {
         "Title": "<strong>Ejemplo:</strong> Un jugador tiene los siguientes valores:",
         "List1Bold": "Puntos VS de las últimas 3 semanas:",
-        "List1": "150 millones",
+        "List1": "130 millones",
         "List2Bold": "Participaciones en el Mariscal:",
         "List3Bold": "Participaciones en Tormenta del Desierto:",
         "Description": "Los puntos MVP se calculan de la siguiente manera:",
         "List4Bold": "Puntos VS:",
         "List5Bold": "Participaciones en el Mariscal:",
         "List6Bold": "Participaciones en Tormenta del Desierto:",
+        "List7Bold": "Puntos para MVP:",
         "TotalBold": "Total:",
-        "Total": "105 + 150 + 80 = <strong>335 Puntos MVP</strong>"
+        "Total": "104 + 48 = <strong>152 Puntos MVP</strong>"
       }
     }
   }

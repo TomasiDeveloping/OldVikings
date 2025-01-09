@@ -1610,37 +1610,43 @@
       "VsPoints": "VS Points",
       "MarshalParticipation": "Marshal Participation",
       "DesertStormParticipation": "Desert Storm Participation",
-      "MvpPoint": "MVP Points"
+      "MvpPoint": "MVP Points",
+      "PlayerHasNotThreeWeeks": "Players who have not participated in three VS duels yet."
     },
     "EvaluationCriteria": {
       "Title": "Evaluation Criteria",
       "VSDuel": {
-        "Title": "Weekly Points (VS Duel) – 70% Weighting:",
-        "Description": "Your points are based on the total VS points from the last <strong>three weeks</strong>. This total is divided by 1,000,000 and multiplied by 0.7:",
+        "Title": "Weekly Points (VS Duel) – 80% Weighting:",
+        "Description": "Your points are based on the total VS points from the last <strong>three weeks</strong>. This total is divided by 1,000,000 and multiplied by 0.8:",
         "DescriptionBold": "three weeks",
-        "Formula": "(Total VS Points from the last 3 weeks / 1,000,000) * 0.7.",
+        "Formula": "(Total VS Points from the last 3 weeks / 1,000,000) * 0.8.",
         "Description2": "This calculation represents your activity in the weekly VS Duel, which is the most important factor."
       },
       "Marshal": {
-        "Title": "Marshal Participation – 15 points per participation:",
-        "Description": "Each participation in the event earns you <strong>15 points</strong>. This demonstrates your strategic availability when the alliance needs you."
+        "Title": "Marshal Participation – 20 points per participation:",
+        "Description": "Each participation in the event earns you <strong>20 points</strong>. This demonstrates your strategic availability when the alliance needs you."
       },
       "DesertStorm": {
-        "Title": "Desert Storm Participation – 10 points per participation:",
-        "Description": "Each participation in Desert Storm earns you <strong>10 points</strong>. This event is considered a bonus but rewards players who go above and beyond their regular tasks."
+        "Title": "Desert Storm Participation – 40 points per participation:",
+        "Description": "Each participation in Desert Storm earns you <strong>40 points</strong>. This event is considered a bonus but rewards players who go above and beyond their regular tasks."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Marshal Participation + Desert Storm Participation – 20% Weighting:",
+        "Description": "The points from both events are added and multiplied by 0.2: <code>(Marshal points + Desert Storm points) * 0.2</code>"
       },
       "Example": {
         "Title": "<strong>Example:</strong> A player has the following values:",
         "List1Bold": "VS Points from the last 3 weeks:",
-        "List1": "150 million",
+        "List1": "130 million",
         "List2Bold": "Marshal Participations:",
         "List3Bold": "Desert Storm Participations:",
         "Description": "The MVP points are calculated as follows:",
         "List4Bold": "VS Points:",
         "List5Bold": "Marshal Participations:",
         "List6Bold": "Desert Storm Participations:",
+        "List7Bold": "Points for MVP:",
         "TotalBold": "Total:",
-        "Total": "105 + 150 + 80 = <strong>335 MVP Points</strong>"
+        "Total": "104 + 48 = <strong>152 MVP Points</strong>"
       }
     }
   }

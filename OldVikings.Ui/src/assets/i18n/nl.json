@@ -1606,37 +1606,43 @@
       "VsPoints": "VS Punten",
       "MarshalParticipation": "Deelname aan Marshal",
       "DesertStormParticipation": "Deelname aan Woestijnstorm",
-      "MvpPoint": "MVP Punten"
+      "MvpPoint": "MVP Punten",
+      "PlayerHasNotThreeWeeks": "Spelers die nog niet aan drie VS-duels hebben deelgenomen."
     },
     "EvaluationCriteria": {
       "Title": "Evaluatiecriteria",
       "VSDuel": {
-        "Title": "Wekelijkse Punten (VS Duel) – 70% Weging:",
-        "Description": "Jouw punten zijn gebaseerd op de som van alle VS-punten van de laatste <strong>drie weken</strong>. Deze som wordt gedeeld door 1.000.000 en vermenigvuldigd met 0,7:",
+        "Title": "Wekelijkse Punten (VS Duel) – 80% Weging:",
+        "Description": "Jouw punten zijn gebaseerd op de som van alle VS-punten van de laatste <strong>drie weken</strong>. Deze som wordt gedeeld door 1.000.000 en vermenigvuldigd met 0,8:",
         "DescriptionBold": "drie weken",
-        "Formula": "(Som van VS-punten van de laatste 3 weken / 1.000.000) * 0,7.",
+        "Formula": "(Som van VS-punten van de laatste 3 weken / 1.000.000) * 0,8.",
         "Description2": "Deze berekening vertegenwoordigt je activiteit in de wekelijkse VS-duels, wat de belangrijkste factor is."
       },
       "Marshal": {
-        "Title": "Deelname aan Marshal – 15 punten per deelname:",
-        "Description": "Elke deelname aan het evenement levert je <strong>15 punten</strong> op. Dit toont aan dat je strategisch beschikbaar bent wanneer de alliantie je nodig heeft."
+        "Title": "Deelname aan Marshal – 20 punten per deelname:",
+        "Description": "Elke deelname aan het evenement levert je <strong>20 punten</strong> op. Dit toont aan dat je strategisch beschikbaar bent wanneer de alliantie je nodig heeft."
       },
       "DesertStorm": {
-        "Title": "Deelname aan Woestijnstorm – 10 punten per deelname:",
-        "Description": "Elke deelname aan Woestijnstorm levert je <strong>10 punten</strong> op. Dit evenement wordt als een bonus beschouwd, maar beloont spelers die zich extra inzetten naast hun reguliere taken."
+        "Title": "Deelname aan Woestijnstorm – 40 punten per deelname:",
+        "Description": "Elke deelname aan Woestijnstorm levert je <strong>40 punten</strong> op. Dit evenement wordt als een bonus beschouwd, maar beloont spelers die zich extra inzetten naast hun reguliere taken."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Marshal Deelname + Desert Storm Deelname – 20% gewicht:",
+        "Description": "De punten van beide evenementen worden opgeteld en vermenigvuldigd met 0,2: <code>(Marshal punten + Desert Storm punten) * 0,2</code>"
       },
       "Example": {
         "Title": "<strong>Voorbeeld:</strong> Een speler heeft de volgende waarden:",
         "List1Bold": "VS-punten van de laatste 3 weken:",
-        "List1": "150 miljoen",
+        "List1": "130 miljoen",
         "List2Bold": "Deelname aan Marshal:",
         "List3Bold": "Deelname aan Woestijnstorm:",
         "Description": "De MVP-punten worden als volgt berekend:",
         "List4Bold": "VS Punten:",
         "List5Bold": "Deelname aan Marshal:",
         "List6Bold": "Deelname aan Woestijnstorm:",
+        "List7Bold": "Punten voor MVP:",
         "TotalBold": "Totaal:",
-        "Total": "105 + 150 + 80 = <strong>335 MVP Punten</strong>"
+        "Total": "104 + 48 = <strong>152 MVP Punten</strong>"
       }
     }
   }

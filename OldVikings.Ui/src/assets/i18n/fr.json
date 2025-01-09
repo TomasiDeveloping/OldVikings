@@ -1606,37 +1606,43 @@
       "VsPoints": "Points VS",
       "MarshalParticipation": "Participation au Marshal",
       "DesertStormParticipation": "Participation à la Tempête du Désert",
-      "MvpPoint": "Points MVP"
+      "MvpPoint": "Points MVP",
+      "PlayerHasNotThreeWeeks": "Joueurs qui n'ont pas encore participé à trois duels VS."
     },
     "EvaluationCriteria": {
       "Title": "Critères d'Évaluation",
       "VSDuel": {
-        "Title": "Points Hebdomadaires (Duel VS) – Poids 70% :",
-        "Description": "Vos points sont basés sur la somme de tous les points VS des <strong>trois dernières semaines</strong>. Cette somme est divisée par 1.000.000 et multipliée par 0,7 :",
+        "Title": "Points Hebdomadaires (Duel VS) – Poids 80% :",
+        "Description": "Vos points sont basés sur la somme de tous les points VS des <strong>trois dernières semaines</strong>. Cette somme est divisée par 1.000.000 et multipliée par 0,8 :",
         "DescriptionBold": "trois semaines",
-        "Formula": "(Somme des points VS des 3 dernières semaines / 1.000.000) * 0,7.",
+        "Formula": "(Somme des points VS des 3 dernières semaines / 1.000.000) * 0,8.",
         "Description2": "Ce calcul représente votre activité dans le Duel VS hebdomadaire, qui est le facteur le plus important."
       },
       "Marshal": {
-        "Title": "Participations au Marshal – 15 points par participation :",
-        "Description": "Chaque participation à l'événement vous rapporte <strong>15 points</strong>. Cela montre que vous êtes stratégiquement disponible lorsque l'alliance a besoin de vous."
+        "Title": "Participations au Marshal – 20 points par participation :",
+        "Description": "Chaque participation à l'événement vous rapporte <strong>20 points</strong>. Cela montre que vous êtes stratégiquement disponible lorsque l'alliance a besoin de vous."
       },
       "DesertStorm": {
-        "Title": "Participations à la Tempête du Désert – 10 points par participation :",
-        "Description": "Chaque participation à la Tempête du Désert vous rapporte <strong>10 points</strong>. Cet événement est considéré comme un bonus, mais récompense les joueurs qui s'engagent au-delà de leurs tâches régulières."
+        "Title": "Participations à la Tempête du Désert – 40 points par participation :",
+        "Description": "Chaque participation à la Tempête du Désert vous rapporte <strong>40 points</strong>. Cet événement est considéré comme un bonus, mais récompense les joueurs qui s'engagent au-delà de leurs tâches régulières."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Participation au Marshal + Participation au Desert Storm – Poids de 20 % :",
+        "Description": "Les points des deux événements sont additionnés et multipliés par 0,2 : <code>(Points Marshal + Points Desert Storm) * 0,2</code>"
       },
       "Example": {
         "Title": "<strong>Exemple :</strong> Un joueur a les valeurs suivantes :",
         "List1Bold": "Points VS des 3 dernières semaines :",
-        "List1": "150 millions",
+        "List1": "130 millions",
         "List2Bold": "Participations au Marshal :",
         "List3Bold": "Participations à la Tempête du Désert :",
         "Description": "Les points MVP sont calculés comme suit :",
         "List4Bold": "Points VS :",
         "List5Bold": "Participations au Marshal :",
         "List6Bold": "Participations à la Tempête du Désert :",
+        "List7Bold": "Points pour MVP :",
         "TotalBold": "Total :",
-        "Total": "105 + 150 + 80 = <strong>335 Points MVP</strong>"
+        "Total": "104 + 48 = <strong>152 Points MVP</strong>"
       }
     }
   }

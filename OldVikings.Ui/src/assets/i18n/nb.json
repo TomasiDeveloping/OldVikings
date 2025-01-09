@@ -1606,37 +1606,43 @@
       "VsPoints": "VS Poeng",
       "MarshalParticipation": "Marshal Deltakelse",
       "DesertStormParticipation": "Ørkenstorm Deltakelse",
-      "MvpPoint": "MVP Poeng"
+      "MvpPoint": "MVP Poeng",
+      "PlayerHasNotThreeWeeks": "Spillere som ikke har deltatt i tre VS-dueller ennå."
     },
     "EvaluationCriteria": {
       "Title": "Evaluering Kriterier",
       "VSDuel": {
-        "Title": "Ukepunkter (VS Duell) – 70% Vektlegging:",
-        "Description": "Poengene dine er basert på summen av alle VS-poeng de siste <strong>tre ukene</strong>. Denne summen deles med 1.000.000 og multipliseres med 0,7:",
+        "Title": "Ukepunkter (VS Duell) – 80% Vektlegging:",
+        "Description": "Poengene dine er basert på summen av alle VS-poeng de siste <strong>tre ukene</strong>. Denne summen deles med 1.000.000 og multipliseres med 0,8:",
         "DescriptionBold": "tre uker",
-        "Formula": "(Sum av VS-poeng de siste 3 ukene / 1.000.000) * 0,7.",
+        "Formula": "(Sum av VS-poeng de siste 3 ukene / 1.000.000) * 0,8.",
         "Description2": "Denne beregningen representerer aktiviteten din i den ukentlige VS-duellen, som er den viktigste faktoren."
       },
       "Marshal": {
-        "Title": "Marshal Deltakelse – 15 poeng per deltakelse:",
-        "Description": "Hver deltakelse i arrangementet gir deg <strong>15 poeng</strong>. Dette viser at du er strategisk tilgjengelig når alliansen trenger deg."
+        "Title": "Marshal Deltakelse – 20 poeng per deltakelse:",
+        "Description": "Hver deltakelse i arrangementet gir deg <strong>20 poeng</strong>. Dette viser at du er strategisk tilgjengelig når alliansen trenger deg."
       },
       "DesertStorm": {
-        "Title": "Ørkenstorm Deltakelse – 10 poeng per deltakelse:",
-        "Description": "Hver deltakelse i Ørkenstorm gir deg <strong>10 poeng</strong>. Denne hendelsen regnes som et bonuselement, men belønner spillere som engasjerer seg utover sine vanlige oppgaver."
+        "Title": "Ørkenstorm Deltakelse – 40 poeng per deltakelse:",
+        "Description": "Hver deltakelse i Ørkenstorm gir deg <strong>40 poeng</strong>. Denne hendelsen regnes som et bonuselement, men belønner spillere som engasjerer seg utover sine vanlige oppgaver."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Marshal Deltakelse + Desert Storm Deltakelse – 20 % vekt:",
+        "Description": "Poengene fra begge hendelsene legges sammen og multipliseres med 0,2: <code>(Marshal poeng + Desert Storm poeng) * 0,2</code>"
       },
       "Example": {
         "Title": "<strong>Eksempel:</strong> En spiller har følgende verdier:",
         "List1Bold": "VS-poeng de siste 3 ukene:",
-        "List1": "150 millioner",
+        "List1": "130 millioner",
         "List2Bold": "Marshal Deltakelser:",
         "List3Bold": "Ørkenstorm Deltakelser:",
         "Description": "MVP-poengene beregnes som følger:",
         "List4Bold": "VS Poeng:",
         "List5Bold": "Marshal Deltakelser:",
         "List6Bold": "Ørkenstorm Deltakelser:",
+        "List7Bold": "Poeng for MVP:",
         "TotalBold": "Totalt:",
-        "Total": "105 + 150 + 80 = <strong>335 MVP Poeng</strong>"
+        "Total": "104 + 48 = <strong>152 MVP Poeng</strong>"
       }
     }
   }

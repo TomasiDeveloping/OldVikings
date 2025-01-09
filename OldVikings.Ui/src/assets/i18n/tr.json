@@ -1606,37 +1606,43 @@
       "VsPoints": "VS Puanları",
       "MarshalParticipation": "Marshal Katılımı",
       "DesertStormParticipation": "Çöl Fırtınası Katılımı",
-      "MvpPoint": "MVP Puanları"
+      "MvpPoint": "MVP Puanları",
+      "PlayerHasNotThreeWeeks": "Henüz üç VS düellosuna katılmamış oyuncular."
     },
     "EvaluationCriteria": {
       "Title": "Değerlendirme Kriterleri",
       "VSDuel": {
-        "Title": "Haftalık Puanlar (VS-Düello) – %70 Ağırlık:",
-        "Description": "Puanlarınız son <strong>üç hafta</strong> boyunca elde ettiğiniz tüm VS puanlarının toplamına dayanır. Bu toplam 1.000.000'a bölünür ve 0,7 ile çarpılır:",
+        "Title": "Haftalık Puanlar (VS-Düello) – %80 Ağırlık:",
+        "Description": "Puanlarınız son <strong>üç hafta</strong> boyunca elde ettiğiniz tüm VS puanlarının toplamına dayanır. Bu toplam 1.000.000'a bölünür ve 0,8 ile çarpılır:",
         "DescriptionBold": "üç hafta",
-        "Formula": "(Son 3 haftadaki VS puanlarının toplamı / 1.000.000) * 0,7.",
+        "Formula": "(Son 3 haftadaki VS puanlarının toplamı / 1.000.000) * 0,8.",
         "Description2": "Bu hesaplama, haftalık VS-düellolarındaki aktivitenizi temsil eder ve en önemli faktördür."
       },
       "Marshal": {
-        "Title": "Marshal Katılımları – Katılım başına 15 puan:",
-        "Description": "Her etkinliğe katılım size <strong>15 puan</strong> kazandırır. Bu, ittifakın sizi ihtiyaç duyduğunda stratejik olarak erişilebilir olduğunuzu gösterir."
+        "Title": "Marshal Katılımları – Katılım başına 20 puan:",
+        "Description": "Her etkinliğe katılım size <strong>20 puan</strong> kazandırır. Bu, ittifakın sizi ihtiyaç duyduğunda stratejik olarak erişilebilir olduğunuzu gösterir."
       },
       "DesertStorm": {
-        "Title": "Çöl Fırtınası Katılımları – Katılım başına 10 puan:",
-        "Description": "Her Çöl Fırtınası katılımı size <strong>10 puan</strong> kazandırır. Bu etkinlik bir bonus olarak kabul edilir, ancak düzenli görevlerin yanı sıra ek olarak katılım gösteren oyuncuları ödüllendirir."
+        "Title": "Çöl Fırtınası Katılımları – Katılım başına 40 puan:",
+        "Description": "Her Çöl Fırtınası katılımı size <strong>40 puan</strong> kazandırır. Bu etkinlik bir bonus olarak kabul edilir, ancak düzenli görevlerin yanı sıra ek olarak katılım gösteren oyuncuları ödüllendirir."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Marshal Katılımı + Desert Storm Katılımı – %20 Ağırlık:",
+        "Description": "Her iki etkinlikten alınan puanlar toplanır ve 0,2 ile çarpılır: <code>(Marshal puanları + Desert Storm puanları) * 0,2</code>"
       },
       "Example": {
         "Title": "<strong>Örnek:</strong> Bir oyuncunun şu değerleri vardır:",
         "List1Bold": "Son 3 haftadaki VS Puanları:",
-        "List1": "150 milyon",
+        "List1": "130 milyon",
         "List2Bold": "Marshal Katılımları:",
         "List3Bold": "Çöl Fırtınası Katılımları:",
         "Description": "MVP puanları şu şekilde hesaplanır:",
         "List4Bold": "VS Puanları:",
         "List5Bold": "Marshal Katılımları:",
         "List6Bold": "Çöl Fırtınası Katılımları:",
+        "List7Bold": "MVP için Puanlar:",
         "TotalBold": "Toplam:",
-        "Total": "105 + 150 + 80 = <strong>335 MVP Puanı</strong>"
+        "Total": "104 + 48 = <strong>152 MVP Puanı</strong>"
       }
     }
   }

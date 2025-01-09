@@ -1610,37 +1610,43 @@
       "VsPoints": "VS Point",
       "MarshalParticipation": "Marshal Deltagelse",
       "DesertStormParticipation": "Ørkenstorm Deltagelse",
-      "MvpPoint": "MVP Point"
+      "MvpPoint": "MVP Point",
+      "PlayerHasNotThreeWeeks": "Spillere, der ikke har deltaget i tre VS-dueller endnu."
     },
     "EvaluationCriteria": {
       "Title": "Evalueringskriterier",
       "VSDuel": {
-        "Title": "Ugepoint (VS Duel) – 70% Vægtning:",
-        "Description": "Dine point er baseret på summen af alle VS-point fra de sidste <strong>tre uger</strong>. Denne sum divideres med 1.000.000 og ganges med 0,7:",
+        "Title": "Ugepoint (VS Duel) – 80% Vægtning:",
+        "Description": "Dine point er baseret på summen af alle VS-point fra de sidste <strong>tre uger</strong>. Denne sum divideres med 1.000.000 og ganges med 0,8:",
         "DescriptionBold": "tre uger",
-        "Formula": "(Summen af VS-point fra de sidste 3 uger / 1.000.000) * 0,7.",
+        "Formula": "(Summen af VS-point fra de sidste 3 uger / 1.000.000) * 0,8.",
         "Description2": "Denne beregning repræsenterer din aktivitet i den ugentlige VS Duel, som er den vigtigste faktor."
       },
       "Marshal": {
-        "Title": "Marshal Deltagelse – 15 point pr. deltagelse:",
-        "Description": "Hver deltagelse i eventen giver dig <strong>15 point</strong>. Dette viser din strategiske tilgængelighed, når alliancen har brug for dig."
+        "Title": "Marshal Deltagelse – 20 point pr. deltagelse:",
+        "Description": "Hver deltagelse i eventen giver dig <strong>20 point</strong>. Dette viser din strategiske tilgængelighed, når alliancen har brug for dig."
       },
       "DesertStorm": {
-        "Title": "Ørkenstorm Deltagelse – 10 point pr. deltagelse:",
-        "Description": "Hver deltagelse i Ørkenstorm giver dig <strong>10 point</strong>. Denne event betragtes som en bonus, men belønner spillere, der engagerer sig ud over de normale opgaver."
+        "Title": "Ørkenstorm Deltagelse – 40 point pr. deltagelse:",
+        "Description": "Hver deltagelse i Ørkenstorm giver dig <strong>40 point</strong>. Denne event betragtes som en bonus, men belønner spillere, der engagerer sig ud over de normale opgaver."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Marshal Deltagelse + Desert Storm Deltagelse – 20% vægtning:",
+        "Description": "Pointene fra begge events bliver lagt sammen og ganget med 0.2: <code>(Marshal point + Desert Storm point) * 0.2</code>"
       },
       "Example": {
         "Title": "<strong>Eksempel:</strong> En spiller har følgende værdier:",
         "List1Bold": "VS-point fra de sidste 3 uger:",
-        "List1": "150 millioner",
+        "List1": "130 millioner",
         "List2Bold": "Marshal Deltagelser:",
         "List3Bold": "Ørkenstorm Deltagelser:",
         "Description": "MVP-point beregnes som følger:",
         "List4Bold": "VS-point:",
         "List5Bold": "Marshal Deltagelser:",
         "List6Bold": "Ørkenstorm Deltagelser:",
+        "List7Bold": "Point for MVP:",
         "TotalBold": "I alt:",
-        "Total": "105 + 150 + 80 = <strong>335 MVP-point</strong>"
+        "Total": "104 + 48 = <strong>152 MVP-point</strong>"
       }
     }
   }

@@ -1606,37 +1606,43 @@
       "VsPoints": "VS Punkte",
       "MarshalParticipation": "Marschall Teilnahme",
       "DesertStormParticipation": "Wüstensturm Teilnahme",
-      "MvpPoint": "MVP Punkte"
+      "MvpPoint": "MVP Punkte",
+      "PlayerHasNotThreeWeeks": "Spieler, die noch nicht an drei VS-Duellen teilgenommen haben."
     },
     "EvaluationCriteria": {
       "Title": "Bewertungskriterien",
       "VSDuel": {
-        "Title": "Wochenpunkte (VS-Duell) – 70% Gewichtung:",
-        "Description": "Eure Punkte basieren auf der Summe aller VS-Punkte der letzten <strong>drei Wochen</strong>. Diese Summe wird durch 1.000.000 geteilt und mit 0,7 multipliziert:",
+        "Title": "Wochenpunkte (VS-Duell) – 80% Gewichtung:",
+        "Description": "Eure Punkte basieren auf der Summe aller VS-Punkte der letzten <strong>drei Wochen</strong>. Diese Summe wird durch 1.000.000 geteilt und mit 0,8 multipliziert:",
         "DescriptionBold": "drei Wochen",
-        "Formula": "(Summe der VS-Punkte der letzten 3 Wochen / 1.000.000) * 0,7.",
+        "Formula": "(Summe der VS-Punkte der letzten 3 Wochen / 1.000.000) * 0,8.",
         "Description2": "Diese Berechnung repräsentiert eure Aktivität im wöchentlichen VS-Duell, die der wichtigste Faktor ist."
       },
       "Marshal": {
-        "Title": "Marschall-Teilnahmen – 15 Punkte pro Teilnahme:",
-        "Description": "Jede Teilnahme am Event bringt euch <strong>15 Punkte</strong>. Dies zeigt, dass ihr strategisch verfügbar seid, wenn die Allianz euch braucht."
+        "Title": "Marschall-Teilnahmen – 20 Punkte pro Teilnahme:",
+        "Description": "Jede Teilnahme am Event bringt euch <strong>20 Punkte</strong>. Dies zeigt, dass ihr strategisch verfügbar seid, wenn die Allianz euch braucht."
       },
       "DesertStorm": {
-        "Title": "Wüstensturm-Teilnahmen – 10 Punkte pro Teilnahme:",
-        "Description": "Jede Teilnahme am Wüstensturm bringt euch <strong>10 Punkte</strong>. Dieser Event wird als Bonus betrachtet, belohnt aber Spieler, die sich zusätzlich zu den regulären Aufgaben engagieren."
+        "Title": "Wüstensturm-Teilnahmen – 40 Punkte pro Teilnahme:",
+        "Description": "Jede Teilnahme am Wüstensturm bringt euch <strong>40 Punkte</strong>. Dieser Event wird als Bonus betrachtet, belohnt aber Spieler, die sich zusätzlich zu den regulären Aufgaben engagieren."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Marschall-Teilnahme + Wüstensturm Teilnahme – 20% Gewichtung:",
+        "Description": "Die Punkte aus den beiden Events werden addiert und mit 0.2 multipliziert: <code>(Marshall Punkte + Wüstensturm Punkte) * 0.2</code>"
       },
       "Example": {
         "Title": "<strong>Beispiel:</strong> Ein Spieler hat folgende Werte:",
         "List1Bold": "VS-Punkte der letzten 3 Wochen:",
-        "List1": "150 Millionen",
+        "List1": "130 Millionen",
         "List2Bold": "Marschall-Teilnahmen:",
         "List3Bold": "Wüstensturm-Teilnahmen:",
         "Description": "Die MVP-Punkte werden folgendermaßen berechnet:",
         "List4Bold": "VS-Punkte:",
         "List5Bold": "Marschall-Teilnahmen:",
         "List6Bold": "Wüstensturm-Teilnahmen:",
+        "List7Bold": "Punkte für MVP:",
         "TotalBold": "Gesamt:",
-        "Total": "105 + 150 + 80 = <strong>335 MVP-Punkte</strong>"
+        "Total": "104 + 48 = <strong>152 MVP-Punkte</strong>"
       }
     }
   }

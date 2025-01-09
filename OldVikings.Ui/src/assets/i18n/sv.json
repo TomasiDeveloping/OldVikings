@@ -1603,7 +1603,8 @@
       "VsPoints": "VS Poäng",
       "MarshalParticipation": "Marshal Deltagande",
       "DesertStormParticipation": "Desert Storm Deltagande",
-      "MvpPoint": "MVP Poäng"
+      "MvpPoint": "MVP Poäng",
+      "PlayerHasNotThreeWeeks": "Spelare som inte har deltagit i tre VS-dueller än."
     },
     "Table": {
       "Name": "Namn",
@@ -1615,32 +1616,37 @@
     "EvaluationCriteria": {
       "Title": "Utvärderingskriterier",
       "VSDuel": {
-        "Title": "Veckopoäng (VS-Duell) – 70% Viktning:",
-        "Description": "Dina poäng baseras på summan av alla VS-poäng de senaste <strong>tre veckorna</strong>. Denna summa delas med 1.000.000 och multipliceras med 0,7:",
+        "Title": "Veckopoäng (VS-Duell) – 80% Viktning:",
+        "Description": "Dina poäng baseras på summan av alla VS-poäng de senaste <strong>tre veckorna</strong>. Denna summa delas med 1.000.000 och multipliceras med 0,8:",
         "DescriptionBold": "tre veckor",
-        "Formula": "(Summa av VS-poäng de senaste 3 veckorna / 1.000.000) * 0,7.",
+        "Formula": "(Summa av VS-poäng de senaste 3 veckorna / 1.000.000) * 0,8.",
         "Description2": "Denna beräkning representerar din aktivitet i det veckovisa VS-duellen, som är den viktigaste faktorn."
       },
       "Marshal": {
-        "Title": "Marshal Deltagande – 15 poäng per deltagande:",
-        "Description": "Varje deltagande i evenemanget ger dig <strong>15 poäng</strong>. Detta visar att du är strategiskt tillgänglig när alliansen behöver dig."
+        "Title": "Marshal Deltagande – 20 poäng per deltagande:",
+        "Description": "Varje deltagande i evenemanget ger dig <strong>20 poäng</strong>. Detta visar att du är strategiskt tillgänglig när alliansen behöver dig."
       },
       "DesertStorm": {
-        "Title": "Desert Storm Deltagande – 10 poäng per deltagande:",
-        "Description": "Varje deltagande i Desert Storm ger dig <strong>10 poäng</strong>. Detta evenemang betraktas som en bonus, men belönar spelare som engagerar sig utöver sina ordinarie uppgifter."
+        "Title": "Desert Storm Deltagande – 40 poäng per deltagande:",
+        "Description": "Varje deltagande i Desert Storm ger dig <strong>40 poäng</strong>. Detta evenemang betraktas som en bonus, men belönar spelare som engagerar sig utöver sina ordinarie uppgifter."
+      },
+      "MarshalAndDesertStorm": {
+        "Title": "Marshal Deltagande + Desert Storm Deltagande – 20% vikt:",
+        "Description": "Poängen från båda evenemangen adderas och multipliceras med 0,2: <code>(Marshal poäng + Desert Storm poäng) * 0,2</code>"
       },
       "Example": {
         "Title": "<strong>Exempel:</strong> En spelare har följande värden:",
         "List1Bold": "VS-poäng de senaste 3 veckorna:",
-        "List1": "150 miljoner",
+        "List1": "130 miljoner",
         "List2Bold": "Marshal Deltagande:",
         "List3Bold": "Desert Storm Deltagande:",
         "Description": "MVP-poängen beräknas enligt följande:",
         "List4Bold": "VS Poäng:",
         "List5Bold": "Marshal Deltagande:",
         "List6Bold": "Desert Storm Deltagande:",
+        "List7Bold": "Poäng för MVP:",
         "TotalBold": "Totalt:",
-        "Total": "105 + 150 + 80 = <strong>335 MVP Poäng</strong>"
+        "Total": "104 + 48 = <strong>152 MVP Poäng</strong>"
       }
     }
   }
