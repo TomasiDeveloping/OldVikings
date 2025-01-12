@@ -1511,84 +1511,84 @@
     },
     "Celebration": {
       "Title": "Viering van Seizoen 2: Het Tijdperk van Olie",
-      "Description": "Ter gelegenheid van het einde van Seizoen 2, beginnen we maandag met 'Het Tijdperk van Olie', dat vijf weken zal duren (4 weken met missies + 1 week met het kampioenschapsduel). Er zijn veel nieuwe dingen om te ontdekken en voor te bereiden, dus we hebben een gids gemaakt voor de nieuwsgierigen die hun gameplay willen optimaliseren.",
+      "Description": "Om het einde van Seizoen 2 te vieren, starten we maandag met 'Het Tijdperk van Olie', dat vijf weken zal duren (4 weken met missies + 1 week kampioensduel). Er zijn veel nieuwe dingen om te ontdekken en voor te bereiden, dus we hebben een gids gemaakt voor nieuwsgierige spelers die hun gameplay willen optimaliseren.",
       "Profession": {
         "Title": "Beroep",
-        "Description": "Deze maand zul je veel onderzoeken en bouwen, maar minder vechten, dus ingenieur is het interessantste beroep. Maximaliseer de vaardigheden die je helpen sneller en goedkoper te bouwen en te onderzoeken!"
+        "Description": "Deze maand zul je veel onderzoeken en bouwen, maar minder vechten, dus ingenieur is het meest interessante beroep. Maximaliseer de vaardigheden die je helpen sneller en goedkoper te bouwen en te onderzoeken!"
       },
       "Week1": {
-        "Title": "Week 1: Taaklijst",
-        "List1": "Wissel naar ingenieur en maximaliseer alle vaardigheden die je helpen sneller en goedkoper te bouwen en te onderzoeken.",
-        "List2": "Zorg ervoor dat we de serverbrede missies ontgrendelen om te beginnen met het nieuwe onderzoek en de basisuitbreiding.",
+        "Title": "Week 1: Takenlijst",
+        "List1": "Schakel over naar ingenieur en maximaliseer alle vaardigheden die je helpen sneller en goedkoper te bouwen en te onderzoeken.",
+        "List2": "Zorg ervoor dat we de serverbrede missies ontgrendelen om met het nieuwe onderzoek en de basisuitbreiding te beginnen.",
         "List3": "Bouw je oliebron en breng deze zo snel mogelijk naar niveau 30 voor maximale olieproductie!",
-        "List4": "Optimaliseer de uitbreiding van de nieuwe onderzoeksboom efficiënt, begin met alleen de noodzakelijke onderzoeken."
+        "List4": "Optimaliseer de uitbreiding van de nieuwe onderzoekstak efficiënt, richt je eerst alleen op het noodzakelijke onderzoek."
       },
       "ServerWideMissions": {
         "Title": "Serverbrede Missies",
-        "Description": "Om de nieuwe dingen als server vrij te spelen, moeten we een aantal missies voltooien. Hoe sneller deze missies worden voltooid, hoe sneller onze server kan groeien.",
+        "Description": "Om als server de nieuwe functies te ontgrendelen, moeten we enkele missies voltooien. Hoe sneller deze voltooid zijn, hoe sneller onze server kan groeien.",
         "Mission1": {
-          "Title": "Missie 1: Technologie ontgrendelen (Dag 1, Week 1)",
-          "Description": "Doel: Voltooi 500 onderzoeken op de server. Dit ontgrendelt de nieuwe onderzoeksboom."
+          "Title": "Missie 1: Ontgrendel Technologie (Dag 1, Week 1)",
+          "Description": "Doel: Voltooi 500 onderzoeken op de hele server. Hiermee wordt de nieuwe onderzoekstak ontgrendeld."
         },
         "Mission2": {
-          "Title": "Missie 2: Niveaus II van de basisuitbreiding ontgrendelen (Dag 2, Week 1)",
-          "Description": "Doel: Voltooi 500 gebouwen op de server. Dit stelt ons in staat om de grond van onze basis uit te breiden met nieuwe niveaus.",
-          "Description2": "Het voltooien van de tegels in dit nieuwe gebied brengt ook olie als beloning, dus het is belangrijk om deze zo snel mogelijk te voltooien om maximale vooruitgang te boeken."
+          "Title": "Missie 2: Ontgrendel Niveau II Basisuitbreiding (Dag 2, Week 1)",
+          "Description": "Doel: Voltooi 500 gebouwen op de hele server. Hiermee kunnen we de basis uitbreiden met nieuwe niveaus.",
+          "Description2": "Het voltooien van tegels in dit nieuwe gebied levert ook olie als beloning op, dus het is belangrijk om dit snel te voltooien voor maximale vooruitgang."
         },
         "Mission3": {
-          "Title": "Missie 3: Heldenteams mobiliseren (Dag 2, Week 1)",
-          "Description": "Doel: Totaal moeten er 10.000 rekruteringen op de server worden uitgevoerd. Voor het voltooien van deze taak is er geen specifieke beloning, dus het is minder belangrijk."
+          "Title": "Missie 3: Mobilisatie van Helden (Dag 2, Week 1)",
+          "Description": "Doel: Voer in totaal 10.000 rekruteringen uit op de hele server. Voor het voltooien van deze missie is er geen specifieke beloning, dus deze is minder belangrijk."
         }
       },
       "Research": {
-        "Title": "Nieuwe Onderzoeksboom",
-        "Description": "De belangrijkste focus in deze periode ligt op de nieuwe onderzoeksboom, die een derde technologiecentrum, een drone-uitrustingsfabriek en de mogelijkheid ontgrendelt om je hoofdkwartier verder uit te breiden van HQ31 naar HQ35. Dit onderzoek vereist een nieuwe hulpbron: olie.",
-        "Description2": "<strong>Opmerking:</strong> Deze onderzoeksboom is alleen beschikbaar als je technologiecentrum op niveau 30 is en de speciale eenheden voor minimaal 40% zijn ontgrendeld.",
+        "Title": "Nieuwe Onderzoekstak",
+        "Description": "De focus in deze periode ligt op de nieuwe onderzoekstak, waarmee je een derde technologisch centrum, een drone-uitrustingsfabriek en de mogelijkheid om je hoofdkwartier verder uit te breiden van HQ31 naar HQ35 ontgrendelt. Dit onderzoek vereist een nieuwe grondstof: olie.",
+        "Description2": "<strong>Opmerking:</strong> Deze onderzoekstak is alleen beschikbaar als je technologisch centrum op niveau 30 is en de speciale eenheden minimaal 40% ontgrendeld zijn.",
         "Upgrade": {
-          "Title": "Oliebron Upgrade",
-          "Description": "Het eerste onderzoek stelt je in staat om een oliebron te bouwen en olieproductie te starten. Bouw deze oliebron zo snel mogelijk uit om de hoogste productie te bereiken (gebruik veel versnellers!). Het is mogelijk om het op de eerste dag naar niveau 30 te brengen, probeer dit uiterlijk op de tweede dag te doen."
+          "Title": "Upgrade Oliebron",
+          "Description": "Het eerste onderzoek stelt je in staat om een oliebron te bouwen om met de productie te beginnen. Breid deze bron zo snel mogelijk uit om de hoogste productiesnelheid te bereiken (gebruik veel versnellers!). Het is mogelijk om deze op de eerste dag naar niveau 30 te brengen; probeer dit uiterlijk op dag twee te doen."
         },
         "Strategy": {
           "Title": "Onderzoeksstrategie",
-          "Description": "Net als bij T10-onderzoek, hoef je niet elk niveau van elk onderzoek te voltooien om vooruitgang te boeken in de boom. Omdat olie in het begin moeilijk te verkrijgen zal zijn, moet je er zo efficiënt mogelijk mee omgaan. De minimaal vereiste niveaus zijn hieronder aangegeven, de <span class=\"text-danger\">rode velden</span> verhogen je olieproductie, dus dit moet je focus zijn! Gebruik je versnellers en wacht niet tot de VS-dag. De <span class=\"text-warning\">gele velden</span> verhogen de bouw- en onderzoekssnelheid en zijn goede opties om later terug te komen. Dit onderzoek zal lang duren; verwacht niet dat je het in de eerste week volledig zult voltooien."
-        },
-        "Hq": {
-          "Title": "HQ 31–35 Vereisten",
-          "Description": "Zodra je het onderste gedeelte van de onderzoeksboom hebt voltooid, kun je beginnen met HQ31+. De vereiste gebouwen staan hieronder vermeld en omvatten altijd het onderzoekscentrum, het tank-/lucht-/raketcentrum (een van deze) en de kazerne.<br> Om de benodigde tijd en middelen te zien, bezoek <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
-          "Table": {
-            "Header": "HQ-niveau",
-            "Header2": "Vereisten",
-            "Row1": "Onderzoekscentrum niveau 30, Tank-/lucht-/raketcentrum niveau 30, Kazerne niveau 30",
-            "Row2": "Onderzoekscentrum niveau 31, Tank-/lucht-/raketcentrum niveau 31, Kazerne niveau 31, Muur niveau 31",
-            "Row3": "Onderzoekscentrum niveau 32, Tank-/lucht-/raketcentrum niveau 32, Kazerne niveau 32, Ziekenhuis niveau 32, Trainingsveld niveau 32",
-            "Row4": "Onderzoekscentrum niveau 33, Tank-/lucht-/raketcentrum niveau 33, Kazerne niveau 33, Muur niveau 33, Alliantiecentrum niveau 33",
-            "Row5": "Onderzoekscentrum niveau 34, Tank-/lucht-/raketcentrum niveau 34, Kazerne niveau 34, Ziekenhuis niveau 34, Trainingsveld niveau 34"
-          }
-        },
-        "Week2": {
-          "Title": "Week 2",
-          "ServerMission": "Serverbrede Missies",
-          "Mission1": {
-            "Title": "Missie 1: Ontgrendel radaropdrachten (Dag 1, Week 2)",
-            "Description": "Doel: Voltooi 5000 radaropdrachten op de server."
-          },
-          "Mission2": {
-            "Title": "Missie 2: Geheime taak: Verover het olie-depot (Dag 1, Week 2)",
-            "Description": "Doel: Voltooi 1000 geheime taken op de server."
-          },
-          "Mission3": {
-            "Title": "Missie 3: Handelsuitbreiding (Dag 1, Week 2)",
-            "Description": "Doel: Verstuur 500 vrachtwagens op de server."
-          },
-          "Event": {
-            "Title": "Extra Evenementen",
-            "Description": "Zoals bij de viering van Seizoen 1, starten in Week 2 opnieuw het Bingo-evenement, de zwarte markt en het kampioenschapsduel. Bij het Bingo-evenement kun je olie en zwarte marktbelooningen ontvangen. De evenementen werken hetzelfde als in Seizoen 1."
-          }
-        },
-        "Week3": {
-          "Title": "Week 3 & 4",
-          "Description": "In deze weken gebeurt er niets bijzonders. In week 3 worden zombies van niveau 31–35 op de kaart ontgrendeld en in week 4 worden Elite-Dooms van niveau 31–35 ontgrendeld."
+          "Description": "Net als bij T10-onderzoek hoef je niet elk niveau van elk onderzoek te voltooien om vooruitgang te boeken. Omdat olie in het begin schaars zal zijn, moet je deze zo efficiënt mogelijk gebruiken. De minimaal vereiste niveaus zijn hieronder aangegeven. <span class=\"text-danger\">Rode velden</span> verhogen je olieproductie, dus dit moet je focus zijn! Gebruik je versnellers en wacht niet tot de VS-dag. <span class=\"text-warning\">Gele velden</span> verhogen de bouw- en onderzoekssnelheid en zijn later handige keuzes om naar terug te keren. Dit onderzoek zal lang duren; verwacht niet om het in de eerste week volledig af te ronden."
         }
+      },
+      "Hq": {
+        "Title": "Vereisten voor Hoofdkwartier 31–35",
+        "Description": "Zodra je het onderste deel van de onderzoekstak hebt voltooid, kun je beginnen met HQ31+. De vereiste gebouwen staan hieronder vermeld en omvatten altijd het onderzoekscentrum, het tank-/lucht-/raketcentrum (één daarvan) en de kazerne.<br> Om de benodigde tijd en middelen te zien, bezoek <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
+        "Table": {
+          "Header": "HQ-niveau",
+          "Header2": "Vereisten",
+          "Row1": "Onderzoekscentrum niveau 30, Tank-/Lucht-/Raketcentrum niveau 30, Kazerne niveau 30",
+          "Row2": "Onderzoekscentrum niveau 31, Tank-/Lucht-/Raketcentrum niveau 31, Kazerne niveau 31, Muur niveau 31",
+          "Row3": "Onderzoekscentrum niveau 32, Tank-/Lucht-/Raketcentrum niveau 32, Kazerne niveau 32, Ziekenhuis niveau 32, Trainingsveld niveau 32",
+          "Row4": "Onderzoekscentrum niveau 33, Tank-/Lucht-/Raketcentrum niveau 33, Kazerne niveau 33, Muur niveau 33, Alliantiecentrum niveau 33",
+          "Row5": "Onderzoekscentrum niveau 34, Tank-/Lucht-/Raketcentrum niveau 34, Kazerne niveau 34, Ziekenhuis niveau 34, Trainingsveld niveau 34"
+        }
+      },
+      "Week2": {
+        "Title": "Week 2",
+        "ServerMission": "Serverbrede Missies",
+        "Mission1": {
+          "Title": "Missie 1: Ontgrendel Radartaken (Dag 1, Week 2)",
+          "Description": "Doel: Voltooi 5000 radartaken op de hele server."
+        },
+        "Mission2": {
+          "Title": "Missie 2: Geheime Missie: Verover het Oliedepot (Dag 1, Week 2)",
+          "Description": "Doel: Voltooi 1000 geheime missies op de hele server."
+        },
+        "Mission3": {
+          "Title": "Missie 3: Handelsuitbreiding (Dag 1, Week 2)",
+          "Description": "Doel: Stuur 500 vrachtwagens op de hele server."
+        },
+        "Event": {
+          "Title": "Extra Evenementen",
+          "Description": "Net als tijdens de viering van Seizoen 1 beginnen in week 2 opnieuw het bingo-evenement, de zwarte markt en het kampioensduel. In het bingo-evenement kun je olie en zwarte marktdozen als beloning krijgen. De evenementen werken hetzelfde als in Seizoen 1."
+        }
+      },
+      "Week3": {
+        "Title": "Week 3 en 4",
+        "Description": "In deze weken zijn er geen speciale evenementen. In week 3 worden zombies van niveau 31–35 op de kaart ontgrendeld, en in week 4 worden elite-Dooms van niveau 31–35 ontgrendeld."
       }
     }
   },

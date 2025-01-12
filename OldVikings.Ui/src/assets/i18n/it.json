@@ -1511,84 +1511,84 @@
     },
     "Celebration": {
       "Title": "Celebrazione della Stagione 2: L'Era del Petrolio",
-      "Description": "Per celebrare la fine della Stagione 2, lanciamo lunedì 'L'Era del Petrolio', che durerà cinque settimane (4 settimane con missioni + 1 settimana di duello del campionato). Ci sono molte cose nuove da scoprire e preparare, quindi abbiamo creato una guida per i curiosi che vogliono ottimizzare il loro gameplay.",
+      "Description": "Per celebrare la fine della Stagione 2, lanceremo lunedì 'L'Era del Petrolio', che durerà cinque settimane (4 settimane di missioni + 1 settimana di duello di maestria). Ci sono molte novità da scoprire e preparare, quindi abbiamo creato una guida per i curiosi che vogliono ottimizzare il loro gameplay.",
       "Profession": {
         "Title": "Professione",
-        "Description": "Questo mese farai molta ricerca e costruzione, ma combatterai meno, quindi l'ingegnere è la professione più interessante. Massimizza le abilità che ti aiutano a costruire e ricercare più velocemente e a costi inferiori!"
+        "Description": "Questo mese farai molte ricerche e costruzioni, ma meno combattimenti, quindi l'ingegnere è la professione più interessante. Massimizza le abilità che ti aiutano a costruire e ricercare più velocemente e a minor costo!"
       },
       "Week1": {
-        "Title": "Settimana 1: Lista dei compiti",
-        "List1": "Cambia a ingegnere e massimizza tutte le abilità che ti aiuteranno a costruire e ricercare più velocemente e a costi inferiori.",
-        "List2": "Assicurati di sbloccare le missioni del server per iniziare la nuova ricerca e l'espansione della base.",
-        "List3": "Costruisci il tuo pozzo di petrolio e portalo al livello 30 il più velocemente possibile per ottenere la massima produzione di petrolio!",
-        "List4": "Ottimizza l'espansione del nuovo albero di ricerca in modo efficiente, inizialmente concentrandoti solo sulle ricerche necessarie."
+        "Title": "Settimana 1: Lista delle Attività",
+        "List1": "Passa all'ingegnere e massimizza tutte le abilità che ti aiutano a costruire e ricercare più velocemente e a minor costo.",
+        "List2": "Assicurati di sbloccare le missioni globali del server per iniziare con la nuova ricerca e l'espansione della base.",
+        "List3": "Costruisci il tuo pozzo petrolifero e portalo al livello 30 il prima possibile per una produzione massima di petrolio.",
+        "List4": "Ottimizza l'espansione del nuovo albero delle ricerche in modo efficiente, concentrandoti inizialmente solo sulle ricerche necessarie."
       },
       "ServerWideMissions": {
-        "Title": "Missioni globali del server",
-        "Description": "Per sbloccare le nuove cose interessanti sul server, dobbiamo completare alcune missioni. Più velocemente completeremo queste missioni, più velocemente il nostro server crescerà.",
+        "Title": "Missioni Globali del Server",
+        "Description": "Per sbloccare le nuove funzionalità a livello di server, dobbiamo completare alcune missioni. Più velocemente vengono completate, più rapidamente il nostro server può crescere.",
         "Mission1": {
-          "Title": "Missione 1: Sbloccare la tecnologia (Giorno 1, Settimana 1)",
-          "Description": "Obiettivo: Completa 500 ricerche su tutto il server. Questo sbloccherà il nuovo albero di ricerca."
+          "Title": "Missione 1: Sblocca Tecnologia (Giorno 1, Settimana 1)",
+          "Description": "Obiettivo: Completa 500 ricerche a livello di server. Questo sbloccherà il nuovo albero delle ricerche."
         },
         "Mission2": {
-          "Title": "Missione 2: Sbloccare il livello II dell'espansione della base (Giorno 2, Settimana 1)",
-          "Description": "Obiettivo: Completa 500 edifici su tutto il server. Questo ci permetterà di espandere il pavimento della nostra base con nuovi livelli.",
-          "Description2": "Completare le piastrelle in quest'area sblocca anche il petrolio come ricompensa, quindi è importante completarle il prima possibile per fare il massimo progresso."
+          "Title": "Missione 2: Sblocca Livello II dell'Espansione della Base (Giorno 2, Settimana 1)",
+          "Description": "Obiettivo: Completa 500 costruzioni a livello di server. Questo ci permetterà di espandere il terreno della nostra base con nuovi livelli.",
+          "Description2": "Completare le tessere in questa nuova area fornisce anche petrolio come ricompensa, quindi è importante completarle il prima possibile per massimizzare i progressi."
         },
         "Mission3": {
-          "Title": "Missione 3: Mobilitazione degli eroi (Giorno 2, Settimana 1)",
-          "Description": "Obiettivo: Devono essere effettuate un totale di 10.000 reclutamenti su tutto il server. Non c'è una ricompensa specifica per completare questa missione, quindi è meno importante."
+          "Title": "Missione 3: Mobilitazione degli Eroi (Giorno 2, Settimana 1)",
+          "Description": "Obiettivo: Eseguire un totale di 10.000 reclutamenti a livello di server. Non ci sono ricompense specifiche per completare questa missione, quindi è meno prioritaria."
         }
       },
       "Research": {
-        "Title": "Nuovo albero di ricerca",
-        "Description": "Il focus principale durante questo periodo è il nuovo albero di ricerca, che sblocca un terzo centro tecnologico, una fabbrica di equipaggiamento per droni e la possibilità di espandere il tuo quartier generale da HQ31 a HQ35. Questa ricerca richiede una nuova risorsa: il petrolio.",
-        "Description2": "<strong>Nota:</strong> Questo albero di ricerca è disponibile solo se il tuo centro tecnologico è di livello 30 e le unità speciali sono almeno al 40% sbloccate.",
+        "Title": "Nuovo Albero delle Ricerche",
+        "Description": "L'obiettivo principale di questo periodo è il nuovo albero delle ricerche, che sblocca un terzo centro tecnologico, una fabbrica di equipaggiamento per droni e la possibilità di espandere il tuo quartier generale da HQ31 a HQ35. Questa ricerca richiede una nuova risorsa: il petrolio.",
+        "Description2": "<strong>Nota:</strong> Questo albero delle ricerche è disponibile solo se il tuo centro tecnologico è al livello 30 e le unità speciali sono sbloccate almeno al 40%.",
         "Upgrade": {
-          "Title": "Aggiornamento del pozzo di petrolio",
-          "Description": "La prima ricerca ti consente di costruire un pozzo di petrolio per iniziare la produzione di petrolio. Potenzia questo pozzo il prima possibile per ottenere la massima velocità di produzione (usa molti acceleratori!). È possibile portarlo al livello 30 già il primo giorno, prova a farlo almeno entro il secondo giorno."
+          "Title": "Aggiornamento del Pozzo Petrolifero",
+          "Description": "La prima ricerca ti permette di costruire un pozzo petrolifero per iniziare la produzione. Aggiorna questo pozzo il più rapidamente possibile per raggiungere il tasso di produzione massimo (usa molti acceleratori!). È possibile portarlo al livello 30 già il primo giorno; cerca di farlo al massimo entro il secondo giorno."
         },
         "Strategy": {
-          "Title": "Strategia di ricerca",
-          "Description": "Simile alla ricerca T10, non è necessario completare ogni livello di ogni ricerca per progredire nell'albero. Poiché all'inizio il petrolio sarà difficile da ottenere, dovresti usarlo nel modo più efficiente possibile. I livelli minimi necessari sono indicati di seguito, le <span class=\"text-danger\">caselle rosse</span> aumentano la tua produzione di petrolio, quindi dovrebbero essere il tuo obiettivo principale! Usa i tuoi acceleratori e non aspettare il giorno VS. Le <span class=\"text-warning\">caselle gialle</span> aumentano la velocità di costruzione e ricerca e sono buone opzioni su cui tornare in seguito. Questa ricerca richiederà del tempo, non aspettarti di completarla durante la prima settimana."
-        },
-        "Hq": {
-          "Title": "Requisiti HQ 31–35",
-          "Description": "Una volta completata la parte inferiore dell'albero di ricerca, puoi iniziare con HQ31+. I requisiti dei vari edifici sono indicati qui sotto e includono sempre il centro di ricerca, il centro di serbatoio/aereo/missile (uno di questi) e la caserma.<br> Per vedere il tempo e le risorse necessari, visita <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
-          "Table": {
-            "Header": "Livello HQ",
-            "Header2": "Requisiti",
-            "Row1": "Centro di ricerca livello 30, Centro di serbatoio/aereo/missile livello 30, Caserma livello 30",
-            "Row2": "Centro di ricerca livello 31, Centro di serbatoio/aereo/missile livello 31, Caserma livello 31, Mura livello 31",
-            "Row3": "Centro di ricerca livello 32, Centro di serbatoio/aereo/missile livello 32, Caserma livello 32, Ospedale livello 32, Campo di addestramento livello 32",
-            "Row4": "Centro di ricerca livello 33, Centro di serbatoio/aereo/missile livello 33, Caserma livello 33, Mura livello 33, Centro alleanze livello 33",
-            "Row5": "Centro di ricerca livello 34, Centro di serbatoio/aereo/missile livello 34, Caserma livello 34, Ospedale livello 34, Campo di addestramento livello 34"
-          }
-        },
-        "Week2": {
-          "Title": "Settimana 2",
-          "ServerMission": "Missioni globali del server",
-          "Mission1": {
-            "Title": "Missione 1: Sbloccare il compito radar (Giorno 1, Settimana 2)",
-            "Description": "Obiettivo: Completa 5000 compiti radar su tutto il server."
-          },
-          "Mission2": {
-            "Title": "Missione 2: Compito segreto: Conquista il deposito di petrolio (Giorno 1, Settimana 2)",
-            "Description": "Obiettivo: Completa 1000 compiti segreti su tutto il server."
-          },
-          "Mission3": {
-            "Title": "Missione 3: Espansione commerciale (Giorno 1, Settimana 2)",
-            "Description": "Obiettivo: Spedisci 500 camion su tutto il server."
-          },
-          "Event": {
-            "Title": "Eventi aggiuntivi",
-            "Description": "Come nella celebrazione della Stagione 1, anche nella Settimana 2 torneranno gli eventi Bingo, il Mercato Nero e il Duello del Campionato. Nell'evento Bingo, puoi guadagnare petrolio e denaro del mercato nero come ricompense. Gli eventi funzionano come nella Stagione 1."
-          }
-        },
-        "Week3": {
-          "Title": "Settimana 3 e 4",
-          "Description": "Non c'è nulla di speciale durante queste settimane. Durante la Settimana 3, gli zombi di livello 31–35 saranno sbloccati sulla mappa, e durante la Settimana 4, gli Elite-Dooms di livello 31–35 saranno sbloccati."
+          "Title": "Strategia di Ricerca",
+          "Description": "Come per la ricerca T10, non è necessario completare ogni livello di ogni ricerca per avanzare nell'albero. Poiché il petrolio sarà inizialmente difficile da ottenere, usalo nel modo più efficiente possibile. I livelli minimi richiesti sono indicati di seguito. I <span class=\"text-danger\">campi rossi</span> aumentano la produzione di petrolio, quindi questa deve essere la tua priorità! Usa i tuoi acceleratori e non aspettare il giorno VS. I <span class=\"text-warning\">campi gialli</span> aumentano la velocità di costruzione e ricerca e sono opzioni utili su cui tornare successivamente. Questa ricerca richiederà tempo; non aspettarti di completarla entro la prima settimana."
         }
+      },
+      "Hq": {
+        "Title": "Requisiti per il Quartier Generale 31–35",
+        "Description": "Una volta completata la parte inferiore dell'albero delle ricerche, puoi iniziare con HQ31+. Gli edifici richiesti sono elencati di seguito e includono sempre il centro di ricerca, il centro carri/aerei/razzi (uno di questi) e la caserma.<br> Per vedere il tempo e le risorse necessarie, visita <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
+        "Table": {
+          "Header": "Livello HQ",
+          "Header2": "Requisiti",
+          "Row1": "Centro di Ricerca livello 30, Centro Carri/Aerei/Razzi livello 30, Caserma livello 30",
+          "Row2": "Centro di Ricerca livello 31, Centro Carri/Aerei/Razzi livello 31, Caserma livello 31, Muro livello 31",
+          "Row3": "Centro di Ricerca livello 32, Centro Carri/Aerei/Razzi livello 32, Caserma livello 32, Ospedale livello 32, Campo di Addestramento livello 32",
+          "Row4": "Centro di Ricerca livello 33, Centro Carri/Aerei/Razzi livello 33, Caserma livello 33, Muro livello 33, Centro dell'Alleanza livello 33",
+          "Row5": "Centro di Ricerca livello 34, Centro Carri/Aerei/Razzi livello 34, Caserma livello 34, Ospedale livello 34, Campo di Addestramento livello 34"
+        }
+      },
+      "Week2": {
+        "Title": "Settimana 2",
+        "ServerMission": "Missioni Globali del Server",
+        "Mission1": {
+          "Title": "Missione 1: Sblocca Missione Radar (Giorno 1, Settimana 2)",
+          "Description": "Obiettivo: Completa 5000 missioni radar a livello di server."
+        },
+        "Mission2": {
+          "Title": "Missione 2: Missione Segreta: Conquista il Deposito di Petrolio (Giorno 1, Settimana 2)",
+          "Description": "Obiettivo: Completa 1000 missioni segrete a livello di server."
+        },
+        "Mission3": {
+          "Title": "Missione 3: Espansione Commerciale (Giorno 1, Settimana 2)",
+          "Description": "Obiettivo: Invia 500 camion a livello di server."
+        },
+        "Event": {
+          "Title": "Eventi Aggiuntivi",
+          "Description": "Come nella celebrazione della Stagione 1, durante la settimana 2 ritornano l'evento bingo, il mercato nero e il duello di maestria. Nell'evento bingo puoi ottenere petrolio e casse del mercato nero come ricompense. Gli eventi funzionano esattamente come nella Stagione 1."
+        }
+      },
+      "Week3": {
+        "Title": "Settimane 3 e 4",
+        "Description": "Queste settimane non contengono nulla di speciale. Durante la settimana 3 vengono sbloccati gli zombie di livelli 31–35 sulla mappa, e durante la settimana 4 vengono sbloccati i Dooms élite di livelli 31–35."
       }
     }
   },

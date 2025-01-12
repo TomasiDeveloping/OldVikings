@@ -1511,84 +1511,84 @@
     },
     "Celebration": {
       "Title": "Célébration de la Saison 2 : L'Ère du Pétrole",
-      "Description": "Pour célébrer la fin de la Saison 2, nous lançons lundi 'L'Ère du Pétrole', qui durera cinq semaines (4 semaines avec des missions + 1 semaine de duel de championnat). Il y a beaucoup de nouvelles choses à découvrir et à préparer, c'est pourquoi nous avons créé un guide pour les curieux qui souhaitent optimiser leur gameplay.",
+      "Description": "Pour célébrer la fin de la Saison 2, nous lançons lundi 'L'Ère du Pétrole', qui durera cinq semaines (4 semaines avec des missions + 1 semaine de duel de maîtrise). Il y a beaucoup de nouvelles choses à découvrir et à préparer, nous avons donc créé un guide pour les curieux souhaitant optimiser leur gameplay.",
       "Profession": {
         "Title": "Profession",
-        "Description": "Ce mois-ci, vous ferez beaucoup de recherches et de constructions, mais moins de combats, c'est pourquoi l'ingénieur est la profession la plus intéressante. Maximisez les compétences qui vous aideront à construire et rechercher plus rapidement et moins cher !"
+        "Description": "Ce mois-ci, vous ferez beaucoup de recherches et de constructions, mais moins de combats. Ainsi, l'ingénieur est la profession la plus intéressante. Maximisez les compétences qui vous aident à construire et à rechercher plus rapidement et à moindre coût !"
       },
       "Week1": {
-        "Title": "Semaine 1 : Liste des tâches",
-        "List1": "Changez pour ingénieur et maximisez toutes les compétences qui vous aideront à construire et rechercher plus rapidement et moins cher.",
-        "List2": "Assurez-vous de débloquer les missions du serveur pour commencer la nouvelle recherche et l'extension de la base.",
-        "List3": "Construisez votre puits de pétrole et amenez-le au niveau 30 dès que possible pour obtenir la production maximale de pétrole !",
-        "List4": "Optimisez l'expansion du nouvel arbre de recherche de manière efficace, en commençant uniquement par les recherches nécessaires."
+        "Title": "Semaine 1 : Liste des Tâches",
+        "List1": "Passez à l'ingénieur et maximisez toutes les compétences qui vous aident à construire et à rechercher plus rapidement et à moindre coût.",
+        "List2": "Assurez-vous de débloquer les missions globales du serveur pour commencer les nouvelles recherches et l'expansion de la base.",
+        "List3": "Construisez votre puits de pétrole et améliorez-le au niveau 30 le plus rapidement possible pour une production maximale de pétrole.",
+        "List4": "Optimisez l'expansion du nouvel arbre de recherche de manière efficace, en vous concentrant d'abord uniquement sur les recherches nécessaires."
       },
       "ServerWideMissions": {
-        "Title": "Missions du serveur",
-        "Description": "Pour débloquer les nouvelles choses intéressantes sur le serveur, nous devons accomplir quelques missions. Plus elles sont terminées rapidement, plus notre serveur pourra croître rapidement.",
+        "Title": "Missions Globales du Serveur",
+        "Description": "Pour débloquer les nouvelles fonctionnalités au niveau du serveur, nous devons accomplir certaines missions. Plus elles sont terminées rapidement, plus notre serveur pourra croître rapidement.",
         "Mission1": {
-          "Title": "Mission 1 : Débloquer la technologie (Jour 1, Semaine 1)",
-          "Description": "Objectif : Complétez 500 recherches sur l'ensemble du serveur. Cela débloquera le nouvel arbre de recherche."
+          "Title": "Mission 1 : Débloquer la Technologie (Jour 1, Semaine 1)",
+          "Description": "Objectif : Terminer 500 recherches à l'échelle du serveur. Cela débloquera le nouvel arbre de recherche."
         },
         "Mission2": {
-          "Title": "Mission 2 : Débloquer le Niveau II de l'extension de base (Jour 2, Semaine 1)",
-          "Description": "Objectif : Complétez 500 bâtiments sur l'ensemble du serveur. Cela nous permettra d'étendre le sol de notre base avec de nouveaux niveaux.",
-          "Description2": "Compléter les tuiles dans cette nouvelle zone donne également du pétrole en récompense, il est donc important de terminer cela dès que possible pour obtenir le plus grand progrès."
+          "Title": "Mission 2 : Débloquer le Niveau II d'Expansion de la Base (Jour 2, Semaine 1)",
+          "Description": "Objectif : Terminer 500 constructions à l'échelle du serveur. Cela nous permettra d'étendre le sol de notre base avec de nouveaux niveaux.",
+          "Description2": "Terminer les tuiles dans cette nouvelle zone rapporte également du pétrole en récompense, il est donc important de les compléter le plus rapidement possible pour maximiser les progrès."
         },
         "Mission3": {
-          "Title": "Mission 3 : Mobilisation des héros (Jour 2, Semaine 1)",
-          "Description": "Objectif : Un total de 10 000 recrutements doivent être effectués sur l'ensemble du serveur. Il n'y a pas de récompense spécifique pour accomplir cette tâche, c'est donc moins important."
+          "Title": "Mission 3 : Mobilisation des Héros (Jour 2, Semaine 1)",
+          "Description": "Objectif : Effectuer un total de 10 000 recrutements à l'échelle du serveur. Cette mission n'offre pas de récompense spécifique, elle est donc moins prioritaire."
         }
       },
       "Research": {
-        "Title": "Nouvel arbre de recherche",
-        "Description": "L'objectif principal de cette période est le nouvel arbre de recherche, qui débloque un troisième centre de technologie, une usine d'équipement pour drones et la possibilité d'étendre votre quartier général de HQ31 à HQ35. Cette recherche nécessite une nouvelle ressource : le pétrole.",
-        "Description2": "<strong>Remarque :</strong> Cet arbre de recherche n'est disponible que si votre centre de technologie est au niveau 30 et que les unités spéciales sont débloquées à au moins 40%.",
+        "Title": "Nouvel Arbre de Recherche",
+        "Description": "L'objectif principal de cette période est le nouvel arbre de recherche, qui débloque un troisième centre technologique, une usine d'équipement pour drones et la possibilité d'étendre votre quartier général de HQ31 à HQ35. Cette recherche nécessite une nouvelle ressource : le pétrole.",
+        "Description2": "<strong>Note :</strong> Cet arbre de recherche n'est disponible que si votre centre technologique est au niveau 30 et si les unités spéciales sont débloquées à au moins 40 %.",
         "Upgrade": {
-          "Title": "Amélioration du puits de pétrole",
-          "Description": "La première recherche vous permet de construire un puits de pétrole pour commencer la production de pétrole. Améliorez ce puits dès que possible pour atteindre le taux de production le plus élevé (utilisez de nombreux accélérateurs !). Il est possible de le porter au niveau 30 dès le premier jour, essayez de l'atteindre avant le deuxième jour."
+          "Title": "Amélioration du Puits de Pétrole",
+          "Description": "La première recherche vous permet de construire un puits de pétrole pour commencer la production. Améliorez ce puits aussi rapidement que possible pour atteindre le taux de production maximal (utilisez beaucoup d'accélérateurs !). Il est possible de l'amener au niveau 30 dès le premier jour ; essayez de le faire au plus tard le deuxième jour."
         },
         "Strategy": {
-          "Title": "Stratégie de recherche",
-          "Description": "Comme pour la recherche T10, il n'est pas nécessaire de compléter chaque niveau de chaque recherche pour avancer dans l'arbre. Étant donné que le pétrole sera difficile à obtenir au début, vous devez l'utiliser aussi efficacement que possible. Les niveaux minimums requis sont indiqués ci-dessous, les <span class=\"text-danger\">cases rouges</span> augmentent votre production de pétrole, c'est donc là que doit se concentrer votre attention ! Utilisez vos accélérateurs et ne vous attendez pas au jour VS. Les <span class=\"text-warning\">cases jaunes</span> augmentent la vitesse de construction et de recherche et sont de bonnes options pour y revenir plus tard. Cette recherche prendra du temps, ne vous attendez pas à la terminer au cours de la première semaine."
-        },
-        "Hq": {
-          "Title": "Exigences HQ 31–35",
-          "Description": "Une fois que vous avez terminé la partie inférieure de l'arbre de recherche, vous pouvez commencer avec HQ31+. Les bâtiments requis sont indiqués ci-dessous et incluent toujours le centre de recherche, le centre de tank/air/roquette (l'un d'entre eux) et la caserne.<br> Pour voir les temps et les ressources nécessaires, visitez <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial : Builder Copilot</a>",
-          "Table": {
-            "Header": "Niveau HQ",
-            "Header2": "Exigences",
-            "Row1": "Centre de recherche niveau 30, Centre de tank/air/roquette niveau 30, Caserne niveau 30",
-            "Row2": "Centre de recherche niveau 31, Centre de tank/air/roquette niveau 31, Caserne niveau 31, Murs niveau 31",
-            "Row3": "Centre de recherche niveau 32, Centre de tank/air/roquette niveau 32, Caserne niveau 32, Hôpital niveau 32, Terrain d'entraînement niveau 32",
-            "Row4": "Centre de recherche niveau 33, Centre de tank/air/roquette niveau 33, Caserne niveau 33, Murs niveau 33, Centre d'alliance niveau 33",
-            "Row5": "Centre de recherche niveau 34, Centre de tank/air/roquette niveau 34, Caserne niveau 34, Hôpital niveau 34, Terrain d'entraînement niveau 34"
-          }
-        },
-        "Week2": {
-          "Title": "Semaine 2",
-          "ServerMission": "Missions du serveur",
-          "Mission1": {
-            "Title": "Mission 1 : Débloquer la tâche radar (Jour 1, Semaine 2)",
-            "Description": "Objectif : Complétez 5000 tâches radar sur l'ensemble du serveur."
-          },
-          "Mission2": {
-            "Title": "Mission 2 : Tâche secrète : Conquérir le dépôt de pétrole (Jour 1, Semaine 2)",
-            "Description": "Objectif : Complétez 1000 tâches secrètes sur l'ensemble du serveur."
-          },
-          "Mission3": {
-            "Title": "Mission 3 : Expansion commerciale (Jour 1, Semaine 2)",
-            "Description": "Objectif : Envoyez 500 camions sur l'ensemble du serveur."
-          },
-          "Event": {
-            "Title": "Événements supplémentaires",
-            "Description": "Comme pour la célébration de la Saison 1, la semaine 2 verra le retour de l'événement Bingo, du marché noir et du duel de championnat. Dans l'événement Bingo, vous pouvez recevoir du pétrole et de l'argent du marché noir en récompenses. Les événements fonctionnent de la même manière que dans la Saison 1."
-          }
-        },
-        "Week3": {
-          "Title": "Semaines 3 et 4",
-          "Description": "Il n'y a rien de spécial pendant ces semaines. Pendant la semaine 3, des zombies de niveaux 31–35 seront débloqués sur la carte, et pendant la semaine 4, des Elite-Dooms de niveaux 31–35 seront débloqués."
+          "Title": "Stratégie de Recherche",
+          "Description": "Comme pour la recherche T10, vous n'avez pas besoin de compléter chaque niveau de chaque recherche pour progresser dans l'arbre. Comme le pétrole sera rare au début, utilisez-le aussi efficacement que possible. Les niveaux minimaux requis sont indiqués ci-dessous. Les <span class=\"text-danger\">champs rouges</span> augmentent votre production de pétrole, donc cela doit être votre priorité ! Utilisez vos accélérateurs et n'attendez pas le jour de VS. Les <span class=\"text-warning\">champs jaunes</span> augmentent la vitesse de construction et de recherche et sont de bonnes options pour plus tard. Cette recherche prendra du temps ; ne vous attendez pas à la compléter en une semaine."
         }
+      },
+      "Hq": {
+        "Title": "Exigences pour le Quartier Général 31–35",
+        "Description": "Une fois la partie inférieure de l'arbre de recherche terminée, vous pouvez commencer avec HQ31+. Les bâtiments requis sont listés ci-dessous et incluent toujours le centre de recherche, le centre de chars/aériens/roquettes (l'un des trois) et la caserne.<br> Pour voir le temps et les ressources nécessaires, visitez <a href=\"https://www.lastwartutorial.com/copilot.php\" target=\"_blank\">Last War Tutorial: Builder Copilot</a>",
+        "Table": {
+          "Header": "Niveau de HQ",
+          "Header2": "Exigences",
+          "Row1": "Centre de Recherche niveau 30, Centre de Chars/Aériens/Roquettes niveau 30, Caserne niveau 30",
+          "Row2": "Centre de Recherche niveau 31, Centre de Chars/Aériens/Roquettes niveau 31, Caserne niveau 31, Mur niveau 31",
+          "Row3": "Centre de Recherche niveau 32, Centre de Chars/Aériens/Roquettes niveau 32, Caserne niveau 32, Hôpital niveau 32, Terrain d'Entraînement niveau 32",
+          "Row4": "Centre de Recherche niveau 33, Centre de Chars/Aériens/Roquettes niveau 33, Caserne niveau 33, Mur niveau 33, Centre de l'Alliance niveau 33",
+          "Row5": "Centre de Recherche niveau 34, Centre de Chars/Aériens/Roquettes niveau 34, Caserne niveau 34, Hôpital niveau 34, Terrain d'Entraînement niveau 34"
+        }
+      },
+      "Week2": {
+        "Title": "Semaine 2",
+        "ServerMission": "Missions Globales du Serveur",
+        "Mission1": {
+          "Title": "Mission 1 : Débloquer Tâche Radar (Jour 1, Semaine 2)",
+          "Description": "Objectif : Terminer 5000 tâches radar à l'échelle du serveur."
+        },
+        "Mission2": {
+          "Title": "Mission 2 : Tâche Secrète : Capturer le Dépôt de Pétrole (Jour 1, Semaine 2)",
+          "Description": "Objectif : Terminer 1000 tâches secrètes à l'échelle du serveur."
+        },
+        "Mission3": {
+          "Title": "Mission 3 : Extension Commerciale (Jour 1, Semaine 2)",
+          "Description": "Objectif : Envoyer 500 camions à l'échelle du serveur."
+        },
+        "Event": {
+          "Title": "Événements Supplémentaires",
+          "Description": "Comme pour la célébration de la Saison 1, la semaine 2 voit le retour de l'événement de bingo, du marché noir et du duel de maîtrise. Dans l'événement de bingo, vous pouvez obtenir du pétrole et des caisses du marché noir en récompense. Les événements fonctionnent de la même manière que lors de la Saison 1."
+        }
+      },
+      "Week3": {
+        "Title": "Semaines 3 et 4",
+        "Description": "Ces semaines ne contiennent rien de spécial. La semaine 3 débloque les zombies de niveaux 31–35 sur la carte, et la semaine 4 débloque les Dooms élites de niveaux 31–35."
       }
     }
   },
