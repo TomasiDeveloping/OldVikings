@@ -18,6 +18,9 @@
       "Title": "Non-agressiepacten (NAP):",
       "Nap1": "dkW - DKwar"
     },
+    "CrossServerAlliances": {
+      "Title": "Cross-Server Allianties"
+    },
     "Section2": "Word een deel van de Alliance Old Viking en zeil met ons naar de legende. Samen zullen we onoverwinnelijk zijn en de wereld laten beven van ontzag.",
     "Vs": {
       "Title": "VS-Duel:",
@@ -515,6 +518,11 @@
   },
   "Alliances": {
     "Title": "Alliantie",
+    "TrainConductor": {
+      "Title": "Overzicht Treinconducteur",
+      "Today": "Vandaag",
+      "Tomorrow": "Morgen"
+    },
     "Donate": {
       "Title": "Hoe Je Kunt Bijdragen/Doneren",
       "Description": "Om bij te dragen aan alliantie-technologie gelden de volgende regels:",

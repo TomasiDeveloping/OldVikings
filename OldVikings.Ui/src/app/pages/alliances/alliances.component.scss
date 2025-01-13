@@ -1,0 +1,89 @@
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.card {
+  width: 650px;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #323232;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+.card-header {
+  background: linear-gradient(135deg, #ff5f57, #ff6f61);
+  color: white;
+  text-align: center;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+  padding: 1rem;
+}
+.card-header h5 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.card-header i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.card-body {
+  padding: 1.5rem;
+}
+.today {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.today .icon {
+  width: 70px;
+  height: 70px;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+.today h6 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.today p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #d1d1d1;
+}
+.tomorrow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.tomorrow .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #666;
+  color: #ff5f57;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.tomorrow h6 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #b0b0b0;
+}
+.tomorrow p {
+  margin: 0;
+  font-size: 1rem;
+  color: #b0b0b0;
+}

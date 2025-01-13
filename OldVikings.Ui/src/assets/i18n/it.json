@@ -18,6 +18,9 @@
       "Title": "Patti di non aggressione (NAP):",
       "Nap1": "dkW - DKwar"
     },
+    "CrossServerAlliances": {
+      "Title": "Alleanze tra server"
+    },
     "Section2": "Diventa parte dell'Alleanza Old Viking e naviga con noi verso la leggenda. Insieme, saremo invincibili e faremo tremare il mondo di ammirazione.",
     "Vs": {
       "Title": "Duel VS:",
@@ -515,6 +518,11 @@
   },
   "Alliances": {
     "Title": "Alleanza",
+    "TrainConductor": {
+      "Title": "Panoramica del Conducente del Treno",
+      "Today": "Oggi",
+      "Tomorrow": "Domani"
+    },
     "Donate": {
       "Title": "Come Puoi Contribuire/Donare",
       "Description": "Per contribuire alla tecnologia dell'alleanza, si applicano le seguenti regole:",

@@ -18,6 +18,9 @@
       "Title": "Nichtangriffspakte (NAP):",
       "Nap1": "dkW - DKwar"
     },
+    "CrossServerAlliances": {
+      "Title": "Serverübergreifende Bündnisse"
+    },
     "Section2": "Werde ein Teil der Allianz Old Viking und segle mit uns in die Legende. Gemeinsam werden wir unbezwingbar sein und die Welt vor Ehrfurcht erzittern lassen.",
     "Vs": {
       "Title": "VS-Duell: ",
@@ -515,6 +518,11 @@
   },
   "Alliances": {
     "Title": "Allianz",
+    "TrainConductor": {
+      "Title": "Zug Schaffner Übersicht",
+      "Today": "Heute",
+      "Tomorrow": "Morgen"
+    },
     "Donate": {
       "Title": "So können Sie beitragen/spenden",
       "Description": "Um zu einer Alliance Tech beizutragen, gelten die folgenden Regeln:",

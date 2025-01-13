@@ -1,6 +1,40 @@
 <div class="container pb-5">
   <h3 class="custom-font mt-3 text-center">{{ 'Alliances.Title' | translate }}</h3>
   <hr>
+  <section>
+    <div class="container-center">
+      @if (trainGuide) {
+        <div class="card">
+          <!-- Header -->
+          <div class="card-header">
+            <i class="bi bi-train-front"></i>
+            <h5>{{ 'Alliances.TrainConductor.Title' | translate }}</h5>
+          </div>
+          <!-- Body -->
+          <div class="card-body">
+            <div class="today">
+              <div class="icon">
+                <i class="bi bi-person"></i>
+              </div>
+              <div>
+                <h6>{{ 'Alliances.TrainConductor.Today' | translate }}</h6>
+                <p>{{trainGuide.currentPlayer}}</p>
+              </div>
+            </div>
+            <div class="tomorrow">
+              <div class="icon">
+                <i class="bi bi-person-check"></i>
+              </div>
+              <div>
+                <h6>{{ 'Alliances.TrainConductor.Tomorrow' | translate }}</h6>
+                <p>{{trainGuide.nextPlayer}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </section>
   <section id="alliance-donate">
     <h5>{{ 'Alliances.Donate.Title' | translate }}</h5>
     <p>{{ 'Alliances.Donate.Description' | translate }}</p>

@@ -18,6 +18,9 @@
       "Title": "Ikke-angrepspaktene (NAP):",
       "Nap1": "dkW - DKwar"
     },
+    "CrossServerAlliances": {
+      "Title": "Tverrserver Allianser"
+    },
     "Section2": "Bli en del av Alliance Old Viking og seil med oss inn i legenden. Sammen vil vi være uovervinnelige og få verden til å skjelve av ærefrykt.",
     "Vs": {
       "Title": "VS-Duell:",
@@ -515,6 +518,11 @@
   },
   "Alliances": {
     "Title": "Allianse",
+    "TrainConductor": {
+      "Title": "Togkonduktør Oversikt",
+      "Today": "I dag",
+      "Tomorrow": "I morgen"
+    },
     "Donate": {
       "Title": "Hvordan Du Kan Bidra/Donere",
       "Description": "For å bidra til allianse-teknologi gjelder følgende regler:",

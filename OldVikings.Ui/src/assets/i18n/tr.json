@@ -18,6 +18,9 @@
       "Title": "Saldırı Anlaşmaları (NAP):",
       "Nap1": "dkW - DKwar"
     },
+    "CrossServerAlliances": {
+      "Title": "Sunucu Dışı İttifaklar"
+    },
     "Section2": "Alliance Old Viking'e katılın ve efsaneye birlikte adım atalım. Birlikte yenilmez olacağız ve dünyayı saygıdan titretir hale getireceğiz.",
     "Vs": {
       "Title": "VS-Duel:",
@@ -515,6 +518,11 @@
   },
   "Alliances": {
     "Title": "İttifak",
+    "TrainConductor": {
+      "Title": "Tren Kontrolörü Görünümü",
+      "Today": "Bugün",
+      "Tomorrow": "Yarın"
+    },
     "Donate": {
       "Title": "Nasıl Katkıda Bulunabilirsiniz / Bağışlayabilirsiniz",
       "Description": "Bir İttifak Teknolojisine katkıda bulunmak için şu kurallar geçerlidir:",

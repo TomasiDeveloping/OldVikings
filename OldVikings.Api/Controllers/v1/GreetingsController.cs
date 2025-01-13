@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using OldVikings.Api.DataTransferObjects.Greeting;
 using OldVikings.Api.Interfaces;
 
@@ -7,7 +6,7 @@ namespace OldVikings.Api.Controllers.v1
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class GreetingsController(IGreetingRepository greetingRepository) : ControllerBase
+    public class GreetingsController(IGreetingRepository greetingRepository, ILogger<GreetingsController> logger) : ControllerBase
     {
         [HttpGet]
         public async Task<ActionResult<List<GreetingDto>>> GetGreetings(CancellationToken cancellationToken)
@@ -19,7 +18,8 @@ namespace OldVikings.Api.Controllers.v1
             }
             catch (Exception e)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+                logger.LogError(e, e.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
 
@@ -36,7 +36,8 @@ namespace OldVikings.Api.Controllers.v1
             }
             catch (Exception e)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+                logger.LogError(e, e.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
     }
