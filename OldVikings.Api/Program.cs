@@ -4,6 +4,7 @@ using OldVikings.Api.Interfaces;
 using OldVikings.Api.Profiles;
 using OldVikings.Api.Repositories;
 using OldVikings.Api.Services;
+using Quartz;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -35,7 +36,17 @@ try
     builder.Services.AddTransient<ITranslateService, TranslateService>();
     builder.Services.AddTransient<ITrainGuideRepository, TrainGuideRepository>();
 
-    builder.Services.AddHostedService<DailyRotationJob>();
+    builder.Services.AddQuartz(options =>
+    {
+        var jobKey = JobKey.Create(nameof(DailyRotationJob));
+        options.AddJob<DailyRotationJob>(jobKey).AddTrigger(trigger =>
+        {
+            trigger.ForJob(jobKey)
+                .WithCronSchedule("0 1 0,3 * * ?");
+        });
+    });
+
+    builder.Services.AddQuartzHostedService(options => options.WaitForJobsToComplete = true);
 
     var app = builder.Build();
 

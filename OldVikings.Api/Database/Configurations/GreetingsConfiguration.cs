@@ -12,6 +12,6 @@ public class GreetingsConfiguration : IEntityTypeConfiguration<Greeting>
         builder.Property(greeting => greeting.AllianceName).HasMaxLength(150).IsRequired();
         builder.Property(greeting => greeting.PlayerName).HasMaxLength(200).IsRequired(false);
         builder.Property(greeting => greeting.ServerNumber).IsRequired();
-        builder.Property(greeting => greeting.Comment).IsRequired(false).HasMaxLength(200);
+        builder.Property(greeting => greeting.Comment).IsRequired(false).HasMaxLength(250);
     }
 }

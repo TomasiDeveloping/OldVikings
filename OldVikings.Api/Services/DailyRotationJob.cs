@@ -1,52 +1,55 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OldVikings.Api.Database;
+using Quartz;
+using static Quartz.Logging.OperationName;
+using System.Reflection.Metadata;
 
 namespace OldVikings.Api.Services;
 
-public class DailyRotationJob(IServiceProvider serviceProvider) : BackgroundService
+public class DailyRotationJob(OldVikingsContext dbContext, ILogger<DailyRotationJob> logger) : IJob
 {
-    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    public async Task Execute(IJobExecutionContext context)
     {
-        while (!stoppingToken.IsCancellationRequested)
+        var today = DateTime.Now;
+        logger.LogInformation($"Job {nameof(DailyRotationJob)} is executed: {today}");
+
+        try
         {
-            var now = DateTime.Now;
-            var nextRun = now.Date.AddDays(1).AddMinutes(1);
-            var delay = nextRun - now;
+            var trainGuide = await dbContext.TrainGuides.FirstOrDefaultAsync();
 
-            await Task.Delay(delay, stoppingToken);
-
-            await UpdateRotation(stoppingToken);
-
-            var emergencyRun = nextRun.Date.AddHours(3);
-            delay = emergencyRun - DateTime.Now;
-
-            if (delay <= TimeSpan.Zero) continue;
-            await Task.Delay(delay, stoppingToken);
-            await UpdateRotation(stoppingToken);
-
-        }
-    }
-
-    private async Task UpdateRotation(CancellationToken stoppingToken)
-    {
-        await using var scope = serviceProvider.CreateAsyncScope();
-        var context = scope.ServiceProvider.GetRequiredService<OldVikingsContext>();
-
-        var trainGuide = await context.TrainGuides.FirstOrDefaultAsync(stoppingToken);
-
-        if (trainGuide is not null)
-        {
-            if (trainGuide.LastUpdate.Date != DateTime.Now)
+            if (trainGuide is null)
             {
-                if (DateTime.Now.DayOfWeek != DayOfWeek.Wednesday)
-                {
-                    trainGuide.CurrentPlayerIndex = (trainGuide.CurrentPlayerIndex + 1) % 11;
-                }
-
-                trainGuide.LastUpdate = DateTime.Now;
-
-                await context.SaveChangesAsync(stoppingToken);
+                logger.LogError("Train guide ist null");
+                return;
             }
+
+            if (trainGuide.LastUpdate.Date == today.Date)
+            {
+                logger.LogInformation($"Train guide has already been processed at: {trainGuide.LastUpdate}");
+                return;
+            }
+
+            if (today.DayOfWeek == DayOfWeek.Wednesday)
+            {
+                trainGuide.LastUpdate = today;
+                await dbContext.SaveChangesAsync();
+                logger.LogInformation("Only the date has been updated as Wednesday");
+                return;
+            }
+
+            var nextIndex = trainGuide.CurrentPlayerIndex++;
+
+            if (nextIndex > 10) nextIndex = 0;
+
+            trainGuide.CurrentPlayerIndex = nextIndex;
+            trainGuide.LastUpdate = today;
+            await dbContext.SaveChangesAsync();
+            logger.LogInformation($"Successfully updated.New index = {trainGuide.CurrentPlayerIndex}");
         }
+        catch (Exception e)
+        {
+            logger.LogError(e, e.Message);
+        }
+
     }
 }

@@ -32,7 +32,16 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
         {
             currentPlayer = _players[trainGuide.CurrentPlayerIndex];
 
-            nextPlayer = _players[(trainGuide.CurrentPlayerIndex + 1) % _players.Length];
+            if (today.AddDays(1).DayOfWeek == DayOfWeek.Wednesday)
+            {
+                nextPlayer = "MVP";
+            }
+            else
+            {
+                var listEnd = trainGuide.CurrentPlayerIndex + 1 > 10;
+                nextPlayer = listEnd ? _players[0] : _players[trainGuide.CurrentPlayerIndex + 1];
+            }
+
         }
 
         return new TrainGuideDto()
