@@ -90,7 +90,8 @@
       "Description2": "Diğer ittifaklardaki oyunculara saldırmak genellikle yasaktır. Özel durumlar veya çatışmalar ortaya çıkarsa, bu tür eylemler önceden R5 veya R4 ile tartışılmalı ve onaylanmalıdır, aksi takdirde gereksiz stres oluşabilir.",
       "Description3": "Kendi sunucunuzdaki kamyonları veya trenleri yağmalamak yasaktır.",
       "Description4": "Kendi kamyonlarımın saldırılardan nasıl korunurum?",
-      "Description5": "Kendi sunucunuzdan Ghost Ops görevleri gibi gizli görevleri soymak yasaktır"
+      "Description5": "Kendi sunucunuzdan gizli görevleri ve Ghost Ops görevlerini yağmalamak yasaktır",
+      "Description6": "Diğer sunucularda gizli görevleri nasıl yağmalarım"
     },
     "Note": {
       "Title": "Not:",
@@ -582,6 +583,17 @@
       "Title": "Kendi Sunucunuzda Kamyonları Yağmalama",
       "Description": "Kendi sunucunuzda kamyonları yağmalamak yasaktır. Bu tür kamyonların görünmesini engellemek için, tüm kamyonları kendi sunucunuzdan filtrelemenizi sağlayan bir onay kutusu vardır. Lütfen bu onay kutusunu işaretleyin ve kurallara uyun. Aşağıdaki resimde onay kutusunun nerede olduğunu görebilirsiniz.",
       "Image": "Lütfen onay kutusunu, resimde gösterildiği gibi işaretleyin."
+    },
+    "SecretTasks": {
+      "Title": "Diğer sunucularda gizli görevleri yağmalamak",
+      "Description": "Kendi sunucumuzda gizli görevleri yağmalamak yasaktır. Bunlar yalnızca diğer sunucularda yapılmalıdır. İhlaller, uyarılara veya diğer sonuçlara yol açabilir.",
+      "Title2": "Diğer sunucularda nasıl yağmalanır?",
+      "Image": "Gizli Görev",
+      "Image1": "Üssündeki istasyona git ve kamyon simgesine tıkla.",
+      "Image2": "Bir kamyon seç ve 'Yağmalamak'a tıkla. (Zaten dört kez yağmalamışsan da bu işlem çalışır.)",
+      "Image3": "Şu anda başka bir sunucudasın ve gizli görevler arayabilirsin.",
+      "Image4": "Seviye 5'teki altın, parlak görevler bulabileceğin en iyi görevlerdir.",
+      "Image5": "Bu görevleri gönül rahatlığıyla diğer oyuncularla ittifak sohbetinde paylaş."
     }
   },
   "TipsAndTricks": {

@@ -90,7 +90,8 @@
       "Description2": "Los ataques a jugadores de otras alianzas están generalmente prohibidos. Si surgen circunstancias especiales o conflictos, tales acciones deben ser discutidas y aprobadas previamente con un R5 o R4 para evitar estrés innecesario.",
       "Description3": "Saqueo de camiones o trenes del propio servidor no está permitido.",
       "Description4": "¿Cómo evitar ataques a nuestros camiones?",
-      "Description5": "Saqueo de misiones secretas, como misiones de Ghost Ops, desde tu propio servidor no está permitido"
+      "Description5": "No se permite saquear misiones secretas y misiones de Ghost Ops desde tu propio servidor",
+      "Description6": "¿Cómo saquear misiones secretas en otros servidores?"
     },
     "Note": {
       "Title": "Nota:",
@@ -586,6 +587,17 @@
       "Title": "Saquear camiones en tu propio servidor",
       "Description": "No está permitido saquear camiones en tu propio servidor. Para asegurar que dichos camiones no se muestren, hay una casilla que puedes activar para filtrar todos los camiones de tu propio servidor. Por favor, marca esta casilla para cumplir con las reglas. La imagen a continuación muestra dónde encontrar la casilla.",
       "Image": "Por favor, activa la casilla como se muestra en la imagen."
+    },
+    "SecretTasks": {
+      "Title": "Saqueo de misiones secretas en otros servidores",
+      "Description": "No está permitido saquear misiones secretas en nuestro propio servidor. Estas deben realizarse exclusivamente en otros servidores. Las violaciones pueden resultar en advertencias o consecuencias adicionales.",
+      "Title2": "¿Cómo saquear en otros servidores?",
+      "Image": "Misión Secreta",
+      "Image1": "Ve a la estación en tu base y haz clic en el ícono del camión.",
+      "Image2": "Selecciona un camión y haz clic en 'Saqueo'. (Esto también funciona si ya has saqueado cuatro veces.)",
+      "Image3": "Ahora estás en otro servidor y puedes buscar misiones secretas.",
+      "Image4": "Las misiones doradas y brillantes de nivel 5 son lo mejor que puedes encontrar.",
+      "Image5": "Comparte estas misiones en el chat de la alianza con los demás jugadores."
     }
   },
   "TipsAndTricks": {

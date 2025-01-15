@@ -90,7 +90,8 @@
       "Description2": "Angriffe auf Spieler aus anderen Allianzen sind grundsätzlich untersagt. Sollten besondere Umstände oder Konflikte auftreten, müssen solche Aktionen vorher mit einem R5 oder R4 besprochen und genehmigt werden, um unnötigen Stress zu vermeiden.",
       "Description3": "Plündern von LKWs oder Zügen vom eigenen Server ist nicht gestattet.",
       "Description4": "Wie vermeide ich Angriffe auf eigene LKWs",
-      "Description5": "Plündern von Geheimen Missionen wie Geister-Ops Missionen vom eigenen Server ist nicht gestattet"
+      "Description5": "Plündern von Geheimen Missionen und Geister-Ops Missionen vom eigenen Server ist nicht gestattet",
+      "Description6": "Wie plündere ich Geheime Missionen auf anderen Servern"
     },
     "Note": {
       "Title": "Hinweis:",
@@ -582,6 +583,17 @@
       "Title": "Plündern von LKWs auf dem eigenen Server",
       "Description": "Es ist nicht erlaubt, LKWs auf eurem eigenen Server zu plündern. Um sicherzustellen, dass solche LKWs nicht angezeigt werden, gibt es eine Checkbox, die ihr aktivieren könnt, um alle LKWs vom eigenen Server herauszufiltern. Bitte setzt diese Checkbox, um den Regeln zu entsprechen. Im Bild unten seht ihr, wo ihr die Checkbox findet.",
       "Image": "Bitte aktiviert die Checkbox wie im Bild dargestellt."
+    },
+    "SecretTasks": {
+      "Title": "Plünderungen von geheimen Missionen auf anderen Servern",
+      "Description": "Es ist nicht erlaubt, Geheime Missionen auf unserem eigenen Server zu plündern. Diese müssen ausschließlich auf anderen Servern durchgeführt werden. Zuwiderhandlungen können zu Verwarnungen oder weiteren Konsequenzen führen.",
+      "Title2": "Wie plündere ich auf anderen Servern?",
+      "Image": "Geheime Mission",
+      "Image1": "Gehe in deiner Basis zur Station und klicke auf das LKW-Icon.",
+      "Image2": "Wähle einen LKW aus und klicke auf 'Plündern'. (Das funktioniert auch, wenn du bereits viermal geplündert hast.)",
+      "Image3": "Du befindest dich nun auf einem anderen Server und kannst nach geheimen Missionen suchen.",
+      "Image4": "Goldene, glänzende Missionen auf Level 5 sind das Beste, was du finden kannst.",
+      "Image5": "Teile diese Missionen gerne auch im Allianz-Chat mit den anderen Spielern."
     }
   },
   "TipsAndTricks": {

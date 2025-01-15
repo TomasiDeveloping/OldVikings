@@ -90,7 +90,8 @@
       "Description2": "Les attaques contre les joueurs d'autres alliances sont généralement interdites. En cas de circonstances ou de conflits particuliers, ces actions doivent être discutées et approuvées au préalable par un R5 ou R4 afin d'éviter un stress inutile.",
       "Description3": "Le pillage des camions ou des trains de votre propre serveur n'est pas autorisé.",
       "Description4": "Comment éviter les attaques contre vos propres camions",
-      "Description5": "Le pillage de missions secrètes, comme les missions Ghost Ops, depuis votre propre serveur n'est pas autorisé"
+      "Description5": "Il est interdit de piller des missions secrètes et des missions Ghost Ops depuis votre propre serveur",
+      "Description6": "Comment piller des missions secrètes sur d'autres serveurs"
     },
     "Note": {
       "Title": "Remarque :",
@@ -582,6 +583,17 @@
       "Title": "Pillage des camions sur votre propre serveur",
       "Description": "Il est interdit de piller les camions sur votre propre serveur. Pour vous assurer que ces camions n'apparaissent pas, il y a une case à cocher que vous pouvez activer pour filtrer tous les camions de votre propre serveur. Veuillez cocher cette case pour respecter les règles. L'image ci-dessous montre où trouver la case.",
       "Image": "Veuillez activer la case comme indiqué sur l'image."
+    },
+    "SecretTasks": {
+      "Title": "Pillage des missions secrètes sur d'autres serveurs",
+      "Description": "Il est interdit de piller des missions secrètes sur notre propre serveur. Celles-ci doivent être réalisées exclusivement sur d'autres serveurs. Les violations peuvent entraîner des avertissements ou d'autres conséquences.",
+      "Title2": "Comment piller sur d'autres serveurs ?",
+      "Image": "Mission Secrète",
+      "Image1": "Allez à la station de votre base et cliquez sur l'icône du camion.",
+      "Image2": "Sélectionnez un camion et cliquez sur 'Piller'. (Cela fonctionne également si vous avez déjà pillé quatre fois.)",
+      "Image3": "Vous êtes maintenant sur un autre serveur et vous pouvez chercher des missions secrètes.",
+      "Image4": "Les missions dorées et brillantes de niveau 5 sont les meilleures que vous puissiez trouver.",
+      "Image5": "N'hésitez pas à partager ces missions dans le chat de l'alliance avec les autres joueurs."
     }
   },
   "TipsAndTricks": {

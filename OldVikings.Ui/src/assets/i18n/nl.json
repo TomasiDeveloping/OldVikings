@@ -90,7 +90,8 @@
       "Description2": "Aanvallen op spelers van andere allianties zijn over het algemeen verboden. Als er bijzondere omstandigheden of conflicten ontstaan, moeten dergelijke acties vooraf besproken en goedgekeurd worden door een R5 of R4 om onnodige stress te vermijden.",
       "Description3": "Het plunderen van vrachtwagens of treinen van je eigen server is niet toegestaan.",
       "Description4": "Hoe aanvallen op je eigen vrachtwagens te vermijden",
-      "Description5": "Het plunderen van geheime missies, zoals Ghost Ops-missies, van je eigen server is niet toegestaan"
+      "Description5": "Het is niet toegestaan om geheime missies en Ghost Ops-missies van je eigen server te plunderen",
+      "Description6": "Hoe plunder ik geheime missies op andere servers"
     },
     "Note": {
       "Title": "Opmerking:",
@@ -582,6 +583,17 @@
       "Title": "Looten van vrachtwagens op je eigen server",
       "Description": "Het is niet toegestaan om vrachtwagens op je eigen server te looten. Om ervoor te zorgen dat dergelijke vrachtwagens niet worden weergegeven, is er een selectievakje dat je kunt aanvinken om alle vrachtwagens van je eigen server te filteren. Vink dit vakje aan om aan de regels te voldoen. De afbeelding hieronder toont waar je het selectievakje kunt vinden.",
       "Image": "Vink het selectievakje aan zoals weergegeven op de afbeelding."
+    },
+    "SecretTasks": {
+      "Title": "Plunderen van geheime missies op andere servers",
+      "Description": "Het is niet toegestaan om geheime missies op onze eigen server te plunderen. Deze moeten uitsluitend op andere servers worden uitgevoerd. Overtredingen kunnen leiden tot waarschuwingen of andere gevolgen.",
+      "Title2": "Hoe plunder ik op andere servers?",
+      "Image": "Geheime Missie",
+      "Image1": "Ga naar het station in je basis en klik op het vrachtwagenpictogram.",
+      "Image2": "Selecteer een vrachtwagen en klik op 'Plunderen'. (Dit werkt ook als je al vier keer hebt geplunderd.)",
+      "Image3": "Je bent nu op een andere server en kunt op zoek gaan naar geheime missies.",
+      "Image4": "Gouden, glanzende missies op niveau 5 zijn het beste wat je kunt vinden.",
+      "Image5": "Deel deze missies gerust in de alliantiechat met de andere spelers."
     }
   },
   "TipsAndTricks": {

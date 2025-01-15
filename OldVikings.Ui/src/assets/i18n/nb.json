@@ -90,7 +90,8 @@
       "Description2": "Angrep på spillere fra andre allianser er generelt forbudt. Dersom spesielle omstendigheter eller konflikter oppstår, må slike handlinger diskuteres og godkjennes på forhånd av en R5 eller R4 for å unngå unødig stress.",
       "Description3": "Raping av lastebiler eller tog fra din egen server er ikke tillatt.",
       "Description4": "Hvordan unngå angrep på dine egne lastebiler",
-      "Description5": "Plyndring av hemmelige oppdrag, som Ghost Ops-oppdrag, fra din egen server er ikke tillatt"
+      "Description5": "Det er ikke tillatt å plyndre hemmelige oppdrag og Ghost Ops-oppdrag fra din egen server",
+      "Description6": "Hvordan plyndre hemmelige oppdrag på andre servere"
     },
     "Note": {
       "Title": "Merk:",
@@ -582,6 +583,17 @@
       "Title": "Ransaking av lastebiler på din egen server",
       "Description": "Det er ikke tillatt å rane lastebiler på din egen server. For å sikre at slike lastebiler ikke vises, er det en avkrysningsboks du kan aktivere for å filtrere ut alle lastebiler fra din egen server. Vennligst merk av denne boksen for å overholde reglene. Bildet nedenfor viser hvor du finner avkrysningsboksen.",
       "Image": "Vennligst aktiver avkrysningsboksen som vist på bildet."
+    },
+    "SecretTasks": {
+      "Title": "Plundring av hemmelige oppdrag på andre servere",
+      "Description": "Det er ikke tillatt å plundre hemmelige oppdrag på vår egen server. Disse må utføres utelukkende på andre servere. Brudd kan føre til advarsler eller ytterligere konsekvenser.",
+      "Title2": "Hvordan plundre på andre servere?",
+      "Image": "Hemmelig Oppdrag",
+      "Image1": "Gå til stasjonen i basen din og klikk på lastebil-ikonet.",
+      "Image2": "Velg en lastebil og klikk på 'Plunder'. (Dette fungerer også hvis du allerede har plundret fire ganger.)",
+      "Image3": "Du er nå på en annen server og kan lete etter hemmelige oppdrag.",
+      "Image4": "Gyldne, skinnende oppdrag på nivå 5 er det beste du kan finne.",
+      "Image5": "Del gjerne disse oppdragene i alliansechatten med de andre spillerne."
     }
   },
   "TipsAndTricks": {

@@ -90,7 +90,8 @@
       "Description2": "Gli attacchi ai giocatori di altre alleanze sono generalmente vietati. Se sorgono circostanze particolari o conflitti, tali azioni devono essere discusse e approvate in anticipo da un R5 o R4 per evitare stress inutile.",
       "Description3": "Il saccheggio di camion o treni del proprio server non è consentito.",
       "Description4": "Come evitare gli attacchi ai propri camion",
-      "Description5": "Il saccheggio di missioni segrete, come le missioni Ghost Ops, dal proprio server non è consentito"
+      "Description5": "Non è consentito saccheggiare missioni segrete e missioni Ghost Ops dal proprio server",
+      "Description6": "Come saccheggiare missioni segrete su altri server"
     },
     "Note": {
       "Title": "Nota:",
@@ -582,6 +583,17 @@
       "Title": "Saccheggio dei camion sul tuo server",
       "Description": "Non è permesso saccheggiare i camion sul tuo server. Per assicurarti che tali camion non vengano visualizzati, c'è una casella che puoi attivare per filtrare tutti i camion dal tuo server. Per favore, spunta questa casella per conformarti alle regole. L'immagine sottostante mostra dove trovare la casella.",
       "Image": "Per favore, attiva la casella come mostrato nell'immagine."
+    },
+    "SecretTasks": {
+      "Title": "Saccheggio delle missioni segrete su altri server",
+      "Description": "Non è permesso saccheggiare missioni segrete sul nostro server. Queste devono essere eseguite esclusivamente su altri server. Le violazioni possono comportare ammonizioni o ulteriori conseguenze.",
+      "Title2": "Come saccheggiare su altri server?",
+      "Image": "Missione Segreta",
+      "Image1": "Vai alla stazione nella tua base e clicca sull'icona del camion.",
+      "Image2": "Seleziona un camion e clicca su 'Saccheggia'. (Funziona anche se hai già saccheggiato quattro volte.)",
+      "Image3": "Ora ti trovi su un altro server e puoi cercare missioni segrete.",
+      "Image4": "Le missioni dorate e scintillanti di livello 5 sono le migliori che puoi trovare.",
+      "Image5": "Condividi volentieri queste missioni nella chat dell'alleanza con gli altri giocatori."
     }
   },
   "TipsAndTricks": {

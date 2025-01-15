@@ -90,7 +90,8 @@
       "Description2": "Attacks on players from other alliances are generally prohibited. If special circumstances or conflicts arise, such actions must be discussed and approved by an R5 or R4 beforehand to avoid unnecessary stress.",
       "Description3": "Plundering trucks or trains from your own server is not allowed.",
       "Description4": "How to avoid attacks on your own trucks",
-      "Description5": "Looting secret missions like Ghost Ops missions from your own server is not allowed"
+      "Description5": "Looting secret tasks and ghost ops tasks from your own server is not allowed",
+      "Description6": "How do I loot secret tasks on other servers"
     },
     "Note": {
       "Title": "Note:",
@@ -586,6 +587,17 @@
       "Title": "Looting Trucks on Your Own Server",
       "Description": "It is not allowed to loot trucks on your own server. To ensure that such trucks do not appear, there is a checkbox that you can activate to filter out all trucks from your own server. Please check this box to comply with the rules. The image below shows where to find the checkbox.",
       "Image": "Please activate the checkbox as shown in the image."
+    },
+    "SecretTasks": {
+      "Title": "Plundering of Secret Tasks on Other Servers",
+      "Description": "It is not allowed to plunder Secret Tasks on our own server. These must be carried out exclusively on other servers. Violations may result in warnings or further consequences.",
+      "Title2": "How to Plunder on Other Servers?",
+      "Image": "Secret Task",
+      "Image1": "Go to the station in your base and click on the truck icon.",
+      "Image2": "Select a truck and click on 'Plunder'. (This also works if you have already plundered four times.)",
+      "Image3": "You are now on another server and can search for secret tasks.",
+      "Image4": "Golden, shiny tasks at level 5 are the best you can find.",
+      "Image5": "Feel free to share these tasks in the alliance chat with other players."
     }
   },
   "TipsAndTricks": {

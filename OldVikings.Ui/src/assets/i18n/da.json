@@ -90,7 +90,8 @@
       "Description2": "Angreb på spillere fra andre alliancer er generelt forbudt. Hvis der opstår særlige omstændigheder eller konflikter, skal sådanne handlinger forudgående diskuteres og godkendes af en R5 eller R4 for at undgå unødvendig stress.",
       "Description3": "Plundring af lastbiler eller tog fra egen server er ikke tilladt.",
       "Description4": "Hvordan undgår jeg angreb på egne lastbiler",
-      "Description5": "Plyndring af hemmelige missioner som Ghost-Ops-missioner fra ens egen server er ikke tilladt"
+      "Description5": "Det er ikke tilladt at plyndre hemmelige missioner og ghost ops missioner fra din egen server",
+      "Description6": "Hvordan plyndrer jeg hemmelige missioner på andre servere"
     },
     "Note": {
       "Title": "Bemærk:",
@@ -586,6 +587,17 @@
       "Title": "Plundring af lastbiler på din egen server",
       "Description": "Det er ikke tilladt at plundre lastbiler på din egen server. For at sikre, at sådanne lastbiler ikke vises, er der en checkbox, som du kan aktivere for at filtrere alle lastbiler fra din egen server. Sørg for at markere denne checkbox for at overholde reglerne. På billedet nedenfor ser du, hvor du finder checkboxen.",
       "Image": "Venligst aktiver checkboxen som vist på billedet."
+    },
+    "SecretTasks": {
+      "Title": "Plundring af hemmelige missioner på andre servere",
+      "Description": "Det er ikke tilladt at plundre hemmelige missioner på vores egen server. Disse skal udelukkende udføres på andre servere. Overtrædelser kan føre til advarsler eller yderligere konsekvenser.",
+      "Title2": "Hvordan plundrer jeg på andre servere?",
+      "Image": "Hemmelig Mission",
+      "Image1": "Gå til stationen i din base og klik på lastbil-ikonet.",
+      "Image2": "Vælg en lastbil og klik på 'Plundre'. (Dette virker også, selvom du allerede har plundret fire gange.)",
+      "Image3": "Du er nu på en anden server og kan søge efter hemmelige missioner.",
+      "Image4": "Gyldne, skinnende missioner på niveau 5 er det bedste, du kan finde.",
+      "Image5": "Del gerne disse missioner i alliancens chat med de andre spillere."
     }
   },
   "TipsAndTricks": {
