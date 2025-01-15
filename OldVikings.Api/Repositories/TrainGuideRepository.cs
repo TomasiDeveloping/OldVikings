@@ -22,26 +22,19 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
 
         string currentPlayer;
         string nextPlayer;
+        var currentIndex = trainGuide.CurrentPlayerIndex;
+        var nextIndex = trainGuide.CurrentPlayerIndex + 1;
 
         if (isWednesday)
         {
             currentPlayer = "MVP";
-            nextPlayer = _players[trainGuide.CurrentPlayerIndex];
+            nextPlayer = _players[nextIndex > 10 ? 0 : nextIndex];
         }
         else
         {
-            currentPlayer = _players[trainGuide.CurrentPlayerIndex];
+            currentPlayer = _players[currentIndex];
 
-            if (today.AddDays(1).DayOfWeek == DayOfWeek.Wednesday)
-            {
-                nextPlayer = "MVP";
-            }
-            else
-            {
-                var listEnd = trainGuide.CurrentPlayerIndex + 1 > 10;
-                nextPlayer = listEnd ? _players[0] : _players[trainGuide.CurrentPlayerIndex + 1];
-            }
-
+            nextPlayer = today.AddDays(1).DayOfWeek == DayOfWeek.Wednesday ? "MVP" : _players[nextIndex > 10 ? 0 : nextIndex];
         }
 
         return new TrainGuideDto()
