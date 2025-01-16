@@ -146,7 +146,8 @@
     "DesertStorm": "Ökenstorm",
     "SeasonOne": "Säsong 1",
     "SeasonTwo": "Säsong 2",
-    "Marshall": "Marskalkvakt"
+    "Marshall": "Marskalkvakt",
+    "Capitol": "Capitol"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -1667,6 +1668,164 @@
         "List7Bold": "Poäng för MVP:",
         "TotalBold": "Totalt:",
         "Total": "104 + 48 = <strong>152 MVP Poäng</strong>"
+      }
+    }
+  },
+  "Capitol": {
+    "Title": "Capitol Hill",
+    "Description": "Capitol Hill huserar presidenten, vice-presidenten (tidigare First Lady, FL) och de tilldelade sekreterarna.",
+    "Description2": "Sekreterarna erbjuder spelaren de tilldelade buffar/förbättringar som ger ett stort fördel för att påskynda spelets framsteg.",
+    "Buffs": {
+      "Title": "Olika typer av buffar som erbjuds av sekreterarna:",
+      "Description": "Platser kan erbjuda olika typer av buffar:",
+      "List1": {
+        "Text": "Ökad hastighet: byggande, forskning, helande, träning",
+        "List": {
+          "List1": "Dessa buffar är bara effektiva när dessa handlingar har startats.",
+          "List2": "Byggande, forskning, helande och träning påverkas inte av denna buff.",
+          "List3": "När en sekreterare är tilldelad en spelare, tillämpas buffen redan på den tid som visas för handlingen (t.ex. den tid som behövs för att bygga en byggnad).",
+          "List4": "För att kunna dra nytta av buffarna krävs en explicita handling från spelaren: när handlingen har startats med den förkortade tiden kommer den inte längre att påverkas även om sekreteraren tas bort."
+        }
+      },
+      "List2": {
+        "Text": "Ökad kapacitet: sjukhuskapacitet",
+        "List": {
+          "List1": "Dina sjukhus kan ta emot fler skadade soldater."
+        }
+      },
+      "List3": {
+        "Text": "Ökad produktion",
+        "List": {
+          "List1": "Fråga sekreteraren om interna frågor när dina produktionsbyggnader (järn, guld, mat) är fulla. Fråga sekreteraren och samla sedan resurser för att öka produktionen."
+        }
+      }
+    },
+    "Example": {
+      "Title": "Exempel på ökad hastighet och förkortad byggtid genom utvecklingssekreterare:"
+    },
+    "Explanation": {
+      "Title": "Förklaring om ökad hastighet",
+      "Description": "När du har tilldelat utvecklingssekreteraren som ökar bygghastigheten med 50 % förväntar du dig att tiden halveras. Detta är inte fallet.",
+      "Description2": "För att förklara detta tydligare, låt oss använda en analogi:",
+      "List1": "För att bygga ditt huvudkontor behöver du 100 block.",
+      "List2": "Din grundläggande hastighet är 1 block per minut.",
+      "List3": "Utan sekreterare tar bygget 100 minuter.",
+      "List4": "Med en 50 % hastighetsökning blir din hastighet 1,5 block per minut. Så byggtiden blir: Tid = Block / Hastighet = 100 block / 1,5 block/min = 66,7 minuter.",
+      "List5": "Utvecklingssekreteraren ökar bygghastigheten med 50 %, vilket förkortar byggtiden med 33 %. ",
+      "Description3": "Så du kommer inte att se tiden förkortas i samma proportion som hastighetsökningen i procent. Detta är viktigt om du vill använda acceleratorer.",
+      "Description4": "Dessutom blir en sekreterare mindre effektiv ju fler buffar som redan är aktiva (via skinn, dekorationer, byar, etc.).",
+      "Description5": "För att fortsätta med analogin:",
+      "List6": "Du har redan en bonus på 100 % bygghastighet, så din hastighet är 2 block per minut.",
+      "List7": "Du får sekreteraren för interna ärenden som ökar hastigheten med 50 % (beräknad från grundhastigheten på 1 block per minut), och din hastighet blir 2,5 block per minut.",
+      "List8": "Istället för en effektivitet (tidsförkortning) på 33 % blir effektiviteten bara 100/2 till 100/2,5, vilket ger en effektivitet på endast 20 % (tidsminskning)."
+    },
+    "Positions": {
+      "Title": "Positioner",
+      "Description": "Följande positioner finns tillgängliga:",
+      "List1": "President",
+      "List2": "Vice-president, tidigare First Lady (FL)",
+      "List3": "Strategisk sekreterare",
+      "List4": "Säkerhetssekreterare",
+      "List5": "Utvecklingssekreterare",
+      "List6": "Vetenskaplig sekreterare",
+      "List7": "Interna ärenden sekreterare"
+    },
+    "President": {
+      "Title": "President",
+      "Description": "Denna titel är knuten till den allians som erövrar Capitol. Presidenten kan tilldela vice-presidenten och alla sekreterare.",
+      "List1": "Hjälte-PV: +5 %",
+      "List2": "Heldens attack: +5 %",
+      "List3": "Heldens försvar: +5 %",
+      "Description2": "Dessa förbättringar tillämpas automatiskt när presidenten har tilldelats."
+    },
+    "VicePresident": {
+      "Title": "Vice-president (VP), tidigare First Lady",
+      "Description": "Presidenten tilldelar vice-presidenten (VP). Vice-presidenten kan tilldela sin efterträdare och alla andra sekreterare, men kan inte tilldela presidenten.",
+      "Description2": "Ökade bygg-, forsknings- och träningshastigheter är bara effektiva när handlingarna har startats. När du är vice-president kommer du märka att tiden redan har förkortats jämfört med den tidigare tiden.",
+      "List1": "Byggnadsförkortning: +20 %",
+      "List2": "Forskningsförkortning: +20 %",
+      "List3": "Träningsförkortning: +10 %",
+      "Description3": "Vice-presidenten hanteras av oss. Fråga denna position endast om det är absolut nödvändigt. Du måste alltid vara online för att lägga till andra spelare från väntelistan."
+    },
+    "SecretaryOfDevelopment": {
+      "Title": "Utvecklingssekreterare",
+      "Description": "Byggnads- och forskningshastigheter är bara effektiva när handlingarna har startats. När du har tilldelat utvecklingssekreteraren kommer du märka att tiden redan har förkortats jämfört med den tidigare tiden.",
+      "Description2": "Pågående bygg- och forskningsaktiviteter påverkas inte av denna buff.",
+      "List1": "Byggnadsförkortning: +50 %",
+      "List2": "Forskningsförkortning: +25 %",
+      "Description3": "När positionen har tilldelats måste du börja bygga eller forska för att dra nytta av den förkortade tiden för handlingen."
+    },
+    "SecretaryOfScience": {
+      "Title": "Vetenskaplig sekreterare",
+      "Description": "Byggnads- och forskningshastigheter är bara effektiva när handlingarna har startats. När du har tilldelat vetenskaplig sekreterare kommer du märka att tiden redan har förkortats jämfört med den tidigare tiden.",
+      "Description2": "Pågående bygg- och forskningsaktiviteter påverkas inte av denna buff.",
+      "List1": "Forskningsförkortning: +50 %",
+      "List2": "Byggnadsförkortning: +25 %",
+      "Description3": "När positionen har tilldelats måste du börja bygga eller forska för att dra nytta av den förkortade tiden för handlingen."
+    },
+    "SecretaryOfInterior": {
+      "Title": "Interna ärenden sekreterare",
+      "List1": "Ökad matproduktion: +100 %",
+      "List2": "Ökad järnproduktion: +100 %",
+      "List3": "Ökad guldproduktion: +100 %",
+      "Description": "För att dra nytta av denna buff måste du vänta tills dina gruvor/järn-, guld- eller matfält är fulla, sedan få den interna ärendesekreteraren och samla resurser. När du har samlat resurser med positionen tillämpas buffen."
+    },
+    "SecretaryOfStrategy": {
+      "Title": "Strategisk sekreterare",
+      "List1": "Sjukhuskapacitet: +20 %",
+      "List2": "Enhetens läkande hastighet: +20 %"
+    },
+    "SecretaryOfSecurity": {
+      "Title": "Säkerhetssekreterare",
+      "Description": "Träningsförkortningar är bara effektiva när handlingarna har startats. När du har tilldelat säkerhetssekreteraren kommer du märka att tiden redan har förkortats jämfört med den tidigare tiden.",
+      "Description2": "Pågående träningar påverkas inte av denna buff.",
+      "List1": "Enhetsträningskapacitet: +20 %",
+      "List2": "Träningsförkortning: +20 %"
+    },
+    "Request": {
+      "Title": "Begär buff/sekratar",
+      "Description": "I denna guide visar vi dig steg för steg hur du kan begära sekreterare för att låsa upp den relaterade buffen.",
+      "Description2": "När du får buffen har du 5 minuter på dig att använda den innan nästa person i kön får sin tur. Det enda undantaget är om det inte finns någon annan i kön.",
+      "Description3": "Vice-president: Fråga denna position endast om du vill utföra denna roll i världschatten och förstår hur denna roll fungerar. Kom ihåg att du alltid måste vara online för att behandla alla förfrågningar i tid.",
+      "Step1": {
+        "Title": "Steg 1",
+        "Description": "Det enklaste sättet att starta ansökningsprocessen är via världskartan. Klicka på din bas och där ser du din profilbild som visas nedan. Klicka på den för att gå vidare.",
+        "Image": "Klicka på din bas och sedan på din profilbild för att börja."
+      },
+      "Step2": {
+        "Title": "Steg 2",
+        "Description": "När du öppnar din profilbild, klicka på knappen till höger som visar servernumret. Se bilden nedan för referens.",
+        "Image": "Klicka på servernummerknappen till höger när du har öppnat din profilbild."
+      },
+      "Step3": {
+        "Title": "Steg 3",
+        "Description": "Nu är du på översiktssidan för de olika sekreterarna. Längst upp till höger, som visas i bilden, kan du ställa in din tidszon till din lokala tid. Detta hjälper dig att hålla reda på buffens varaktighet. Fortsätt genom att välja en sekreterare som utvecklingssekreteraren som visas på bilden.",
+        "Image": "Ställ in din tidszon längst upp till höger på din lokala tid och välj sedan en sekreterare som utveckling."
+      },
+      "Step4": {
+        "Title": "Steg 4",
+        "Description": "Nu är du på visningen för den valda sekreteraren. Här kan du se:",
+        "List1": "Vem som får buffen.",
+        "List2": "Hur många personer som står i kön för buffen.",
+        "Description2": "Som visas på bilden, klicka på knappen 'Begär om' för att starta ansökan.",
+        "Image": "Klicka på 'Begär om' för att börja, som visas på bilden."
+      },
+      "Step5": {
+        "Title": "Steg 5",
+        "Description": "Efter din ansökan kommer du att läggas till i kön, som visas nedan. Nu måste du vänta tills vice-presidenten lägger till dig i kön.",
+        "Description2": "⚠️ Viktigt: Som nämnts tidigare ska endast personer som förstår hur detta arbete fungerar be om att bli vice-president. Vice-presidenten måste säkerställa att alla ansökningar behandlas i tid.",
+        "Image": "Efter din ansökan läggs du till i kön. Vänta tills vice-presidenten lägger till dig."
+      },
+      "Step6": {
+        "Title": "Steg 6",
+        "Description": "När du är i kön kan du se när din tur kommer i tidsfönstret (se bilden nedan).",
+        "Description2": "⚠️ Kom ihåg: Du har endast 5 minuter på dig att använda buffen innan nästa tur kommer! Planera bra för att använda din tid optimalt.",
+        "Image": "Se tidsfönstret för att se när din tur kommer."
+      },
+      "Step7": {
+        "Title": "Steg 7",
+        "Description": "När det är din tur kommer du att få buffen, som visas på bilden nedan. Nu har du 5 minuter på dig att använda buffen innan nästa person i kön får den.",
+        "Image": "När det är din tur har du 5 minuter på dig att använda buffen."
       }
     }
   }

@@ -146,7 +146,8 @@
     "DesertStorm": "Ørkenstorm",
     "SeasonOne": "Sæson 1",
     "SeasonTwo": "Sæson 2",
-    "Marshall": "Marschallvagt"
+    "Marshall": "Marschallvagt",
+    "Capitol": "Kapitol"
   },
   "VS": {
     "Title": "VS Duel",
@@ -1667,6 +1668,164 @@
         "List7Bold": "Point for MVP:",
         "TotalBold": "I alt:",
         "Total": "104 + 48 = <strong>152 MVP-point</strong>"
+      }
+    }
+  },
+  "Capitol": {
+    "Title": "Kapitol",
+    "Description": "Kapitol vil huse præsidenten, vicepræsidenten (tidligere kendt som First Lady, FL) og de udpegede sekretærer.",
+    "Description2": "Sekretærer giver spilleren, som de er tildelt, styrkelse/boost og giver en stor fordel i at fremskynde spillets fremskridt.",
+    "Buffs": {
+      "Title": "Typer af buffs, som sekretærer tilbyder:",
+      "Description": "Positionerne kan tilbyde forskellige typer buffs:",
+      "List1": {
+        "Text": "Hastighedsforøgelse: Bygning, forskning, helbredelse, træning",
+        "List": {
+          "List1": "Disse boosts kan kun være effektive, når disse operationer startes",
+          "List2": "Løbende bygninger, forskning, helbredelse og træning påvirkes ikke af denne buff",
+          "List3": "Når sekretæren er tildelt en spiller, tages buffs allerede i betragtning i den tid, der vises af spillet for operationen (dvs. tid til bygning af bygning)",
+          "List4": "For at drage fordel af buffs kræves en eksplicit handling fra spilleren: Når operationen er startet med den reducerede tid, vil den ikke længere blive påvirket, uanset om spilleren fjerner sekretæren"
+        }
+      },
+      "List2": {
+        "Text": "Kapacitetsforøgelse: Hospitalskapacitet",
+        "List": {
+          "List1": "Dine hospitaler kan rumme flere sårede soldater."
+        }
+      },
+      "List3": {
+        "Text": "Produktionsforøgelse",
+        "List": {
+          "List1": "Anmod om sekretæren for indre anliggender, når dine produktionsbygninger (jern/guld/mad) er fulde. Få sekretæren og saml derefter ressourcerne for at få en større mængde ressourcer."
+        }
+      }
+    },
+    "Example": {
+      "Title": "Eksempel på en hastighedsforøgelse og tidsforkortelse ved bygning via udviklingssekretæren:"
+    },
+    "Explanation": {
+      "Title": "Forklaring på hastighedsforøgelsen",
+      "Description": "Når du tildeles udviklingssekretæren, som øger din byggehastighed med 50 %, ville du forvente, at tiden halveres. Men sådan fungerer det ikke.",
+      "Description2": "For at forklare det bedre, lad os bruge en analogi:",
+      "List1": "For at bygge et hovedkvarter kræves der 100 blokke",
+      "List2": "Din oprindelige hastighed er 1 blok per minut",
+      "List3": "Uden sekretæren ville bygningen tage 100 minutter",
+      "List4": "Med en hastighedsforøgelse på 50 % stiger din hastighed til 1,5 blokke per minut. Den nye byggetid er således: Tid = Blokke / Hastighed = 100 blokke / 1,5 blokke/minut = 66,7 minutter",
+      "List5": "Udviklingssekretæren øger din byggehastighed med 50 %, hvilket reducerer byggetiden med 33 %.",
+      "Description3": "Du vil derfor ikke bemærke, at din tid forkortes i samme omfang som hastighedsprocenten øges. Tænk på det, hvis du ønsker at bruge accelerationer.",
+      "Description4": "Derudover er en sekretær i forhold til udgangspunktet mindre effektiv, jo flere buffs du allerede har (via skins, dekorationer, landsbyer osv.).",
+      "Description5": "For at fortsætte analogien:",
+      "List6": "Du har allerede en 100 % byggehastigheds-boost, så din hastighed er 2 blokke per minut",
+      "List7": "Du får sekretæren for indre anliggender, som øger din hastighed med 50 % (beregnet ud fra den oprindelige hastighed på 1 blok per minut), så din hastighed bliver 2,5 blokke per minut",
+      "List8": "I stedet for en effektivitet (tidsforkortelse) på 33 % vil effektiviteten være 100/2 til 100/2,5, hvilket giver en effektivitet på kun 20 % (tidsforkortelse)"
+    },
+    "Positions": {
+      "Title": "Positioner",
+      "Description": "Der er følgende positioner:",
+      "List1": "Præsident",
+      "List2": "Vicepræsident, også kendt som VP (tidligere First Lady eller FL)",
+      "List3": "Sekretær for strategi",
+      "List4": "Sekretær for sikkerhed",
+      "List5": "Sekretær for udvikling",
+      "List6": "Sekretær for videnskab",
+      "List7": "Sekretær for indre anliggender"
+    },
+    "President": {
+      "Title": "Præsident",
+      "Description": "Denne titel er forbeholdt den alliance, der har erobret hovedstaden. Præsidenten kan udnævne vicepræsidenten samt alle sekretærer.",
+      "List1": "Helte-HP: +5 %",
+      "List2": "Helteangreb: +5 %",
+      "List3": "Helteforsvar: +5 %",
+      "Description2": "Disse forbedringer anvendes automatisk, når præsidenten er blevet udnævnt."
+    },
+    "VicePresident": {
+      "Title": "Vicepræsident (VP) tidligere First Lady",
+      "Description": "Præsidenten udnævner vicepræsidenten, også kaldet VP. Vicepræsidenten kan udnævne sin efterfølger samt alle andre sekretærer, men VP kan ikke udnævne præsidenten.",
+      "Description2": "Accelerationer af bygning, forskning og træning bliver kun effektive, når du starter operationen. Når du er vicepræsident, vil du se, at den nødvendige tid allerede er reduceret i forhold til den tidligere tid.",
+      "List1": "Bygningsacceleration: +20 %",
+      "List2": "Forskningshastighed: +20 %",
+      "List3": "Træningshastighed: +10 %",
+      "Description3": "Vicepræsidenten administreres af os. Ansøg kun om denne position, hvis der faktisk er behov. Du skal altid være online for at tilføje andre spillere fra ventelisten."
+    },
+    "SecretaryOfDevelopment": {
+      "Title": "Sekretær for udvikling",
+      "Description": "Bygnings- og forskningsaccelerationen bliver kun effektiv, når du starter operationen. Når du har udviklingssekretæren, vil du se, at den nødvendige tid allerede er reduceret i forhold til den tidligere tid.",
+      "Description2": "Løbende bygninger og forskning påvirkes ikke af denne buff.",
+      "List1": "Bygningsacceleration: +50 %",
+      "List2": "Forskningshastighed: +25 %",
+      "Description3": "Når positionen er tildelt, skal du begynde at bygge eller forske for at drage fordel af den forkortede driftstid."
+    },
+    "SecretaryOfScience": {
+      "Title": "Sekretær for videnskab",
+      "Description": "Bygnings- og forskningsaccelerationen bliver kun effektiv, når du starter operationen. Når du har videnskabssekretæren, vil du se, at den nødvendige tid allerede er reduceret i forhold til den tidligere tid.",
+      "Description2": "Løbende bygninger og forskningsprojekter påvirkes ikke af denne buff.",
+      "List1": "Forskningshastighed: +50 %",
+      "List2": "Bygningsacceleration: +25 %",
+      "Description3": "Når positionen er tildelt, skal du begynde at bygge eller forske for at drage fordel af den forkortede driftstid."
+    },
+    "SecretaryOfInterior": {
+      "Title": "Sekretær for indre anliggender",
+      "List1": "Forøgelse af madproduktion: +100 %",
+      "List2": "Forøgelse af jernproduktion: +100 %",
+      "List3": "Forøgelse af møntproduktion: +100 %",
+      "Description": "For at udnytte denne buff fuldt ud skal du vente, indtil dine jern-, mønt- eller madminer/marker er fulde, så tage positionen som sekretær for indre anliggender og derefter indsamle ressourcerne. Når ressourcerne er indsamlet med positionen, anvendes boostet."
+    },
+    "SecretaryOfStrategy": {
+      "Title": "Sekretær for strategi",
+      "List1": "Hospitalskapacitet: +20 %",
+      "List2": "Enhedshelbredelsesrate: +20 %"
+    },
+    "SecretaryOfSecurity": {
+      "Title": "Sekretær for sikkerhed",
+      "Description": "Forbedringer af træningshastighed bliver kun effektive, når du starter operationen. Når du har sekretæren for sikkerhed, vil du se, at den nødvendige tid allerede er reduceret i forhold til den tidligere tid.",
+      "Description2": "Løbende træning påvirkes ikke af denne buff.",
+      "List1": "Træningsgrænse for enheder: +20 %",
+      "List2": "Træningshastighed: +20 %"
+    },
+    "Request": {
+      "Title": "Anmod om en buff/sekretær",
+      "Description": "I denne vejledning viser vi trin for trin, hvordan du ansøger om at blive sekretær for at låse den tilknyttede buff op.",
+      "Description2": "Når du har fået buffen, har du 5 minutter til at bruge den, før den næste ansøger kommer på tur. En undtagelse gælder kun, hvis der ikke er flere i køen.",
+      "Description3": "Vicepræsident: Ansøg kun, hvis der aktivt søges efter denne position i verdenschatten, og du ved præcis, hvordan denne rolle fungerer. Vær opmærksom på, at du konstant skal være online for at behandle alle ansøgninger til tiden.",
+      "Step1": {
+        "Title": "Trin 1",
+        "Description": "Den nemmeste måde at starte ansøgningsprocessen på er via verdenskortet. Klik på din base, og derefter vil du se dit profilbillede som vist nedenfor. Klik på det for at fortsætte.",
+        "Image": "Klik på din base og derefter på dit profilbillede for at starte."
+      },
+      "Step2": {
+        "Title": "Trin 2",
+        "Description": "Når du har åbnet dit profilbillede, skal du klikke på knappen på højre side, der viser servernummeret. Se billedet nedenfor som reference.",
+        "Image": "Klik på knappen med servernummeret til højre efter at have åbnet dit profilbillede."
+      },
+      "Step3": {
+        "Title": "Trin 3",
+        "Description": "Nu er du på oversigtssiden for de forskellige sekretærer. Øverst til højre kan du, som vist på billedet, ændre tiden til din lokale tid. Dette hjælper dig med at holde styr på buffens varighed. For at fortsætte skal du vælge en sekretær – f.eks. udviklingssekretæren, som vist på billedet.",
+        "Image": "Indstil tiden øverst til højre lokalt og vælg en sekretær, f.eks. udvikling."
+      },
+      "Step4": {
+        "Title": "Trin 4",
+        "Description": "Nu er du i visningen for den valgte sekretær. Her kan du se:",
+        "List1": "Hvem der er på tur.",
+        "List2": "Hvor mange personer der er i køen, som også venter på buffen.",
+        "Description2": "Som vist på billedet nedenfor, klik på knappen 'Ansøg' for at starte din ansøgning.",
+        "Image": "Klik på 'Ansøg' for at starte, som vist på billedet."
+      },
+      "Step5": {
+        "Title": "Trin 5",
+        "Description": "Efter din ansøgning vil du blive optaget i ansøgningslisten, som set på billedet nedenfor. Nu skal du vente, indtil vicepræsidenten optager dig i køen.",
+        "Description2": "⚠️ Vigtigt: Som beskrevet ovenfor bør kun nogen ansøge som vicepræsident, som ved præcist, hvordan jobbet fungerer. Vicepræsidenten skal sikre, at alle ansøgninger behandles til tiden.",
+        "Image": "Efter ansøgningen bliver du optaget på listen. Vent på, at vicepræsidenten optager dig."
+      },
+      "Step6": {
+        "Title": "Trin 6",
+        "Description": "Når du er blevet optaget i køen, kan du se, hvornår du er på tur i tidsvinduet (se billede nedenfor).",
+        "Description2": "⚠️ Husk: Du har kun 5 minutter til at bruge buffen, før den næste i køen er på tur. Planlæg derfor godt for at få mest muligt ud af din tid!",
+        "Image": "Se tidsvinduet for at se, hvornår du er på tur."
+      },
+      "Step7": {
+        "Title": "Trin 7",
+        "Description": "Når det er din tur, har du nu fået buffen, som vist på billedet nedenfor. Du har nu 5 minutter til at bruge denne buff, før den næste i køen får turen.",
+        "Image": "Når du er på tur, har du 5 minutter til at bruge buffen."
       }
     }
   }

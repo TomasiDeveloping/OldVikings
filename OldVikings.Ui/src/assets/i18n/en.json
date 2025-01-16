@@ -146,7 +146,8 @@
     "DesertStorm": "Desert Storm",
     "SeasonOne": "Season 1",
     "SeasonTwo": "Season 2",
-    "Marshall": "Marshal Guard"
+    "Marshall": "Marshal Guard",
+    "Capitol": "Capitol"
   },
   "VS": {
     "Title": "VS Duel",
@@ -1667,6 +1668,164 @@
         "List7Bold": "Points for MVP:",
         "TotalBold": "Total:",
         "Total": "104 + 48 = <strong>152 MVP Points</strong>"
+      }
+    }
+  },
+  "Capitol": {
+    "Title": "The Capitol",
+    "Description": "The Capitol will house the President, the Vice President (formerly known as First Lady, FL), and the appointed Secretaries.",
+    "Description2": "Secretaries provide the player they are assigned to with boosts and advantages, helping them progress faster in the game.",
+    "Buffs": {
+      "Title": "Types of Buffs that Secretaries Offer:",
+      "Description": "The positions can offer various types of buffs:",
+      "List1": {
+        "Text": "Speed Boost: Construction, Research, Healing, Training",
+        "List": {
+          "List1": "These boosts only take effect when starting these operations",
+          "List2": "Ongoing constructions, research, healing, and training are not affected by this buff",
+          "List3": "Once the secretary is assigned to a player, the buffs are already accounted for in the operation's displayed time (i.e., construction time for a building)",
+          "List4": "To take advantage of the buffs, an explicit action by the player is required: Once the operation with the shortened time has started, it will not be affected, regardless of whether the player removes the secretary"
+        }
+      },
+      "List2": {
+        "Text": "Capacity Extensions: Hospital Capacity",
+        "List": {
+          "List1": "Your hospitals can accommodate more injured soldiers."
+        }
+      },
+      "List3": {
+        "Text": "Increase in Production Output",
+        "List": {
+          "List1": "Request the Interior Secretary when your production buildings (iron/gold/food) are full. Obtain the secretary and then collect the resources to get a larger amount of resources"
+        }
+      }
+    },
+    "Example": {
+      "Title": "Example of a Speed Boost and Reduced Construction Time by the Development Secretary:"
+    },
+    "Explanation": {
+      "Title": "Explanation of the Speed Increase",
+      "Description": "When the Development Secretary is assigned to you, who increases your construction speed by 50%, you would expect the time to be halved. However, it doesn’t work that way.",
+      "Description2": "To better explain, we use an analogy:",
+      "List1": "100 blocks are required to build a headquarters",
+      "List2": "Your initial speed is 1 block per minute",
+      "List3": "Without a secretary, the construction would therefore take 100 minutes",
+      "List4": "With a 50% speed boost, your speed increases to 1.5 blocks per minute. The new construction time would be: Time = Blocks / Speed = 100 blocks / 1.5 blocks/minute = 66.7 minutes",
+      "List5": "The Development Secretary increases your construction speed by 50%, which shortens the construction time by 33%.",
+      "Description3": "So, you won’t notice the time reduction in the same proportion as the speed increase percentage. Keep this in mind when using accelerations.",
+      "Description4": "Additionally, a secretary is less effective compared to the initial time the more buffs you already have (through skins, decorations, villages, etc.).",
+      "Description5": "Continuing the above analogy:",
+      "List6": "You already have a 100% construction speed buff, so your speed is 2 blocks per minute",
+      "List7": "You obtain the Interior Secretary, who increases your speed by 50% (calculated from the initial speed of 1 block per minute) to 2.5 blocks per minute",
+      "List8": "Instead of an effectiveness (time reduction) of 33%, the effectiveness would be 100/2 to 100/2.5, which results in an effectiveness of just 20% (time reduction)"
+    },
+    "Positions": {
+      "Title": "Positions",
+      "Description": "The following positions exist:",
+      "List1": "President",
+      "List2": "Vice President, also known as VP (formerly First Lady or FL)",
+      "List3": "Secretary of Strategy",
+      "List4": "Secretary of Security",
+      "List5": "Secretary of Development",
+      "List6": "Secretary of Science",
+      "List7": "Secretary of the Interior"
+    },
+    "President": {
+      "Title": "President",
+      "Description": "This title is reserved for the alliance that has conquered the capital. The President can appoint the Vice President and all Secretaries.",
+      "List1": "Increase Hero HP: +5%",
+      "List2": "Increase Hero Attack: +5%",
+      "List3": "Increase Hero Defense: +5%",
+      "Description2": "These improvements are automatically applied once the President is appointed."
+    },
+    "VicePresident": {
+      "Title": "Vice President (VP) formerly First Lady",
+      "Description": "The President appoints the Vice President, also known as VP. The Vice President can appoint their successor and all other Secretaries, but the VP cannot appoint the President.",
+      "Description2": "Accelerations for construction, research, and training only take effect when you initiate the operation. Once you become Vice President, you will see that the required time has already been reduced compared to the previous time.",
+      "List1": "Construction Acceleration: +20%",
+      "List2": "Research Speed: +20%",
+      "List3": "Training Speed: +10%",
+      "Description3": "The Vice President is managed by us. Apply for this position only if there is a real need. You must always be online to add other players to the waiting list."
+    },
+    "SecretaryOfDevelopment": {
+      "Title": "Secretary of Development",
+      "Description": "Construction and research acceleration only takes effect when you initiate the operation. Once you have the Secretary of Development, you will see that the required time has already been reduced compared to the previous time.",
+      "Description2": "Ongoing constructions and researches are not affected by this buff.",
+      "List1": "Construction Acceleration: +50%",
+      "List2": "Research Speed: +25%",
+      "Description3": "Once the position is assigned, begin building or researching to take advantage of the shortened operation time."
+    },
+    "SecretaryOfScience": {
+      "Title": "Secretary of Science",
+      "Description": "Construction and research acceleration only takes effect when you initiate the operation. Once you have the Secretary of Science, you will see that the required time has already been reduced compared to the previous time.",
+      "Description2": "Ongoing constructions and researches are not affected by this buff.",
+      "List1": "Research Speed: +50%",
+      "List2": "Construction Acceleration: +25%",
+      "Description3": "Once the position is assigned, begin building or researching to take advantage of the shortened operation time."
+    },
+    "SecretaryOfInterior": {
+      "Title": "Secretary of the Interior",
+      "List1": "Increase Food Production: +100%",
+      "List2": "Increase Iron Output: +100%",
+      "List3": "Increase Coin Production: +100%",
+      "Description": "To fully utilize this buff, you must wait until your iron, coin, or food mines/fields are full, then take the Secretary of the Interior position and collect the resources. Once the resources are gathered with the position, the boost will be applied."
+    },
+    "SecretaryOfStrategy": {
+      "Title": "Secretary of Strategy",
+      "List1": "Hospital Capacity: +20%",
+      "List2": "Unit Healing Rate: +20%"
+    },
+    "SecretaryOfSecurity": {
+      "Title": "Secretary of Security",
+      "Description": "Training speed increases only take effect when you initiate the operation. Once you have the Secretary of Security, you will see that the required time has already been reduced compared to the previous time.",
+      "Description2": "Ongoing training is not affected by this buff.",
+      "List1": "Unit Training Cap: +20%",
+      "List2": "Training Speed: +20%"
+    },
+    "Request": {
+      "Title": "Request a Buff/Secretary",
+      "Description": "This guide will show you step by step how to apply for the role of a secretary to unlock the associated buff.",
+      "Description2": "Once you receive the buff, you have 5 minutes to use it before the next applicant comes up. An exception applies only if no one else is in the queue.",
+      "Description3": "Vice President: Apply only if someone is actively looking for the position in the world chat and you fully understand how this role works. Also, make sure you are always online to process all applications in time.",
+      "Step1": {
+        "Title": "Step 1",
+        "Description": "The easiest way to start the application process is through the world map. Click on your base. Then, as shown in the image below, click your profile picture to continue.",
+        "Image": "Click on your base and then on your profile picture to start."
+      },
+      "Step2": {
+        "Title": "Step 2",
+        "Description": "After opening your profile picture, click on the button on the right showing the server number. See the image below for reference.",
+        "Image": "Click on the button with the server number on the right after opening your profile picture."
+      },
+      "Step3": {
+        "Title": "Step 3",
+        "Description": "You are now on the overview page of the different secretaries. In the top right corner, you can, as shown in the image, adjust the time to your local time. This helps you keep track of the buff duration. To proceed, click on a secretary – for example, the Secretary of Development as shown below.",
+        "Image": "Set the time to local time in the top right and select a secretary, e.g., Development."
+      },
+      "Step4": {
+        "Title": "Step 4",
+        "Description": "You are now in the selected secretary's view. Here you can see:",
+        "List1": "Who is currently next in line.",
+        "List2": "How many people are in the queue waiting for the buff.",
+        "Description2": "As shown in the image below, click the 'Apply' button to start your application.",
+        "Image": "Click 'Apply' to start, as shown in the image."
+      },
+      "Step5": {
+        "Title": "Step 5",
+        "Description": "After applying, you will be added to the application list, as shown in the image below. Now, wait for the Vice President to add you to the queue.",
+        "Description2": "⚠️ Important: As described above, only someone who fully understands how the job works should apply as Vice President. The Vice President must ensure that all applications are processed on time.",
+        "Image": "After applying, you will appear in the list. Wait until the Vice President adds you to the queue."
+      },
+      "Step6": {
+        "Title": "Step 6",
+        "Description": "Once you are added to the queue, you can see in the time display (see image below) when you will be up next.",
+        "Description2": "⚠️ Note: You only have 5 minutes to use the buff before the next person in the queue gets their turn. Plan ahead to make the best use of your time!",
+        "Image": "Check the time display to see when you're up."
+      },
+      "Step7": {
+        "Title": "Step 7",
+        "Description": "Once it's your turn, you will have received the buff, as shown in the image below. You now have 5 minutes to use this buff before the next person in the queue gets their turn.",
+        "Image": "Once it's your turn, you have 5 minutes to use the buff."
       }
     }
   }

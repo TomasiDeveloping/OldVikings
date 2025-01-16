@@ -146,7 +146,8 @@
     "DesertStorm": "Tempesta del deserto",
     "SeasonOne": "Stagione 1",
     "SeasonTwo": "Stagione 2",
-    "Marshall": "Guardia del Maresciallo"
+    "Marshall": "Guardia del Maresciallo",
+    "Capitol": "Capitol"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -1663,6 +1664,164 @@
         "List7Bold": "Punti per MVP:",
         "TotalBold": "Totale:",
         "Total": "104 + 48 = <strong>152 Punti MVP</strong>"
+      }
+    }
+  },
+  "Capitol": {
+    "Title": "Capitol Hill",
+    "Description": "Il Capitol ospiterà il presidente, il vice-presidente (precedentemente noto come First Lady, FL) e i segretari assegnati.",
+    "Description2": "I segretari forniscono al giocatore a cui sono assegnati miglioramenti/buff che offrono un grande vantaggio per accelerare il progresso nel gioco.",
+    "Buffs": {
+      "Title": "Tipi di buff offerti dai segretari:",
+      "Description": "I posti possono offrire diversi tipi di buff:",
+      "List1": {
+        "Text": "Aumento della velocità: costruzione, ricerca, guarigione, formazione",
+        "List": {
+          "List1": "Questi buff sono efficaci solo quando queste azioni vengono avviate.",
+          "List2": "Le costruzioni in corso, le ricerche, le guarigioni e le formazioni non sono influenzate da questo buff.",
+          "List3": "Quando un segretario è assegnato a un giocatore, i buff sono già considerati nel tempo visualizzato per l'azione (ad esempio, il tempo per costruire un edificio).",
+          "List4": "Per beneficiare dei buff, è necessaria un'azione esplicita del giocatore: una volta che l'azione è stata avviata con il tempo ridotto, non sarà più influenzata anche se il segretario viene rimosso."
+        }
+      },
+      "List2": {
+        "Text": "Aumento della capacità: capacità ospedaliera",
+        "List": {
+          "List1": "I tuoi ospedali possono ospitare più soldati feriti."
+        }
+      },
+      "List3": {
+        "Text": "Aumento della produzione",
+        "List": {
+          "List1": "Richiedi al segretario degli affari interni quando i tuoi edifici di produzione (ferro, oro, cibo) sono pieni. Ottieni il segretario e raccogli quindi le risorse per aumentare la produzione."
+        }
+      }
+    },
+    "Example": {
+      "Title": "Esempio di aumento della velocità e riduzione del tempo di costruzione tramite il segretario dello sviluppo:"
+    },
+    "Explanation": {
+      "Title": "Spiegazione dell'aumento della velocità",
+      "Description": "Quando assegni il segretario dello sviluppo che aumenta la velocità di costruzione del 50%, ti aspetti che il tempo venga ridotto della metà. Tuttavia, non funziona così.",
+      "Description2": "Per spiegarlo più chiaramente, usiamo un'analogia:",
+      "List1": "Per costruire il quartier generale, hai bisogno di 100 blocchi",
+      "List2": "La tua velocità di base è di 1 blocco al minuto",
+      "List3": "Senza il segretario, la costruzione richiederà 100 minuti",
+      "List4": "Con un aumento della velocità del 50%, la tua velocità diventa 1,5 blocchi al minuto. Quindi il tempo di costruzione sarà: Tempo = Blocchi / Velocità = 100 blocchi / 1,5 blocchi/minuto = 66,7 minuti",
+      "List5": "Il segretario dello sviluppo aumenta la tua velocità di costruzione del 50%, riducendo il tempo di costruzione del 33%.",
+      "Description3": "Quindi, non noterai che il tuo tempo è ridotto nella stessa proporzione dell'aumento percentuale della velocità. Questo è importante se desideri utilizzare accelerazioni.",
+      "Description4": "Inoltre, un segretario è meno efficace rispetto al punto di partenza man mano che più buff sono già attivi (tramite skin, decorazioni, villaggi, ecc.).",
+      "Description5": "Per continuare con l'analogia:",
+      "List6": "Hai già un bonus del 100% sulla velocità di costruzione, quindi la tua velocità è di 2 blocchi al minuto",
+      "List7": "Ottieni il segretario degli affari interni che aumenta la tua velocità del 50% (calcolato dalla velocità di base di 1 blocco al minuto), aumentando la tua velocità a 2,5 blocchi al minuto.",
+      "List8": "Piuttosto che un'efficienza (riduzione del tempo) del 33%, l'efficienza sarà del 100/2 a 100/2,5, che equivale a un'efficienza del solo 20% (riduzione del tempo)."
+    },
+    "Positions": {
+      "Title": "Posti",
+      "Description": "Esistono i seguenti posti:",
+      "List1": "Presidente",
+      "List2": "Vice-presidente, noto anche come VP (precedentemente First Lady o FL)",
+      "List3": "Segretario alla strategia",
+      "List4": "Segretario alla sicurezza",
+      "List5": "Segretario allo sviluppo",
+      "List6": "Segretario alla scienza",
+      "List7": "Segretario agli affari interni"
+    },
+    "President": {
+      "Title": "Presidente",
+      "Description": "Questo titolo è riservato all'alleanza che ha conquistato il Capitol. Il presidente può nominare il vice-presidente e tutti i segretari.",
+      "List1": "PV degli eroi: +5 %",
+      "List2": "Attacco degli eroi: +5 %",
+      "List3": "Difesa degli eroi: +5 %",
+      "Description2": "Questi miglioramenti si applicano automaticamente una volta che il presidente è stato nominato."
+    },
+    "VicePresident": {
+      "Title": "Vice-presidente (VP) precedentemente First Lady",
+      "Description": "Il presidente nomina il vice-presidente, noto anche come VP. Il vice-presidente può nominare il suo successore e tutti gli altri segretari, ma non può nominare il presidente.",
+      "Description2": "Le accelerazioni di costruzione, ricerca e formazione diventano efficaci solo quando le azioni sono state avviate. Quando sei vice-presidente, vedrai che il tempo è già ridotto rispetto al tempo precedente.",
+      "List1": "Accelerazione della costruzione: +20 %",
+      "List2": "Velocità di ricerca: +20 %",
+      "List3": "Velocità di formazione: +10 %",
+      "Description3": "Il vice-presidente è gestito da noi. Non chiedere questa posizione se non è assolutamente necessario. Devi essere sempre online per aggiungere altri giocatori dalla lista d'attesa."
+    },
+    "SecretaryOfDevelopment": {
+      "Title": "Segretario dello sviluppo",
+      "Description": "L'accelerazione della costruzione e della ricerca diventa efficace solo quando le azioni sono state avviate. Quando hai il segretario dello sviluppo, vedrai che il tempo è già ridotto rispetto al tempo precedente.",
+      "Description2": "Le costruzioni in corso e le ricerche non sono influenzate da questo buff.",
+      "List1": "Accelerazione della costruzione: +50 %",
+      "List2": "Velocità di ricerca: +25 %",
+      "Description3": "Quando il posto è assegnato, devi iniziare a costruire o ricercare per godere del tempo ridotto per l'azione."
+    },
+    "SecretaryOfScience": {
+      "Title": "Segretario della scienza",
+      "Description": "L'accelerazione della costruzione e della ricerca diventa efficace solo quando le azioni sono state avviate. Quando hai il segretario della scienza, vedrai che il tempo è già ridotto rispetto al tempo precedente.",
+      "Description2": "Le costruzioni in corso e le ricerche non sono influenzate da questo buff.",
+      "List1": "Velocità di ricerca: +50 %",
+      "List2": "Accelerazione della costruzione: +25 %",
+      "Description3": "Quando il posto è assegnato, devi iniziare a costruire o ricercare per godere del tempo ridotto per l'azione."
+    },
+    "SecretaryOfInterior": {
+      "Title": "Segretario agli affari interni",
+      "List1": "Aumento della produzione di cibo: +100 %",
+      "List2": "Aumento della produzione di ferro: +100 %",
+      "List3": "Aumento della produzione di monete: +100 %",
+      "Description": "Per massimizzare questo buff, devi aspettare che le tue miniere/campi di ferro, oro o cibo siano pieni, quindi prendi il posto di segretario degli affari interni e raccogli le risorse. Una volta raccolte le risorse con il posto, il buff viene applicato."
+    },
+    "SecretaryOfStrategy": {
+      "Title": "Segretario alla strategia",
+      "List1": "Capacità ospedaliera: +20 %",
+      "List2": "Tasso di guarigione delle unità: +20 %"
+    },
+    "SecretaryOfSecurity": {
+      "Title": "Segretario alla sicurezza",
+      "Description": "I miglioramenti della velocità di formazione diventano efficaci solo quando le azioni sono state avviate. Quando hai il segretario della sicurezza, vedrai che il tempo è già ridotto rispetto al tempo precedente.",
+      "Description2": "La formazione in corso non è influenzata da questo buff.",
+      "List1": "Limite di formazione delle unità: +20 %",
+      "List2": "Velocità di formazione: +20 %"
+    },
+    "Request": {
+      "Title": "Richiedere un buff/segretario",
+      "Description": "In questa guida ti mostriamo passo dopo passo come richiedere di diventare segretario per sbloccare il buff associato.",
+      "Description2": "Quando ottieni il buff, hai 5 minuti per usarlo prima che la prossima persona nella coda riceva il suo turno. L'unica eccezione è se non c'è nessun altro nella coda.",
+      "Description3": "Vice-presidente: Richiedi questa posizione solo se desideri davvero svolgere questo ruolo nel chat globale e comprendi come funziona questo ruolo. Nota che devi essere sempre online per trattare tutte le richieste in tempo.",
+      "Step1": {
+        "Title": "Passo 1",
+        "Description": "Il modo più semplice per avviare il processo di richiesta è tramite la mappa globale. Fai clic sulla tua base, quindi vedrai la tua immagine del profilo come illustrato qui sotto. Fai clic su di essa per continuare.",
+        "Image": "Fai clic sulla tua base e quindi sulla tua immagine del profilo per iniziare."
+      },
+      "Step2": {
+        "Title": "Passo 2",
+        "Description": "Quando apri la tua immagine del profilo, fai clic sul pulsante a destra che mostra il numero del server. Consulta l'immagine qui sotto come riferimento.",
+        "Image": "Fai clic sul pulsante del numero del server a destra dopo aver aperto la tua immagine del profilo."
+      },
+      "Step3": {
+        "Title": "Passo 3",
+        "Description": "Ora sei nella pagina di panoramica dei vari segretari. In alto a destra, come mostrato nell'immagine, puoi cambiare l'orario in quello locale. Questo ti aiuterà a tenere traccia della durata del buff. Per continuare, seleziona un segretario, ad esempio il segretario dello sviluppo come mostrato nell'immagine.",
+        "Image": "Imposta l'orario in alto a destra sulla tua ora locale e quindi seleziona un segretario, come lo sviluppo."
+      },
+      "Step4": {
+        "Title": "Passo 4",
+        "Description": "Ora sei nella vista del segretario selezionato. Qui puoi vedere:",
+        "List1": "Chi sta ricevendo un buff.",
+        "List2": "Quante persone ci sono nella coda per il buff.",
+        "Description2": "Come mostrato nell'immagine, fai clic sul pulsante 'Richiedi' per iniziare la tua richiesta.",
+        "Image": "Fai clic su 'Richiedi' per iniziare, come mostrato nell'immagine."
+      },
+      "Step5": {
+        "Title": "Passo 5",
+        "Description": "Dopo la tua richiesta, sarai aggiunto alla lista delle richieste, come mostrato nell'immagine qui sotto. Ora dovrai aspettare che il vice-presidente ti aggiunga alla coda.",
+        "Description2": "⚠️ Importante: Come detto prima, solo qualcuno che capisce come funziona questo lavoro dovrebbe richiedere di diventare vice-presidente. Il vice-presidente deve assicurarsi che tutte le richieste vengano trattate in tempo.",
+        "Image": "Dopo la richiesta, sarai aggiunto alla lista. Aspetta che il vice-presidente ti aggiunga."
+      },
+      "Step6": {
+        "Title": "Passo 6",
+        "Description": "Quando sei nella coda, potrai vedere quando arriva il tuo turno nella finestra del tempo (vedi l'immagine qui sotto).",
+        "Description2": "⚠️ Non dimenticare: hai solo 5 minuti per usare il buff prima che sia il turno successivo! Pianifica bene per utilizzare il tuo tempo in modo ottimale.",
+        "Image": "Controlla la finestra del tempo per vedere quando è il tuo turno."
+      },
+      "Step7": {
+        "Title": "Passo 7",
+        "Description": "Quando arriva il tuo turno, riceverai il buff, come mostrato nell'immagine qui sotto. Ora hai 5 minuti per usare questo buff prima che la persona successiva nella coda lo riceva.",
+        "Image": "Quando arriva il tuo turno, avrai 5 minuti per usare il buff."
       }
     }
   }

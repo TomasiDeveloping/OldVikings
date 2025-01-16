@@ -146,7 +146,8 @@
     "DesertStorm": "Wüstensturm",
     "SeasonOne": "Saison 1",
     "SeasonTwo": "Saison 2",
-    "Marshall": "Marschall-Wache"
+    "Marshall": "Marschall-Wache",
+    "Capitol": "Kapitol"
   },
   "VS": {
     "Title": "VS-Duell",
@@ -1663,6 +1664,164 @@
         "List7Bold": "Punkte für MVP:",
         "TotalBold": "Gesamt:",
         "Total": "104 + 48 = <strong>152 MVP-Punkte</strong>"
+      }
+    }
+  },
+  "Capitol": {
+   "Title": "Das Kapitol",
+    "Description": "Das Kapitol wird den Präsidenten, den Vizepräsidenten (früher bekannt als First Lady, FL) und die ernannten Sekretäre beherbergen.",
+    "Description2": "Sekretäre verleihen dem Spieler, dem sie zugewiesen sind, Verstärkungen/Boosts und verschaffen ihm einen großen Vorteil dabei, im Spiel schneller voranzukommen.",
+    "Buffs": {
+      "Title": "Arten von Buffs, die Sekretäre anbieten:",
+      "Description": "Die Positionen können verschiedene Arten von Buffs bieten:",
+      "List1": {
+        "Text": "Geschwindigkeitssteigerung: Bau, Forschung, Heilung, Training",
+        "List": {
+          "List1": "Diese Boosts können nur beim Starten dieser Operationen wirksam sein",
+          "List2": "Laufende Konstruktionen, Forschungen, Heilungen und Trainings werden von diesem Buff nicht beeinflusst",
+          "List3": "Sobald der Sekretär einem Spieler zugewiesen ist, werden in der vom Spiel angezeigten Zeit für die Operation (d. h. der Zeit für den Bau eines Gebäudes) bereits die Buffs berücksichtigt",
+          "List4": "Um die Vorteile der Buffs zu nutzen, ist eine explizite Aktion des Spielers erforderlich: Sobald die Operation mit der verkürzten Zeit gestartet wurde, wird sie nicht mehr beeinträchtigt, unabhängig davon, ob der Spieler den Sekretär entfernt"
+        }
+      },
+      "List2": {
+        "Text": "Kapazitätserweiterungen: Krankenhauskapazität",
+        "List": {
+          "List1": "Ihre Krankenhäuser können mehr verwundete Soldaten aufnehmen."
+        }
+      },
+      "List3": {
+        "Text": "Steigerung der Produktionsmenge",
+        "List": {
+          "List1": "Fordern Sie den Sekretär des Inneren an, wenn Ihre Produktionsgebäude (Eisen/Gold/Lebensmittel) voll sind. Holen Sie sich den Sekretär und sammeln Sie dann die Ressourcen, um eine größere Menge an Ressourcen zu erhalten"
+        }
+      }
+    },
+    "Example": {
+      "Title": "Beispiel für eine Geschwindigkeitssteigerung und damit Zeitverkürzung beim Bau durch den Sekretär der Entwicklung:"
+    },
+    "Explanation": {
+      "Title": "Erklärung der Geschwindigkeitserhöhung",
+      "Description": "Wenn Ihnen der Sekretär der Entwicklung zugewiesen wird, der Ihre Konstruktionsgeschwindigkeit um 50 % erhöht, würden Sie erwarten, dass sich die Zeit halbiert. So funktioniert es jedoch nicht.",
+      "Description2": "Um es besser zu erklären, verwenden wir eine Analogie:",
+      "List1": "Für den Bau eines Hauptquartiers werden 100 Blöcke benötigt",
+      "List2": "Ihre Anfangsgeschwindigkeit beträgt 1 Block pro Minute",
+      "List3": "Ohne Sekretär würde der Bau also 100 Minuten dauern",
+      "List4": "Mit einer Geschwindigkeitssteigerung von 50 % steigt Ihre Geschwindigkeit auf 1,5 Blöcke pro Minute. Die neue Bauzeit beträgt also: Zeit = Blöcke / Geschwindigkeit = 100 Blöcke / 1,5 Blöcke/Minute = 66,7 Minuten",
+      "List5": "Der Sekretär der Entwicklung erhöht Ihre Baugeschwindigkeit um 50 %, was die Konstruktionszeit um 33 % verkürzt.",
+      "Description3": "Sie werden also nicht feststellen, dass sich Ihre Zeit im gleichen Maße verkürzt, in dem sich der Geschwindigkeitsprozentsatz erhöht. Bedenken Sie dies, wenn Sie Beschleunigungen verwenden möchten.",
+      "Description4": "Darüber hinaus ist ein Sekretär im Vergleich zum Anfangszeitpunkt umso weniger effektiv, je mehr Buffs Sie bereits besitzen (durch Skins, Dekorationen, Dörfer usw.).",
+      "Description5": "Um die oben genannte Analogie fortzusetzen:",
+      "List6": "Sie haben bereits einen 100%igen Baugeschwindigkeits-Buff, Ihre Geschwindigkeit beträgt also 2 Blöcke pro Minute",
+      "List7": "Sie erhalten den Sekretär des Innern, der Ihre Geschwindigkeit um 50 % (berechnet auf der anfänglichen Geschwindigkeit von 1 Block pro Minute) auf 2,5 Blöcke pro Minute erhöht",
+      "List8": "Anstatt einer Effektivität (Zeitverkürzung) von 33 % läge die Effektivität also bei 100/2 bis 100/2,5, was einer Effektivität von lediglich 20 % (Zeitverkürzung) entspricht"
+    },
+    "Positions": {
+      "Title": "Positionen",
+      "Description": "Es gibt folgende Positionen:",
+      "List1": "Präsident",
+      "List2": "Vizepräsident, auch bekannt als VP (früher First Lady oder FL)",
+      "List3": "Sekretär der Strategie",
+      "List4": "Sekretär der Sicherheit",
+      "List5": "Sekretär der Entwicklung",
+      "List6": "Sekretär der Wissenschaft",
+      "List7": "Sekretär des Inneren"
+    },
+    "President": {
+      "Title": "Präsident",
+      "Description": "Dieser Titel ist der Allianz vorbehalten, die die Hauptstadt erobert hat. Der Präsident kann den Vizepräsidenten sowie alle Sekretäre ernennen.",
+      "List1": "Helden-HP steigern: +5 %",
+      "List2": "Heldenangriff verstärken: +5 %",
+      "List3": "Heldenverteidigung verbessern: +5 %",
+      "Description2": "Diese Verbesserungen werden automatisch angewendet, sobald der Präsident ernannt wurde."
+    },
+    "VicePresident": {
+      "Title": "Vizepräsident (VP) früher First Lady",
+      "Description": "Der Präsident ernennt den Vizepräsidenten, auch VP genannt. Der Vizepräsident kann seinen Nachfolger sowie alle anderen Sekretäre ernennen. Der VP kann den Präsidenten jedoch nicht ernennen.",
+      "Description2": "Beschleunigungen bei Bau, Forschung und Ausbildung werden erst wirksam, wenn Sie die Operation starten. Sobald Sie Vizepräsident sind, werden Sie sehen, dass die erforderliche Zeit bereits im Vergleich zur vorherigen Zeit gesenkt wurde.",
+      "List1": "Baubeschleunigung: +20 %",
+      "List2": "Forschungsgeschwindigkeit: +20 %",
+      "List3": "Trainingsgeschwindigkeit: +10 %",
+      "Description3": "Der Vizepräsident wird bei uns verwaltet. Bewerbt euch nur für diesen Posten, wenn tatsächlich ein Bedarf besteht. Ihr müsst stets online sein, um andere Spieler aus der Warteliste hinzuzufügen."
+    },
+    "SecretaryOfDevelopment": {
+      "Title": "Sekretär der Entwicklung",
+      "Description": "Die Beschleunigung von Bau- und Forschungsarbeiten wird erst wirksam, wenn Sie den Vorgang einleiten. Sobald Sie den Sekretär der Entwicklung haben, werden Sie sehen, dass die erforderliche Zeit bereits im Vergleich zur vorherigen Zeit gesenkt wurde.",
+      "Description2": "Laufende Konstruktionen und Forschungen werden von diesem Buff nicht beeinflusst.",
+      "List1": "Baubeschleunigung: +50 %",
+      "List2": "Forschungsgeschwindigkeit: +25 %",
+      "Description3": "Sobald die Position zugewiesen wurde, beginnen Sie mit dem Bau oder der Forschung, um die verkürzte Betriebszeit auszunutzen."
+    },
+    "SecretaryOfScience": {
+      "Title": "Sekretär der Wissenschaft",
+      "Description": "Die Beschleunigung von Bau- und Forschungsarbeiten wird erst wirksam, wenn Sie den Vorgang einleiten. Sobald Sie den Sekretär der Wissenschaft haben, werden Sie sehen, dass die erforderliche Zeit bereits im Vergleich zur vorherigen Zeit gesenkt wurde.",
+      "Description2": "Laufende Bauvorhaben und Forschungsprojekte werden von diesem Buff nicht beeinflusst.",
+      "List1": "Forschungsgeschwindigkeit: +50 %",
+      "List2": "Baubeschleunigung: +25 %",
+      "Description3": "Sobald die Position zugewiesen wurde, beginnen Sie mit dem Bau oder der Forschung, um die verkürzte Betriebszeit auszunutzen."
+    },
+    "SecretaryOfInterior": {
+      "Title": "Sekretär des Innern",
+      "List1": "Steigerung der Nahrungsmittelproduktion: +100 %",
+      "List2": "Eisenausstoß steigern : +100 %",
+      "List3": "Steigerung der Münzproduktion: +100 %",
+      "Description": "Um diesen Buff voll auszunutzen, müssen Sie warten, bis Ihre Eisen-, Münzen- oder Nahrungsminen/-felder voll sind, dann die Position des Sekretärs des Innern einnehmen und anschließend die Ressourcen sammeln. Sobald die Ressourcen mit der Position gesammelt wurden, wird der Boost angewendet."
+    },
+    "SecretaryOfStrategy": {
+      "Title": "Sekretär der Strategie",
+      "List1": "Krankenhauskapazität: +20 %",
+      "List2": "Heilungsrate der Einheit: +20 %"
+    },
+    "SecretaryOfSecurity": {
+      "Title": "Sekretär der Sicherheit",
+      "Description": "Steigerungen der Trainingsgeschwindigkeit werden erst wirksam, wenn Sie die Operation einleiten. Sobald Sie den Sekretär der Sicherheit haben, werden Sie sehen, dass die erforderliche Zeit im Vergleich zur vorherigen bereits gesenkt wurde.",
+      "Description2": "Laufende Trainings sind von diesem Buff nicht betroffen.",
+      "List1": "Trainingsobergrenze für Einheiten: +20 %",
+      "List2": "Trainingsgeschwindigkeit: +20 %"
+    },
+    "Request": {
+      "Title": "Einen Buff/Sekretär beantragen",
+      "Description": "In dieser Anleitung zeigen wir Schritt für Schritt, wie du dich erfolgreich für die Rolle eines Sekretärs bewirbst, um den damit verbundenen Buff freizuschalten.",
+      "Description2": "Sobald du den Buff erhalten hast, hast du 5 Minuten Zeit, ihn zu nutzen, bevor der nächste Bewerber an die Reihe kommt. Eine Ausnahme gilt nur, wenn sich niemand mehr in der Warteschlange befindet.",
+      "Description3": "Vizepräsident: Bewirb dich nur, wenn im Weltchat aktiv jemand für die Position gesucht wird und du genau weißt, wie diese Rolle funktioniert. Beachte außerdem, dass du ständig online sein musst, um alle Bewerbungen rechtzeitig zu verarbeiten.",
+      "Step1": {
+        "Title": "Schritt 1",
+        "Description": "Der einfachste Weg, um den Bewerbungsprozess zu starten, ist über die Weltkarte. Klicke dazu auf deine Basis. Anschließend siehst du, wie im unten gezeigten Bild, dein Profilbild. Klicke darauf, um fortzufahren.",
+        "Image": "Klicke auf deine Basis und dann auf dein Profilbild, um zu starten."
+      },
+      "Step2": {
+        "Title": "Schritt 2",
+        "Description": "Nachdem du dein Profilbild geöffnet hast, klicke auf den Button auf der rechten Seite, der die Server-Nummer anzeigt. Siehe dazu das Bild unten als Referenz.",
+        "Image": "Klicke nach dem Öffnen deines Profilbilds auf den Button mit der Server-Nummer rechts."
+      },
+      "Step3": {
+        "Title": "Schritt 3",
+        "Description": "Jetzt befindest du dich auf der Übersichtsseite der verschiedenen Sekretäre. Ganz oben rechts kannst du, wie im Bild gezeigt, die Zeit auf deine lokale Zeit umstellen. Dies hilft dir, die Buff-Dauer besser im Blick zu behalten. Um fortzufahren, klicke auf einen Sekretär – zum Beispiel den Sekretär der Entwicklung, wie im Bild unten dargestellt.",
+        "Image": "Stelle oben rechts die Zeit lokal ein und wähle einen Sekretär, z. B. Entwicklung."
+      },
+      "Step4": {
+        "Title": "Schritt 4",
+        "Description": "Du befindest dich jetzt in der Ansicht des gewählten Sekretärs. Hier siehst du:",
+        "List1": "Wer aktuell an der Reihe ist.",
+        "List2": "Wie viele Personen sich in der Warteschlange befinden, die ebenfalls auf den Buff warten.",
+        "Description2": "Wie im Bild unten gezeigt, klicke nun auf den Button „Bewerben“, um deine Bewerbung zu starten.",
+        "Image": "Klicke auf „Bewerben“, um zu starten, wie im Bild gezeigt."
+      },
+      "Step5": {
+        "Title": "Schritt 5",
+        "Description": "Nach deiner Bewerbung wirst du in die Bewerbungsliste aufgenommen, wie im Bild unten zu sehen. Nun heißt es warten, bis dich der Vizepräsident in die Warteschlange aufnimmt.",
+        "Description2": "⚠\uFE0F Wichtig: Wie oben beschrieben, sollte sich nur jemand als Vizepräsident bewerben, der genau weiß, wie der Job funktioniert. Der Vizepräsident muss sicherstellen, dass alle Bewerbungen rechtzeitig bearbeitet werden.",
+        "Image": "Nach der Bewerbung erscheinst du in der Liste. Warte, bis der Vizepräsident dich aufnimmt."
+      },
+      "Step6": {
+        "Title": "Schritt 6",
+        "Description": "Sobald du in die Warteschlange aufgenommen wurdest, kannst du in der Zeitanzeige (siehe Bild unten) sehen, wann du an der Reihe bist.",
+        "Description2": "⚠\uFE0F Merke: Du hast nur 5 Minuten Zeit, den Buff zu nutzen, bevor der nächste in der Warteschlange an die Reihe kommt. Plane daher gut voraus, um das Beste aus deiner Zeit zu machen!",
+        "Image": "Sieh in der Zeitanzeige, wann du dran bist."
+      },
+      "Step7": {
+        "Title": "Schritt 7",
+        "Description": "Nachdem du an der Reihe bist, hast du nun den Buff erhalten, wie im Bild unten zu sehen. Du hast nun 5 Minuten Zeit, diesen Buff zu nutzen, bevor der nächste in der Warteschlange an der Reihe ist.",
+        "Image": "Nachdem du an der Reihe bist, hast du 5 Minuten Zeit, den Buff zu nutzen."
       }
     }
   }

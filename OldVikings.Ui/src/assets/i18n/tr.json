@@ -146,7 +146,8 @@
     "DesertStorm": "Çöl Fırtınası",
     "SeasonOne": "Sezon 1",
     "SeasonTwo": "Sezon 2",
-    "Marshall": "Marschall-Guard"
+    "Marshall": "Marschall-Guard",
+    "Capitol": "Capitol"
   },
   "VS": {
     "Title": "VS-Düellosu",
@@ -1663,6 +1664,157 @@
         "List7Bold": "MVP için Puanlar:",
         "TotalBold": "Toplam:",
         "Total": "104 + 48 = <strong>152 MVP Puanı</strong>"
+      }
+    }
+  },
+  "Capitol": {
+    "Title": "Capitol Tepesi",
+    "Description": "Capitol Tepesi, başkan, başkan yardımcısı (eski First Lady, FL) ve atanan sekreterleri barındırır.",
+    "Description2": "Sekreterler, oyuncuya büyük avantaj sağlayan buff/iyileştirmeleri sunar, bu da oyunun ilerlemesini hızlandırır.",
+    "Buffs": {
+      "Title": "Sekreterlerin sunduğu farklı buff türleri:",
+      "Description": "Yerler farklı buff türleri sunabilir:",
+      "List1": {
+        "Text": "Hız artışı: inşaat, araştırma, iyileşme, eğitim",
+        "List": {
+          "List1": "Bu buff'lar yalnızca bu işlemler başlatıldığında etkilidir.",
+          "List2": "İnşaat, araştırma, iyileşme ve eğitim bu buff'tan etkilenmez.",
+          "List3": "Bir sekreter bir oyuncuya atandığında, buff, işlemin süresiyle (örneğin, bir bina inşa etme süresi) geçerli olur.",
+          "List4": "Buff'ları kullanabilmek için oyuncunun açık bir eylemde bulunması gerekir: işlem başlatıldığında, sekreter kaldırıldığında bile etki devam etmez."
+        }
+      },
+      "List2": {
+        "Text": "Kapasiteler artışı: hastane kapasitesi",
+        "List": {
+          "List1": "Hastaneleriniz daha fazla yaralı asker alabilir."
+        }
+      },
+      "List3": {
+        "Text": "Üretim artışı",
+        "List": {
+          "List1": "Sekreterinize iç sorunlar hakkında soru sormak, üretim binalarınız (demir, altın, yiyecek) dolduğunda bu üretimi artırmak için yardımcı olacaktır."
+        }
+      }
+    },
+    "Example": {
+      "Title": "Gelişim sekreteri ile hız artışı ve inşaat süresi kısaltılması örneği:"
+    },
+    "Explanation": {
+      "Title": "Hız artışı açıklaması",
+      "Description": "Bir gelişim sekreterine atandığınızda, inşaat hızını %50 artıracak ve bu, sürenin yarıya inmesini beklerdiniz. Ama bu durum gerçekleşmez.",
+      "Description2": "Bunu daha iyi açıklamak için bir benzetme kullanalım:",
+      "List1": "Başlangıçta başkentinizin inşa edilmesi için 100 blok gerekiyor.",
+      "List2": "Temel hızınız dakikada 1 blok.",
+      "List3": "Sekreter yokken inşaat 100 dakika sürer.",
+      "List4": "Sekreterin %50 hız artışı sağladığını varsayarsak hızınız dakikada 1,5 blok olur. Yani inşaat süresi şöyle hesaplanır: Süre = Bloklar / Hız = 100 blok / 1,5 blok/dakika = 66,7 dakika.",
+      "List5": "Gelişim sekreteri %50 hız artırır, bu da inşaat süresini %33 oranında kısaltır.",
+      "Description3": "Bu nedenle, hız artışını görürken süreyi, hızdaki artışla aynı oranda kısalttığınızı düşünmeyin. Bu, hızlandırıcıları kullanırken önemlidir.",
+      "Description4": "Ayrıca, bir sekreterin etkinliği, daha önce etkin olan diğer buff'lar (skinler, dekorasyonlar, köyler, vb.) ile daha az olacaktır.",
+      "Description5": "Benzetmemize devam edelim:",
+      "List6": "Zaten %100 inşaat hızı bonusunuz olduğunu varsayalım, bu da hızınızın dakikada 2 blok olduğu anlamına gelir.",
+      "List7": "İç sorunlar sekreterini %50 hız artışıyla alırsanız, hızınız %50 (temel hız olan 1 blok/dakika üzerinden) artarak dakikada 2,5 blok olur.",
+      "List8": "Bu durumda etkinlik (süre kısaltma) %33 yerine %20'ye düşer. Süreyi %20 oranında kısaltabilirsiniz."
+    },
+    "Positions": {
+      "Title": "Pozisyonlar",
+      "Description": "Aşağıdaki pozisyonlar mevcuttur:",
+      "List1": "Başkan",
+      "List2": "Başkan Yardımcısı, eski First Lady (FL)",
+      "List3": "Strateji Sekreteri",
+      "List4": "Güvenlik Sekreteri",
+      "List5": "Gelişim Sekreteri",
+      "List6": "Bilim Sekreteri",
+      "List7": "İç Sorunlar Sekreteri"
+    },
+    "President": {
+      "Title": "Başkan",
+      "Description": "Bu unvan, Capitol'u fetheden ittifaka bağlıdır. Başkan, başkan yardımcısını ve tüm sekreterleri atayabilir.",
+      "List1": "Hero-PV: +5 %",
+      "List2": "Hero saldırısı: +5 %",
+      "List3": "Hero savunması: +5 %",
+      "Description2": "Bu iyileştirmeler, başkan atandıktan sonra otomatik olarak uygulanır."
+    },
+    "VicePresident": {
+      "Title": "Başkan Yardımcısı (VP), eski First Lady",
+      "Description": "Başkan, başkan yardımcısını (VP) atar. Başkan Yardımcısı, başkan dışındaki tüm sekreterleri atayabilir, ancak başkanı atayamaz.",
+      "Description2": "İnşaat, araştırma ve eğitim hızlarında artışlar yalnızca bu işlemler başlatıldığında etkilidir. Başkan Yardımcısı olduğunuzda, önceki sürelere göre zamanın kısaldığını fark edeceksiniz.",
+      "List1": "İnşaat süresi kısaltma: +20 %",
+      "List2": "Araştırma süresi kısaltma: +20 %",
+      "List3": "Eğitim süresi kısaltma: +10 %",
+      "Description3": "Başkan Yardımcısı görevi bizim tarafımızdan yönetilir. Bu pozisyonu yalnızca gerçekten gerekli olduğunda talep edin. Bu pozisyonu yapmak için çevrim içi olmanız gerektiğini unutmayın."
+    },
+    "SecretaryOfDevelopment": {
+      "Title": "Gelişim Sekreteri",
+      "Description": "İnşaat ve araştırma hızlarında artışlar yalnızca bu işlemler başlatıldığında etkilidir. Gelişim sekreterini atadığınızda, önceki sürelere göre zamanın kısaldığını fark edeceksiniz.",
+      "Description2": "Devam eden inşaat ve araştırma faaliyetleri bu buff'tan etkilenmez.",
+      "List1": "İnşaat süresi kısaltma: +50 %",
+      "List2": "Araştırma süresi kısaltma: +25 %",
+      "Description3": "Pozisyon atandığında, buff'tan faydalanmak için inşa etmeye veya araştırma yapmaya başlamanız gerekir."
+    },
+    "SecretaryOfScience": {
+      "Title": "Bilim Sekreteri",
+      "Description": "İnşaat ve araştırma hızlarında artışlar yalnızca bu işlemler başlatıldığında etkilidir. Bilim sekreteri atandığında, önceki sürelere göre zamanın kısaldığını fark edeceksiniz.",
+      "Description2": "Devam eden inşaat ve araştırma faaliyetleri bu buff'tan etkilenmez.",
+      "List1": "Araştırma süresi kısaltma: +50 %",
+      "List2": "İnşaat süresi kısaltma: +25 %",
+      "Description3": "Pozisyon atandığında, buff'tan faydalanmak için inşa etmeye veya araştırma yapmaya başlamanız gerekir."
+    },
+    "SecretaryOfInterior": {
+      "Title": "İç Sorunlar Sekreteri",
+      "List1": "Yiyecek üretimi artışı: +100 %",
+      "List2": "Demir üretimi artışı: +100 %",
+      "List3": "Altın üretimi artışı: +100 %",
+      "Description": "Bu buff'tan yararlanabilmek için, madenleriniz/demir, altın veya yiyecek alanlarınız dolduğunda, iç sorunlar sekreterini çağırın ve kaynakları toplayın. Buff, kaynakları topladığınızda aktif olur."
+    },
+    "SecretaryOfStrategy": {
+      "Title": "Strateji Sekreteri",
+      "List1": "Hastane kapasitesi: +20 %",
+      "List2": "Ünite iyileşme hızı: +20 %"
+    },
+    "SecretaryOfSecurity": {
+      "Title": "Güvenlik Sekreteri",
+      "Description": "Eğitim sürelerinde kısaltmalar yalnızca bu işlemler başlatıldığında etkilidir. Güvenlik sekreteri atandığında, önceki sürelere göre zamanın kısaldığını fark edeceksiniz.",
+      "Description2": "Devam eden eğitim faaliyetleri bu buff'tan etkilenmez.",
+      "List1": "Ünite eğitim kapasitesi: +20 %",
+      "List2": "Eğitim süresi kısaltma: +20 %"
+    },
+    "Request": {
+      "Title": "Buff/Sekreter Talep Etme",
+      "Description": "Bu kılavuzda, sekreterleri talep ederek ilgili buff'ı nasıl açacağınızı adım adım göstereceğiz.",
+      "Description2": "Buff aldıktan sonra, sıradaki kişi sıranızı alana kadar 5 dakikanız olacak. Tek istisna, sırada başka kimse olmaması durumudur.",
+      "Description3": "Başkan Yardımcısı: Bu pozisyonu yalnızca bu görevde nasıl çalıştığını anlayan kişiler talep etmelidir. Başkan Yardımcısının tüm başvuruları zamanında işleme alması gerektiğini unutmayın.",
+      "Step1": {
+        "Title": "Adım 1",
+        "Description": "Başvuru sürecini başlatmanın en kolay yolu dünya haritası üzerinden yapılır. Üssünüze tıklayın ve aşağıda gösterilen profil resminizi görün. Devam etmek için üzerine tıklayın."
+      },
+      "Step2": {
+        "Title": "Adım 2",
+        "Description": "Profil resminize tıkladığınızda sağda görünen sunucu numarası düğmesine tıklayın. Aşağıdaki görsele bakın."
+      },
+      "Step3": {
+        "Title": "Adım 3",
+        "Description": "Şimdi, farklı sekreterlerin bulunduğu sayfadasınız. Sağ üstteki saat dilimi ayarını, yerel saatinize göre ayarlayabilirsiniz. Bu, buff süresini takip etmenize yardımcı olacaktır. Devam etmek için, aşağıdaki görselde gösterildiği gibi, Gelişim Sekreterini seçin."
+      },
+      "Step4": {
+        "Title": "Adım 4",
+        "Description": "Artık seçilen sekreterin görünümündesiniz. Burada şunları görebilirsiniz:",
+        "List1": "Buff'ı kimin alacağı.",
+        "List2": "Buff için sırada kaç kişi olduğu.",
+        "Description2": "Aşağıdaki görselde gösterildiği gibi, başvuruyu başlatmak için 'Talep et' düğmesine tıklayın."
+      },
+      "Step5": {
+        "Title": "Adım 5",
+        "Description": "Başvurunuz alındıktan sonra, aşağıdaki gibi sıraya ekleneceksiniz. Şimdi başkan yardımcısının sıraya almanızı beklemeniz gerekiyor.",
+        "Description2": "⚠️ Önemli: Daha önce belirttiğimiz gibi, bu işi nasıl yapacağınızı bilen kişiler yalnızca başkan yardımcısı olarak başvurmalıdır. Başkan Yardımcısı, tüm başvuruları zamanında işleme almalıdır."
+      },
+      "Step6": {
+        "Title": "Adım 6",
+        "Description": "Sırada olduğunuzda, hangi saatte sıranızın geleceğini gösteren zaman penceresini görebilirsiniz (aşağıdaki görsele bakın).",
+        "Description2": "⚠️ Unutmayın: Buff'ı kullanmak için yalnızca 5 dakikanız olacak! Zamanınızı verimli kullanmak için iyi plan yapın."
+      },
+      "Step7": {
+        "Title": "Adım 7",
+        "Description": "Sıra size geldiğinde, aşağıdaki görselde gösterildiği gibi buff'ı alacaksınız. Artık sıradaki kişi gelene kadar buff'ı 5 dakika boyunca kullanabilirsiniz."
       }
     }
   }

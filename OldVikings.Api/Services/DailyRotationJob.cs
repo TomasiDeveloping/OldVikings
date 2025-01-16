@@ -37,7 +37,7 @@ public class DailyRotationJob(OldVikingsContext dbContext, ILogger<DailyRotation
                 return;
             }
 
-            var nextIndex = trainGuide.CurrentPlayerIndex++;
+            var nextIndex = trainGuide.CurrentPlayerIndex + 1;
 
             if (nextIndex > 10) nextIndex = 0;
 

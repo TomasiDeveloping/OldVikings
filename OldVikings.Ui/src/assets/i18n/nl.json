@@ -146,7 +146,8 @@
     "DesertStorm": "Woestijnstorm",
     "SeasonOne": "Seizoen 1",
     "SeasonTwo": "Seizoen 2",
-    "Marshall": "Maarschalkwacht"
+    "Marshall": "Maarschalkwacht",
+    "Capitol": "Capitol"
   },
   "VS": {
     "Title": "VS-Duel",
@@ -1663,6 +1664,164 @@
         "List7Bold": "Punten voor MVP:",
         "TotalBold": "Totaal:",
         "Total": "104 + 48 = <strong>152 MVP Punten</strong>"
+      }
+    }
+  },
+  "Capitol": {
+    "Title": "Capitol Hill",
+    "Description": "Het Capitol herbergt de president, de vice-president (voorheen First Lady, FL) en de toegewezen secretarissen.",
+    "Description2": "De secretarissen bieden de speler de toegewezen buffs/verbeteringen die een groot voordeel bieden om de voortgang in het spel te versnellen.",
+    "Buffs": {
+      "Title": "Soorten buffs die door secretarissen worden aangeboden:",
+      "Description": "Locaties kunnen verschillende soorten buffs aanbieden:",
+      "List1": {
+        "Text": "Verhoogde snelheid: bouwen, onderzoeken, genezen, trainen",
+        "List": {
+          "List1": "Deze buffs zijn alleen effectief wanneer deze acties zijn gestart.",
+          "List2": "Bouwen, onderzoeken, genezen en trainen worden niet beïnvloed door deze buff.",
+          "List3": "Wanneer een secretaris is toegewezen aan een speler, wordt de buff al toegepast op de tijd die wordt weergegeven voor de actie (bijvoorbeeld de tijd die nodig is om een gebouw te bouwen).",
+          "List4": "Om van de buffs te profiteren, is er een expliciete actie van de speler nodig: wanneer de actie is gestart met de verkorte tijd, wordt deze niet meer beïnvloed, zelfs als de secretaris wordt verwijderd."
+        }
+      },
+      "List2": {
+        "Text": "Verhoogde capaciteit: ziekenhuiscapaciteit",
+        "List": {
+          "List1": "Je ziekenhuizen kunnen meer gewonde soldaten opvangen."
+        }
+      },
+      "List3": {
+        "Text": "Verhoogde productie",
+        "List": {
+          "List1": "Vraag de secretaris om interne zaken wanneer je productiebouwers (ijzer, goud, voedsel) vol zijn. Vraag de secretaris en verzamel dan de middelen om de productie te verhogen."
+        }
+      }
+    },
+    "Example": {
+      "Title": "Voorbeeld van verhoogde snelheid en verkorte bouwtijd via ontwikkelingssecretaris:"
+    },
+    "Explanation": {
+      "Title": "Uitleg over verhoogde snelheid",
+      "Description": "Wanneer je de ontwikkelingssecretaris hebt toegewezen die de bouwsnelheid met 50% verhoogt, verwacht je dat de tijd gehalveerd wordt. Dit is niet het geval.",
+      "Description2": "Om dit duidelijker uit te leggen, laten we een analogie gebruiken:",
+      "List1": "Voor het bouwen van je hoofdkwartier heb je 100 blokken nodig",
+      "List2": "Je basis snelheid is 1 blok per minuut",
+      "List3": "Zonder secretaris duurt het bouwen 100 minuten",
+      "List4": "Met een verhoging van 50% in snelheid wordt je snelheid 1,5 blok per minuut. Dus de bouwtijd wordt: Tijd = Blokken / Snelheid = 100 blokken / 1,5 blokken/min = 66,7 minuten",
+      "List5": "De ontwikkelingssecretaris verhoogt je bouwsnelheid met 50%, wat de bouwtijd met 33% verkort.",
+      "Description3": "Dus je zult de tijd niet verkort zien in dezelfde verhouding als de procentuele verhoging in snelheid. Dit is belangrijk als je versnellers wilt gebruiken.",
+      "Description4": "Bovendien is een secretaris minder effectief naarmate er meer buffs al actief zijn (via skins, decoraties, dorpen, etc.).",
+      "Description5": "Om door te gaan met de analogie:",
+      "List6": "Je hebt al een bonus van 100% bouwsnelheid, dus je snelheid is 2 blokken per minuut",
+      "List7": "Je krijgt de secretaris voor interne zaken die de snelheid met 50% verhoogt (berekend vanaf de basis snelheid van 1 blok per minuut), en je snelheid wordt 2,5 blokken per minuut.",
+      "List8": "In plaats van een effectiviteit (tijdverkorting) van 33%, zal de effectiviteit slechts 100/2 tot 100/2,5 zijn, wat een effectiviteit van slechts 20% geeft (tijdvermindering)."
+    },
+    "Positions": {
+      "Title": "Posities",
+      "Description": "De volgende posities zijn beschikbaar:",
+      "List1": "President",
+      "List2": "Vice-president, voorheen First Lady (FL)",
+      "List3": "Strategische secretaris",
+      "List4": "Beveiligingssecretaris",
+      "List5": "Ontwikkelingssecretaris",
+      "List6": "Wetenschapssecretaris",
+      "List7": "Interne zaken secretaris"
+    },
+    "President": {
+      "Title": "President",
+      "Description": "Deze titel is verbonden aan de alliantie die het Capitol heeft veroverd. De president kan de vice-president en alle secretarissen toewijzen.",
+      "List1": "Heroïsche PV: +5 %",
+      "List2": "Heldens aanval: +5 %",
+      "List3": "Heldens verdediging: +5 %",
+      "Description2": "Deze verbeteringen worden automatisch toegepast wanneer de president wordt toegewezen."
+    },
+    "VicePresident": {
+      "Title": "Vice-president (VP) voorheen First Lady",
+      "Description": "De president wijst de vice-president (VP) aan. De vice-president kan zijn opvolger en alle andere secretarissen toewijzen, maar kan de president niet toewijzen.",
+      "Description2": "Verhoogde bouw-, onderzoeks- en trainingsversnellingen zijn alleen effectief wanneer de acties zijn gestart. Wanneer je vice-president bent, zul je merken dat de tijd al is verkort ten opzichte van de vorige tijd.",
+      "List1": "Bouwversnelling: +20 %",
+      "List2": "Onderzoeksversnelling: +20 %",
+      "List3": "Trainingsversnelling: +10 %",
+      "Description3": "De vice-president wordt door ons beheerd. Vraag deze positie alleen aan als het absoluut noodzakelijk is. Je moet altijd online zijn om andere spelers van de wachtlijst toe te voegen."
+    },
+    "SecretaryOfDevelopment": {
+      "Title": "Ontwikkelingssecretaris",
+      "Description": "Bouw- en onderzoeksversnellingen zijn alleen effectief wanneer de acties zijn gestart. Wanneer je de ontwikkelingssecretaris hebt, zul je merken dat de tijd al is verkort ten opzichte van de vorige tijd.",
+      "Description2": "Lopende bouw- en onderzoeksacties worden niet beïnvloed door deze buff.",
+      "List1": "Bouwversnelling: +50 %",
+      "List2": "Onderzoeksversnelling: +25 %",
+      "Description3": "Wanneer de positie is toegewezen, moet je beginnen met bouwen of onderzoeken om van de verkorte tijd voor de actie te profiteren."
+    },
+    "SecretaryOfScience": {
+      "Title": "Wetenschapssecretaris",
+      "Description": "Bouw- en onderzoeksversnellingen zijn alleen effectief wanneer de acties zijn gestart. Wanneer je de wetenschapssecretaris hebt, zul je merken dat de tijd al is verkort ten opzichte van de vorige tijd.",
+      "Description2": "Lopende bouw- en onderzoeksacties worden niet beïnvloed door deze buff.",
+      "List1": "Onderzoeksversnelling: +50 %",
+      "List2": "Bouwversnelling: +25 %",
+      "Description3": "Wanneer de positie is toegewezen, moet je beginnen met bouwen of onderzoeken om van de verkorte tijd voor de actie te profiteren."
+    },
+    "SecretaryOfInterior": {
+      "Title": "Interne Zaken Secretaris",
+      "List1": "Verhoogde voedselproductie: +100 %",
+      "List2": "Verhoogde ijzerproductie: +100 %",
+      "List3": "Verhoogde goudproductie: +100 %",
+      "Description": "Om van deze buff te profiteren, moet je wachten tot je mijnen/ijzer-, goud- of voedselvelden vol zijn, vervolgens de interne zaken secretaris verkrijgen en de middelen verzamelen. Zodra je de middelen hebt verzameld met de positie, wordt de buff toegepast."
+    },
+    "SecretaryOfStrategy": {
+      "Title": "Strategische Secretaris",
+      "List1": "Ziekenhuiscapaciteit: +20 %",
+      "List2": "Eenheid genezingssnelheid: +20 %"
+    },
+    "SecretaryOfSecurity": {
+      "Title": "Beveiligingssecretaris",
+      "Description": "Trainingsversnellingen zijn alleen effectief wanneer de acties zijn gestart. Wanneer je de beveiligingssecretaris hebt, zul je merken dat de tijd al is verkort ten opzichte van de vorige tijd.",
+      "Description2": "Lopende trainingen worden niet beïnvloed door deze buff.",
+      "List1": "Eenheidstrainingcapaciteit: +20 %",
+      "List2": "Trainingsversnelling: +20 %"
+    },
+    "Request": {
+      "Title": "Vraag om buff/secretaris",
+      "Description": "In deze gids laten we je stap voor stap zien hoe je kunt vragen om secretaris te worden om de bijbehorende buff te ontgrendelen.",
+      "Description2": "Wanneer je de buff krijgt, heb je 5 minuten om deze te gebruiken voordat de volgende persoon in de rij zijn beurt krijgt. De enige uitzondering is als er niemand anders in de rij staat.",
+      "Description3": "Vice-president: Vraag deze positie alleen aan als je deze rol in de wereldchat wilt uitvoeren en begrijpt hoe deze rol werkt. Houd er rekening mee dat je altijd online moet zijn om alle verzoeken op tijd te behandelen.",
+      "Step1": {
+        "Title": "Stap 1",
+        "Description": "De eenvoudigste manier om het aanvraagproces te starten, is via de wereldkaart. Klik op je basis, en daar zie je je profielfoto zoals hieronder weergegeven. Klik erop om verder te gaan.",
+        "Image": "Klik op je basis en vervolgens op je profielfoto om te beginnen."
+      },
+      "Step2": {
+        "Title": "Stap 2",
+        "Description": "Wanneer je je profielfoto opent, klik je op de knop rechts die het servernummer toont. Zie de onderstaande afbeelding voor referentie.",
+        "Image": "Klik op de knop servernummer rechts nadat je je profielfoto hebt geopend."
+      },
+      "Step3": {
+        "Title": "Stap 3",
+        "Description": "Nu ben je op de overzichtspagina van de verschillende secretarissen. Bovenaan rechts, zoals getoond in de afbeelding, kun je de tijdzone instellen op je lokale tijd. Dit helpt je om de duur van de buff bij te houden. Ga door door een secretaris te selecteren, zoals de ontwikkelingssecretaris die in de afbeelding wordt weergegeven.",
+        "Image": "Stel je tijdzone in bovenaan rechts op je lokale tijd en selecteer vervolgens een secretaris, zoals ontwikkeling."
+      },
+      "Step4": {
+        "Title": "Stap 4",
+        "Description": "Nu ben je op de weergave van de geselecteerde secretaris. Hier kun je zien:",
+        "List1": "Wie de buff ontvangt.",
+        "List2": "Hoeveel mensen er in de wachtrij staan voor de buff.",
+        "Description2": "Zoals getoond in de afbeelding, klik je op de 'Vraag om' knop om de aanvraag te starten.",
+        "Image": "Klik op 'Vraag om' om te beginnen, zoals getoond in de afbeelding."
+      },
+      "Step5": {
+        "Title": "Stap 5",
+        "Description": "Na je aanvraag word je toegevoegd aan de lijst met aanvragen, zoals hieronder weergegeven. Nu moet je wachten totdat de vice-president je aan de rij toevoegt.",
+        "Description2": "⚠️ Belangrijk: Zoals eerder vermeld, moeten alleen mensen die begrijpen hoe dit werk functioneert, om vice-president vragen. De vice-president moet ervoor zorgen dat alle aanvragen op tijd worden behandeld.",
+        "Image": "Na je aanvraag word je aan de lijst toegevoegd. Wacht tot de vice-president je toevoegt."
+      },
+      "Step6": {
+        "Title": "Stap 6",
+        "Description": "Wanneer je in de wachtrij staat, kun je zien wanneer je beurt komt in het tijdvenster (zie de onderstaande afbeelding).",
+        "Description2": "⚠️ Vergeet niet: je hebt slechts 5 minuten om de buff te gebruiken voordat de volgende beurt komt! Plan goed om je tijd optimaal te gebruiken.",
+        "Image": "Bekijk het tijdvenster om te zien wanneer je beurt komt."
+      },
+      "Step7": {
+        "Title": "Stap 7",
+        "Description": "Wanneer je beurt komt, ontvang je de buff, zoals weergegeven in de onderstaande afbeelding. Nu heb je 5 minuten om de buff te gebruiken voordat de volgende persoon in de rij het krijgt.",
+        "Image": "Wanneer je beurt komt, heb je 5 minuten om de buff te gebruiken."
       }
     }
   }

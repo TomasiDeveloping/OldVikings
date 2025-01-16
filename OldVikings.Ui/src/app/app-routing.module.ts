@@ -22,6 +22,7 @@ import {AllianceMvpComponent} from "./pages/alliance-mvp/alliance-mvp.component"
 import {
   SeasonTwoCelebrationComponent
 } from "./pages/season-two/season-two-celebration/season-two-celebration.component";
+import {CapitolComponent} from "./pages/capitol/capitol.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -45,6 +46,7 @@ const routes: Routes = [
   {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'alliance-mvp', component: AllianceMvpComponent, canActivate: [memberGuard]},
   {path: 'r4', component: R4Component, canActivate: [memberGuard]},
+  {path: 'capitol', component: CapitolComponent},
   {path: 'guestbook', component: GuestbookComponent},
   {path: 'videos', component: VideosComponent, canActivate: [memberGuard]},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
