@@ -63,6 +63,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  margin-left: 20px;
 }
 .tomorrow .icon {
   width: 50px;
@@ -87,3 +88,42 @@
   font-size: 1rem;
   color: #b0b0b0;
 }
+
+.third-player {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 0.85rem;
+  position: relative;
+  z-index: 1;
+}
+
+
+.third-player .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #666;
+  color: #ff5f57;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+
+.third-player h6 {
+  margin: 0;
+  font-size: .9rem;
+  font-weight: normal;
+  color: #b0b0b0;
+}
+
+.third-player p {
+  margin: 0;
+  font-size: .8rem;
+  color: #b0b0b0;
+}
+

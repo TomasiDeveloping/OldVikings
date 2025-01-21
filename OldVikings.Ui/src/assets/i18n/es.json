@@ -525,9 +525,15 @@
   "Alliances": {
     "Title": "Alianza",
     "TrainConductor": {
-      "Title": "Resumen del Conductor de Tren",
-      "Today": "Hoy",
-      "Tomorrow": "Mañana"
+      "Title": "Resumen del Conductor del Tren",
+      "Today": "Hoy:",
+      "Sunday": "Domingo:",
+      "Monday": "Lunes:",
+      "Tuesday": "Martes:",
+      "Wednesday": "Miércoles:",
+      "Thursday": "Jueves:",
+      "Friday": "Viernes:",
+      "Saturday": "Sábado:"
     },
     "Donate": {
       "Title": "Cómo Puedes Contribuir/Donar",

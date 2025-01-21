@@ -17,7 +17,7 @@
                 <i class="bi bi-person"></i>
               </div>
               <div>
-                <h6>{{ 'Alliances.TrainConductor.Today' | translate }}</h6>
+                <h6>{{ 'Alliances.TrainConductor.Today' | translate }} {{today | date: 'dd.MM.yyyy'}}</h6>
                 <p>{{trainGuide.currentPlayer}}</p>
               </div>
             </div>
@@ -26,8 +26,17 @@
                 <i class="bi bi-person-check"></i>
               </div>
               <div>
-                <h6>{{ 'Alliances.TrainConductor.Tomorrow' | translate }}</h6>
+                <h6>{{(tomorrow.getDay() | weekDay) | translate}} {{tomorrow | date: 'dd.MM.yyyy'}}</h6>
                 <p>{{trainGuide.nextPlayer}}</p>
+              </div>
+            </div>
+            <div class="third-player">
+              <div class="icon">
+                <i class="bi bi-person-check"></i>
+              </div>
+              <div>
+                <h6>{{(dayAfterTomorrow.getDay() | weekDay) | translate}} {{dayAfterTomorrow | date: 'dd.MM.yyyy'}}</h6>
+                <p>{{trainGuide.nextButOnePlayer}}</p>
               </div>
             </div>
           </div>

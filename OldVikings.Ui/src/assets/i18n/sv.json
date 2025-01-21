@@ -526,8 +526,14 @@
     "Title": "Allians",
     "TrainConductor": {
       "Title": "Tågkonduktör Översikt",
-      "Today": "Idag",
-      "Tomorrow": "Imorgon"
+      "Today": "Idag:",
+      "Sunday": "Söndag:",
+      "Monday": "Måndag:",
+      "Tuesday": "Tisdag:",
+      "Wednesday": "Onsdag:",
+      "Thursday": "Torsdag:",
+      "Friday": "Fredag:",
+      "Saturday": "Lördag:"
     },
     "Donate": {
       "Title": "Så här kan du bidra/donera",

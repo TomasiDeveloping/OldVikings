@@ -14,9 +14,13 @@ export class AlliancesComponent implements OnInit {
   private readonly _translateService: TranslateService = inject(TranslateService);
 
   public trainGuide: TrainGuideModel | null = null;
+  public today = new Date();
+  public tomorrow = new Date(new Date().setDate(new Date().getDate() + 1));
+  public dayAfterTomorrow = new Date(new Date().setDate(new Date().getDate() + 2));
 
   ngOnInit() {
     this.getTrainGuide();
+    console.log(this.today.getDay());
   }
 
   getTrainGuide() {

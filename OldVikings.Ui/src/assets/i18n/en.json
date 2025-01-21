@@ -526,8 +526,14 @@
     "Title": "Alliance",
     "TrainConductor": {
       "Title": "Train Conductor Overview",
-      "Today": "Today",
-      "Tomorrow": "Tomorrow"
+      "Today": "Today:",
+      "Sunday": "Sunday:",
+      "Monday": "Monday:",
+      "Tuesday": "Tuesday:",
+      "Wednesday": "Wednesday:",
+      "Thursday": "Thursday:",
+      "Friday": "Friday:",
+      "Saturday": "Saturday:"
     },
     "Donate": {
       "Title": "How You Can Contribute/Donate",

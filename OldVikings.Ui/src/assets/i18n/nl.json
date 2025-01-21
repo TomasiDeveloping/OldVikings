@@ -521,9 +521,15 @@
   "Alliances": {
     "Title": "Alliantie",
     "TrainConductor": {
-      "Title": "Overzicht Treinconducteur",
-      "Today": "Vandaag",
-      "Tomorrow": "Morgen"
+      "Title": "Treinconducteur Overzicht",
+      "Today": "Vandaag:",
+      "Sunday": "Zondag:",
+      "Monday": "Maandag:",
+      "Tuesday": "Dinsdag:",
+      "Wednesday": "Woensdag:",
+      "Thursday": "Donderdag:",
+      "Friday": "Vrijdag:",
+      "Saturday": "Zaterdag:"
     },
     "Donate": {
       "Title": "Hoe Je Kunt Bijdragen/Doneren",

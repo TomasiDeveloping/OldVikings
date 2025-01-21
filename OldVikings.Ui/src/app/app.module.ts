@@ -37,6 +37,7 @@ import { R4Component } from './pages/r4/r4.component';
 import { AllianceMvpComponent } from './pages/alliance-mvp/alliance-mvp.component';
 import { SeasonTwoCelebrationComponent } from './pages/season-two/season-two-celebration/season-two-celebration.component';
 import { CapitolComponent } from './pages/capitol/capitol.component';
+import { WeekDayPipe } from './pipes/week-day.pipe';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -68,7 +69,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         R4Component,
         AllianceMvpComponent,
         SeasonTwoCelebrationComponent,
-        CapitolComponent
+        CapitolComponent,
+        WeekDayPipe
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,

@@ -522,8 +522,14 @@
     "Title": "Allianz",
     "TrainConductor": {
       "Title": "Zug Schaffner Übersicht",
-      "Today": "Heute",
-      "Tomorrow": "Morgen"
+      "Today": "Heute:",
+      "Sunday": "Sonntag:",
+      "Monday": "Montag:",
+      "Tuesday": "Dienstag:",
+      "Wednesday": "Mittwoch:",
+      "Thursday": "Donnerstag:",
+      "Friday": "Freitag:",
+      "Saturday": "Samstag:"
     },
     "Donate": {
       "Title": "So können Sie beitragen/spenden",
