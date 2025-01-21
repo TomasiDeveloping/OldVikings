@@ -22,25 +22,33 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
 
         string currentPlayer;
         string nextPlayer;
+        string nextButOnePlayer;
         var currentIndex = trainGuide.CurrentPlayerIndex;
         var nextIndex = trainGuide.CurrentPlayerIndex + 1;
+        var nextButOneIndex = trainGuide.CurrentPlayerIndex + 2;
 
         if (isWednesday)
         {
             currentPlayer = "MVP";
             nextPlayer = _players[nextIndex > 10 ? 0 : nextIndex];
+            nextButOnePlayer = _players[nextButOneIndex > 10 ? 0 : nextButOneIndex];
         }
         else
         {
             currentPlayer = _players[currentIndex];
 
             nextPlayer = today.AddDays(1).DayOfWeek == DayOfWeek.Wednesday ? "MVP" : _players[nextIndex > 10 ? 0 : nextIndex];
+
+            nextButOnePlayer = today.AddDays(2).DayOfWeek == DayOfWeek.Wednesday
+                ? "MVP"
+                : _players[nextButOneIndex > 10 ? 0 : nextButOneIndex];
         }
 
         return new TrainGuideDto()
         {
             CurrentPlayer = currentPlayer,
             NextPlayer = nextPlayer,
+            NextButOnePlayer = nextButOnePlayer,
         };
     }
 
