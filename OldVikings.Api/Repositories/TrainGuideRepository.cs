@@ -20,28 +20,31 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
         var today = DateTime.Now;
         var isWednesday = today.DayOfWeek == DayOfWeek.Wednesday;
 
-        string currentPlayer;
-        string nextPlayer;
-        string nextButOnePlayer;
         var currentIndex = trainGuide.CurrentPlayerIndex;
-        var nextIndex = trainGuide.CurrentPlayerIndex + 1;
-        var nextButOneIndex = trainGuide.CurrentPlayerIndex + 2;
+        var nextIndex = (currentIndex + 1) % _players.Length;
+        var nextButOneIndex = (currentIndex + 2) % _players.Length;
+
+        var currentPlayer = _players[currentIndex];
+        var nextPlayer = _players[nextIndex];
+        var nextButOnePlayer = _players[nextButOneIndex];
 
         if (isWednesday)
         {
             currentPlayer = "MVP";
-            nextPlayer = _players[nextIndex > 10 ? 0 : nextIndex];
-            nextButOnePlayer = _players[nextButOneIndex > 10 ? 0 : nextButOneIndex];
         }
         else
         {
-            currentPlayer = _players[currentIndex];
+            if (today.AddDays(1).DayOfWeek == DayOfWeek.Wednesday)
+            {
+                nextPlayer = "MVP";
+                nextButOnePlayer = _players[nextIndex];
+            }
 
-            nextPlayer = today.AddDays(1).DayOfWeek == DayOfWeek.Wednesday ? "MVP" : _players[nextIndex > 10 ? 0 : nextIndex];
+            if (today.AddDays(2).DayOfWeek == DayOfWeek.Wednesday)
+            {
+                nextButOnePlayer = "MVP";
+            }
 
-            nextButOnePlayer = today.AddDays(2).DayOfWeek == DayOfWeek.Wednesday
-                ? "MVP"
-                : _players[nextButOneIndex > 10 ? 0 : nextButOneIndex];
         }
 
         return new TrainGuideDto()
