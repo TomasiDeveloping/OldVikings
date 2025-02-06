@@ -1,9 +1,9 @@
 export interface PlayerMvp {
-  playerName: string;
-  rank: string;
-  totalVsDuelPoints : number;
-  marshalGuardParticipationCount : number;
+  name: string;
+  allianceRank: string;
+  duelPointsLast3Week : number;
+  marshalParticipationCount : number;
   desertStormParticipationCount : number;
-  mvpPoints : number;
-  isOldestVsDuelParticipated: boolean;
+  mvpScore : number;
+  hasParticipatedInOldestDuel: boolean;
 }

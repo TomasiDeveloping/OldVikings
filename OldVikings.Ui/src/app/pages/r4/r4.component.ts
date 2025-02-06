@@ -20,7 +20,7 @@ export class R4Component implements OnInit {
   }
 
   getMvpPlayers() {
-    this._playerService.getLeadershipMvp().subscribe({
+    this._playerService.getMvpPlayers('leadership').subscribe({
       next: ((response) => {
         if (response) {
           this.mvpPlayers = response;

@@ -15,12 +15,12 @@
         <div class="icon-container mb-2">
           <i class="bi bi-trophy-fill" style="font-size: 70px; color: white; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);"></i>
         </div>
-        <h5 class="card-title text-black" style="font-size: 30px; margin-bottom: 10px;">{{mvpPlayers[0].playerName}}</h5>
+        <h5 class="card-title text-black" style="font-size: 30px; margin-bottom: 10px;">{{mvpPlayers[0].name}}</h5>
         <p class="card-text text-black" style="font-size: 14px; margin-bottom: 15px;">
-          {{'PlayerMvp.MvpCard.VsPoints' | translate}} <strong>{{mvpPlayers[0].totalVsDuelPoints | number}}</strong><br>
-          {{'PlayerMvp.MvpCard.MarshalParticipation' | translate}} <strong>{{mvpPlayers[0].marshalGuardParticipationCount}}</strong><br>
+          {{'PlayerMvp.MvpCard.VsPoints' | translate}} <strong>{{mvpPlayers[0].duelPointsLast3Week | number}}</strong><br>
+          {{'PlayerMvp.MvpCard.MarshalParticipation' | translate}} <strong>{{mvpPlayers[0].marshalParticipationCount}}</strong><br>
           {{'PlayerMvp.MvpCard.DesertStormParticipation' | translate}} <strong>{{mvpPlayers[0].desertStormParticipationCount}}</strong><br>
-          <span class="text-white" style="font-size: 15px">{{'PlayerMvp.MvpCard.MvpPoint' | translate}} <strong>{{mvpPlayers[0].mvpPoints}}</strong></span>
+          <span class="text-white" style="font-size: 15px">{{'PlayerMvp.MvpCard.MvpPoint' | translate}} <strong>{{mvpPlayers[0].mvpScore}}</strong></span>
         </p>
       </div>
     </div>
@@ -38,14 +38,14 @@
         </tr>
         </thead>
         <tbody>
-          @for (player of mvpPlayers | slice: 1; track player.playerName; let i = $index) {
-            <tr [ngClass]="player.isOldestVsDuelParticipated ? '' : 'custom-warning'">
+          @for (player of mvpPlayers | slice: 1; track player.name; let i = $index) {
+            <tr [ngClass]="player.hasParticipatedInOldestDuel ? '' : 'custom-warning'">
               <td>{{i + 2}}</td>
-              <td>{{player.playerName}}</td>
-              <td>{{player.totalVsDuelPoints | number}}</td>
-              <td>{{player.marshalGuardParticipationCount}}</td>
+              <td>{{player.name}}</td>
+              <td>{{player.duelPointsLast3Week | number}}</td>
+              <td>{{player.marshalParticipationCount}}</td>
               <td>{{player.desertStormParticipationCount}}</td>
-              <td>{{player.mvpPoints}}</td>
+              <td>{{player.mvpScore}}</td>
             </tr>
           }
         </tbody>

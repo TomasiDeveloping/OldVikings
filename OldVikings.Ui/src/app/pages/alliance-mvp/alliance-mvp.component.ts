@@ -20,7 +20,7 @@ export class AllianceMvpComponent implements OnInit {
   }
 
   getMvpPlayers() {
-    this._playerService.getMvpPlayers().subscribe({
+    this._playerService.getMvpPlayers('players').subscribe({
       next: ((response) => {
         if (response) {
           this.mvpPlayers = response;

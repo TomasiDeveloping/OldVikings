@@ -1,6 +1,6 @@
 import {inject, Injectable} from '@angular/core';
 import {environment} from "../../environments/environment";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpHeaders, HttpParams} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {PlayerMvp} from "../models/playerMvp.model";
 
@@ -9,13 +9,16 @@ import {PlayerMvp} from "../models/playerMvp.model";
 })
 export class PlayerService {
 
-  private readonly _serviceUrl: string = environment.playerManagerApiUrl + 'Players/';
+  private readonly _serviceUrl: string = environment.playerManagerApiUrl + 'Players/Mvp';
   private readonly _httpClient: HttpClient = inject(HttpClient);
 
-  getMvpPlayers(): Observable<PlayerMvp[]> {
-    return this._httpClient.get<PlayerMvp[]>(this._serviceUrl + 'GetAllianceMvpPlayers/' + '5EC07910-AD78-45DF-9FF8-08DD0A24FE1E');
+  getMvpPlayers(playerType: string): Observable<PlayerMvp[]> {
+    const headers = new HttpHeaders(
+      {'X-Api-Key': environment.apiKey}
+    );
+    let params = new HttpParams();
+    params = params.append('allianceId', environment.allianceId);
+    params = params.append('playerType', playerType);
+    return this._httpClient.get<PlayerMvp[]>(this._serviceUrl, {params: params, headers: headers});
   }
-    getLeadershipMvp(): Observable<PlayerMvp[]> {
-      return this._httpClient.get<PlayerMvp[]>(this._serviceUrl + 'GetAllianceLeadershipMvp/' + '5EC07910-AD78-45DF-9FF8-08DD0A24FE1E');
-    }
 }
