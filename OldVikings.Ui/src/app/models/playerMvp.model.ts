@@ -1,7 +1,7 @@
 export interface PlayerMvp {
   name: string;
   allianceRank: string;
-  duelPointsLast3Week : number;
+  duelPointsLast3Weeks: number;
   marshalParticipationCount : number;
   desertStormParticipationCount : number;
   mvpScore : number;

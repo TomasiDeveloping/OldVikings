@@ -17,7 +17,7 @@
         </div>
         <h5 class="card-title text-black" style="font-size: 30px; margin-bottom: 10px;">{{mvpPlayers[0].name}}</h5>
         <p class="card-text text-black" style="font-size: 14px; margin-bottom: 15px;">
-          {{'PlayerMvp.MvpCard.VsPoints' | translate}} <strong>{{mvpPlayers[0].duelPointsLast3Week | number}}</strong><br>
+          {{'PlayerMvp.MvpCard.VsPoints' | translate}} <strong>{{mvpPlayers[0].duelPointsLast3Weeks | number}}</strong><br>
           {{'PlayerMvp.MvpCard.MarshalParticipation' | translate}} <strong>{{mvpPlayers[0].marshalParticipationCount}}</strong><br>
           {{'PlayerMvp.MvpCard.DesertStormParticipation' | translate}} <strong>{{mvpPlayers[0].desertStormParticipationCount}}</strong><br>
           <span class="text-white" style="font-size: 15px">{{'PlayerMvp.MvpCard.MvpPoint' | translate}} <strong>{{mvpPlayers[0].mvpScore}}</strong></span>
@@ -43,7 +43,7 @@
             <tr>
               <td>{{i + 2}}</td>
               <td>{{player.name}}</td>
-              <td>{{player.duelPointsLast3Week | number}}</td>
+              <td>{{player.duelPointsLast3Weeks | number}}</td>
               <td>{{player.marshalParticipationCount}}</td>
               <td>{{player.desertStormParticipationCount}}</td>
               <td>{{player.mvpScore}}</td>
