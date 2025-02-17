@@ -1,6 +1,11 @@
 {
   "Home": {
     "Welcome": "Hoş geldiniz, cesur savaşçılar, Alliance Old Viking'e!",
+    "PlayerManager": {
+      "Title": "Oyuncu Yöneticisi",
+      "Description": "İttifak yönetimi için nihai aracınız: Oyuncuları yönetin, etkinlikleri planlayın ve VS puanlarından Marshal'a kadar her şeyi takip edin!",
+      "Button": "Oyuncu Yöneticisi hakkında daha fazla bilgi"
+    },
     "Section1": "Fırtınalı denizlere ve sonsuz savaş alanlarına Alliance Old Viking yanınızda. Burada omuz omuza savaşır, baltalarımızı keskinleştirir, kalkanlarımızı yükseltir ve her zaman bir sonraki savaşa hazır oluruz.",
     "WhatToExpect": {
       "Title": "Neler Beklemelisiniz:",
@@ -1823,5 +1828,40 @@
         "Description": "Sıra size geldiğinde, aşağıdaki görselde gösterildiği gibi buff'ı alacaksınız. Artık sıradaki kişi gelene kadar buff'ı 5 dakika boyunca kullanabilirsiniz."
       }
     }
+  },
+  "PlayerManager": {
+    "Title": "Oyuncu Yöneticisi",
+    "Description": "Son derece güçlü bir ittifak yönetim aracınız! Etkinlikler düzenleyin, oyuncu aktivitelerini takip edin ve ekibinizle verimli bir şekilde iş birliği yapın.",
+    "BetaInfo": "Bu araç hala beta aşamasındadır. Hala hatalar oluşabilir ve işlevler eksik olabilir.",
+    "PlayerAdmin": {
+      "Title": "Oyuncu ve Takım Yönetimi",
+      "Description": "Diğer oyuncuları davet edin ve ittifakı yönetmenize yardımcı olmaları için onlara bireysel erişim hakları verin."
+    },
+    "Mvp": {
+      "Title": "MVP Hesaplaması",
+      "Description": "Farklı performans ölçütlerine dayalı olarak en iyi oyuncuları belirlemek için özel formül."
+    },
+    "Event": {
+      "Title": "Etkinlik Planlama",
+      "Description": "Marshal, VS Düğümü, Desert Storm ve Zombie Siege gibi etkinlikleri planlayın ve oyuncu katılımını ayrıntılı bir şekilde takip edin."
+    },
+    "Statistic": {
+      "Title": "İttifak İstatistikleri",
+      "Description": "Marshal seviyeleri, ödül aşamaları ve her oyuncunun katılımını takip edin."
+    },
+    "Vs": {
+      "Title": "VS Düğümü ve Zombie Siege",
+      "Description": "Rakip bilgisi, lig özetleri, haftalık oyuncu puanları ve hayatta kalan zombi dalgaları."
+    },
+    "Custom": {
+      "Title": "Özel Etkinlikler",
+      "Description": "Kendi etkinliklerinizi oluşturun ve yönetin, mevsimler veya özel ittifak etkinlikleri için mükemmel."
+    },
+    "Api": {
+      "Title": "MVP Listesi için API",
+      "Description": "Oyuncu Yöneticisi, harici araçların MVP listesini almasına olanak tanıyan bir API arayüzü sağlar.",
+      "Description2": "Gelecek güncellemelerde API özellikleri eklenmesi planlanmaktadır."
+    },
+    "Button": "Oyuncu Yöneticisini Şimdi Aç"
   }
 }

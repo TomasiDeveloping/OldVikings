@@ -1,6 +1,11 @@
 {
   "Home": {
     "Welcome": "Welkom, dappere krijgers, bij de Alliance Old Viking!",
+    "PlayerManager": {
+      "Title": "Spelerbeheerder",
+      "Description": "Jouw ultieme tool voor alliantiebeheer: Beheer spelers, plan evenementen en volg alles, van VS-punten tot Marshal!",
+      "Button": "Leer meer over de Spelerbeheerder"
+    },
     "Section1": "Stap de stormachtige zeeën en eindeloze slagvelden op met de Alliance Old Viking aan je zijde. Hier vechten we zij aan zij, onze bijlen scherp, onze schilden geheven, altijd klaar voor de volgende strijd.",
     "WhatToExpect": {
       "Title": "Wat je kunt verwachten:",
@@ -1830,5 +1835,40 @@
         "Image": "Wanneer je beurt komt, heb je 5 minuten om de buff te gebruiken."
       }
     }
+  },
+  "PlayerManager": {
+    "Title": "Spelerbeheer",
+    "Description": "Jouw ultieme hulpmiddel voor alliantiebeheer! Organiseer evenementen, volg spelersactiviteiten en werk efficiënt samen met je team.",
+    "BetaInfo": "Deze tool bevindt zich nog in de bètafase. Er kunnen nog fouten optreden en functies ontbreken.",
+    "PlayerAdmin": {
+      "Title": "Speler- en Teambeheer",
+      "Description": "Nodig andere spelers uit en geef ze individuele toegangsrechten om je te helpen bij het beheren van de alliantie."
+    },
+    "Mvp": {
+      "Title": "MVP-berekening",
+      "Description": "Aangepaste formule om de beste spelers te bepalen op basis van verschillende prestatiemetingen."
+    },
+    "Event": {
+      "Title": "Evenementenplanning",
+      "Description": "Plan en beheer evenementen zoals Marshal, VS Duels, Desert Storm en Zombie Siege met gedetailleerde deelnemersregistratie."
+    },
+    "Statistic": {
+      "Title": "Alliantiesstatistieken",
+      "Description": "Volg de Marshal-niveaus, beloningsfasen en de deelname van elke speler."
+    },
+    "Vs": {
+      "Title": "VS Duels & Zombie Siege",
+      "Description": "Gedetailleerde informatie over tegenstanders, overzicht van de liga, wekelijkse spelerpunten en overleefde zombiegolven."
+    },
+    "Custom": {
+      "Title": "Aangepaste Evenementen",
+      "Description": "Maak en beheer je eigen evenementen, perfect voor seizoenen of speciale alliantieactiviteiten."
+    },
+    "Api": {
+      "Title": "API voor MVP-lijst",
+      "Description": "De Spelerbeheer biedt een API-interface waarmee externe tools de MVP-lijst kunnen ophalen.",
+      "Description2": "Extra API-functies worden gepland voor toekomstige updates."
+    },
+    "Button": "Open Spelerbeheer Nu"
   }
 }

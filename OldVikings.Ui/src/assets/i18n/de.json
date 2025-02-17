@@ -1,6 +1,11 @@
 {
   "Home": {
     "Welcome": "Willkommen, tapfere Krieger, bei der Allianz Old Viking!",
+    "PlayerManager": {
+      "Title": "Player Manager",
+      "Description": "Dein ultimatives Tool für Allianz-Management: Verwalte Spieler, plane Events und tracke alles von VS-Punkten bis Marshal!",
+      "Button": "Mehr über den Player Manager"
+    },
     "Section1": "Betrete die stürmischen Meere und endlosen Schlachtfelder mit der Allianz Old Viking an deiner Seite. Hier kämpfen wir Schulter an Schulter, unsere Axt geschärft, unsere Schilde erhoben, immer bereit für die nächste Schlacht.",
     "WhatToExpect": {
       "Title": "Was dich erwartet:",
@@ -1830,5 +1835,40 @@
         "Image": "Nachdem du an der Reihe bist, hast du 5 Minuten Zeit, den Buff zu nutzen."
       }
     }
+  },
+  "PlayerManager": {
+    "Title": "Player Manager",
+    "Description": "Dein ultimatives Allianz-Management-Tool! Organisiere Events, erfasse Spieleraktivitäten und arbeite effizient mit deinem Team zusammen.",
+    "BetaInfo": "Dieses Tool befindet sich noch in der Beta-Phase. Es können noch Fehler auftreten und Funktionen fehlen.",
+    "PlayerAdmin": {
+      "Title": "Spieler- & Teamverwaltung",
+      "Description": "Lade andere Spieler ein und gib ihnen individuelle Zugriffsrechte, um dich bei der Verwaltung der Allianz zu unterstützen."
+    },
+    "Mvp": {
+      "Title": "MVP-Berechnung",
+      "Description": "Eigene Formel zur Berechnung der besten Spieler anhand von verschiedenen Leistungswerten."
+    },
+    "Event": {
+      "Title": "Event-Planung",
+      "Description": "Plane & verwalte Events wie Marschall, VS-Duelle, Wüstensturm und Zombie-Belagerung mit detaillierter Spielerbeteiligung."
+    },
+    "Statistic": {
+      "Title": "Allianz-Statistiken",
+      "Description": "Erfasse Marschall Level, Belohnungsphasen und die Teilnahme jedes einzelnen Spielers"
+    },
+    "Vs": {
+      "Title": "VS-Duelle & Zombie-Belagerung",
+      "Description": "Detaillierte Gegner-Infos, Liga-Übersicht, wöchentliche Spielerpunkte und überlebte Zombie-Wellen."
+    },
+    "Custom": {
+      "Title": "Custom Events",
+      "Description": "Erstelle und verwalte eigene Events, perfekt für Seasons oder Sonderaktionen deiner Allianz."
+    },
+    "Api": {
+      "Title": "API für MVP-Liste",
+      "Description": "Der Player Manager bietet eine API-Schnittstelle, mit der externe Tools die MVP-Liste abrufen können.",
+      "Description2": "Weitere API-Funktionen sind für zukünftige Updates geplant."
+    },
+    "Button": "Player Manager jetzt öffnen"
   }
 }

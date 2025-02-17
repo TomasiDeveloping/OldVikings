@@ -1,6 +1,11 @@
 {
   "Home": {
     "Welcome": "¡Bienvenido, valiente guerrero, a la Alianza Old Viking!",
+    "PlayerManager": {
+      "Title": "Administrador de Jugadores",
+      "Description": "Tu herramienta definitiva para la gestión de alianzas: ¡Gestiona jugadores, planifica eventos y rastrea todo, desde puntos VS hasta Marshal!",
+      "Button": "Aprende más sobre el Administrador de Jugadores"
+    },
     "Section1": "Entra en los mares tormentosos y en los campos de batalla infinitos con la Alianza Old Viking a tu lado. Aquí luchamos codo a codo, con nuestra hacha afilada y nuestros escudos levantados, siempre listos para la próxima batalla.",
     "WhatToExpect": {
       "Title": "Lo que puedes esperar:",
@@ -1834,5 +1839,40 @@
         "Image": "Cuando te toque, tendrás 5 minutos para usar el buff."
       }
     }
+  },
+  "PlayerManager": {
+    "Title": "Gestor de Jugadores",
+    "Description": "¡Tu herramienta definitiva para gestionar alianzas! Organiza eventos, sigue las actividades de los jugadores y colabora de manera eficiente con tu equipo.",
+    "BetaInfo": "Esta herramienta está aún en fase beta. Aún pueden producirse errores y pueden faltar funciones.",
+    "PlayerAdmin": {
+      "Title": "Gestión de Jugadores y Equipos",
+      "Description": "Invita a otros jugadores y otórgales derechos de acceso individuales para ayudarte a gestionar la alianza."
+    },
+    "Mvp": {
+      "Title": "Cálculo de MVP",
+      "Description": "Fórmula personalizada para determinar a los mejores jugadores según varios métricas de rendimiento."
+    },
+    "Event": {
+      "Title": "Planificación de Eventos",
+      "Description": "Planifica y gestiona eventos como Marshal, Duelo VS, Desert Storm y Zombie Siege con un seguimiento detallado de la participación de los jugadores."
+    },
+    "Statistic": {
+      "Title": "Estadísticas de la Alianza",
+      "Description": "Sigue los niveles de Marshal, fases de recompensas y la participación de cada jugador."
+    },
+    "Vs": {
+      "Title": "Duelo VS & Zombie Siege",
+      "Description": "Información detallada sobre los oponentes, visión general de la liga, puntos semanales de los jugadores y olas de zombis sobrevividas."
+    },
+    "Custom": {
+      "Title": "Eventos Personalizados",
+      "Description": "Crea y gestiona tus propios eventos, perfectos para temporadas o actividades especiales de la alianza."
+    },
+    "Api": {
+      "Title": "API para Lista de MVP",
+      "Description": "El Gestor de Jugadores proporciona una interfaz API que permite a herramientas externas obtener la lista de MVP.",
+      "Description2": "Se planean características adicionales de la API para futuras actualizaciones."
+    },
+    "Button": "Abrir Gestor de Jugadores Ahora"
   }
 }

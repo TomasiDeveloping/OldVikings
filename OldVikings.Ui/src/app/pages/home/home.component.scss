@@ -19,3 +19,27 @@ h1, h5 {
 section {
   padding-bottom: 12px;
 }
+
+.player-manager-box {
+  background: rgba(255, 193, 7, 0.2); /* Dunkles Gelb-Transparent für dezenten Look */
+  border: 1px solid #ffc107; /* Goldene Umrandung */
+  color: #f8f9fa; /* Helles Grau für besseren Kontrast */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 193, 7, 0.2); /* Goldene Schattierung */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.player-manager-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 193, 7, 0.3);
+}
+//.btn-warning {
+//  background-color: #ffc107;
+//  border: none;
+//  padding: 10px 12px;
+//  font-weight: bold;
+//  border-radius: 8px;
+//}
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+

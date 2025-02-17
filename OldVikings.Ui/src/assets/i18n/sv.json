@@ -1,6 +1,11 @@
 {
   "Home": {
     "Welcome": "Välkommen, modiga krigare, till Alliansen Old Viking!",
+    "PlayerManager": {
+      "Title": "Spelarförvaltare",
+      "Description": "Ditt ultimata verktyg för allianshantering: Hantera spelare, planera evenemang och spåra allt från VS-poäng till Marshal!",
+      "Button": "Läs mer om Spelarförvaltare"
+    },
     "Section1": "Gå in i de stormiga haven och de oändliga slagfälten med Alliansen Old Viking vid din sida. Här kämpar vi axel mot axel, med våra yxor vassa, våra sköldar höjda, alltid redo för nästa strid.",
     "WhatToExpect": {
       "Title": "Vad du kan förvänta dig:",
@@ -1834,5 +1839,40 @@
         "Image": "När det är din tur har du 5 minuter på dig att använda buffen."
       }
     }
+  },
+  "PlayerManager": {
+    "Title": "Spelarehantering",
+    "Description": "Ditt ultimata verktyg för allianshantering! Organisera evenemang, följ spelaraktiviteter och samarbeta effektivt med ditt team.",
+    "BetaInfo": "Detta verktyg befinner sig fortfarande i betafasen. Fel kan fortfarande förekomma och funktioner kan saknas.",
+    "PlayerAdmin": {
+      "Title": "Spelare och Teamhantering",
+      "Description": "Bjud in andra spelare och ge dem individuella åtkomsträttigheter för att hjälpa dig att hantera alliansen."
+    },
+    "Mvp": {
+      "Title": "MVP-beräkning",
+      "Description": "Anpassad formel för att bestämma de bästa spelarna baserat på olika prestationsmått."
+    },
+    "Event": {
+      "Title": "Evenemangsplanering",
+      "Description": "Planera och hantera evenemang som Marshal, VS Dueller, Desert Storm och Zombie Siege med detaljerad deltagarspårning."
+    },
+    "Statistic": {
+      "Title": "Alliansstatistik",
+      "Description": "Följ Marshal-nivåer, belöningsfaser och varje spelares deltagande."
+    },
+    "Vs": {
+      "Title": "VS Dueller & Zombie Siege",
+      "Description": "Detaljerad information om motståndare, ligasammanfattning, veckovisa spelarpoäng och överlevda zombievågor."
+    },
+    "Custom": {
+      "Title": "Anpassade Evenemang",
+      "Description": "Skapa och hantera egna evenemang, perfekt för säsonger eller speciella alliansaktiviteter."
+    },
+    "Api": {
+      "Title": "API för MVP-lista",
+      "Description": "Spelarehanteraren erbjuder ett API-gränssnitt som gör att externa verktyg kan hämta MVP-listan.",
+      "Description2": "Ytterligare API-funktioner är planerade för framtida uppdateringar."
+    },
+    "Button": "Öppna Spelarehantering Nu"
   }
 }

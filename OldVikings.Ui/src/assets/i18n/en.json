@@ -1,6 +1,11 @@
 {
   "Home": {
     "Welcome": "Welcome, brave warriors, to the Alliance Old Viking!",
+    "PlayerManager": {
+      "Title": "Player Manager",
+      "Description": "Your ultimate tool for alliance management: Manage players, plan events, and track everything from VS points to Marshal!",
+      "Button": "Learn more about Player Manager"
+    },
     "Section1": "Step into the stormy seas and endless battlefields with the Alliance Old Viking by your side. Here we fight shoulder to shoulder, our axes sharp, our shields raised, always ready for the next battle.",
     "WhatToExpect": {
       "Title": "What to Expect:",
@@ -1834,5 +1839,40 @@
         "Image": "Once it's your turn, you have 5 minutes to use the buff."
       }
     }
+  },
+  "PlayerManager": {
+    "Title": "Player Manager",
+    "Description": "Your ultimate alliance management tool! Organize events, track player activities, and collaborate efficiently with your team.",
+    "BetaInfo": "This tool is still in the beta phase. Errors may still occur and functions may be missing.",
+    "PlayerAdmin": {
+      "Title": "Player & Team Management",
+      "Description": "Invite other players and grant them individual access rights to assist you in managing the alliance."
+    },
+    "Mvp": {
+      "Title": "MVP Calculation",
+      "Description": "Custom formula to determine the best players based on various performance metrics."
+    },
+    "Event": {
+      "Title": "Event Planning",
+      "Description": "Plan & manage events like Marshal, VS Duels, Desert Storm, and Zombie Siege with detailed player participation tracking."
+    },
+    "Statistic": {
+      "Title": "Alliance Statistics",
+      "Description": "Track Marshal levels, reward phases, and each player's participation."
+    },
+    "Vs": {
+      "Title": "VS Duels & Zombie Siege",
+      "Description": "Detailed opponent information, league overview, weekly player points, and survived zombie waves."
+    },
+    "Custom": {
+      "Title": "Custom Events",
+      "Description": "Create and manage your own events, perfect for seasons or special alliance activities."
+    },
+    "Api": {
+      "Title": "API for MVP List",
+      "Description": "The Player Manager provides an API interface that allows external tools to retrieve the MVP list.",
+      "Description2": "Additional API features are planned for future updates."
+    },
+    "Button": "Open Player Manager Now"
   }
 }
