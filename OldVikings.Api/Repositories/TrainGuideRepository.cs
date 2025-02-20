@@ -17,7 +17,7 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
             throw new ApplicationException("No Data found");
         }
 
-        var today = DateTime.Now.AddDays(3);
+        var today = DateTime.Now;
 
         var currentIndex = trainGuide.CurrentPlayerIndex;
         var nextIndex = trainGuide.CurrentPlayerIndex;
