@@ -1630,6 +1630,9 @@
   },
   "PlayerMvp": {
     "Title": "Alliance - MVP",
+    "FirstPlace": "1. plads i den seneste VS-uge",
+    "SecondPlace": "2. plads i den seneste VS-uge",
+    "ThirdPlace": "3. plads i den seneste VS-uge",
     "MvpCard": {
       "Title": "Fremragende Spiller",
       "VsPoints": "VS Point",

@@ -1,8 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OldVikings.Api.Database;
 using Quartz;
-using static Quartz.Logging.OperationName;
-using System.Reflection.Metadata;
 
 namespace OldVikings.Api.Services;
 
@@ -29,27 +27,23 @@ public class DailyRotationJob(OldVikingsContext dbContext, ILogger<DailyRotation
                 return;
             }
 
-            if (today.DayOfWeek == DayOfWeek.Wednesday)
+            if (today.DayOfWeek is DayOfWeek.Thursday or DayOfWeek.Friday or DayOfWeek.Saturday)
             {
-                trainGuide.LastUpdate = today;
-                await dbContext.SaveChangesAsync();
-                logger.LogInformation("Only the date has been updated as Wednesday");
-                return;
+                var nextIndex = trainGuide.CurrentPlayerIndex + 1;
+
+                if (nextIndex > 10) nextIndex = 0;
+
+                trainGuide.CurrentPlayerIndex = nextIndex;
+                logger.LogInformation($"Index updated. New index = {trainGuide.CurrentPlayerIndex}");
             }
 
-            var nextIndex = trainGuide.CurrentPlayerIndex + 1;
-
-            if (nextIndex > 10) nextIndex = 0;
-
-            trainGuide.CurrentPlayerIndex = nextIndex;
             trainGuide.LastUpdate = today;
             await dbContext.SaveChangesAsync();
-            logger.LogInformation($"Successfully updated.New index = {trainGuide.CurrentPlayerIndex}");
+            logger.LogInformation($"Successfully saved changes. LastUpdate = {trainGuide.LastUpdate}");
         }
         catch (Exception e)
         {
             logger.LogError(e, e.Message);
         }
-
     }
 }

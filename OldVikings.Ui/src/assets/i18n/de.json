@@ -1626,6 +1626,9 @@
   },
   "PlayerMvp": {
     "Title": "Allianz - MVP",
+    "FirstPlace": "Platz 1 der letzten VS-Woche",
+    "SecondPlace": "Platz 2 der letzten VS-Woche",
+    "ThirdPlace": "Platz 3 der letzten VS-Woche",
     "MvpCard": {
       "Title": "Herausragender Spieler",
       "VsPoints": "VS Punkte",

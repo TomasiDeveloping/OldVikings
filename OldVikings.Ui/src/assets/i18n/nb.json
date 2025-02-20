@@ -1626,6 +1626,9 @@
   },
   "PlayerMvp": {
     "Title": "Allianse - MVP",
+    "FirstPlace": "1. plass i forrige VS-uke",
+    "SecondPlace": "2. plass i forrige VS-uke",
+    "ThirdPlace": "3. plass i forrige VS-uke",
     "MvpCard": {
       "Title": "Fremragende Spiller",
       "VsPoints": "VS Poeng",

@@ -17,43 +17,45 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
             throw new ApplicationException("No Data found");
         }
 
-        var today = DateTime.Now;
-        var isWednesday = today.DayOfWeek == DayOfWeek.Wednesday;
+        var today = DateTime.Now.AddDays(3);
 
         var currentIndex = trainGuide.CurrentPlayerIndex;
-        var nextIndex = (currentIndex + 1) % _players.Length;
-        var nextButOneIndex = (currentIndex + 2) % _players.Length;
+        var nextIndex = trainGuide.CurrentPlayerIndex;
+        var nextButOneIndex = trainGuide.CurrentPlayerIndex;
 
-        var currentPlayer = _players[currentIndex];
-        var nextPlayer = _players[nextIndex];
-        var nextButOnePlayer = _players[nextButOneIndex];
-
-        if (isWednesday)
+        switch (today.DayOfWeek)
         {
-            currentPlayer = "MVP";
-        }
-        else
-        {
-            if (today.AddDays(1).DayOfWeek == DayOfWeek.Wednesday)
-            {
-                nextPlayer = "MVP";
-                nextButOnePlayer = _players[nextIndex];
-            }
-
-            if (today.AddDays(2).DayOfWeek == DayOfWeek.Wednesday)
-            {
-                nextButOnePlayer = "MVP";
-            }
-
+            case DayOfWeek.Wednesday:
+                nextButOneIndex += 1;
+                break;
+            case DayOfWeek.Thursday or DayOfWeek.Friday:
+                nextIndex += 1;
+                nextButOneIndex += 2;
+                break;
         }
 
         return new TrainGuideDto()
         {
-            CurrentPlayer = currentPlayer,
-            NextPlayer = nextPlayer,
-            NextButOnePlayer = nextButOnePlayer,
+            CurrentPlayer = GetPlayerForDay(today, currentIndex),
+            NextPlayer = GetPlayerForDay(today.AddDays(1), nextIndex),
+            NextButOnePlayer = GetPlayerForDay(today.AddDays(2), nextButOneIndex),
         };
     }
+
+    private string GetPlayerForDay(DateTime date, int index)
+    {
+        return _specialDays.TryGetValue(date.DayOfWeek, out var specialPlayer) 
+            ? specialPlayer 
+            : _players[index % _players.Length];
+    }
+
+    private readonly Dictionary<DayOfWeek, string> _specialDays = new()
+    {
+        { DayOfWeek.Wednesday, "MVP" },
+        { DayOfWeek.Sunday , "1Place"},
+        { DayOfWeek.Monday , "2Place"},
+        { DayOfWeek.Tuesday , "3Place"}
+    };
 
     private readonly string[] _players =
     [

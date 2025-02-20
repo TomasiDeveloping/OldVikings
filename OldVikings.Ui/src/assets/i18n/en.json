@@ -1630,6 +1630,9 @@
   },
   "PlayerMvp": {
     "Title": "Alliance - MVP",
+    "FirstPlace": "1st place of the last VS week",
+    "SecondPlace": "2nd place of the last VS week",
+    "ThirdPlace": "3rd place of the last VS week",
     "MvpCard": {
       "Title": "Outstanding Player",
       "VsPoints": "VS Points",

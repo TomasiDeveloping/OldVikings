@@ -1626,6 +1626,9 @@
   },
   "PlayerMvp": {
     "Title": "İttifak - MVP",
+    "FirstPlace": "Son VS haftasında 1. sırada",
+    "SecondPlace": "Son VS haftasında 2. sırada",
+    "ThirdPlace": "Son VS haftasında 3. sırada",
     "MvpCard": {
       "Title": "Öne Çıkan Oyuncu",
       "VsPoints": "VS Puanları",

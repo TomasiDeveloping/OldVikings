@@ -1630,6 +1630,9 @@
   },
   "PlayerMvp": {
     "Title": "Alianza - MVP",
+    "FirstPlace": "1.er lugar de la última semana VS",
+    "SecondPlace": "2.do lugar de la última semana VS",
+    "ThirdPlace": "3.er lugar de la última semana VS",
     "MvpCard": {
       "Title": "Jugador Destacado",
       "VsPoints": "Puntos VS",

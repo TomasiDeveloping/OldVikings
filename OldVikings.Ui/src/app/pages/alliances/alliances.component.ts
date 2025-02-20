@@ -34,6 +34,36 @@ export class AlliancesComponent implements OnInit {
           if (this.trainGuide.nextPlayer === 'MVP') {
             this.trainGuide.nextPlayer = this._translateService.instant('PlayerMvp.Title')
           }
+          if (this.trainGuide.nextButOnePlayer === 'MVP') {
+            this.trainGuide.nextButOnePlayer = this._translateService.instant('PlayerMvp.Title')
+          }
+          if (this.trainGuide.currentPlayer === '1Place') {
+            this.trainGuide.currentPlayer = this._translateService.instant('PlayerMvp.FirstPlace')
+          }
+          if (this.trainGuide.nextPlayer === '1Place') {
+            this.trainGuide.nextPlayer = this._translateService.instant('PlayerMvp.FirstPlace')
+          }
+          if (this.trainGuide.nextButOnePlayer === '1Place') {
+            this.trainGuide.nextButOnePlayer = this._translateService.instant('PlayerMvp.FirstPlace')
+          }
+          if (this.trainGuide.currentPlayer === '2Place') {
+            this.trainGuide.currentPlayer = this._translateService.instant('PlayerMvp.SecondPlace')
+          }
+          if (this.trainGuide.nextPlayer === '2Place') {
+            this.trainGuide.nextPlayer = this._translateService.instant('PlayerMvp.SecondPlace')
+          }
+          if (this.trainGuide.nextButOnePlayer === '2Place') {
+            this.trainGuide.nextButOnePlayer = this._translateService.instant('PlayerMvp.SecondPlace')
+          }
+          if (this.trainGuide.currentPlayer === '3Place') {
+            this.trainGuide.currentPlayer = this._translateService.instant('PlayerMvp.ThirdPlace')
+          }
+          if (this.trainGuide.nextPlayer === '3Place') {
+            this.trainGuide.nextPlayer = this._translateService.instant('PlayerMvp.ThirdPlace')
+          }
+          if (this.trainGuide.nextButOnePlayer === '3Place') {
+            this.trainGuide.nextButOnePlayer = this._translateService.instant('PlayerMvp.ThirdPlace')
+          }
         }
       }),
       error: (error) => {

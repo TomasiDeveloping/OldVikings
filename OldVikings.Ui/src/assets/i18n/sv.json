@@ -1630,6 +1630,9 @@
   },
   "PlayerMvp": {
     "Title": "Allians - MVP",
+    "FirstPlace": "1:a plats i senaste VS-veckan",
+    "SecondPlace": "2:a plats i senaste VS-veckan",
+    "ThirdPlace": "3:e plats i senaste VS-veckan",
     "MvpCard": {
       "Title": "Utmärkt Spelare",
       "VsPoints": "VS Poäng",
