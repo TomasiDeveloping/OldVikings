@@ -286,6 +286,26 @@
       "Task7": {
         "Title": "Entraîne un soldat de niveau 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 points) :",
         "Description": "Les points que tu obtiens sont basés sur le niveau d'arrivée du soldat. Ainsi, si tu améliores un soldat de niveau 4 à niveau 5, tu obtiens les points pour un soldat de niveau 5, de même que si tu formes un soldat de niveau 5 depuis le début. Prépare donc de nombreux soldats de niveaux moyens pour les améliorer en série."
+      },
+      "Task8": {
+        "Title": "Utiliser 1 Overlord Skill Badge (~12 points) :",
+        "Description": "Consommez 1 Overlord Skill Badge pour améliorer vos unités Overlord. Cela améliorera leurs capacités et contribuera aux points du jour."
+      },
+      "Task9": {
+        "Title": "Utiliser 1 Overlord Bond Badge (~74 000 points) :",
+        "Description": "Consommez 1 Overlord Bond Badge pour augmenter votre classement de promotion. Cet objet aide à débloquer des améliorations supplémentaires pour vos unités Overlord."
+      },
+      "Task10": {
+        "Title": "Utiliser 1 Training Certificate (~3 500 points) :",
+        "Description": "Consommez 1 Training Certificate pour améliorer votre entraînement spécialisé. Cela est essentiel pour améliorer les compétences de vos soldats."
+      },
+      "Task11": {
+        "Title": "Utiliser 1 Overlord Training Guidebook (~1 500 points) :",
+        "Description": "Consommez 1 Overlord Training Guidebook pour améliorer encore vos programmes d'entraînement spécialisés. Cet objet est essentiel pour améliorer l'entraînement de vos soldats."
+      },
+      "Task12": {
+        "Title": "Utiliser 1 Overlord Promotion Shard de chaque type (~25 000 points) :",
+        "Description": "Consommez 1 Overlord Promotion Shard de chaque type pour améliorer vos unités Overlord. Ces shards sont nécessaires pour la promotion et le déblocage de capacités de niveau supérieur."
       }
     },
     "Day6": {
@@ -436,7 +456,8 @@
       "Tip7": "Collecte tous les tickets de recrutement et utilise-les seulement le jeudi (sauf ceux gratuits)",
       "Tip8": "Collecte les fragments d'hero et les médailles de compétence et utilise-les seulement le jeudi",
       "Tip9": "Collecte l'expérience héroïque et utilise-la seulement le lundi ou le jeudi",
-      "Tip10": "Collecte tous les puces de compétence drone pour le lundi"
+      "Tip10": "Collecte tous les puces de compétence drone pour le lundi",
+      "Tip11": "Overlord Gorilla : Après la guérison, l'Overlord peut être entraîné et promu. Le vendredi, vous gagnez des points pour le duel VS en utilisant des Skill Badges, Bond Badges, Training Certificates, Training Manuals et Promotion Shards. Conservez tous ces objets jusqu'à vendredi et utilisez-les alors pour gagner des points VS."
     },
     "YouTubeNote": "Remarque : Les vidéos YouTube suivantes montrent de bons exemples pour le jour VS. Notez qu'elles peuvent ne pas être entièrement à jour. Vérifiez également les dernières modifications et procédures.",
     "Description": "Sur cette page, vous trouverez des conseils et des astuces utiles pour obtenir le meilleur score possible lors du duel VS sans dépenser d'argent. Découvrez des stratégies efficaces et des méthodes éprouvées pour maximiser votre score et réussir !"

@@ -286,6 +286,26 @@
       "Task7": {
         "Title": "Opleiden van een soldaat van niveau 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 punten):",
         "Description": "De punten die je ontvangt zijn gebaseerd op het aankomsteniveau van een soldaat. Als je bijvoorbeeld een soldaat van niveau 4 naar niveau 5 opwerkt, ontvang je de punten voor een soldaat van niveau 5, net zoals als je een soldaat van niveau 5 vanaf het begin opleidt. Bereid daarom veel soldaten van gemiddelde niveaus voor om ze in de fabriek op te waarderen."
+      },
+      "Task8": {
+        "Title": "Gebruik 1 Overlord Skill Badge (~12 punten):",
+        "Description": "Verbruik 1 Overlord Skill Badge om je Overlord-eenheden te verbeteren. Dit zal hun vaardigheden verbeteren en bijdragen aan de punten van de dag."
+      },
+      "Task9": {
+        "Title": "Gebruik 1 Overlord Bond Badge (~74.000 punten):",
+        "Description": "Verbruik 1 Overlord Bond Badge om je promotierang te verhogen. Dit item helpt bij het ontgrendelen van extra upgrades voor je Overlord-eenheden."
+      },
+      "Task10": {
+        "Title": "Gebruik 1 Training Certificate (~3.500 punten):",
+        "Description": "Verbruik 1 Training Certificate om je gespecialiseerde training te verbeteren. Dit is essentieel om de vaardigheden van je soldaten te verbeteren."
+      },
+      "Task11": {
+        "Title": "Gebruik 1 Overlord Training Guidebook (~1.500 punten):",
+        "Description": "Verbruik 1 Overlord Training Guidebook om je gespecialiseerde trainingsprogramma's verder te upgraden. Dit item is essentieel voor het verbeteren van de training van je soldaten."
+      },
+      "Task12": {
+        "Title": "Gebruik 1 Overlord Promotion Shard van elk type (~25.000 punten):",
+        "Description": "Verbruik 1 Overlord Promotion Shard van elk type om je Overlord-eenheden te verbeteren. Deze shards zijn nodig voor promotie en het ontgrendelen van vaardigheden van hogere niveaus."
       }
     },
     "Day6": {
@@ -436,7 +456,8 @@
       "Tip7": "Verzamel rekrutering tickets en gebruik ze pas op donderdag (behalve gratis)",
       "Tip8": "Verzamel fragmenten voor helden en vaardigheidsmedailles en gebruik ze pas op donderdag",
       "Tip9": "Verzamel helden-ervaring en gebruik deze alleen op maandag of donderdag",
-      "Tip10": "Verzamel drone-vaardigheid chips voor maandag"
+      "Tip10": "Verzamel drone-vaardigheid chips voor maandag",
+      "Tip11": "Overlord Gorilla: Na genezing kan de Overlord worden getraind en gepromoveerd. Op vrijdag verdien je punten voor de VS-duel door Skill Badges, Bond Badges, Training Certificates, Training Manuals en Promotion Shards te gebruiken. Bewaar al deze items tot vrijdag en gebruik ze dan om VS-punten te verdienen."
     },
     "YouTubeNote": "Opmerking: De volgende YouTube-video's tonen goede voorbeelden van de VS-dag. Houd er echter rekening mee dat ze mogelijk niet helemaal up-to-date zijn. Informeer ook over de nieuwste wijzigingen en procedures.",
     "Description": "Op deze pagina vind je nuttige tips en trucs om zoveel mogelijk punten te verzamelen tijdens de VS-dag, zonder geld te investeren. Ontdek effectieve strategieën en bewezen methoden om je score te maximaliseren en succesvol te zijn!"

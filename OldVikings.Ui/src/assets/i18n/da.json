@@ -290,6 +290,26 @@
       "Task7": {
         "Title": "Uddan én soldat af niveau 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 point):",
         "Description": "Pointene du får, baseres på ankomstniveauet af en soldat. Hvis du f.eks. opgraderer en soldat fra niveau 4 til niveau 5, får du pointene for en soldat på niveau 5, ligesom hvis du træner en soldat fra bunden af. Forbered derfor mange soldater på mellemniveauer til opgradering på samlebåndet."
+      },
+      "Task8": {
+        "Title": "Brug 1 Overlord Skill Badge (~12 point):",
+        "Description": "Forbrug 1 Overlord Skill Badge for at opgradere dine Overlord-enheder. Dette vil forbedre deres evner og bidrage til dagens point."
+      },
+      "Task9": {
+        "Title": "Brug 1 Overlord Bond Badge (~74.000 point):",
+        "Description": "Forbrug 1 Overlord Bond Badge for at øge din forfremmelsesrang. Denne genstand hjælper med at låse op for yderligere opgraderinger af dine Overlord-enheder."
+      },
+      "Task10": {
+        "Title": "Brug 1 Training Certificate (~3.500 point):",
+        "Description": "Forbrug 1 Training Certificate for at opgradere din specialiserede træning. Dette er afgørende for at forbedre dine soldaters færdigheder."
+      },
+      "Task11": {
+        "Title": "Brug 1 Overlord Training Guidebook (~1.500 point):",
+        "Description": "Forbrug 1 Overlord Training Guidebook for at opgradere dine specialiserede træningsprogrammer yderligere. Denne genstand er nøglen til at forbedre dine soldaters træning."
+      },
+      "Task12": {
+        "Title": "Brug 1 Overlord Promotion Shard af hver type (~25.000 point):",
+        "Description": "Forbrug 1 Overlord Promotion Shard af hver type for at forbedre dine Overlord-enheder. Disse shards er nødvendige for forfremmelse og låsning af højere niveau evner."
       }
     },
     "Day6": {
@@ -440,7 +460,8 @@
       "Tip7": "Samle alle rekrutteringsbilletter og brug dem kun på torsdag (undtagen gratis)",
       "Tip8": "Samle heltefragmenter og færdighedsmedaljer og brug dem kun på torsdag",
       "Tip9": "Samle helte-EXP og brug dem kun på mandag eller torsdag",
-      "Tip10": "Samle alle dronefærdigheds-chips til mandag"
+      "Tip10": "Samle alle dronefærdigheds-chips til mandag",
+      "Tip11": "Overlord Gorilla: Efter helbredelse kan Overlord trænes og forfremmes. Om fredagen optjener du point til VS Duel ved at bruge Skill Badges, Bond Badges, Training Certificates, Training Manuals og Promotion Shards. Gem alle disse genstande indtil fredag og brug dem derefter for at optjene VS point."
     },
     "YouTubeNote": "Bemærk: De følgende YouTube-videoer viser gode eksempler på VS-dagen. Vær opmærksom på, at de måske ikke er helt opdaterede. Tjek også de nyeste ændringer og procedurer.",
     "Description": "På denne side finder du nyttige tips og tricks til, hvordan du kan score de maksimale point i VS Duel uden at bruge penge. Opdag effektive strategier og afprøvede metoder til at maksimere din score og få succes!"

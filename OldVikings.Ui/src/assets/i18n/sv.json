@@ -290,6 +290,26 @@
       "Task7": {
         "Title": "Träna en soldat på nivå 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 poäng):",
         "Description": "Poängen du får baseras på ankomstnivån på soldaten. Om du till exempel uppgraderar en soldat från nivå 4 till nivå 5 får du poängen för en soldat på nivå 5, precis som om du tränar en soldat på nivå 5 från grunden. Förbered därför många soldater på mellannivåer för att uppgradera dem på löpande band."
+      },
+      "Task8": {
+        "Title": "Använd 1 Overlord Skill Badge (~12 poäng):",
+        "Description": "Använd 1 Overlord Skill Badge för att uppgradera dina Overlord-enheter. Detta förbättrar deras förmågor och bidrar till dagens poäng."
+      },
+      "Task9": {
+        "Title": "Använd 1 Overlord Bond Badge (~74 000 poäng):",
+        "Description": "Använd 1 Overlord Bond Badge för att öka din befordringsrankning. Detta objekt hjälper till att låsa upp ytterligare uppgraderingar för dina Overlord-enheter."
+      },
+      "Task10": {
+        "Title": "Använd 1 Training Certificate (~3 500 poäng):",
+        "Description": "Använd 1 Training Certificate för att uppgradera din specialiserade träning. Detta är avgörande för att förbättra dina soldaters färdigheter."
+      },
+      "Task11": {
+        "Title": "Använd 1 Overlord Training Guidebook (~1 500 poäng):",
+        "Description": "Använd 1 Overlord Training Guidebook för att ytterligare uppgradera dina specialiserade träningsprogram. Detta objekt är nyckeln till att förbättra dina soldaters träning."
+      },
+      "Task12": {
+        "Title": "Använd 1 Overlord Promotion Shard av varje typ (~25 000 poäng):",
+        "Description": "Använd 1 Overlord Promotion Shard av varje typ för att förbättra dina Overlord-enheter. Dessa shards är nödvändiga för befordran och för att låsa upp högre nivåer av förmågor."
       }
     },
     "Day6": {
@@ -440,7 +460,8 @@
       "Tip7": "Spara alla rekryteringsbiljetter och använd dem först på torsdag (utom de som är gratis).",
       "Tip8": "Spara alla fragment för hjältar och färdighetsmedaljer och använd dem först på torsdag.",
       "Tip9": "Spara all hjältexp och använd den endast på måndag eller torsdag.",
-      "Tip10": "Spara alla drönfärdighetschips för måndag."
+      "Tip10": "Spara alla drönfärdighetschips för måndag.",
+      "Tip11": "Overlord Gorilla: Efter läkning kan Overlord tränas och befordras. På fredag tjänar du poäng för VS-duellen genom att använda Skill Badges, Bond Badges, Training Certificates, Training Manuals och Promotion Shards. Spara alla dessa objekt tills fredag och använd dem då för att tjäna VS-poäng."
     },
     "YouTubeNote": "Notering: De följande YouTube-videorna visar bra exempel på VS-dagen. Observera dock att de kanske inte är helt aktuella. Håll dig uppdaterad om de senaste ändringarna och procedurerna.",
     "Description": "På denna sida hittar du användbara tips och tricks för att samla så många poäng som möjligt under VS-duellen utan att behöva investera pengar. Upptäck effektiva strategier och beprövade metoder för att maximera din poängsumma och lyckas!"

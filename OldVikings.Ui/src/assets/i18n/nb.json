@@ -286,6 +286,26 @@
       "Task7": {
         "Title": "Tren en soldat på nivå 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 poeng):",
         "Description": "Poengene du får, baseres på ankomstnivået til en soldat. Så hvis du oppgraderer en soldat fra nivå 4 til nivå 5, får du poengene for en soldat på nivå 5, på samme måte som hvis du trener en soldat fra bunnen av. Forbered derfor mange soldater på middels nivå for å oppgradere dem på samlebåndet."
+      },
+      "Task8": {
+        "Title": "Bruk 1 Overlord Skill Badge (~12 poeng):",
+        "Description": "Bruk 1 Overlord Skill Badge for å oppgradere dine Overlord-enheter. Dette vil forbedre ferdighetene deres og bidra til dagens poeng."
+      },
+      "Task9": {
+        "Title": "Bruk 1 Overlord Bond Badge (~74.000 poeng):",
+        "Description": "Bruk 1 Overlord Bond Badge for å øke din forfremmelsesrang. Dette elementet hjelper med å låse opp ytterligere oppgraderinger for dine Overlord-enheter."
+      },
+      "Task10": {
+        "Title": "Bruk 1 Training Certificate (~3.500 poeng):",
+        "Description": "Bruk 1 Training Certificate for å oppgradere din spesialiserte trening. Dette er avgjørende for å forbedre ferdighetene til soldatene dine."
+      },
+      "Task11": {
+        "Title": "Bruk 1 Overlord Training Guidebook (~1.500 poeng):",
+        "Description": "Bruk 1 Overlord Training Guidebook for å oppgradere dine spesialiserte treningsprogrammer ytterligere. Dette elementet er nøkkelen til å forbedre treningen til soldatene dine."
+      },
+      "Task12": {
+        "Title": "Bruk 1 Overlord Promotion Shard av hver type (~25.000 poeng):",
+        "Description": "Bruk 1 Overlord Promotion Shard av hver type for å forbedre dine Overlord-enheter. Disse shardene er nødvendige for forfremmelse og for å låse opp høyere nivåferdigheter."
       }
     },
     "Day6": {
@@ -436,7 +456,8 @@
       "Tip7": "Samle alle rekruttering billetter og bruk dem først på torsdag (bortsett fra gratis)",
       "Tip8": "Samle heltebrikker og ferdighetsmedaljer og bruk dem først på torsdag",
       "Tip9": "Samle helteerfaring og bruk den kun på mandager eller torsdager",
-      "Tip10": "Samle alle droneferdighetsbrikker for mandag"
+      "Tip10": "Samle alle droneferdighetsbrikker for mandag",
+      "Tip11": "Overlord Gorilla: Etter helbredelse kan Overlord trenes og forfremmes. På fredag tjener du poeng til VS-duellen ved å bruke Skill Badges, Bond Badges, Training Certificates, Training Manuals og Promotion Shards. Spar alle disse elementene til fredag og bruk dem da for å tjene VS-poeng."
     },
     "YouTubeNote": "Merk: De følgende YouTube-videoene viser gode eksempler på VS-dagen. Vær oppmerksom på at de kanskje ikke er helt oppdaterte. Sjekk også de nyeste endringene og prosedyrene.",
     "Description": "På denne siden finner du nyttige tips og triks for hvordan du kan samle flest mulig poeng i VS-duellen uten å måtte bruke penger. Oppdag effektive strategier og velprøvde metoder for å maksimere poengsummen din og bli vellykket!"

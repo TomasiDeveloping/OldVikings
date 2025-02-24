@@ -290,6 +290,26 @@
       "Task7": {
         "Title": "Train a soldier of levels 1/2/3/4/5/6/7/8/9/10 (~46/70/93/117/140/164/197/211/234/258 points):",
         "Description": "Points are based on the arrival level of a soldier. So if you upgrade a level 4 soldier to level 5, you receive the points for a level 5 soldier, just as if you trained a level 5 soldier from scratch. Therefore, prepare many soldiers of intermediate levels to upgrade them on the assembly line."
+      },
+      "Task8": {
+        "Title": "Use 1 Overlord Skill Badge (~12 points):",
+        "Description": "Consume 1 Overlord Skill Badge to upgrade your Overlord units. This will improve their abilities and contribute to the day's points."
+      },
+      "Task9": {
+        "Title": "Use 1 Overlord Bond Badge (~74.000 points):",
+        "Description": "Consume 1 Overlord Bond Badge to increase your promotion ranking. This item helps to unlock further upgrades for your Overlord units."
+      },
+      "Task10": {
+        "Title": "Use 1 Training Certificate (~3.500 points):",
+        "Description": "Consume 1 Training Certificate to level up your specialized training. This is essential for improving the skills of your soldiers."
+      },
+      "Task11": {
+        "Title": "Use 1 Overlord Training Guidebook (~1.500 points):",
+        "Description": "Consume 1 Overlord Training Guidebook to further upgrade your specialized training programs. This item is key to enhancing your soldiers' training."
+      },
+      "Task12": {
+        "Title": "Use 1 Overlord Promotion Shard of Each Type (~25.000 points):",
+        "Description": "Consume 1 Overlord Promotion Shard of each type to improve your Overlord units. These shards are required for promotion and unlocking higher-tier abilities."
       }
     },
     "Day6": {
@@ -440,7 +460,8 @@
       "Tip7": "Collect all recruitment tickets and use them only on Thursday (except for free ones)",
       "Tip8": "Collect hero fragments and skill medals and use them only on Thursday",
       "Tip9": "Collect hero XP and use it only on Monday or Thursday",
-      "Tip10": "Collect all drone skill chips for Monday"
+      "Tip10": "Collect all drone skill chips for Monday",
+      "Tip11": "Overlord Gorilla: After healing, the Overlord can be trained and promoted. On Friday, you earn points for the VS Duel by using Skill Badges, Bond Badges, Training Certificates, Training Manuals, and Promotion Shards. Save all these items until Friday and use them then to earn VS points"
     },
     "YouTubeNote": "Note: The following YouTube videos show good examples for the VS day. Please note that they may not be entirely up-to-date. Also check for the latest changes and procedures.",
     "Description": "On this page, you will find useful tips and tricks on how to score the maximum points in the VS Duel without spending money. Discover effective strategies and proven methods to maximize your score and succeed!"

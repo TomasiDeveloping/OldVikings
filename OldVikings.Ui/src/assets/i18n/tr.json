@@ -286,6 +286,26 @@
       "Task7": {
         "Title": "1/2/3/4/5/6/7/8/9/10 Seviyeli Bir Asker Eğit (~46/70/93/117/140/164/197/211/234/258 Puan):",
         "Description": "Aldığın puanlar, bir askerin geldiği seviyeye bağlıdır. Örneğin, bir 4. seviye askeri 5. seviyeye yükseltirsen, 5. seviye askere verilen puanı alırsın, tıpkı bir 5. seviye askeri sıfırdan eğitirken olduğu gibi. Bu nedenle, orta seviyeli birçok asker hazırlayıp, onları akışta yükseltmen iyi olur."
+      },
+      "Task8": {
+        "Title": "1 Overlord Skill Badge kullan (~12 puan):",
+        "Description": "1 Overlord Skill Badge tüketerek Overlord birimlerinizi yükseltin. Bu, onların yeteneklerini geliştirecek ve o günün puanlarına katkıda bulunacaktır."
+      },
+      "Task9": {
+        "Title": "1 Overlord Bond Badge kullan (~74.000 puan):",
+        "Description": "1 Overlord Bond Badge tüketerek terfi sıralamanızı artırın. Bu öğe, Overlord birimleriniz için daha fazla yükseltme kilidini açar."
+      },
+      "Task10": {
+        "Title": "1 Training Certificate kullan (~3.500 puan):",
+        "Description": "1 Training Certificate tüketerek özel eğitiminizi yükseltin. Bu, askerlerinizin yeteneklerini geliştirmek için çok önemlidir."
+      },
+      "Task11": {
+        "Title": "1 Overlord Training Guidebook kullan (~1.500 puan):",
+        "Description": "1 Overlord Training Guidebook tüketerek özel eğitim programlarınızı daha da geliştirin. Bu öğe, askerlerinizin eğitimini geliştirmek için anahtardır."
+      },
+      "Task12": {
+        "Title": "Her türden 1 Overlord Promotion Shard kullan (~25.000 puan):",
+        "Description": "Her türden 1 Overlord Promotion Shard tüketerek Overlord birimlerinizi geliştirin. Bu shardlar, terfi için ve daha yüksek seviye yetenekleri açmak için gereklidir."
       }
     },
     "Day6": {
@@ -436,7 +456,8 @@
       "Tip7": "Kişi alım biletlerini toplayın ve sadece Perşembe günü kullanın (Ücretsiz olanlar hariç).",
       "Tip8": "Kahraman parçalarını ve beceri madalyalarını toplayın ve sadece Perşembe günü kullanın.",
       "Tip9": "Kahraman EXP’lerini toplayın ve sadece Pazartesi veya Perşembe günü kullanın.",
-      "Tip10": "Drone beceri çiplerini toplayın ve sadece Pazartesi günü kullanın."
+      "Tip10": "Drone beceri çiplerini toplayın ve sadece Pazartesi günü kullanın.",
+      "Tip11": "Overlord Gorilla: İyileşme sonrası, Overlord eğitilebilir ve terfi ettirilebilir. Cuma günü, Skill Badges, Bond Badges, Training Certificates, Training Manuals ve Promotion Shards kullanarak VS Duyası için puan kazanırsınız. Bu öğeleri Cuma'ya kadar biriktirin ve sonra kullanarak VS puanları kazanın."
     },
     "YouTubeNote": "Not: Aşağıdaki YouTube videoları VS gününe dair iyi örnekler göstermektedir. Ancak, videoların güncel olmayabileceğini unutmayın. Ayrıca en son değişiklikler ve prosedürler hakkında bilgi edinmeyi unutmayın.",
     "Description": "Bu sayfada, VS düellosunda mümkün olan en yüksek puanı toplamak için para harcamadan kullanabileceğiniz yararlı ipuçları ve stratejiler bulabilirsiniz. Puanınızı maksimize etmek ve başarılı olmak için etkili stratejiler ve kanıtlanmış yöntemleri keşfedin!"

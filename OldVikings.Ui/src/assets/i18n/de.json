@@ -286,6 +286,26 @@
       "Task7": {
         "Title": "Bilde einen Soldaten der Stufe 1/2/3/4/5/6/7/8/9/10 aus (~46/70/93/117/140/164/197/211/234/258 Punkte):",
         "Description": "Die Punkte, die du erhältst, basieren auf der Ankunftsstufe eines Soldaten. Wenn du also einen Soldaten der Stufe 4 auf Stufe 5 aufrüstest, erhältst du die Punkte für einen Soldaten der Stufe 5, genauso wie wenn du einen Soldaten der Stufe 5 von Grund auf ausbildest. Bereite daher viele Soldaten mittlerer Stufen vor, um sie am Fließband aufzurüsten."
+      },
+      "Task8": {
+        "Title": "Verwende 1 Overlord Skill Badge (~12 Punkte):",
+        "Description": "Verbrauche 1 Overlord Skill Badge, um deine Overlord-Einheiten zu verbessern. Dadurch werden ihre Fähigkeiten verbessert und es trägt zu den Punkten des Tages bei."
+      },
+      "Task9": {
+        "Title": "Verwende 1 Overlord Bond Badge (~74.000 Punkte):",
+        "Description": "Verbrauche 1 Overlord Bond Badge, um dein Beförderungsranking zu erhöhen. Dieser Gegenstand hilft dabei, weitere Upgrades für deine Overlord-Einheiten freizuschalten."
+      },
+      "Task10": {
+        "Title": "Verwende 1 Trainingszertifikat (~3.500 Punkte):",
+        "Description": "Verbrauche 1 Trainingszertifikat, um dein spezialisiertes Training zu verbessern. Dies ist entscheidend, um die Fähigkeiten deiner Soldaten zu steigern."
+      },
+      "Task11": {
+        "Title": "Verwende 1 Overlord Trainingshandbuch (~1.500 Punkte):",
+        "Description": "Verbrauche 1 Overlord Trainingshandbuch, um deine spezialisierten Trainingsprogramme weiter zu verbessern. Dieser Gegenstand ist wichtig, um das Training deiner Soldaten zu optimieren."
+      },
+      "Task12": {
+        "Title": "Verwende 1 Overlord Beförderungsschlüssel jeder Art (~25.000 Punkte):",
+        "Description": "Verbrauche 1 Overlord Beförderungsschlüssel jeder Art, um deine Overlord-Einheiten zu verbessern. Diese Schlüssel sind notwendig für die Beförderung und das Freischalten höherstufiger Fähigkeiten."
       }
     },
     "Day6": {
@@ -436,7 +456,8 @@
       "Tip7": "Rekrutierungs Ticket alle sammeln und erst am Donnerstag brauchen (Ausser Gratis)",
       "Tip8": "Scherben für Helden und Fähigkeitsmedaille alle sammeln und erst am Donnerstag einsetzen",
       "Tip9": "Helden Exp alle Sammeln und nur am Montag oder Donnerstag brauchen",
-      "Tip10": "Drohnen Fähigkeits Chips alle sammeln für Montag"
+      "Tip10": "Drohnen Fähigkeits Chips alle sammeln für Montag",
+      "Tip11": "Overlord Gorilla: Nach der Heilung kann der Overlord trainiert und befördert werden. Am Freitag erhältst du Punkte für das VS-Duell, indem du Skill Badges, Bond Badges, Trainingszertifikate, Trainingshandbücher und Beförderungsschlüssel verwendest. Sammle all diese Gegenstände bis Freitag und verwende sie dann, um VS-Punkte zu verdienen."
     },
     "YouTubeNote": "Hinweis: Die folgenden YouTube-Videos zeigen gute Beispiele für den VS-Tag. Beachte jedoch, dass sie möglicherweise nicht ganz aktuell sind. Informiere dich zusätzlich über die neuesten Änderungen und Verfahren.",
     "Description": "Auf dieser Seite findet ihr nützliche Tipps und Tricks, wie ihr beim VS-Duell möglichst viele Punkte sammeln könnt, ohne dabei Geld investieren zu müssen. Entdeckt effektive Strategien und bewährte Methoden, um eure Punktzahl zu maximieren und erfolgreich zu sein!"
