@@ -27,7 +27,7 @@ public class DailyRotationJob(OldVikingsContext dbContext, ILogger<DailyRotation
                 return;
             }
 
-            if (today.DayOfWeek is DayOfWeek.Thursday or DayOfWeek.Friday or DayOfWeek.Saturday)
+            if (today.DayOfWeek is DayOfWeek.Friday or DayOfWeek.Saturday or DayOfWeek.Sunday)
             {
                 var nextIndex = trainGuide.CurrentPlayerIndex + 1;
 
