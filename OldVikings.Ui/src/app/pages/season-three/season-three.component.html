@@ -1,7 +1,7 @@
 <div class="container pb-5">
   <h3 class="custom-font mt-3 text-center">{{'SeasonThree.Title' | translate }}</h3>
   <hr>
-<!--Content-->
+  <!--Content-->
   <section>
     <h5>{{ 'SeasonTwo.Content.Title' | translate }}</h5>
     <ul>
@@ -23,7 +23,7 @@
       <li><a fragment="season-three-desert-bazaar" routerLink="/season-three">{{'SeasonThree.Content.Link16' | translate}}</a></li>
     </ul>
   </section>
-<!--  Resources-->
+  <!--  Resources-->
   <section id="season-three-new-resources">
     <hr>
     <h5>{{'SeasonThree.Resources.Title' | translate }}</h5>
@@ -62,7 +62,7 @@
       </ul>
     </div>
   </section>
-<!--Map-->
+  <!--Map-->
   <section id="season-three-world-map">
     <hr>
     <h5>{{'SeasonThree.Map.Title' | translate }}</h5>
@@ -100,7 +100,7 @@
     </div>
 
   </section>
-<!--Visitors-->
+  <!--Visitors-->
   <section id="season-three-visitors">
     <hr>
     <h5>{{'SeasonThree.Visitors.Title' | translate }}</h5>
@@ -110,7 +110,7 @@
       <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/visitor2.png">
     </div>
   </section>
-<!--Golden Scarab-->
+  <!--Golden Scarab-->
   <section id="season-three-scarab">
     <hr>
     <h5>{{'SeasonThree.GoldenScarab.Title' | translate }}</h5>
@@ -132,7 +132,7 @@
       </div>
     </div>
   </section>
-<!--Radar Missions-->
+  <!--Radar Missions-->
   <section id="season-three-radar">
     <hr>
     <h5>{{'SeasonThree.RadarMissions.Title' | translate }}</h5>
@@ -157,7 +157,7 @@
     </div>
 
   </section>
-<!--Buildings-->
+  <!--Buildings-->
   <section id="season-three-new-buildings">
     <hr>
     <h5>{{'SeasonThree.Building.Title' | translate }}</h5>
@@ -192,7 +192,7 @@
       </div>
     </div>
   </section>
-<!--Alliance center-->
+  <!--Alliance center-->
   <section id="season-three-alliance-center">
     <hr>
     <h5>{{'SeasonThree.AllianceCenter.Title' | translate }}</h5>
@@ -268,7 +268,7 @@
     </div>
 
   </section>
-<!--New farms-->
+  <!--New farms-->
   <section id="season-three-new-farms">
     <hr>
     <h5>{{'SeasonThree.NewFarms.Title' | translate }}</h5>
@@ -289,7 +289,7 @@
       <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/ressource6.png">
     </div>
   </section>
-<!--Cities-->
+  <!--Cities-->
   <section id="season-three-city">
     <hr>
     <h5>{{'SeasonThree.Cities.Title' | translate }}</h5>
@@ -318,7 +318,7 @@
       <li>{{'SeasonThree.Cities.List10' | translate }}</li>
     </ul>
   </section>
-<!--Strongholds-->
+  <!--Strongholds-->
   <section id="season-three-stronghold">
     <hr>
     <h5>{{'SeasonThree.Strongholds.Title' | translate }}</h5>
@@ -346,7 +346,7 @@
     </ul>
     <p>{{'SeasonThree.Strongholds.Description5' | translate }}</p>
   </section>
-<!--Trade posts-->
+  <!--Trade posts-->
   <section id="season-three-trade-post">
     <hr>
     <h5>{{'SeasonThree.TradePosts.Title' | translate }}</h5>
@@ -401,7 +401,7 @@
     <h6 class="mt-3">{{'SeasonThree.TradePosts.Description13' | translate }}</h6>
     <p>{{'SeasonThree.TradePosts.Description14' | translate }}</p>
   </section>
-<!--Gameplay-->
+  <!--Gameplay-->
   <section id="season-three-game-play">
     <hr>
     <h5>{{'SeasonThree.GamePlay.Title' | translate }}</h5>
@@ -442,7 +442,7 @@
       <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/smallSandworm1.png">
     </div>
     <div class="image-text-container">
-      <div [innerHTML]="'SeasonThree.GamePlay.SandWorm.Image1' | translate "></div>
+      <div class="small" [innerHTML]="'SeasonThree.GamePlay.SandWorm.Image1' | translate "></div>
       <div>
         <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/smallSandworm2.png">
       </div>
@@ -625,7 +625,7 @@
     </div>
 
   </section>
-<!--Weapons-->
+  <!--Weapons-->
   <section id="season-three-weapons">
     <hr>
     <h5>{{'SeasonThree.Weapons.Title' | translate }}</h5>
@@ -651,15 +651,21 @@
     <h6>{{'SeasonThree.Weapons.Description12' | translate }}</h6>
     <p>{{'SeasonThree.Weapons.Description13' | translate }}</p>
   </section>
-<!--Exclusive weapons-->
+  <!--Exclusive weapons-->
   <section id="season-three-exclusive-weapons">
     <hr>
     <h5>{{'SeasonThree.ExclusiveWeapons.Title' | translate }}</h5>
     <p>{{'SeasonThree.ExclusiveWeapons.Description1' | translate }}</p>
-    <div class="d-flex justify-content-between gap-2">
-      <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/exclusive1.png">
-      <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/exclusive2.png">
-      <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/exclusive3.png">
+    <div class="flex-container">
+      <div class="flex-item">
+        <img alt="Bild 1" src="assets/images/seasonThree/exclusive1.png">
+      </div>
+      <div class="flex-item">
+        <img alt="Bild 2" src="assets/images/seasonThree/exclusive2.png">
+      </div>
+      <div class="flex-item">
+        <img alt="Bild 3" src="assets/images/seasonThree/exclusive3.png">
+      </div>
     </div>
 
     <h6 class="mt-3">{{'SeasonThree.ExclusiveWeapons.Description2' | translate }}</h6>
@@ -680,13 +686,13 @@
       <img alt="..." class="img-fluid custom-image" src="assets/images/seasonThree/exlusive6.png">
     </div>
   </section>
-<!--Professions-->
+  <!--Professions-->
   <section id="season-three-professions">
     <hr>
     <h5>{{'SeasonThree.Professions.Title' | translate }}</h5>
     <p>{{'SeasonThree.Professions.Description1' | translate }}</p>
   </section>
-<!--Bazaar-->
+  <!--Bazaar-->
   <section id="season-three-desert-bazaar">
     <hr>
     <h5>{{'SeasonThree.Bazaar.Title' | translate }}</h5>
