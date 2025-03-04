@@ -139,20 +139,22 @@
     }
   },
   "Navigation": {
-    "Home": "Hemsida",
+    "Home": "Hem",
     "Rules": "Regler",
-    "VS": "VS-Duell",
-    "Alliances": "Allianser",
-    "AllianceMvp": "Allians MVP",
-    "Basics": "Grunder",
-    "TipsAndTricks": "Tips och tricks",
+    "VS": "VS-duell",
+    "Alliances": "Allians",
+    "AllianceMvp": "Alliansens MVP",
+    "Basics": "Grundläggande",
+    "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Byggnader",
-    "Squad": "Team",
+    "Squad": "Trupp",
     "DesertStorm": "Ökenstorm",
+    "Seasons": "Säsonger",
     "SeasonOne": "Säsong 1",
     "SeasonTwo": "Säsong 2",
-    "Marshall": "Marskalkvakt",
-    "Capitol": "Capitol"
+    "SeasonThree": "Säsong 3",
+    "Marshall": "Marskalkens vakt",
+    "Capitol": "Kapitolium"
   },
   "VS": {
     "Title": "VS-Duell",

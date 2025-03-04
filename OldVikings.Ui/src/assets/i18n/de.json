@@ -149,8 +149,10 @@
     "Buildings": "Gebäude",
     "Squad": "Truppe",
     "DesertStorm": "Wüstensturm",
-    "SeasonOne": "Saison 1",
-    "SeasonTwo": "Saison 2",
+    "Seasons": "Staffeln",
+    "SeasonOne": "Staffel 1",
+    "SeasonTwo": "Staffel 2",
+    "SeasonThree": "Staffel 3",
     "Marshall": "Marschall-Wache",
     "Capitol": "Kapitol"
   },
@@ -1894,5 +1896,391 @@
       "Description2": "Weitere API-Funktionen sind für zukünftige Updates geplant."
     },
     "Button": "Player Manager jetzt öffnen"
+  },
+  "SeasonThree": {
+    "Title": "Staffel 3 – Goldenes Königreich",
+    "Content": {
+      "Link1": "Neue Basisressourcen",
+      "Link2": "Die Welt und die Karte",
+      "Link3": "Besucher",
+      "Link4": "Goldener Skarabäus",
+      "Link5": "Radarmissionen",
+      "Link6": "Neue Gebäude",
+      "Link7": "Allianz-Zentrum",
+      "Link8": "Allianz-Ressourcen",
+      "Link9": "Städte",
+      "Link10": "Festungen",
+      "Link11": "Handelsposten",
+      "Link12": "Spielablauf",
+      "Link13": "Heldenverbesserungen und Waffen",
+      "Link14": "Exklusive Waffen",
+      "Link15": "Berufe",
+      "Link16": "Wüstenbasar"
+    },
+    "Resources": {
+      "Title": "Neue Basisressourcen – Mithril und Heiliges Wasser",
+      "Description1": "Im Spiel sind jetzt zusätzliche Ressourcen verfügbar: Mithril und geheimes Wasser.",
+      "ScaredWater": {
+        "Title": "Heiliges Wasser:",
+        "Description1": "Es wird für den Bau und die Verbesserung saisonaler Gebäude verwendet.",
+        "Description2": "Heiliges Wasser kann durch Folgendes verdient werden:",
+        "List1": "Belohnungen für das erstmalige Besiegen von Zombies auf einem bestimmten Level",
+        "List2": "Durch das Abschließen von Saison-Quest-Missionen",
+        "List3": "Durch das Abschließen von Saison-3-Zielen.",
+        "List4": "Verwendung des Rekrutierungstickets „Heldenrückkehr“: Helden kehren in Saison 3 – Die Rückkehr der Legende zurück.",
+        "List5": "Belohnung für die erstmalige Eroberung einer Stadt.",
+        "List6": "Allianzzentrum: Eine Hütte mit Heiligem Wasser."
+      },
+      "Mithril": {
+        "Title": "Mithril:",
+        "Description1": "Es wird für den Bau und die Aufrüstung saisonaler Strukturen verwendet. Mithril kann durch folgende Aktivitäten erhalten werden:",
+        "List1": "Belohnungen für das erstmalige Töten von Zombies auf einem bestimmten Level.",
+        "List2": "Besucher vor der Mauer Ihrer Basis.",
+        "List3": "Durch das Abschließen von Saison-Quest-Missionen.",
+        "List4": "Durch das Abschließen von Saison-3-Zielen.",
+        "List5": "Erster Blood-Kill mit dem Doom Walker (erster DW-Kill des Tages).",
+        "List6": "Radarmissionen in den Wüstenruinen",
+        "List7": "Verwendung des Rekrutierungstickets „Hero's Return“: Helden kehren in Saison 3 – Legend Returns zurück.",
+        "List8": "Wochenpass und Saison-Battle-Pass (der größte Boost).",
+        "List9": "Belohnung für die erstmalige Eroberung einer Stadt/Festung durch Graben.",
+        "List10": "Das Graben von Festungen, die der Allianz gehören, bringt Mithril hervor.",
+        "List11": "Allianzzentrum: Das Mithril-Werk.",
+        "List12": "Wüstenschätze: Die offenen Tresore."
+      }
+    },
+    "Map": {
+      "Title": "Die Weltkarte und ihre Regionen",
+      "Description1": "Die Welt hat sich erneut verändert. Die Karte besteht aus drei verschiedenen Gebäudetypen: Städten, Grabungsfestungen und Handelsposten.",
+      "Image1": "Stadt",
+      "Image2": "Grabungsfestung",
+      "Image3": "Handelsposten",
+      "Description2": "Zu Beginn der Saison stranden Sie und Ihre Verbündeten am Rand des Servers (aber immer noch alle zusammen als Allianz-Hive) und haben noch keine eigene Stadt. Städte müssen zurückerobert werden, aber es gelten neue Regeln.",
+      "Description3": "Doom-Elite-Monster verwandeln sich in ägyptische Monster, und die meisten Zombies erfordern eine hohe Virenresistenz, um getötet zu werden.",
+      "NewMap": "Die neue Karte",
+      "NewMapDescription": "Die Kartengröße beträgt 13 x 13 Quadrate (auch wenn sie auf der Karte unten wie Rechtecke aussehen). Jedes Quadrat ist 75 x 75 „Pixel“ groß (Ihre Basisgröße beträgt 3 x 3). "
+    },
+    "Visitors": {
+      "Title": "Besucher",
+      "Description": "Von Zeit zu Zeit erscheinen zwei neue Arten von Besuchern vor der Mauer (der linke nach einigen Stunden, der rechte einmal täglich) und verteilen Mithril. "
+    },
+    "GoldenScarab": {
+      "Title": "Goldener Skarabäus",
+      "Description1": "Sie werden goldene Skarabäen auf der Karte finden. Klicken Sie auf sie und greifen Sie sie an, um Belohnungen zu erhalten.",
+      "Description2": "Skarabäen könnt ihr finden:",
+      "List1": "Weltzombies töten",
+      "List2": "Das Töten der Untergangseliten.",
+      "List3": "Verwendung einer Fallenlandmine (es können zufällig unterirdische Kreaturen erscheinen, nicht nur Skarabäen).",
+      "Image1": "Der Goldene Skarabäus ist sichtbar, wenn Sie aus der Karte herauszoomen. Sie werden sehen, wie er sich bewegt, und sobald Sie beginnen, ihn anzugreifen, bleibt er still. "
+    },
+    "RadarMissions": {
+      "Title": "Radarmissionen – Wüstenruinen",
+      "Description1": "Mit Staffel 3 kommt ein neuer Radarmissionstyp.",
+      "Description2": "Er besteht aus zwei Teilen:",
+      "List1": "Ein Glücksspiel, bei dem verschiedene Belohnungen zu finden sind:",
+      "List1List1": "Du hast die Wüstenruinen gefunden.",
+      "List1List2": "Sammle die Belohnungen oder riskiere, tiefer in die Ruinen vorzudringen und alles zu verlieren.",
+      "List2": "Trittst du in eine Falle, startet ein Minispiel mit Münzbelohnung.",
+      "List2List1": "Laufen Sie, um Münzen zu sammeln und Zombies auszuweichen. Sie haben 30 Sekunden Zeit, um aus den Ruinen zu entkommen und so viele Münzen wie möglich zu sammeln.",
+      "Description3": "Diese neuen Radarmissionen sind wirklich toll, weil sie dir tolle Belohnungen einbringen können, von denen die beste die Saison-Verdienstmedaille ist (die du zum Kauf von Sachen im Saisonladen verwenden kannst), wenn du das Glück hast, die letzten Level zu erreichen und auch die richtige Truhe zu wählen. "
+    },
+    "Building": {
+      "Title": "Neue Gebäude",
+      "Description1": "Während der dritten Staffel sind neue Gebäudetypen verfügbar.",
+      "CurseLab": {
+        "Title": "Fluch-Forschungslabor",
+        "Description": "Im Fluchforschungslabor können Sie Ihre Resistenz gegen Flüche verbessern, ähnlich wie die Resistenz gegen Viren, um Elite-Zombies und Beschützer der Grabenfestungen zu besiegen. Um es zu verbessern, benötigen Sie Heiliges Wasser. "
+      },
+      "BlessingFountain": {
+        "Title": "Segensbrunnen",
+        "Description1": "Segensbrunnen produzieren Heiliges Wasser; sie ähneln der Titanlegierungsfabrik aus Staffel 2.",
+        "Description2": "Es stehen mehrere Segensbrunnen zur Verfügung. Um sie freizuschalten, müssen Sie den vorherigen Segensbrunnen aufleveln (sie heißen Segensbrunnen I, II, III, IV, V). Um sie aufzuleveln, benötigen Sie Mithril. Lesen Sie daher den Artikel über die neuen Ressourcen in Staffel 3, um zu erfahren, wie Sie sie erhalten."
+      },
+      "Altar": {
+        "Title": "Altar",
+        "Description1": "Dieses Gebäude kann nur gebaut werden, wenn das Fluchforschungslabor Level 30 erreicht hat.",
+        "Description2": "Es wird die Werte der Wüstenbeschützer steigern, ähnlich wie Militärbasen (Panzer/Luft/Rakete) die Heldenattribute in Staffel 2 steigerten.",
+        "Image": "Jeder Levelaufstieg dieses Gebäudes erhöht die HP, den Angriff und die Verteidigung des Beschützers um 0,5 %."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "Allianz-Zentrum",
+      "Description1": "Gehen Sie zur Schaltfläche „Allianz“ -> „Allianzzentrum“ -> klicken Sie auf die Koordinaten, um das Allianzzentrum auf der Karte zu finden.",
+      "Description2": "Am zweiten Tag der dritten Saison muss Ihre Allianz das Allianzzentrum errichten.",
+      "Description3": "Sobald das Allianzzentrum gebaut ist, produziert es Gewürze/H und bietet allen Allianzmitgliedern in seiner Reichweite Buffs. Es verhindert auch, dass Mitglieder in der Allianzreichweite von riesigen Sandwürmern zurückgestoßen werden.",
+      "Description4": "WICHTIG: Die Werte für die Gewürzproduktion können von den Entwicklern geändert werden. Verwenden Sie die Bilder nicht als Referenz für diese Werte. Informationen zum Zugriff auf diese Werte finden Sie im Abschnitt „Levels“ weiter unten.",
+      "RepairAllianceCenter": {
+        "Title": "Reparatur-Alliance-Zentrum:",
+        "List1": "Je mehr Trupps das Allianzzentrum betreten, desto schneller wird es aufgebaut",
+        "Description1": "Sie können die Reichweite der vom Allianzzentrum angewendeten Buffs sehen, wenn Sie auf der Karte etwas herauszoomen."
+      },
+      "AdditionalFeatures": {
+        "Title": "Zusätzliche Funktionen:",
+        "Description1": "Sobald das Allianzzentrum erstellt wurde, können Sie sehen, welche Level neue Funktionen freischalten."
+      },
+      "MithrilPlant": {
+        "Title": "Mithril-Pflanze",
+        "Description1": "Dieses Gebäude produziert 34.560 Mithril/h und wird freigeschaltet, wenn das Allianzzentrum Level 5 erreicht.",
+        "Description2": "Wird das Gebäude beschädigt, wird die Produktion gestoppt. Bei Zerstörung verliert die Allianz einen entsprechenden Prozentsatz an Gewürzen.",
+        "Description3": "Rufen Sie die Seite des Allianz-Zentrums auf und klicken Sie auf das Mithril, das Sie auf der Konstruktion des Allianz-Zentrums sehen, wie im Bild hier gezeigt, um das produzierte Mithril einzusammeln."
+      },
+      "ExploratoryWell": {
+        "Title": "Erkundungsbohrung",
+        "Description1": "Dieses Gebäude produziert 600 Öl/h und wird freigeschaltet, wenn das Allianzzentrum Level 10 erreicht.",
+        "Description2": "Wird das Gebäude beschädigt, wird die Produktion gestoppt. Bei Zerstörung verliert die Allianz einen entsprechenden Prozentsatz an Gewürzen.",
+        "Description3": "Rufen Sie die Seite des Allianz-Zentrums auf und klicken Sie auf das Öl, das Sie bei der Konstruktion des Allianz-Zentrums sehen, wie hier im Bild gezeigt, um das produzierte Öl abzuholen."
+      },
+      "SacredWaterHut": {
+        "Title": "Heilige Wasserhütte",
+        "Description1": "Dieses Gebäude produziert 8640 Heiliges Wasser/h und wird freigeschaltet, wenn das Allianz-Zentrum Level 15 erreicht.",
+        "Description2": "Wird das Gebäude beschädigt, wird die Produktion gestoppt. Bei Zerstörung verliert die Allianz einen entsprechenden Prozentsatz an Gewürzen.",
+        "Description3": "Rufen Sie die Seite des Allianz-Zentrums auf und klicken Sie auf das Heilige Wasser, das Sie bei der Konstruktion des Allianz-Zentrums sehen, wie im Bild hier gezeigt, um das produzierte Heilige Wasser zu sammeln."
+      },
+      "Obelisk": {
+        "Title": "Obelisk",
+        "Description1": "Dieses Gebäude produziert 6 Beschützerhörner/h und wird freigeschaltet, wenn das Allianzzentrum Level 20 erreicht.",
+        "Description2": "Wird das Gebäude beschädigt, wird die Produktion gestoppt. Bei Zerstörung verliert die Allianz einen entsprechenden Prozentsatz an Gewürzen.",
+        "Description3": "Rufen Sie die Seite des Allianz-Zentrums auf und klicken Sie auf das Schutzhorn, das Sie bei der Konstruktion des Allianz-Zentrums sehen, wie im Bild hier gezeigt, um das hergestellte Schutzhorn einzusammeln."
+      },
+      "Level": {
+        "Title": "Ebenen",
+        "Description1": "Das Level des Allianz-Zentrums steigt automatisch basierend auf dem angesammelten Gewürz."
+      },
+      "Relocation": {
+        "Title": "Verlegung",
+        "Description1": "Das Allianz-Zentrum kann verlegt werden. Dazu müssen Sie den Verlegungsort bauen, genau wie beim Bau des ursprünglichen Allianz-Zentrums. Dies ist auch ähnlich wie die Verlegung des Allianzofens in Staffel 2.",
+        "Description2": "WICHTIG: Sobald Sie mit dem Bau des Umzugsorts beginnen, können Feinde ihn angreifen. Seien Sie also vorsichtig."
+      }
+    },
+    "NewFarms": {
+      "Title": "Neue Farmen – Allianz-Ressourcen",
+      "Description1": "Wie in Staffel 1 und 2 gezeigt, kann nach dem Sieg über die Doom-Elites vorübergehend zufällig eine neue Art von Allianzressourcenfarm/-feld erscheinen.",
+      "Description2": "In Staffel 3 können diese Farmen Heiliges Wasser, Mithril und Ölarten enthalten. Bis zu 10 Trupps können in jedem Sammelfeld sammeln.",
+      "Description3": "In Staffel 3 gibt das Spiel nicht die Wahrscheinlichkeit an, mit der Allianz-Ressourcenplättchen nach dem Töten von Monstern auftauchen. In Staffel 2 lag diese bei 5 %.",
+      "Description4": "Hier ein Beispiel für neue Ressourcenkacheln:"
+    },
+    "Cities": {
+      "Title": "Städte",
+      "Description1": "Die Eroberung der Stadt folgt dem Veranstaltungsplan von City Clash Staffel 3.",
+      "Description2": "Die von den Eigentümern selbst produzierten Gewürze sind für den Gewinn der dritten Staffel von grundlegender Bedeutung, und die Menge hängt vom Level der Stadt ab.",
+      "Description3": "Stadtgewürzproduktion pro Level:",
+      "List1": "Stufe 1: 100/h Gewürze",
+      "List2": "Stufe 2: 200/h Gewürze",
+      "List3": "Stufe 3: 300/h Gewürze",
+      "List4": "Stufe 4: 400/h Gewürze",
+      "List5": "Stufe 5: 500/h Gewürze",
+      "List6": "Stufe 6: 600/h Gewürze",
+      "Description4": "Grenzen der Stadteroberung",
+      "Description5": "Wie wir unter „Allianz-Button -> Allianz-Stadt“ sehen können:",
+      "List7": "Tägliches Kriegserklärungslimit für Städte: 2",
+      "List8": "Max. eroberte Städte: 8",
+      "List9": "Tägliche Grabungsfestungseroberungen: 2",
+      "List10": "Max. eroberte Grabungsfestungen: 8"
+    },
+    "Strongholds": {
+      "Title": "Grabungsfestungen",
+      "Description1": "Grabungsfestungen sind Orte auf der Karte, an denen Mithril gegraben werden kann. Sie ähneln den Grabungsstätten der zweiten Staffel.",
+      "Description2": "Sie werden von Mumienwächtern und Goldenen Vernichtern beschützt. Je höher das Level der Grabungsfestung, desto stärker der Beschützer.",
+      "Description3": "Mit dem neuesten Spiel-Update wird durch das Graben von Festungen Mithril/h basierend auf ihrem Level produziert:",
+      "List1": "Stufe 1: 100/h Mithril",
+      "List2": "Stufe 2: 120/h Mithril",
+      "List3": "Stufe 3: 140/h Mithril",
+      "List4": "Stufe 4: 160/h Mithril",
+      "List5": "Stufe 5: 180/h Mithril",
+      "List6": "Stufe 6: 200/h Mithril",
+      "Description4": "Es gibt drei verschiedene Arten von Goldenen Bestien, die die Grabungsfestungen verteidigen. Klicken Sie auf das „i“, um Einzelheiten anzuzeigen",
+      "List7": "Der Goldene Verteidiger ist vom Typ Panzer.",
+      "List8": "Der Goldene Streiter ist ein Flugzeug vom Typ.",
+      "List9": "Der Goldene Vernichter ist vom Typ Rakete.",
+      "Description5": "Beim Graben von Festungen entsteht Mithril, das Sie über die Schaltfläche „Allianz“ -> „Allianzstädte“ -> „Festungen graben“ -> „Alles beanspruchen“ einsammeln können."
+    },
+    "TradePosts": {
+      "Title": "Handelsposten",
+      "Description1": "Handelsposten befinden sich an bestimmten Standorten auf der Karte. Sie liegen diagonal in Richtung der Hauptstadt und können verschiedene Levels bis zu Level 5 haben.",
+      "Description2": "Handelsposten sind nicht dasselbe wie Festungen oder Städte. Sie können von Einzelpersonen besetzt werden und eröffnen einen Markt, auf dem jeder Dinge kaufen kann. Der Besitzer des Handelspostens kann Steuern verdienen.",
+      "Description3": "Es besteht keine Notwendigkeit, angrenzende Gebiete zu kontrollieren, und es gibt keine Begrenzung für die Anzahl der Handelsposten, die Sie haben können. Handelsposten können jedoch von anderen erobert werden, sodass Sie sie verteidigen müssen. Daher ist es für einen Spieler normalerweise schwierig, zu viele Handelsposten effektiv zu verwalten.",
+      "Description4": "Die Regeln für die Eroberung von Handelsposten",
+      "List1": "Handelsposten-Level werden nach und nach freigeschaltet (das Startdatum des Wettbewerbs wird auf jedem Handelsposten angezeigt):",
+      "List1List1": "Level 1: Sonntag, Tag 7 der Woche 2, um 12:00 Uhr Serverzeit (dies ist die einzige Eroberung, bei der andere Server nicht kommen können, um Handelsposten auf Ihrem Server zu erobern)",
+      "List1List2": "Level 2: Montag, Tag 1 der Woche 3 um 12:00 Uhr Serverzeit",
+      "List1List3": "Level 3: Dienstag, Tag 2 der Woche 3 um 12:00 Uhr Serverzeit",
+      "List1List4": "Level 4: Donnerstag, Tag 4 der Woche 3 um 12:00 Uhr Serverzeit",
+      "List1List5": "Level 5: Freitag, Tag 5 der Woche 3 um 12:00 Uhr Serverzeit",
+      "List2": "WICHTIG: Ab Tag 1 der Woche 3 sind Teleports zwischen den Kriegsgebieten der Saisongruppierung geöffnet und andere Kriegsgebiete können kommen und Handelsposten in Ihrem Kriegsgebiet erobern.",
+      "List3": "Sobald der Wettbewerb um die Eroberung des Handelspostens beginnt, dauert er 1 Stunde",
+      "List4": "Im Handelsposten stationierte Truppen steigern den Eroberungsfortschritt mit der Zeit schrittweise.",
+      "List5": "Der Fortschritt wird für Sie und Ihre Verbündeten separat verfolgt",
+      "List6": "Während des Wettbewerbs gewinnt der erste Kommandant, der 100 % Fortschritt erreicht, den Handelsposten. Wenn bis zum Ende des Wettbewerbs kein Kommandant 100 % erreicht, übernimmt der Kommandant mit dem höchsten Fortschritt den Handelsposten, sofern dieser keinen Gouverneur hat",
+      "List7": "Ihre Basis muss sich im kontaminierten Gebiet des Zielhandelspostens befinden, um diesen angreifen und erobern zu können.",
+      "List8": "Wenn der Handelsposten bereits einen Gouverneur hat, behält der aktuelle Gouverneur die Kontrolle, wenn bis zum Ende des Wettbewerbs niemand 100 % erreicht.",
+      "List9": "Sobald ein Handelsposten erobert ist, findet der nächste Wettbewerb um seine erneute Eroberung 7 Tage später statt.",
+      "Description5": "Jeder Handelsposten ist ein unabhängiger Laden, und Kommandeure in derselben Spielsaisongruppe können dessen Artikel kaufen.",
+      "Description6": "Handelsposten-Level",
+      "Description7": "Wie Sie auf diesen Bildern sehen können, sind umso mehr Artikel verfügbar, je höher das Level des Handelspostens ist.",
+      "Description8": "Alle anderen Parameter bleiben gleich, aber der Gouverneursvorteil durch die Erhöhung des Beschützerlimits steigt schrittweise an.",
+      "Description9": "Handelsgeschäft",
+      "Description10": "Sobald der Gouverneur die Kontrolle über einen Handelsposten übernimmt, wird der Handelsladen geöffnet und Artikel können gekauft werden. Klicken Sie dazu auf den Handelsposten und anschließend auf das unten angezeigte Symbol, um auf den Laden zuzugreifen.",
+      "Description11": "Der Gouverneur kann einmalig eine Handelskarawane herbeirufen, um die Lagerbestände aufzufüllen und Käufe zu ermöglichen.",
+      "Description12": "Leider sind nicht alle im Laden angezeigten Artikel für jeden Kommandanten verfügbar. Es gilt das Prinzip ‚Wer zuerst kommt, mahlt zuerst‘, da die Gesamtzahl der verfügbaren Artikel begrenzt ist. Außerdem sind einige Artikel ausschließlich dem Gouverneur vorbehalten.",
+      "Description13": "Steuer",
+      "Description14": "Diamanten, die in einem Handelsposten ausgegeben werden, generieren Steuereinnahmen. Wenn alle Artikel ausverkauft sind oder der Handelsposten vom Gouverneur aufgegeben wird, werden die gesammelten Steuern in Form eines Goldenen Eies an den Gouverneur des Handelspostens geschickt, das dann im Chat geteilt werden kann."
+    },
+    "GamePlay": {
+      "Title": "Spielablauf",
+      "Description1": "In Staffel 3 gibt es viele neue Dinge, die Sie im Spiel tun können:",
+      "Link1": "Liken Sie den Cat-Basis-Skin, um Belohnungen zu erhalten.",
+      "Link2": "Sandwurm-Krise",
+      "Link3": "Wüstenbeschützer",
+      "Link4": "Bauen Sie eine Oase",
+      "Link5": "Wüstenartefakte",
+      "Link6": "Doom Walker - Die letzten Jedi",
+      "Link7": "LKW",
+      "Description2": "Liken Sie den Cat-Basis-Skin, um Belohnungen zu erhalten",
+      "Description3": "Finden Sie Basis-Skins für Katzen und vergeben Sie ein ‚Gefällt mir‘, um sofort eine Belohnung zu erhalten. Es gibt ein tägliches Limit für die Anzahl der ‚Gefällt mir‘-Angaben, die Sie machen können.",
+      "SandWorm": {
+        "Title": "Sandwurmkrise",
+        "Description1": "Seit Beginn der dritten Staffel lauern Sandwürmer unter dem Sand und lauschen jedem Geräusch der Kommandanten.",
+        "Description2": "Das Sandworm-Crisis-Event beginnt am ersten Tag und dauert 14 Tage lang.",
+        "List1": "Während des Events erscheinen Sandwürmer. Jagen Sie diese, um Missionen abzuschließen und Belohnungen zu verdienen.",
+        "List2": "Wenn die Truppen der Allianzmitglieder in Kämpfe verwickelt sind, erzeugen sie Schockwellen. Wenn der Fortschrittsbalken voll ist, wird der letzte Kommandant, der ihn auslöst, einen Sandwurm anlocken, der seine Basis angreift. Basen, die von kleinen Sandwürmern umzingelt sind, können keine Warteschlangen aussenden, aber sie können mithilfe von Teleportationsgegenständen entkommen. Der kleine Sandwurm wird jedoch verschwinden, und es gehen Belohnungen verloren. (Nur laufende Sammelmärsche können fortgesetzt werden.)",
+        "List3": "Nachdem ein Sandwurm besiegt wurde, erhält der von ihm angegriffene Kommandant eine Bonus-Entdeckungsbelohnung per E-Mail.",
+        "List4": "Im weiteren Verlauf des Events werden große Sandwürmer erscheinen. Stützpunkte außerhalb des Allianzzentrums werden weggeschleudert, wenn große Sandwürmer angelockt werden.",
+        "List5": "Kommandanten, die die Allianz verlassen, sammeln keinen Schockwellenwert mehr an.",
+        "List6": "Auch wenn dies auf dieser Seite nicht nachverfolgt wird, erscheinen auch Riesensandwürmer, die von Fallenlandminen gefangen werden.",
+        "Description3": "Kleiner Sandwurm",
+        "Description4": "Wenn Kommandeure gegen Monster auf der Karte kämpfen, werden Stoßwellen erzeugt, die kleine Sandwürmer anziehen. Sobald der Fortschrittsbalken voll ist, wird der letzte Kommandeur, der ihn auslöst, den Sandwurm anziehen, der ihn dann verstrickt.",
+        "Description5": "Die als Belohnung aufgelistete ‚mögliche Beute‘ wird in Form von Truhen auf der Karte in der Nähe der Stelle hinterlassen, an der der Sandwurm getötet wurde.",
+        "Description6": "Großer Sandwurm",
+        "Description7": "Große Sandwürmer können mit Rallyes angegriffen werden und sind viel stärker als kleine Sandwürmer.",
+        "Description8": "Die Entdeckerbelohnung umfasst Sandwurmschuppen.",
+        "Description9": "Wenn direkt unter Ihrer Basis ein großer Sandwurm erscheint, wird Ihre Basis an einen entfernten Ort auf der Karte geschleudert.",
+        "Description10": "In diesem Fall wird eine Popup-Meldung angezeigt, die Sie auf dieses Ereignis hinweist.",
+        "Description11": "Um zu verhindern, dass Ihre Basis von Sandwürmern weggestoßen wird, sollten Sie in den Allianzgebieten bleiben, da das Allianzzentrum in diesen Bereichen Buffs bereitstellt, die Sie vor Sandwürmern schützen.",
+        "Description12": "Belohnungen",
+        "Description13": "Der Kampf gegen Sandwürmer bringt täglich und je nach Ziel zusätzliche Belohnungen.",
+        "Description14": "Vergleichen Sie die Größe der riesigen Sandwürmer mit einer Stadt. Wenn Sandwürmer erscheinen, verlassen sie das Gebiet, wie Sie direkt um die Stadt herum sehen können. Wenn der Sandwurm nicht getötet wird, verschwindet er nach 5 Stunden.",
+        "Description15": "Das Allianzzentrum verhindert, dass Mitglieder in Allianzgebieten von riesigen Sandwürmern zurückgestoßen werden."
+      },
+      "Protector": {
+        "Title": "Wüstenbeschützer",
+        "Description1": "Die Desert Protectors sind ein neuer Soldatentyp mit verbesserten Fähigkeiten, der in Saison 3 ab Tag 1, Woche 1 verfügbar ist, wenn das Feldereignis ‚Ancient Tech – Protector‘ freigeschaltet wird.",
+        "Description2": "Es wurde bestätigt, dass sie nicht für T11 stehen, daher ist davon auszugehen, dass T11 in Zukunft verfügbar sein wird.",
+        "Description3": "Dieser neue Soldatentyp ist eine gute Ergänzung für das Spiel, da er nicht ausschließlich davon abhängt, wie viel man ausgibt oder wie gut man seine Soldaten ausbildet. Denn Wüstenbeschützer werden nicht ausgebildet, sondern aus den Toten erweckt. Sie sind entbehrlich und verschwinden, sobald man sie einmal gebraucht hat.",
+        "Description4": "Beschützerfeld",
+        "Description5": "Sobald das Ereignis ‚Ancient Tech – Protector’s Field‘ freigeschaltet ist, können Sie das Desert Protector’s Field direkt vor der Mauer Ihrer Basis errichten.",
+        "Description6": "WICHTIG: Bringen Sie das Protector's Field zu Beginn der Saison nur auf Level 10 und nicht weiter, da es ab Level 11 Mithril und Heiliges Wasser benötigt, die für andere saisonale Gebäude wichtig sind. Darüber hinaus erhalten Sie mit Level 10 bereits Zugriff auf die vollständigen Funktionen des Desert Protectors, sodass es in den ersten Tagen nicht unbedingt erforderlich ist, es weiter aufzuleveln.",
+        "Description7": "Dieses saisonale Feld kann wie jedes andere Gebäude aufgerüstet werden und ermöglicht Ihnen den Zugriff auf das Menü zur Verwaltung der Desert Protectors.",
+        "Description8": "Wenn Sie in den Kartenmodus wechseln (von der Basisansicht zur Kartenansicht wechseln), können Sie das Desert Protectors-Feld auch über das entsprechende Symbol direkt über den Symbolen für Lkw/geheime Missionen aufrufen.",
+        "Description9": "Fähigkeiten der Wüstenbeschützer",
+        "Description10": "Beschützer, gesegnet von der Wüste, verfügen über überlegene Kampfkraft. Sie sind stärker als Einheiten desselben Levels.",
+        "Description11": "Jeder Held kann Beschützer in einer Menge mit sich führen, die 1/10 der Einheitenanzahl entspricht (selbst mit dieser Begrenzung sind Beschützer stärker als Soldaten auf demselben Level).",
+        "Description12": "Im Gegensatz zu regulären Einheiten kehren Protektoren, die an Kämpfen teilnehmen, nicht zurück, sondern verschwinden in der Wüste. Setze sie also mit Bedacht ein.",
+        "Description13": "Wenn sie eingesetzt werden, aber nicht kämpfen, kehren alle Protektoren zurück.",
+        "Description14": "Abhängig davon, wie viele Wüstenbeschützer im Gebiet deines Beschützers stationiert sind, werden fortschreitend Fertigkeiten freigeschaltet.",
+        "Description15": "Anpassungskraft (wird freigeschaltet, wenn 500 oder mehr Beschützer im Feld des Protektors stationiert sind)",
+        "Description16": "Beschützer haben eine zusätzliche Resistenz gegen Flüche (+250) sowie einen verbesserten Angriff, eine verbesserte Verteidigung und erhöhte HP (+25 %). Dadurch sind sie perfekt geeignet, um Feinde anzugreifen, gegen die deine aktuelle Resistenz gegen Flüche nicht ausreicht.",
+        "Description17": "Todesschockwelle (wird freigeschaltet, wenn 750 oder mehr Beschützer im Feld des Protektors stationiert sind)",
+        "Description18": "Blauer Flammenzauber (wird freigeschaltet, wenn 1000 oder mehr Beschützer im Feld des Protektors stationiert sind).",
+        "Description19": "Wenn ein Trupp mit Beschützern einen Angriff auf die Basis eines anderen Kommandanten gewinnt, löst er den Zauber ‚Blaue Flamme‘ aus, der die feindliche Basis eine Stunde lang in unauslöschliche blaue Flammen hüllt.",
+        "Description20": "Protektor-Rallye (wird freigeschaltet, wenn 1250 oder mehr Protektoren im Feld des Protektors stationiert sind).",
+        "Description21": "Ermöglicht die Protector-Rallye!",
+        "Description22": "Kundgebungsbeschränkung: Verbündete, die sich der Kundgebung anschließen, müssen Truppen mit Beschützern einsetzen.",
+        "Description23": "Rallye-Countdown: Protector-Rallyes haben eine Vorbereitungszeit von 1 Minute.",
+        "Description24": "Anführer-Buff: Alle Truppen in der Rallye profitieren von den aktiven Protector-Verbesserungen des Anführers.",
+        "Description25": "Wüstenbeschützer-Konvertierung",
+        "Description26": "Vereinfacht ausgedrückt, erstellt man so Wüstenbeschützer:",
+        "Description27": "10 % der in den folgenden Fällen verlorenen Einheiten gehen in den Feldumwandlungspool des Beschützers und warten dort auf die Umwandlung:",
+        "Description28": "Gefechtsverluste während des VS Duells",
+        "Description29": "Schwerverletzte Einheiten, die im Krankenhaus keinen Platz finden, wenn es voll ist.“",
+        "Description30": "Verluste durch Verstöße gegen das Übungsgelände",
+        "Description31": "Die Anzahl der verlorenen Einheiten, die im Konvertierungspool warten können, ist unbegrenzt.",
+        "Description32": "Verbündete schicken Aufklärungsflugzeuge, um Ihnen bei der Konvertierung jeder Einheit zu helfen",
+        "Description33": "Wenn eure Basis durchbrochen wird, sind die Wüstenbeschützer im Protectors' Field davon nicht betroffen.",
+        "Description34": "Wüstenbeschützer - Attribute",
+        "Description35": "Hier ein Vergleich zwischen den normalen Soldaten und der entsprechenden Desert Protector-Version für einige Varianten.",
+        "Description36": "Stufe 10",
+        "Description37": "Stufe 9",
+        "Description38": "Stufe 7",
+        "Description39": "Steigern Sie die Eigenschaften des Beschützers mit dem Altar",
+        "Description40": "Der Altar ist ein neues Gebäude, das speziell dafür konzipiert wurde, die Eigenschaften des Wüstenbeschützer zu verbessern. Weitere Informationen finden Sie im Abschnitt ‚Altar‘.",
+        "Description41": "Konvertierte Einheiten werden ins Protector's Field geschickt.",
+        "Image1": "Das Symbol des Wüstenbeschützers gibt Ihnen außerdem eine Vorschau darauf, wie viele Soldaten dieses Typs sofort verfügbar sind.",
+        "Image2": "Truppen, die Beschützer tragen, erhalten automatisch aktivierte Buffs: Die Beschützer erhalten zusätzliche Fluchresistenz und Statusverbesserungen.",
+        "Image3": "Wenn in PvP-Kämpfen ein Trupp mit Beschützern besiegt wird, wird ein Teil der feindlichen Einheiten basierend auf dem Level und der Anzahl Ihrer getöteten Beschützer eliminiert.",
+        "Image4": "Schalten Sie zusätzliche mächtige Flucheffekte frei, indem Sie die Spezialisierungsfähigkeiten meistern!",
+        "Image5": "Schneller Marsch: Erhalten Sie einen zusätzlichen dreifachen Marschgeschwindigkeitsschub, wenn Sie an einer Protector Rally teilnehmen oder diese einsetzen."
+      },
+      "Oasis": {
+        "Title": "Bauen Sie eine Oase",
+        "Description1": "Dieses Event beginnt zeitgleich mit der Eröffnung der Städte der Stufe 1 am dritten Tag der ersten Woche und dauert bis zum Ende der Saison.",
+        "Description2": "Regeln zur Begrünung:",
+        "List1": "Begrünungsbefehl: Sie können nur Sandflächen begrünen, die an bestehende begrünte Gebiete angrenzen.",
+        "List2": "Progressive Erweiterung: Der verfügbare Begrünungsbereich erhöht sich im Verlauf des Events.",
+        "List3": "Begrünungsfortschritt: Sobald 80 % einer Region begrünt sind, gilt sie als abgeschlossen und trägt zum Gesamtfortschritt des Kriegsgebiets bei.",
+        "List4": "Wüstenschatz: In begrünten Gebieten besteht die Chance, seltene Schätze (Wüstenartefakte) zu finden. Jede Region enthält eine festgelegte Anzahl an Schätzen.",
+        "Description3": "Etappen",
+        "Description4": "Phase 1 (Woche 1–4 der Saison):",
+        "List5": "Begrünungsbereich: Die Begrünung wird erst nach der Eroberung einer Stadt freigeschaltet.",
+        "List6": "Sperrgebiete: Festungen, Handelsposten und die Hauptstadt können in dieser Phase nicht begrünt werden.",
+        "List7": "Startpunkt der Begrünung: Durch die Eroberung einer Stadt wird das umliegende kontaminierte Land in begrünte Gebiete umgewandelt, die als Ausgangspunkt für die Expansion dienen.",
+        "Description5": "Phase 2 (Woche 5–7 der Saison):",
+        "List8": "Erweiterung der Begrünung: Kommandeure können Regionen ab Level 1 begrünen und schrittweise auf Städte, Festungen, Handelsposten und das Kapitol ausweiten.",
+        "List9": "Freischaltfortschritt: Wenn im aktuellen Level 80 % Begrünungsfortschritt erreicht sind, wird das nächste Level freigeschaltet, das zur Begrünung des Kapitols auf Level 7 führt.",
+        "List10": "Kriegsgebietsübergreifende Begrünung: Kommandeure können jetzt Kriegsgebiete in allen 8 Kriegsgebieten derselben Saisongruppe frei begrünen.",
+        "Description6": "So wird es grüner",
+        "Description7": "Das Begrünen ist ganz einfach: Klicken Sie auf der Karte auf eine gültige Kachel und senden Sie das Aufklärungsflugzeug, um sie zu begrünen.",
+        "Description8": "Die Grundregel ist, dass Sie nur Kacheln begrünen können, die an eine Kachel angrenzen, die bereits grün ist: Wenn eine Stadt erobert wird, wird das Land um die Stadt herum grün, sodass Sie den Begrünungsprozess in diesem Bereich starten können. Nach und nach öffnen sich weitere Zonen, basierend auf den in den vorherigen Abschnitten beschriebenen Phasen."
+      },
+      "Artefact": {
+        "Title": "Wüstenartefakte",
+        "Description1": "Wüstenartefakte ähneln den Vorratssammlungen der zweiten Staffel."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - Die letzten Jedi",
+        "Description1": "Auf frühen Servern werden die neuen Level von Doom Walkers erstmals in Staffel 3 erscheinen.",
+        "Description2": "Für neuere Server ist dies der Zeitplan:",
+        "List1": "Nach dem Eintritt in die Nebensaison der ersten Saison werden die Doom Walker-Level 200, 210 und 220 freigeschaltet",
+        "List2": "Nach dem Eintritt in die Nebensaison von Saison 2 werden die Doom Walkers auf Level 230, 240 und 250 freigeschaltet.",
+        "Description3": "Doom Walkers sind während der Saisons ziemlich wichtig, da sie für ihr erstes Blut (erster Kill am Tag) mit vielen knappen Ressourcen wie Mithril belohnt werden."
+      },
+      "Lkw": {
+        "Title": "Lkw",
+        "Description1": "LKWs werden einer Generalüberholung unterzogen, die jedoch rein ästhetischer Natur ist."
+      }
+    },
+    "Weapons": {
+      "Title": "Helden-Upgrades und Waffen",
+      "Description1": "Staffel 3 bringt Neuigkeiten zu Helden und Waffen; ihre Verfügbarkeit variiert zeitlich.",
+      "Description2": "Die wichtigste Neuigkeit: Das Hero-Swap-Event ermöglicht euch den Austausch von EXP-Level und Sternen eines Helden.",
+      "Description3": "Heldentausch",
+      "Description4": "Der Heldentausch ist ein neues Event, das in Woche 2 stattfindet und Ihnen endlich ermöglicht, die EXP-Stufe und Sterne von zwei Helden zu tauschen.",
+      "Description5": "Zur Season 3 erhaltet ihr sofort 2 Tauschgutscheine, um 2 Helden zu tauschen.",
+      "Description6": "Scarlett-Upgrade auf UR",
+      "Description7": "Es wird möglich sein, Scarlett zu einem UR Held zu aktualisieren. Das Event findet am ersten Tag der dritten Woche statt.",
+      "Description8": "Mason und Violet steigen auf UR auf",
+      "Description9": "Wenn Sie über ein UR-Upgrade-Element verfügen, können Sie Mason und/oder Violet während der dritten Saison sogar zu einem UR Helden upgraden. Gehen Sie dazu zu Mason oder Violet und dort finden Sie die Schaltfläche ‚Befördern‘.",
+      "Description10": "S3: Die Rückkehr der Legende",
+      "Description11": "S3: Legend Returns startet am 1. Tag der 3. Saison. Nutzen Sie sofort Heldenrückgabetickets, um zusätzliches Mithril und geheimes Wasser zu erhalten.",
+      "Description12": "S3: Waffen der Legenden",
+      "Description13": "S3: Weapons of Legends startet am 3. Tag. Der Reset-Countdown für eine kostenlose Rekrutierung beträgt 2 Tage und 5 Stunden."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Exklusive Waffen",
+      "Description1": "Staffel 3 bringt auch einige exklusive Waffen: Marshall, Schuyler und McGregor.",
+      "Description2": "Marshalls exklusive Waffe",
+      "Description3": "Mit dem Battle Pass für Marshalls exklusive Waffen (ab Tag 4 der Woche 1) können Sie Marshalls exklusive Waffensplitter verdienen, mit denen Sie die exklusive Waffe einfach aktivieren und verbessern können. Andernfalls können Sie universelle exklusive Waffensplitter sammeln, die Sie jedoch nur für Verbesserungen, nicht aber für die Aktivierung verwenden können.",
+      "Description4": "Schuylers exklusive Waffe",
+      "Description5": "Mit dem Battle Pass für Schuylers exklusive Waffen (ab Tag 4 der Woche 3) können Sie Schuylers exklusive Waffensplitter verdienen, mit denen Sie die exklusive Waffe einfach aktivieren und verbessern können. Andernfalls können Sie universelle exklusive Waffensplitter sammeln, die Sie jedoch nur für Verbesserungen, nicht aber für die Aktivierung verwenden können.",
+      "Description6": "McGregors exklusive Waffe",
+      "Description7": "Mit dem Battle Pass für McGregors exklusive Waffen (ab Tag 4 der Woche 6) können Sie McGregors exklusive Waffensplitter verdienen, mit denen Sie die exklusive Waffe einfach aktivieren und verbessern können. Andernfalls können Sie universelle exklusive Waffensplitter sammeln, die Sie jedoch nur für Verbesserungen, nicht aber für die Aktivierung verwenden können."
+    },
+    "Professions": {
+      "Title": "Berufe – Level-Cap auf Level 100 erweitert",
+      "Description1": "In Saison 3 wird die Level-Obergrenze für Berufe auf Level 100 erhöht, was die Freischaltung weiterer neuer Fähigkeiten und strategischer Entscheidungen verspricht."
+    },
+    "Bazaar": {
+      "Title": "Wüstenbasar",
+      "Description1": "Wenn Sie Sandwürmer töten, können Sie Sandwurmschuppen-Gegenstände sammeln (zum Beispiel aus Drop-Truhen, wenn Sandwürmer getötet werden, oder als Ziele im Sandwurmkrisen-Ereignis), die Sie im Wüstenbasar gegen sehr wichtige Gegenstände eintauschen können.",
+      "Description2": "Der Wüstenbasar wird wöchentlich zurückgesetzt, und wenn neue Missionen freigeschaltet werden, können Sie dort jede Woche zusätzliche Gegenstände finden. Unten zeige ich alle wöchentlich verfügbaren Gegenstände und gebe eine kurze Beschreibung jedes besonderen Gegenstands."
+    }
   }
 }

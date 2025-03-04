@@ -139,20 +139,22 @@
     }
   },
   "Navigation": {
-    "Home": "Home",
+    "Home": "Startpagina",
     "Rules": "Regels",
-    "VS": "VS-Duel",
-    "Alliances": "Alliances",
+    "VS": "VS-duel",
+    "Alliances": "Alliantie",
     "AllianceMvp": "Alliantie MVP",
     "Basics": "Basisprincipes",
     "TipsAndTricks": "Tips/Trucs",
     "Buildings": "Gebouwen",
     "Squad": "Team",
     "DesertStorm": "Woestijnstorm",
+    "Seasons": "Seizoenen",
     "SeasonOne": "Seizoen 1",
     "SeasonTwo": "Seizoen 2",
+    "SeasonThree": "Seizoen 3",
     "Marshall": "Maarschalkwacht",
-    "Capitol": "Capitol"
+    "Capitol": "Kapito(o)l"
   },
   "VS": {
     "Title": "VS-Duel",

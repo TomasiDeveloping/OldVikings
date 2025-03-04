@@ -139,19 +139,21 @@
     }
   },
   "Navigation": {
-    "Home": "Hjem",
+    "Home": "Startside",
     "Rules": "Regler",
-    "VS": "VS-Duel",
-    "Alliances": "Alliancer",
+    "VS": "VS-duel",
+    "Alliances": "Alliance",
     "AllianceMvp": "Alliance MVP",
     "Basics": "Grundlæggende",
     "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Bygninger",
-    "Squad": "Enhed",
+    "Squad": "Trop",
     "DesertStorm": "Ørkenstorm",
+    "Seasons": "Sæsoner",
     "SeasonOne": "Sæson 1",
     "SeasonTwo": "Sæson 2",
-    "Marshall": "Marschallvagt",
+    "SeasonThree": "Sæson 3",
+    "Marshall": "Marskalvagt",
     "Capitol": "Kapitol"
   },
   "VS": {

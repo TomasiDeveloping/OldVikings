@@ -141,18 +141,20 @@
   "Navigation": {
     "Home": "Hjem",
     "Rules": "Regler",
-    "VS": "VS-Duell",
-    "Alliances": "Allianser",
+    "VS": "VS-duell",
+    "Alliances": "Allianse",
     "AllianceMvp": "Allianse MVP",
     "Basics": "Grunnleggende",
     "TipsAndTricks": "Tips/Triks",
     "Buildings": "Bygninger",
-    "Squad": "Lag",
+    "Squad": "Tropp",
     "DesertStorm": "Ørkenstorm",
+    "Seasons": "Sesonger",
     "SeasonOne": "Sesong 1",
     "SeasonTwo": "Sesong 2",
+    "SeasonThree": "Sesong 3",
     "Marshall": "Marskalkvakt",
-    "Capitol": "Capitol"
+    "Capitol": "Kapitol"
   },
   "VS": {
     "Title": "VS-Duell",
