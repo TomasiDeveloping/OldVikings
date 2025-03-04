@@ -1896,5 +1896,392 @@
       "Description2": "Ytterligere API-funksjoner er planlagt for fremtidige oppdateringer."
     },
     "Button": "Åpne Spillerhåndtering Nå"
+  },
+  "SeasonThree": {
+    "Title": "Sesong 3 – Det gyldne kongeriket",
+    "Content": {
+      "Link1": "Nye basisressurser",
+      "Link2": "Verden og kartet",
+      "Link3": "Besøkende",
+      "Link4": "Gylden skarabé",
+      "Link5": "Radaroppdrag",
+      "Link6": "Nye bygninger",
+      "Link7": "Allianse-senter",
+      "Link8": "Allianse-ressurser",
+      "Link9": "Byer",
+      "Link10": "Festninger",
+      "Link11": "Handelsposter",
+      "Link12": "Spillforløp",
+      "Link13": "Helteforbedringer og våpen",
+      "Link14": "Eksklusive våpen",
+      "Link15": "Yrker",
+      "Link16": "Ørkenbasar"
+    },
+    "Resources": {
+      "Title": "Nye basisressurser – Mithril og Hellig vann",
+      "Description1": "Nye ressurser er nå tilgjengelige i spillet: Mithril og Hellig vann.",
+      "ScaredWater": {
+        "Title": "Hellig vann:",
+        "Description1": "Brukes til å bygge og oppgradere sesongbaserte bygninger.",
+        "Description2": "Hellig vann kan tjeneres på følgende måter:",
+        "List1": "Belønninger for å beseire zombier på et spesifikt nivå for første gang",
+        "List2": "Ved å fullføre sesongoppdrag",
+        "List3": "Ved å fullføre Sesong 3-mål.",
+        "List4": "Bruk av rekrutteringsbilletten «Hero’s Return»: Heltene vender tilbake i Sesong 3 – Legenden vender tilbake.",
+        "List5": "Belønning for første erobring av en by.",
+        "List6": "Allianse-senter: En hytte med Hellig vann."
+      },
+      "Mithril": {
+        "Title": "Mithril:",
+        "Description1": "Brukes til å bygge og oppgradere sesongbaserte strukturer. Mithril kan oppnås ved følgende aktiviteter:",
+        "List1": "Belønninger for å drepe zombier på et spesifikt nivå for første gang.",
+        "List2": "Besøkende foran muren på basen din.",
+        "List3": "Ved å fullføre sesongoppdrag.",
+        "List4": "Ved å fullføre Sesong 3-mål.",
+        "List5": "Første Blood-kill med Doom Walker (første DW-drap for dagen).",
+        "List6": "Radaroppdrag i ørkenruinene",
+        "List7": "Bruk av rekrutteringsbilletten «Hero's Return»: Heltene vender tilbake i Sesong 3 – Legenden vender tilbake.",
+        "List8": "Ukepass og sesong-battle-pass (største boost).",
+        "List9": "Belønning for første erobring av en by/festning gjennom graving.",
+        "List10": "Graving av festninger som tilhører alliansen gir Mithril.",
+        "List11": "Allianse-senter: Mithril-verket.",
+        "List12": "Ørken-skatter: De åpne bankboksene."
+      }
+    },
+    "Map": {
+      "Title": "Verdenskartet og dens regioner",
+      "Description1": "Verden har igjen forandret seg. Kartet består av tre forskjellige bygningstyper: Byer, gravningsfestninger og handelsposter.",
+      "Image1": "By",
+      "Image2": "Gravningsfestning",
+      "Image3": "Handelspost",
+      "Description2": "I starten av sesongen vil du og dine allierte krasje ved kanten av serveren (men fortsatt som en allianse-hive), og dere har ennå ikke en egen by. Byene må erobres på nytt, men nye regler gjelder.",
+      "Description3": "Doom-Elite-monstre forvandles til egyptiske monstre, og de fleste zombier krever høy virusresistens for å bli drept.",
+      "NewMap": "Det nye kartet",
+      "NewMapDescription": "Kartets størrelse er 13 x 13 ruter (selv om de ser ut som rektangler på kartet nedenfor). Hver rute er 75 x 75 «piksler» stor (størrelsen på basen din er 3 x 3)."
+    },
+    "Visitors": {
+      "Title": "Besøkende",
+      "Description": "Av og til vises to nye typer besøkende foran muren (den venstre etter noen timer, den høyre en gang om dagen) og deler ut Mithril."
+    },
+    "GoldenScarab": {
+      "Title": "Gylden Skarabé",
+      "Description1": "Du vil finne gyldne skarabéer på kartet. Klikk på dem og angrep dem for å få belønninger.",
+      "Description2": "Skarabéer kan du finne på:",
+      "List1": "Dreping av verdenszombier",
+      "List2": "Drepe Doom-Elites.",
+      "List3": "Bruke en landmine (det kan tilfeldig dukke opp underjordiske skapninger, ikke bare skarabéer).",
+      "Image1": "Den gyldne skarabéen er synlig når du zoomer ut fra kartet. Du vil se hvordan den beveger seg, og når du begynner å angripe den, vil den stå stille."
+    },
+    "RadarMissions": {
+      "Title": "Radarmisjoner – Ørkenruiner",
+      "Description1": "Med sesong 3 kommer en ny type radarmisjon.",
+      "Description2": "Den består av to deler:",
+      "List1": "Et spill hvor forskjellige belønninger kan finnes:",
+      "List1List1": "Du har funnet ødeleggelsesruinene.",
+      "List1List2": "Samle belønningene eller ta sjansen på å gå dypere inn i ruinene og risikere å tape alt.",
+      "List2": "Hvis du går i en felle, starter et minispill med mynter som belønning.",
+      "List2List1": "Løp for å samle mynter og unngå zombier. Du har 30 sekunder på deg til å rømme fra ruinene og samle så mange mynter som mulig.",
+      "Description3": "Disse nye radarmisjonene er virkelig flotte, fordi de kan gi deg fantastiske belønninger, der den beste er sesongens fortjenestemedalje (som du kan bruke til å kjøpe ting i sesongens butikk), hvis du er heldig nok til å nå de siste nivåene og velge den riktige kisten."
+    },
+    "Building": {
+      "Title": "Nye bygninger",
+      "Description1": "I sesong 3 er nye bygningstyper tilgjengelige.",
+      "CurseLab": {
+        "Title": "Forbannelse-Forskningslaboratorium",
+        "Description": "I forbannelse-forskningslaboratoriet kan du forbedre din motstandskraft mot forbannelser, på samme måte som motstand mot virus, for å beseire elite-zombier og beskyttere av gravningsfestninger. For å forbedre det, trenger du Hellig vann."
+      },
+      "BlessingFountain": {
+        "Title": "Velsignelsens fontene",
+        "Description1": "Velsignelsens fontener produserer Hellig vann; de ligner på Titanlegeringsfabrikken fra sesong 2.",
+        "Description2": "Flere velsignelsesfontener er tilgjengelige. For å låse dem opp må du oppgradere den forrige velsignelsesfontenen (de kalles Velsignelsens fontene I, II, III, IV, V). For å oppgradere dem trenger du Mithril. Les derfor artikkelen om de nye ressursene i sesong 3 for å lære hvordan du får tak i dem."
+      },
+      "Altar": {
+        "Title": "Alter",
+        "Description1": "Denne bygningen kan kun bygges når Forbannelse-Forskningslaboratoriet har nådd nivå 30.",
+        "Description2": "Den vil øke verdiene til ørkenbeskytterne, på samme måte som militærbasene (tank/luft/rakett) økte helteattributtene i sesong 2.",
+        "Image": "Hver oppgradering av denne bygningen øker HP, angrep og forsvar for beskytteren med 0,5 %."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "Allianse-senter",
+      "Description1": "Gå til knappen 'Allianse' -> 'Allianse-senter' -> klikk på koordinatene for å finne Allianse-senteret på kartet.",
+      "Description2": "På den andre dagen av sesong 3 må alliansen din bygge Allianse-senteret.",
+      "Description3": "Når Allianse-senteret er bygget, vil det produsere krydder/H og gi alle alliansemedlemmene buffs i sitt område. Det forhindrer også at medlemmer i alliansens rekkevidde blir dyttet bort av gigantiske sandormer.",
+      "Description4": "VIKTIG: Verdiene for krydderproduksjonen kan endres av utviklerne. Bruk ikke bildene som referanse for disse verdiene. Informasjon om hvordan du får tilgang til disse verdiene finner du i 'Nivåer'-seksjonen nedenfor.",
+      "RepairAllianceCenter": {
+        "Title": "Reparasjon av Allianse-senter:",
+        "List1": "Jo flere tropper som går inn i Allianse-senteret, desto raskere bygges det.",
+        "Description1": "Du kan se rekkevidden for buffs brukt av Allianse-senteret ved å zoome ut fra kartet."
+      },
+      "AdditionalFeatures": {
+        "Title": "Ekstra funksjoner:",
+        "Description1": "Når Allianse-senteret er laget, kan du se hvilke nivåer som låser opp nye funksjoner."
+      },
+      "MithrilPlant": {
+        "Title": "Mithril-plante",
+        "Description1": "Denne bygningen produserer 34.560 Mithril/h og blir låst opp når Allianse-senteret når nivå 5.",
+        "Description2": "Hvis bygningen blir ødelagt, stoppes produksjonen. Ved ødeleggelse mister alliansen en tilsvarende prosentandel av krydderne.",
+        "Description3": "Gå til Allianse-senter-siden og klikk på Mithril som du ser ved konstruksjonen av Allianse-senteret, som vist i bildet her, for å samle Mithril som er produsert."
+      },
+      "ExploratoryWell": {
+        "Title": "Utforskende brønn",
+        "Description1": "Denne bygningen produserer 600 olje/h og blir låst opp når Allianse-senteret når nivå 10.",
+        "Description2": "Hvis bygningen blir ødelagt, stoppes produksjonen. Ved ødeleggelse mister alliansen en tilsvarende prosentandel av krydderne.",
+        "Description3": "Gå til Allianse-senter-siden og klikk på oljen som du ser ved konstruksjonen av Allianse-senteret, som vist i bildet her, for å hente ut den produserte oljen."
+      },
+      "SacredWaterHut": {
+        "Title": "Hellig vannhytte",
+        "Description1": "Denne bygningen produserer 8640 Hellig vann/h og blir låst opp når Allianse-senteret når nivå 15.",
+        "Description2": "Hvis bygningen blir ødelagt, stoppes produksjonen. Ved ødeleggelse mister alliansen en tilsvarende prosentandel av krydderne.",
+        "Description3": "Gå til Allianse-senter-siden og klikk på Hellig vann som du ser ved konstruksjonen av Allianse-senteret, som vist i bildet her, for å samle det produserte Hellig vann."
+      },
+      "Obelisk": {
+        "Title": "Obelisk",
+        "Description1": "Denne bygningen produserer 6 beskytterhorn/h og blir låst opp når Allianse-senteret når nivå 20.",
+        "Description2": "Hvis bygningen blir ødelagt, stoppes produksjonen. Ved ødeleggelse mister alliansen en tilsvarende prosentandel av krydderne.",
+        "Description3": "Gå til Allianse-senter-siden og klikk på beskyttelseshornet som du ser ved konstruksjonen av Allianse-senteret, som vist i bildet her, for å hente ut det produserte beskyttelseshornet."
+      },
+      "Level": {
+        "Title": "Nivåer",
+        "Description1": "Allianse-senterets nivå stiger automatisk basert på akkumulert krydder."
+      },
+      "Relocation": {
+        "Title": "Flytting",
+        "Description1": "Allianse-senteret kan flyttes. For å gjøre det, må du bygge en flyttingsplass, på samme måte som bygging av det opprinnelige Allianse-senteret. Dette er også likt som flytting av Allianseovnen i sesong 2.",
+        "Description2": "VIKTIG: Når du begynner å bygge flyttingsplassen, kan fiender angripe den. Vær forsiktig."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nye gårder – Allianse-ressurser",
+      "Description1": "Som vist i sesong 1 og 2, kan en ny type allianse-ressursgård/-felt vises tilfeldig etter seier over Doom-Elites.",
+      "Description2": "I sesong 3 kan disse gårdene inneholde Hellig Vann, Mithril og oljevarianter. Opptil 10 tropper kan samle på hvert samlingsfelt.",
+      "Description3": "I sesong 3 oppgir ikke spillet sannsynligheten for at allianse-ressursbrikker vises etter å ha drept monstre. I sesong 2 var denne 5%.",
+      "Description4": "Her er et eksempel på nye ressursfliser:"
+    },
+    "Cities": {
+      "Title": "Byer",
+      "Description1": "Erobringen av byen følger hendelsesplanen for City Clash sesong 3.",
+      "Description2": "De krydderne som eierne produserer selv, er avgjørende for å vinne den tredje sesongen, og mengden avhenger av byens nivå.",
+      "Description3": "Krydderproduksjon per nivå:",
+      "List1": "Nivå 1: 100/h krydder",
+      "List2": "Nivå 2: 200/h krydder",
+      "List3": "Nivå 3: 300/h krydder",
+      "List4": "Nivå 4: 400/h krydder",
+      "List5": "Nivå 5: 500/h krydder",
+      "List6": "Nivå 6: 600/h krydder",
+      "Description4": "Grensene for erobring av byer",
+      "Description5": "Som vi kan se under 'Allianse-knappen -> Allianse-by':",
+      "List7": "Daglig krigserklæringsgrense for byer: 2",
+      "List8": "Maksimalt erobrede byer: 8",
+      "List9": "Daglige gruvefestningserobringer: 2",
+      "List10": "Maksimalt erobrede gruvefestninger: 8"
+    },
+    "Strongholds": {
+      "Title": "Gruvefestninger",
+      "Description1": "Gruvefestninger er steder på kartet hvor Mithril kan graves. De ligner på gravesteder fra sesong 2.",
+      "Description2": "De er beskyttet av Mumievoktere og Gyldne Utryddere. Jo høyere nivå på gruvefestningen, desto sterkere beskytter.",
+      "Description3": "Med den nyeste spilloppdateringen produseres Mithril/h ved å grave i festninger basert på deres nivå:",
+      "List1": "Nivå 1: 100/h Mithril",
+      "List2": "Nivå 2: 120/h Mithril",
+      "List3": "Nivå 3: 140/h Mithril",
+      "List4": "Nivå 4: 160/h Mithril",
+      "List5": "Nivå 5: 180/h Mithril",
+      "List6": "Nivå 6: 200/h Mithril",
+      "Description4": "Det er tre forskjellige typer Gyldne Bestier som forsvarer gruvefestningene. Klikk på 'i' for detaljer",
+      "List7": "Den Gyldne Forsvareren er av type Panser.",
+      "List8": "Den Gyldne Krigeren er et fly av type.",
+      "List9": "Den Gyldne Utrydderen er av type Rakett.",
+      "Description5": "Ved å grave i festningene produseres Mithril, som du kan samle via 'Allianse' -> 'Alliansebyer' -> 'Grav i festninger' -> 'Krev alt'."
+    },
+    "TradePosts": {
+      "Title": "Handelsposter",
+      "Description1": "Handelsposter finnes på bestemte steder på kartet. De ligger diagonalt mot hovedstaden og kan ha ulike nivåer opptil nivå 5.",
+      "Description2": "Handelsposter er ikke det samme som festninger eller byer. De kan besettes av enkeltpersoner og åpner et marked hvor alle kan kjøpe ting. Eierne av handelspostene kan tjene skatt.",
+      "Description3": "Det er ikke nødvendig å kontrollere tilstøtende områder, og det er ingen grense for antallet handelsposter du kan ha. Handelsposter kan imidlertid erobres av andre, så du må forsvare dem. Derfor er det vanligvis vanskelig for en spiller å effektivt administrere for mange handelsposter.",
+      "Description4": "Regler for erobring av handelsposter",
+      "List1": "Handelspost-nivåer låses gradvis opp (startdatoen for konkurransen vises på hver handelspost):",
+      "List1List1": "Nivå 1: Søndag, dag 7 i uke 2, kl 12:00 servertid (dette er den eneste erobringen der andre servere ikke kan komme for å erobre handelsposter på din server)",
+      "List1List2": "Nivå 2: Mandag, dag 1 i uke 3 kl 12:00 servertid",
+      "List1List3": "Nivå 3: Tirsdag, dag 2 i uke 3 kl 12:00 servertid",
+      "List1List4": "Nivå 4: Torsdag, dag 4 i uke 3 kl 12:00 servertid",
+      "List1List5": "Nivå 5: Fredag, dag 5 i uke 3 kl 12:00 servertid",
+      "List2": "VIKTIG: Fra dag 1 i uke 3 er teleportering mellom krigsområdene i sesonggruppene åpnet, og andre krigsområder kan komme og erobre handelsposter i ditt krigsområde.",
+      "List3": "Så snart konkurransen om erobringen av handelsposten begynner, varer den i 1 time",
+      "List4": "Tropper som er stasjonert i handelsposten øker gradvis erobringsfremdriften over tid.",
+      "List5": "Fremdriften spores separat for deg og dine allierte",
+      "List6": "Under konkurransen vinner den første kommandanten som når 100 % fremdrift handelsposten. Hvis ingen kommandant når 100 % innen konkurransens slutt, tar kommandanten med høyest fremdrift handelsposten, med mindre han allerede har en guvernør",
+      "List7": "Basen din må befinne seg i det kontaminerte området til målhandelsposten for at du skal kunne angripe og erobre den.",
+      "List8": "Hvis handelsposten allerede har en guvernør, beholder den nåværende guvernøren kontrollen hvis ingen når 100 % innen konkurransens slutt.",
+      "List9": "Når en handelspost er erobret, finner neste konkurranse om gjen-erobring sted 7 dager senere.",
+      "Description5": "Hver handelspost er en uavhengig butikk, og kommandanter i samme spillsesonggruppe kan kjøpe varer derfra.",
+      "Description6": "Handelspost-nivåer",
+      "Description7": "Som du kan se på disse bildene, er flere varer tilgjengelige jo høyere nivå handelsposten har.",
+      "Description8": "Alle andre parametere forblir uendret, men guvernørens fordel ved å øke beskyttelsesgrensen øker gradvis.",
+      "Description9": "Handelsvarer",
+      "Description10": "Når guvernøren tar kontroll over en handelspost, åpnes butikkene, og varer kan kjøpes. Klikk på handelsposten og deretter på symbolet nedenfor for å få tilgang til butikken.",
+      "Description11": "Guvernøren kan én gang kalle på en handelskaravane for å fylle opp lagerbeholdningen og tillate kjøp.",
+      "Description12": "Dessverre er ikke alle varer som vises i butikken tilgjengelige for alle kommandanter. Det gjelder prinsippet om 'førstemann til mølla', ettersom det totale antallet tilgjengelige varer er begrenset. I tillegg er noen varer forbeholdt guvernøren.",
+      "Description13": "Skatt",
+      "Description14": "Diamanter som brukes i en handelspost, genererer skatteinntekter. Når alle varer er utsolgt eller handelsposten forlates av guvernøren, blir de innsamlede skattene sendt til guvernøren i form av et Gyldent Egg, som kan deles i chatten."
+    },
+    "GamePlay": {
+      "Title": "Spillforløp",
+      "Description1": "I sesong 3 er det mange nye ting du kan gjøre i spillet:",
+      "Link1": "Liker Cat Base Skin for å motta belønninger.",
+      "Link2": "Sandormkrise",
+      "Link3": "Ørkenbeskyttere",
+      "Link4": "Bygg en oase",
+      "Link5": "Ørkenartefakter",
+      "Link6": "Doom Walker - De siste Jedi",
+      "Link7": "Lastebil",
+      "Description2": "Liker Cat Base Skin for å motta belønninger",
+      "Description3": "Finn kattens base-skin og gi det et 'Liker' for å motta en belønning umiddelbart. Det er en daglig grense for hvor mange 'Liker' du kan gi.",
+      "SandWorm": {
+        "Title": "Sandormkrise",
+        "Description1": "Siden starten av sesong 3 har sandormer lurt under sanden og lyttet til hver lyd fra kommandørene.",
+        "Description2": "Sandormkrise-arrangementet starter på den første dagen og varer i 14 dager.",
+        "Image1": "Beutefall: Det er et daglig grense på 30 loot som du kan samle.",
+        "List1": "I løpet av arrangementet vil sandormer dukke opp. Jakten på disse for å fullføre oppdrag og motta belønninger.",
+        "List2": "Når troppene til allianse-medlemmene er i kamp, skaper de sjokkbølger. Når fremdriftslinjen er full, vil den siste kommandøren som utløser den, tiltrekke en sandorm som angriper basen deres. Basene som er omringet av små sandormer kan ikke sende ut køer, men kan rømme ved hjelp av teleportgjenstander. Den lille sandormen vil forsvinne, og belønninger går tapt. (Kun pågående samlingstokt kan fortsette.)",
+        "List3": "Når en sandorm er beseiret, vil kommandøren som ble angrepet av den motta en bonusoppdagelsesbelønning via e-post.",
+        "List4": "I løpet av arrangementet vil store sandormer dukke opp. Støttepunkter utenfor alliansesenteret blir kastet bort når store sandormer tiltrekkes.",
+        "List5": "Kommandører som forlater alliansen samler ikke sjokkbølgeverdier lenger.",
+        "List6": "Selv om dette ikke er sporbar her, vil også gigantiske sandormer som blir fanget i jordminer dukke opp.",
+        "Description3": "Liten Sandorm",
+        "Description4": "Når kommandører kjemper mot monstre på kartet, genereres sjokkbølger som tiltrekker små sandormer. Når fremdriftslinjen er full, vil den siste kommandøren som utløser den tiltrekke sandormen som deretter fanger dem.",
+        "Description5": "Den 'mulige loot'en som er oppført som belønning, etterlater seg kister på kartet nær stedet hvor sandormen ble drept.",
+        "Description6": "Stor Sandorm",
+        "Description7": "Store sandormer kan angripes med rallyer og er mye sterkere enn små sandormer.",
+        "Description8": "Oppdagelsesbelønningen inkluderer sandormskjell.",
+        "Description9": "Når en stor sandorm dukker opp rett under basen din, vil basen bli kastet til et fjernt sted på kartet.",
+        "Description10": "I så fall vises en popup-melding som varsler deg om dette hendelsen.",
+        "Description11": "For å hindre at basen din blir kastet bort av sandormer, bør du holde deg innenfor allianseområdene, da alliansesenteret gir buffere som beskytter deg mot sandormer.",
+        "Description12": "Belønninger",
+        "Description13": "Kampen mot sandormer gir daglige og målorienterte belønninger.",
+        "Description14": "Sammenlign størrelsen på gigantiske sandormer med en by. Når sandormer dukker opp, forlater de området, som du kan se rundt byen. Hvis sandormen ikke blir drept, forsvinner den etter 5 timer.",
+        "Description15": "Alliansesenteret forhindrer at medlemmer i allianseområder blir kastet bort av gigantiske sandormer."
+      },
+      "Protector": {
+        "Title": "Ørkenbeskyttere",
+        "Description1": "Ørkenbeskyttere er en ny type soldater med forbedrede evner som vil være tilgjengelige fra dag 1, uke 1 i sesong 3, når hendelsen 'Ancient Tech – Protector' blir låst opp.",
+        "Description2": "Det er bekreftet at de ikke representerer T11, så det er antatt at T11 vil være tilgjengelig i fremtiden.",
+        "Description3": "Denne nye soldattypen er et godt tillegg til spillet, da det ikke er utelukkende avhengig av hvor mye du bruker eller hvor godt du trener soldatene dine. Ørkenbeskyttere er ikke trent, men vekkes til live fra de døde. De er engangsinvesterte og forsvinner så snart de er brukt.",
+        "Description4": "Protector Field",
+        "Description5": "Så snart hendelsen 'Ancient Tech – Protector’s Field' er låst opp, kan du bygge Desert Protector’s Field rett foran muren til basen din.",
+        "Description6": "VIKTIG: Sett Protector's Field på nivå 10 i starten av sesongen, og ikke videre, da nivå 11 krever Mithril og Hellige Vann som er viktige for andre sesongbygg. Du vil allerede ha tilgang til full funksjonalitet for Desert Protectors på nivå 10, så det er ikke nødvendigvis nødvendig å oppgradere det i de første dagene.",
+        "Description7": "Dette sesongbaserte feltet kan oppgraderes som enhver annen bygning, og gir deg tilgang til menyen for å administrere Desert Protectors.",
+        "Description8": "Når du bytter til kartmodus (fra basevisning til kartvisning), kan du også få tilgang til Desert Protectors Field gjennom det tilknyttede symbolet over symbolene for lastebil/hemmelige oppdrag.",
+        "Description9": "Ørkenbeskyttere - Ferdigheter",
+        "Description10": "Beskyttere, velsignet av ørkenen, har overlegne kampferdigheter. De er sterkere enn enheter på samme nivå.",
+        "Description11": "Hver helt kan ha beskyttelser i en mengde som tilsvarer 1/10 av enhetens antall (selv med denne begrensningen er beskyttelser sterkere enn soldater på samme nivå).",
+        "Description12": "I motsetning til vanlige enheter, vender ikke beskyttere som deltar i kamper tilbake, men forsvinner i ørkenen. Bruk dem med omhu.",
+        "Description13": "Hvis de blir satt inn, men ikke kjemper, vil alle beskyttere vende tilbake.",
+        "Description14": "Avhengig av hvor mange Desert Protectors som er stasjonert i beskyttelsens område, vil ferdigheter bli låst opp fortløpende.",
+        "Description15": "Tilpasningskraft (låses opp når 500 eller flere beskyttere er stasjonert i Protector’s Field)",
+        "Description16": "Beskyttere har økt motstand mot forbannelser (+250) samt forbedret angrep, forsvar og økt helse (+25%). Dette gjør dem perfekt for å angripe fiender som din nåværende motstand mot forbannelser ikke er nok til å håndtere.",
+        "Description17": "Death Shockwave (låses opp når 750 eller flere beskyttere er stasjonert i Protector’s Field)",
+        "Description18": "Blå Flamme Trollformel (låses opp når 1000 eller flere beskyttere er stasjonert i Protector’s Field).",
+        "Description19": "Når en tropp med beskyttere vinner et angrep på en annen kommandørs base, utløses Blue Flame Trollformelen som innhyller fiendens base i uutslettelige blå flammer i en time.",
+        "Description20": "Protector Rally (låses opp når 1250 eller flere beskyttere er stasjonert i Protector’s Field).",
+        "Description21": "Aktiverer Protector Rally!",
+        "Description22": "Rally Begrensning: Allierte som blir med i rallyet, må bruke trupper med beskyttere.",
+        "Description23": "Rally Countdown: Protector Rallyer har en forberedelsestid på 1 minutt.",
+        "Description24": "Leder Buff: Alle tropper i rallyet drar nytte av de aktive Protector-forbedringene til lederen.",
+        "Description25": "Ørkenbeskyttere Konvertering",
+        "Description26": "Kort fortalt, her er hvordan du lager Desert Protectors:",
+        "Description27": "10% av enhetene som går tapt i følgende tilfeller, går inn i beskytterens konverteringspool og venter på konvertering:",
+        "Description28": "Kamp-tap under VS-dueller",
+        "Description29": "Hardt skadde enheter som ikke finner plass på sykehuset når det er fullt.",
+        "Description30": "Tap ved brudd på øvelsesområdet",
+        "Description31": "Antallet enheter som går tapt, og som kan vente i konverteringspoolen, er ubegrenset.",
+        "Description32": "Allierte sender rekognoseringsfly for å hjelpe deg med å konvertere hver enhet.",
+        "Description33": "Hvis basen din blir brutt gjennom, vil Desert Protectors i Protector's Field ikke bli påvirket.",
+        "Description34": "Ørkenbeskyttere - Attributter",
+        "Description35": "Her er en sammenligning mellom normale soldater og deres Desert Protector-versjoner for noen varianter.",
+        "Description36": "Nivå 10",
+        "Description37": "Nivå 9",
+        "Description38": "Nivå 7",
+        "Description39": "Øk beskyttelsens egenskaper med alteret",
+        "Description40": "Alteret er en ny bygning som er spesifikt designet for å forbedre Desert Protector-egenskapene. Mer informasjon finner du i 'Alter'-seksjonen.",
+        "Description41": "Konverterte enheter sendes til Protector's Field.",
+        "Image1": "Symbolet til Desert Protector gir deg også en forhåndsvisning av hvor mange soldater av denne typen som er umiddelbart tilgjengelig.",
+        "Image2": "Tropper som bærer beskyttere får automatisk aktivere buffere: Beskytterne får ekstra forbannelsesmotstand og statusforbedringer.",
+        "Image3": "Når en tropp med beskyttere blir beseiret i PvP-kamper, vil en del av fiendens enheter bli eliminert basert på nivået og antallet av dine drepte beskyttere.",
+        "Image4": "Lås opp ekstra kraftige forbannelseseffekter ved å mestre spesialiseringsferdigheter!",
+        "Image5": "Hurtig marsj: Få en ekstra trippel marsjhastighetsøkning når du deltar i eller bruker en Protector Rally."
+      },
+      "Oasis": {
+        "Title": "Bygg en oase",
+        "Description1": "Dette arrangementet starter samtidig som åpningen av byer på nivå 1 på den tredje dagen av første uke og varer frem til slutten av sesongen.",
+        "Description2": "Regler for å grønne:",
+        "List1": "Grønning Kommando: Du kan bare grønne sandområder som grenser til eksisterende grønne områder.",
+        "List2": "Progressiv Utvidelse: Det tilgjengelige grønne området øker i løpet av arrangementet.",
+        "List3": "Grønningens fremdrift: Når 80% av et område er grønt, anses det som fullført og bidrar til den totale fremdriften av krigsområdet.",
+        "List4": "Ørken Skatt: I grønne områder er det en sjanse for å finne sjeldne skatter (ørkenartefakter). Hver region inneholder et bestemt antall skatter.",
+        "Description3": "Faser",
+        "Description4": "Fase 1 (Uke 1–4 av sesongen):",
+        "List5": "Grønning: Grønningen blir tilgjengelig etter erobringen av en by.",
+        "List6": "Låsede områder: Festninger, handelsstasjoner og hovedstad kan ikke grønnes i denne fasen.",
+        "List7": "Startpunkt for Grønning: Gjennom erobringen av en by vil det omkringliggende kontaminerte landet bli gjort grønt og bli starten på ekspansjon.",
+        "Description5": "Fase 2 (Uke 5–7 i sesongen):",
+        "List8": "Utvidelse av Grønning: Kommandører kan nå grønne områder på nivå 1 og gradvis utvide til byer, festninger, handelsstasjoner og hovedstaden.",
+        "List9": "Fremskritt for opplåsing: Når 80% grønning er nådd på nivået, vil neste nivå bli låst opp, som tillater grønnlegging av hovedstaden på nivå 7.",
+        "List10": "Krigsområder utover sesongen: Kommandører kan nå grønne områder i alle 8 krigsområder av samme sesonggruppe.",
+        "Description6": "Slik blir det grønt",
+        "Description7": "Grønning er veldig enkelt: Klikk på et gyldig rutenett på kartet og send rekognoseringsflyet for å gjøre det grønt.",
+        "Description8": "Hovedregelen er at du bare kan gjøre grønt rutenett som grenser til et allerede grønt rutenett: Når en by er erobret, blir landet rundt byen grønt, og du kan starte grønningprosessen der."
+      },
+      "Artefact": {
+        "Title": "Ørkenartefakter",
+        "Description1": "Ørkenartefakter ligner på ressursinnsamlingene fra sesong 2."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - De siste Jedi",
+        "Description1": "På tidlige servere vil de nye nivåene av Doom Walkers dukke opp for første gang i sesong 3.",
+        "Description2": "For nyere servere er dette tidsplanen:",
+        "List1": "Etter at den første sesongen går inn i off-season, vil Doom Walker-nivåene 200, 210 og 220 bli låst opp.",
+        "List2": "Etter at den andre sesongen går inn i off-season, vil Doom Walkers på nivåene 230, 240 og 250 bli låst opp.",
+        "Description3": "Doom Walkers er ganske viktige i løpet av sesongene, da de belønnes med mange verdifulle ressurser som Mithril for sitt første blod (første kill på dagen)."
+      },
+      "Lkw": {
+        "Title": "Lastebil",
+        "Description1": "Lastebilene vil få en oppgradering, men dette vil kun være av estetisk karakter."
+      }
+    },
+    "Weapons": {
+      "Title": "Helte-oppgraderinger og Våpen",
+      "Description1": "Sesong 3 bringer nyheter om helter og våpen; tilgjengeligheten varierer tidsmessig.",
+      "Description2": "Den viktigste nyheten: Hero-Swap-eventet lar deg bytte EXP-nivå og stjerner mellom helter.",
+      "Description3": "Hero bytte",
+      "Description4": "Hero bytte er et nytt event som finner sted i uke 2, og som endelig lar deg bytte EXP-nivå og stjerner mellom to helter.",
+      "Description5": "I sesong 3 får du umiddelbart 2 byttelodd for å bytte 2 helter.",
+      "Description6": "Scarlett oppgradering til UR",
+      "Description7": "Det vil være mulig å oppgradere Scarlett til en UR-helt. Eventet finner sted på den første dagen i uke 3.",
+      "Description8": "Mason og Violet oppgraderes til UR",
+      "Description9": "Hvis du har et UR-opgraderingselement, kan du oppgradere Mason og/eller Violet til UR-helt i løpet av sesong 3. Gå til Mason eller Violet og finn ‘Befordre’-knappen der.",
+      "Description10": "S3: Legenden kommer tilbake",
+      "Description11": "S3: Legend Returns starter på den første dagen av sesong 3. Bruk heltereturbilletter for å få ekstra Mithril og hemmelig vann med en gang.",
+      "Description12": "S3: Våpen fra legender",
+      "Description13": "S3: Weapons of Legends starter på den 3. dagen. Tilbakestillingsnedtellingen for gratis rekruttering er 2 dager og 5 timer."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Eksklusive Våpen",
+      "Description1": "Sesong 3 bringer også noen eksklusive våpen: Marshall, Schuyler og McGregor.",
+      "Description2": "Marshalls eksklusive våpen",
+      "Description3": "Med Battle Pass for Marshalls eksklusive våpen (fra dag 4 i uke 1) kan du tjene Marshalls eksklusive våpenfragmenter, som lar deg aktivere og oppgradere det eksklusive våpenet. Ellers kan du samle universelle eksklusive våpenfragmenter, som du kun kan bruke til oppgraderinger, ikke aktivering.",
+      "Description4": "Schuylers eksklusive våpen",
+      "Description5": "Med Battle Pass for Schuylers eksklusive våpen (fra dag 4 i uke 3) kan du tjene Schuylers eksklusive våpenfragmenter, som lar deg aktivere og oppgradere det eksklusive våpenet. Ellers kan du samle universelle eksklusive våpenfragmenter, som du kun kan bruke til oppgraderinger, ikke aktivering.",
+      "Description6": "McGregors eksklusive våpen",
+      "Description7": "Med Battle Pass for McGregors eksklusive våpen (fra dag 4 i uke 6) kan du tjene McGregors eksklusive våpenfragmenter, som lar deg aktivere og oppgradere det eksklusive våpenet. Ellers kan du samle universelle eksklusive våpenfragmenter, som du kun kan bruke til oppgraderinger, ikke aktivering."
+    },
+    "Professions": {
+      "Title": "Yrker – Level-grense økt til Level 100",
+      "Description1": "I sesong 3 vil level-grensen for yrker bli økt til level 100, noe som lover å låse opp flere nye ferdigheter og strategiske beslutninger."
+    },
+    "Bazaar": {
+      "Title": "Ørkenbasar",
+      "Description1": "Når du dreper sandormer, kan du samle sandormeskjell-objekter (for eksempel fra droppkister når sandormer drepes, eller som mål i sandormkrisen-eventet), som du kan bytte mot svært viktige objekter i Ørkenbasaren.",
+      "Description2": "Ørkenbasaren tilbakestilles ukentlig, og når nye oppdrag blir låst opp, kan du finne ekstra objekter der hver uke. Nedenfor viser jeg alle objektene som er tilgjengelige ukentlig, og gir en kort beskrivelse av hvert spesielle objekt."
+    }
   }
 }

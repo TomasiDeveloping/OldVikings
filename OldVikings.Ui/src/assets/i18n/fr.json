@@ -1896,5 +1896,388 @@
       "Description2": "Des fonctionnalités supplémentaires de l'API sont prévues pour les mises à jour futures."
     },
     "Button": "Ouvrir le Gestionnaire de Joueurs Maintenant"
+  },
+  "SeasonThree": {
+    "Title": "Saison 3 – Royaume d'Or",
+    "Content": {
+      "Link1": "Nouvelles ressources de base",
+      "Link2": "Le monde et la carte",
+      "Link3": "Visiteurs",
+      "Link4": "Scarabe doré",
+      "Link5": "Missions radar",
+      "Link6": "Nouveaux bâtiments",
+      "Link7": "Centre d'alliance",
+      "Link8": "Ressources d'alliance",
+      "Link9": "Villes",
+      "Link10": "Forteresses",
+      "Link11": "Postes de commerce",
+      "Link12": "Déroulement du jeu",
+      "Link13": "Améliorations des héros et armes",
+      "Link14": "Armes exclusives",
+      "Link15": "Métiers",
+      "Link16": "Bazar du désert"
+    },
+    "Resources": {
+      "Title": "Nouvelles ressources de base – Mithril et Eau Sacrée",
+      "Description1": "De nouvelles ressources sont disponibles dans le jeu : Mithril et Eau Sacrée.",
+      "ScaredWater": {
+        "Title": "Eau Sacrée :",
+        "Description1": "Elle est utilisée pour la construction et l'amélioration des bâtiments saisonniers.",
+        "Description2": "L'Eau Sacrée peut être gagnée de la manière suivante :",
+        "List1": "Récompenses pour avoir battu des zombies pour la première fois à un certain niveau",
+        "List2": "En terminant des missions de quête saisonnières",
+        "List3": "En accomplissant les objectifs de la Saison 3.",
+        "List4": "Utilisation du ticket de recrutement « Retour des Héros » : Les héros reviennent dans Saison 3 – Le Retour de la Légende.",
+        "List5": "Récompense pour la première conquête d'une ville.",
+        "List6": "Centre d'alliance : Une cabane avec de l'Eau Sacrée."
+      },
+      "Mithril": {
+        "Title": "Mithril :",
+        "Description1": "Il est utilisé pour construire et améliorer des structures saisonnières. Le Mithril peut être obtenu par les activités suivantes :",
+        "List1": "Récompenses pour avoir tué des zombies pour la première fois à un certain niveau.",
+        "List2": "Visiteurs devant le mur de votre base.",
+        "List3": "En terminant des missions de quête saisonnières.",
+        "List4": "En accomplissant les objectifs de la Saison 3.",
+        "List5": "Premier kill avec le Doom Walker (premier kill DW de la journée).",
+        "List6": "Missions radar dans les ruines du désert.",
+        "List7": "Utilisation du ticket de recrutement « Retour du Héros » : Les héros reviennent dans Saison 3 – Le Retour des Légendes.",
+        "List8": "Pass hebdomadaire et Pass de Combat saisonnier (le plus grand boost).",
+        "List9": "Récompense pour la première conquête d'une ville/forteresse par creusement.",
+        "List10": "Creuser des forteresses appartenant à l'alliance donne du Mithril.",
+        "List11": "Centre d'alliance : L'atelier de Mithril.",
+        "List12": "Trésors du désert : Les coffres ouverts."
+      }
+    },
+    "Map": {
+      "Title": "La carte du monde et ses régions",
+      "Description1": "Le monde a encore changé. La carte se compose de trois types de bâtiments différents : villes, forteresses de fouille et postes de commerce.",
+      "Image1": "Ville",
+      "Image2": "Forteresse de fouille",
+      "Image3": "Poste de commerce",
+      "Description2": "Au début de la saison, vous et vos alliés vous échouez au bord du serveur (mais toujours tous ensemble comme une ruche d'alliance) et vous n'avez pas encore votre propre ville. Les villes doivent être reconquises, mais de nouvelles règles s'appliquent.",
+      "Description3": "Les monstres Doom-Elite se transforment en monstres égyptiens, et la plupart des zombies nécessitent une grande résistance au virus pour être tués.",
+      "NewMap": "La nouvelle carte",
+      "NewMapDescription": "La taille de la carte est de 13 x 13 cases (bien qu'elles apparaissent comme des rectangles sur la carte ci-dessous). Chaque case mesure 75 x 75 'pixels' (la taille de votre base est de 3 x 3)."
+    },
+    "Visitors": {
+      "Title": "Visiteurs",
+      "Description": "De temps en temps, deux nouveaux types de visiteurs apparaissent devant le mur (le gauche après quelques heures, le droit une fois par jour) et distribuent du Mithril."
+    },
+    "GoldenScarab": {
+      "Title": "Scarabe Doré",
+      "Description1": "Vous trouverez des scarabées dorés sur la carte. Cliquez dessus et attaquez-les pour obtenir des récompenses.",
+      "Description2": "Les scarabées peuvent être trouvés :",
+      "List1": "En tuant des zombies dans le monde",
+      "List2": "En tuant les élites de l'Apocalypse.",
+      "List3": "En utilisant une mine terrestre piégée (des créatures souterraines peuvent apparaître au hasard, pas seulement des scarabées).",
+      "Image1": "Le Scarabe Doré est visible lorsque vous dézoomez la carte. Vous verrez comment il se déplace, et dès que vous commencez à l'attaquer, il reste immobile."
+    },
+    "RadarMissions": {
+      "Title": "Missions Radar – Ruines du Désert",
+      "Description1": "Avec la Saison 3, un nouveau type de mission radar arrive.",
+      "Description2": "Il se compose de deux parties :",
+      "List1": "Un jeu de hasard où diverses récompenses peuvent être trouvées :",
+      "List1List1": "Vous avez trouvé les ruines du désert.",
+      "List1List2": "Ramassez les récompenses ou prenez le risque d'explorer plus profondément les ruines et tout perdre.",
+      "List2": "Si vous tombez dans un piège, un mini-jeu avec des récompenses en pièces commence.",
+      "List2List1": "Courez pour collecter des pièces et éviter les zombies. Vous avez 30 secondes pour vous échapper des ruines et collecter autant de pièces que possible.",
+      "Description3": "Ces nouvelles missions radar sont vraiment intéressantes car elles peuvent vous rapporter de superbes récompenses, dont la meilleure est la médaille de mérite de la saison (que vous pouvez utiliser pour acheter des objets dans la boutique de la saison), si vous avez la chance d'atteindre les derniers niveaux et de choisir la bonne caisse."
+    },
+    "Building": {
+      "Title": "Nouveaux Bâtiments",
+      "Description1": "Au cours de la saison 3, de nouveaux types de bâtiments sont disponibles.",
+      "CurseLab": {
+        "Title": "Laboratoire de Recherche des Malédictions",
+        "Description": "Dans le laboratoire de recherche des malédictions, vous pouvez améliorer votre résistance aux malédictions, de la même manière que la résistance aux virus, afin de vaincre les zombies d'élite et les protecteurs des forteresses de fouille. Pour l'améliorer, vous aurez besoin d'Eau Sacrée."
+      },
+      "BlessingFountain": {
+        "Title": "Fontaine de Bénédiction",
+        "Description1": "Les fontaines de bénédiction produisent de l'Eau Sacrée ; elles ressemblent à l'usine d'alliage Titan de la Saison 2.",
+        "Description2": "Il y a plusieurs fontaines de bénédiction disponibles. Pour les débloquer, vous devez améliorer la fontaine de bénédiction précédente (elles sont appelées Fontaine de Bénédiction I, II, III, IV, V). Pour les améliorer, vous aurez besoin de Mithril. Lisez donc l'article sur les nouvelles ressources de la Saison 3 pour savoir comment les obtenir."
+      },
+      "Altar": {
+        "Title": "Autel",
+        "Description1": "Ce bâtiment ne peut être construit que lorsque le laboratoire de recherche des malédictions atteint le niveau 30.",
+        "Description2": "Il augmentera les valeurs des protecteurs du désert, de la même manière que les bases militaires (Panzer/Aérien/Roquette) augmentaient les attributs des héros dans la Saison 2.",
+        "Image": "Chaque montée en niveau de ce bâtiment augmente de 0,5 % les PV, l'attaque et la défense du protecteur."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "Centre de l'Alliance",
+      "Description1": "Allez sur le bouton \"Alliance\" -> \"Centre de l'Alliance\" -> cliquez sur les coordonnées pour trouver le Centre de l'Alliance sur la carte.",
+      "Description2": "Le deuxième jour de la saison 3, votre alliance doit construire le Centre de l'Alliance.",
+      "Description3": "Une fois que le Centre de l'Alliance est construit, il produit des épices/E et offre des buffs à tous les membres de l'Alliance dans son rayon. Il empêche également les membres d'être repoussés par les vers géants dans le rayon de l'Alliance.",
+      "Description4": "IMPORTANT : Les valeurs de production des épices peuvent être modifiées par les développeurs. Ne vous fiez pas aux images pour ces valeurs. Des informations sur l'accès à ces valeurs se trouvent dans la section \"Niveaux\" ci-dessous.",
+      "RepairAllianceCenter": {
+        "Title": "Réparation du Centre de l'Alliance :",
+        "List1": "Plus il y a de troupes entrant dans le Centre de l'Alliance, plus il se construit rapidement.",
+        "Description1": "Vous pouvez voir la portée des buffs appliqués par le Centre de l'Alliance en zoomant sur la carte."
+      },
+      "AdditionalFeatures": {
+        "Title": "Fonctionnalités supplémentaires :",
+        "Description1": "Une fois que le Centre de l'Alliance est créé, vous pouvez voir quel niveau déverrouille de nouvelles fonctionnalités."
+      },
+      "MithrilPlant": {
+        "Title": "Usine de Mithril",
+        "Description1": "Ce bâtiment produit 34 560 Mithril/h et est déverrouillé lorsque le Centre de l'Alliance atteint le niveau 5.",
+        "Description2": "Si le bâtiment est endommagé, la production s'arrête. Si le bâtiment est détruit, l'Alliance perd un pourcentage correspondant des épices.",
+        "Description3": "Accédez à la page du Centre de l'Alliance et cliquez sur le Mithril que vous voyez sur la construction du Centre de l'Alliance, comme montré sur l'image ici, pour collecter le Mithril produit."
+      },
+      "ExploratoryWell": {
+        "Title": "Puits d'Exploration",
+        "Description1": "Ce bâtiment produit 600 Huile/h et est déverrouillé lorsque le Centre de l'Alliance atteint le niveau 10.",
+        "Description2": "Si le bâtiment est endommagé, la production s'arrête. Si le bâtiment est détruit, l'Alliance perd un pourcentage correspondant des épices.",
+        "Description3": "Accédez à la page du Centre de l'Alliance et cliquez sur l'Huile que vous voyez sur la construction du Centre de l'Alliance, comme montré sur l'image ici, pour collecter l'Huile produite."
+      },
+      "SacredWaterHut": {
+        "Title": "Cabane d'Eau Sacrée",
+        "Description1": "Ce bâtiment produit 8640 Eau Sacrée/h et est déverrouillé lorsque le Centre de l'Alliance atteint le niveau 15.",
+        "Description2": "Si le bâtiment est endommagé, la production s'arrête. Si le bâtiment est détruit, l'Alliance perd un pourcentage correspondant des épices.",
+        "Description3": "Accédez à la page du Centre de l'Alliance et cliquez sur l'Eau Sacrée que vous voyez sur la construction du Centre de l'Alliance, comme montré sur l'image ici, pour collecter l'Eau Sacrée produite."
+      },
+      "Obelisk": {
+        "Title": "Obélisque",
+        "Description1": "Ce bâtiment produit 6 Cornes de Protecteur/h et est déverrouillé lorsque le Centre de l'Alliance atteint le niveau 20.",
+        "Description2": "Si le bâtiment est endommagé, la production s'arrête. Si le bâtiment est détruit, l'Alliance perd un pourcentage correspondant des épices.",
+        "Description3": "Accédez à la page du Centre de l'Alliance et cliquez sur la Corne de Protecteur que vous voyez sur la construction du Centre de l'Alliance, comme montré sur l'image ici, pour collecter la Corne de Protecteur produite."
+      },
+      "Level": {
+        "Title": "Niveaux",
+        "Description1": "Le niveau du Centre de l'Alliance augmente automatiquement en fonction des épices accumulées."
+      },
+      "Relocation": {
+        "Title": "Relocalisation",
+        "Description1": "Le Centre de l'Alliance peut être déplacé. Pour cela, vous devez construire un site de relocalisation, tout comme vous avez construit le Centre de l'Alliance initial. Cela ressemble également à la relocalisation du four de l'Alliance dans la Saison 2.",
+        "Description2": "IMPORTANT : Dès que vous commencez à construire le site de relocalisation, des ennemis peuvent l'attaquer. Soyez donc prudent."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nouvelles Fermes – Ressources de l'Alliance",
+      "Description1": "Comme montré dans les saisons 1 et 2, après avoir vaincu les élites de l'Apocalypse, un nouveau type de ferme/champ de ressources de l'Alliance peut apparaître aléatoirement.",
+      "Description2": "Dans la Saison 3, ces fermes peuvent contenir de l'Eau Sacrée, du Mithril et des types d'Huile. Jusqu'à 10 troupes peuvent collecter dans chaque champ de collecte.",
+      "Description3": "Dans la Saison 3, le jeu ne donne pas la probabilité d'apparition des tuiles de ressources de l'Alliance après avoir tué des monstres. Dans la Saison 2, cette probabilité était de 5 %.",
+      "Description4": "Voici un exemple de nouvelles tuiles de ressources :"
+    },
+    "Cities": {
+      "Title": "Villes",
+      "Description1": "La conquête de la ville suit le calendrier de l'événement City Clash Saison 3.",
+      "Description2": "Les épices produites par les propriétaires eux-mêmes sont essentielles pour gagner la Saison 3, et la quantité dépend du niveau de la ville.",
+      "Description3": "Production d'épices par niveau de la ville :",
+      "List1": "Niveau 1 : 100/h épices",
+      "List2": "Niveau 2 : 200/h épices",
+      "List3": "Niveau 3 : 300/h épices",
+      "List4": "Niveau 4 : 400/h épices",
+      "List5": "Niveau 5 : 500/h épices",
+      "List6": "Niveau 6 : 600/h épices",
+      "Description4": "Limites de la conquête de la ville",
+      "Description5": "Comme nous pouvons le voir sous \"Bouton Alliance -> Ville de l'Alliance\" :",
+      "List7": "Limite quotidienne des déclarations de guerre pour les villes : 2",
+      "List8": "Villes conquises max : 8",
+      "List9": "Conquêtes quotidiennes de forteresses de fouille : 2",
+      "List10": "Forteresses de fouille conquises max : 8"
+    },
+    "Strongholds": {
+      "Title": "Forteresses de Fouilles",
+      "Description1": "Les Forteresses de Fouilles sont des lieux sur la carte où du Mithril peut être extrait. Elles ressemblent aux sites de fouilles de la saison 2.",
+      "Description2": "Elles sont protégées par des Gardiens Momies et des Destructeurs d'Or. Plus le niveau de la forteresse est élevé, plus le protecteur est puissant.",
+      "Description3": "Avec la mise à jour la plus récente du jeu, l'extraction dans les forteresses génère du Mithril/h en fonction de leur niveau :",
+      "List1": "Niveau 1 : 100/h Mithril",
+      "List2": "Niveau 2 : 120/h Mithril",
+      "List3": "Niveau 3 : 140/h Mithril",
+      "List4": "Niveau 4 : 160/h Mithril",
+      "List5": "Niveau 5 : 180/h Mithril",
+      "List6": "Niveau 6 : 200/h Mithril",
+      "Description4": "Il existe trois types différents de Bêtes Dorées qui défendent les Forteresses de Fouilles. Cliquez sur le \"i\" pour voir les détails",
+      "List7": "Le Défenseur Doré est du type Tank.",
+      "List8": "Le Combattant Doré est du type Avion.",
+      "List9": "Le Destructeur Doré est du type Missile.",
+      "Description5": "Lorsque vous fouillez les forteresses, du Mithril est généré, que vous pouvez collecter en allant sur le bouton \"Alliance\" -> \"Villes de l'Alliance\" -> \"Fouilles des forteresses\" -> \"Tout réclamer\"."
+    },
+    "TradePosts": {
+      "Title": "Postes de Commerce",
+      "Description1": "Les Postes de Commerce se trouvent à des emplacements spécifiques sur la carte. Ils sont disposés en diagonale vers la capitale et peuvent avoir différents niveaux allant jusqu'au niveau 5.",
+      "Description2": "Les Postes de Commerce ne sont pas les mêmes que les Forteresses ou les Villes. Ils peuvent être occupés par des individus et ouvrent un marché où chacun peut acheter des objets. Le propriétaire du Poste de Commerce peut gagner des taxes.",
+      "Description3": "Il n'est pas nécessaire de contrôler les zones adjacentes, et il n'y a aucune limite au nombre de Postes de Commerce que vous pouvez posséder. Cependant, les Postes de Commerce peuvent être conquis par d'autres, donc vous devez les défendre. Il est donc difficile pour un joueur de gérer efficacement trop de Postes de Commerce.",
+      "Description4": "Les règles de conquête des Postes de Commerce",
+      "List1": "Les niveaux des Postes de Commerce se débloquent progressivement (la date de début de la compétition est indiquée sur chaque Poste de Commerce) :",
+      "List1List1": "Niveau 1 : Dimanche, jour 7 de la semaine 2, à 12:00 heure du serveur (c'est la seule conquête où d'autres serveurs ne peuvent pas venir conquérir des Postes de Commerce sur votre serveur)",
+      "List1List2": "Niveau 2 : Lundi, jour 1 de la semaine 3 à 12:00 heure du serveur",
+      "List1List3": "Niveau 3 : Mardi, jour 2 de la semaine 3 à 12:00 heure du serveur",
+      "List1List4": "Niveau 4 : Jeudi, jour 4 de la semaine 3 à 12:00 heure du serveur",
+      "List1List5": "Niveau 5 : Vendredi, jour 5 de la semaine 3 à 12:00 heure du serveur",
+      "List2": "IMPORTANT : À partir du jour 1 de la semaine 3, les téléports entre les zones de guerre du groupe de saison sont ouverts et d'autres zones de guerre peuvent venir conquérir des Postes de Commerce dans votre zone de guerre.",
+      "List3": "Une fois que la compétition pour la conquête du Poste de Commerce commence, elle dure 1 heure.",
+      "List4": "Les troupes stationnées dans le Poste de Commerce augmentent progressivement la progression de la conquête avec le temps.",
+      "List5": "La progression est suivie séparément pour vous et vos alliés.",
+      "List6": "Pendant la compétition, le premier commandant à atteindre 100 % de progression conquiert le Poste de Commerce. Si personne n'atteint 100 % avant la fin de la compétition, le commandant ayant la plus grande progression conquiert le Poste de Commerce, à condition qu'il n'ait pas de gouverneur.",
+      "List7": "Votre base doit être située dans la zone contaminée du Poste de Commerce cible pour pouvoir l'attaquer et le conquérir.",
+      "List8": "Si le Poste de Commerce a déjà un gouverneur, le gouverneur actuel conserve le contrôle si personne n'atteint 100 % avant la fin de la compétition.",
+      "List9": "Une fois qu'un Poste de Commerce est conquis, la prochaine compétition pour sa reconquête aura lieu 7 jours plus tard.",
+      "Description5": "Chaque Poste de Commerce est un magasin indépendant, et les commandants du même groupe de saison de jeu peuvent y acheter des articles.",
+      "Description6": "Niveaux des Postes de Commerce",
+      "Description7": "Comme vous pouvez le voir sur ces images, plus le niveau du Poste de Commerce est élevé, plus il y a d'articles disponibles.",
+      "Description8": "Tous les autres paramètres restent identiques, mais l'avantage du gouverneur par l'augmentation de la limite de protecteurs augmente progressivement.",
+      "Description9": "Commerce",
+      "Description10": "Une fois qu'un gouverneur prend le contrôle d'un Poste de Commerce, le magasin de commerce s'ouvre et des articles peuvent être achetés. Pour y accéder, cliquez sur le Poste de Commerce, puis sur l'icône affichée en bas pour ouvrir le magasin.",
+      "Description11": "Le gouverneur peut convoquer une caravane commerciale une fois pour remplir les stocks et permettre les achats.",
+      "Description12": "Malheureusement, tous les articles affichés dans le magasin ne sont pas disponibles pour chaque commandant. Le principe 'Premier arrivé, premier servi' s'applique, car le nombre total d'articles disponibles est limité. De plus, certains articles sont exclusivement réservés au gouverneur.",
+      "Description13": "Taxes",
+      "Description14": "Les diamants dépensés dans un Poste de Commerce génèrent des recettes fiscales. Lorsque tous les articles sont en rupture de stock ou que le gouverneur abandonne le Poste de Commerce, les taxes collectées sont envoyées sous forme d'œuf d'or au gouverneur du Poste de Commerce, et peuvent ensuite être partagées dans le chat."
+    },
+    "GamePlay": {
+      "Title": "Déroulement du jeu",
+      "Description1": "Dans la saison 3, il y a beaucoup de nouvelles choses que vous pouvez faire dans le jeu :",
+      "Link1": "Aimez le skin de la base de chat pour recevoir des récompenses.",
+      "Link2": "Crise du ver de sable",
+      "Link3": "Protecteurs du désert",
+      "Link4": "Construisez une oasis",
+      "Link5": "Artefacts du désert",
+      "Link6": "Doom Walker - Les derniers Jedi",
+      "Link7": "Camion",
+      "Description2": "Aimez le skin de la base de chat pour recevoir des récompenses",
+      "Description3": "Trouvez des skins de base pour chats et aimez-les pour recevoir immédiatement une récompense. Il y a une limite quotidienne au nombre de ‘j'aime’ que vous pouvez donner.",
+      "SandWorm": {
+        "Title": "Crise du ver de sable",
+        "Description1": "Depuis le début de la saison 3, des vers de sable rôdent sous le sable, écoutant chaque bruit des commandants.",
+        "Description2": "L'événement de la crise du ver de sable commence dès le premier jour et dure 14 jours.",
+        "Image1": "Butin-Lots : Il y a une limite de 30 morceaux de butin que tu peux collecter par jour.",
+        "List1": "Pendant l'événement, des vers de sable apparaîtront. Chassez-les pour accomplir des missions et gagner des récompenses.",
+        "List2": "Lorsque les troupes des membres de l'alliance sont engagées dans des combats, elles génèrent des ondes de choc. Lorsque la barre de progression est pleine, le dernier commandant à la déclencher attirera un ver de sable qui attaquera sa base. Les bases encerclées par de petits vers de sable ne peuvent pas envoyer de files d'attente, mais elles peuvent s'échapper à l'aide d'objets de téléportation. Le petit ver de sable disparaîtra cependant et les récompenses seront perdues. (Seules les marches de collecte en cours peuvent être poursuivies.)",
+        "List3": "Une fois qu'un ver de sable est vaincu, le commandant attaqué recevra une récompense de découverte par email.",
+        "List4": "Au fur et à mesure de l'événement, de grands vers de sable apparaîtront. Les bases extérieures au centre de l'alliance seront projetées lorsque de grands vers de sable sont attirés.",
+        "List5": "Les commandants qui quittent l'alliance ne collectent plus de valeur d'onde de choc.",
+        "List6": "Bien que cela ne soit pas suivi sur cette page, des vers de sable géants piégés par des mines terrestres apparaîtront également.",
+        "Description3": "Petit ver de sable",
+        "Description4": "Lorsque les commandants combattent des monstres sur la carte, des ondes de choc sont générées, attirant les petits vers de sable. Une fois la barre de progression pleine, le dernier commandant à la déclencher attirera le ver de sable, qui l'enroulera.",
+        "Description5": "Le butin ‘possible’ répertorié comme récompense sera laissé sous forme de coffres sur la carte près de l'endroit où le ver de sable a été tué.",
+        "Description6": "Grand ver de sable",
+        "Description7": "Les grands vers de sable peuvent être attaqués avec des rallyes et sont bien plus puissants que les petits vers de sable.",
+        "Description8": "La récompense de découverte comprend des écailles de ver de sable.",
+        "Description9": "Si un grand ver de sable apparaît juste sous votre base, celle-ci sera projetée vers un endroit éloigné de la carte.",
+        "Description10": "Un message pop-up vous informera de cet événement.",
+        "Description11": "Pour éviter que votre base ne soit projetée par les vers de sable, vous devez rester dans les zones d'alliance, car le centre d'alliance fournit des buffs dans ces zones qui vous protègent des vers de sable.",
+        "Description12": "Récompenses",
+        "Description13": "Combattre les vers de sable rapporte des récompenses supplémentaires chaque jour, en fonction des objectifs.",
+        "Description14": "Comparez la taille des vers de sable géants à celle d'une ville. Lorsqu'ils apparaissent, ils quittent la zone, comme vous pouvez le voir autour de la ville. Si le ver de sable n'est pas tué, il disparaît après 5 heures.",
+        "Description15": "Le centre de l'alliance empêche les membres d'être projetés par des vers de sable géants dans les zones de l'alliance."
+      },
+      "Protector": {
+        "Title": "Protecteurs du désert",
+        "Description1": "Les Protecteurs du désert sont un nouveau type de soldat avec des capacités améliorées, disponibles dès le premier jour de la saison 3, lorsque l'événement ‘Tech Ancienne – Protecteur’ est déverrouillé.",
+        "Description2": "Il a été confirmé qu'ils ne représentent pas le T11, donc on peut supposer que le T11 sera disponible à l'avenir.",
+        "Description3": "Ce nouveau type de soldat est un bon ajout au jeu, car il ne dépend pas uniquement de combien vous dépensez ou de la qualité de l'entraînement de vos soldats. Les Protecteurs du désert ne sont pas formés, mais ressuscités des morts. Ils sont jetables et disparaissent dès qu'on les a utilisés.",
+        "Description4": "Champ de protecteur",
+        "Description5": "Une fois l'événement ‘Tech Ancienne – Champ du Protecteur’ déverrouillé, vous pouvez construire le Champ du Protecteur du désert directement devant le mur de votre base.",
+        "Description6": "IMPORTANT : Ne faites monter le Champ du Protecteur qu'au niveau 10 au début de la saison, car à partir du niveau 11, il nécessite du Mithril et de l'Eau Sainte, qui sont importants pour d'autres bâtiments saisonniers. De plus, au niveau 10, vous avez déjà accès à toutes les fonctions du Protecteur du désert, donc il n'est pas nécessaire de le faire monter plus haut dans les premiers jours.",
+        "Description7": "Ce champ saisonnier peut être amélioré comme n'importe quel autre bâtiment et vous donne accès au menu pour gérer les Protecteurs du désert.",
+        "Description8": "Lorsque vous passez en mode carte (de la vue de la base à la vue carte), vous pouvez également accéder au Champ des Protecteurs via l'icône correspondante au-dessus des icônes des camions/missions secrètes.",
+        "Description9": "Capacités des Protecteurs du désert",
+        "Description10": "Les Protecteurs bénis par le désert ont une force de combat supérieure. Ils sont plus forts que les unités du même niveau.",
+        "Description11": "Chaque héros peut transporter des Protecteurs dans une quantité équivalente à 1/10 du nombre d'unités (même avec cette limite, les Protecteurs sont plus forts que les soldats du même niveau).",
+        "Description12": "Contrairement aux unités régulières, les Protecteurs qui participent aux combats ne reviennent pas, ils disparaissent dans le désert. Utilisez-les donc avec précaution.",
+        "Description13": "S'ils sont déployés mais ne combattent pas, tous les Protecteurs reviendront.",
+        "Description14": "En fonction du nombre de Protecteurs du désert stationnés dans le champ de votre protecteur, des compétences seront débloquées progressivement.",
+        "Description15": "Force d'adaptation (déverrouillée lorsque 500 ou plus de Protecteurs sont stationnés dans le champ du Protecteur)",
+        "Description16": "Les Protecteurs ont une résistance supplémentaire aux malédictions (+250) ainsi qu'une attaque, une défense et des PV améliorés (+25%). Cela les rend parfaits pour attaquer des ennemis contre lesquels votre résistance actuelle aux malédictions est insuffisante.",
+        "Description17": "Onde de choc de la mort (déverrouillée lorsque 750 ou plus de Protecteurs sont stationnés dans le champ du Protecteur)",
+        "Description18": "Sort de flammes bleues (déverrouillé lorsque 1000 ou plus de Protecteurs sont stationnés dans le champ du Protecteur).",
+        "Description19": "Lorsqu'un groupe de Protecteurs gagne une attaque contre la base d'un autre commandant, il déclenche le sort ‘Flamme bleue’, enveloppant la base ennemie dans des flammes bleues indestructibles pendant une heure.",
+        "Description20": "Rallye du Protecteur (déverrouillée lorsque 1250 ou plus de Protecteurs sont stationnés dans le champ du Protecteur).",
+        "Description21": "Permet la Rallye du Protecteur !",
+        "Description22": "Restriction de la rallye : les alliés rejoignant la rallye doivent utiliser des troupes avec des Protecteurs.",
+        "Description23": "Compte à rebours de la rallye : les rallyes du Protecteur ont un temps de préparation de 1 minute.",
+        "Description24": "Buff du leader : toutes les troupes de la rallye bénéficient des améliorations actives du Protecteur du leader.",
+        "Description25": "Conversion des Protecteurs",
+        "Description26": "En termes simples, voici comment créer des Protecteurs du désert :",
+        "Description27": "10 % des unités perdues dans les cas suivants sont envoyées dans le pool de conversion du Protecteur et y attendent leur conversion :",
+        "Description28": "Pertes de bataille pendant les duels VS",
+        "Description29": "Unités gravement blessées qui ne trouvent pas de place à l'hôpital lorsqu'il est plein.",
+        "Description30": "Pertes dues à des violations de terrain d'entraînement",
+        "Description31": "Le nombre d'unités perdues qui peuvent attendre dans le pool de conversion est illimité.",
+        "Description32": "Les alliés envoient des avions de reconnaissance pour vous aider à convertir chaque unité",
+        "Description33": "Si votre base est percée, les Protecteurs du désert dans le Champ des Protecteurs ne seront pas affectés.",
+        "Description34": "Protecteurs du désert - Attributs",
+        "Description35": "Voici une comparaison entre les soldats normaux et la version correspondante des Protecteurs du désert pour certaines variantes.",
+        "Description36": "Niveau 10",
+        "Description37": "Niveau 9",
+        "Description38": "Niveau 7",
+        "Description39": "Améliorez les propriétés des Protecteurs avec l'autel",
+        "Description40": "L'autel est un nouveau bâtiment conçu spécifiquement pour améliorer les propriétés des Protecteurs du désert. Pour plus d'informations, consultez la section ‘Autel’.",
+        "Description41": "Les unités converties sont envoyées dans le Champ des Protecteurs.",
+        "Image1": "Le symbole du Protecteur du désert vous montre également combien de soldats de ce type sont immédiatement disponibles.",
+        "Image2": "Les troupes portant des Protecteurs bénéficient automatiquement de buffs activés : les Protecteurs reçoivent une résistance supplémentaire aux malédictions et des améliorations de statut.",
+        "Image3": "Lorsqu'un groupe de Protecteurs est vaincu lors de combats PvP, une partie des unités ennemies est éliminée en fonction du niveau et du nombre de vos Protecteurs tués.",
+        "Image4": "Débloquez des effets puissants de malédiction en maîtrisant les compétences de spécialisation !",
+        "Image5": "Marche rapide : obtenez un bonus de vitesse de marche triple supplémentaire lorsque vous participez ou lancez une Rallye du Protecteur."
+      },
+      "Oasis": {
+        "Title": "Construisez une oasis",
+        "Description1": "Cet événement commence simultanément avec l'ouverture des villes de niveau 1 le troisième jour de la première semaine et dure jusqu'à la fin de la saison.",
+        "Description2": "Règles pour la végétalisation :",
+        "List1": "Commande de végétalisation : Vous ne pouvez végétaliser que les terrains sablonneux adjacents à des zones déjà végétalisées.",
+        "List2": "Expansion progressive : La zone de végétalisation disponible augmente au fil de l'événement.",
+        "List3": "Progrès de végétalisation : Une fois 80 % d'une région végétalisée, elle est considérée comme terminée et contribue à l'avancement général de la zone de guerre.",
+        "List4": "Trésor du désert : Dans les zones végétalisées, il y a une chance de trouver des trésors rares (Artefacts du désert). Chaque région contient un nombre fixe de trésors.",
+        "Description3": "Étapes",
+        "Description4": "Phase 1 (Semaine 1–4 de la saison) :",
+        "List5": "Zone de végétalisation : La végétalisation est déverrouillée après la conquête d'une ville.",
+        "List6": "Zones interdites : Les forteresses, les postes de commerce et la capitale ne peuvent pas être végétalisées dans cette phase.",
+        "List7": "Point de départ de la végétalisation : La conquête d'une ville transforme le terrain contaminé autour de la ville en zone végétalisée, servant de point de départ pour l'expansion.",
+        "Description5": "Phase 2 (Semaine 5–7 de la saison) :",
+        "List8": "Expansion de la végétalisation : Les commandants peuvent végétaliser des régions de niveau 1 et progressivement les étendre aux villes, forteresses, postes de commerce et à la capitale.",
+        "List9": "Progrès de déblocage : Lorsque 80 % de la végétalisation est atteinte dans un niveau, le niveau suivant est déverrouillé, permettant la végétalisation de la capitale au niveau 7.",
+        "List10": "Végétalisation inter-zones de guerre : Les commandants peuvent maintenant végétaliser librement les zones de guerre dans les 8 zones de guerre de la même saison.",
+        "Description6": "Voici comment cela devient plus vert",
+        "Description7": "La végétalisation est simple : cliquez sur une case valide sur la carte et envoyez un avion de reconnaissance pour la végétaliser.",
+        "Description8": "La règle de base est que vous ne pouvez végétaliser que les cases adjacentes à une case déjà verte : lorsqu'une ville est conquise, le terrain autour de la ville devient vert, vous permettant de démarrer la végétalisation dans cette zone. Petit à petit, d'autres zones s'ouvriront selon les phases décrites précédemment."
+      },
+      "Artefact": {
+        "Title": "Artefacts du désert",
+        "Description1": "Les Artefacts du désert ressemblent aux collections de ressources de la saison 2."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - Les derniers Jedi",
+        "Description1": "Sur les premiers serveurs, les nouveaux niveaux des Doom Walkers apparaîtront pour la première fois dans la saison 3.",
+        "Description2": "Pour les serveurs plus récents, voici le programme :",
+        "List1": "Après le début de la saison morte de la première saison, les niveaux Doom Walker 200, 210 et 220 seront déverrouillés",
+        "List2": "Après le début de la saison morte de la saison 2, les Doom Walkers se déplaceront également pour s'occuper de ces nouveaux niveaux.",
+        "Description3": "Déblocus à partir du niveau Doom Walker."
+      }
+    },
+    "Weapons": {
+      "Title": "Améliorations des héros et armes",
+      "Description1": "La saison 3 apporte des nouveautés concernant les héros et les armes ; leur disponibilité varie dans le temps.",
+      "Description2": "La principale nouveauté : l'événement Échange de héros vous permet d'échanger le niveau d'EXP et les étoiles d'un héros.",
+      "Description3": "Échange de héros",
+      "Description4": "L'échange de héros est un nouvel événement qui a lieu lors de la semaine 2 et vous permet enfin d'échanger le niveau d'EXP et les étoiles de deux héros.",
+      "Description5": "Pour la saison 3, vous recevrez immédiatement 2 bons d'échange pour échanger 2 héros.",
+      "Description6": "Mise à niveau de Scarlett vers UR",
+      "Description7": "Il sera possible de mettre à niveau Scarlett en héros UR. L'événement a lieu le premier jour de la troisième semaine.",
+      "Description8": "Mason et Violet montent en UR",
+      "Description9": "Si vous possédez un élément de mise à niveau UR, vous pouvez mettre Mason et/ou Violet à niveau en héros UR pendant la troisième saison. Pour ce faire, allez sur Mason ou Violet et vous y trouverez le bouton ‘Promouvoir’.",
+      "Description10": "S3 : Le retour de la légende",
+      "Description11": "S3 : Le Retour des Légendes commence le premier jour de la saison 3. Utilisez immédiatement les tickets de retour de héros pour obtenir du Mithril supplémentaire et de l'eau secrète.",
+      "Description12": "S3 : Armes des légendes",
+      "Description13": "S3 : Armes des légendes commence le jour 3. Le compte à rebours pour un recrutement gratuit est de 2 jours et 5 heures."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Armes Exclusives",
+      "Description1": "La saison 3 apporte également quelques armes exclusives : Marshall, Schuyler et McGregor.",
+      "Description2": "Arme exclusive de Marshall",
+      "Description3": "Avec le Battle Pass pour les armes exclusives de Marshall (à partir du jour 4 de la semaine 1), vous pouvez gagner des éclats d'arme exclusifs de Marshall, qui vous permettent d'activer et d'améliorer facilement l'arme exclusive. Sinon, vous pouvez collecter des éclats d'arme exclusifs universels, mais vous ne pouvez les utiliser que pour les améliorations, pas pour l'activation.",
+      "Description4": "Arme exclusive de Schuyler",
+      "Description5": "Avec le Battle Pass pour les armes exclusives de Schuyler (à partir du jour 4 de la semaine 3), vous pouvez gagner des éclats d'arme exclusifs de Schuyler, qui vous permettent d'activer et d'améliorer facilement l'arme exclusive. Sinon, vous pouvez collecter des éclats d'arme exclusifs universels, mais vous ne pouvez les utiliser que pour les améliorations, pas pour l'activation.",
+      "Description6": "Arme exclusive de McGregor",
+      "Description7": "Avec le Battle Pass pour les armes exclusives de McGregor (à partir du jour 4 de la semaine 6), vous pouvez gagner des éclats d'arme exclusifs de McGregor, qui vous permettent d'activer et d'améliorer facilement l'arme exclusive. Sinon, vous pouvez collecter des éclats d'arme exclusifs universels, mais vous ne pouvez les utiliser que pour les améliorations, pas pour l'activation."
+    },
+    "Professions": {
+      "Title": "Métiers – Limite de niveau augmentée à 100",
+      "Description1": "Dans la saison 3, la limite de niveau pour les métiers est augmentée à 100, ce qui promet de débloquer de nouvelles compétences et des choix stratégiques."
+    },
+    "Bazaar": {
+      "Title": "Bazaar du désert",
+      "Description1": "Lorsque vous tuez des vers de sable, vous pouvez collecter des objets de d'écailles de ver de sable (par exemple, dans des coffres de butin lorsque des vers de sable sont tués ou comme objectifs dans l'événement de crise des vers de sable), que vous pouvez échanger contre des objets très importants au Bazaar du désert.",
+      "Description2": "Le Bazaar du désert est réinitialisé chaque semaine, et lorsqu'une nouvelle mission est déverrouillée, vous pouvez y trouver des objets supplémentaires chaque semaine. Ci-dessous, je montre tous les objets disponibles chaque semaine et donne une brève description de chaque objet spécial."
+    }
   }
 }

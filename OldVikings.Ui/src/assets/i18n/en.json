@@ -1900,5 +1900,392 @@
       "Description2": "Additional API features are planned for future updates."
     },
     "Button": "Open Player Manager Now"
+  },
+  "SeasonThree": {
+    "Title": "Season 3 – Golden Kingdom",
+    "Content": {
+      "Link1": "New Base Resources",
+      "Link2": "The World and the Map",
+      "Link3": "Visitors",
+      "Link4": "Golden Scarab",
+      "Link5": "Radar Missions",
+      "Link6": "New Buildings",
+      "Link7": "Alliance Center",
+      "Link8": "Alliance Resources",
+      "Link9": "Cities",
+      "Link10": "Fortresses",
+      "Link11": "Trading Posts",
+      "Link12": "Gameplay",
+      "Link13": "Hero Upgrades and Weapons",
+      "Link14": "Exclusive Weapons",
+      "Link15": "Professions",
+      "Link16": "Desert Bazaar"
+    },
+    "Resources": {
+      "Title": "New Base Resources – Mithril and Holy Water",
+      "Description1": "Additional resources are now available in the game: Mithril and Holy Water.",
+      "ScaredWater": {
+        "Title": "Holy Water:",
+        "Description1": "It is used for building and upgrading seasonal structures.",
+        "Description2": "Holy Water can be earned through the following:",
+        "List1": "Rewards for the first-time defeat of zombies on a specific level",
+        "List2": "By completing seasonal quest missions",
+        "List3": "By completing Season 3 goals",
+        "List4": "Using the 'Hero's Return' recruitment ticket: Heroes return in Season 3 – The Return of the Legend",
+        "List5": "Reward for the first-time conquest of a city",
+        "List6": "Alliance Center: A hut with Holy Water"
+      },
+      "Mithril": {
+        "Title": "Mithril:",
+        "Description1": "It is used for building and upgrading seasonal structures. Mithril can be earned through the following activities:",
+        "List1": "Rewards for the first-time killing of zombies on a specific level.",
+        "List2": "Visitors at the wall of your base.",
+        "List3": "By completing seasonal quest missions.",
+        "List4": "By completing Season 3 goals.",
+        "List5": "First Blood Kill with the Doom Walker (first DW kill of the day).",
+        "List6": "Radar missions in the Desert Ruins.",
+        "List7": "Using the 'Hero's Return' recruitment ticket: Heroes return in Season 3 – Legend Returns.",
+        "List8": "Weekly Pass and Season Battle Pass (the biggest boost).",
+        "List9": "Reward for the first-time conquest of a city/fortress by digging.",
+        "List10": "Digging fortresses owned by the alliance yields Mithril.",
+        "List11": "Alliance Center: The Mithril Workshop.",
+        "List12": "Desert Treasures: The open vaults."
+      }
+    },
+    "Map": {
+      "Title": "The World Map and Its Regions",
+      "Description1": "The world has changed again. The map consists of three different types of buildings: cities, excavation fortresses, and trading posts.",
+      "Image1": "City",
+      "Image2": "Excavation Fortress",
+      "Image3": "Trading Post",
+      "Description2": "At the start of the season, you and your allies are stranded at the edge of the server (but still together as an alliance hive) and do not have your own city yet. Cities must be retaken, but new rules apply.",
+      "Description3": "Doom Elite monsters turn into Egyptian monsters, and most zombies require high virus resistance to be killed.",
+      "NewMap": "The New Map",
+      "NewMapDescription": "The map size is 13 x 13 squares (even though they appear as rectangles on the map below). Each square is 75 x 75 ‘pixels’ in size (your base size is 3 x 3)."
+    },
+    "Visitors": {
+      "Title": "Visitors",
+      "Description": "From time to time, two new types of visitors will appear at the wall (the left one after a few hours, the right one once per day) and distribute Mithril."
+    },
+    "GoldenScarab": {
+      "Title": "Golden Scarab",
+      "Description1": "You will find golden scarabs on the map. Click on them and attack them to receive rewards.",
+      "Description2": "You can find scarabs by:",
+      "List1": "Killing world zombies",
+      "List2": "Killing Doom-Elites.",
+      "List3": "Using a trap landmine (random underground creatures may appear, not just scarabs).",
+      "Image1": "The Golden Scarab is visible when you zoom out of the map. You will see it move, and once you start attacking it, it will remain still."
+    },
+    "RadarMissions": {
+      "Title": "Radar Missions – Desert Ruins",
+      "Description1": "With Season 3 comes a new type of radar mission.",
+      "Description2": "It consists of two parts:",
+      "List1": "A gamble, where various rewards can be found:",
+      "List1List1": "You have found the Desert Ruins.",
+      "List1List2": "Collect the rewards or risk going deeper into the ruins and losing everything.",
+      "List2": "If you trigger a trap, a mini-game with coin rewards will start.",
+      "List2List1": "Run to collect coins and avoid zombies. You have 30 seconds to escape the ruins and collect as many coins as possible.",
+      "Description3": "These new radar missions are really cool because they can bring you great rewards, with the best being the season merit medal (which you can use to buy items in the season shop) if you're lucky enough to reach the last levels and also choose the right chest."
+    },
+    "Building": {
+      "Title": "New Buildings",
+      "Description1": "New building types are available during Season 3.",
+      "CurseLab": {
+        "Title": "Curse Research Lab",
+        "Description": "In the Curse Research Lab, you can improve your resistance to curses, similar to virus resistance, to defeat Elite Zombies and Guardians of the Excavation Fortresses. To upgrade it, you will need Holy Water."
+      },
+      "BlessingFountain": {
+        "Title": "Blessing Fountain",
+        "Description1": "Blessing Fountains produce Holy Water; they are similar to the Titan Alloy Factory from Season 2.",
+        "Description2": "There are several Blessing Fountains available. To unlock them, you need to upgrade the previous Blessing Fountain (they are called Blessing Fountain I, II, III, IV, V). To upgrade them, you will need Mithril. Therefore, refer to the article about the new resources in Season 3 to learn how to obtain them."
+      },
+      "Altar": {
+        "Title": "Altar",
+        "Description1": "This building can only be constructed when the Curse Research Lab reaches Level 30.",
+        "Description2": "It will increase the stats of the Desert Guardians, similar to how Military Bases (Tank/Air/Rocket) increased Hero attributes in Season 2.",
+        "Image": "Each level-up of this building increases the HP, attack, and defense of the Guardian by 0.5%."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "Alliance Center",
+      "Description1": "Go to the 'Alliance' button -> 'Alliance Center' -> click on the coordinates to find the Alliance Center on the map.",
+      "Description2": "On the second day of Season 3, your alliance must build the Alliance Center.",
+      "Description3": "Once the Alliance Center is built, it will produce Spices/H and provide buffs to all alliance members within its range. It also prevents members within the alliance range from being pushed back by giant sandworms.",
+      "Description4": "IMPORTANT: The values for spice production may be changed by the developers. Do not use the images as a reference for these values. Information on accessing these values can be found in the 'Levels' section below.",
+      "RepairAllianceCenter": {
+        "Title": "Repair Alliance Center:",
+        "List1": "The more troops that enter the Alliance Center, the faster it will be built.",
+        "Description1": "You can see the range of buffs applied by the Alliance Center by zooming out on the map."
+      },
+      "AdditionalFeatures": {
+        "Title": "Additional Features:",
+        "Description1": "Once the Alliance Center is created, you can see which levels unlock new features."
+      },
+      "MithrilPlant": {
+        "Title": "Mithril Plant",
+        "Description1": "This building produces 34,560 Mithril/h and is unlocked when the Alliance Center reaches Level 5.",
+        "Description2": "If the building is damaged, production will stop. If destroyed, the alliance will lose a corresponding percentage of Spices.",
+        "Description3": "Go to the Alliance Center page and click on the Mithril you see in the construction of the Alliance Center, as shown in the image here, to collect the produced Mithril."
+      },
+      "ExploratoryWell": {
+        "Title": "Exploratory Well",
+        "Description1": "This building produces 600 Oil/h and is unlocked when the Alliance Center reaches Level 10.",
+        "Description2": "If the building is damaged, production will stop. If destroyed, the alliance will lose a corresponding percentage of Spices.",
+        "Description3": "Go to the Alliance Center page and click on the Oil you see in the construction of the Alliance Center, as shown in the image here, to collect the produced Oil."
+      },
+      "SacredWaterHut": {
+        "Title": "Sacred Water Hut",
+        "Description1": "This building produces 8640 Holy Water/h and is unlocked when the Alliance Center reaches Level 15.",
+        "Description2": "If the building is damaged, production will stop. If destroyed, the alliance will lose a corresponding percentage of Spices.",
+        "Description3": "Go to the Alliance Center page and click on the Holy Water you see in the construction of the Alliance Center, as shown in the image here, to collect the produced Holy Water."
+      },
+      "Obelisk": {
+        "Title": "Obelisk",
+        "Description1": "This building produces 6 Guardian Horns/h and is unlocked when the Alliance Center reaches Level 20.",
+        "Description2": "If the building is damaged, production will stop. If destroyed, the alliance will lose a corresponding percentage of Spices.",
+        "Description3": "Go to the Alliance Center page and click on the Guardian Horns you see in the construction of the Alliance Center, as shown in the image here, to collect the produced Guardian Horns."
+      },
+      "Level": {
+        "Title": "Levels",
+        "Description1": "The level of the Alliance Center automatically increases based on the accumulated Spices."
+      },
+      "Relocation": {
+        "Title": "Relocation",
+        "Description1": "The Alliance Center can be relocated. To do so, you need to build the relocation site, just like building the original Alliance Center. This is also similar to relocating the Alliance Furnace in Season 2.",
+        "Description2": "IMPORTANT: Once you begin building the relocation site, enemies can attack it, so be cautious."
+      }
+    },
+    "NewFarms": {
+      "Title": "New Farms – Alliance Resources",
+      "Description1": "As shown in Season 1 and 2, after defeating the Doom-Elites, a new type of Alliance Resource Farm/Field may randomly appear temporarily.",
+      "Description2": "In Season 3, these farms may contain Holy Water, Mithril, and Oil types. Up to 10 troops can collect in each gathering field.",
+      "Description3": "In Season 3, the game does not specify the probability with which Alliance Resource Tiles appear after killing monsters. In Season 2, this was 5%.",
+      "Description4": "Here is an example of new resource tiles:"
+    },
+    "Cities": {
+      "Title": "Cities",
+      "Description1": "The conquest of the city follows the event schedule of City Clash Season 3.",
+      "Description2": "The spices produced by the owners themselves are crucial for winning Season 3, and the amount depends on the city's level.",
+      "Description3": "City spice production per level:",
+      "List1": "Level 1: 100/h Spices",
+      "List2": "Level 2: 200/h Spices",
+      "List3": "Level 3: 300/h Spices",
+      "List4": "Level 4: 400/h Spices",
+      "List5": "Level 5: 500/h Spices",
+      "List6": "Level 6: 600/h Spices",
+      "Description4": "Limits of City Conquest",
+      "Description5": "As we can see under the 'Alliance Button -> Alliance City':",
+      "List7": "Daily war declaration limit for cities: 2",
+      "List8": "Max captured cities: 8",
+      "List9": "Daily excavation fortress conquests: 2",
+      "List10": "Max captured excavation fortresses: 8"
+    },
+    "Strongholds": {
+      "Title": "Excavation Fortresses",
+      "Description1": "Excavation Fortresses are locations on the map where Mithril can be dug. They are similar to the excavation sites from Season 2.",
+      "Description2": "They are guarded by Mummy Guardians and Golden Annihilators. The higher the level of the excavation fortress, the stronger the guardian.",
+      "Description3": "With the latest game update, Mithril is produced by digging fortresses at a rate based on their level:",
+      "List1": "Level 1: 100/h Mithril",
+      "List2": "Level 2: 120/h Mithril",
+      "List3": "Level 3: 140/h Mithril",
+      "List4": "Level 4: 160/h Mithril",
+      "List5": "Level 5: 180/h Mithril",
+      "List6": "Level 6: 200/h Mithril",
+      "Description4": "There are three different types of Golden Beasts that defend the excavation fortresses. Click the 'i' to view details.",
+      "List7": "The Golden Defender is a Tank type.",
+      "List8": "The Golden Striker is an Aircraft type.",
+      "List9": "The Golden Annihilator is a Rocket type.",
+      "Description5": "When digging fortresses, Mithril is produced, which you can collect via the 'Alliance' -> 'Alliance Cities' -> 'Dig Fortresses' -> 'Claim All' button."
+    },
+    "TradePosts": {
+      "Title": "Trade Posts",
+      "Description1": "Trade posts are located at specific spots on the map. They are positioned diagonally toward the capital and can have various levels up to Level 5.",
+      "Description2": "Trade posts are not the same as fortresses or cities. They can be occupied by individuals and open up a market where everyone can buy things. The owner of the trade post can earn taxes.",
+      "Description3": "There is no need to control adjacent areas, and there is no limit to the number of trade posts you can have. However, trade posts can be captured by others, so you need to defend them. Therefore, it is typically difficult for a player to manage too many trade posts effectively.",
+      "Description4": "Rules for conquering trade posts",
+      "List1": "Trade post levels are unlocked gradually (the start date of the competition will be displayed on each trade post):",
+      "List1List1": "Level 1: Sunday, Day 7 of Week 2 at 12:00 Server Time (this is the only conquest where other servers cannot come to capture trade posts on your server)",
+      "List1List2": "Level 2: Monday, Day 1 of Week 3 at 12:00 Server Time",
+      "List1List3": "Level 3: Tuesday, Day 2 of Week 3 at 12:00 Server Time",
+      "List1List4": "Level 4: Thursday, Day 4 of Week 3 at 12:00 Server Time",
+      "List1List5": "Level 5: Friday, Day 5 of Week 3 at 12:00 Server Time",
+      "List2": "IMPORTANT: From Day 1 of Week 3, teleports between the war zones of the season grouping are open, and other war zones can come and capture trade posts in your war zone.",
+      "List3": "Once the competition to capture the trade post begins, it lasts 1 hour.",
+      "List4": "Troops stationed at the trade post gradually increase the conquest progress over time.",
+      "List5": "Progress is tracked separately for you and your allies.",
+      "List6": "During the competition, the first commander to reach 100% progress wins the trade post. If no commander reaches 100% by the end of the competition, the commander with the highest progress takes over the trade post, as long as it has no governor.",
+      "List7": "Your base must be within the contaminated area of the target trade post to attack and capture it.",
+      "List8": "If the trade post already has a governor, the current governor retains control if no one reaches 100% by the end of the competition.",
+      "List9": "Once a trade post is captured, the next competition for its recapture will occur 7 days later.",
+      "Description5": "Each trade post is an independent shop, and commanders in the same season group can buy items from it.",
+      "Description6": "Trade Post Levels",
+      "Description7": "As you can see in these images, the higher the level of the trade post, the more items are available.",
+      "Description8": "All other parameters remain the same, but the governor's advantage through the increase in the guardian limit gradually increases.",
+      "Description9": "Trade Business",
+      "Description10": "Once the governor takes control of a trade post, the trade shop opens, and items can be purchased. Click on the trade post and then click on the symbol below to access the shop.",
+      "Description11": "The governor can call a trade caravan once to restock the inventory and allow purchases.",
+      "Description12": "Unfortunately, not all items displayed in the shop are available to every commander. The principle 'first come, first served' applies as the total number of available items is limited. Additionally, some items are reserved exclusively for the governor.",
+      "Description13": "Tax",
+      "Description14": "Diamonds spent in a trade post generate tax revenue. When all items are sold out or the trade post is abandoned by the governor, the collected taxes are sent to the governor of the trade post in the form of a Golden Egg, which can then be shared in the chat."
+    },
+    "GamePlay": {
+      "Title": "Gameplay",
+      "Description1": "In Season 3, there are many new things you can do in the game:",
+      "Link1": "Like the Cat Base Skin to receive rewards.",
+      "Link2": "Sandworm Crisis",
+      "Link3": "Desert Protectors",
+      "Link4": "Build an Oasis",
+      "Link5": "Desert Artifacts",
+      "Link6": "Doom Walker - The Last Jedi",
+      "Link7": "Truck",
+      "Description2": "Like the Cat Base Skin to receive rewards",
+      "Description3": "Find Cat Base Skins and give them a 'like' to instantly receive a reward. There is a daily limit to the number of 'likes' you can give.",
+      "SandWorm": {
+        "Title": "Sandworm Crisis",
+        "Description1": "Since the start of Season 3, sandworms have been lurking beneath the sand, listening to every sound of the commanders.",
+        "Description2": "The Sandworm Crisis event starts on day one and lasts for 14 days.",
+        "Image1": "Loot-Drops: There is a limit of 30 loot pieces you can collect per day.",
+        "List1": "During the event, sandworms will appear. Hunt them to complete missions and earn rewards.",
+        "List2": "When alliance member troops are engaged in battles, they generate shockwaves. When the progress bar is full, the last commander to trigger it will attract a sandworm that will attack their base. Bases surrounded by small sandworms cannot send queues, but can escape using teleportation items. However, the small sandworm will disappear, and rewards will be lost. (Only ongoing collection marches can be continued.)",
+        "List3": "After a sandworm is defeated, the commander it attacked will receive a bonus discovery reward by email.",
+        "List4": "As the event progresses, large sandworms will appear. Bases outside the alliance center will be thrown away when large sandworms are attracted.",
+        "List5": "Commanders who leave the alliance will no longer collect shockwave points.",
+        "List6": "Although not tracked on this page, giant sandworms trapped by landmines will also appear.",
+        "Description3": "Small Sandworm",
+        "Description4": "When commanders fight monsters on the map, shockwaves will be generated, attracting small sandworms. Once the progress bar is full, the last commander to trigger it will attract the sandworm, which will then entangle them.",
+        "Description5": "The 'possible loot' listed as a reward will be left in the form of chests on the map near the spot where the sandworm was killed.",
+        "Description6": "Large Sandworm",
+        "Description7": "Large sandworms can be attacked with rallies and are much stronger than small sandworms.",
+        "Description8": "The discovery reward includes sandworm scales.",
+        "Description9": "If a large sandworm appears directly under your base, it will throw your base to a distant location on the map.",
+        "Description10": "In this case, a popup message will appear, alerting you to this event.",
+        "Description11": "To prevent your base from being thrown by sandworms, you should stay in alliance areas, as the alliance center provides buffs that protect you from sandworms.",
+        "Description12": "Rewards",
+        "Description13": "Fighting sandworms provides daily and additional rewards depending on the goal.",
+        "Description14": "Compare the size of the giant sandworms to a city. When sandworms appear, they leave the area, as you can see directly around the city. If the sandworm is not killed, it will disappear after 5 hours.",
+        "Description15": "The alliance center prevents members from being thrown back by giant sandworms in alliance areas."
+      },
+      "Protector": {
+        "Title": "Desert Protectors",
+        "Description1": "The Desert Protectors are a new type of soldier with enhanced abilities, available from day 1 of Season 3 when the event 'Ancient Tech - Protector' is unlocked.",
+        "Description2": "It has been confirmed that they are not for T11, so it is expected that T11 will be available in the future.",
+        "Description3": "This new soldier type is a great addition to the game, as it doesn't solely depend on how much you spend or how well you train your soldiers. Desert Protectors are not trained but are raised from the dead. They are disposable and disappear once you have used them.",
+        "Description4": "Protector Field",
+        "Description5": "Once the 'Ancient Tech - Protector's Field' event is unlocked, you can build the Desert Protector's Field right in front of your base wall.",
+        "Description6": "IMPORTANT: Only level the Protector's Field to level 10 at the beginning of the season, not further, as level 11 requires Mithril and Holy Water, which are important for other seasonal buildings. Moreover, you already get access to all the features of the Desert Protectors at level 10, so it is not necessary to upgrade it further in the first days.",
+        "Description7": "This seasonal field can be upgraded like any other building and will grant you access to the menu for managing Desert Protectors.",
+        "Description8": "When switching to map mode (from base view to map view), you can also access the Desert Protectors' field via the corresponding icon above the truck/secret mission icons.",
+        "Description9": "Desert Protector Abilities",
+        "Description10": "Protectors, blessed by the desert, have superior combat power. They are stronger than units of the same level.",
+        "Description11": "Each hero can carry protectors in a quantity that corresponds to 1/10 of the unit count (even with this limit, protectors are stronger than soldiers of the same level).",
+        "Description12": "Unlike regular units, protectors who participate in battles do not return, but disappear into the desert. Use them wisely.",
+        "Description13": "If they are deployed but do not fight, all protectors will return.",
+        "Description14": "Depending on how many Desert Protectors are stationed in your Protector's Field, skills will be unlocked progressively.",
+        "Description15": "Customization Power (unlocked when 500 or more Protectors are stationed in the Protector's Field)",
+        "Description16": "Protectors have extra resistance to curses (+250), as well as improved attack, defense, and increased HP (+25%). This makes them perfect for attacking enemies against which your current curse resistance is insufficient.",
+        "Description17": "Death Shockwave (unlocked when 750 or more Protectors are stationed in the Protector's Field)",
+        "Description18": "Blue Flame Spell (unlocked when 1000 or more Protectors are stationed in the Protector's Field).",
+        "Description19": "When a group with Protectors wins an attack on another commander’s base, it triggers the 'Blue Flame' spell, enveloping the enemy's base in indelible blue flames for one hour.",
+        "Description20": "Protector Rally (unlocked when 1250 or more Protectors are stationed in the Protector's Field).",
+        "Description21": "Enables the Protector Rally!",
+        "Description22": "Rally Restriction: Allies joining the rally must deploy troops with protectors.",
+        "Description23": "Rally Countdown: Protector Rallies have a preparation time of 1 minute.",
+        "Description24": "Leader Buff: All troops in the rally benefit from the active Protector enhancements of the leader.",
+        "Description25": "Desert Protector Conversion",
+        "Description26": "In simple terms, here’s how you create Desert Protectors:",
+        "Description27": "10% of the units lost in the following cases go into the Protector's Field conversion pool, waiting to be converted:",
+        "Description28": "Battle losses during VS Duels",
+        "Description29": "Severely injured units that cannot fit in the hospital when it is full.",
+        "Description30": "Losses due to violations of the training ground.",
+        "Description31": "The number of lost units that can wait in the conversion pool is unlimited.",
+        "Description32": "Allies send reconnaissance planes to assist you in converting each unit.",
+        "Description33": "If your base is breached, the Desert Protectors in the Protectors' Field are not affected.",
+        "Description34": "Desert Protectors - Attributes",
+        "Description35": "Here’s a comparison between regular soldiers and the corresponding Desert Protector version for some variants.",
+        "Description36": "Level 10",
+        "Description37": "Level 9",
+        "Description38": "Level 7",
+        "Description39": "Boost the Protector’s attributes with the Altar.",
+        "Description40": "The Altar is a new building specifically designed to enhance Desert Protector attributes. For more information, refer to the 'Altar' section.",
+        "Description41": "Converted units are sent to the Protector's Field.",
+        "Image1": "The Desert Protector symbol also gives you a preview of how many soldiers of this type are immediately available.",
+        "Image2": "Troops carrying Protectors automatically receive active buffs: the Protectors gain additional curse resistance and status improvements.",
+        "Image3": "When a troop with Protectors is defeated in PvP battles, a portion of the enemy’s units are eliminated based on the level and number of Protectors you killed.",
+        "Image4": "Unlock additional powerful curse effects by mastering specialization skills!",
+        "Image5": "Quick March: Gain an additional triple march speed boost when participating in or deploying a Protector Rally."
+      },
+      "Oasis": {
+        "Title": "Build an Oasis",
+        "Description1": "This event starts simultaneously with the opening of level 1 cities on the third day of the first week and lasts until the end of the season.",
+        "Description2": "Greening Rules:",
+        "List1": "Greening Command: You can only green sand areas adjacent to already greened areas.",
+        "List2": "Progressive Expansion: The available greening area increases over the course of the event.",
+        "List3": "Greening Progress: Once 80% of a region is greened, it is considered complete and contributes to the overall progress of the war zone.",
+        "List4": "Desert Treasure: In greened areas, there is a chance to find rare treasures (Desert Artifacts). Each region contains a set number of treasures.",
+        "Description3": "Stages",
+        "Description4": "Phase 1 (Week 1–4 of the Season):",
+        "List5": "Greening Area: Greening is unlocked only after conquering a city.",
+        "List6": "Blocked Areas: Fortresses, trade posts, and the capital cannot be greened during this phase.",
+        "List7": "Start of Greening: Conquering a city transforms the surrounding contaminated land into green areas, which serve as the starting point for expansion.",
+        "Description5": "Phase 2 (Week 5–7 of the Season):",
+        "List8": "Greening Expansion: Commanders can green regions starting from level 1 and gradually expand to cities, fortresses, trade posts, and the Capitol.",
+        "List9": "Unlock Progress: Once 80% greening progress is achieved in the current level, the next level will be unlocked, which leads to greening the Capitol at level 7.",
+        "List10": "Cross-War Zone Greening: Commanders can now green war zones across all 8 war zones of the same season group freely.",
+        "Description6": "How it gets greener",
+        "Description7": "Greening is simple: Click on a valid tile on the map and send the reconnaissance plane to green it.",
+        "Description8": "The basic rule is that you can only green tiles adjacent to a tile that is already green: When a city is conquered, the land around the city turns green, allowing you to start the greening process in that area. Gradually, more zones will open based on the phases described in previous sections."
+      },
+      "Artefact": {
+        "Title": "Desert Artifacts",
+        "Description1": "Desert Artifacts are similar to the supply collections from Season 2."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - The Last Jedi",
+        "Description1": "On early servers, the new Doom Walker levels will debut in Season 3.",
+        "Description2": "For newer servers, here is the schedule:",
+        "List1": "After entering the off-season of Season 1, Doom Walker levels 200, 210, and 220 will be unlocked.",
+        "List2": "After entering the off-season of Season 2, Doom Walkers will unlock at levels 230, 240, and 250.",
+        "Description3": "Doom Walkers are quite important during the seasons, as they are rewarded with scarce resources like Mithril for their first blood (first kill of the day)."
+      },
+      "Lkw": {
+        "Title": "Truck",
+        "Description1": "Trucks are undergoing a makeover, but it is purely aesthetic."
+      }
+    },
+    "Weapons": {
+      "Title": "Hero Upgrades and Weapons",
+      "Description1": "Season 3 brings new updates for heroes and weapons; their availability varies over time.",
+      "Description2": "The biggest update: The Hero-Swap event allows you to swap a hero’s EXP level and stars.",
+      "Description3": "Hero Swap",
+      "Description4": "The Hero Swap is a new event happening in Week 2, which finally allows you to swap the EXP level and stars of two heroes.",
+      "Description5": "For Season 3, you will immediately receive 2 Swap Coupons to swap 2 heroes.",
+      "Description6": "Scarlett Upgrade to UR",
+      "Description7": "It will be possible to upgrade Scarlett to a UR Hero. This event takes place on the first day of Week 3.",
+      "Description8": "Mason and Violet Upgrade to UR",
+      "Description9": "If you have a UR Upgrade Element, you can upgrade Mason and/or Violet to a UR Hero during Season 3. Go to Mason or Violet, and you will find the 'Promote' button.",
+      "Description10": "S3: The Return of the Legend",
+      "Description11": "S3: Legend Returns starts on the first day of Season 3. Use Hero Return Tickets to get additional Mithril and Secret Water.",
+      "Description12": "S3: Weapons of Legends",
+      "Description13": "S3: Weapons of Legends starts on Day 3. The reset countdown for a free recruitment is 2 days and 5 hours."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Exclusive Weapons",
+      "Description1": "Season 3 also introduces some exclusive weapons: Marshall, Schuyler, and McGregor.",
+      "Description2": "Marshall's Exclusive Weapon",
+      "Description3": "With the Battle Pass for Marshall's exclusive weapons (starting on Day 4 of Week 1), you can earn Marshall’s exclusive weapon shards, which you can use to activate and upgrade the exclusive weapon. Otherwise, you can collect universal exclusive weapon shards, which you can only use for upgrades, not activation.",
+      "Description4": "Schuyler's Exclusive Weapon",
+      "Description5": "With the Battle Pass for Schuyler's exclusive weapons (starting on Day 4 of Week 3), you can earn Schuyler’s exclusive weapon shards, which you can use to activate and upgrade the exclusive weapon. Otherwise, you can collect universal exclusive weapon shards, which you can only use for upgrades, not activation.",
+      "Description6": "McGregor's Exclusive Weapon",
+      "Description7": "With the Battle Pass for McGregor's exclusive weapons (starting on Day 4 of Week 6), you can earn McGregor’s exclusive weapon shards, which you can use to activate and upgrade the exclusive weapon. Otherwise, you can collect universal exclusive weapon shards, which you can only use for upgrades, not activation."
+    },
+    "Professions": {
+      "Title": "Professions – Level Cap Increased to Level 100",
+      "Description1": "In Season 3, the level cap for professions will be increased to level 100, unlocking more new abilities and strategic decisions."
+    },
+    "Bazaar": {
+      "Title": "Desert Bazaar",
+      "Description1": "By killing sandworms, you can collect sandworm scale items (such as from drop chests when sandworms are killed or as objectives in the Sandworm Crisis event), which you can exchange for very important items in the Desert Bazaar.",
+      "Description2": "The Desert Bazaar resets weekly, and when new missions are unlocked, you can find additional items there each week. Below, I list all the items available weekly and provide a brief description of each special item."
+    }
   }
 }

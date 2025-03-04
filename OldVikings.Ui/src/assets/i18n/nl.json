@@ -1896,5 +1896,392 @@
       "Description2": "Extra API-functies worden gepland voor toekomstige updates."
     },
     "Button": "Open Spelerbeheer Nu"
+  },
+  "SeasonThree": {
+    "Title": "Seizoen 3 – Gouden Koninkrijk",
+    "Content": {
+      "Link1": "Nieuwe basismaterialen",
+      "Link2": "De wereld en de kaart",
+      "Link3": "Bezoekers",
+      "Link4": "Gouden Scarabee",
+      "Link5": "Radar missies",
+      "Link6": "Nieuwe gebouwen",
+      "Link7": "Alliantiecentrum",
+      "Link8": "Alliantiebronnen",
+      "Link9": "Steden",
+      "Link10": "Forten",
+      "Link11": "Handelsposten",
+      "Link12": "Spelverloop",
+      "Link13": "Heldverbeteringen en wapens",
+      "Link14": "Exclusieve wapens",
+      "Link15": "Beroepen",
+      "Link16": "Woestijn bazaar"
+    },
+    "Resources": {
+      "Title": "Nieuwe basismaterialen – Mithril en Heilig Water",
+      "Description1": "Er zijn nu extra materialen beschikbaar in het spel: Mithril en Heilig Water.",
+      "ScaredWater": {
+        "Title": "Heilig Water:",
+        "Description1": "Het wordt gebruikt voor het bouwen en verbeteren van seizoensgebouwen.",
+        "Description2": "Heilig Water kan op de volgende manieren verdiend worden:",
+        "List1": "Beloningen voor het eerst verslaan van zombies op een bepaald niveau",
+        "List2": "Door seizoensmissies te voltooien",
+        "List3": "Door de doelen van Seizoen 3 te voltooien.",
+        "List4": "Gebruik van het rekruteringskaartje 'Heldens terugkeer': Helden keren terug in Seizoen 3 – De Terugkeer van de Legende.",
+        "List5": "Beloning voor het eerst veroveren van een stad.",
+        "List6": "Alliantiecentrum: Een hut met Heilig Water."
+      },
+      "Mithril": {
+        "Title": "Mithril:",
+        "Description1": "Het wordt gebruikt voor het bouwen en upgraden van seizoensstructuren. Mithril kan worden verkregen door de volgende activiteiten:",
+        "List1": "Beloningen voor het eerst doden van zombies op een bepaald niveau.",
+        "List2": "Bezoekers voor de muur van je basis.",
+        "List3": "Door seizoensmissies te voltooien.",
+        "List4": "Door de doelen van Seizoen 3 te voltooien.",
+        "List5": "Eerste Blood-Kill met de Doom Walker (eerste DW-Kill van de dag).",
+        "List6": "Radar missies in de woestijnruïnes",
+        "List7": "Gebruik van het rekruteringskaartje 'Hero's Return': Helden keren terug in Seizoen 3 – Legende Keert Terug.",
+        "List8": "Wekenpas en Seizoen-Battle-Pass (de grootste boost).",
+        "List9": "Beloning voor het eerst veroveren van een stad/fort door te graven.",
+        "List10": "Graven in forten die aan de alliantie behoren levert Mithril op.",
+        "List11": "Alliantiecentrum: De Mithril-fabriek.",
+        "List12": "Woestijnschatten: De open kluizen."
+      }
+    },
+    "Map": {
+      "Title": "De Wereldkaart en haar regio's",
+      "Description1": "De wereld is opnieuw veranderd. De kaart bestaat uit drie verschillende soorten gebouwen: steden, opgravingsforten en handelsposten.",
+      "Image1": "Stad",
+      "Image2": "Opgravingsfort",
+      "Image3": "Handelspost",
+      "Description2": "Aan het begin van het seizoen stranden jij en je bondgenoten aan de rand van de server (maar nog steeds allemaal samen als een alliantie-hive) en hebben nog geen eigen stad. Steden moeten worden heroverd, maar er zijn nieuwe regels.",
+      "Description3": "Doom-Elite-monsters veranderen in Egyptische monsters, en de meeste zombies vereisen een hoge virusbestendigheid om gedood te worden.",
+      "NewMap": "De nieuwe kaart",
+      "NewMapDescription": "De kaart is 13 x 13 vakken groot (ook al zien ze eruit als rechthoeken op de kaart hieronder). Elk vak is 75 x 75 'pixels' groot (de grootte van je basis is 3 x 3)."
+    },
+    "Visitors": {
+      "Title": "Bezoekers",
+      "Description": "Van tijd tot tijd verschijnen twee nieuwe soorten bezoekers voor de muur (de linker na enkele uren, de rechter eenmaal per dag) en verdelen Mithril."
+    },
+    "GoldenScarab": {
+      "Title": "Gouden Scarabee",
+      "Description1": "Je zult gouden scarabeeën op de kaart vinden. Klik erop en val ze aan om beloningen te ontvangen.",
+      "Description2": "Je kunt scarabeeën vinden door:",
+      "List1": "Zombies in de wereld te doden",
+      "List2": "Het doden van de Doom-Elites.",
+      "List3": "Het gebruik van een valgrondmijn (ondergrondse wezens kunnen willekeurig verschijnen, niet alleen scarabeeën).",
+      "Image1": "De Gouden Scarabee is zichtbaar wanneer je uitzoomt op de kaart. Je zult zien hoe hij zich beweegt, en zodra je begint met het aanvallen, blijft hij stil."
+    },
+    "RadarMissions": {
+      "Title": "Radarmissies – Woestijnruïnes",
+      "Description1": "Met Seizoen 3 komt er een nieuw type radarmissie.",
+      "Description2": "Het bestaat uit twee delen:",
+      "List1": "Een gokspel waarbij verschillende beloningen te vinden zijn:",
+      "List1List1": "Je hebt de Woestijnruïnes gevonden.",
+      "List1List2": "Verzamel de beloningen of riskeer dieper de ruïnes in te gaan en alles te verliezen.",
+      "List2": "Als je in een val loopt, start er een minigame met muntenbeloningen.",
+      "List2List1": "Ren om munten te verzamelen en ontwijk zombies. Je hebt 30 seconden om uit de ruïnes te ontsnappen en zoveel mogelijk munten te verzamelen.",
+      "Description3": "Deze nieuwe radarmissies zijn echt geweldig, omdat ze je fantastische beloningen kunnen opleveren, waarvan de beste de seizoenverdienmedaille is (die je kunt gebruiken om spullen in de seizoenwinkel te kopen), als je geluk hebt om de laatste niveaus te bereiken en de juiste kist te kiezen."
+    },
+    "Building": {
+      "Title": "Nieuwe Gebouwen",
+      "Description1": "Gedurende het derde seizoen zijn er nieuwe soorten gebouwen beschikbaar.",
+      "CurseLab": {
+        "Title": "Vervloeking Onderzoeks Lab",
+        "Description": "In het Vervloeking Onderzoeks Lab kun je je weerstand tegen vervloekingen verbeteren, vergelijkbaar met de weerstand tegen virussen, om Elite-Zombies en beschermers van de opgravingsforten te verslaan. Om het te upgraden heb je Heilig Water nodig."
+      },
+      "BlessingFountain": {
+        "Title": "Zegen Fontein",
+        "Description1": "Zegen Fonteinen produceren Heilig Water; ze lijken op de Titan Legeringfabriek uit Seizoen 2.",
+        "Description2": "Er zijn meerdere Zegen Fonteinen beschikbaar. Om ze te ontgrendelen, moet je de vorige Zegen Fontein upgraden (ze heten Zegen Fontein I, II, III, IV, V). Om ze te upgraden heb je Mithril nodig. Lees daarom het artikel over de nieuwe middelen in Seizoen 3 om te leren hoe je deze kunt verkrijgen."
+      },
+      "Altar": {
+        "Title": "Altaar",
+        "Description1": "Dit gebouw kan alleen worden gebouwd als het Vervloeking Onderzoeks Lab niveau 30 heeft bereikt.",
+        "Description2": "Het verhoogt de waarden van de Woestijnbeschermers, vergelijkbaar met hoe militaire bases (tank/vliegtuig/raket) de heldenstatistieken in Seizoen 2 verhoogden.",
+        "Image": "Elke levelup van dit gebouw verhoogt de HP, aanval en verdediging van de beschermer met 0,5%."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "Alliantiecentrum",
+      "Description1": "Ga naar de knop 'Alliantie' -> 'Alliantiecentrum' -> klik op de coördinaten om het Alliantiecentrum op de kaart te vinden.",
+      "Description2": "Op de tweede dag van Seizoen 3 moet je Alliantie het Alliantiecentrum bouwen.",
+      "Description3": "Zodra het Alliantiecentrum is gebouwd, produceert het Specerijen/H en biedt het alle leden van de alliantie in zijn bereik buffs. Het voorkomt ook dat leden in het bereik van de alliantie worden teruggestoten door enorme zandwormen.",
+      "Description4": "BELANGRIJK: De waarden voor de specerijenproductie kunnen door de ontwikkelaars worden gewijzigd. Gebruik de afbeeldingen niet als referentie voor deze waarden. Informatie over het raadplegen van deze waarden vind je in de sectie 'Niveaus' hieronder.",
+      "RepairAllianceCenter": {
+        "Title": "Reparatie Alliantiecentrum:",
+        "List1": "Hoe meer troepen het Alliantiecentrum binnenkomen, hoe sneller het wordt opgebouwd.",
+        "Description1": "Je kunt het bereik van de door het Alliantiecentrum toegepaste buffs zien door uit te zoomen op de kaart."
+      },
+      "AdditionalFeatures": {
+        "Title": "Extra Functies:",
+        "Description1": "Zodra het Alliantiecentrum is gemaakt, kun je zien welke niveaus nieuwe functies ontgrendelen."
+      },
+      "MithrilPlant": {
+        "Title": "Mithril Plant",
+        "Description1": "Dit gebouw produceert 34.560 Mithril/h en wordt ontgrendeld wanneer het Alliantiecentrum niveau 5 heeft bereikt.",
+        "Description2": "Als het gebouw beschadigd is, wordt de productie gestopt. Bij vernietiging verliest de alliantie een overeenkomstig percentage specerijen.",
+        "Description3": "Ga naar de Alliantiecentrum-pagina en klik op het Mithril dat je bij de constructie van het Alliantiecentrum ziet, zoals in de afbeelding hier getoond, om het geproduceerde Mithril te verzamelen."
+      },
+      "ExploratoryWell": {
+        "Title": "Verkenningsput",
+        "Description1": "Dit gebouw produceert 600 olie/h en wordt ontgrendeld wanneer het Alliantiecentrum niveau 10 heeft bereikt.",
+        "Description2": "Als het gebouw beschadigd is, wordt de productie gestopt. Bij vernietiging verliest de alliantie een overeenkomstig percentage specerijen.",
+        "Description3": "Ga naar de Alliantiecentrum-pagina en klik op de olie die je bij de constructie van het Alliantiecentrum ziet, zoals hier in de afbeelding getoond, om de geproduceerde olie te verzamelen."
+      },
+      "SacredWaterHut": {
+        "Title": "Heilige Waterhut",
+        "Description1": "Dit gebouw produceert 8640 Heilig Water/h en wordt ontgrendeld wanneer het Alliantiecentrum niveau 15 heeft bereikt.",
+        "Description2": "Als het gebouw beschadigd is, wordt de productie gestopt. Bij vernietiging verliest de alliantie een overeenkomstig percentage specerijen.",
+        "Description3": "Ga naar de Alliantiecentrum-pagina en klik op het Heilige Water dat je bij de constructie van het Alliantiecentrum ziet, zoals in de afbeelding hier getoond, om het geproduceerde Heilige Water te verzamelen."
+      },
+      "Obelisk": {
+        "Title": "Obelisk",
+        "Description1": "Dit gebouw produceert 6 Beschermershoorns/h en wordt ontgrendeld wanneer het Alliantiecentrum niveau 20 heeft bereikt.",
+        "Description2": "Als het gebouw beschadigd is, wordt de productie gestopt. Bij vernietiging verliest de alliantie een overeenkomstig percentage specerijen.",
+        "Description3": "Ga naar de Alliantiecentrum-pagina en klik op de Beschermershoorn die je bij de constructie van het Alliantiecentrum ziet, zoals in de afbeelding hier getoond, om de gemaakte Beschermershoorn te verzamelen."
+      },
+      "Level": {
+        "Title": "Niveaus",
+        "Description1": "Het niveau van het Alliantiecentrum stijgt automatisch op basis van de verzamelde specerijen."
+      },
+      "Relocation": {
+        "Title": "Verplaatsing",
+        "Description1": "Het Alliantiecentrum kan worden verplaatst. Hiervoor moet je de verplaatsingslocatie bouwen, net zoals bij de bouw van het oorspronkelijke Alliantiecentrum. Dit is ook vergelijkbaar met de verplaatsing van de Alliantieoven in Seizoen 2.",
+        "Description2": "BELANGRIJK: Zodra je begint met het bouwen van de verplaatsingslocatie, kunnen vijanden deze aanvallen. Wees dus voorzichtig."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nieuwe Boerderijen – Alliantiebronnen",
+      "Description1": "Zoals getoond in seizoen 1 en 2, kan na de overwinning op de Doom-Elites tijdelijk willekeurig een nieuw type alliantiebronnenfarm/-veld verschijnen.",
+      "Description2": "In seizoen 3 kunnen deze boerderijen Heilig Water, Mithril en olievariëteiten bevatten. Tot 10 troepen kunnen verzamelen op elk verzamelveld.",
+      "Description3": "In seizoen 3 geeft het spel de kans niet aan waarmee alliantiebronnen-tegels verschijnen na het doden van monsters. In seizoen 2 was dit 5%.",
+      "Description4": "Hier is een voorbeeld van nieuwe brontegels:"
+    },
+    "Cities": {
+      "Title": "Steden",
+      "Description1": "De verovering van de stad volgt het evenementenplan van City Clash seizoen 3.",
+      "Description2": "De door de eigenaren zelf geproduceerde specerijen zijn cruciaal voor de overwinning in seizoen 3, en de hoeveelheid hangt af van het niveau van de stad.",
+      "Description3": "Specerijenproductie per stadniveau:",
+      "List1": "Niveau 1: 100/u Specerijen",
+      "List2": "Niveau 2: 200/u Specerijen",
+      "List3": "Niveau 3: 300/u Specerijen",
+      "List4": "Niveau 4: 400/u Specerijen",
+      "List5": "Niveau 5: 500/u Specerijen",
+      "List6": "Niveau 6: 600/u Specerijen",
+      "Description4": "Limieten voor stadsveroveringen",
+      "Description5": "Zoals we kunnen zien onder ‘Alliantie-knop -> Alliantie-Stad’:",
+      "List7": "Dagelijks oorlogverklaringslimiet voor steden: 2",
+      "List8": "Max. veroverde steden: 8",
+      "List9": "Dagelijkse opgravingen van vestingen: 2",
+      "List10": "Max. veroverde opgravingsvestingen: 8"
+    },
+    "Strongholds": {
+      "Title": "Opgravingsvestingen",
+      "Description1": "Opgravingsvestingen zijn locaties op de kaart waar Mithril gedolven kan worden. Ze lijken op de opgravingslocaties van seizoen 2.",
+      "Description2": "Ze worden bewaakt door mummiebewakers en Gouden Vernietigers. Hoe hoger het niveau van de opgravingsvesting, hoe sterker de bewaker.",
+      "Description3": "Met de nieuwste game-update wordt Mithril/h geproduceerd door het graven van vestingen op basis van hun niveau:",
+      "List1": "Niveau 1: 100/u Mithril",
+      "List2": "Niveau 2: 120/u Mithril",
+      "List3": "Niveau 3: 140/u Mithril",
+      "List4": "Niveau 4: 160/u Mithril",
+      "List5": "Niveau 5: 180/u Mithril",
+      "List6": "Niveau 6: 200/u Mithril",
+      "Description4": "Er zijn drie verschillende soorten Gouden Beesten die de opgravingsvestingen verdedigen. Klik op de 'i' om details te bekijken",
+      "List7": "De Gouden Verdediger is van het type Tank.",
+      "List8": "De Gouden Strijder is een vliegtuig van het type.",
+      "List9": "De Gouden Vernietiger is van het type Raket.",
+      "Description5": "Bij het graven van vestingen wordt Mithril gegenereerd, dat je kunt verzamelen via de knop ‘Alliantie’ -> ‘Alliantiesteden’ -> ‘Vestingen graven’ -> ‘Alles opeisen’."
+    },
+    "TradePosts": {
+      "Title": "Handelsposten",
+      "Description1": "Handelsposten bevinden zich op specifieke locaties op de kaart. Ze liggen diagonaal richting de hoofdstad en kunnen verschillende niveaus hebben tot niveau 5.",
+      "Description2": "Handelsposten zijn niet hetzelfde als vestingen of steden. Ze kunnen door individuen worden bezet en openen een markt waar iedereen spullen kan kopen. De eigenaar van de handelsposten kan belastingen verdienen.",
+      "Description3": "Het is niet nodig om aangrenzende gebieden te controleren en er is geen limiet aan het aantal handelsposten dat je kunt hebben. Handelsposten kunnen echter door anderen worden veroverd, dus je moet ze verdedigen. Daarom is het voor een speler meestal moeilijk om te veel handelsposten effectief te beheren.",
+      "Description4": "Regels voor het veroveren van handelsposten",
+      "List1": "Handelspostniveaus worden geleidelijk ontgrendeld (de startdatum van de competitie wordt op elke handelspost weergegeven):",
+      "List1List1": "Niveau 1: Zondag, Dag 7 van Week 2 om 12:00 uur servertijd (dit is de enige verovering waarbij andere servers niet kunnen komen om handelsposten op jouw server te veroveren)",
+      "List1List2": "Niveau 2: Maandag, Dag 1 van Week 3 om 12:00 uur servertijd",
+      "List1List3": "Niveau 3: Dinsdag, Dag 2 van Week 3 om 12:00 uur servertijd",
+      "List1List4": "Niveau 4: Donderdag, Dag 4 van Week 3 om 12:00 uur servertijd",
+      "List1List5": "Niveau 5: Vrijdag, Dag 5 van Week 3 om 12:00 uur servertijd",
+      "List2": "BELANGRIJK: Vanaf Dag 1 van Week 3 zijn teleportaties tussen de oorlogsgebieden van de seizoen-groep geopend en andere oorlogsgebieden kunnen komen en handelsposten in jouw oorlogsgebied veroveren.",
+      "List3": "Zodra de competitie voor het veroveren van de handelsposten begint, duurt deze 1 uur",
+      "List4": "In de handelsposten gestationeerde troepen verhogen de veroveringsvoortgang na verloop van tijd geleidelijk.",
+      "List5": "De voortgang wordt voor jou en je bondgenoten afzonderlijk gevolgd",
+      "List6": "Tijdens de competitie wint de eerste commandant die 100% voortgang bereikt de handelspost. Als er tot het einde van de competitie geen commandant 100% heeft bereikt, neemt de commandant met de hoogste voortgang de handelspost over, mits deze geen gouverneur heeft",
+      "List7": "Je basis moet zich in het verontreinigde gebied van de doelhandelspost bevinden om deze aan te vallen en te veroveren.",
+      "List8": "Als de handelspost al een gouverneur heeft, behoudt de huidige gouverneur de controle als er tot het einde van de competitie niemand 100% heeft bereikt.",
+      "List9": "Zodra een handelspost is veroverd, vindt de volgende competitie voor de herovering 7 dagen later plaats.",
+      "Description5": "Elke handelspost is een onafhankelijke winkel, en commandanten in dezelfde spelseizoen-groep kunnen artikelen kopen.",
+      "Description6": "Handelspostniveaus",
+      "Description7": "Zoals je op deze afbeeldingen kunt zien, zijn er meer artikelen beschikbaar naarmate het niveau van de handelspost hoger is.",
+      "Description8": "Alle andere parameters blijven gelijk, maar het voordeel voor de gouverneur door het verhogen van de beschermingslimiet neemt geleidelijk toe.",
+      "Description9": "Handelszaak",
+      "Description10": "Zodra de gouverneur de controle over een handelspost heeft, wordt de winkel geopend en kunnen artikelen worden gekocht. Klik op de handelspost en vervolgens op het hieronder weergegeven symbool om toegang te krijgen tot de winkel.",
+      "Description11": "De gouverneur kan eenmalig een handelskaravaan oproepen om de voorraad aan te vullen en aankopen mogelijk te maken.",
+      "Description12": "Helaas zijn niet alle in de winkel weergegeven artikelen beschikbaar voor elke commandant. Het principe ‘Wie het eerst komt, het eerst maalt’ geldt, omdat het totale aantal beschikbare artikelen beperkt is. Bovendien zijn sommige artikelen uitsluitend voor de gouverneur beschikbaar.",
+      "Description13": "Belasting",
+      "Description14": "Diamanten die in een handelspost worden uitgegeven, genereren belastinginkomsten. Wanneer alle artikelen zijn uitverkocht of de handelspost door de gouverneur wordt opgegeven, worden de verzamelde belastingen in de vorm van een Gouden Ei naar de gouverneur van de handelspost gestuurd, die vervolgens in de chat gedeeld kan worden."
+    },
+    "GamePlay": {
+      "Title": "Spelverloop",
+      "Description1": "In seizoen 3 zijn er veel nieuwe dingen die je in het spel kunt doen:",
+      "Link1": "Like de Cat-Basis-Skin om beloningen te ontvangen.",
+      "Link2": "Zandworm Crisis",
+      "Link3": "Wildernisbeschermer",
+      "Link4": "Bouw een oase",
+      "Link5": "Wildernisartefacten",
+      "Link6": "Doom Walker - De laatste Jedi",
+      "Link7": "Vrachtwagen",
+      "Description2": "Like de Cat-Basis-Skin om beloningen te ontvangen",
+      "Description3": "Vind Cat-basis-skins en geef een 'Like' om onmiddellijk een beloning te ontvangen. Er is een dagelijkse limiet voor het aantal 'Likes' dat je kunt geven.",
+      "SandWorm": {
+        "Title": "Zandworm Crisis",
+        "Description1": "Sinds het begin van seizoen 3 liggen zandwormen onder het zand en luisteren naar elk geluid van de commandanten.",
+        "Description2": "Het Zandworm Crisis-evenement begint op de eerste dag en duurt 14 dagen.",
+        "Image1": "Loot Drops: Er is een limiet van 30 loot-items die je dagelijks kunt verzamelen.",
+        "List1": "Gedurende het evenement verschijnen zandwormen. Jaag op deze om missies te voltooien en beloningen te verdienen.",
+        "List2": "Wanneer de troepen van alliantieleden in gevechten verwikkeld zijn, genereren ze schokgolven. Wanneer de voortgangsbalk vol is, zal de laatste commandant die deze activeert, een zandworm aantrekken die zijn basis aanvalt. Bases die door kleine zandwormen zijn omcirkeld, kunnen geen wachttijden uitzenden, maar ze kunnen ontsnappen met behulp van teleportatie-items. De kleine zandworm zal echter verdwijnen en beloningen gaan verloren. (Alleen actieve verzamelmarsen kunnen doorgaan.)",
+        "List3": "Nadat een zandworm is verslagen, ontvangt de aangevallen commandant een bonusontdekkingsbeloning per e-mail.",
+        "List4": "Later in het evenement zullen grote zandwormen verschijnen. Stützpunten buiten het alliantiecentrum worden weggeslingerd wanneer grote zandwormen worden aangetrokken.",
+        "List5": "Commandanten die de alliantie verlaten, verzamelen geen schokgolven meer.",
+        "List6": "Hoewel dit niet op deze pagina wordt gevolgd, verschijnen er ook gigantische zandwormen die door valmijnen worden gevangen.",
+        "Description3": "Kleine zandworm",
+        "Description4": "Wanneer commandanten vechten tegen monsters op de kaart, veroorzaken ze schokgolven die kleine zandwormen aantrekken. Zodra de voortgangsbalk vol is, zal de laatste commandant die deze activeert de zandworm aantrekken, die zijn basis verstrikt.",
+        "Description5": "De als beloning vermelde 'mogelijke loot' wordt in de vorm van kisten op de kaart achtergelaten in de buurt van de plek waar de zandworm is gedood.",
+        "Description6": "Grote zandworm",
+        "Description7": "Grote zandwormen kunnen met rally's worden aangevallen en zijn veel sterker dan kleine zandwormen.",
+        "Description8": "De ontdekkingsbeloning omvat zandwormschubben.",
+        "Description9": "Wanneer een grote zandworm direct onder je basis verschijnt, zal je basis naar een verre locatie op de kaart worden geslingerd.",
+        "Description10": "In dit geval verschijnt een pop-up melding die je waarschuwt voor dit evenement.",
+        "Description11": "Om te voorkomen dat je basis door zandwormen wordt weggeslingerd, moet je in de alliantiegebieden blijven, omdat het alliantiecentrum in deze gebieden buffs biedt die je beschermen tegen zandwormen.",
+        "Description12": "Beloningen",
+        "Description13": "De strijd tegen zandwormen levert dagelijks en op basis van doelen extra beloningen op.",
+        "Description14": "Vergelijk de grootte van de gigantische zandwormen met een stad. Wanneer zandwormen verschijnen, verlaten ze het gebied, zoals je direct rond de stad kunt zien. Als de zandworm niet wordt gedood, verdwijnt hij na 5 uur.",
+        "Description15": "Het alliantiecentrum voorkomt dat leden in alliantiegebieden door gigantische zandwormen worden weggeslingerd."
+      },
+      "Protector": {
+        "Title": "Wildernisbeschermer",
+        "Description1": "De Desert Protectors zijn een nieuw type soldaat met verbeterde vaardigheden, die beschikbaar zijn vanaf dag 1, week 1 van seizoen 3 wanneer het veldevenement 'Ancient Tech – Protector' wordt ontgrendeld.",
+        "Description2": "Het is bevestigd dat ze niet voor T11 staan, dus het is waarschijnlijk dat T11 in de toekomst beschikbaar zal zijn.",
+        "Description3": "Dit nieuwe type soldaat is een goede aanvulling op het spel, aangezien het niet uitsluitend afhankelijk is van hoeveel je uitgeeft of hoe goed je je soldaten traint. Desert Protectors worden namelijk niet getraind, maar uit de doden opgewekt. Ze zijn vervangbaar en verdwijnen zodra je ze hebt gebruikt.",
+        "Description4": "Beschermersveld",
+        "Description5": "Zodra het evenement 'Ancient Tech – Protector's Field' is ontgrendeld, kun je het Desert Protector's Field direct voor de muur van je basis bouwen.",
+        "Description6": "BELANGRIJK: Breng het Protector's Field in het begin van het seizoen alleen naar niveau 10 en niet verder, aangezien het vanaf niveau 11 Mithril en Heilig Water vereist, die belangrijk zijn voor andere seizoensgebouwen. Bovendien krijg je met niveau 10 al toegang tot de volledige functies van de Desert Protectors, dus het is niet noodzakelijk om het verder te upgraden in de eerste dagen.",
+        "Description7": "Dit seizoensgebonden veld kan, net als elk ander gebouw, worden geüpgraded en geeft je toegang tot het menu voor het beheren van de Desert Protectors.",
+        "Description8": "Wanneer je naar de kaartmodus schakelt (van basisweergave naar kaartweergave), kun je het Desert Protectors Field ook oproepen via het bijbehorende symbool direct boven de symbolen voor vrachtwagens/verborgen missies.",
+        "Description9": "Vaardigheden van de Desert Protectors",
+        "Description10": "Beschermers, gezegend door de woestijn, beschikken over superieure gevechtskracht. Ze zijn sterker dan eenheden van hetzelfde niveau.",
+        "Description11": "Elke held kan een aantal Protectors meenemen, dat 1/10 van het aantal eenheden bedraagt (zelfs met deze beperking zijn Protectors sterker dan soldaten op hetzelfde niveau).",
+        "Description12": "In tegenstelling tot reguliere eenheden keren Protectors die deelnemen aan gevechten niet terug, maar verdwijnen in de woestijn. Zet ze dus voorzichtig in.",
+        "Description13": "Als ze worden ingezet, maar niet vechten, keren alle Protectors terug.",
+        "Description14": "Afhankelijk van hoeveel Desert Protectors in het gebied van je Protector zijn gestationeerd, worden geleidelijk vaardigheden ontgrendeld.",
+        "Description15": "Aanpassingskracht (wordt ontgrendeld wanneer 500 of meer Protectors in het veld van de Protector zijn gestationeerd)",
+        "Description16": "Protectors hebben extra resistentie tegen vloeken (+250) en een verbeterde aanval, verbeterde verdediging en verhoogde HP (+25%). Dit maakt ze perfect geschikt om vijanden aan te vallen waarvoor je huidige resistentie tegen vloeken niet voldoende is.",
+        "Description17": "Doodschokgolf (wordt ontgrendeld wanneer 750 of meer Protectors in het veld van de Protector zijn gestationeerd)",
+        "Description18": "Blauwe Vlam Betovering (wordt ontgrendeld wanneer 1000 of meer Protectors in het veld van de Protector zijn gestationeerd).",
+        "Description19": "Wanneer een troep met Protectors een aanval wint op de basis van een andere commandant, wordt de 'Blue Flame' betovering geactiveerd, die de vijandelijke basis een uur lang in onuitwisbare blauwe vlammen hult.",
+        "Description20": "Protector-Rally (wordt ontgrendeld wanneer 1250 of meer Protectors in het veld van de Protector zijn gestationeerd).",
+        "Description21": "Maakt de Protector-Rally mogelijk!",
+        "Description22": "Rallybeperkingen: Bondgenoten die zich bij de rally aansluiten, moeten troepen met Protectors inzetten.",
+        "Description23": "Rally-timer: Protector-rally's hebben een voorbereidingstijd van 1 minuut.",
+        "Description24": "Leiderschap Buff: Alle troepen in de rally profiteren van de actieve Protector-buff van de leider.",
+        "Description25": "Desert Protector Conversie",
+        "Description26": "Eenvoudig gezegd, zo maak je Desert Protectors:",
+        "Description27": "10% van de verloren eenheden in de volgende gevallen gaan naar de conversiepool van de Protector en wachten daar op conversie:",
+        "Description28": "Gevechtsverlies tijdens het VS Duel",
+        "Description29": "Ernstig gewonde eenheden die geen plaats vinden in het ziekenhuis wanneer het vol is.",
+        "Description30": "Verlies door schendingen van het oefenterrein",
+        "Description31": "Het aantal verloren eenheden dat in de conversiepool kan wachten is onbeperkt.",
+        "Description32": "Bondgenoten sturen verkenningsvliegtuigen om je te helpen bij het converteren van eenheden",
+        "Description33": "Als je basis wordt doorbroken, worden de Desert Protectors in het Protector's Field niet beïnvloed.",
+        "Description34": "Desert Protectors - Attributen",
+        "Description35": "Hier is een vergelijking tussen de reguliere soldaten en de Desert Protector-versie voor enkele varianten.",
+        "Description36": "Niveau 10",
+        "Description37": "Niveau 9",
+        "Description38": "Niveau 7",
+        "Description39": "Verhoog de eigenschappen van de Protector met de Altaar",
+        "Description40": "De Altaar is een nieuw gebouw dat speciaal is ontworpen om de eigenschappen van de Desert Protector te verbeteren. Meer informatie vind je in de sectie 'Altaar'.",
+        "Description41": "Geconverteerde eenheden worden naar het Protector's Field gestuurd.",
+        "Image1": "Het symbool van de Desert Protector geeft je ook een preview van hoeveel soldaten van dit type direct beschikbaar zijn.",
+        "Image2": "Troepen die Protectors dragen, krijgen automatisch geactiveerde buffs: De Protectors ontvangen extra vloekresistentie en statusverbeteringen.",
+        "Image3": "Wanneer een troep met Protectors wordt verslagen in PvP-gevechten, wordt een deel van de vijandelijke eenheden geëlimineerd op basis van het niveau en het aantal van jouw gedode Protectors.",
+        "Image4": "Ontgrendel extra krachtige vloekeffecten door de specialisatievaardigheden te beheersen!",
+        "Image5": "Snelle mars: Ontvang een extra driedubbele marsnelheidsboost wanneer je deelneemt aan een Protector Rally of deze inzet."
+      },
+      "Oasis": {
+        "Title": "Bouw een Oase",
+        "Description1": "Dit evenement begint gelijktijdig met de opening van steden van niveau 1 op de derde dag van de eerste week en duurt tot het einde van het seizoen.",
+        "Description2": "Regels voor vergroening:",
+        "List1": "Vergroeningsbevel: Je kunt alleen zandvlakken vergroenen die grenzen aan bestaande vergroende gebieden.",
+        "List2": "Progressieve uitbreiding: Het beschikbare vergroeiingsgebied wordt groter naarmate het evenement vordert.",
+        "List3": "Vergroeningsvoortgang: Zodra 80% van een regio is vergroend, wordt deze als voltooid beschouwd en draagt bij aan de algehele voortgang van het oorlogsterrein.",
+        "List4": "Woestijnschatten: In vergroende gebieden is de kans groot om zeldzame schatten (woestijnartefacten) te vinden. Elke regio bevat een vast aantal schatten.",
+        "Description3": "Fasen",
+        "Description4": "Fase 1 (Week 1–4 van het seizoen):",
+        "List5": "Vergroeiingsgebied: Vergroening wordt pas vrijgegeven na de verovering van een stad.",
+        "List6": "Verboden gebieden: Vestingen, handelsposten en de hoofdstad kunnen in deze fase niet worden vergroend.",
+        "List7": "Startpunt van vergroening: Door een stad te veroveren, wordt het omliggende vervuilde land omgezet in vergroende gebieden die als uitgangspunt voor uitbreiding dienen.",
+        "Description5": "Fase 2 (Week 5–7 van het seizoen):",
+        "List8": "Vergroening uitbreiden: Commandanten kunnen nu regio's vanaf niveau 1 vergroenen en stapsgewijs uitbreiden naar steden, vestingen, handelsposten en het capitool.",
+        "List9": "Ontgrendelvoortgang: Wanneer 80% vergroening is bereikt in het huidige niveau, wordt het volgende niveau ontgrendeld, wat leidt tot de vergroening van het capitool naar niveau 7.",
+        "List10": "Oorlogsterrein-overstijgende vergroening: Commandanten kunnen nu oorlogsterreinen in alle 8 oorlogsterreinen van dezelfde seizoengroep vrij vergroenen.",
+        "Description6": "Zo wordt het groener",
+        "Description7": "Vergroenen is heel eenvoudig: Klik op de kaart op een geldige tegel en stuur het verkenningsvliegtuig om deze te vergroenen.",
+        "Description8": "De basisregel is dat je alleen tegels kunt vergroenen die grenzen aan een tegel die al groen is: wanneer een stad wordt veroverd, wordt het land rondom de stad groen, zodat je het vergroeningproces in dat gebied kunt starten. Geleidelijk worden meer gebieden geopend, op basis van de fasen die in de vorige secties zijn beschreven."
+      },
+      "Artefact": {
+        "Title": "Woestijnartefacten",
+        "Description1": "Woestijnartefacten lijken op de voorraadsammlingen van seizoen 2."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - De laatste Jedi",
+        "Description1": "Op vroege servers worden de nieuwe niveaus van Doom Walkers voor het eerst verschijnen in seizoen 3.",
+        "Description2": "Voor nieuwere servers is dit het schema:",
+        "List1": "Na de overgang naar het naseizoen van het eerste seizoen worden de Doom Walker-niveaus 200, 210 en 220 vrijgegeven",
+        "List2": "Na de overgang naar het naseizoen van seizoen 2 worden de Doom Walkers op niveau 230, 240 en 250 vrijgegeven.",
+        "Description3": "Doom Walkers zijn behoorlijk belangrijk tijdens de seizoenen, aangezien ze voor hun eerste bloed (eerste kill van de dag) met veel schaarse hulpbronnen zoals Mithril worden beloond."
+      },
+      "Lkw": {
+        "Title": "Vrachtwagen",
+        "Description1": "Vrachtwagens ondergaan een renovatie die puur esthetisch van aard is."
+      }
+    },
+    "Weapons": {
+      "Title": "Held-Upgrades en Wapens",
+      "Description1": "Seizoen 3 brengt nieuws over helden en wapens; hun beschikbaarheid varieert in de tijd.",
+      "Description2": "Het belangrijkste nieuws: het Hero-Swap-evenement stelt je in staat om het EXP-niveau en de sterren van een held te ruilen.",
+      "Description3": "Heldentausch",
+      "Description4": "Heldentausch is een nieuw evenement dat plaatsvindt in week 2 en je eindelijk de mogelijkheid geeft om het EXP-niveau en de sterren van twee helden te ruilen.",
+      "Description5": "In seizoen 3 ontvang je direct 2 ruilbonnen om 2 helden te ruilen.",
+      "Description6": "Scarlett-upgrade naar UR",
+      "Description7": "Het wordt mogelijk om Scarlett naar een UR-held te upgraden. Dit evenement vindt plaats op de eerste dag van de derde week.",
+      "Description8": "Mason en Violet stijgen naar UR",
+      "Description9": "Als je een UR-upgrade-element hebt, kun je Mason en/of Violet zelfs upgraden naar een UR-held tijdens seizoen 3. Ga naar Mason of Violet en daar vind je de knop 'Promoveren'.",
+      "Description10": "S3: De Terugkeer van de Legende",
+      "Description11": "S3: Legend Returns start op de eerste dag van seizoen 3. Gebruik onmiddellijk heldenretourtickets om extra Mithril en geheim water te verkrijgen.",
+      "Description12": "S3: Wapens van de Legenden",
+      "Description13": "S3: Weapons of Legends start op de 3e dag. De reset-timer voor een gratis rekrutering is 2 dagen en 5 uur."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Exclusieve Wapens",
+      "Description1": "Seizoen 3 brengt ook enkele exclusieve wapens: Marshall, Schuyler en McGregor.",
+      "Description2": "Marshalls exclusieve wapen",
+      "Description3": "Met de Battle Pass voor Marshalls exclusieve wapens (vanaf dag 4 van week 1) kun je Marshalls exclusieve wapenfragmenten verdienen, waarmee je het exclusieve wapen eenvoudig kunt activeren en verbeteren. Anders kun je universele exclusieve wapenfragmenten verzamelen, die je alleen voor verbeteringen kunt gebruiken, niet voor activering.",
+      "Description4": "Schuylers exclusieve wapen",
+      "Description5": "Met de Battle Pass voor Schuylers exclusieve wapens (vanaf dag 4 van week 3) kun je Schuylers exclusieve wapenfragmenten verdienen, waarmee je het exclusieve wapen eenvoudig kunt activeren en verbeteren. Anders kun je universele exclusieve wapenfragmenten verzamelen, die je alleen voor verbeteringen kunt gebruiken, niet voor activering.",
+      "Description6": "McGregors exclusieve wapen",
+      "Description7": "Met de Battle Pass voor McGregors exclusieve wapens (vanaf dag 4 van week 6) kun je McGregors exclusieve wapenfragmenten verdienen, waarmee je het exclusieve wapen eenvoudig kunt activeren en verbeteren. Anders kun je universele exclusieve wapenfragmenten verzamelen, die je alleen voor verbeteringen kunt gebruiken, niet voor activering."
+    },
+    "Professions": {
+      "Title": "Beroepen – Level-Cap naar Level 100 uitgebreid",
+      "Description1": "In seizoen 3 wordt de level-cap voor beroepen verhoogd naar level 100, wat de ontgrendeling van nieuwe vaardigheden en strategische keuzes belooft."
+    },
+    "Bazaar": {
+      "Title": "Westerse Bazaar",
+      "Description1": "Als je zandwormen doodt, kun je zandwormschubben-items verzamelen (bijvoorbeeld uit drop-kisten wanneer zandwormen worden gedood of als doelen in het zandwormcrisis-evenement), die je kunt inwisselen in de westerse bazaar voor zeer belangrijke items.",
+      "Description2": "De westerse bazaar wordt wekelijks gereset, en wanneer nieuwe missies worden ontgrendeld, kun je daar elke week extra items vinden. Hieronder toon ik alle wekelijks beschikbare items en geef ik een korte beschrijving van elk bijzonder item."
+    }
   }
 }

@@ -1900,5 +1900,392 @@
       "Description2": "Ytterligare API-funktioner är planerade för framtida uppdateringar."
     },
     "Button": "Öppna Spelarehantering Nu"
+  },
+  "SeasonThree": {
+    "Title": "Säsong 3 – Det gyllene kungariket",
+    "Content": {
+      "Link1": "Nya basresurser",
+      "Link2": "Världen och kartan",
+      "Link3": "Besökare",
+      "Link4": "Gyllene skarabe",
+      "Link5": "Radaruppdrag",
+      "Link6": "Nya byggnader",
+      "Link7": "Allianscentrum",
+      "Link8": "Alliansresurser",
+      "Link9": "Städer",
+      "Link10": "Fästningar",
+      "Link11": "Handelsstationer",
+      "Link12": "Spelgång",
+      "Link13": "Hjälteuppgraderingar och vapen",
+      "Link14": "Exklusiva vapen",
+      "Link15": "Yrken",
+      "Link16": "Ökenbasar"
+    },
+    "Resources": {
+      "Title": "Nya basresurser – Mithril och Heligt Vatten",
+      "Description1": "Nu finns ytterligare resurser i spelet: Mithril och heligt vatten.",
+      "ScaredWater": {
+        "Title": "Heligt Vatten:",
+        "Description1": "Det används för att bygga och uppgradera säsongsbyggnader.",
+        "Description2": "Heligt vatten kan tjänas genom följande:",
+        "List1": "Belöningar för att besegra zombies för första gången på en viss nivå",
+        "List2": "Genom att slutföra säsongsuppdragsmissioner",
+        "List3": "Genom att slutföra Säsong 3-mål.",
+        "List4": "Användning av rekryteringbiljetten 'Hero's Return': Hjältarna återvänder i Säsong 3 – Legendens återkomst.",
+        "List5": "Belöning för första erövring av en stad.",
+        "List6": "Allianscentrum: En stuga med heligt vatten."
+      },
+      "Mithril": {
+        "Title": "Mithril:",
+        "Description1": "Det används för att bygga och uppgradera säsongsstrukturer. Mithril kan erhållas genom följande aktiviteter:",
+        "List1": "Belöningar för att döda zombies för första gången på en viss nivå.",
+        "List2": "Besökare vid din basmur.",
+        "List3": "Genom att slutföra säsongsuppdragsmissioner.",
+        "List4": "Genom att slutföra Säsong 3-mål.",
+        "List5": "Första blodet-kill med Doom Walker (första DW-kill av dagen).",
+        "List6": "Radaruppdrag i ökenruinerna",
+        "List7": "Användning av rekryteringbiljetten 'Hero's Return': Hjältarna återvänder i Säsong 3 – Legendens återkomst.",
+        "List8": "Veckopass och Säsongens Battle Pass (den största boosten).",
+        "List9": "Belöning för första erövring av en stad/fästning genom grävning.",
+        "List10": "Grävning av fästningar som tillhör alliansen ger Mithril.",
+        "List11": "Allianscentrum: Mithrilverket.",
+        "List12": "Ökenfynd: De öppna kassaskåpen."
+      }
+    },
+    "Map": {
+      "Title": "Världskartan och dess regioner",
+      "Description1": "Världen har förändrats igen. Kartan består av tre olika typer av byggnader: städer, grävfästningar och handelsstationer.",
+      "Image1": "Stad",
+      "Image2": "Grävfästning",
+      "Image3": "Handelsstation",
+      "Description2": "I början av säsongen kraschar du och dina allierade vid serverns kant (men fortfarande alla tillsammans som en allians-hive) och har ännu inte en egen stad. Städer måste återerövras, men nya regler gäller.",
+      "Description3": "Doom-Elite-monster förvandlas till egyptiska monster och de flesta zombies kräver hög virusresistens för att dödas.",
+      "NewMap": "Den nya kartan",
+      "NewMapDescription": "Kartsidan är 13 x 13 rutor (även om de på kartan nedan ser ut som rektanglar). Varje ruta är 75 x 75 'pixlar' stor (din basstorlek är 3 x 3)."
+    },
+    "Visitors": {
+      "Title": "Besökare",
+      "Description": "Från och med då och då dyker två nya typer av besökare upp vid muren (den vänstra efter några timmar, den högra en gång per dag) och delar ut Mithril."
+    },
+    "GoldenScarab": {
+      "Title": "Gyllene Skarabäus",
+      "Description1": "Du kommer att hitta gyllene skarabéer på kartan. Klicka på dem och angrip dem för att få belöningar.",
+      "Description2": "Skarabéer kan hittas:",
+      "List1": "Döda världszombies",
+      "List2": "Döda Doom-Elites.",
+      "List3": "Använda en fällandemina (underjordiska varelser kan dyka upp slumpmässigt, inte bara skarabéer).",
+      "Image1": "Den gyllene skarabén är synlig när du zoomar ut från kartan. Du kommer att se hur den rör sig och när du börjar angripa den, stannar den stilla."
+    },
+    "RadarMissions": {
+      "Title": "Radaruppdrag – Ökenruiner",
+      "Description1": "Med Säsong 3 kommer en ny typ av radaruppdrag.",
+      "Description2": "Det består av två delar:",
+      "List1": "Ett hasardspel där olika belöningar kan hittas:",
+      "List1List1": "Du har hittat ökenruinerna.",
+      "List1List2": "Samla belöningarna eller riskera att gå djupare in i ruinerna och förlora allt.",
+      "List2": "Träffar du en fälla startar ett minispel med myntbelöning.",
+      "List2List1": "Spring för att samla mynt och undvik zombies. Du har 30 sekunder på dig att fly från ruinerna och samla så många mynt som möjligt.",
+      "Description3": "Dessa nya radaruppdrag är verkligen fantastiska eftersom de kan ge dig stora belöningar, där den bästa är säsongens förtjänstmedalj (som du kan använda för att köpa saker i säsongsbutiken), om du har turen att nå de sista nivåerna och också välja rätt kista."
+    },
+    "Building": {
+      "Title": "Nya byggnader",
+      "Description1": "Under den tredje säsongen finns nya byggnadstyper tillgängliga.",
+      "CurseLab": {
+        "Title": "Förbannelselaboratorium",
+        "Description": "I förbannelselaboratoriet kan du förbättra din resistens mot förbannelser, på samma sätt som resistens mot virus, för att besegra elite-zombies och skyddare av grävfästningar. För att uppgradera det behöver du heligt vatten."
+      },
+      "BlessingFountain": {
+        "Title": "Välsignelsefontän",
+        "Description1": "Välsignelsefontäner producerar heligt vatten; de liknar titanlegeringsfabriken från Säsong 2.",
+        "Description2": "Flera välsignelsefontäner finns tillgängliga. För att låsa upp dem måste du uppgradera den föregående välsignelsefontänen (de heter Välsignelsefontän I, II, III, IV, V). För att uppgradera dem behöver du Mithril. Läs därför artikeln om de nya resurserna i Säsong 3 för att ta reda på hur du får dem."
+      },
+      "Altar": {
+        "Title": "Altare",
+        "Description1": "Denna byggnad kan endast byggas när Förbannelselaboratoriet har nått nivå 30.",
+        "Description2": "Det kommer att öka värdena för ökenbeskyddare, på samma sätt som militärbaser (tank/luft/raket) ökade hjälteattributen i Säsong 2.",
+        "Image": "Varje nivåuppgradering av denna byggnad ökar skyddarnas HP, attack och försvar med 0,5 %."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "Allianscentrum",
+      "Description1": "Gå till knappen 'Allians' -> 'Allianscentrum' -> klicka på koordinaterna för att hitta Allianscentrum på kartan.",
+      "Description2": "På den andra dagen av Säsong 3 måste din allians bygga Allianscentrum.",
+      "Description3": "När Allianscentrum är byggt producerar det kryddor/H och ger alla alliansmedlemmar buffs inom dess räckvidd. Det förhindrar också att medlemmar inom alliansens räckvidd trycks tillbaka av gigantiska sandmaskar.",
+      "Description4": "VIKTIGT: Värdena för kryddproduktion kan ändras av utvecklarna. Använd inte bilderna som referens för dessa värden. Information om hur du får tillgång till dessa värden finns i avsnittet 'Nivåer' nedan.",
+      "RepairAllianceCenter": {
+        "Title": "Reparera Allianscentrum:",
+        "List1": "Ju fler trupper som går in i Allianscentrum, desto snabbare byggs det upp.",
+        "Description1": "Du kan se räckvidden för de buffs som Allianscentrum tillämpar genom att zooma ut på kartan."
+      },
+      "AdditionalFeatures": {
+        "Title": "Ytterligare funktioner:",
+        "Description1": "När Allianscentrum har skapats kan du se vilka nivåer som låser upp nya funktioner."
+      },
+      "MithrilPlant": {
+        "Title": "Mithrilfabrik",
+        "Description1": "Denna byggnad producerar 34 560 Mithril/h och låses upp när Allianscentrum når nivå 5.",
+        "Description2": "Om byggnaden skadas stoppas produktionen. Vid förstörelse förlorar alliansen en motsvarande procentandel av kryddorna.",
+        "Description3": "Gå till sidan för Allianscentrum och klicka på Mithril som du ser vid konstruktionen av Allianscentrum, som på bilden här, för att samla det producerade Mithril."
+      },
+      "ExploratoryWell": {
+        "Title": "Utforskningsbrunn",
+        "Description1": "Denna byggnad producerar 600 olja/h och låses upp när Allianscentrum når nivå 10.",
+        "Description2": "Om byggnaden skadas stoppas produktionen. Vid förstörelse förlorar alliansen en motsvarande procentandel av kryddorna.",
+        "Description3": "Gå till sidan för Allianscentrum och klicka på oljan som du ser vid konstruktionen av Allianscentrum, som på bilden här, för att hämta den producerade oljan."
+      },
+      "SacredWaterHut": {
+        "Title": "Helig Vattenhydda",
+        "Description1": "Denna byggnad producerar 8640 heligt vatten/h och låses upp när Allianscentrum når nivå 15.",
+        "Description2": "Om byggnaden skadas stoppas produktionen. Vid förstörelse förlorar alliansen en motsvarande procentandel av kryddorna.",
+        "Description3": "Gå till sidan för Allianscentrum och klicka på det heliga vattnet som du ser vid konstruktionen av Allianscentrum, som på bilden här, för att samla det producerade heliga vattnet."
+      },
+      "Obelisk": {
+        "Title": "Obelisk",
+        "Description1": "Denna byggnad producerar 6 skyddshorn/h och låses upp när Allianscentrum når nivå 20.",
+        "Description2": "Om byggnaden skadas stoppas produktionen. Vid förstörelse förlorar alliansen en motsvarande procentandel av kryddorna.",
+        "Description3": "Gå till sidan för Allianscentrum och klicka på skyddshornet som du ser vid konstruktionen av Allianscentrum, som på bilden här, för att hämta det producerade skyddshornet."
+      },
+      "Level": {
+        "Title": "Nivåer",
+        "Description1": "Nivån på Allianscentrum stiger automatiskt baserat på ackumulerade kryddor."
+      },
+      "Relocation": {
+        "Title": "Flyttning",
+        "Description1": "Allianscentrum kan flyttas. För att göra detta måste du bygga en flyttningsplats, precis som när du byggde det ursprungliga Allianscentrum. Detta liknar också flyttningen av Alliansugnen i Säsong 2.",
+        "Description2": "VIKTIGT: När du börjar bygga flyttningsplatsen kan fiender attackera den. Var försiktig."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nya gårdar – Alliansresurser",
+      "Description1": "Som visades i Säsong 1 och 2 kan en ny typ av alliansresursgård/fält temporärt dyka upp efter att ha besegrat Doom-Elites.",
+      "Description2": "I Säsong 3 kan dessa gårdar innehålla heligt vatten, Mithril och oljetyper. Upp till 10 trupper kan samla från varje resursfält.",
+      "Description3": "I Säsong 3 anges inte sannolikheten för att alliansresursplattor dyker upp efter att ha dödat monster. I Säsong 2 var denna sannolikhet 5%.",
+      "Description4": "Här är ett exempel på nya resursplattor:"
+    },
+    "Cities": {
+      "Title": "Städer",
+      "Description1": "Erovringen av staden följer evenemangsplanen för City Clash säsong 3.",
+      "Description2": "De kryddor som produceras av ägarna själva är avgörande för att vinna säsong 3, och mängden beror på stadens nivå.",
+      "Description3": "Produktion av stadskryddor per nivå:",
+      "List1": "Nivå 1: 100/h kryddor",
+      "List2": "Nivå 2: 200/h kryddor",
+      "List3": "Nivå 3: 300/h kryddor",
+      "List4": "Nivå 4: 400/h kryddor",
+      "List5": "Nivå 5: 500/h kryddor",
+      "List6": "Nivå 6: 600/h kryddor",
+      "Description4": "Gränser för stadsövertagande",
+      "Description5": "Som vi kan se under 'Allians-knappen -> Alliansstad':",
+      "List7": "Dagligt krigsförklaringsgräns för städer: 2",
+      "List8": "Max. erövrade städer: 8",
+      "List9": "Dagliga gruvforterövringar: 2",
+      "List10": "Max. erövrade gruvforter: 8"
+    },
+    "Strongholds": {
+      "Title": "Gruvforter",
+      "Description1": "Gruvforter är platser på kartan där Mithril kan grävas. De liknar gruvställena från säsong två.",
+      "Description2": "De beskyddas av Mumievaktare och Gyldene Förgörare. Ju högre nivå på gruvfortet, desto starkare beskyddare.",
+      "Description3": "Med den senaste uppdateringen produceras Mithril/h genom grävning i fort baserat på deras nivå:",
+      "List1": "Nivå 1: 100/h Mithril",
+      "List2": "Nivå 2: 120/h Mithril",
+      "List3": "Nivå 3: 140/h Mithril",
+      "List4": "Nivå 4: 160/h Mithril",
+      "List5": "Nivå 5: 180/h Mithril",
+      "List6": "Nivå 6: 200/h Mithril",
+      "Description4": "Det finns tre olika typer av Gyldena Bestiar som försvarar gruvforten. Klicka på 'i' för att visa detaljer",
+      "List7": "Den Gyldene Försvararen är en tank-typ.",
+      "List8": "Den Gyldene Stridaren är en flygplans-typ.",
+      "List9": "Den Gyldene Förgöraren är en raket-typ.",
+      "Description5": "Vid grävning av fort produceras Mithril som du kan samla genom att gå till 'Allians' -> 'Alliansstäder' -> 'Gräv fort' -> 'Ta allt'."
+    },
+    "TradePosts": {
+      "Title": "Handelsposter",
+      "Description1": "Handelsposter finns på specifika platser på kartan. De är diagonalt riktade mot huvudstaden och kan ha olika nivåer upp till nivå 5.",
+      "Description2": "Handelsposter är inte samma sak som fort eller städer. De kan erövras av individer och öppnar en marknad där alla kan köpa saker. Ägaren av handelsposten kan tjäna skatter.",
+      "Description3": "Det finns inget behov av att kontrollera angränsande områden, och det finns ingen begränsning för antalet handelsposter du kan ha. Handelsposter kan dock erövras av andra, så du måste försvara dem. Därför är det för en spelare vanligtvis svårt att effektivt hantera för många handelsposter.",
+      "Description4": "Regler för erövring av handelsposter",
+      "List1": "Handelspost-nivåer låses gradvis upp (startdatumet för tävlingen visas på varje handelspost):",
+      "List1List1": "Nivå 1: Söndag, Dag 7 i vecka 2, klockan 12:00 servertid (detta är den enda erövringen där andra servrar inte kan komma och erövra handelsposter på din server)",
+      "List1List2": "Nivå 2: Måndag, Dag 1 i vecka 3 klockan 12:00 servertid",
+      "List1List3": "Nivå 3: Tisdag, Dag 2 i vecka 3 klockan 12:00 servertid",
+      "List1List4": "Nivå 4: Torsdag, Dag 4 i vecka 3 klockan 12:00 servertid",
+      "List1List5": "Nivå 5: Fredag, Dag 5 i vecka 3 klockan 12:00 servertid",
+      "List2": "VIKTIGT: Från och med Dag 1 i vecka 3 öppnas teleportering mellan krigsområden i säsongsgrupperingen och andra krigsområden kan komma och erövra handelsposter i ditt krigsområde.",
+      "List3": "Så snart tävlingen för erövring av handelsposten börjar, pågår den i 1 timme",
+      "List4": "Trupper stationerade vid handelsposten ökar erövringsframstegen med tiden gradvis.",
+      "List5": "Framstegen spåras separat för dig och dina allierade",
+      "List6": "Under tävlingen vinner den första kommandanten som uppnår 100 % framsteg handelsposten. Om ingen kommandant uppnår 100 % vid tävlingens slut, tar den kommandant med högst framsteg handelsposten, förutsatt att den inte har en guvernör",
+      "List7": "Din bas måste befinna sig i det kontaminerade området för målhp för att du ska kunna attackera och erövra den.",
+      "List8": "Om handelsposten redan har en guvernör, behåller den nuvarande guvernören kontrollen om ingen uppnår 100 % vid tävlingens slut.",
+      "List9": "Så snart en handelspost erövras, kommer nästa tävling för att erövra den att äga rum 7 dagar senare.",
+      "Description5": "Varje handelspost är en oberoende butik och kommandanter i samma säsongsgrupp kan köpa artiklar från den.",
+      "Description6": "Handelspost-nivåer",
+      "Description7": "Som du kan se på dessa bilder, är desto fler artiklar tillgängliga ju högre nivå handelsposten har.",
+      "Description8": "Alla andra parametrar förblir lika, men guvernörens fördelar genom att öka skyddarnas gräns ökar gradvis.",
+      "Description9": "Handelsaffär",
+      "Description10": "Så snart guvernören har kontroll över en handelspost öppnas handelsbutiken och varor kan köpas. Klicka på handelsposten och sedan på symbolen nedan för att komma åt butiken.",
+      "Description11": "Guvernören kan en gång kalla på en handelskaravan för att fylla på lagret och möjliggöra köp.",
+      "Description12": "Tyvärr är inte alla artiklar som visas i butiken tillgängliga för alla kommandanter. Principen 'Först till kvarn' gäller, eftersom det totala antalet tillgängliga artiklar är begränsat. Dessutom är vissa artiklar exklusiva för guvernören.",
+      "Description13": "Skatt",
+      "Description14": "Diamanter som spenderas i en handelspost genererar skatteintäkter. Om alla artiklar säljs slut eller om handelsposten överges av guvernören, skickas de insamlade skatterna till guvernören i form av ett Gyldene Ägg, som sedan kan delas i chatten."
+    },
+    "GamePlay": {
+      "Title": "Spelupplevelse",
+      "Description1": "I säsong 3 finns det många nya saker att göra i spelet:",
+      "Link1": "Gilla Cat Base-skin för att få belöningar.",
+      "Link2": "Sandmaskkris",
+      "Link3": "Ökenbeskyddare",
+      "Link4": "Bygg en oas",
+      "Link5": "Ökenartefakter",
+      "Link6": "Doom Walker - De sista Jedi",
+      "Link7": "Lastbil",
+      "Description2": "Gilla Cat Base-skin för att få belöningar",
+      "Description3": "Hitta bas-skin för katter och ge dem ett 'gilla' för att omedelbart få en belöning. Det finns en daglig gräns för hur många 'gilla' du kan ge.",
+      "SandWorm": {
+        "Title": "Sandmaskkris",
+        "Description1": "Sedan säsong 3 startade har sandmaskar legat under sanden och lyssnat på varje kommando från befälhavarna.",
+        "Description2": "Sandmaskkris-evenemanget börjar den första dagen och varar i 14 dagar.",
+        "Image1": "Byten: Det finns ett gräns på 30 byten du kan samla in varje dag.",
+        "List1": "Under evenemanget dyker sandmaskar upp. Jaga dessa för att slutföra uppdrag och tjäna belöningar.",
+        "List2": "När trupper från alliansmedlemmar är involverade i strider, skapar de chockvågor. När framstegsbalken är full, kommer den sista befälhavaren som utlöser den att locka en sandmask som angriper deras bas. Basen som omringas av små sandmaskar kan inte skicka ut köer, men de kan fly med hjälp av teleportföremål. Den lilla sandmasken försvinner dock och belöningar går förlorade. (Endast pågående samlingsmarscher kan fortsätta.)",
+        "List3": "När en sandmask besegras, får den befälhavare som blev angripen av den en extra upptäcktsbelöning via e-post.",
+        "List4": "Under evenemangets gång kommer stora sandmaskar att dyka upp. Stödpunkter utanför alliansens centrum kommer att slungas bort när stora sandmaskar lockas.",
+        "List5": "Befälhavare som lämnar alliansen samlar inte längre chockvågsvärde.",
+        "List6": "Även om detta inte spåras på denna sida, kommer också gigantiska sandmaskar som fångas av landminor att dyka upp.",
+        "Description3": "Liten sandmask",
+        "Description4": "När befälhavare kämpar mot monster på kartan, skapas chockvågor som lockar små sandmaskar. När framstegsbalken är full, kommer den sista befälhavaren som utlöser den att locka sandmasken som sedan kommer att gripa tag i den.",
+        "Description5": "Den möjliga bytet som listas som belöning lämnas som kistor på kartan nära platsen där sandmasken dödades.",
+        "Description6": "Stor sandmask",
+        "Description7": "Stora sandmaskar kan attackeras med rallyer och är mycket starkare än små sandmaskar.",
+        "Description8": "Upptäcktsbelöningen inkluderar sandmaskskinn.",
+        "Description9": "Om en stor sandmask dyker upp direkt under din bas, kommer din bas att slungas till en avlägsen plats på kartan.",
+        "Description10": "I så fall kommer ett popup-meddelande att visas som varnar för detta händelse.",
+        "Description11": "För att förhindra att din bas slungas bort av sandmaskar bör du hålla dig inom alliansområden, eftersom allianscentret i dessa områden tillhandahåller buffar som skyddar dig från sandmaskar.",
+        "Description12": "Belöningar",
+        "Description13": "Kampen mot sandmaskar ger dagliga och målrelaterade extra belöningar.",
+        "Description14": "Jämför storleken på de gigantiska sandmaskarna med en stad. När sandmaskarna dyker upp lämnar de området, vilket du kan se direkt runt staden. Om sandmasken inte dödas, försvinner den efter 5 timmar.",
+        "Description15": "Allianscentret förhindrar att medlemmar i alliansområden slungas bort av gigantiska sandmaskar."
+      },
+      "Protector": {
+        "Title": "Ökenbeskyddare",
+        "Description1": "Ökenbeskyddare är en ny soldattype med förbättrade förmågor som blir tillgängliga i säsong 3 från och med dag 1, vecka 1, när fälthändelsen 'Ancient Tech - Protector' låses upp.",
+        "Description2": "Det har bekräftats att de inte representerar T11, så det antas att T11 kommer att bli tillgängligt i framtiden.",
+        "Description3": "Den här nya soldattypen är ett bra tillskott till spelet eftersom den inte är beroende enbart av hur mycket man spenderar eller hur bra man tränar sina soldater. Eftersom ökenbeskyddare inte tränas utan återuppväcks från de döda. De är dispensabla och försvinner så fort de har använts.",
+        "Description4": "Beskyddarfält",
+        "Description5": "När evenemanget 'Ancient Tech - Protector’s Field' låses upp, kan du bygga ett Desert Protector’s Field direkt framför din basmur.",
+        "Description6": "VIKTIGT: Uppgradera Protector's Field till nivå 10 i början av säsongen och inte längre, eftersom det från nivå 11 kräver Mithril och Heligt vatten, som är viktiga för andra säsongsbyggnader. Dessutom får du redan full tillgång till Desert Protector-funktionerna vid nivå 10, så det är inte nödvändigt att uppgradera det de första dagarna.",
+        "Description7": "Detta säsongsfält kan uppgraderas som vilken annan byggnad som helst och ger tillgång till menyn för att hantera Desert Protectors.",
+        "Description8": "När du byter till kartläge (från basvyn till kartvyn) kan du också komma åt Desert Protectors-fältet via den motsvarande symbolen direkt ovanför ikonerna för lastbil/hemliga uppdrag.",
+        "Description9": "Färdigheter för Ökenbeskyddare",
+        "Description10": "Beskyddare välsignade av öknen har överlägsen kampkraft. De är starkare än enheter på samma nivå.",
+        "Description11": "Varje hjälte kan föra med sig beskyddare i en mängd som motsvarar 1/10 av antalet enheter (även med denna begränsning är beskyddarna starkare än soldater på samma nivå).",
+        "Description12": "Till skillnad från vanliga enheter återvänder inte beskyddare som deltar i strider utan försvinner i öknen. Använd dem därför klokt.",
+        "Description13": "Om de används men inte kämpar, återvänder alla beskyddare.",
+        "Description14": "Beroende på hur många ökenbeskyddare som är stationerade i din beskyddares område, kommer färdigheter att låsas upp gradvis.",
+        "Description15": "Anpassningskraft (låses upp när 500 eller fler beskyddare är stationerade i beskyddarfältet)",
+        "Description16": "Beskyddare har extra resistens mot förbannelser (+250) samt förbättrad attack, förbättrad försvar och ökad HP (+25 %). Detta gör dem perfekta för att slåss mot fiender där din nuvarande resistens mot förbannelser inte räcker.",
+        "Description17": "Dödsschockvåg (låses upp när 750 eller fler beskyddare är stationerade i beskyddarfältet)",
+        "Description18": "Blå Eldmagi (låses upp när 1000 eller fler beskyddare är stationerade i beskyddarfältet).",
+        "Description19": "När en enhet med beskyddare vinner en attack mot en annan befälhavares bas, utlöser den blå eldmagin, vilket häller den fiendens bas i odödlig blå eld i en timme.",
+        "Description20": "Protektor-Rally (låses upp när 1250 eller fler beskyddare är stationerade i beskyddarfältet).",
+        "Description21": "Möjliggör Protector-Rally!",
+        "Description22": "Rallybegränsning: Allierade som går med i rallyt måste använda trupper med beskyddare.",
+        "Description23": "Rally-Countdown: Protector-Rallys har en förberedelsetid på 1 minut.",
+        "Description24": "Ledarbuff: Alla trupper i rallyt drar nytta av ledarens aktiva förbättringar för beskyddare.",
+        "Description25": "Ökenbeskyddare-Konvertering",
+        "Description26": "Enkelt uttryckt skapar du ökenbeskyddare på detta sätt:",
+        "Description27": "10 % av de enheter som förloras i följande fall går till beskyddarfältets konverteringspool och väntar på konvertering:",
+        "Description28": "Slagskapsförluster under VS-duellen",
+        "Description29": "Svårt skadade enheter som inte får plats i sjukhuset när det är fullt.",
+        "Description30": "Förluster från övning i träningsfältet",
+        "Description31": "Antalet förlorade enheter som kan vänta i konverteringspoolen är obegränsat.",
+        "Description32": "Allierade skickar spaningsflygplan för att hjälpa till att konvertera varje enhet.",
+        "Description33": "Om din bas bryts, påverkas inte ökenbeskyddarna i Protectors' Field.",
+        "Description34": "Ökenbeskyddare - Attribut",
+        "Description35": "Här är en jämförelse mellan vanliga soldater och motsvarande Desert Protector-version för vissa varianter.",
+        "Description36": "Nivå 10",
+        "Description37": "Nivå 9",
+        "Description38": "Nivå 7",
+        "Description39": "Öka beskyddarnas egenskaper med Altaret",
+        "Description40": "Altaret är en ny byggnad som är specifikt designad för att förbättra Desert Protector-egenskaper.",
+        "Description41": "Konverterade enheter skickas till Protector's Field.",
+        "Image1": "Symbolen för ökenbeskyddare ger dig även en förhandsvisning av hur många soldater av denna typ som är direkt tillgängliga.",
+        "Image2": "Trupper som bär beskyddare får automatiskt aktiverade buffar: Beskyddarna får extra förbannelsesmotstånd och statusförbättringar.",
+        "Image3": "Om en trupp med beskyddare besegras i PvP-strider, elimineras en del av de fiendens enheter baserat på nivån och antalet dödade beskyddare.",
+        "Image4": "Lås upp ytterligare kraftfulla förbannelseseffekter genom att bemästra specialiseringsförmågorna!",
+        "Image5": "Snabbare marsch: Få en extra trefaldig ökning av marschhastigheten när du deltar i eller använder en Protector Rally."
+      },
+      "Oasis": {
+        "Title": "Bygg en oas",
+        "Description1": "Detta evenemang börjar samtidigt som städer på nivå 1 öppnas den tredje dagen av första veckan och pågår fram till säsongens slut.",
+        "Description2": "Regler för att grönska:",
+        "List1": "Grönskningskommando: Du kan bara grönska sandytor som gränsar till redan gröna områden.",
+        "List2": "Progressiv expansion: Det tillgängliga grönskningsområdet ökar under evenemangets gång.",
+        "List3": "Grönskningsframsteg: När 80 % av ett område har blivit grönt anses det vara klart och bidrar till det totala krigsområdesframsteget.",
+        "List4": "Ökenfynd: I gröna områden finns en chans att hitta sällsynta skatter (ökenartefakter). Varje region innehåller ett fast antal skatter.",
+        "Description3": "Faser",
+        "Description4": "Fas 1 (Vecka 1–4 av säsongen):",
+        "List5": "Grönskningsområde: Grönskningen aktiveras först efter erövring av en stad.",
+        "List6": "Stängda områden: Fästningar, handelsstationer och huvudstaden kan inte grönskas i denna fas.",
+        "List7": "Startpunkt för grönskning: Genom att erövra en stad omvandlas det omgivande kontaminerade landet till gröna områden, som blir startpunkten för expansionen.",
+        "Description5": "Fas 2 (Vecka 5–7 av säsongen):",
+        "List8": "Utvidgning av grönskning: Kommandanter kan nu grönska områden från nivå 1 och gradvis utvidga till städer, fästningar, handelsstationer och huvudstaden.",
+        "List9": "Frigörande framsteg: När 80 % av grönskningen i nuvarande nivå är klart, låses nästa nivå upp, vilket leder till att huvudstaden kan grönskas på nivå 7.",
+        "List10": "Krigsområdesövergripande grönskning: Kommandanter kan nu grönska krigsområden i alla 8 krigsområden inom samma säsongsgrupp.",
+        "Description6": "Så gör du det grönare",
+        "Description7": "Grönskning är väldigt enkel: Klicka på en giltig ruta på kartan och skicka ut spaningsflygplanet för att grönska den.",
+        "Description8": "Grundregeln är att du bara kan grönska rutor som gränsar till en ruta som redan är grön: När en stad erövras, blir området runt staden grönt, vilket gör att du kan starta grönskningsprocessen i det området. Gradvis öppnas fler zoner baserat på de faser som beskrivs tidigare."
+      },
+      "Artefact": {
+        "Title": "Ökenartefakter",
+        "Description1": "Ökenartefakter liknar de förrådssamlingar som fanns i andra säsongen."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - De sista Jedi",
+        "Description1": "På tidiga servrar kommer de nya nivåerna av Doom Walkers att introduceras för första gången i säsong 3.",
+        "Description2": "För nyare servrar är tidsplanen:",
+        "List1": "Efter att ha gått in i sidoseasonen för första säsongen kommer Doom Walker-nivåerna 200, 210 och 220 att låsas upp.",
+        "List2": "Efter att ha gått in i sidoseasonen för säsong 2 kommer Doom Walkers på nivåerna 230, 240 och 250 att låsas upp.",
+        "Description3": "Doom Walkers är ganska viktiga under säsongerna eftersom de belönas med många knappa resurser som Mithril för sitt första blod (första död på dagen)."
+      },
+      "Lkw": {
+        "Title": "Lastbilar",
+        "Description1": "Lastbilar genomgår en översyn som dock är rent estetisk."
+      }
+    },
+    "Weapons": {
+      "Title": "Hjälteuppgraderingar och vapen",
+      "Description1": "Säsong 3 introducerar nyheter om hjältar och vapen; deras tillgänglighet varierar över tid.",
+      "Description2": "Den största nyheten: Hero-Swap-evenemanget gör det möjligt för er att byta EXP-nivå och stjärnor mellan hjältar.",
+      "Description3": "Hjältebyte",
+      "Description4": "Hjältebytet är ett nytt evenemang som äger rum vecka 2 och låter er äntligen byta EXP-nivå och stjärnor mellan två hjältar.",
+      "Description5": "För säsong 3 får du direkt 2 bytebiljetter för att byta 2 hjältar.",
+      "Description6": "Scarlett-uppgradering till UR",
+      "Description7": "Det blir möjligt att uppgradera Scarlett till en UR-hjälte. Evenemanget äger rum den första dagen på vecka 3.",
+      "Description8": "Mason och Violet går upp till UR",
+      "Description9": "Om du har ett UR-uppgraderingsmaterial kan du uppgradera Mason och/eller Violet till en UR-hjälte under säsong 3. Gå till Mason eller Violet och där hittar du knappen 'Befordra'.",
+      "Description10": "S3: Legenden återvänder",
+      "Description11": "S3: Legend Returns startar den första dagen av säsong 3. Använd omedelbart hjältretur-biljetter för att få extra Mithril och hemligt vatten.",
+      "Description12": "S3: Legendernas vapen",
+      "Description13": "S3: Weapons of Legends startar den tredje dagen. Återställning nedräkningen för gratis rekrytering är 2 dagar och 5 timmar."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Exklusiva vapen",
+      "Description1": "Säsong 3 introducerar även några exklusiva vapen: Marshall, Schuyler och McGregor.",
+      "Description2": "Marshalls exklusiva vapen",
+      "Description3": "Med Battle Pass för Marshalls exklusiva vapen (från dag 4 på vecka 1) kan du tjäna Marshalls exklusiva vapenbitar, som gör det möjligt att aktivera och förbättra det exklusiva vapnet. Annars kan du samla universella exklusiva vapenbitar, men dessa kan bara användas för förbättringar, inte aktivering.",
+      "Description4": "Schuylers exklusiva vapen",
+      "Description5": "Med Battle Pass för Schuylers exklusiva vapen (från dag 4 på vecka 3) kan du tjäna Schuylers exklusiva vapenbitar, som gör det möjligt att aktivera och förbättra det exklusiva vapnet. Annars kan du samla universella exklusiva vapenbitar, men dessa kan bara användas för förbättringar, inte aktivering.",
+      "Description6": "McGregors exklusiva vapen",
+      "Description7": "Med Battle Pass för McGregors exklusiva vapen (från dag 4 på vecka 6) kan du tjäna McGregors exklusiva vapenbitar, som gör det möjligt att aktivera och förbättra det exklusiva vapnet. Annars kan du samla universella exklusiva vapenbitar, men dessa kan bara användas för förbättringar, inte aktivering."
+    },
+    "Professions": {
+      "Title": "Yrken – Level-gräns utökad till nivå 100",
+      "Description1": "I säsong 3 kommer level-gränsen för yrken att höjas till nivå 100, vilket lovar att låsa upp fler nya färdigheter och strategiska val."
+    },
+    "Bazaar": {
+      "Title": "Ökenbazaren",
+      "Description1": "När du dödar sandmaskar kan du samla sandmaskskalig-objekt (t.ex. från drop-kistor när sandmaskar dödas eller som mål i sandmaskkris-evenemanget), som du kan byta mot mycket viktiga föremål i ökenbazaren.",
+      "Description2": "Ökenbazaren återställs varje vecka, och när nya uppdrag låses upp, kan du hitta extra föremål där varje vecka. Nedan visar jag alla veckovis tillgängliga föremål och ger en kort beskrivning av varje särskilt föremål."
+    }
   }
 }

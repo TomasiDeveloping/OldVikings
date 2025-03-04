@@ -24,6 +24,7 @@ import {
 } from "./pages/season-two/season-two-celebration/season-two-celebration.component";
 import {CapitolComponent} from "./pages/capitol/capitol.component";
 import {PlayerManagerComponent} from "./pages/player-manager/player-manager.component";
+import {SeasonThreeComponent} from "./pages/season-three/season-three.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -44,6 +45,7 @@ const routes: Routes = [
   {path: 'season-one', component: SeasonOneComponent},
   {path: 'season-two', component: SeasonTwoComponent},
   {path: 'season-two-celebration', component: SeasonTwoCelebrationComponent},
+  {path: 'season-three', component: SeasonThreeComponent},
   {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'alliance-mvp', component: AllianceMvpComponent, canActivate: [memberGuard]},
   {path: 'r4', component: R4Component, canActivate: [memberGuard]},

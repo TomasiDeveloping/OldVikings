@@ -1889,5 +1889,392 @@
       "Description2": "Gelecek güncellemelerde API özellikleri eklenmesi planlanmaktadır."
     },
     "Button": "Oyuncu Yöneticisini Şimdi Aç"
+  },
+  "SeasonThree": {
+    "Title": "Sezon 3 – Altın Krallık",
+    "Content": {
+      "Link1": "Yeni Temel Kaynaklar",
+      "Link2": "Dünya ve Harita",
+      "Link3": "Ziyaretçiler",
+      "Link4": "Altın Skarabe",
+      "Link5": "Radar Görevleri",
+      "Link6": "Yeni Binalar",
+      "Link7": "İttifak Merkezi",
+      "Link8": "İttifak Kaynakları",
+      "Link9": "Şehirler",
+      "Link10": "Kale",
+      "Link11": "Ticaret Noktaları",
+      "Link12": "Oyun Akışı",
+      "Link13": "Kahraman Geliştirmeleri ve Silahlar",
+      "Link14": "Özel Silahlar",
+      "Link15": "Meslekler",
+      "Link16": "Çöl Pazarı"
+    },
+    "Resources": {
+      "Title": "Yeni Temel Kaynaklar – Mithril ve Kutsal Su",
+      "Description1": "Oyunda artık yeni kaynaklar mevcut: Mithril ve kutsal su.",
+      "ScaredWater": {
+        "Title": "Kutsal Su:",
+        "Description1": "Sezonluk binaların inşası ve geliştirilmesinde kullanılır.",
+        "Description2": "Kutsal su aşağıdaki yollarla kazanılabilir:",
+        "List1": "Belirli bir seviyedeki zombileri ilk kez yenmekle ödüller",
+        "List2": "Sezon görevlerini tamamlamakla",
+        "List3": "Sezon 3 hedeflerini tamamlamakla",
+        "List4": "Kahraman geri dönüşü davetiyesi kullanmak: Kahramanlar Sezon 3 – Efsanenin Dönüşü'ne geri döner.",
+        "List5": "Bir şehri ilk kez fethetmekle ödül",
+        "List6": "İttifak Merkezi: Kutsal suyla dolu bir baraka"
+      },
+      "Mithril": {
+        "Title": "Mithril:",
+        "Description1": "Sezonluk yapıların inşası ve yükseltilmesinde kullanılır. Mithril şu aktivitelerle kazanılabilir:",
+        "List1": "Belirli bir seviyedeki zombileri ilk kez öldürmekle ödüller",
+        "List2": "Temelinizin önündeki ziyaretçiler",
+        "List3": "Sezon görevlerini tamamlamakla",
+        "List4": "Sezon 3 hedeflerini tamamlamakla",
+        "List5": "Doom Walker ile ilk kan (günün ilk DW öldürülmesi)",
+        "List6": "Çöl Harabelerindeki radar görevleri",
+        "List7": "Hero's Return davetiyesi kullanmak: Kahramanlar Sezon 3 – Efsane Geri Dönüş'e geri döner.",
+        "List8": "Haftalık bilet ve Sezon Savaş Bileti (en büyük artırıcı)",
+        "List9": "Bir şehri/kalesi ilk kez fethetmekle ödül",
+        "List10": "İttifaka ait kalelerin kazılması Mithril sağlar.",
+        "List11": "İttifak Merkezi: Mithril Atölyesi",
+        "List12": "Çöl Hazineleri: Açık kasalar"
+      }
+    },
+    "Map": {
+      "Title": "Dünya Haritası ve Bölgeleri",
+      "Description1": "Dünya tekrar değişti. Harita, üç farklı bina türünden oluşuyor: şehirler, kazı kaleleri ve ticaret noktaları.",
+      "Image1": "Şehir",
+      "Image2": "Kazı Kalesi",
+      "Image3": "Ticaret Noktası",
+      "Description2": "Sezonun başında siz ve müttefikleriniz sunucunun kenarına düşersiniz (ama yine de hep birlikte bir İttifak Yuvası olarak), henüz kendi şehriniz yok. Şehirler geri alınmalıdır, ancak yeni kurallar geçerlidir.",
+      "Description3": "Doom-Elite canavarları, Mısır canavarlarına dönüşür ve çoğu zombi, öldürülmesi için yüksek virüs direncine ihtiyaç duyar.",
+      "NewMap": "Yeni Harita",
+      "NewMapDescription": "Harita boyutu 13 x 13 kare (alt haritada dikdörtgen gibi görünsede). Her kare 75 x 75 ‘piksel’ büyüklüğünde (temel boyutunuz 3 x 3)."
+    },
+    "Visitors": {
+      "Title": "Ziyaretçiler",
+      "Description": "Zaman zaman, iki yeni tür ziyaretçi surunuzun önünde belirir (soldaki birkaç saat sonra, sağdaki ise günde bir kez) ve Mithril dağıtır."
+    },
+    "GoldenScarab": {
+      "Title": "Altın Skarabe",
+      "Description1": "Haritada altın Skarabeler bulacaksınız. Onlara tıklayın ve onları saldırarak ödüller kazanın.",
+      "Description2": "Skarabeler şu şekilde bulunabilir:",
+      "List1": "Dünya zombilerini öldürmek",
+      "List2": "Doom Elite'leri öldürmek",
+      "List3": "Bir tuzak mayını kullanmak (rastgele yer altı yaratıkları görünebilir, sadece Skarabeler değil).",
+      "Image1": "Altın Skarabe, haritadan dışarıya zoom yaparak görünür. Hareket ettiğini göreceksiniz, ancak ona saldırmaya başladığınızda duracaktır."
+    },
+    "RadarMissions": {
+      "Title": "Radar Görevleri – Çöl Harabeleri",
+      "Description1": "Sezon 3 ile yeni bir radar görevi türü geliyor.",
+      "Description2": "İki bölümden oluşur:",
+      "List1": "Çeşitli ödüller bulunan bir şans oyunu:",
+      "List1List1": "Çöl harabelerini buldunuz.",
+      "List1List2": "Ödülleri toplayın ya da harabelere daha derin girip her şeyi kaybetme riskini alın.",
+      "List2": "Bir tuzağa düştüğünüzde, madeni para ödülleri içeren bir mini oyun başlatılır.",
+      "List2List1": "Koşarak madeni paraları toplayın ve zombilerden kaçının. Harabelerden kaçmak için 30 saniyeniz var ve mümkün olduğunca çok madeni para toplamalısınız.",
+      "Description3": "Bu yeni radar görevleri gerçekten harika çünkü size harika ödüller getirebilir. En iyi ödül, sezon mağazasında ürün satın almak için kullanabileceğiniz sezon başarı madalyasıdır, eğer son seviyelere ulaşma ve doğru sandığı seçme şansınız varsa."
+    },
+    "Building": {
+      "Title": "Yeni Binalar",
+      "Description1": "Üçüncü Sezon boyunca yeni bina türleri mevcuttur.",
+      "CurseLab": {
+        "Title": "Laneti Araştırma Laboratuvarı",
+        "Description": "Laneti Araştırma Laboratuvarında, virüs direnci gibi, Elit Zombileri ve Kazı Kalesi koruyucularını yenmek için lanetlere karşı direncinizi geliştirebilirsiniz. Geliştirmek için Kutsal Su gereklidir."
+      },
+      "BlessingFountain": {
+        "Title": "Kutsama Çeşmesi",
+        "Description1": "Kutsama çeşmeleri Kutsal Su üretir; Sezon 2'deki Titan Alaşım Fabrikasına benzer.",
+        "Description2": "Birçok Kutsama çeşmesi mevcuttur. Bunları açmak için önceki Kutsama çeşmesini seviyelendirmelisiniz (I, II, III, IV, V diye adlandırılırlar). Seviyelendirmek için Mithril gereklidir. Bu yüzden Sezon 3'teki yeni kaynaklar hakkında bilgi almak için ilgili makaleyi okuduğunuzdan emin olun."
+      },
+      "Altar": {
+        "Title": "Sunak",
+        "Description1": "Bu bina sadece Laneti Araştırma Laboratuvarı Seviye 30'a ulaştığında inşa edilebilir.",
+        "Description2": "Bu bina, Çöl Koruyucularının değerlerini arttırır, tıpkı Sezon 2'deki Askeri Üslerin (Tank/Hava/Roket) Kahraman özelliklerini artırması gibi.",
+        "Image": "Bu binanın her seviyesinde yükselme, Koruyucunun HP, saldırı ve savunmasını %0,5 artırır."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "İttifak Merkezi",
+      "Description1": "İttifak butonuna tıklayın -> 'İttifak Merkezi' -> Koordinatlara tıklayın, haritada İttifak Merkezini bulun.",
+      "Description2": "Üçüncü Sezonun ikinci gününde ittifakınız İttifak Merkezini inşa etmelidir.",
+      "Description3": "İttifak Merkezi inşa edildikten sonra, Baharat/H üretir ve tüm ittifak üyelerine etki alanındaki buffları sağlar. Ayrıca, üyelerin İttifak alanı içinde dev çöl solucanları tarafından geri itilmelerini engeller.",
+      "Description4": "ÖNEMLİ: Baharat üretim değerleri geliştiriciler tarafından değiştirilebilir. Bu değerleri referans alarak görselleri kullanmayın. Bu değerlere nasıl erişileceği ile ilgili bilgiyi 'Seviyeler' bölümünden bulabilirsiniz.",
+      "RepairAllianceCenter": {
+        "Title": "İttifak Merkezi Onarımı:",
+        "List1": "İttifak Merkezine giren daha fazla birlik, inşaatın daha hızlı olmasını sağlar.",
+        "Description1": "İttifak Merkezi tarafından uygulanan buffların etki alanını, haritada biraz dışarıya zoom yaparak görebilirsiniz."
+      },
+      "AdditionalFeatures": {
+        "Title": "Ekstra Özellikler:",
+        "Description1": "İttifak Merkezi kurulduktan sonra, hangi seviyelerin yeni özellikleri açtığını görebilirsiniz."
+      },
+      "MithrilPlant": {
+        "Title": "Mithril Tesisi",
+        "Description1": "Bu bina, saatte 34.560 Mithril üretir ve İttifak Merkezi Seviye 5'e ulaştığında açılır.",
+        "Description2": "Bina hasar alırsa üretim durur. Yok edilirse, ittifak, ilgili baharat yüzdesini kaybeder.",
+        "Description3": "İttifak Merkezi sayfasını açın ve İttifak Merkezinin inşaatında görülen Mithril'e tıklayarak üretilen Mithril'i toplayın."
+      },
+      "ExploratoryWell": {
+        "Title": "Keşif Kuyusu",
+        "Description1": "Bu bina, saatte 600 Petrol üretir ve İttifak Merkezi Seviye 10'a ulaştığında açılır.",
+        "Description2": "Bina hasar alırsa üretim durur. Yok edilirse, ittifak, ilgili baharat yüzdesini kaybeder.",
+        "Description3": "İttifak Merkezi sayfasını açın ve İttifak Merkezinin inşaatında görülen Petrole tıklayarak üretilen Petrol'ü toplayın."
+      },
+      "SacredWaterHut": {
+        "Title": "Kutsal Su Kulübesi",
+        "Description1": "Bu bina, saatte 8640 Kutsal Su üretir ve İttifak Merkezi Seviye 15'e ulaştığında açılır.",
+        "Description2": "Bina hasar alırsa üretim durur. Yok edilirse, ittifak, ilgili baharat yüzdesini kaybeder.",
+        "Description3": "İttifak Merkezi sayfasını açın ve İttifak Merkezinin inşaatında görülen Kutsal Suya tıklayarak üretilen Kutsal Su'yu toplayın."
+      },
+      "Obelisk": {
+        "Title": "Obelisk",
+        "Description1": "Bu bina, saatte 6 Koruyucu Boynuzu üretir ve İttifak Merkezi Seviye 20'ye ulaştığında açılır.",
+        "Description2": "Bina hasar alırsa üretim durur. Yok edilirse, ittifak, ilgili baharat yüzdesini kaybeder.",
+        "Description3": "İttifak Merkezi sayfasını açın ve İttifak Merkezinin inşaatında görülen Koruyucu Boynuzuna tıklayarak üretilen Koruyucu Boynuzu'nu toplayın."
+      },
+      "Level": {
+        "Title": "Seviyeler",
+        "Description1": "İttifak Merkezi seviyesi, biriken baharat miktarına bağlı olarak otomatik olarak yükselir."
+      },
+      "Relocation": {
+        "Title": "Taşıma",
+        "Description1": "İttifak Merkezi taşınabilir. Bunun için, ilk İttifak Merkezinin inşasında olduğu gibi, bir taşıma noktası inşa etmeniz gerekir. Bu, Sezon 2'deki İttifak Ocağının taşınmasına benzer.",
+        "Description2": "ÖNEMLİ: Taşıma noktasının inşasına başladığınızda, düşmanlar bu yeri saldırabilir. Dikkatli olun."
+      }
+    },
+    "NewFarms": {
+      "Title": "Yeni Çiftlikler – İttifak Kaynakları",
+      "Description1": "Sezon 1 ve 2'de olduğu gibi, Doom-Elitlerini yendikten sonra, geçici olarak rastgele yeni bir ittifak kaynakları çiftliği/alanı ortaya çıkabilir.",
+      "Description2": "Sezon 3'te bu çiftlikler Kutsal Su, Mithril ve Petrol türlerini içerebilir. Her bir toplama alanında 10 birlik kadar toplanabilir.",
+      "Description3": "Sezon 3'te, canavarlara karşı zafer kazandıktan sonra ittifak kaynakları karolarının ortaya çıkma olasılığı, Sezon 2'deki %5'ten belirtilmemektedir.",
+      "Description4": "Yeni kaynak karoları için bir örnek:"
+    },
+    "Cities": {
+      "Title": "Şehirler",
+      "Description1": "Şehirlerin fethedilmesi, City Clash Sezon 3 etkinlik planına göre yapılır.",
+      "Description2": "Sahipleri tarafından üretilen baharatlar, üçüncü sezonun kazanılması için temel öneme sahiptir ve miktar, şehrin seviyesine bağlıdır.",
+      "Description3": "Şehir başına baharat üretimi seviyesi:",
+      "List1": "Seviye 1: 100/saat Baharat",
+      "List2": "Seviye 2: 200/saat Baharat",
+      "List3": "Seviye 3: 300/saat Baharat",
+      "List4": "Seviye 4: 400/saat Baharat",
+      "List5": "Seviye 5: 500/saat Baharat",
+      "List6": "Seviye 6: 600/saat Baharat",
+      "Description4": "Şehir Fetih Sınırları",
+      "Description5": "İttifak Butonundan -> İttifak Şehri kısmından görebileceğimiz gibi:",
+      "List7": "Şehirler için günlük savaş ilanı limiti: 2",
+      "List8": "Maksimum fethedilen şehirler: 8",
+      "List9": "Günlük kazı kaleleri fetihleri: 2",
+      "List10": "Maksimum fethedilen kazı kaleleri: 8"
+    },
+    "Strongholds": {
+      "Title": "Kazı Kalesi",
+      "Description1": "Kazı kaleleri, harita üzerinde Mithril kazılabilen yerlerdir. İkinci sezonun kazı alanlarına benzerler.",
+      "Description2": "Mumyalar ve Altın Yok Ediciler tarafından korunurlar. Kazı kalesinin seviyesi ne kadar yüksekse, koruyucu da o kadar güçlüdür.",
+      "Description3": "En son oyun güncellemesi ile kalelerden kazı yaparak Mithril/h üretilebilir, bu üretim kalelerin seviyesine göre değişir:",
+      "List1": "Seviye 1: 100/h Mithril",
+      "List2": "Seviye 2: 120/h Mithril",
+      "List3": "Seviye 3: 140/h Mithril",
+      "List4": "Seviye 4: 160/h Mithril",
+      "List5": "Seviye 5: 180/h Mithril",
+      "List6": "Seviye 6: 200/h Mithril",
+      "Description4": "Kazı kalelerini savunmak için üç farklı türde Altın Canavar vardır. Detayları görmek için 'i' tuşuna basın",
+      "List7": "Altın Savunucu, Zırhlı türündedir.",
+      "List8": "Altın Savaşçı, Uçan türündedir.",
+      "List9": "Altın Yok Edici, Roket türündedir.",
+      "Description5": "Kazı yaparken Mithril üretilir, bunu 'Birlik' -> 'Birlik Şehirleri' -> 'Kalelerde Kazı Yap' -> 'Her Şeyi Al' butonuna tıklayarak toplayabilirsiniz."
+    },
+    "TradePosts": {
+      "Title": "Ticaret Noktaları",
+      "Description1": "Ticaret noktaları harita üzerinde belirli noktalarda bulunur. Başkente doğru çapraz bir şekilde yerleşirler ve Seviye 5'e kadar farklı seviyelere sahip olabilirler.",
+      "Description2": "Ticaret noktaları, kaleler veya şehirlerle aynı şey değildir. Bireyler tarafından işgal edilebilirler ve herkesin eşyalar alabileceği bir pazar açarlar. Ticaret noktasının sahibi, vergi kazanabilir.",
+      "Description3": "Komşu bölgeleri kontrol etmenize gerek yoktur ve sahip olabileceğiniz ticaret noktası sayısında bir sınırlama yoktur. Ancak, ticaret noktaları diğerleri tarafından fethedilebilir, bu nedenle savunmanız gerekir. Bu yüzden bir oyuncunun çok fazla ticaret noktasını etkin bir şekilde yönetmesi genellikle zordur.",
+      "Description4": "Ticaret Noktalarını Fethetme Kuralları",
+      "List1": "Ticaret noktası seviyeleri sırayla açılır (her ticaret noktasında yarışmanın başlangıç tarihi gösterilecektir):",
+      "List1List1": "Seviye 1: Pazar, 7. gün, hafta 2, saat 12:00 (bu, diğer sunucuların sizin sunucunuzdaki ticaret noktasını fethetmeye gelemeyeceği tek fetih zamanıdır)",
+      "List1List2": "Seviye 2: Pazartesi, hafta 3, gün 1, saat 12:00",
+      "List1List3": "Seviye 3: Salı, hafta 3, gün 2, saat 12:00",
+      "List1List4": "Seviye 4: Perşembe, hafta 3, gün 4, saat 12:00",
+      "List1List5": "Seviye 5: Cuma, hafta 3, gün 5, saat 12:00",
+      "List2": "ÖNEMLİ: Hafta 3, gün 1 itibariyle, mevsim grubundaki savaş alanları arasında teleportlar açılır ve diğer savaş alanları sizin bölgenizdeki ticaret noktalarını fethedebilir.",
+      "List3": "Ticaret noktasını fethetme yarışması başladığında, yarışma 1 saat sürecektir.",
+      "List4": "Ticaret noktasındaki birlikler zamanla fetih ilerlemesini kademeli olarak artırır.",
+      "List5": "İlerleme, sizin ve müttefikleriniz için ayrı ayrı izlenir.",
+      "List6": "Yarışma sırasında, %100 ilerlemeye ilk ulaşan komutan ticaret noktasını kazanır. Eğer yarışma sonunda %100'e ulaşan bir komutan yoksa, en yüksek ilerlemeyi gösteren komutan ticaret noktasını alır, ancak o komutanın bir valisi yoksa.",
+      "List7": "Ticaret noktasını saldırıp fethetmek için üssünüzün hedef ticaret noktasının kirlenmiş bölgesinde olması gerekmektedir.",
+      "List8": "Eğer ticaret noktasının bir valisi varsa, yarışma sonunda kimse %100'e ulaşmazsa mevcut vali kontrolü elinde tutar.",
+      "List9": "Bir ticaret noktası fethedildikten sonra, yeniden fetih yarışması 7 gün sonra yapılacaktır.",
+      "Description5": "Her ticaret noktası bağımsız bir dükkandır ve aynı oyun mevsimi grubundaki komutanlar ürünlerini satın alabilirler.",
+      "Description6": "Ticaret Noktası Seviyeleri",
+      "Description7": "Bu resimlerde görebileceğiniz gibi, ticaret noktasının seviyesi arttıkça daha fazla ürün mevcuttur.",
+      "Description8": "Diğer tüm parametreler aynı kalır, ancak valinin koruyucu sınırındaki avantaj kademeli olarak artar.",
+      "Description9": "Ticaret İşlemi",
+      "Description10": "Bir vali, ticaret noktasını kontrol altına aldığında, ticaret dükkanı açılır ve ürünler satın alınabilir. Ticaret noktasına tıklayın ve ardından aşağıda gösterilen simgeye tıklayarak dükkana erişin.",
+      "Description11": "Vali, stokları doldurmak ve alım yapmayı sağlamak için bir kez ticaret kervanı çağırabilir.",
+      "Description12": "Ne yazık ki, dükkanda görünen tüm ürünler her komutan için mevcut değildir. İlk gelen, ilk alır ilkesine göre, çünkü toplamda mevcut ürün sayısı sınırlıdır. Ayrıca bazı ürünler yalnızca valilere özeldir.",
+      "Description13": "Vergi",
+      "Description14": "Bir ticaret noktasında harcanan elmaslar, vergi gelirleri oluşturur. Tüm ürünler tükendiğinde veya ticaret noktası valisi tarafından terk edildiğinde, toplanan vergiler Altın Yumurta şeklinde ticaret noktası valisine gönderilir ve ardından sohbet üzerinden paylaşılabilir."
+    },
+    "GamePlay": {
+      "Title": "Oyun Akışı",
+      "Description1": "3. Sezonda oyunda yapabileceğiniz birçok yeni şey var:",
+      "Link1": "Cat-Basis skinini beğenin, ödüller kazanın.",
+      "Link2": "Sandworm Krizi",
+      "Link3": "Çöl Koruyucuları",
+      "Link4": "Bir Vaha Kurun",
+      "Link5": "Çöl Artefaktları",
+      "Link6": "Doom Walker - Son Jedi",
+      "Link7": "Kamyon",
+      "Description2": "Cat-Basis skinini beğenin, ödüller kazanın",
+      "Description3": "Kedilere ait baz skinlerini bulun ve beğenin, böylece hemen ödüller kazanın. Günlük beğeni sayısı sınırlıdır.",
+      "SandWorm": {
+        "Title": "Sandworm Krizi",
+        "Description1": "3. Sezonun başlangıcından itibaren kumların altında kum solucanları gizleniyor ve komutanların her sesini dinliyorlar.",
+        "Description2": "Sandworm Krizi Etkinliği ilk günden başlar ve 14 gün sürecektir.",
+        "Image1": "Loot Düşüşleri: Günlük 30 loot parçası toplama sınırı vardır.",
+        "List1": "Etkinlik sırasında kum solucanları belirecek. Bunları avlayarak görevleri tamamlayabilir ve ödüller kazanabilirsiniz.",
+        "List2": "Eğer müttefiklerin birlikleri çatışmalara girerse, şok dalgaları yaratır. İlerleme çubuğu dolduğunda, son komutan, bir kum solucanını çeker ve bu solucan üssünüze saldırır. Küçük kum solucanları tarafından kuşatılan üsler kuyruk gönderemezler, ancak teleportasyon eşyaları kullanarak kaçabilirler. Küçük kum solucanı kaybolacak ve ödüller kaybolacaktır. (Yalnızca aktif toplayıcı seferleri devam edebilir.)",
+        "List3": "Bir kum solucanı öldürüldüğünde, saldırıya uğrayan komutana e-posta ile bonus keşif ödülü gönderilir.",
+        "List4": "Etkinliğin ilerleyen günlerinde büyük kum solucanları ortaya çıkacaktır. Müttefik merkezinin dışında kalan üsler, büyük kum solucanları çekildiğinde fırlatılacaktır.",
+        "List5": "Allianstan ayrılan komutanlar artık şok dalgası birikimi kazandırmaz.",
+        "List6": "Bu sayfada izlenmese de, dev kum solucanları da tuzaklı kara mayınlarına yakalanabilir.",
+        "Description3": "Küçük Kum Solucanı",
+        "Description4": "Komutanlar harita üzerindeki canavarlara karşı savaşırken, şok dalgaları yaratır ve bunlar küçük kum solucanlarını çeker. İlerleme çubuğu dolduğunda, son komutan, kum solucanını çeker ve solucan onu sarar.",
+        "Description5": "Ödül listesinde belirtilen 'potansiyel ganimet', kum solucanı öldürüldükten sonra harita üzerindeki yakındaki noktada sandık olarak bırakılacaktır.",
+        "Description6": "Büyük Kum Solucanı",
+        "Description7": "Büyük kum solucanları, seferlerle saldırılabilir ve küçük kum solucanlarından çok daha güçlüdür.",
+        "Description8": "Keşif ödülleri kum solucanı pulları içerir.",
+        "Description9": "Eğer büyük bir kum solucanı üssünüzün tam altına çıkarsa, üssünüz haritanın uzak bir yerine fırlatılacaktır.",
+        "Description10": "Bu durumda, sizi bu olay hakkında bilgilendiren bir açılır pencere görüntülenecektir.",
+        "Description11": "Üssünüzün kum solucanları tarafından fırlatılmasını engellemek için, müttefik bölgelerinde kalmalısınız çünkü müttefik merkezi bu bölgelerde kum solucanlarından korunmanızı sağlayan buff'lar sağlar.",
+        "Description12": "Ödüller",
+        "Description13": "Kum solucanlarıyla savaşmak, günlük olarak ve hedefe bağlı olarak ek ödüller kazandırır.",
+        "Description14": "Dev kum solucanlarının büyüklüğünü bir şehirle karşılaştırabilirsiniz. Kum solucanları belirdiğinde, bunlar şehri çevreleyen alanı terk eder. Kum solucanı öldürülmezse, 5 saat sonra kaybolur.",
+        "Description15": "Müttefik merkezi, üyelerinin müttefik bölgelerinde dev kum solucanları tarafından geri atılmalarını engeller."
+      },
+      "Protector": {
+        "Title": "Çöl Koruyucuları",
+        "Description1": "Çöl Koruyucuları, gelişmiş yeteneklere sahip yeni bir asker türüdür ve 3. sezondan itibaren, 'Eski Teknoloji - Koruyucu' etkinliği açıldığında 1. günden itibaren kullanılabilir.",
+        "Description2": "T11'le ilişkili olmadıkları doğrulandı, bu yüzden T11'in gelecekte kullanılabilir olması bekleniyor.",
+        "Description3": "Bu yeni asker türü, yalnızca harcama miktarınıza veya askerlerinizi nasıl eğittiğinize bağlı olmayan harika bir eklemedir. Çünkü çöl koruyucuları eğitilmez, ölülerden diriltilir. Onlar gereksizdir ve bir kez kullanıldıklarında kaybolurlar.",
+        "Description4": "Koruyucu Alan",
+        "Description5": "Eski Teknoloji - Koruyucu Alan etkinliği açıldığında, Çöl Koruyucusu Alanı'nı doğrudan üssünüzün duvarının önüne inşa edebilirsiniz.",
+        "Description6": "ÖNEMLİ: Koruyucu Alanını Sezon başında yalnızca 10. seviyeye kadar getirin, daha fazla değil, çünkü 11. seviyeden itibaren Mithril ve Kutsal Su gereklidir ki bu da diğer mevsimsel binalar için önemlidir. Ayrıca, 10. seviyede zaten Çöl Koruyucularının tüm işlevlerine erişim sağlarsınız, bu yüzden ilk günlerde daha fazla yükseltmek zorunda değilsiniz.",
+        "Description7": "Bu mevsimsel alan, diğer binalar gibi yükseltilebilir ve Çöl Koruyucuları'nı yönetmek için menüyü kullanmanızı sağlar.",
+        "Description8": "Harita moduna geçtiğinizde (temel görünümden harita görünümüne geçerek), Çöl Koruyucusu Alanı'nı, kamyon/ gizli görevler sembollerinin üzerine tıklayarak da görebilirsiniz.",
+        "Description9": "Çöl Koruyucularının Yetenekleri",
+        "Description10": "Çöl'ün kutsadığı koruyucular üstün savaş gücüne sahiptir. Aynı seviyedeki birimlerden daha güçlüdürler.",
+        "Description11": "Her kahraman, yanında 1/10 birim miktarında koruyucu taşıyabilir (bu sınırlama ile bile, koruyucular aynı seviyedeki askerlerden daha güçlüdür).",
+        "Description12": "Normal birimlerin aksine, savaşlara katılan koruyucular geri dönmez, çölün içine kaybolurlar. Bu yüzden onları dikkatli kullanın.",
+        "Description13": "Eğer savaşa katılmazlarsa, tüm koruyucular geri döner.",
+        "Description14": "Çöl koruyucularının üs bölgesinde ne kadar çok birikirse, o kadar çok beceri açılacaktır.",
+        "Description15": "Uyarlama Gücü (500 veya daha fazla koruyucu koruyucu alanında yerleştirildiğinde açılır)",
+        "Description16": "Koruyucular, lanetlere karşı +250 ekstra direnç ve arttırılmış saldırı, savunma ve HP (+%25) alırlar. Bu, mevcut lanet direncinizin yeterli olmadığı düşmanlara saldırmak için mükemmel bir çözüm sunar.",
+        "Description17": "Ölüm Şok Dalgası (750 veya daha fazla koruyucu koruyucu alanında yerleştirildiğinde açılır)",
+        "Description18": "Mavi Alev Büyüsü (1000 veya daha fazla koruyucu koruyucu alanında yerleştirildiğinde açılır).",
+        "Description19": "Koruyucularla bir birlik, başka bir komutanın üssüne saldırıyı kazandığında, 'Mavi Alev' büyüsünü tetikler ve düşman üssünü bir saat boyunca silinemez mavi alevlere sarar.",
+        "Description20": "Koruyucu Seferi (1250 veya daha fazla koruyucu koruyucu alanında yerleştirildiğinde açılır).",
+        "Description21": "Koruyucu Seferi'ni açar!",
+        "Description22": "Sefer kısıtlaması: Seferi başlatmaya katılan müttefikler, koruyuculardan oluşan birlikler kullanmak zorundadır.",
+        "Description23": "Sefer sayacı: Koruyucu Seferleri, 1 dakikalık hazırlık süresine sahiptir.",
+        "Description24": "Lider Buff'ı: Seferdeki tüm birlikler, liderin aktif koruyucu güçlendirmelerinden yararlanır.",
+        "Description25": "Çöl Koruyucuları - Dönüştürme",
+        "Description26": "Çöl Koruyucuları'nı oluşturma işlemi şu şekilde basitleştirilmiştir:",
+        "Description27": "Aşağıdaki durumlarda kaybedilen birimlerin %10'u, koruyucunun dönüştürme havuzunda bekler ve dönüştürülmeyi bekler:",
+        "Description28": "VS düellolarında savaş kayıpları",
+        "Description29": "Hastanede yer bulamayan ağır yaralı birimler",
+        "Description30": "Egzersiz sahasında kayıplar",
+        "Description31": "Bekleyen kayıpların sayısı sınırsızdır.",
+        "Description32": "Müttefikler, her bir biriminizi dönüştürmek için keşif uçakları gönderebilir.",
+        "Description33": "Üssünüz kırıldığında, koruyucular koruyucu alanından etkilenmez.",
+        "Description34": "Çöl Koruyucuları - Nitelikler",
+        "Description35": "Burada, normal askerler ile karşılık gelen Çöl Koruyucu versiyonlarının karşılaştırması bulunmaktadır.",
+        "Description36": "Seviye 10",
+        "Description37": "Seviye 9",
+        "Description38": "Seviye 7",
+        "Description39": "Koruyucunun özelliklerini Altar ile artırın",
+        "Description40": "Altar, Çöl Koruyucuları'nın özelliklerini iyileştirmek için özel olarak tasarlanmış yeni bir binadır. Daha fazla bilgi için 'Altar' bölümüne bakın.",
+        "Description41": "Dönüştürülmüş birimler, Koruyucu Alanına gönderilecektir.",
+        "Image1": "Çöl Koruyucuları sembolü ayrıca, bu türden kaç askerin anında mevcut olduğuna dair bir önizleme sağlar.",
+        "Image2": "Koruyucuları taşıyan birlikler, otomatik olarak etkinleştirilmiş güçlendirmeler alır: Koruyucular, ekstra lanet direnci ve durum iyileştirmeleri alır.",
+        "Image3": "PvP savaşlarında, koruyucuları taşıyan bir birlik yenildiğinde, öldürdüğünüz koruyuculara göre, düşman birimlerinden bir kısmı silinir.",
+        "Image4": "Uzmanlık becerilerini ustalaştırarak, ekstra güçlü lanet etkilerini açabilirsiniz!",
+        "Image5": "Hızlı Yürüyüş: Bir Koruyucu Seferine katıldığınızda veya bunu kullandığınızda ekstra üç kat yürüyüş hızlanması alırsınız."
+      },
+      "Oasis": {
+        "Title": "Bir Vaha Kurun",
+        "Description1": "Bu etkinlik, birinci haftanın üçüncü günü, Seviye 1 şehirlerinin açılmasıyla aynı anda başlar ve sezon sonuna kadar devam eder.",
+        "Description2": "Yeşillendirme Kuralları:",
+        "List1": "Yeşillendirme Komutu: Sadece mevcut yeşillendirilmiş alanlara bitişik kum alanları yeşillendirebilirsiniz.",
+        "List2": "İlerleyici Genişleme: Etkinlik süresince yeşillendirme alanı artacaktır.",
+        "List3": "Yeşillendirme İlerlemesi: Bir bölgenin %80'i yeşillendirildiğinde, o bölge tamamlanmış kabul edilir ve savaş bölgesinin toplam ilerlemesine katkı sağlar.",
+        "List4": "Çöl Hazine: Yeşillendirilmiş alanlarda nadir hazineler (Çöl Artefaktları) bulma şansı vardır. Her bölge belirli sayıda hazine içerir.",
+        "Description3": "Aşamalar",
+        "Description4": "Aşama 1 (Sezonun 1.–4. Haftası):",
+        "List5": "Yeşillendirme Alanı: Yeşillendirme, bir şehri fethettikten sonra açılır.",
+        "List6": "Kapanmış Alanlar: Kalesi, ticaret noktası ve başkent bu aşamada yeşillendirilemez.",
+        "List7": "Yeşillendirme Başlangıç Noktası: Bir şehir fethedildiğinde, çevresindeki kirli arazi yeşil alanlara dönüştürülür ve bu alan genişleme için başlangıç noktası olur.",
+        "Description5": "Aşama 2 (Sezonun 5.–7. Haftası):",
+        "List8": "Yeşillendirme Genişlemesi: Komutanlar, Seviye 1 bölgelerini yeşillendirebilir ve bunları şehirler, kaleler, ticaret noktaları ve başkente doğru genişletebilir.",
+        "List9": "Açılma İlerlemesi: Mevcut seviyede %80 yeşillendirme ilerlemesine ulaşıldığında, bir sonraki seviye açılır ve bu seviye başkentin yeşillendirilmesine olanak tanır (Seviye 7).",
+        "List10": "Savaş Bölgesinin Ötesinde Yeşillendirme: Komutanlar artık aynı sezon grubundaki tüm 8 savaş bölgesinde serbestçe yeşillendirme yapabilir.",
+        "Description6": "İşte nasıl daha yeşil hale gelir",
+        "Description7": "Yeşillendirme oldukça basittir: Haritada geçerli bir kareye tıklayın ve yeşillendirmek için keşif uçağını gönderin.",
+        "Description8": "Temel kural, yalnızca yeşil olan bir kareye bitişik olan kareleri yeşillendirebilmenizdir: Bir şehir fethedildiğinde, şehir çevresindeki arazi yeşil olur ve bu alanda yeşillendirme sürecini başlatabilirsiniz. Yavaş yavaş, önceki bölümlerde açıklanan aşamalara göre yeni bölgeler açılır."
+      },
+      "Artefact": {
+        "Title": "Çöl Artefaktları",
+        "Description1": "Çöl artefaktları, ikinci sezonun malzeme koleksiyonlarına benzer."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - Son Jedi",
+        "Description1": "Erken sunucularda Doom Walkers'ın yeni seviyeleri, 3. sezonda ilk kez görünecek.",
+        "Description2": "Yeni sunucular için zaman çizelgesi şu şekildedir:",
+        "List1": "İlk sezonun ara sezonuna geçiş yaptıktan sonra, Doom Walker seviyeleri 200, 210 ve 220 açılacak.",
+        "List2": "İkinci sezonun ara sezonuna geçiş yaptıktan sonra, Doom Walkers seviyeleri 230, 240 ve 250 açılacak.",
+        "Description3": "Doom Walkers, sezonlar boyunca oldukça önemlidir, çünkü ilk kanı (günün ilk öldürülmesi) almak için Mithril gibi değerli kaynaklarla ödüllendirilir."
+      },
+      "Lkw": {
+        "Title": "Kamyonlar",
+        "Description1": "Kamyonlar, tamamen estetik bir genel bakıma tabi tutulacaktır."
+      }
+    },
+    "Weapons": {
+      "Title": "Kahraman Yükseltmeleri ve Silahlar",
+      "Description1": "Sezon 3, kahramanlar ve silahlarla ilgili yenilikler getiriyor; bunların kullanılabilirliği zamanla değişir.",
+      "Description2": "En önemli yenilik: Kahraman Değişim Etkinliği, kahramanınızın EXP seviyesi ve yıldızlarını değiştirmenizi sağlar.",
+      "Description3": "Kahraman Değişimi",
+      "Description4": "Kahraman değişimi, ikinci haftada gerçekleşen ve iki kahramanın EXP seviyesini ve yıldızlarını değiştirebilmenizi sağlayan yeni bir etkinliktir.",
+      "Description5": "Sezon 3 ile birlikte, 2 kahraman değişimi yapmak için hemen 2 değişim kuponu alırsınız.",
+      "Description6": "Scarlett'in UR Yükseltmesi",
+      "Description7": "Scarlett'i bir UR kahramanına yükseltmek mümkün olacak. Etkinlik, üçüncü haftanın ilk gününde gerçekleşecek.",
+      "Description8": "Mason ve Violet UR'ye Yükseliyor",
+      "Description9": "Eğer bir UR yükseltme öğeniz varsa, Mason ve/veya Violet'i sezon 3 sırasında bir UR kahramanına yükseltebilirsiniz. Bunun için Mason veya Violet'e gidin ve 'Terfi Et' butonunu bulun.",
+      "Description10": "S3: Efsanenin Dönüşü",
+      "Description11": "S3: Legend Returns, 3. sezonun 1. gününde başlar. Kahraman geri dönüş biletlerinizi hemen kullanarak ekstra Mithril ve gizli su kazanabilirsiniz.",
+      "Description12": "S3: Efsanelerin Silahları",
+      "Description13": "S3: Weapons of Legends, 3. günde başlar. Ücretsiz işe alım için sıfırlama sayacı 2 gün ve 5 saattir."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Özel Silahlar",
+      "Description1": "Sezon 3, bazı özel silahlar getiriyor: Marshall, Schuyler ve McGregor.",
+      "Description2": "Marshall'ın özel silahı",
+      "Description3": "Marshall'ın özel silahları için Battle Pass (1. haftanın 4. gününden itibaren) ile Marshall'ın özel silah kırıklarını kazanabilir ve bunlarla özel silahı aktif hale getirebilir ve geliştirebilirsiniz. Aksi takdirde, evrensel özel silah kırıkları toplayabilirsiniz, ancak bunları yalnızca geliştirmeler için kullanabilirsiniz, aktivasyon için değil.",
+      "Description4": "Schuyler'ın özel silahı",
+      "Description5": "Schuyler'ın özel silahları için Battle Pass (3. haftanın 4. gününden itibaren) ile Schuyler'ın özel silah kırıklarını kazanabilir ve bunlarla özel silahı aktif hale getirebilir ve geliştirebilirsiniz. Aksi takdirde, evrensel özel silah kırıkları toplayabilirsiniz, ancak bunları yalnızca geliştirmeler için kullanabilirsiniz, aktivasyon için değil.",
+      "Description6": "McGregor'ın özel silahı",
+      "Description7": "McGregor'ın özel silahları için Battle Pass (6. haftanın 4. gününden itibaren) ile McGregor'ın özel silah kırıklarını kazanabilir ve bunlarla özel silahı aktif hale getirebilir ve geliştirebilirsiniz. Aksi takdirde, evrensel özel silah kırıkları toplayabilirsiniz, ancak bunları yalnızca geliştirmeler için kullanabilirsiniz, aktivasyon için değil."
+    },
+    "Professions": {
+      "Title": "Meslekler – Seviye Limiti Seviye 100'e Yükseltildi",
+      "Description1": "Sezon 3'te meslekler için seviye limiti 100'e yükseltildi, bu da yeni yeteneklerin ve stratejik kararların kilidini açacak."
+    },
+    "Bazaar": {
+      "Title": "Çöl Pazarı",
+      "Description1": "Eğer kum solucanlarını öldürürseniz, Kum Solucanı Pul item'lerini toplayabilirsiniz (örneğin kum solucanları öldürüldüğünde düşen sandıklardan veya Kum Solucanı Krizi etkinliğindeki hedeflerden), bunları Çöl Pazarı'nda çok önemli item'lerle takas edebilirsiniz.",
+      "Description2": "Çöl Pazarı her hafta sıfırlanır ve yeni görevler açıldığında, her hafta orada ek item'ler bulabilirsiniz. Aşağıda, haftalık olarak mevcut olan tüm item'leri gösterecek ve her özel item'in kısa bir açıklamasını vereceğim."
+    }
   }
 }

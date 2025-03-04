@@ -1900,5 +1900,392 @@
       "Description2": "Se planean características adicionales de la API para futuras actualizaciones."
     },
     "Button": "Abrir Gestor de Jugadores Ahora"
+  },
+  "SeasonThree": {
+    "Title": "Temporada 3 – Reino Dorado",
+    "Content": {
+      "Link1": "Nuevas recursos base",
+      "Link2": "El mundo y el mapa",
+      "Link3": "Visitantes",
+      "Link4": "Escarabajo dorado",
+      "Link5": "Misiones de radar",
+      "Link6": "Nuevos edificios",
+      "Link7": "Centro de alianzas",
+      "Link8": "Recursos de la alianza",
+      "Link9": "Ciudades",
+      "Link10": "Fortalezas",
+      "Link11": "Puestos de comercio",
+      "Link12": "Desarrollo del juego",
+      "Link13": "Mejoras de héroes y armas",
+      "Link14": "Armas exclusivas",
+      "Link15": "Profesiones",
+      "Link16": "Zoco del desierto"
+    },
+    "Resources": {
+      "Title": "Nuevas recursos base – Mithril y Agua Santa",
+      "Description1": "Ahora hay recursos adicionales en el juego: Mithril y Agua Santa.",
+      "ScaredWater": {
+        "Title": "Agua Santa:",
+        "Description1": "Se utiliza para construir y mejorar edificios estacionales.",
+        "Description2": "El agua santa se puede obtener a través de lo siguiente:",
+        "List1": "Recompensas por derrotar a zombis por primera vez en un nivel específico",
+        "List2": "Al completar misiones de temporada",
+        "List3": "Al completar los objetivos de la temporada 3.",
+        "List4": "Uso del boleto de reclutamiento \"Regreso de los héroes\": Los héroes regresan en la temporada 3 – El regreso de la leyenda.",
+        "List5": "Recompensa por la conquista de una ciudad por primera vez.",
+        "List6": "Centro de la alianza: Una choza con Agua Santa."
+      },
+      "Mithril": {
+        "Title": "Mithril:",
+        "Description1": "Se utiliza para construir y mejorar estructuras estacionales. El Mithril se puede obtener a través de las siguientes actividades:",
+        "List1": "Recompensas por matar a zombis por primera vez en un nivel específico.",
+        "List2": "Visitantes frente a la muralla de tu base.",
+        "List3": "Al completar misiones de temporada.",
+        "List4": "Al completar los objetivos de la temporada 3.",
+        "List5": "Primer kill de sangre con el Doom Walker (primer DW kill del día).",
+        "List6": "Misiones de radar en las ruinas del desierto",
+        "List7": "Uso del boleto de reclutamiento \"Regreso del héroe\": Los héroes regresan en la temporada 3 – Regreso legendario.",
+        "List8": "Pase semanal y Pase de batalla de temporada (el mayor impulso).",
+        "List9": "Recompensa por la conquista por primera vez de una ciudad/fortaleza cavando.",
+        "List10": "Cavar fortalezas que pertenecen a la alianza produce Mithril.",
+        "List11": "Centro de la alianza: La fábrica de Mithril.",
+        "List12": "Tesoros del desierto: Las cajas fuertes abiertas."
+      }
+    },
+    "Map": {
+      "Title": "El mapa del mundo y sus regiones",
+      "Description1": "El mundo ha cambiado de nuevo. El mapa consta de tres tipos diferentes de edificios: ciudades, fortalezas de excavación y puestos de comercio.",
+      "Image1": "Ciudad",
+      "Image2": "Fortaleza de excavación",
+      "Image3": "Puesto de comercio",
+      "Description2": "Al comienzo de la temporada, tú y tus aliados llegan a la orilla del servidor (pero aún todos juntos como colmena de alianza) y no tienen una ciudad propia. Las ciudades deben ser reconquistadas, pero se aplican nuevas reglas.",
+      "Description3": "Los monstruos élite Doom se transforman en monstruos egipcios, y la mayoría de los zombis requieren alta resistencia a virus para ser eliminados.",
+      "NewMap": "El nuevo mapa",
+      "NewMapDescription": "El tamaño del mapa es de 13 x 13 casillas (aunque en el mapa de abajo parecen rectángulos). Cada casilla mide 75 x 75 \"píxeles\" (el tamaño de tu base es 3 x 3)."
+    },
+    "Visitors": {
+      "Title": "Visitantes",
+      "Description": "De vez en cuando, aparecerán dos tipos nuevos de visitantes frente a la muralla (el izquierdo después de unas horas, el derecho una vez al día) y repartirán Mithril."
+    },
+    "GoldenScarab": {
+      "Title": "Escarabajo Dorado",
+      "Description1": "Encontrarás escarabajos dorados en el mapa. Haz clic en ellos y ataca para recibir recompensas.",
+      "Description2": "Puedes encontrar escarabajos en:",
+      "List1": "Matar zombis en el mundo",
+      "List2": "Matar a los élite del apocalipsis.",
+      "List3": "Usar una mina terrestre (pueden aparecer criaturas subterráneas aleatorias, no solo escarabajos).",
+      "Image1": "El Escarabajo Dorado es visible al hacer zoom fuera del mapa. Lo verás moverse, y cuando comiences a atacarlo, se quedará quieto."
+    },
+    "RadarMissions": {
+      "Title": "Misiones de radar – Ruinas del Desierto",
+      "Description1": "Con la temporada 3 llega un nuevo tipo de misión de radar.",
+      "Description2": "Consiste en dos partes:",
+      "List1": "Un juego de azar donde puedes encontrar varias recompensas:",
+      "List1List1": "Has encontrado las ruinas del desierto.",
+      "List1List2": "Recoge las recompensas o arriesga avanzar más en las ruinas y perder todo.",
+      "List2": "Si caes en una trampa, comienza un minijuego con recompensa en monedas.",
+      "List2List1": "Corre para recoger monedas y evitar a los zombis. Tienes 30 segundos para escapar de las ruinas y recoger tantas monedas como puedas.",
+      "Description3": "Estas nuevas misiones de radar son realmente geniales porque pueden otorgarte grandes recompensas, siendo la mejor la medalla de mérito de la temporada (que puedes usar para comprar cosas en la tienda de la temporada), si tienes suerte de llegar a los últimos niveles y también elegir el cofre correcto."
+    },
+    "Building": {
+      "Title": "Nuevos edificios",
+      "Description1": "Durante la tercera temporada, estarán disponibles nuevos tipos de edificios.",
+      "CurseLab": {
+        "Title": "Laboratorio de Investigación de Maldiciones",
+        "Description": "En el laboratorio de investigación de maldiciones, puedes mejorar tu resistencia a las maldiciones, de manera similar a la resistencia a los virus, para derrotar a los zombis élite y los guardianes de las fortalezas excavadas. Para mejorar este laboratorio, necesitarás Agua Santa."
+      },
+      "BlessingFountain": {
+        "Title": "Fuente de Bendiciones",
+        "Description1": "Las Fuentes de Bendiciones producen Agua Santa; son similares a la Fábrica de Aleación de Titanio de la temporada 2.",
+        "Description2": "Hay varias Fuentes de Bendiciones disponibles. Para desbloquearlas, necesitas mejorar la fuente anterior (se llaman Fuente de Bendiciones I, II, III, IV, V). Para mejorarlas, necesitarás Mithril. Por lo tanto, consulta el artículo sobre los nuevos recursos de la temporada 3 para saber cómo obtenerlos."
+      },
+      "Altar": {
+        "Title": "Altar",
+        "Description1": "Este edificio solo se puede construir si el laboratorio de investigación de maldiciones alcanza el nivel 30.",
+        "Description2": "Aumentará los valores de los Guardianes del Desierto, de manera similar a como las bases militares (tanques/aire/misiles) aumentaban los atributos de los héroes en la temporada 2.",
+        "Image": "Cada nivel de este edificio aumenta los HP, el ataque y la defensa del guardián en un 0.5%."
+      }
+    },
+    "AllianceCenter": {
+      "Title": "Centro de la Alianza",
+      "Description1": "Ve a la pestaña 'Alianza' -> 'Centro de la Alianza' -> haz clic en las coordenadas para encontrar el Centro de la Alianza en el mapa.",
+      "Description2": "En el segundo día de la tercera temporada, tu alianza debe construir el Centro de la Alianza.",
+      "Description3": "Una vez que el Centro de la Alianza esté construido, producirá especias/h y otorgará mejoras a todos los miembros de la alianza dentro de su alcance. También evitará que los miembros sean expulsados por los gusanos gigantes en el alcance de la alianza.",
+      "Description4": "IMPORTANTE: Los valores de producción de especias pueden ser modificados por los desarrolladores. No uses las imágenes como referencia para estos valores. Puedes consultar el apartado 'Niveles' más abajo para obtener más información sobre estos valores.",
+      "RepairAllianceCenter": {
+        "Title": "Reparación del Centro de la Alianza:",
+        "List1": "Cuantos más escuadrones ingresen al Centro de la Alianza, más rápido se construirá.",
+        "Description1": "Puedes ver el alcance de las mejoras aplicadas por el Centro de la Alianza al hacer zoom en el mapa."
+      },
+      "AdditionalFeatures": {
+        "Title": "Funciones adicionales:",
+        "Description1": "Una vez que el Centro de la Alianza esté creado, podrás ver qué niveles desbloquean nuevas funciones."
+      },
+      "MithrilPlant": {
+        "Title": "Planta de Mithril",
+        "Description1": "Este edificio produce 34,560 Mithril/h y se desbloquea cuando el Centro de la Alianza alcanza el nivel 5.",
+        "Description2": "Si el edificio se daña, la producción se detendrá. Si se destruye, la alianza perderá un porcentaje correspondiente de especias.",
+        "Description3": "Accede a la página del Centro de la Alianza y haz clic en el Mithril que ves en la construcción del Centro de la Alianza, como se muestra en la imagen, para recoger el Mithril producido."
+      },
+      "ExploratoryWell": {
+        "Title": "Pozo de Exploración",
+        "Description1": "Este edificio produce 600 petróleo/h y se desbloquea cuando el Centro de la Alianza alcanza el nivel 10.",
+        "Description2": "Si el edificio se daña, la producción se detendrá. Si se destruye, la alianza perderá un porcentaje correspondiente de especias.",
+        "Description3": "Accede a la página del Centro de la Alianza y haz clic en el petróleo que ves en la construcción del Centro de la Alianza, como se muestra en la imagen, para recoger el petróleo producido."
+      },
+      "SacredWaterHut": {
+        "Title": "Cabaña de Agua Santa",
+        "Description1": "Este edificio produce 8640 Agua Santa/h y se desbloquea cuando el Centro de la Alianza alcanza el nivel 15.",
+        "Description2": "Si el edificio se daña, la producción se detendrá. Si se destruye, la alianza perderá un porcentaje correspondiente de especias.",
+        "Description3": "Accede a la página del Centro de la Alianza y haz clic en el Agua Santa que ves en la construcción del Centro de la Alianza, como se muestra en la imagen, para recoger el Agua Santa producido."
+      },
+      "Obelisk": {
+        "Title": "Obelisco",
+        "Description1": "Este edificio produce 6 cuernos de guardián/h y se desbloquea cuando el Centro de la Alianza alcanza el nivel 20.",
+        "Description2": "Si el edificio se daña, la producción se detendrá. Si se destruye, la alianza perderá un porcentaje correspondiente de especias.",
+        "Description3": "Accede a la página del Centro de la Alianza y haz clic en el cuerno de guardián que ves en la construcción del Centro de la Alianza, como se muestra en la imagen, para recoger el cuerno de guardián producido."
+      },
+      "Level": {
+        "Title": "Niveles",
+        "Description1": "El nivel del Centro de la Alianza sube automáticamente en función de las especias acumuladas."
+      },
+      "Relocation": {
+        "Title": "Reubicación",
+        "Description1": "El Centro de la Alianza se puede reubicar. Para hacerlo, debes construir el sitio de reubicación, de la misma manera que construiste el Centro de la Alianza original. Esto es similar a la reubicación del horno de la alianza en la temporada 2.",
+        "Description2": "IMPORTANTE: Una vez que comiences a construir el sitio de reubicación, los enemigos podrán atacarlo. Así que ten cuidado."
+      }
+    },
+    "NewFarms": {
+      "Title": "Nuevas granjas – Recursos de la alianza",
+      "Description1": "Como se mostró en las temporadas 1 y 2, después de vencer a los élites del apocalipsis, temporalmente aparecerá aleatoriamente un nuevo tipo de granja/campo de recursos de la alianza.",
+      "Description2": "En la temporada 3, estas granjas pueden contener Agua Santa, Mithril y tipos de petróleo. Hasta 10 escuadrones pueden recolectar en cada campo de recolección.",
+      "Description3": "En la temporada 3, el juego no indica la probabilidad de que aparezcan losetas de recursos de la alianza después de matar monstruos. En la temporada 2, esta probabilidad era del 5%.",
+      "Description4": "Aquí tienes un ejemplo de nuevas losetas de recursos:"
+    },
+    "Cities": {
+      "Title": "Ciudades",
+      "Description1": "La conquista de la ciudad sigue el calendario del evento City Clash de la Temporada 3.",
+      "Description2": "Las especias producidas por los propietarios de las ciudades son fundamentales para ganar la tercera temporada, y la cantidad depende del nivel de la ciudad.",
+      "Description3": "Producción de especias por nivel de ciudad:",
+      "List1": "Nivel 1: 100/h especias",
+      "List2": "Nivel 2: 200/h especias",
+      "List3": "Nivel 3: 300/h especias",
+      "List4": "Nivel 4: 400/h especias",
+      "List5": "Nivel 5: 500/h especias",
+      "List6": "Nivel 6: 600/h especias",
+      "Description4": "Límites de conquista de ciudades",
+      "Description5": "Como podemos ver en 'Botón de Alianza -> Ciudad de la Alianza':",
+      "List7": "Límite de declaración de guerra diaria para las ciudades: 2",
+      "List8": "Máximo de ciudades conquistadas: 8",
+      "List9": "Conquistas diarias de fortalezas excavadas: 2",
+      "List10": "Máximo de fortalezas excavadas conquistadas: 8"
+    },
+    "Strongholds": {
+      "Title": "Fortalezas Excavadas",
+      "Description1": "Las fortalezas excavadas son lugares en el mapa donde se puede extraer Mithril. Son similares a los sitios de excavación de la temporada 2.",
+      "Description2": "Están protegidas por guardianes momias y destructores dorados. Cuanto mayor sea el nivel de la fortaleza excavada, más fuerte será el protector.",
+      "Description3": "Con la última actualización del juego, se produce Mithril/h al excavar en las fortalezas, según su nivel:",
+      "List1": "Nivel 1: 100/h Mithril",
+      "List2": "Nivel 2: 120/h Mithril",
+      "List3": "Nivel 3: 140/h Mithril",
+      "List4": "Nivel 4: 160/h Mithril",
+      "List5": "Nivel 5: 180/h Mithril",
+      "List6": "Nivel 6: 200/h Mithril",
+      "Description4": "Existen tres tipos diferentes de Bestias Doradas que defienden las fortalezas excavadas. Haz clic en el 'i' para ver los detalles",
+      "List7": "El Defensor Dorado es del tipo Tanque.",
+      "List8": "El Guerrero Dorado es un avión de tipo.",
+      "List9": "El Destructor Dorado es un misil de tipo.",
+      "Description5": "Al excavar en las fortalezas, se genera Mithril, que puedes recoger haciendo clic en 'Alianza' -> 'Ciudades de la Alianza' -> 'Excavar en las fortalezas' -> 'Reclamar todo'."
+    },
+    "TradePosts": {
+      "Title": "Puestos de Comercio",
+      "Description1": "Los puestos de comercio se encuentran en ubicaciones específicas del mapa. Están dispuestos diagonalmente hacia la capital y pueden tener varios niveles hasta el nivel 5.",
+      "Description2": "Los puestos de comercio no son lo mismo que las fortalezas o ciudades. Pueden ser ocupados por individuos y abren un mercado en el que cualquiera puede comprar artículos. El dueño del puesto de comercio puede ganar impuestos.",
+      "Description3": "No es necesario controlar áreas adyacentes y no hay límite para la cantidad de puestos de comercio que puedes tener. Sin embargo, los puestos de comercio pueden ser conquistados por otros, por lo que deberás defenderlos. Por lo tanto, generalmente es difícil para un jugador gestionar demasiados puestos de comercio de manera efectiva.",
+      "Description4": "Reglas para la conquista de puestos de comercio",
+      "List1": "Los niveles de los puestos de comercio se desbloquean gradualmente (la fecha de inicio del evento se muestra en cada puesto de comercio):",
+      "List1List1": "Nivel 1: Domingo, Día 7 de la semana 2, a las 12:00 hora del servidor (esta es la única conquista en la que otros servidores no pueden venir a conquistar puestos de comercio en tu servidor)",
+      "List1List2": "Nivel 2: Lunes, Día 1 de la semana 3, a las 12:00 hora del servidor",
+      "List1List3": "Nivel 3: Martes, Día 2 de la semana 3, a las 12:00 hora del servidor",
+      "List1List4": "Nivel 4: Jueves, Día 4 de la semana 3, a las 12:00 hora del servidor",
+      "List1List5": "Nivel 5: Viernes, Día 5 de la semana 3, a las 12:00 hora del servidor",
+      "List2": "IMPORTANTE: A partir del Día 1 de la semana 3, los teletransportes entre las zonas de guerra del grupo de la temporada estarán habilitados, y otras zonas de guerra podrán venir y conquistar puestos de comercio en tu zona de guerra.",
+      "List3": "Una vez que comience el evento de conquista del puesto de comercio, durará 1 hora.",
+      "List4": "Las tropas estacionadas en el puesto de comercio aumentan gradualmente el progreso de conquista con el tiempo.",
+      "List5": "El progreso se realiza por separado para ti y tus aliados.",
+      "List6": "Durante el evento, el primer comandante que alcance un 100% de progreso gana el puesto de comercio. Si nadie alcanza el 100% al final del evento, el comandante con el progreso más alto tomará el puesto de comercio, siempre que no tenga un gobernador.",
+      "List7": "Tu base debe estar en el área contaminada del puesto de comercio objetivo para poder atacarlo y conquistarlo.",
+      "List8": "Si el puesto de comercio ya tiene un gobernador, el gobernador actual mantiene el control si nadie alcanza el 100% al final del evento.",
+      "List9": "Una vez que un puesto de comercio sea conquistado, el siguiente evento para su reconquista ocurrirá 7 días después.",
+      "Description5": "Cada puesto de comercio es una tienda independiente, y los comandantes dentro del mismo grupo de temporada pueden comprar artículos de él.",
+      "Description6": "Niveles de los puestos de comercio",
+      "Description7": "Como puedes ver en estas imágenes, cuanto más alto es el nivel del puesto de comercio, más artículos estarán disponibles.",
+      "Description8": "Todos los demás parámetros permanecen iguales, pero la ventaja del gobernador debido al aumento del límite de guardianes aumenta gradualmente.",
+      "Description9": "Negocios de Comercio",
+      "Description10": "Una vez que el gobernador tome control de un puesto de comercio, la tienda de comercio se abrirá y los artículos podrán ser comprados. Haz clic en el puesto de comercio y luego en el ícono mostrado abajo para acceder a la tienda.",
+      "Description11": "El gobernador puede invocar una caravana comercial una vez para reabastecer los artículos y permitir las compras.",
+      "Description12": "Desafortunadamente, no todos los artículos mostrados en la tienda están disponibles para todos los comandantes. El principio es 'El primero en llegar, primero en moler', ya que la cantidad total de artículos disponibles es limitada. Además, algunos artículos son exclusivos para el gobernador.",
+      "Description13": "Impuestos",
+      "Description14": "Los diamantes gastados en un puesto de comercio generan ingresos fiscales. Si todos los artículos se agotan o el gobernador abandona el puesto de comercio, los impuestos recolectados se enviarán al gobernador en forma de un Huevo Dorado, el cual luego podrá compartir en el chat."
+    },
+    "GamePlay": {
+      "Title": "Juego",
+      "Description1": "En la Temporada 3 hay muchas nuevas cosas que puedes hacer en el juego:",
+      "Link1": "Dale me gusta al Cat-Basis-Skin para obtener recompensas.",
+      "Link2": "Crisis del Gusano de Arena",
+      "Link3": "Protectores del Desierto",
+      "Link4": "Construye un Oasis",
+      "Link5": "Artefactos del Desierto",
+      "Link6": "Doom Walker - Los últimos Jedi",
+      "Link7": "Camión",
+      "Description2": "Dale me gusta al Cat-Basis-Skin para obtener recompensas",
+      "Description3": "Encuentra Skins de base para gatos y dale un ‘me gusta’ para obtener una recompensa de inmediato. Hay un límite diario para la cantidad de ‘me gusta’ que puedes dar.",
+      "SandWorm": {
+        "Title": "Crisis del Gusano de Arena",
+        "Description1": "Desde el inicio de la temporada 3, los gusanos de arena acechan bajo la arena y escuchan cada sonido de los comandantes.",
+        "Description2": "El evento Crisis del Gusano de Arena comienza el primer día y dura 14 días.",
+        "Image1": "Botín-Caídas: Hay un límite de 30 piezas de botín que puedes recoger al día.",
+        "List1": "Durante el evento, aparecerán gusanos de arena. Cázalos para completar misiones y ganar recompensas.",
+        "List2": "Cuando las tropas de los miembros de la alianza están involucradas en batallas, generan ondas de choque. Cuando la barra de progreso se llena, el último comandante que la active atraerá a un gusano de arena que atacará su base. Las bases rodeadas por gusanos de arena pequeños no pueden enviar colas, pero pueden escapar usando objetos de teletransportación. Sin embargo, el pequeño gusano de arena desaparecerá y se perderán recompensas. (Solo las marchas de recolección en curso pueden continuar.)",
+        "List3": "Después de que un gusano de arena sea derrotado, el comandante atacado recibirá una recompensa adicional por correo electrónico.",
+        "List4": "En el transcurso del evento, aparecerán gusanos de arena grandes. Las bases fuera del centro de la alianza serán lanzadas por los gusanos de arena grandes.",
+        "List5": "Comandantes que abandonen la alianza ya no generarán valor de onda de choque.",
+        "List6": "Aunque no se rastree en esta página, también aparecerán gusanos de arena gigantes atrapados por minas terrestres.",
+        "Description3": "Gusano de Arena Pequeño",
+        "Description4": "Cuando los comandantes luchan contra monstruos en el mapa, se generan ondas de choque que atraen gusanos de arena pequeños. Una vez que la barra de progreso se llena, el último comandante que la active atraerá al gusano de arena que lo rodeará.",
+        "Description5": "El ‘botín posible’ listado como recompensa se dejará en forma de cofres en el mapa cerca del lugar donde el gusano de arena fue derrotado.",
+        "Description6": "Gusano de Arena Grande",
+        "Description7": "Los gusanos de arena grandes pueden ser atacados con marchas de asalto y son mucho más fuertes que los gusanos pequeños.",
+        "Description8": "La recompensa de descubrimiento incluye escamas de gusano de arena.",
+        "Description9": "Si un gusano de arena grande aparece directamente debajo de tu base, tu base será lanzada a un lugar remoto en el mapa.",
+        "Description10": "En este caso, aparecerá un mensaje emergente que te alertará de este evento.",
+        "Description11": "Para evitar que tu base sea rechazada por los gusanos de arena, deberías quedarte en las áreas de la alianza, ya que el centro de la alianza en estas áreas proporciona mejoras que te protegen de los gusanos de arena.",
+        "Description12": "Recompensas",
+        "Description13": "Luchar contra los gusanos de arena ofrece recompensas adicionales diarias, dependiendo de los objetivos.",
+        "Description14": "Compara el tamaño de los gusanos de arena gigantes con el de una ciudad. Cuando los gusanos de arena aparezcan, saldrán del área, como puedes ver directamente alrededor de la ciudad. Si el gusano de arena no se mata, desaparecerá después de 5 horas.",
+        "Description15": "El centro de la alianza evita que los miembros sean rechazados por gusanos de arena gigantes en áreas de la alianza."
+      },
+      "Protector": {
+        "Title": "Protectores del Desierto",
+        "Description1": "Los Protectores del Desierto son un nuevo tipo de soldado con habilidades mejoradas, disponible desde el primer día de la temporada 3, semana 1, cuando se desbloquee el evento ‘Tecnología Antigua – Protector’.",
+        "Description2": "Se ha confirmado que no representan el T11, por lo que se espera que el T11 esté disponible en el futuro.",
+        "Description3": "Este nuevo tipo de soldado es una buena adición al juego, ya que no depende exclusivamente de cuánto gastes o lo bien que entrenes a tus soldados. Los Protectores del Desierto no se entrenan, sino que se resucitan de entre los muertos. Son desechables y desaparecen tan pronto como los usas.",
+        "Description4": "Campo de Protector",
+        "Description5": "Una vez que se desbloquee el evento ‘Tecnología Antigua – Campo del Protector’, podrás construir el Campo del Protector del Desierto frente a la muralla de tu base.",
+        "Description6": "IMPORTANTE: No subas el Campo del Protector más allá del nivel 10 al comienzo de la temporada, ya que a partir del nivel 11 necesitarás Mithril y Agua Sagrada, que son necesarios para otros edificios estacionales. Además, con el nivel 10 ya tendrás acceso a todas las funciones del Protector del Desierto, por lo que no es necesario mejorarlo al principio.",
+        "Description7": "Este campo estacional se puede mejorar como cualquier otro edificio y te dará acceso al menú de gestión de los Protectores del Desierto.",
+        "Description8": "Si cambias al modo mapa (de vista base a vista mapa), podrás acceder al Campo del Protector del Desierto a través del símbolo correspondiente, justo encima de los iconos de Camión/Misiones Secretas.",
+        "Description9": "Habilidades de los Protectores del Desierto",
+        "Description10": "Los Protectores, bendecidos por el desierto, tienen una fuerza de combate superior. Son más fuertes que las unidades del mismo nivel.",
+        "Description11": "Cada héroe puede llevar Protectores en una cantidad equivalente a 1/10 de las unidades (incluso con este límite, los Protectores son más fuertes que los soldados del mismo nivel).",
+        "Description12": "A diferencia de las unidades normales, los Protectores que participan en batallas no regresan, sino que desaparecen en el desierto. Úsalos con cuidado.",
+        "Description13": "Si son utilizados pero no luchan, todos los Protectores regresarán.",
+        "Description14": "Dependiendo de cuántos Protectores del Desierto estén estacionados en tu área de Protector, se desbloquearán habilidades progresivas.",
+        "Description15": "Fuerza de Personalización (se desbloquea cuando 500 o más Protectores estén estacionados en el Campo del Protector)",
+        "Description16": "Los Protectores tienen una resistencia adicional a las maldiciones (+250), así como mejoras en ataque, defensa y HP (+25%). Son perfectos para atacar enemigos cuya resistencia a las maldiciones no es suficiente.",
+        "Description17": "Onda de Choque Mortal (se desbloquea cuando 750 o más Protectores estén estacionados en el Campo del Protector)",
+        "Description18": "Hechizo de Llama Azul (se desbloquea cuando 1000 o más Protectores estén estacionados en el Campo del Protector).",
+        "Description19": "Cuando un pelotón con Protectores gana un ataque contra la base de otro comandante, se activa el hechizo ‘Llama Azul’, que envuelve la base enemiga en llamas azules inextinguibles durante una hora.",
+        "Description20": "Rally del Protector (se desbloquea cuando 1250 o más Protectores estén estacionados en el Campo del Protector).",
+        "Description21": "¡Activa el Rally del Protector!",
+        "Description22": "Restricción del Rally: Los aliados que se unan al rally deben enviar tropas con Protectores.",
+        "Description23": "Cuenta atrás del Rally: Los Rallys del Protector tienen un tiempo de preparación de 1 minuto.",
+        "Description24": "Buff del Líder: Todas las tropas en el rally se benefician de las mejoras activas del líder Protector.",
+        "Description25": "Conversión de Protectores",
+        "Description26": "En términos simples, así es como se crean los Protectores del Desierto:",
+        "Description27": "El 10% de las unidades perdidas en los siguientes casos irán al pool de conversión del Protector y esperarán allí para ser convertidas:",
+        "Description28": "Pérdidas en combate durante el duelo VS",
+        "Description29": "Unidades gravemente heridas que no pueden entrar al hospital cuando esté lleno.",
+        "Description30": "Pérdidas por violaciones en el campo de entrenamiento",
+        "Description31": "El número de unidades perdidas que pueden esperar en el pool de conversión es ilimitado.",
+        "Description32": "Los aliados envían aviones de reconocimiento para ayudarte a convertir cada unidad.",
+        "Description33": "Si tu base es destruida, los Protectores del Desierto en el Campo de Protectores no se verán afectados.",
+        "Description34": "Protectores del Desierto - Atributos",
+        "Description35": "Aquí hay una comparación entre los soldados normales y la versión correspondiente del Protector del Desierto para algunas variantes.",
+        "Description36": "Nivel 10",
+        "Description37": "Nivel 9",
+        "Description38": "Nivel 7",
+        "Description39": "Mejora las propiedades del Protector con el Altar",
+        "Description40": "El Altar es un nuevo edificio diseñado específicamente para mejorar las propiedades del Protector del Desierto. Más información en la sección 'Altar'.",
+        "Description41": "Las unidades convertidas serán enviadas al Campo de Protectores.",
+        "Image1": "El símbolo del Protector del Desierto también te da una vista previa de cuántos soldados de este tipo están disponibles de inmediato.",
+        "Image2": "Las tropas que llevan Protectores obtienen automáticamente buffs activados: Los Protectores reciben resistencia adicional a las maldiciones y mejoras de estatus.",
+        "Image3": "Cuando un pelotón con Protectores es derrotado en batallas PvP, se elimina una parte de las unidades enemigas en función del nivel y la cantidad de Protectores que hayas matado.",
+        "Image4": "Desbloquea efectos poderosos de maldiciones al dominar las habilidades de especialización.",
+        "Image5": "Marcha Rápida: Obtén un impulso adicional de velocidad de marcha triple cuando participes en un Rally del Protector o lo uses."
+      },
+      "Oasis": {
+        "Title": "Construye un Oasis",
+        "Description1": "Este evento comienza al mismo tiempo que la apertura de las ciudades de nivel 1 en el tercer día de la primera semana y dura hasta el final de la temporada.",
+        "Description2": "Reglas para la revegetación:",
+        "List1": "Orden de revegetación: Solo puedes revegetar áreas de arena que estén junto a áreas ya vegetadas.",
+        "List2": "Expansión progresiva: El área disponible para revegetación aumenta durante el evento.",
+        "List3": "Progreso de revegetación: Una vez que el 80% de una región esté revegetada, se considerará completa y contribuirá al progreso general de la zona de guerra.",
+        "List4": "Tesoro del Desierto: En las áreas revegetadas, hay una oportunidad de encontrar tesoros raros (Artefactos del Desierto). Cada región contiene una cantidad fija de tesoros.",
+        "Description3": "Etapas",
+        "Description4": "Fase 1 (Semana 1–4 de la temporada):",
+        "List5": "Área de revegetación: La revegetación se desbloquea solo después de conquistar una ciudad.",
+        "List6": "Áreas restringidas: Las fortalezas, puestos de comercio y la capital no pueden ser revegetadas en esta fase.",
+        "List7": "Punto de inicio para la revegetación: Al conquistar una ciudad, la tierra contaminada alrededor se convertirá en áreas vegetadas, que servirán como punto de inicio para la expansión.",
+        "Description5": "Fase 2 (Semana 5–7 de la temporada):",
+        "List8": "Expansión de la revegetación: Los comandantes ahora pueden revegetar áreas de nivel 1 y gradualmente expandir a ciudades, fortalezas, puestos de comercio y la capital.",
+        "List9": "Progreso de desbloqueo: Cuando el progreso de revegetación en el nivel actual alcance el 80%, se desbloqueará el siguiente nivel, que permitirá revegetar la capital en el nivel 7.",
+        "List10": "Revegetación en múltiples zonas de guerra: Los comandantes ahora pueden revegetar libremente las zonas de guerra en los 8 territorios de guerra de su grupo de temporada.",
+        "Description6": "Cómo hacerlo más verde",
+        "Description7": "Revegetar es fácil: haz clic en una losa válida en el mapa y envía el avión de reconocimiento para revegetarla.",
+        "Description8": "La regla básica es que solo puedes revegetar losas adyacentes a una losa que ya esté verde: cuando se conquista una ciudad, la tierra a su alrededor se vuelve verde, lo que te permite comenzar el proceso de revegetación en esa área. Gradualmente se abrirán más zonas, según las fases descritas anteriormente."
+      },
+      "Artefact": {
+        "Title": "Artefactos del Desierto",
+        "Description1": "Los artefactos del desierto son similares a las colecciones de suministros de la temporada 2."
+      },
+      "DoomWalker": {
+        "Title": "Doom Walker - Los últimos Jedi",
+        "Description1": "En servidores tempranos, los nuevos niveles de los Doom Walkers aparecerán por primera vez en la Temporada 3.",
+        "Description2": "Para servidores más nuevos, este es el cronograma:",
+        "List1": "Después de ingresar a la temporada baja de la primera temporada, se desbloquearán los niveles de Doom Walker 200, 210 y 220.",
+        "List2": "Después de ingresar a la temporada baja de la Temporada 2, los Doom Walkers se desbloquearán en los niveles 230, 240 y 250.",
+        "Description3": "Los Doom Walkers son bastante importantes durante las temporadas, ya que se recompensan con muchos recursos escasos como Mithril por su primer derramamiento de sangre (primer kill del día)."
+      },
+      "Lkw": {
+        "Title": "Camión",
+        "Description1": "Los camiones están siendo renovados, pero solo de manera estética."
+      }
+    },
+    "Weapons": {
+      "Title": "Mejoras de héroes y armas",
+      "Description1": "La temporada 3 trae novedades sobre héroes y armas; su disponibilidad varía con el tiempo.",
+      "Description2": "La principal novedad: el evento de intercambio de héroes permite intercambiar el nivel de EXP y las estrellas de un héroe.",
+      "Description3": "Intercambio de héroes",
+      "Description4": "El intercambio de héroes es un nuevo evento que tiene lugar en la semana 2 y que finalmente te permite intercambiar el nivel de EXP y las estrellas de dos héroes.",
+      "Description5": "Con la temporada 3, recibirás inmediatamente 2 cupones de intercambio para intercambiar 2 héroes.",
+      "Description6": "Mejora de Scarlett a UR",
+      "Description7": "Será posible mejorar a Scarlett a un héroe UR. El evento tendrá lugar en el primer día de la tercera semana.",
+      "Description8": "Mason y Violet suben a UR",
+      "Description9": "Si tienes un elemento de mejora UR, puedes mejorar a Mason y/o Violet a héroes UR durante la tercera temporada. Ve a Mason o Violet y encontrarás el botón 'Promover'.",
+      "Description10": "S3: El regreso de la leyenda",
+      "Description11": "S3: El regreso de la leyenda comienza el primer día de la temporada 3. Usa inmediatamente los boletos de devolución de héroes para obtener más Mithril y agua secreta.",
+      "Description12": "S3: Armas de las leyendas",
+      "Description13": "S3: Armas de las leyendas comienza el tercer día. El contador de reinicio para un reclutamiento gratuito es de 2 días y 5 horas."
+    },
+    "ExclusiveWeapons": {
+      "Title": "Armas exclusivas",
+      "Description1": "La temporada 3 también trae algunas armas exclusivas: Marshall, Schuyler y McGregor.",
+      "Description2": "Arma exclusiva de Marshall",
+      "Description3": "Con el Pase de batalla para el arma exclusiva de Marshall (a partir del día 4 de la semana 1), podrás ganar fragmentos del arma exclusiva de Marshall, los cuales te permitirán activarla y mejorarla fácilmente. De lo contrario, podrás recolectar fragmentos universales de armas exclusivas, los cuales solo se pueden usar para mejoras, no para la activación.",
+      "Description4": "Arma exclusiva de Schuyler",
+      "Description5": "Con el Pase de batalla para el arma exclusiva de Schuyler (a partir del día 4 de la semana 3), podrás ganar fragmentos del arma exclusiva de Schuyler, los cuales te permitirán activarla y mejorarla fácilmente. De lo contrario, podrás recolectar fragmentos universales de armas exclusivas, los cuales solo se pueden usar para mejoras, no para la activación.",
+      "Description6": "Arma exclusiva de McGregor",
+      "Description7": "Con el Pase de batalla para el arma exclusiva de McGregor (a partir del día 4 de la semana 6), podrás ganar fragmentos del arma exclusiva de McGregor, los cuales te permitirán activarla y mejorarla fácilmente. De lo contrario, podrás recolectar fragmentos universales de armas exclusivas, los cuales solo se pueden usar para mejoras, no para la activación."
+    },
+    "Professions": {
+      "Title": "Profesiones – Límite de nivel extendido a nivel 100",
+      "Description1": "En la temporada 3, el límite de nivel para las profesiones se incrementa a nivel 100, lo que promete desbloquear más habilidades nuevas y decisiones estratégicas."
+    },
+    "Bazaar": {
+      "Title": "Bazar del desierto",
+      "Description1": "Si matas a los gusanos de arena, puedes recolectar objetos de escamas de gusano de arena (por ejemplo, de cofres de botín cuando los gusanos de arena son asesinados o como objetivos en el evento de crisis de gusanos de arena), que puedes intercambiar en el Bazar del desierto por objetos muy importantes.",
+      "Description2": "El Bazar del desierto se reinicia semanalmente, y cuando se desbloquean nuevas misiones, puedes encontrar allí objetos adicionales cada semana. A continuación, muestro todos los objetos disponibles semanalmente y una breve descripción de cada objeto especial."
+    }
   }
 }
