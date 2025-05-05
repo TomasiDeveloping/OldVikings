@@ -40,6 +40,7 @@ import { CapitolComponent } from './pages/capitol/capitol.component';
 import { WeekDayPipe } from './pipes/week-day.pipe';
 import { PlayerManagerComponent } from './pages/player-manager/player-manager.component';
 import { SeasonThreeComponent } from './pages/season-three/season-three.component';
+import { SeasonThreeAllianceLeaderboardComponent } from './pages/season-three/season-three-alliance-leaderboard/season-three-alliance-leaderboard.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -74,7 +75,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         CapitolComponent,
         WeekDayPipe,
         PlayerManagerComponent,
-        SeasonThreeComponent
+        SeasonThreeComponent,
+        SeasonThreeAllianceLeaderboardComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,

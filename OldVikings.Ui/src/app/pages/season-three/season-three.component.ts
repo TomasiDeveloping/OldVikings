@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-season-three',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class SeasonThreeComponent {
 
+  private readonly _router: Router = inject(Router)
+
+  goToLeaderboard() {
+    this._router.navigate(['season-three-leaderboard']).then();
+  }
 }

@@ -67,7 +67,7 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
         "Hoppit",
         "Arvad",
         "Bjorngij",
-        "JJ2327",
+        "Mr Xfire",
         "Rosscoz",
         "Kartoh"
     ];
