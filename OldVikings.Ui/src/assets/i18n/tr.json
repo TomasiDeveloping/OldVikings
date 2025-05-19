@@ -559,6 +559,12 @@
       "Friday": "Cuma:",
       "Saturday": "Cumartesi:"
     },
+    "Discord": {
+      "Title": "Discord Topluluğumuz",
+      "Description1": "Old Vikings topluluğumuza Discord üzerinden katıl! Diğer oyuncularla iletişime geç, yardım al ve güncel kal.",
+      "Description2": "İster ipuçları, ister planlama, ister sadece Viking sohbeti olsun – doğru yerdesin!",
+      "Button": "Discord sunucumuza katıl"
+    },
     "Donate": {
       "Title": "Nasıl Katkıda Bulunabilirsiniz / Bağışlayabilirsiniz",
       "Description": "Bir İttifak Teknolojisine katkıda bulunmak için şu kurallar geçerlidir:",

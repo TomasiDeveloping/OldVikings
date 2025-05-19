@@ -59,7 +59,7 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
 
     private readonly string[] _players =
     [
-        "forrgaet",
+        "AngelsOfDeath215",
         "YLBH001",
         "ThorCH",
         "Faye AKA Dave",

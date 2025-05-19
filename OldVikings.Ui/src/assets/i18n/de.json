@@ -559,6 +559,12 @@
       "Friday": "Freitag:",
       "Saturday": "Samstag:"
     },
+    "Discord": {
+      "Title": "Unsere Community auf Discord",
+      "Description1": "Werde Teil unserer Old Vikings Community auf Discord! Tausche dich mit anderen Spielern aus, erhalte Hilfe und bleib immer auf dem Laufenden.",
+      "Description2": "Ob Tipps, Planung oder einfach nur Wikinger-Gelaber – bei uns bist du richtig!",
+      "Button": "Trete unserem Discord bei"
+    },
     "Donate": {
       "Title": "So können Sie beitragen/spenden",
       "Description": "Um zu einer Alliance Tech beizutragen, gelten die folgenden Regeln:",

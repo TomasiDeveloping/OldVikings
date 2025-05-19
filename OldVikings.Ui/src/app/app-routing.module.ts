@@ -39,7 +39,7 @@ const routes: Routes = [
   {path: 'rules', component: RulesComponent},
   {path: 'desert-storm', component: DesertStormComponent, canActivate: [memberGuard]},
   {path: 'marshall', component: MarshallComponent, canActivate: [memberGuard]},
-  {path: 'alliances', component: AlliancesComponent},
+  {path: 'alliances', component: AlliancesComponent, canActivate: [memberGuard]},
   {path: 'basics', component: BasicsComponent},
   {path: 'tips-and-tricks', component: TipsAndTricksComponent, canActivate: [memberGuard]},
   {path: 'buildings', component: BuildingsComponent, canActivate: [memberGuard]},

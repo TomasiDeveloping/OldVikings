@@ -563,6 +563,12 @@
       "Friday": "Fredag:",
       "Saturday": "Lørdag:"
     },
+    "Discord": {
+      "Title": "Vores fællesskab på Discord",
+      "Description1": "Bliv en del af vores Old Vikings-fællesskab på Discord! Udveksl erfaringer med andre spillere, få hjælp og hold dig opdateret.",
+      "Description2": "Uanset om det er tips, planlægning eller bare vikinge-snak – du er kommet til det rette sted!",
+      "Button": "Deltag i vores Discord"
+    },
     "Donate": {
       "Title": "Hvordan Du Kan Bidrage/Donere",
       "Description": "For at bidrage til alliance-teknologi gælder følgende regler:",

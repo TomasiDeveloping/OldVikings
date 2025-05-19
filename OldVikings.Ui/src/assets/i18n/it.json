@@ -559,6 +559,12 @@
       "Friday": "Venerdì:",
       "Saturday": "Sabato:"
     },
+    "Discord": {
+      "Title": "La nostra community su Discord",
+      "Description1": "Unisciti alla nostra community di Old Vikings su Discord! Connettiti con altri giocatori, ricevi aiuto e rimani sempre aggiornato.",
+      "Description2": "Che si tratti di consigli, pianificazione o semplici chiacchiere vichinghe – sei nel posto giusto!",
+      "Button": "Unisciti al nostro Discord"
+    },
     "Donate": {
       "Title": "Come Puoi Contribuire/Donare",
       "Description": "Per contribuire alla tecnologia dell'alleanza, si applicano le seguenti regole:",
