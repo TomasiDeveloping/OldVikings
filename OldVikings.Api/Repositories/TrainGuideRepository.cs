@@ -60,13 +60,13 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
     private readonly string[] _players =
     [
         "AngelsOfDeath215",
-        "YLBH001",
+        "Blame Dirk",
         "ThorCH",
-        "Faye AKA Dave",
-        "Ljv26",
+        "Faye the drama queen",
+        "Wiki L",
         "Hoppit",
         "Arvad",
-        "Bjorngij",
+        "TheyCallmeBeeBeeB",
         "Mr Xfire",
         "Rosscoz",
         "Kartoh"
