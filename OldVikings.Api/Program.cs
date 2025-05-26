@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using OldVikings.Api.Classes;
 using OldVikings.Api.Database;
 using OldVikings.Api.Interfaces;
 using OldVikings.Api.Profiles;
@@ -24,6 +25,10 @@ try
 
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
+
+    builder.Services.AddHttpClient();
+
+    builder.Services.Configure<DiscordWebhookOptions>(builder.Configuration.GetSection("Discord:Webhooks"));
 
     builder.Services.AddDbContext<OldVikingsContext>(options =>
     {
