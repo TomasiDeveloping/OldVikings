@@ -85,7 +85,7 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
     }
 
     [HttpGet("desert-storm")]
-    public async Task<IActionResult> DesertStormReminder([FromQuery]string key)
+    public async Task<IActionResult> DesertStormReminder([FromQuery]string key, string team)
     {
         try
         {
@@ -94,7 +94,7 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                 return Unauthorized();
             }
 
-            var jsonBody = GetDesertStormContent();
+            var jsonBody = GetDesertStormContent(team);
 
             var response = await SendToDiscordWebhook(_discordWebhookOptions.DesertStormChannelUrl, jsonBody);
 
@@ -241,16 +241,16 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                  """;
     }
 
-    private static string GetDesertStormContent()
+    private static string GetDesertStormContent(string team)
     {
-        return """
+        return $$"""
 
                {
                  "content": "@everyone",
                  "embeds": [
                    {
-                     "title": "🌪️ Desert Storm starts in 15 minutes!",
-                     "description": "**All registered players must be on time.**\nBackup players – stay alert and be ready to step in if needed.\n\nStick to the battle plan, stay focused, and let’s give it our best.\n\n_We fight as one – from first wave to final push._",
+                     "title": "🌪️ Desert Storm for Team {{team}} starts in 15 minutes!",
+                     "description": "Team {{team}}**All registered players must be on time.**\nBackup players – stay alert and be ready to step in if needed.\n\nStick to the battle plan, stay focused, and let’s give it our best.\n\n_We fight as one – from first wave to final push._",
                      "color": 15844367,
                      "footer": {
                        "text": "Desert Storm – Stay sharp and coordinated."
