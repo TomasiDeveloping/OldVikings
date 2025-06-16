@@ -35,9 +35,10 @@ try
         options.UseSqlServer(builder.Configuration.GetConnectionString("OldVikings"));
     });
 
-    builder.Services.AddAutoMapper(options => { options.AddProfile<GreetingProfile>(); });
+    builder.Services.AddAutoMapper(options => { options.AddProfile<GreetingProfile>(); options.AddProfile<R4RoleProfile>(); });
 
     builder.Services.AddScoped<IGreetingRepository, GreetingRepository>();
+    builder.Services.AddScoped<IR4RoleRepository, R4RoleRepository>();
     builder.Services.AddTransient<ITranslateService, TranslateService>();
     builder.Services.AddTransient<ITrainGuideRepository, TrainGuideRepository>();
 

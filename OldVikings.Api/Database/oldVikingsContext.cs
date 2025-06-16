@@ -14,4 +14,6 @@ public class OldVikingsContext(DbContextOptions<OldVikingsContext> options) : Db
     public DbSet<Greeting> Greetings { get; set; }
 
     public DbSet<TrainGuide> TrainGuides { get; set; }
+
+    public DbSet<R4Roles> R4Roles { get; set; }
 }

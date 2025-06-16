@@ -250,7 +250,7 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                  "embeds": [
                    {
                      "title": "🌪️ Desert Storm for Team {{team}} starts in 15 minutes!",
-                     "description": "Team {{team}}**All registered players must be on time.**\nBackup players – stay alert and be ready to step in if needed.\n\nStick to the battle plan, stay focused, and let’s give it our best.\n\n_We fight as one – from first wave to final push._",
+                     "description": "Team {{team}} **All registered players must be on time.**\nBackup players – stay alert and be ready to step in if needed.\n\nStick to the battle plan, stay focused, and let’s give it our best.\n\n_We fight as one – from first wave to final push._",
                      "color": 15844367,
                      "footer": {
                        "text": "Desert Storm – Stay sharp and coordinated."
