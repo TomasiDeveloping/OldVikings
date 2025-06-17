@@ -39,6 +39,7 @@ try
 
     builder.Services.AddScoped<IGreetingRepository, GreetingRepository>();
     builder.Services.AddScoped<IR4RoleRepository, R4RoleRepository>();
+    builder.Services.AddScoped<IR4PlayerRepository, R4PlayerRepository>();
     builder.Services.AddTransient<ITranslateService, TranslateService>();
     builder.Services.AddTransient<ITrainGuideRepository, TrainGuideRepository>();
 

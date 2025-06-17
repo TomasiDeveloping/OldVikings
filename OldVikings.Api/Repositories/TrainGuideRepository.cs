@@ -7,6 +7,7 @@ namespace OldVikings.Api.Repositories;
 
 public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideRepository> logger) : ITrainGuideRepository
 {
+    private string[] _players = [];
     public async Task<TrainGuideDto> GetTrainGuide(CancellationToken cancellationToken)
     {
         var trainGuide = await context.TrainGuides.FirstOrDefaultAsync(cancellationToken);
@@ -16,6 +17,8 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
             logger.LogError("No Data found");
             throw new ApplicationException("No Data found");
         }
+
+        await GetR4Players(cancellationToken);
 
         var today = DateTime.Now;
 
@@ -57,18 +60,13 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
         { DayOfWeek.Tuesday , "3Place"}
     };
 
-    private readonly string[] _players =
-    [
-        "AngelsOfDeath215",
-        "Blame Dirk",
-        "ThorCH",
-        "Faye the drama queen",
-        "Wiki L",
-        "Hoppit",
-        "Arvad",
-        "TheyCallmeBeeBeeB",
-        "Mr Xfire",
-        "Rosscoz",
-        "Kartoh"
-    ];
+    private async Task GetR4Players(CancellationToken cancellationToken)
+    {
+        var players = await context.R4Players
+            .AsNoTracking()
+            .OrderBy(r4Player => r4Player.Order)
+            .ToListAsync(cancellationToken);
+
+        _players = players.Select(p => p.PlayerName).ToArray();
+    }
 }
