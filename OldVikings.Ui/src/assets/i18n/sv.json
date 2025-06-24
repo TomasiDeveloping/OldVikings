@@ -569,6 +569,12 @@
       "Description2": "Oavsett om det gäller tips, planering eller bara lite vikingasnack – du har kommit rätt!",
       "Button": "Gå med i vår Discord"
     },
+    "R4Roles": {
+      "Title": "Roller och Ansvarsområden",
+      "Description": "Våra R4-medlemmar har inte bara titlar – de får alliansen att fungera. Varje roll har tydliga uppgifter, oavsett om det handlar om strategi, rekrytering, teknik eller kommunikation.",
+      "Description2": "Har du en fråga? Då vet du efter detta exakt vem du ska vända dig till.",
+      "Button": "Se ledningsstruktur"
+    },
     "Donate": {
       "Title": "Så här kan du bidra/donera",
       "Description": "För att bidra till en alliansteknologi gäller följande regler:",
@@ -2292,6 +2298,78 @@
       "Title": "Ökenbazaren",
       "Description1": "När du dödar sandmaskar kan du samla sandmaskskalig-objekt (t.ex. från drop-kistor när sandmaskar dödas eller som mål i sandmaskkris-evenemanget), som du kan byta mot mycket viktiga föremål i ökenbazaren.",
       "Description2": "Ökenbazaren återställs varje vecka, och när nya uppdrag låses upp, kan du hitta extra föremål där varje vecka. Nedan visar jag alla veckovis tillgängliga föremål och ger en kort beskrivning av varje särskilt föremål."
+    }
+  },
+  "R4Roles": {
+    "Title": "Alliansstruktur",
+    "DescriptionTitle": "Rollbeskrivningar",
+    "Marshal": {
+      "Description": "Leder alliansen och koordinerar den övergripande strukturen",
+      "Description2": "Stöttar R4-teamet i beslutsfattande",
+      "Description3": "Hanterar diplomatiska relationer med andra allianser",
+      "Description4": "Övervakar PlayerManager-systemet"
+    },
+    "Vs": {
+      "Description": "Meddelar 'Spara' eller 'All-in' varje söndag",
+      "Description2": "Delar VS-tips och information om motståndare",
+      "Description3": "Följer spelarpoäng under veckan",
+      "Description4": "Uppmuntrar till aktivt deltagande",
+      "Description5": "Skickar privata påminnelser vid behov"
+    },
+    "Tactical": {
+      "Description": "Aktiverar Marskalk-evenemanget och placerar marskalken",
+      "Description2": "Startar evenemanget vid planerad tid",
+      "Description3": "Planerar och förbereder Zombiebelägringen",
+      "Description4": "Ställer in nivåer för både Marskalk- och Zombie-evenemangen",
+      "Description5": "Skriver och publicerar meddelanden med dag och tid"
+    },
+    "Desert": {
+      "Description": "Aktiverar och skapar båda lagen på måndag",
+      "Description2": "Definierar strategi och roller för varje lag",
+      "Description3": "Motiverar spelare att delta och klargör förväntningar",
+      "Description4": "Skriver en sammanfattning efter evenemanget om det behövs"
+    },
+    "Personnel": {
+      "Description": "Söker nya spelare när det finns plats",
+      "Description2": "Ger regelbundna uppdateringar om kontaktade eller intresserade spelare",
+      "Description3": "Hälsar nya spelare välkomna med ett vänligt meddelande",
+      "Description4": "Tar bort inaktiva medlemmar med ett respektfullt meddelande",
+      "Description5": "Informerar alliansen om avgångar och – om möjligt – orsakerna"
+    },
+    "Strategy": {
+      "Description": "Delar användbara tips i alliansmeddelanden och på Discord",
+      "Description2": "Ger uppdateringar om speländringar och patch notes",
+      "Description3": "Informerar teamet om nya säsonger och evenemangsändringar",
+      "Description4": "Svarar på frågor och vägleder med nyttig information"
+    },
+    "Train": {
+      "Description": "Informerar tågledaren på morgonen och tilldelar VIP-gästen",
+      "Description2": "Meddelar VIP-spelaren dagens plats",
+      "Description3": "Planerar schema för tågledare från söndag till tisdag",
+      "Description4": "Tilldelar och annonserar dagens tåg"
+    },
+    "Donations": {
+      "Description": "Kontrollerar dagligen om spelare bidrar till donationerna",
+      "Description2": "Skickar vänliga påminnelser till de som glömt donera",
+      "Description3": "Rapporterar på söndag vilka som inte donerat under veckan"
+    },
+    "Special": {
+      "Description": "Planerar specialevenemang som Glacieradon och Generalens Prövning",
+      "Description2": "Undersöker och förklarar nya evenemangstyper för teamet",
+      "Description3": "Informerar spelare i god tid om kommande evenemang",
+      "Description4": "Meddelar evenemang med tydlig datum och tid",
+      "Description5": "Leder och startar evenemang enligt plan"
+    },
+    "Discipline": {
+      "Description": "Säkerställer att ingen spelare blir skuldbelagd eller förolämpad offentligt",
+      "Description2": "Griper in vid konflikter i chatten eller vid dåligt beteende",
+      "Description3": "Förhindrar att spelare ger olämpliga instruktioner",
+      "Description4": "Klargör att endast R4 eller utsedda roller ger officiell feedback"
+    },
+    "War": {
+      "Description": "Planerar krigsevenemang som Capitolium och Säsongskrig",
+      "Description2": "Närvarar personligen eller utser en pålitlig ersättare",
+      "Description3": "Motiverar spelare att delta och vara i tid"
     }
   }
 }

@@ -569,6 +569,12 @@
       "Description2": "Whether it's tips, planning, or just Viking chatter – you're in the right place!",
       "Button": "Join our Discord"
     },
+    "R4Roles": {
+      "Title": "Roles & Responsibilities",
+      "Description": "Our R4 members don’t just hold titles – they keep the alliance running. Each role comes with clear responsibilities, whether it’s strategy, recruitment, tech, or communication.",
+      "Description2": "Got a question? After this, you’ll know exactly who to reach out to.",
+      "Button": "View Leadership Structure"
+    },
     "Donate": {
       "Title": "How You Can Contribute/Donate",
       "Description": "To contribute to Alliance Tech, the following rules apply:",
@@ -2292,6 +2298,78 @@
       "Title": "Desert Bazaar",
       "Description1": "By killing sandworms, you can collect sandworm scale items (such as from drop chests when sandworms are killed or as objectives in the Sandworm Crisis event), which you can exchange for very important items in the Desert Bazaar.",
       "Description2": "The Desert Bazaar resets weekly, and when new missions are unlocked, you can find additional items there each week. Below, I list all the items available weekly and provide a brief description of each special item."
+    }
+  },
+  "R4Roles": {
+    "Title": "Alliance Structure",
+    "DescriptionTitle": "Role Descriptions",
+    "Marshal": {
+      "Description": "Lead the alliance and coordinate overall structure",
+      "Description2": "Support the R4 team in decision-making",
+      "Description3": "Manage diplomatic relations with other alliances",
+      "Description4": "Oversee the PlayerManager system"
+    },
+    "Vs": {
+      "Description": "Announce “Save” or “All-in” each Sunday",
+      "Description2": "Share VS tips and opponent insights",
+      "Description3": "Track player points throughout the week",
+      "Description4": "Encourage active participation",
+      "Description5": "Remind players privately if needed"
+    },
+    "Tactical": {
+      "Description": "Activate the Marshal event and position the Marshal",
+      "Description2": "Start the Marshal event at the planned time",
+      "Description3": "Plan and prepare the Zombie Siege",
+      "Description4": "Set event levels for both Marshal and Zombie",
+      "Description5": "Write and post announcements with day and time"
+    },
+    "Desert": {
+      "Description": "Activate and create both teams on Monday",
+      "Description2": "Define strategy and roles for each team",
+      "Description3": "Motivate players to join and communicate expectations",
+      "Description4": "Write a post-event summary if needed"
+    },
+    "Personnel": {
+      "Description": "Search for new players when space is available",
+      "Description2": "Provide regular updates on contacted or interested recruits",
+      "Description3": "Welcome new players with a friendly message",
+      "Description4": "Remove inactive members with a respectful message",
+      "Description5": "Inform the alliance of departures and their reasons, if possible"
+    },
+    "Strategy": {
+      "Description": "Share useful game tips in alliance messages and Discord",
+      "Description2": "Provide updates on game changes and patch notes",
+      "Description3": "Inform the team about new seasons and event changes",
+      "Description4": "Answer player questions and guide them with useful info"
+    },
+    "Train": {
+      "Description": "Inform the train leader in the morning and assign the VIP guest",
+      "Description2": "Notify the VIP player of their seat for the day",
+      "Description3": "Plan the train leader schedule from Sunday to Tuesday",
+      "Description4": "Assign and announce the daily train"
+    },
+    "Donations": {
+      "Description": "Check daily if players are contributing to alliance donations",
+      "Description2": "Politely remind those who missed their donations",
+      "Description3": "Report on Sunday any players who didn’t donate all week"
+    },
+    "Special": {
+      "Description": "Plan special events like Glacieradon and General’s Trial",
+      "Description2": "Research and explain new event types to the team",
+      "Description3": "Inform players early about upcoming events",
+      "Description4": "Announce events clearly with date and time",
+      "Description5": "Lead and launch the events as scheduled"
+    },
+    "Discipline": {
+      "Description": "Ensure no player is blamed, shamed, or insulted publicly",
+      "Description2": "Step in during chat conflicts or toxic behavior",
+      "Description3": "Prevent players from instructing others inappropriately",
+      "Description4": "Clarify that only R4 or assigned roles give official feedback"
+    },
+    "War": {
+      "Description": "Plan war events such as Capitol and Season Wars",
+      "Description2": "Ensure personal presence or appoint a reliable substitute",
+      "Description3": "Motivate players to participate and show up"
     }
   }
 }

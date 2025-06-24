@@ -565,6 +565,12 @@
       "Description2": "Of het nu gaat om tips, planning of gewoon Viking-gepraat – je bent hier op de juiste plek!",
       "Button": "Word lid van onze Discord"
     },
+    "R4Roles": {
+      "Title": "Rollen en Verantwoordelijkheden",
+      "Description": "Onze R4-leden dragen niet alleen een titel – zij houden de alliantie draaiende. Elke rol heeft duidelijke taken: strategie, rekrutering, technologie of communicatie.",
+      "Description2": "Heb je een vraag? Dan weet je hierna precies bij wie je moet zijn.",
+      "Button": "Bekijk leiderschapsstructuur"
+    },
     "Donate": {
       "Title": "Hoe Je Kunt Bijdragen/Doneren",
       "Description": "Om bij te dragen aan alliantie-technologie gelden de volgende regels:",
@@ -2288,6 +2294,78 @@
       "Title": "Westerse Bazaar",
       "Description1": "Als je zandwormen doodt, kun je zandwormschubben-items verzamelen (bijvoorbeeld uit drop-kisten wanneer zandwormen worden gedood of als doelen in het zandwormcrisis-evenement), die je kunt inwisselen in de westerse bazaar voor zeer belangrijke items.",
       "Description2": "De westerse bazaar wordt wekelijks gereset, en wanneer nieuwe missies worden ontgrendeld, kun je daar elke week extra items vinden. Hieronder toon ik alle wekelijks beschikbare items en geef ik een korte beschrijving van elk bijzonder item."
+    }
+  },
+  "R4Roles": {
+    "Title": "Alliantie Structuur",
+    "DescriptionTitle": "Rolbeschrijvingen",
+    "Marshal": {
+      "Description": "Leidt de alliantie en coördineert de algemene structuur",
+      "Description2": "Ondersteunt het R4-team bij het nemen van beslissingen",
+      "Description3": "Beheert diplomatieke relaties met andere allianties",
+      "Description4": "Toezicht op het PlayerManager-systeem"
+    },
+    "Vs": {
+      "Description": "Maakt elke zondag de 'Save' of 'All-in' aankondiging",
+      "Description2": "Deelt VS-tips en inzichten over tegenstanders",
+      "Description3": "Houdt gedurende de week de spelerspunten bij",
+      "Description4": "Moedigt actieve deelname aan",
+      "Description5": "Stuurt indien nodig privéherinneringen"
+    },
+    "Tactical": {
+      "Description": "Activeert het Maarschalk-evenement en positioneert de Maarschalk",
+      "Description2": "Start het evenement op het geplande tijdstip",
+      "Description3": "Plant en bereidt de Zombie-aanval voor",
+      "Description4": "Stelt de niveaus in voor zowel Maarschalk- als Zombie-evenementen",
+      "Description5": "Schrijft en post aankondigingen met datum en tijd"
+    },
+    "Desert": {
+      "Description": "Activeert en vormt beide teams op maandag",
+      "Description2": "Bepaalt strategie en rollen per team",
+      "Description3": "Moedigt spelers aan om mee te doen en communiceert verwachtingen",
+      "Description4": "Schrijft indien nodig een samenvatting na het evenement"
+    },
+    "Personnel": {
+      "Description": "Zoekt nieuwe spelers wanneer er ruimte beschikbaar is",
+      "Description2": "Geeft regelmatig updates over geïnteresseerde of benaderde spelers",
+      "Description3": "Verwelkomt nieuwe spelers met een vriendelijk bericht",
+      "Description4": "Verwijdert inactieve leden met een respectvol bericht",
+      "Description5": "Informeert de alliantie over vertrekkende spelers en indien mogelijk de reden"
+    },
+    "Strategy": {
+      "Description": "Deelt handige speltips in alliantieberichten en op Discord",
+      "Description2": "Geeft updates over spelwijzigingen en patch notes",
+      "Description3": "Informeert het team over nieuwe seizoenen en evenementen",
+      "Description4": "Beantwoordt vragen van spelers en geeft nuttige info"
+    },
+    "Train": {
+      "Description": "Informeert de treinleider in de ochtend en wijst de VIP-gast toe",
+      "Description2": "Laat de VIP-speler weten waar zijn/haar plek is voor die dag",
+      "Description3": "Plant het schema van de treinleiders van zondag t/m dinsdag",
+      "Description4": "Wijst de dagelijkse trein toe en maakt dit bekend"
+    },
+    "Donations": {
+      "Description": "Controleert dagelijks of spelers bijdragen aan de donaties",
+      "Description2": "Stuurt een vriendelijke herinnering naar wie is vergeten te doneren",
+      "Description3": "Rapporteert op zondag welke spelers de hele week niet hebben gedoneerd"
+    },
+    "Special": {
+      "Description": "Plant speciale evenementen zoals Glacieradon en Generaal’s Proef",
+      "Description2": "Onderzoekt en legt nieuwe evenementtypes uit aan het team",
+      "Description3": "Informeert spelers op tijd over komende evenementen",
+      "Description4": "Maakt evenementen duidelijk bekend met datum en tijd",
+      "Description5": "Leidt en start evenementen volgens planning"
+    },
+    "Discipline": {
+      "Description": "Zorgt ervoor dat niemand publiekelijk wordt beschuldigd, beschaamd of beledigd",
+      "Description2": "Grijpt in bij conflicten in de chat of toxisch gedrag",
+      "Description3": "Voorkomt dat spelers ongepaste instructies geven aan anderen",
+      "Description4": "Maakt duidelijk dat alleen R4's of aangewezen rollen officiële feedback geven"
+    },
+    "War": {
+      "Description": "Plant oorlogsevenementen zoals Capitool en Seizoensoorlogen",
+      "Description2": "Is persoonlijk aanwezig of wijst een betrouwbare vervanger aan",
+      "Description3": "Moedigt spelers aan om deel te nemen en op tijd aanwezig te zijn"
     }
   }
 }

@@ -127,3 +127,60 @@
   color: #b0b0b0;
 }
 
+
+
+.military-section {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.military-card {
+  background-color: #202020;
+  border: 2px solid #444;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 600px;
+  color: #e0e0e0;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.05);
+  position: relative;
+}
+
+.badge {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.military-card h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #77ff77;
+}
+
+.military-card p {
+  font-size: 0.95rem;
+  color: #bbb;
+  margin-bottom: 1.5rem;
+}
+
+.military-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background-color: #4caf50;
+  color: #111;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+}
+
+.military-button:hover {
+  background-color: #66bb6a;
+}

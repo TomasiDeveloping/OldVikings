@@ -565,6 +565,12 @@
       "Description2": "İster ipuçları, ister planlama, ister sadece Viking sohbeti olsun – doğru yerdesin!",
       "Button": "Discord sunucumuza katıl"
     },
+    "R4Roles": {
+      "Title": "Roller ve Sorumluluklar",
+      "Description": "R4 üyelerimiz sadece unvan taşımaz – ittifakın sorunsuz işlemesini sağlarlar. Her rolün net görevleri vardır: strateji, işe alım, teknik ya da iletişim.",
+      "Description2": "Bir sorunuz mu var? Artık tam olarak kime başvurmanız gerektiğini biliyor olacaksınız.",
+      "Button": "Liderlik Yapısını Görüntüle"
+    },
     "Donate": {
       "Title": "Nasıl Katkıda Bulunabilirsiniz / Bağışlayabilirsiniz",
       "Description": "Bir İttifak Teknolojisine katkıda bulunmak için şu kurallar geçerlidir:",
@@ -2281,6 +2287,78 @@
       "Title": "Çöl Pazarı",
       "Description1": "Eğer kum solucanlarını öldürürseniz, Kum Solucanı Pul item'lerini toplayabilirsiniz (örneğin kum solucanları öldürüldüğünde düşen sandıklardan veya Kum Solucanı Krizi etkinliğindeki hedeflerden), bunları Çöl Pazarı'nda çok önemli item'lerle takas edebilirsiniz.",
       "Description2": "Çöl Pazarı her hafta sıfırlanır ve yeni görevler açıldığında, her hafta orada ek item'ler bulabilirsiniz. Aşağıda, haftalık olarak mevcut olan tüm item'leri gösterecek ve her özel item'in kısa bir açıklamasını vereceğim."
+    }
+  },
+  "R4Roles": {
+    "Title": "İttifak Yapısı",
+    "DescriptionTitle": "Rol Açıklamaları",
+    "Marshal": {
+      "Description": "İttifakı yönetir ve genel yapıyı koordine eder",
+      "Description2": "R4 ekibine karar alma süreçlerinde destek olur",
+      "Description3": "Diğer ittifaklarla diplomatik ilişkileri yürütür",
+      "Description4": "OyuncuYönetimi (PlayerManager) sistemini denetler"
+    },
+    "Vs": {
+      "Description": "Her pazar 'Kaydet' veya 'Tam güç' çağrısını yapar",
+      "Description2": "VS ipuçlarını ve rakip analizlerini paylaşır",
+      "Description3": "Hafta boyunca oyuncu puanlarını takip eder",
+      "Description4": "Aktif katılımı teşvik eder",
+      "Description5": "Gerekirse özel mesajla hatırlatmada bulunur"
+    },
+    "Tactical": {
+      "Description": "Mareşal etkinliğini başlatır ve Mareşali konumlandırır",
+      "Description2": "Etkinliği planlanan zamanda başlatır",
+      "Description3": "Zombi Kuşatması'nı planlar ve hazırlar",
+      "Description4": "Mareşal ve Zombi etkinlik seviyelerini belirler",
+      "Description5": "Etkinlik günü ve saatini içeren duyurular yazar"
+    },
+    "Desert": {
+      "Description": "Pazartesi günü iki takımı oluşturur ve etkinliği başlatır",
+      "Description2": "Her takım için strateji ve roller tanımlar",
+      "Description3": "Oyuncuları katılmaya teşvik eder ve beklentileri açıklar",
+      "Description4": "Gerekirse etkinlik sonrası kısa bir özet paylaşır"
+    },
+    "Personnel": {
+      "Description": "Yer açıldığında yeni oyuncular arar",
+      "Description2": "İletişime geçilen oyuncular hakkında düzenli bilgi verir",
+      "Description3": "Yeni oyuncuları samimi bir mesajla karşılar",
+      "Description4": "Aktif olmayan üyeleri saygılı bir mesajla çıkarır",
+      "Description5": "Ayrılan oyuncuları ve mümkünse nedenlerini ittifaka bildirir"
+    },
+    "Strategy": {
+      "Description": "İttifak mesajlarında ve Discord'da oyun ipuçları paylaşır",
+      "Description2": "Oyun güncellemeleri ve yama notları hakkında bilgi verir",
+      "Description3": "Yeni sezonlar ve etkinlik değişiklikleri hakkında bilgilendirir",
+      "Description4": "Oyuncu sorularını yanıtlar ve rehberlik eder"
+    },
+    "Train": {
+      "Description": "Sabah tren liderine bilgi verir ve VIP konuğu belirler",
+      "Description2": "VIP oyuncuya o günkü yeri bildirilir",
+      "Description3": "Pazar–Salı tren lideri programını hazırlar",
+      "Description4": "Günlük treni atar ve duyurur"
+    },
+    "Donations": {
+      "Description": "Oyuncuların günlük bağış yapıp yapmadığını kontrol eder",
+      "Description2": "Bağış yapmayanlara kibarca hatırlatma yapar",
+      "Description3": "Tüm hafta bağış yapmayanları pazar günü rapor eder"
+    },
+    "Special": {
+      "Description": "Glacieradon ve General’s Trial gibi özel etkinlikleri planlar",
+      "Description2": "Yeni etkinlik türlerini araştırır ve ekibe açıklar",
+      "Description3": "Yaklaşan etkinlikleri oyunculara önceden bildirir",
+      "Description4": "Etkinlik tarih ve saatini açıkça duyurur",
+      "Description5": "Etkinlikleri zamanında başlatır ve yönetir"
+    },
+    "Discipline": {
+      "Description": "Hiçbir oyuncunun kamuya açık şekilde suçlanmasına, küçük düşürülmesine veya aşağılanmasına izin vermez",
+      "Description2": "Sohbet çatışmalarında veya toksik davranışlarda müdahale eder",
+      "Description3": "Oyuncuların diğerlerine uygunsuz şekilde emir vermesini engeller",
+      "Description4": "Yalnızca R4'lerin veya atanmış rollerin resmi geri bildirim verebileceğini açıklar"
+    },
+    "War": {
+      "Description": "Başkent ve Sezon Savaşları gibi savaş etkinliklerini planlar",
+      "Description2": "Bizzat katılır ya da güvenilir birini vekil olarak atar",
+      "Description3": "Oyuncuları katılmaya ve zamanında hazır olmaya motive eder"
     }
   }
 }

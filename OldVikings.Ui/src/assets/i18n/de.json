@@ -565,6 +565,12 @@
       "Description2": "Ob Tipps, Planung oder einfach nur Wikinger-Gelaber – bei uns bist du richtig!",
       "Button": "Trete unserem Discord bei"
     },
+    "R4Roles": {
+      "Title": "Rollen & Zuständigkeiten",
+      "Description": "Unsere R4 übernehmen nicht nur Verantwortung, sie halten die Allianz am Laufen. Jede Rolle hat klare Aufgaben – ob Strategie, Rekrutierung, Technik oder Kommunikation.",
+      "Description2": "Du hast eine Frage? Dann weißt du danach, an wen du dich wenden kannst.",
+      "Button": "Zur Führungsstruktur"
+    },
     "Donate": {
       "Title": "So können Sie beitragen/spenden",
       "Description": "Um zu einer Alliance Tech beizutragen, gelten die folgenden Regeln:",
@@ -2288,6 +2294,78 @@
       "Title": "Wüstenbasar",
       "Description1": "Wenn Sie Sandwürmer töten, können Sie Sandwurmschuppen-Gegenstände sammeln (zum Beispiel aus Drop-Truhen, wenn Sandwürmer getötet werden, oder als Ziele im Sandwurmkrisen-Ereignis), die Sie im Wüstenbasar gegen sehr wichtige Gegenstände eintauschen können.",
       "Description2": "Der Wüstenbasar wird wöchentlich zurückgesetzt, und wenn neue Missionen freigeschaltet werden, können Sie dort jede Woche zusätzliche Gegenstände finden. Unten zeige ich alle wöchentlich verfügbaren Gegenstände und gebe eine kurze Beschreibung jedes besonderen Gegenstands."
+    }
+  },
+  "R4Roles": {
+    "Title": "Allianzstruktur",
+    "DescriptionTitle": "Rollenbeschreibungen",
+    "Marshal": {
+      "Description": "Leitet die Allianz und koordiniert die Gesamtstruktur",
+      "Description2": "Unterstützt das R4-Team bei Entscheidungen",
+      "Description3": "Pflegt diplomatische Beziehungen zu anderen Allianzen",
+      "Description4": "Überwacht das PlayerManager-System"
+    },
+    "Vs": {
+      "Description": "Verkündet jeden Sonntag „Save“ oder „All-in“",
+      "Description2": "Teilt VS-Tipps und Gegneranalysen",
+      "Description3": "Verfolgt Spielerpunkte während der Woche",
+      "Description4": "Motiviert zur aktiven Teilnahme",
+      "Description5": "Erinnert Spieler bei Bedarf per PN"
+    },
+    "Tactical": {
+      "Description": "Startet das Marshal-Event und positioniert den Marshal",
+      "Description2": "Beginnt das Event zur geplanten Zeit",
+      "Description3": "Plant und bereitet die Zombie-Belagerung vor",
+      "Description4": "Legt die Eventstufen für Marshal und Zombie fest",
+      "Description5": "Verfasst und veröffentlicht Ankündigungen mit Datum und Uhrzeit"
+    },
+    "Desert": {
+      "Description": "Startet montags das Event und erstellt beide Teams",
+      "Description2": "Definiert Strategie und Rollen pro Team",
+      "Description3": "Motiviert zur Teilnahme und kommuniziert Erwartungen",
+      "Description4": "Verfasst bei Bedarf eine kurze Zusammenfassung nach dem Event"
+    },
+    "Personnel": {
+      "Description": "Sucht neue Spieler, wenn Plätze frei sind",
+      "Description2": "Gibt regelmäßig Updates zu kontaktierten/interessierten Spielern",
+      "Description3": "Begrüßt neue Mitglieder mit einer freundlichen Nachricht",
+      "Description4": "Entfernt inaktive Spieler mit respektvollem Hinweis",
+      "Description5": "Informiert die Allianz über Austritte und – wenn möglich – Gründe"
+    },
+    "Strategy": {
+      "Description": "Teilt Spieltipps in Allianz-Nachrichten und Discord",
+      "Description2": "Informiert über Spieländerungen und Patchnotes",
+      "Description3": "Hält das Team über neue Seasons und Events auf dem Laufenden",
+      "Description4": "Beantwortet Fragen und gibt hilfreiche Infos"
+    },
+    "Train": {
+      "Description": "Informiert morgens den Zugleiter und bestimmt den VIP-Gast",
+      "Description2": "Teilt dem VIP-Spieler seinen Platz für den Tag mit",
+      "Description3": "Plant den Zeitplan der Zugleiter von Sonntag bis Dienstag",
+      "Description4": "Bestimmt und verkündet täglich den Zug"
+    },
+    "Donations": {
+      "Description": "Prüft täglich, ob Spenden geleistet wurden",
+      "Description2": "Erinnert freundlich bei fehlenden Spenden",
+      "Description3": "Meldet sonntags Spieler, die die ganze Woche nichts gespendet haben"
+    },
+    "Special": {
+      "Description": "Plant Spezialevents wie Glacieradon und General’s Trial",
+      "Description2": "Recherchiert neue Events und erklärt sie dem Team",
+      "Description3": "Informiert frühzeitig über anstehende Events",
+      "Description4": "Kündigt Events klar mit Datum und Uhrzeit an",
+      "Description5": "Leitet die Events pünktlich und zuverlässig"
+    },
+    "Discipline": {
+      "Description": "Stellt sicher, dass niemand öffentlich beschuldigt oder beleidigt wird",
+      "Description2": "Greift bei Chat-Konflikten oder toxischem Verhalten ein",
+      "Description3": "Verhindert, dass Spieler anderen unangebracht Anweisungen geben",
+      "Description4": "Stellt klar, dass nur R4 oder zugewiesene Rollen offizielles Feedback geben"
+    },
+    "War": {
+      "Description": "Plant Kriegsevents wie Hauptstadt- oder Saisonkriege",
+      "Description2": "Ist persönlich anwesend oder bestimmt eine zuverlässige Vertretung",
+      "Description3": "Motiviert Spieler zur Teilnahme und Pünktlichkeit"
     }
   }
 }

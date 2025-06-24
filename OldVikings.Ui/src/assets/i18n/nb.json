@@ -565,6 +565,12 @@
       "Description2": "Enten det gjelder tips, planlegging eller bare litt vikingprat – du er på rett sted!",
       "Button": "Bli med på Discorden vår"
     },
+    "R4Roles": {
+      "Title": "Roller og Ansvarsområder",
+      "Description": "Vores R4’er har ikke bare titler – de får alliancen til at fungere. Hver rolle har klare opgaver, hvad enten det gælder strategi, rekruttering, teknik eller kommunikation.",
+      "Description2": "Har du et spørgsmål? Så ved du bagefter præcis, hvem du skal gå til.",
+      "Button": "Se ledelsesstruktur"
+    },
     "Donate": {
       "Title": "Hvordan Du Kan Bidra/Donere",
       "Description": "For å bidra til allianse-teknologi gjelder følgende regler:",
@@ -2288,6 +2294,78 @@
       "Title": "Ørkenbasar",
       "Description1": "Når du dreper sandormer, kan du samle sandormeskjell-objekter (for eksempel fra droppkister når sandormer drepes, eller som mål i sandormkrisen-eventet), som du kan bytte mot svært viktige objekter i Ørkenbasaren.",
       "Description2": "Ørkenbasaren tilbakestilles ukentlig, og når nye oppdrag blir låst opp, kan du finne ekstra objekter der hver uke. Nedenfor viser jeg alle objektene som er tilgjengelige ukentlig, og gir en kort beskrivelse av hvert spesielle objekt."
+    }
+  },
+  "R4Roles": {
+    "Title": "Alliancestruktur",
+    "DescriptionTitle": "Rollebeskrivelser",
+    "Marshal": {
+      "Description": "Leder alliancen og koordinerer den overordnede struktur",
+      "Description2": "Støtter R4-teamet i beslutningstagning",
+      "Description3": "Håndterer diplomatiske relationer med andre alliancer",
+      "Description4": "Overvåger PlayerManager-systemet"
+    },
+    "Vs": {
+      "Description": "Annoncerer “Gem” eller “All-in” hver søndag",
+      "Description2": "Deler VS-tips og indsigt om modstandere",
+      "Description3": "Holder styr på spillerpoint i løbet af ugen",
+      "Description4": "Motiverer til aktiv deltagelse",
+      "Description5": "Sender private påmindelser ved behov"
+    },
+    "Tactical": {
+      "Description": "Aktiverer Marshal-begivenheden og placerer Marshallen",
+      "Description2": "Starter Marshal-begivenheden til planlagt tid",
+      "Description3": "Planlægger og forbereder Zombie Siege",
+      "Description4": "Angiver begivenhedsniveauer for både Marshal og Zombie",
+      "Description5": "Skriver og offentliggør annoncer med dag og tid"
+    },
+    "Desert": {
+      "Description": "Aktiverer og opretter begge hold om mandagen",
+      "Description2": "Definerer strategi og roller for hvert hold",
+      "Description3": "Motiverer spillere til at deltage og forklarer forventninger",
+      "Description4": "Skriver et kort sammendrag efter eventet, hvis nødvendigt"
+    },
+    "Personnel": {
+      "Description": "Søger nye spillere, når der er ledige pladser",
+      "Description2": "Giver regelmæssige opdateringer om kontaktede/interesserede rekrutter",
+      "Description3": "Byder nye spillere velkommen med en venlig besked",
+      "Description4": "Fjerner inaktive medlemmer med en respektfuld besked",
+      "Description5": "Informer alliancen om afgange og årsager, hvis muligt"
+    },
+    "Strategy": {
+      "Description": "Deler nyttige spiltips i alliancemeddelelser og på Discord",
+      "Description2": "Giver opdateringer om spilændringer og patch-noter",
+      "Description3": "Informerer teamet om nye sæsoner og eventændringer",
+      "Description4": "Besvarer spørgsmål og guider med nyttige oplysninger"
+    },
+    "Train": {
+      "Description": "Informerer tog-lederen om morgenen og tildeler VIP-gæsten",
+      "Description2": "Underretter VIP-spilleren om deres plads for dagen",
+      "Description3": "Planlægger tog-lederens skema fra søndag til tirsdag",
+      "Description4": "Tildeler og annoncerer det daglige tog"
+    },
+    "Donations": {
+      "Description": "Tjekker dagligt om spillere bidrager til alliancedonationer",
+      "Description2": "Sender venlige påmindelser til dem, der har glemt det",
+      "Description3": "Rapporterer søndag om spillere, der ikke har doneret hele ugen"
+    },
+    "Special": {
+      "Description": "Planlægger specialbegivenheder som Glacieradon og General’s Trial",
+      "Description2": "Undersøger og forklarer nye eventtyper til teamet",
+      "Description3": "Informerer spillerne tidligt om kommende begivenheder",
+      "Description4": "Annoncerer events tydeligt med dato og klokkeslæt",
+      "Description5": "Leder og starter begivenhederne som planlagt"
+    },
+    "Discipline": {
+      "Description": "Sikrer at ingen spillere bliver bebrejdet, udskammet eller fornærmet offentligt",
+      "Description2": "Griber ind ved konflikter i chatten eller ved toksisk opførsel",
+      "Description3": "Forhindrer spillere i at give uofficielle instruktioner",
+      "Description4": "Gør det klart, at kun R4 eller udpegede roller giver officiel feedback"
+    },
+    "War": {
+      "Description": "Planlægger krigsbegivenheder som Hovedstaden og Sæsonkrige",
+      "Description2": "Deltager selv eller udpeger en pålidelig stedfortræder",
+      "Description3": "Motiverer spillere til at deltage og møde op til tiden"
     }
   }
 }

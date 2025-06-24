@@ -569,6 +569,12 @@
       "Description2": "Ya sea para consejos, planificación o simplemente charlas vikingas, ¡este es tu lugar!",
       "Button": "Únete a nuestro Discord"
     },
+    "R4Roles": {
+      "Title": "Roles y Responsabilidades",
+      "Description": "Nuestros miembros R4 no solo tienen títulos, mantienen en marcha a la alianza. Cada rol tiene tareas claras: ya sea estrategia, reclutamiento, tecnología o comunicación.",
+      "Description2": "¿Tienes una pregunta? Aquí sabrás exactamente a quién acudir.",
+      "Button": "Ver estructura de liderazgo"
+    },
     "Donate": {
       "Title": "Cómo Puedes Contribuir/Donar",
       "Description": "Para contribuir a la Tecnología de Alianza, se aplican las siguientes reglas:",
@@ -2292,6 +2298,78 @@
       "Title": "Bazar del desierto",
       "Description1": "Si matas a los gusanos de arena, puedes recolectar objetos de escamas de gusano de arena (por ejemplo, de cofres de botín cuando los gusanos de arena son asesinados o como objetivos en el evento de crisis de gusanos de arena), que puedes intercambiar en el Bazar del desierto por objetos muy importantes.",
       "Description2": "El Bazar del desierto se reinicia semanalmente, y cuando se desbloquean nuevas misiones, puedes encontrar allí objetos adicionales cada semana. A continuación, muestro todos los objetos disponibles semanalmente y una breve descripción de cada objeto especial."
+    }
+  },
+  "R4Roles": {
+    "Title": "Estructura de la Alianza",
+    "DescriptionTitle": "Descripciones de los Roles",
+    "Marshal": {
+      "Description": "Lidera la alianza y coordina la estructura general",
+      "Description2": "Apoya al equipo R4 en la toma de decisiones",
+      "Description3": "Gestiona las relaciones diplomáticas con otras alianzas",
+      "Description4": "Supervisa el sistema de gestión de jugadores (PlayerManager)"
+    },
+    "Vs": {
+      "Description": "Anuncia 'Guardar' o 'All-in' cada domingo",
+      "Description2": "Comparte consejos de VS y análisis del rival",
+      "Description3": "Hace seguimiento de los puntos de los jugadores durante la semana",
+      "Description4": "Fomenta la participación activa",
+      "Description5": "Envía recordatorios privados si es necesario"
+    },
+    "Tactical": {
+      "Description": "Activa el evento de Mariscal y posiciona al Mariscal",
+      "Description2": "Inicia el evento en el horario previsto",
+      "Description3": "Planifica y prepara el Asedio Zombi",
+      "Description4": "Establece los niveles de los eventos de Mariscal y Zombi",
+      "Description5": "Escribe y publica anuncios con día y hora"
+    },
+    "Desert": {
+      "Description": "Activa y forma ambos equipos el lunes",
+      "Description2": "Define la estrategia y los roles de cada equipo",
+      "Description3": "Motiva a los jugadores a participar y comunica las expectativas",
+      "Description4": "Redacta un resumen después del evento si es necesario"
+    },
+    "Personnel": {
+      "Description": "Busca nuevos jugadores cuando hay espacio disponible",
+      "Description2": "Informa regularmente sobre reclutas contactados o interesados",
+      "Description3": "Da la bienvenida a nuevos jugadores con un mensaje amigable",
+      "Description4": "Elimina a los jugadores inactivos con un mensaje respetuoso",
+      "Description5": "Informa a la alianza sobre las salidas y, si es posible, sus motivos"
+    },
+    "Strategy": {
+      "Description": "Comparte consejos útiles en los mensajes de la alianza y en Discord",
+      "Description2": "Informa sobre cambios del juego y notas de parche",
+      "Description3": "Mantiene al equipo informado sobre nuevas temporadas y eventos",
+      "Description4": "Responde preguntas de los jugadores y los guía con información útil"
+    },
+    "Train": {
+      "Description": "Informa al líder del tren por la mañana y asigna al invitado VIP",
+      "Description2": "Notifica al jugador VIP su lugar para el día",
+      "Description3": "Planifica el calendario de líderes de tren de domingo a martes",
+      "Description4": "Asigna y anuncia el tren diario"
+    },
+    "Donations": {
+      "Description": "Revisa diariamente si los jugadores están donando a la alianza",
+      "Description2": "Recuerda educadamente a quienes no lo han hecho",
+      "Description3": "Reporta el domingo a los jugadores que no donaron durante la semana"
+    },
+    "Special": {
+      "Description": "Planifica eventos especiales como Glacieradon y Prueba del General",
+      "Description2": "Investiga y explica nuevos tipos de eventos al equipo",
+      "Description3": "Informa con antelación sobre los eventos próximos",
+      "Description4": "Anuncia los eventos claramente con fecha y hora",
+      "Description5": "Lidera y lanza los eventos según lo programado"
+    },
+    "Discipline": {
+      "Description": "Asegura que ningún jugador sea culpado, avergonzado o insultado públicamente",
+      "Description2": "Interviene en conflictos de chat o comportamientos tóxicos",
+      "Description3": "Evita que los jugadores den instrucciones inapropiadas",
+      "Description4": "Aclara que solo R4 o roles asignados pueden dar retroalimentación oficial"
+    },
+    "War": {
+      "Description": "Planifica eventos de guerra como el Capitolio y las Guerras de Temporada",
+      "Description2": "Está presente personalmente o nombra a un sustituto de confianza",
+      "Description3": "Motiva a los jugadores a participar y presentarse"
     }
   }
 }
