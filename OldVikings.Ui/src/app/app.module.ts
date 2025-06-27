@@ -42,6 +42,7 @@ import { PlayerManagerComponent } from './pages/player-manager/player-manager.co
 import { SeasonThreeComponent } from './pages/season-three/season-three.component';
 import { SeasonThreeAllianceLeaderboardComponent } from './pages/season-three/season-three-alliance-leaderboard/season-three-alliance-leaderboard.component';
 import { R4RolesComponent } from './pages/r4-roles/r4-roles.component';
+import { SeasonsComponent } from './pages/seasons/seasons.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -78,7 +79,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         PlayerManagerComponent,
         SeasonThreeComponent,
         SeasonThreeAllianceLeaderboardComponent,
-        R4RolesComponent
+        R4RolesComponent,
+        SeasonsComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,

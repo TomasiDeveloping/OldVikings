@@ -2360,5 +2360,50 @@
       "Description2": "Bizzat katılır ya da güvenilir birini vekil olarak atar",
       "Description3": "Oyuncuları katılmaya ve zamanında hazır olmaya motive eder"
     }
+  },
+  "Seasons": {
+    "Title": "Sezonlar",
+    "Season4": {
+      "Title": "Sezon 4: Ebedi Gece Adası",
+      "Description": "Işık ve Karanlık: Kanlı Gece Ayı'yla yüzleş ve Sakura Adası'na ışığı geri getir.",
+      "Link1": "Ana Genel Bakış",
+      "Link2": "Haftalık Rehberler",
+      "Link3": "Oyun Modları",
+      "Link4": "Nihai Strateji Rehberi",
+      "Link5": "Meslekler",
+      "Link6": "Taktik Kartı"
+    },
+    "Season3": {
+      "Title": "Sezon 3: Altın Krallık",
+      "Description": "Altın Krallık’ın çöllerini keşfet, kadim sırları, güçlü yetenekleri ve gizli eserleri ortaya çıkar.",
+      "Link1": "Ana Genel Bakış",
+      "Link2": "Nihai Strateji Rehberi",
+      "Link3": "Haftalık Rehberler",
+      "Link4": "Meslekler ve Yetenekler",
+      "Link5": "Çöl Eserlerinin Konumları",
+      "Link6": "Sfenks/Vahalar Konumları",
+      "Link7": "Kutlama",
+      "Link8": "Hileler/Püf Noktaları"
+    },
+    "Season2": {
+      "Title": "Sezon 2: Kutup Fırtınası",
+      "Description": "Soğuk bir rüzgar esiyor. Tipilere, donmuş çatışmalara ve buz kaplı savaş alanlarında taktiksel hayatta kalmaya hazır ol.",
+      "Link1": "Ana Genel Bakış",
+      "Link2": "Nihai Strateji Rehberi",
+      "Link3": "Malzeme Toplama Noktaları",
+      "Link4": "1–8. Haftalar",
+      "Link5": "Kutlama",
+      "Link6": "Hileler/Püf Noktaları"
+    },
+    "Season1": {
+      "Title": "Sezon 1: Kızıl Salgın",
+      "Description": "Salgın başlıyor. RA virüsü yayılıyor, savaş patlak veriyor ve yeni liderler ortaya çıkıyor. Son Savaş’taki kaosun ilk aşamasına hazırlan.",
+      "Link1": "Ana Genel Bakış",
+      "Link2": "Nihai Savaş Kuralları Rehberi",
+      "Link3": "1–8. Haftalar",
+      "Link4": "Meslekler",
+      "Link5": "Kutlama",
+      "Link6": "Hileler/Püf Noktaları"
+    }
   }
 }

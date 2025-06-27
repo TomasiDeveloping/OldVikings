@@ -2367,5 +2367,50 @@
       "Description2": "Deltager selv eller udpeger en pålidelig stedfortræder",
       "Description3": "Motiverer spillere til at deltage og møde op til tiden"
     }
+  },
+  "Seasons": {
+    "Title": "Sesonger",
+    "Season4": {
+      "Title": "Sesong 4: Evignattens Øy",
+      "Description": "Lys og Mørke: Møt Blodnattens Måne og bring lyset tilbake til Sakura-øya.",
+      "Link1": "Hovedoversikt",
+      "Link2": "Ukentlige guider",
+      "Link3": "Spillmoduser",
+      "Link4": "Den ultimate strategiguiden",
+      "Link5": "Yrker",
+      "Link6": "Taktikkort"
+    },
+    "Season3": {
+      "Title": "Sesong 3: Det Gyldne Riket",
+      "Description": "Utforsk ørkenene i Det Gyldne Riket og avdekk eldgamle hemmeligheter, kraftige ferdigheter og skjulte gjenstander.",
+      "Link1": "Hovedoversikt",
+      "Link2": "Den ultimate strategiguiden",
+      "Link3": "Ukentlige guider",
+      "Link4": "Yrker og ferdigheter",
+      "Link5": "Plassering av ørkenartefakter",
+      "Link6": "Plassering av sfinks/oase",
+      "Link7": "Feiring",
+      "Link8": "Triks/Juks"
+    },
+    "Season2": {
+      "Title": "Sesong 2: Polarsturm",
+      "Description": "En iskald vind blåser opp. Gjør deg klar for snøstormer, frosne konflikter og taktisk overlevelse på iskalde slagmarker.",
+      "Link1": "Hovedoversikt",
+      "Link2": "Den ultimate strategiguiden",
+      "Link3": "Plassering av forsyninger",
+      "Link4": "Uker 1–8",
+      "Link5": "Feiring",
+      "Link6": "Triks/Juks"
+    },
+    "Season1": {
+      "Title": "Sesong 1: Den Karmosinrøde Pesten",
+      "Description": "Utbruddet begynner. RA-viruset sprer seg, krigen bryter ut, og nye ledere reiser seg. Gjør deg klar for første fase av kaoset i Den Siste Krigen.",
+      "Link1": "Hovedoversikt",
+      "Link2": "Ultimat krigsregelguide",
+      "Link3": "Uker 1–8",
+      "Link4": "Yrker",
+      "Link5": "Feiring",
+      "Link6": "Triks/Juks"
+    }
   }
 }

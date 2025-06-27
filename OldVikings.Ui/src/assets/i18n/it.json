@@ -2367,5 +2367,50 @@
       "Description2": "Partecipa personalmente o nomina un sostituto affidabile",
       "Description3": "Motiva i giocatori a partecipare e presentarsi"
     }
+  },
+  "Seasons": {
+    "Title": "Stagioni",
+    "Season4": {
+      "Title": "Stagione 4: Isola della Notte Eterna",
+      "Description": "Luce e Oscurità: Affronta la Luna della Notte di Sangue e riporta la luce sull’Isola di Sakura.",
+      "Link1": "Panoramica principale",
+      "Link2": "Guide settimanali",
+      "Link3": "Modalità di gioco",
+      "Link4": "La guida strategica definitiva",
+      "Link5": "Professioni",
+      "Link6": "Carta tattica"
+    },
+    "Season3": {
+      "Title": "Stagione 3: Regno Dorato",
+      "Description": "Esplora i deserti del Regno Dorato e scopri antichi segreti, abilità potenti e artefatti nascosti.",
+      "Link1": "Panoramica principale",
+      "Link2": "La guida strategica definitiva",
+      "Link3": "Guide settimanali",
+      "Link4": "Professioni e abilità",
+      "Link5": "Posizioni degli artefatti del deserto",
+      "Link6": "Posizioni di Sfingi/Oasi",
+      "Link7": "Celebrazione",
+      "Link8": "Trucchi/Barare"
+    },
+    "Season2": {
+      "Title": "Stagione 2: Tempesta Polare",
+      "Description": "Soffia un vento gelido. Preparati a bufere di neve, conflitti ghiacciati e sopravvivenza tattica sui campi di battaglia ghiacciati.",
+      "Link1": "Panoramica principale",
+      "Link2": "La guida strategica definitiva",
+      "Link3": "Posizioni dei rifornimenti",
+      "Link4": "Settimane 1–8",
+      "Link5": "Celebrazione",
+      "Link6": "Trucchi/Barare"
+    },
+    "Season1": {
+      "Title": "Stagione 1: La Piaga Cremisi",
+      "Description": "Ha inizio l’epidemia. Il virus RA si diffonde, scoppia la guerra e nuovi leader emergono. Preparati alla prima fase del caos in Ultima Guerra.",
+      "Link1": "Panoramica principale",
+      "Link2": "Guida definitiva alle regole di guerra",
+      "Link3": "Settimane 1–8",
+      "Link4": "Professioni",
+      "Link5": "Celebrazione",
+      "Link6": "Trucchi/Barare"
+    }
   }
 }

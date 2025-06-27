@@ -2371,5 +2371,50 @@
       "Description2": "Está presente personalmente o nombra a un sustituto de confianza",
       "Description3": "Motiva a los jugadores a participar y presentarse"
     }
+  },
+  "Seasons": {
+    "Title": "Temporadas",
+    "Season4": {
+      "Title": "Temporada 4: Isla de la Noche Eterna",
+      "Description": "Luz y Oscuridad: Enfréntate a la Luna de la Noche Sangrienta y devuelve la luz a la Isla Sakura.",
+      "Link1": "Resumen principal",
+      "Link2": "Guías semanales",
+      "Link3": "Modos de juego",
+      "Link4": "La guía de estrategia definitiva",
+      "Link5": "Profesiones",
+      "Link6": "Carta de tácticas"
+    },
+    "Season3": {
+      "Title": "Temporada 3: Reino Dorado",
+      "Description": "Explora los desiertos del Reino Dorado y descubre antiguos secretos, habilidades poderosas y artefactos ocultos.",
+      "Link1": "Resumen principal",
+      "Link2": "La guía de estrategia definitiva",
+      "Link3": "Guías semanales",
+      "Link4": "Profesiones y habilidades",
+      "Link5": "Ubicaciones de artefactos del desierto",
+      "Link6": "Ubicaciones de esfinges y oasis",
+      "Link7": "Celebración",
+      "Link8": "Trucos/Trampas"
+    },
+    "Season2": {
+      "Title": "Temporada 2: Tormenta Polar",
+      "Description": "Sopla un viento helado. Prepárate para ventiscas, conflictos congelados y supervivencia táctica en los campos de batalla cubiertos de hielo.",
+      "Link1": "Resumen principal",
+      "Link2": "La guía de estrategia definitiva",
+      "Link3": "Ubicaciones de suministros",
+      "Link4": "Semanas 1–8",
+      "Link5": "Celebración",
+      "Link6": "Trucos/Trampas"
+    },
+    "Season1": {
+      "Title": "Temporada 1: La Plaga Carmesí",
+      "Description": "Comienza el brote. El virus RA se propaga, estalla la guerra y surgen nuevos líderes. Prepárate para la primera fase del caos en la Última Guerra.",
+      "Link1": "Resumen principal",
+      "Link2": "Guía definitiva de reglas de guerra",
+      "Link3": "Semanas 1–8",
+      "Link4": "Profesiones",
+      "Link5": "Celebración",
+      "Link6": "Trucos/Trampas"
+    }
   }
 }

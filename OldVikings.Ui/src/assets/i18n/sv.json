@@ -2371,5 +2371,50 @@
       "Description2": "Närvarar personligen eller utser en pålitlig ersättare",
       "Description3": "Motiverar spelare att delta och vara i tid"
     }
+  },
+  "Seasons": {
+    "Title": "Säsonger",
+    "Season4": {
+      "Title": "Säsong 4: Evig Nattens Ö",
+      "Description": "Ljus och Mörker: Möt Blodnattens Måne och återför ljuset till Sakuraön.",
+      "Link1": "Huvudöversikt",
+      "Link2": "Veckoguider",
+      "Link3": "Spellägen",
+      "Link4": "Den ultimata strategiguiden",
+      "Link5": "Yrken",
+      "Link6": "Taktikkort"
+    },
+    "Season3": {
+      "Title": "Säsong 3: Det Gyllene Riket",
+      "Description": "Utforska öknarna i Det Gyllene Riket och avslöja uråldriga hemligheter, kraftfulla färdigheter och gömda artefakter.",
+      "Link1": "Huvudöversikt",
+      "Link2": "Den ultimata strategiguiden",
+      "Link3": "Veckoguider",
+      "Link4": "Yrken och färdigheter",
+      "Link5": "Ökenartefakters platser",
+      "Link6": "Sfinx/Oas-platser",
+      "Link7": "Firande",
+      "Link8": "Fusk/Trix"
+    },
+    "Season2": {
+      "Title": "Säsong 2: Polarstorm",
+      "Description": "En iskall vind blåser upp. Förbered dig på snöstormar, frusna konflikter och taktisk överlevnad på isbelagda slagfält.",
+      "Link1": "Huvudöversikt",
+      "Link2": "Den ultimata strategiguiden",
+      "Link3": "Försörjningsplatser",
+      "Link4": "Veckor 1–8",
+      "Link5": "Firande",
+      "Link6": "Fusk/Trix"
+    },
+    "Season1": {
+      "Title": "Säsong 1: Den Karmosinröda Pesten",
+      "Description": "Utbrottet börjar. RA-viruset sprider sig, krig bryter ut och nya ledare träder fram. Gör dig redo för det första stadiet av kaos i Det Sista Kriget.",
+      "Link1": "Huvudöversikt",
+      "Link2": "Ultimat krigsregelguide",
+      "Link3": "Veckor 1–8",
+      "Link4": "Yrken",
+      "Link5": "Firande",
+      "Link6": "Fusk/Trix"
+    }
   }
 }

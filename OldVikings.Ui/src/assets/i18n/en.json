@@ -2371,5 +2371,50 @@
       "Description2": "Ensure personal presence or appoint a reliable substitute",
       "Description3": "Motivate players to participate and show up"
     }
+  },
+  "Seasons": {
+    "Title": "Seasons",
+    "Season4": {
+      "Title": "Season 4: Evernight Isle",
+      "Description": "Light and Darkness: Face the Blood Night Moon and return the light to Sakura Isle",
+      "Link1": "Main Overview",
+      "Link2": "Weeks guides",
+      "Link3": "Game modes",
+      "Link4": "The Ultimate Strategy Guide",
+      "Link5": "Professions",
+      "Link6": "Tactics Card"
+    },
+    "Season3": {
+      "Title": "Season 3: Golden Kingdom",
+      "Description": "Explore the deserts of the Golden Kingdom and uncover ancient secrets, powerful skills and hidden artifacts.",
+      "Link1": "Main Overview",
+      "Link2": "The Ultimate Strategy Guide",
+      "Link3": "Weeks guides",
+      "Link4": "Professions and Skills",
+      "Link5": "Desert Artifacts Locations",
+      "Link6": "Sphinx/Oasis Locations",
+      "Link7": "Celebration",
+      "Link8": "Tricks/Cheats"
+    },
+    "Season2": {
+      "Title": "Season 2: Polar Storm",
+      "Description": "A chilling wind is rising. Prepare for blizzards, frozen conflicts, and tactical survival across the ice-ridden battlefields.",
+      "Link1": "Main Overview",
+      "Link2": "The Ultimate Strategy Guide",
+      "Link3": "Supply Collection Locations",
+      "Link4": "Weeks 1–8",
+      "Link5": "Celebration",
+      "Link6": "Tricks/Cheats"
+    },
+    "Season1": {
+      "Title": "Season 1: The Crimson Plague",
+      "Description": "The outbreak begins. The RA virus spreads, war erupts, and new leaders rise. Prepare for the first stage of chaos in Last War.",
+      "Link1": "Main Overview",
+      "Link2": "Ultimate War Rules Guide",
+      "Link3": "Weeks 1–8",
+      "Link4": "Professions",
+      "Link5": "Celebration",
+      "Link6": "Tricks/Cheats"
+    }
   }
 }

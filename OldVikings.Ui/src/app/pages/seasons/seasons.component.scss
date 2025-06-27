@@ -1,0 +1,42 @@
+body {
+  background-color: #0b0f14;
+  color: #e4e6eb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.season-card {
+  background-color: #15191e;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+}
+
+.season-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.2);
+}
+
+.season-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.season-content {
+  padding: 1.5rem;
+}
+
+.season-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-custom {
+  border-radius: 2rem;
+}
+
+.btn + .btn {
+  margin-left: 0.5rem;
+}

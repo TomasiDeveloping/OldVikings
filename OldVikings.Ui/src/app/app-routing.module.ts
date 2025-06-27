@@ -29,6 +29,7 @@ import {
   SeasonThreeAllianceLeaderboardComponent
 } from "./pages/season-three/season-three-alliance-leaderboard/season-three-alliance-leaderboard.component";
 import {R4RolesComponent} from "./pages/r4-roles/r4-roles.component";
+import {SeasonsComponent} from "./pages/seasons/seasons.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -46,6 +47,7 @@ const routes: Routes = [
   {path: 'buildings', component: BuildingsComponent, canActivate: [memberGuard]},
   {path: 'squad', component: SquadComponent},
   {path: 'member-login', component: MemberLoginComponent},
+  {path: 'seasons', component: SeasonsComponent},
   {path: 'season-one', component: SeasonOneComponent},
   {path: 'season-two', component: SeasonTwoComponent},
   {path: 'season-two-celebration', component: SeasonTwoCelebrationComponent},

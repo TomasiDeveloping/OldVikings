@@ -2367,5 +2367,51 @@
       "Description2": "Ist persönlich anwesend oder bestimmt eine zuverlässige Vertretung",
       "Description3": "Motiviert Spieler zur Teilnahme und Pünktlichkeit"
     }
+  },
+  "Seasons": {
+    "Title": "Staffeln",
+    "Season4": {
+      "Title": "Staffel 4: Insel der ewigen Nacht",
+      "Description": "Licht und Dunkelheit: Stelle dich dem Blutmond der Nacht und bringe das Licht zurück auf die Sakura-Insel.",
+      "Link1": "Hauptübersicht",
+      "Link2": "Wochen-Guides",
+      "Link3": "Spielmodi",
+      "Link4": "Der ultimative Strategie-Guide",
+      "Link5": "Berufe",
+      "Link6": "Taktikkarten"
+    },
+    "Season3": {
+      "Title": "Staffel 3: Goldenes Königreich",
+      "Description": "Erkunde die Wüsten des Goldenen Königreichs und entdecke uralte Geheimnisse, mächtige Fähigkeiten und versteckte Artefakte.",
+      "Link1": "Hauptübersicht",
+      "Link2": "Der ultimative Strategie-Guide",
+      "Link3": "Wochen-Guides",
+      "Link4": "Berufe und Fähigkeiten",
+      "Link5": "Fundorte der Wüsten-Artefakte",
+      "Link6": "Fundorte von Sphinx/Oase",
+      "Link7": "Feierlichkeiten",
+      "Link8": "Tricks/Cheats"
+    },
+    "Season2": {
+      "Title": "Staffel 2: Polarsturm",
+      "Description": "Ein eisiger Wind zieht auf. Bereite dich auf Schneestürme, gefrorene Konflikte und taktisches Überleben auf eisigen Schlachtfeldern vor.",
+      "Link1": "Hauptübersicht",
+      "Link2": "Der ultimative Strategie-Guide",
+      "Link3": "Fundorte für Versorgungsgüter",
+      "Link4": "Wochen 1–8",
+      "Link5": "Feierlichkeiten",
+      "Link6": "Tricks/Cheats"
+    },
+    "Season1": {
+      "Title": "Staffel 1: Die Karmesin-Seuche",
+      "Description": "Der Ausbruch beginnt. Das RA-Virus breitet sich aus, Krieg entbrennt und neue Anführer erheben sich. Bereite dich auf die erste Phase des Chaos im Letzten Krieg vor.",
+      "Link1": "Hauptübersicht",
+      "Link2": "Ultimativer Kriegsregel-Guide",
+      "Link3": "Wochen 1–8",
+      "Link4": "Berufe",
+      "Link5": "Feierlichkeiten",
+      "Link6": "Tricks/Cheats"
+    }
   }
+
 }

@@ -2360,5 +2360,50 @@
       "Description2": "Er selv til stede eller udpeger en pålidelig stedfortræder",
       "Description3": "Motiverer spillere til at deltage og møde op"
     }
+  },
+  "Seasons": {
+    "Title": "Sæsoner",
+    "Season4": {
+      "Title": "Sæson 4: Evignattens Ø",
+      "Description": "Lys og Mørke: Stå over for Blodnattens Måne og bring lyset tilbage til Sakura-Øen.",
+      "Link1": "Hovedoversigt",
+      "Link2": "Ugeguides",
+      "Link3": "Spiltyper",
+      "Link4": "Den ultimative strategiguide",
+      "Link5": "Erhverv",
+      "Link6": "Taktikkort"
+    },
+    "Season3": {
+      "Title": "Sæson 3: Det Gyldne Kongerige",
+      "Description": "Udforsk ørkenerne i Det Gyldne Kongerige og opdag gamle hemmeligheder, kraftfulde evner og skjulte artefakter.",
+      "Link1": "Hovedoversigt",
+      "Link2": "Den ultimative strategiguide",
+      "Link3": "Ugeguides",
+      "Link4": "Erhverv og færdigheder",
+      "Link5": "Placeringer af ørkenartefakter",
+      "Link6": "Sfinx/Oase-lokationer",
+      "Link7": "Fejring",
+      "Link8": "Tricks/Snyd"
+    },
+    "Season2": {
+      "Title": "Sæson 2: Polarstorm",
+      "Description": "En isnende vind rejser sig. Forbered dig på snestorme, frosne konflikter og taktisk overlevelse på isdækkede slagmarker.",
+      "Link1": "Hovedoversigt",
+      "Link2": "Den ultimative strategiguide",
+      "Link3": "Placeringer for forsyninger",
+      "Link4": "Uger 1–8",
+      "Link5": "Fejring",
+      "Link6": "Tricks/Snyd"
+    },
+    "Season1": {
+      "Title": "Sæson 1: Den Karmoisinrøde Pest",
+      "Description": "Udbruddet begynder. RA-virussen spreder sig, krig bryder ud, og nye ledere rejser sig. Gør dig klar til den første fase af kaos i Den Sidste Krig.",
+      "Link1": "Hovedoversigt",
+      "Link2": "Ultimativ krigsregelguide",
+      "Link3": "Uger 1–8",
+      "Link4": "Erhverv",
+      "Link5": "Fejring",
+      "Link6": "Tricks/Snyd"
+    }
   }
 }

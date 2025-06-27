@@ -2367,5 +2367,50 @@
       "Description2": "Is persoonlijk aanwezig of wijst een betrouwbare vervanger aan",
       "Description3": "Moedigt spelers aan om deel te nemen en op tijd aanwezig te zijn"
     }
+  },
+  "Seasons": {
+    "Title": "Seizoenen",
+    "Season4": {
+      "Title": "Seizoen 4: Eilandeeuwige Nacht",
+      "Description": "Licht en Duisternis: Trotseer de Bloednachtmaan en breng het licht terug naar Sakura-eiland.",
+      "Link1": "Hoofdoverzicht",
+      "Link2": "Weekgidsen",
+      "Link3": "Spelmodi",
+      "Link4": "De Ultieme Strategiehandleiding",
+      "Link5": "Beroepen",
+      "Link6": "Tactische Kaart"
+    },
+    "Season3": {
+      "Title": "Seizoen 3: Gouden Koninkrijk",
+      "Description": "Verken de woestijnen van het Gouden Koninkrijk en ontdek oude geheimen, krachtige vaardigheden en verborgen artefacten.",
+      "Link1": "Hoofdoverzicht",
+      "Link2": "De Ultieme Strategiehandleiding",
+      "Link3": "Weekgidsen",
+      "Link4": "Beroepen en Vaardigheden",
+      "Link5": "Locaties van Woestijnartefacten",
+      "Link6": "Sfinx/Oase Locaties",
+      "Link7": "Viering",
+      "Link8": "Trucs/Cheats"
+    },
+    "Season2": {
+      "Title": "Seizoen 2: Poolstorm",
+      "Description": "Een ijzige wind steekt op. Bereid je voor op sneeuwstormen, bevroren conflicten en tactisch overleven op ijzige slagvelden.",
+      "Link1": "Hoofdoverzicht",
+      "Link2": "De Ultieme Strategiehandleiding",
+      "Link3": "Locaties voor Voorraadverzameling",
+      "Link4": "Weken 1–8",
+      "Link5": "Viering",
+      "Link6": "Trucs/Cheats"
+    },
+    "Season1": {
+      "Title": "Seizoen 1: De Karmozijnrode Plaag",
+      "Description": "De uitbraak begint. Het RA-virus verspreidt zich, oorlog breekt uit en nieuwe leiders staan op. Bereid je voor op de eerste fase van chaos in de Laatste Oorlog.",
+      "Link1": "Hoofdoverzicht",
+      "Link2": "Ultieme Oorlogsregels Gids",
+      "Link3": "Weken 1–8",
+      "Link4": "Beroepen",
+      "Link5": "Viering",
+      "Link6": "Trucs/Cheats"
+    }
   }
 }

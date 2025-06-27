@@ -2363,5 +2363,50 @@
       "Description2": "Est présent lui-même ou désigne un remplaçant de confiance",
       "Description3": "Motiver les joueurs à participer et à être ponctuels"
     }
+  },
+  "Seasons": {
+    "Title": "Saisons",
+    "Season4": {
+      "Title": "Saison 4 : Île de la Nuit Éternelle",
+      "Description": "Lumière et Obscurité : Affrontez la Lune de la Nuit Sanglante et ramenez la lumière sur l’Île Sakura.",
+      "Link1": "Vue d’ensemble principale",
+      "Link2": "Guides hebdomadaires",
+      "Link3": "Modes de jeu",
+      "Link4": "Le guide stratégique ultime",
+      "Link5": "Professions",
+      "Link6": "Carte tactique"
+    },
+    "Season3": {
+      "Title": "Saison 3 : Royaume Doré",
+      "Description": "Explorez les déserts du Royaume Doré et découvrez d’anciens secrets, des compétences puissantes et des artefacts cachés.",
+      "Link1": "Vue d’ensemble principale",
+      "Link2": "Le guide stratégique ultime",
+      "Link3": "Guides hebdomadaires",
+      "Link4": "Professions et compétences",
+      "Link5": "Emplacements des artefacts du désert",
+      "Link6": "Emplacements des sphinx et des oasis",
+      "Link7": "Célébration",
+      "Link8": "Astuces/Triches"
+    },
+    "Season2": {
+      "Title": "Saison 2 : Tempête Polaire",
+      "Description": "Un vent glacial se lève. Préparez-vous aux blizzards, aux conflits gelés et à la survie tactique sur des champs de bataille glacés.",
+      "Link1": "Vue d’ensemble principale",
+      "Link2": "Le guide stratégique ultime",
+      "Link3": "Emplacements de ravitaillement",
+      "Link4": "Semaines 1–8",
+      "Link5": "Célébration",
+      "Link6": "Astuces/Triches"
+    },
+    "Season1": {
+      "Title": "Saison 1 : La Peste Cramoisie",
+      "Description": "L’épidémie commence. Le virus RA se propage, la guerre éclate, et de nouveaux chefs émergent. Préparez-vous à la première phase du chaos dans la Dernière Guerre.",
+      "Link1": "Vue d’ensemble principale",
+      "Link2": "Guide ultime des règles de guerre",
+      "Link3": "Semaines 1–8",
+      "Link4": "Professions",
+      "Link5": "Célébration",
+      "Link6": "Astuces/Triches"
+    }
   }
 }
