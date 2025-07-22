@@ -20,45 +20,61 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
 
         await GetR4Players(cancellationToken);
 
-        var today = DateTime.Now;
-
         var currentIndex = trainGuide.CurrentPlayerIndex;
-        var nextIndex = trainGuide.CurrentPlayerIndex;
-        var nextButOneIndex = trainGuide.CurrentPlayerIndex;
+        var today = DateTime.Now;
+        string currentTrainLeader;
+        string nextTrainLeader;
+        string nextButOneTrainLeader;
 
         switch (today.DayOfWeek)
         {
+            case DayOfWeek.Sunday:
+                currentTrainLeader = "1Place";
+                nextTrainLeader = "2Place";
+                nextButOneTrainLeader = "3Place";
+                break;
+            case DayOfWeek.Monday:
+                currentTrainLeader = "2Place";
+                nextTrainLeader = "3Place";
+                nextButOneTrainLeader = "MVP";
+                break;
+            case DayOfWeek.Tuesday:
+                currentTrainLeader = "3Place";
+                nextTrainLeader = "MVP";
+                nextButOneTrainLeader = _players[currentIndex];
+                break;
             case DayOfWeek.Wednesday:
-                nextButOneIndex += 1;
+                currentTrainLeader = "MVP";
+                nextTrainLeader = _players[currentIndex];
+                nextButOneTrainLeader = _players[(currentIndex + 1) % _players.Length];
                 break;
-            case DayOfWeek.Thursday or DayOfWeek.Friday:
-                nextIndex += 1;
-                nextButOneIndex += 2;
+            case DayOfWeek.Thursday:
+                currentTrainLeader = _players[currentIndex];
+                nextTrainLeader = _players[(currentIndex + 1) % _players.Length];
+                nextButOneTrainLeader = _players[(currentIndex + 2) % _players.Length];
                 break;
+            case DayOfWeek.Friday:
+                currentTrainLeader = _players[currentIndex];
+                nextTrainLeader = _players[(currentIndex + 1) % _players.Length];
+                nextButOneTrainLeader = "1Place";
+                break;
+            case DayOfWeek.Saturday:
+                currentTrainLeader = _players[currentIndex];
+                nextTrainLeader = "2Place";
+                nextButOneTrainLeader = "3Place";
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
         }
+
 
         return new TrainGuideDto()
         {
-            CurrentPlayer = GetPlayerForDay(today, currentIndex),
-            NextPlayer = GetPlayerForDay(today.AddDays(1), nextIndex),
-            NextButOnePlayer = GetPlayerForDay(today.AddDays(2), nextButOneIndex),
+            CurrentPlayer = currentTrainLeader,
+            NextPlayer = nextTrainLeader,
+            NextButOnePlayer = nextButOneTrainLeader,
         };
     }
-
-    private string GetPlayerForDay(DateTime date, int index)
-    {
-        return _specialDays.TryGetValue(date.DayOfWeek, out var specialPlayer) 
-            ? specialPlayer 
-            : _players[index % _players.Length];
-    }
-
-    private readonly Dictionary<DayOfWeek, string> _specialDays = new()
-    {
-        { DayOfWeek.Wednesday, "MVP" },
-        { DayOfWeek.Sunday , "1Place"},
-        { DayOfWeek.Monday , "2Place"},
-        { DayOfWeek.Tuesday , "3Place"}
-    };
 
     private async Task GetR4Players(CancellationToken cancellationToken)
     {
