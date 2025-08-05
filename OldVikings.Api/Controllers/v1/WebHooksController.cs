@@ -1,17 +1,54 @@
-﻿using System.Text;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using OldVikings.Api.Classes;
+using OldVikings.Api.Database;
+using OldVikings.Api.Services;
+using System.Text;
 
 namespace OldVikings.Api.Controllers.v1;
 
 [Route("api/v1/[controller]")]
 [ApiController]
-public class WebHooksController(ILogger<WebHooksController> logger, HttpClient httpClient, IOptions<DiscordWebhookOptions> options) : ControllerBase
+public class WebHooksController(ILogger<WebHooksController> logger, HttpClient httpClient, IOptions<DiscordWebhookOptions> options, OldVikingsContext dbContext) : ControllerBase
 {
 
 
     private readonly DiscordWebhookOptions _discordWebhookOptions = options.Value;
+
+    [HttpGet("rotation")]
+    public async Task<IActionResult> RotateTrain()
+    {
+        try
+        {
+            var trainGuide = await dbContext.TrainGuides.FirstOrDefaultAsync();
+
+            if (trainGuide is null)
+            {
+                logger.LogError("Train guide ist null");
+                return BadRequest("Train guide is null");
+            }
+
+            
+            var nextIndex = trainGuide.CurrentPlayerIndex + 1;
+
+            if (nextIndex > 10) nextIndex = 0;
+
+            trainGuide.CurrentPlayerIndex = nextIndex;
+            
+
+            trainGuide.LastUpdate = DateTime.Now;
+            await dbContext.SaveChangesAsync();
+            logger.LogInformation($"Successfully saved changes. LastUpdate = {trainGuide.LastUpdate}");
+
+            return Ok();
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, e.Message);
+            return BadRequest(e.Message);
+        }
+    }
 
     [HttpGet("marshal")]
     public async Task<IActionResult> MarshalReminder([FromQuery] string key)
