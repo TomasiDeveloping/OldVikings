@@ -2412,5 +2412,31 @@
       "Link5": "Viering",
       "Link6": "Trucs/Cheats"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": "🏆 Seizoen 4 – Ranglijst 🏆",
+    "Description": "De beste spelers van het vierde seizoen",
+    "Button": "Naar de ranglijst",
+    "Table": {
+      "Title": "Ranglijst",
+      "Rank": "Rang",
+      "Player": "Speler",
+      "AllianceLoot": "Alliantiebuit",
+      "Rewards": "Seizoensbeloning",
+      "Wars": "Oorlogen",
+      "Score": "Score"
+    },
+    "Rewards": {
+      "Tactician": "Beloning voor strateeg",
+      "TacticianShort": "Strateeg",
+      "Core": "Beloning voor kernlid",
+      "CoreShort": "Kernlid",
+      "Elite": "Beloning voor elitair lid",
+      "EliteShort": "Elite",
+      "Valued": "Beloning voor gewaardeerd lid",
+      "ValuedShort": "Gewaardeerd",
+      "Leader": "Beloning voor alliantieleider",
+      "LeaderShort": "Leider"
+    }
   }
 }

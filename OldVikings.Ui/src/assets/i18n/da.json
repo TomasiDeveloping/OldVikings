@@ -2405,5 +2405,31 @@
       "Link5": "Fejring",
       "Link6": "Tricks/Snyd"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": "🏆 Sæson 4 – Rangliste 🏆",
+    "Description": "De bedste spillere i den fjerde sæson",
+    "Button": "Til ranglisten",
+    "Table": {
+      "Title": "Rangliste",
+      "Rank": "Rang",
+      "Player": "Spiller",
+      "AllianceLoot": "Alliancetyvegods",
+      "Rewards": "Sæsonbelønning",
+      "Wars": "Krige",
+      "Score": "Point"
+    },
+    "Rewards": {
+      "Tactician": "Taktikerbelønning",
+      "TacticianShort": "Taktiker",
+      "Core": "Kerne-medlemsbelønning",
+      "CoreShort": "Kernemedlem",
+      "Elite": "Elite-medlemsbelønning",
+      "EliteShort": "Elite",
+      "Valued": "Værdsat medlemsbelønning",
+      "ValuedShort": "Værdsat",
+      "Leader": "Alliancens lederbelønning",
+      "LeaderShort": "Leder"
+    }
   }
 }

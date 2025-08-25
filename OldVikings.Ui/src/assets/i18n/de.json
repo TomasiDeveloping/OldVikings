@@ -2412,6 +2412,31 @@
       "Link5": "Feierlichkeiten",
       "Link6": "Tricks/Cheats"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": " \uD83C\uDFC6 Saison 4 – Rangliste \uD83C\uDFC6",
+    "Description": "Die besten Spieler der vierten Saison",
+    "Button": "Zur Rangliste",
+    "Table": {
+      "Title": "Rangliste",
+      "Rank": "Rang",
+      "Player": "Spieler",
+      "AllianceLoot": "Allianz Beute",
+      "Rewards": "Saisonbelohnung",
+      "Wars": "Kriege",
+      "Score": "Punkte"
+    },
+    "Rewards":{
+      "Tactician": "Taktiker-Belohnung",
+      "TacticianShort": "Taktiker",
+      "Core": "Belohnung für Kernmitglieder",
+      "CoreShort": "Kernmitglieder",
+      "Elite": "Belohnung für Elite-Mitglieder",
+      "EliteShort": "Elite",
+      "Valued": "Belohnung für Top-Mitglieder",
+      "ValuedShort": "Top-Mitglieder",
+      "Leader": "Allianzanführer-Belohnung",
+      "LeaderShort": "Allianzanführer"
+    }
   }
-
 }

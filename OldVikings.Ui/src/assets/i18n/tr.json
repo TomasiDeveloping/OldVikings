@@ -2405,5 +2405,31 @@
       "Link5": "Kutlama",
       "Link6": "Hileler/Püf Noktaları"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": "🏆 Sezon 4 – Lider Tablosu 🏆",
+    "Description": "Dördüncü sezonun en iyi oyuncuları",
+    "Button": "Lider tablosuna git",
+    "Table": {
+      "Title": "Lider Tablosu",
+      "Rank": "Sıra",
+      "Player": "Oyuncu",
+      "AllianceLoot": "İttifak ganimeti",
+      "Rewards": "Sezon ödülü",
+      "Wars": "Savaşlar",
+      "Score": "Puan"
+    },
+    "Rewards": {
+      "Tactician": "Taktisyen ödülü",
+      "TacticianShort": "Taktisyen",
+      "Core": "Çekirdek üye ödülü",
+      "CoreShort": "Çekirdek üye",
+      "Elite": "Elit üye ödülü",
+      "EliteShort": "Elit",
+      "Valued": "Değerli üye ödülü",
+      "ValuedShort": "Değerli",
+      "Leader": "İttifak lideri ödülü",
+      "LeaderShort": "Lider"
+    }
   }
 }

@@ -2416,5 +2416,31 @@
       "Link5": "Celebration",
       "Link6": "Tricks/Cheats"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": "\uD83C\uDFC6 Season 4 – Leaderboard \uD83C\uDFC6",
+    "Description": "The best players of the fourth season",
+    "Button": "To the leaderboard",
+    "Table": {
+      "Title": "Leaderboard",
+      "Rank": "Rank",
+      "Player": "Player",
+      "AllianceLoot": "Alliance Loot",
+      "Rewards": "Season Reward",
+      "Wars": "Wars",
+      "Score": "Score"
+    },
+    "Rewards":{
+      "Tactician": "Tactician Reward",
+      "TacticianShort": "Tactician",
+      "Core": "Core Member Reward",
+      "CoreShort": "Core Member",
+      "Elite": "Elite Member Reward",
+      "EliteShort": "Elite",
+      "Valued": "Valued Member Reward",
+      "ValuedShort": "Valued",
+      "Leader": "Alliance Leader Reward",
+      "LeaderShort": "Leader"
+    }
   }
 }

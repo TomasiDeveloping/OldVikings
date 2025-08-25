@@ -1,6 +1,16 @@
 <div class="container py-5 pb-5">
   <h1 class="custom-font mb-5 text-center display-4 fw-bold">{{'Seasons.Title' | translate}}</h1>
 
+  <div class="season-card">
+    <div class="season-content text-center">
+      <h2 class="season-title text-warning">{{'SeasonLeaderBoard.Title' | translate}}</h2>
+      <p>{{'SeasonLeaderBoard.Description' | translate}}</p>
+      <a routerLink="/season-leaderboard" class="btn btn-warning btn-lg fw-bold">
+        <i class="bi bi-trophy-fill"></i> {{'SeasonLeaderBoard.Button' | translate}}
+      </a>
+    </div>
+  </div>
+
   <!-- Season 4 -->
   <div class="season-card">
     <img src="../../../assets/images/seasons/season4.png" alt="Evernight Isle" class="season-img img-fluid w-100">

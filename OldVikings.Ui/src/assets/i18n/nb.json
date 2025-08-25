@@ -2412,5 +2412,31 @@
       "Link5": "Feiring",
       "Link6": "Triks/Juks"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": "🏆 Sesong 4 – Resultatliste 🏆",
+    "Description": "De beste spillerne i den fjerde sesongen",
+    "Button": "Gå til resultatlisten",
+    "Table": {
+      "Title": "Resultatliste",
+      "Rank": "Rang",
+      "Player": "Spiller",
+      "AllianceLoot": "Alliansebytte",
+      "Rewards": "Sesongbelønning",
+      "Wars": "Kriger",
+      "Score": "Poeng"
+    },
+    "Rewards": {
+      "Tactician": "Strategbelønning",
+      "TacticianShort": "Strateg",
+      "Core": "Kjernemedlemsbelønning",
+      "CoreShort": "Kjernemedlem",
+      "Elite": "Elitemedlemsbelønning",
+      "EliteShort": "Elite",
+      "Valued": "Verdsatt medlemsbelønning",
+      "ValuedShort": "Verdsatt",
+      "Leader": "Allianselederbelønning",
+      "LeaderShort": "Leder"
+    }
   }
 }

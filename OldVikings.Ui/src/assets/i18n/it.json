@@ -2412,5 +2412,31 @@
       "Link5": "Celebrazione",
       "Link6": "Trucchi/Barare"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": "🏆 Stagione 4 – Classifica 🏆",
+    "Description": "I migliori giocatori della quarta stagione",
+    "Button": "Vai alla classifica",
+    "Table": {
+      "Title": "Classifica",
+      "Rank": "Posizione",
+      "Player": "Giocatore",
+      "AllianceLoot": "Bottino dell'alleanza",
+      "Rewards": "Ricompensa di stagione",
+      "Wars": "Guerre",
+      "Score": "Punteggio"
+    },
+    "Rewards": {
+      "Tactician": "Ricompensa stratega",
+      "TacticianShort": "Stratega",
+      "Core": "Ricompensa membro principale",
+      "CoreShort": "Membro principale",
+      "Elite": "Ricompensa membro élite",
+      "EliteShort": "Élite",
+      "Valued": "Ricompensa membro stimato",
+      "ValuedShort": "Stimato",
+      "Leader": "Ricompensa leader dell'alleanza",
+      "LeaderShort": "Leader"
+    }
   }
 }

@@ -52,7 +52,7 @@ const routes: Routes = [
   {path: 'season-two', component: SeasonTwoComponent},
   {path: 'season-two-celebration', component: SeasonTwoCelebrationComponent},
   {path: 'season-three', component: SeasonThreeComponent},
-  {path: 'season-three-leaderboard', component: SeasonThreeAllianceLeaderboardComponent, canActivate: [memberGuard]},
+  {path: 'season-leaderboard', component: SeasonThreeAllianceLeaderboardComponent, canActivate: [memberGuard]},
   {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'alliance-mvp', component: AllianceMvpComponent, canActivate: [memberGuard]},
   {path: 'r4', component: R4Component, canActivate: [memberGuard]},

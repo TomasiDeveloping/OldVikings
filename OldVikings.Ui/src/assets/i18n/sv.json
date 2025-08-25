@@ -2416,5 +2416,31 @@
       "Link5": "Firande",
       "Link6": "Fusk/Trix"
     }
+  },
+  "SeasonLeaderBoard": {
+    "Title": "🏆 Säsong 4 – Topplista 🏆",
+    "Description": "De bästa spelarna i den fjärde säsongen",
+    "Button": "Till topplistan",
+    "Table": {
+      "Title": "Topplista",
+      "Rank": "Rang",
+      "Player": "Spelare",
+      "AllianceLoot": "Alliansbyte",
+      "Rewards": "Säsongsbelöning",
+      "Wars": "Krig",
+      "Score": "Poäng"
+    },
+    "Rewards": {
+      "Tactician": "Belöning för strateg",
+      "TacticianShort": "Strateg",
+      "Core": "Belöning för kärnmedlem",
+      "CoreShort": "Kärnmedlem",
+      "Elite": "Belöning för elitmedlem",
+      "EliteShort": "Elit",
+      "Valued": "Belöning för uppskattad medlem",
+      "ValuedShort": "Uppskattad",
+      "Leader": "Belöning för alliansledare",
+      "LeaderShort": "Ledare"
+    }
   }
 }
