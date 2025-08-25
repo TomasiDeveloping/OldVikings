@@ -31,10 +31,6 @@
 
 /* Tabellen-Tweaks */
 .table thead th { white-space: nowrap; }
-//.table tbody tr.tactical   { --bs-table-bg: rgba(25, 135, 84, .07); } /* grünlicher Tint */
-//.table tbody tr.core       { --bs-table-bg: rgba(255, 193, 7, .07); } /* gelblicher Tint */
-//.table tbody tr.elite      { --bs-table-bg: rgba(13, 110, 253, .06); } /* blauer Tint */
-//.table tbody tr.red-bg     { --bs-table-bg: rgba(220, 53, 69, .08); }  /* rötlicher Tint */
 
 .table tbody tr:hover { filter: brightness(1.03); }
 
