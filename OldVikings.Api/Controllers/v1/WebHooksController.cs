@@ -29,15 +29,20 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                 return BadRequest("Train guide is null");
             }
 
-            
-            var nextIndex = trainGuide.CurrentPlayerIndex + 1;
+            var playerCount = await dbContext.R4Players.CountAsync();
+            if (playerCount == 0)
+            {
+                logger.LogError("No players found in R4Players table");
+                return BadRequest("No players found in R4Players table");
+            }
 
-            if (nextIndex > 10) nextIndex = 0;
+
+            var nextIndex = (trainGuide.CurrentPlayerIndex + 1) % playerCount;
+
 
             trainGuide.CurrentPlayerIndex = nextIndex;
-            
-
             trainGuide.LastUpdate = DateTime.Now;
+
             await dbContext.SaveChangesAsync();
             logger.LogInformation($"Successfully saved changes. LastUpdate = {trainGuide.LastUpdate}");
 

@@ -8,25 +8,30 @@ namespace OldVikings.Api.Repositories;
 public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideRepository> logger) : ITrainGuideRepository
 {
     private string[] _players = [];
+
     public async Task<TrainGuideDto> GetTrainGuide(CancellationToken cancellationToken)
     {
-        var trainGuide = await context.TrainGuides.FirstOrDefaultAsync(cancellationToken);
+        var trainGuide = await context.TrainGuides.FirstOrDefaultAsync(cancellationToken)
+                         ?? throw new ApplicationException("No Data found");
 
-        if (trainGuide is null)
-        {
-            logger.LogError("No Data found");
-            throw new ApplicationException("No Data found");
-        }
+        await LoadPlayersAsync(cancellationToken);
 
-        await GetR4Players(cancellationToken);
+        if (_players.Length == 0)
+            throw new ApplicationException("Keine R4-Spieler gefunden");
 
-        var currentIndex = trainGuide.CurrentPlayerIndex;
-        var today = DateTime.Now;
+        // Index sicher normalisieren (funktioniert auch bei negativen Werten)
+        var idx = NormalizeIndex(trainGuide.CurrentPlayerIndex, _players.Length);
+
+        // Zyklischer Zugriff: At(0) = aktueller, At(1) = nächster, At(2) = übernächster
+        string At(int offset) => _players[NormalizeIndex(idx + offset, _players.Length)];
+
+        var today = DateTime.Now.DayOfWeek;
+
         string currentTrainLeader;
         string nextTrainLeader;
         string nextButOneTrainLeader;
 
-        switch (today.DayOfWeek)
+        switch (today)
         {
             case DayOfWeek.Sunday:
                 currentTrainLeader = "1Place";
@@ -41,25 +46,25 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
             case DayOfWeek.Tuesday:
                 currentTrainLeader = "3Place";
                 nextTrainLeader = "MVP";
-                nextButOneTrainLeader = _players[currentIndex];
+                nextButOneTrainLeader = At(0);
                 break;
             case DayOfWeek.Wednesday:
                 currentTrainLeader = "MVP";
-                nextTrainLeader = _players[currentIndex];
-                nextButOneTrainLeader = _players[(currentIndex + 1) % _players.Length];
+                nextTrainLeader = At(0);
+                nextButOneTrainLeader = At(1);
                 break;
             case DayOfWeek.Thursday:
-                currentTrainLeader = _players[currentIndex];
-                nextTrainLeader = _players[(currentIndex + 1) % _players.Length];
-                nextButOneTrainLeader = _players[(currentIndex + 2) % _players.Length];
+                currentTrainLeader = At(0);
+                nextTrainLeader = At(1);
+                nextButOneTrainLeader = At(2);
                 break;
             case DayOfWeek.Friday:
-                currentTrainLeader = _players[currentIndex];
-                nextTrainLeader = _players[(currentIndex + 1) % _players.Length];
+                currentTrainLeader = At(0);
+                nextTrainLeader = At(1);
                 nextButOneTrainLeader = "1Place";
                 break;
             case DayOfWeek.Saturday:
-                currentTrainLeader = _players[currentIndex];
+                currentTrainLeader = At(0);
                 nextTrainLeader = "2Place";
                 nextButOneTrainLeader = "3Place";
                 break;
@@ -67,8 +72,7 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
                 throw new ArgumentOutOfRangeException();
         }
 
-
-        return new TrainGuideDto()
+        return new TrainGuideDto
         {
             CurrentPlayer = currentTrainLeader,
             NextPlayer = nextTrainLeader,
@@ -76,13 +80,19 @@ public class TrainGuideRepository(OldVikingsContext context, ILogger<TrainGuideR
         };
     }
 
-    private async Task GetR4Players(CancellationToken cancellationToken)
+    private async Task LoadPlayersAsync(CancellationToken ct)
     {
-        var players = await context.R4Players
+        _players = await context.R4Players
             .AsNoTracking()
-            .OrderBy(r4Player => r4Player.Order)
-            .ToListAsync(cancellationToken);
+            .OrderBy(p => p.Order)
+            .Select(p => p.PlayerName)
+            .ToArrayAsync(ct);
+    }
 
-        _players = players.Select(p => p.PlayerName).ToArray();
+    private static int NormalizeIndex(int index, int length)
+    {
+        // Modulo, das auch bei negativen Werten korrekt in [0, length-1] liegt
+        var m = index % length;
+        return m < 0 ? m + length : m;
     }
 }
