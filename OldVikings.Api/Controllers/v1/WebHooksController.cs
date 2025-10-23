@@ -154,6 +154,34 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
         }
     }
 
+    [HttpGet("desert-brawl")]
+    public async Task<IActionResult> DesertBrawlReminder([FromQuery] string key, string team)
+    {
+        try
+        {
+            if (key != _discordWebhookOptions.ApiKey)
+            {
+                return Unauthorized();
+            }
+
+            var jsonBody = GetDesertBrawlContent(team);
+
+            var response = await SendToDiscordWebhook(_discordWebhookOptions.DesertStormChannelUrl, jsonBody);
+
+            return response.IsSuccessStatusCode
+                ? Accepted()
+                : Problem(statusCode: (int)response.StatusCode,
+                    detail: $"Error posting to webhook: {response.ReasonPhrase}",
+                    title: "Webhook Error");
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, "{ExceptionMessage}", e.Message);
+            return Problem(statusCode: StatusCodes.Status500InternalServerError,
+                detail: $"Error on {nameof(DesertBrawlReminder)}", title: "Internal Server Error");
+        }
+    }
+
     [HttpGet("train-start")]
     public async Task<IActionResult> TrainStartReminder([FromQuery]string key)
     {
@@ -341,5 +369,24 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                  ]
                }
                """;
+    }
+
+    private static string GetDesertBrawlContent(string team)
+    {
+        return $$"""
+                 {
+                   "content": "@everyone",
+                   "embeds": [
+                     {
+                       "title": "🦂 Desert Brawl for Team {{team}} starts in 15 minutes!",
+                       "description": "Team {{team}} — **Starting players must be online and ready.**\nSubstitute players, stay alert and be ready to step in instantly if needed.\n\nKeep comms clear, support your teammates, and play with focus.\n\n_It’s time to bring the heat — every play matters._",
+                       "color": 16753920,
+                       "footer": {
+                         "text": "Desert Brawl – Stay sharp, stay ready."
+                       }
+                     }
+                   ]
+                 }
+                 """;
     }
 }
