@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using OldVikings.Api.Classes;
 using OldVikings.Api.Database;
-using OldVikings.Api.Services;
 using System.Text;
 
 namespace OldVikings.Api.Controllers.v1;
@@ -179,6 +178,34 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
             logger.LogError(e, "{ExceptionMessage}", e.Message);
             return Problem(statusCode: StatusCodes.Status500InternalServerError,
                 detail: $"Error on {nameof(DesertBrawlReminder)}", title: "Internal Server Error");
+        }
+    }
+
+    [HttpGet("canyon-storm")]
+    public async Task<IActionResult> CanyonStormReminder([FromQuery] string key, string team)
+    {
+        try
+        {
+            if (key != _discordWebhookOptions.ApiKey)
+            {
+                return Unauthorized();
+            }
+
+            var jsonBody = GetCanyonStormContent(team);
+
+            var response = await SendToDiscordWebhook(_discordWebhookOptions.DesertStormChannelUrl, jsonBody);
+
+            return response.IsSuccessStatusCode
+                ? Accepted()
+                : Problem(statusCode: (int)response.StatusCode,
+                    detail: $"Error posting to webhook: {response.ReasonPhrase}",
+                    title: "Webhook Error");
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, "{ExceptionMessage}", e.Message);
+            return Problem(statusCode: StatusCodes.Status500InternalServerError,
+                detail: $"Error on {nameof(CanyonStormReminder)}", title: "Internal Server Error");
         }
     }
 
@@ -383,6 +410,25 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                        "color": 16753920,
                        "footer": {
                          "text": "Desert Brawl – Stay sharp, stay ready."
+                       }
+                     }
+                   ]
+                 }
+                 """;
+    }
+
+    private static string GetCanyonStormContent(string team)
+    {
+        return $$"""
+                 {
+                   "content": "@everyone",
+                   "embeds": [
+                     {
+                       "title": "🌪 Canyon Storm Battlefield for Team {{team}} starts in 15 minutes!",
+                       "description": "Team {{team}} — **get ready!**\nAll registered players are expected to join and be battle-ready.\n\nThe storm is approaching fast — gear up, focus, and prepare to fight as one.\n\n_No delays, no excuses — it’s time to show your strength._",
+                       "color": 15158332,
+                       "footer": {
+                         "text": "Canyon Storm – Be ready when the wind rises."
                        }
                      }
                    ]
