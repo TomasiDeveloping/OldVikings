@@ -1,0 +1,57 @@
+/* Gesamter Bereich */
+.memorial-page {
+  background: #0b1015; /* etwas dunkler als Darkly-Body */
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+/* Bild oben */
+.memorial-image {
+  max-width: 520px;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.45);
+}
+
+/* Card für den Einleitungstext */
+.memorial-card {
+  background: rgba(26, 32, 38, 0.9); /* Darkly-Card-Ton, leicht transparent */
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  border-radius: 1rem;
+  color: #fff;
+  backdrop-filter: blur(2px);
+}
+
+/* Überschrift */
+.memorial-card h1 {
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+/* Untertitel / Datum */
+.memorial-card .text-muted {
+  color: rgba(255, 255, 255, 0.45) !important;
+}
+
+/* Embed (Kudoboard) */
+.memorial-embed iframe {
+  border-radius: 0.75rem;
+  background: #1a2026;
+}
+
+/* Link unter dem Embed */
+.memorial-page a {
+  color: #63c2ff;
+}
+.memorial-page a:hover {
+  color: #bfe7ff;
+}
+
+/* Mobile Optimierung */
+@media (max-width: 576px) {
+  .memorial-card {
+    padding: 1.5rem !important;
+  }
+  .memorial-image {
+    max-width: 100%;
+  }
+}

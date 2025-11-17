@@ -2370,6 +2370,12 @@
   },
   "Seasons": {
     "Title": "Seizoenen",
+    "Season5": {
+      "Title": "Seizoen 5: Wilde Westen – De Gouden Woestenij van het Land van de Vrijheid",
+      "Description": "In de Gouden Woestenij van het Land van de Vrijheid heersen rijkdom en geweld zij aan zij. Onder de meedogenloze mijnheer Koning Schoppen rijst het KristalGoud-imperium — en het is aan jou om gerechtigheid naar het Wilde Westen te brengen.",
+      "Link1": "Hoofdoverzicht",
+      "Link2": "Beroepen"
+    },
     "Season4": {
       "Title": "Seizoen 4: Eilandeeuwige Nacht",
       "Description": "Licht en Duisternis: Trotseer de Bloednachtmaan en breng het licht terug naar Sakura-eiland.",

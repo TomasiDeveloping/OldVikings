@@ -2363,6 +2363,12 @@
   },
   "Seasons": {
     "Title": "Sæsoner",
+    "Season5": {
+      "Title": "Season 5: Vilde Vesten – Den Gyldne Ødemark i Frihedens Land",
+      "Description": "I den Gyldne Ødemark i Frihedens Land hersker rigdom og vold side om side. Under den nådesløse mineherre Kong Spar opstår KrystalGuld-imperiet — og det er op til dig at bringe retfærdighed til Det Vilde Vesten.",
+      "Link1": "Hovedoversigt",
+      "Link2": "Erhverv"
+    },
     "Season4": {
       "Title": "Sæson 4: Evignattens Ø",
       "Description": "Lys og Mørke: Stå over for Blodnattens Måne og bring lyset tilbage til Sakura-Øen.",

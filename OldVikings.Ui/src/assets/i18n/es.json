@@ -2374,6 +2374,12 @@
   },
   "Seasons": {
     "Title": "Temporadas",
+    "Season5": {
+      "Title": "Temporada 5: Lejano Oeste – El Yermo Dorado de la Tierra de la Libertad",
+      "Description": "En el Yermo Dorado de la Tierra de la Libertad, la riqueza y la violencia reinan lado a lado. Bajo el despiadado señor de las minas, el Rey Espada, surge el Imperio OroCristal — y depende de ti llevar justicia al Lejano Oeste.",
+      "Link1": "Descripción General",
+      "Link2": "Profesiones"
+    },
     "Season4": {
       "Title": "Temporada 4: Isla de la Noche Eterna",
       "Description": "Luz y Oscuridad: Enfréntate a la Luna de la Noche Sangrienta y devuelve la luz a la Isla Sakura.",

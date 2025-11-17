@@ -2374,6 +2374,12 @@
   },
   "Seasons": {
     "Title": "Säsonger",
+    "Season5": {
+      "Title": "Säsong 5: Vilda Västern – Det Gyldene Ödelandet i Frihetens Land",
+      "Description": "I Det Gyldene Ödelandet i Frihetens Land härskar rikedom och våld sida vid sida. Under den hänsynslöse gruvherren Kung Spader reser sig KristallGuld-imperiet — och det är upp till dig att skipa rättvisa i Vilda Västern.",
+      "Link1": "Huvudöversikt",
+      "Link2": "Yrken"
+    },
     "Season4": {
       "Title": "Säsong 4: Evig Nattens Ö",
       "Description": "Ljus och Mörker: Möt Blodnattens Måne och återför ljuset till Sakuraön.",

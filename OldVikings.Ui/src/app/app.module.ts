@@ -45,6 +45,7 @@ import { R4RolesComponent } from './pages/r4-roles/r4-roles.component';
 import { SeasonsComponent } from './pages/seasons/seasons.component';
 import { S4CalculatorComponent } from './pages/s4-calculator/s4-calculator.component';
 import { SeasonLeaderBordComponent } from './pages/seasons/season-leader-bord/season-leader-bord.component';
+import { MemorialComponent } from './pages/memorial/memorial.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -84,7 +85,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         R4RolesComponent,
         SeasonsComponent,
         S4CalculatorComponent,
-        SeasonLeaderBordComponent
+        SeasonLeaderBordComponent,
+        MemorialComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,

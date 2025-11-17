@@ -2363,6 +2363,12 @@
   },
   "Seasons": {
     "Title": "Sezonlar",
+    "Season5": {
+      "Title": "Sezon 5: Vahşi Batı – Özgürlük Ülkesinin Altın Çorak Toprakları",
+      "Description": "Özgürlük Ülkesinin Altın Çorak Topraklarında zenginlik ve şiddet yan yana hüküm sürmektedir. Acımasız maden lordu Maça Kral’ın yönetiminde KristalAltın İmparatorluğu yükselir — ve Vahşi Batı’ya adaleti getirmek sana düşer.",
+      "Link1": "Genel Bakış",
+      "Link2": "Meslekler"
+    },
     "Season4": {
       "Title": "Sezon 4: Ebedi Gece Adası",
       "Description": "Işık ve Karanlık: Kanlı Gece Ayı'yla yüzleş ve Sakura Adası'na ışığı geri getir.",

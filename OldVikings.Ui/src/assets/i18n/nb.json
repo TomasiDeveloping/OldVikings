@@ -2370,6 +2370,12 @@
   },
   "Seasons": {
     "Title": "Sesonger",
+    "Season5": {
+      "Title": "Sesong 5: Ville Vesten – Det Gylne Ødelandet i Frihetens Land",
+      "Description": "I det Gylne Ødelandet i Frihetens Land hersker rikdom og vold side om side. Under den nådeløse gruveherren Kong Spar reiser KrystallGull-imperiet seg — og det er opp til deg å bringe rettferdighet til Ville Vesten.",
+      "Link1": "Hovedoversikt",
+      "Link2": "Yrker"
+    },
     "Season4": {
       "Title": "Sesong 4: Evignattens Øy",
       "Description": "Lys og Mørke: Møt Blodnattens Måne og bring lyset tilbake til Sakura-øya.",

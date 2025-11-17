@@ -31,6 +31,7 @@ import {
 import {R4RolesComponent} from "./pages/r4-roles/r4-roles.component";
 import {SeasonsComponent} from "./pages/seasons/seasons.component";
 import {SeasonLeaderBordComponent} from "./pages/seasons/season-leader-bord/season-leader-bord.component";
+import {MemorialComponent} from "./pages/memorial/memorial.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -61,6 +62,7 @@ const routes: Routes = [
   {path: 'capitol', component: CapitolComponent},
   {path: 'player-manager', component: PlayerManagerComponent},
   {path: 'guestbook', component: GuestbookComponent},
+  {path: 'memorial', component: MemorialComponent},
   {path: 'videos', component: VideosComponent, canActivate: [memberGuard]},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];

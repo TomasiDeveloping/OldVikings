@@ -2370,6 +2370,12 @@
   },
   "Seasons": {
     "Title": "Stagioni",
+    "Season5": {
+      "Title": "Stagione 5: Selvaggio West – Il Deserto Dorato della Terra della Libertà",
+      "Description": "Nel Deserto Dorato della Terra della Libertà, ricchezza e violenza regnano fianco a fianco. Sotto il crudele signore delle miniere, Re Picche, sorge l’Impero dell’OroCristallo — e spetta a te portare giustizia nel Selvaggio West.",
+      "Link1": "Panoramica Principale",
+      "Link2": "Professioni"
+    },
     "Season4": {
       "Title": "Stagione 4: Isola della Notte Eterna",
       "Description": "Luce e Oscurità: Affronta la Luna della Notte di Sangue e riporta la luce sull’Isola di Sakura.",

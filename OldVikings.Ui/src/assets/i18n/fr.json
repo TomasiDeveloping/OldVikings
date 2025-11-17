@@ -2366,6 +2366,12 @@
   },
   "Seasons": {
     "Title": "Saisons",
+    "Season5": {
+      "Title": "Saison 5 : Far West – Le Désert Doré du Pays de la Liberté",
+      "Description": "Dans le Désert Doré du Pays de la Liberté, richesse et violence règnent côte à côte. Sous le règne du seigneur des mines impitoyable, le Roi Pique, l’Empire de l’OrCristal s’élève — et c’est à toi d’apporter la justice au Far West.",
+      "Link1": "Aperçu Principal",
+      "Link2": "Professions"
+    },
     "Season4": {
       "Title": "Saison 4 : Île de la Nuit Éternelle",
       "Description": "Lumière et Obscurité : Affrontez la Lune de la Nuit Sanglante et ramenez la lumière sur l’Île Sakura.",

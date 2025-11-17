@@ -2370,6 +2370,12 @@
   },
   "Seasons": {
     "Title": "Staffeln",
+    "Season5": {
+      "Title": "Season 5: Wilder Westen – Das Goldene Ödland des Landes der Freiheit",
+      "Description": "Im Goldenen Ödland des Landes der Freiheit herrschen Reichtum und Gewalt Seite an Seite. Unter dem gnadenlosen Minenfürsten König Pik erhebt sich das Kristallgold-Imperium — und es liegt an dir, Gerechtigkeit in den Wilden Westen zu bringen.",
+      "Link1": "Hauptübersicht",
+      "Link2": "Berufe"
+    },
     "Season4": {
       "Title": "Staffel 4: Insel der ewigen Nacht",
       "Description": "Licht und Dunkelheit: Stelle dich dem Blutmond der Nacht und bringe das Licht zurück auf die Sakura-Insel.",
