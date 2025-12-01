@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OldVikings.Api.Database;
 
@@ -11,9 +12,11 @@ using OldVikings.Api.Database;
 namespace OldVikings.Api.Migrations
 {
     [DbContext(typeof(OldVikingsContext))]
-    partial class OldVikingsContextModelSnapshot : ModelSnapshot
+    [Migration("20251126105311_addShinyServer")]
+    partial class addShinyServer
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

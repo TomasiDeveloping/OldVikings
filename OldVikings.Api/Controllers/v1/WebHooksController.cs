@@ -4,12 +4,14 @@ using Microsoft.Extensions.Options;
 using OldVikings.Api.Classes;
 using OldVikings.Api.Database;
 using System.Text;
+using OldVikings.Api.DataTransferObjects.ShinyServer;
+using OldVikings.Api.Interfaces;
 
 namespace OldVikings.Api.Controllers.v1;
 
 [Route("api/v1/[controller]")]
 [ApiController]
-public class WebHooksController(ILogger<WebHooksController> logger, HttpClient httpClient, IOptions<DiscordWebhookOptions> options, OldVikingsContext dbContext) : ControllerBase
+public class WebHooksController(ILogger<WebHooksController> logger, HttpClient httpClient, IOptions<DiscordWebhookOptions> options, OldVikingsContext dbContext, IShinyServerRepository shinyServerRepository) : ControllerBase
 {
 
 
@@ -265,6 +267,35 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
         }
     }
 
+    [HttpGet("shiny-servers")]
+    public async Task<IActionResult> ShinyServerService([FromQuery] string key)
+    {
+        try
+        {
+            if (key != _discordWebhookOptions.ApiKey)
+            {
+                return Unauthorized();
+            }
+
+            var shinyServersToday = await shinyServerRepository.GetShinyServersForTodayAsync();
+            var jsonBody = GetShinyEmbedContent(shinyServersToday);
+            var response = await SendToDiscordWebhook(_discordWebhookOptions.ShinyTaskChannelUrl, jsonBody);
+            return response.IsSuccessStatusCode
+                ? Accepted()
+                : Problem(statusCode: (int)response.StatusCode,
+                    detail: $"Error posting to webhook: {response.ReasonPhrase}",
+                    title: "Webhook Error");
+
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, "{ExceptionMessage}", e.Message);
+            return Problem(statusCode: StatusCodes.Status500InternalServerError,
+                detail: $"Error on {nameof(ShinyServerService)}", title: "Internal Server Error");
+        }
+    }
+
+
     private async Task<HttpResponseMessage> SendToDiscordWebhook(string url, string jsonBody)
     {
         return await httpClient.PostAsync(url, GetStringContent(jsonBody));
@@ -273,6 +304,46 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
     private static StringContent GetStringContent(string jsonBody)
     {
         return new StringContent(jsonBody, Encoding.UTF8, "application/json");
+    }
+
+    private static string GetShinyEmbedContent(List<ShinyServerDto> servers)
+    {
+        var formattedDate = DateTime.Now.ToString("dd.MM.yyyy");
+
+        var serverList = servers
+            .OrderBy(s => s.ServerNumber)
+            .Select(s => $"🔸 **Server {s.ServerNumber}**")
+            .ToList();
+
+        var serverField = serverList.Any()
+            ? string.Join("\\n", serverList)
+            : "_No shiny servers available today._";
+
+        return $$"""
+                 {
+                   "embeds": [
+                     {
+                       "title": "✨ Shiny Task Service",
+                       "description": "Good morning, Shiny hunters! ☀️\nHere are the servers where you can find **Shiny Tasks** today.\nIf you discover a Shiny Task during your runs, please share it in the chat so everyone can benefit! ✨",
+                       "color": 16098851,
+                       "fields": [
+                         {
+                           "name": "📅 Date",
+                           "value": "{{formattedDate}}",
+                           "inline": true
+                         },
+                         {
+                           "name": "💠 Today’s Shiny Servers",
+                           "value": "{{serverField}}"
+                         }
+                       ],
+                       "footer": {
+                         "text": "Shiny Task Service – Delivered fresh every morning ✨"
+                       }
+                     }
+                   ]
+                 }
+                 """;
     }
 
     private static bool ShouldZombieSiegeTrigger(DateTime today)

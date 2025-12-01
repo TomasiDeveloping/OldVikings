@@ -18,4 +18,6 @@ public class OldVikingsContext(DbContextOptions<OldVikingsContext> options) : Db
     public DbSet<R4Roles> R4Roles { get; set; }
 
     public DbSet<R4Player> R4Players { get; set; }
+
+    public DbSet<ShinyServer> ShinyServers { get; set; }
 }

@@ -11,4 +11,6 @@ public class DiscordWebhookOptions
     public required string DesertStormChannelUrl { get; set; }
 
     public required string TrainChannelUrl { get; set; }
+
+    public required string ShinyTaskChannelUrl { get; set; }
 }

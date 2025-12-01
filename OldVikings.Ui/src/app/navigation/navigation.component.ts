@@ -8,7 +8,7 @@ import { ToastrService} from "ngx-toastr";
   styleUrl: './navigation.component.scss'
 })
 export class NavigationComponent implements OnInit{
-  version: string = '1.34.00';
+  version: string = '1.35.00';
   isShown: boolean = false;
   siteLanguage: string = 'Deutsch';
   languageList = [

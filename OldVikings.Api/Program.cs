@@ -5,7 +5,6 @@ using OldVikings.Api.Interfaces;
 using OldVikings.Api.Profiles;
 using OldVikings.Api.Repositories;
 using OldVikings.Api.Services;
-using Quartz;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -35,12 +34,13 @@ try
         options.UseSqlServer(builder.Configuration.GetConnectionString("OldVikings"));
     });
 
-    builder.Services.AddAutoMapper(options => { options.AddProfile<GreetingProfile>(); options.AddProfile<R4RoleProfile>(); });
+    builder.Services.AddAutoMapper(options => { options.AddProfile<GreetingProfile>(); options.AddProfile<R4RoleProfile>(); options.AddProfile<ShinyServerProfile>();});
 
     builder.Services.AddScoped<IGreetingRepository, GreetingRepository>();
     builder.Services.AddScoped<IR4RoleRepository, R4RoleRepository>();
     builder.Services.AddScoped<IR4PlayerRepository, R4PlayerRepository>();
     builder.Services.AddTransient<ITranslateService, TranslateService>();
+    builder.Services.AddScoped<IShinyServerRepository, ShinyServerRepository>();
     builder.Services.AddTransient<ITrainGuideRepository, TrainGuideRepository>();
 
     //builder.Services.AddQuartz(options =>
