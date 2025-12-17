@@ -1,6 +1,15 @@
 
   <img src="../../../assets/images/background2.jpg" alt="Banner" class="header-image" />
 
+  <section class="text-center mt-3 viking-player">
+    <audio #player src="assets/audio/The%20Old%20Vikings%20Rise.mp3"></audio>
+
+    <button class="btn btn-dark btn-lg"
+            (click)="togglePlay()">
+      {{ isPlaying ? '⏸ Pause' : '▶️ Play Allianz-Song' }}
+    </button>
+  </section>
+
 <div class="container mt-3 pb-5">
   <h1 class="custom-font">Old Vikings</h1>
   <h5>Last War Server #469</h5>

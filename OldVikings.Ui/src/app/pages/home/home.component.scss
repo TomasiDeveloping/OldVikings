@@ -30,3 +30,15 @@ section {
   background-color: #e0a800;
 }
 
+.viking-player {
+  //background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.viking-player button {
+  font-weight: bold;
+  letter-spacing: 1px;
+}

@@ -1,4 +1,4 @@
-import {Component, inject, OnInit} from '@angular/core';
+import {Component, ElementRef, inject, OnInit, ViewChild} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 import {VsDayModel} from "../../models/vsDay.model";
 
@@ -12,6 +12,8 @@ export class HomeComponent implements OnInit{
   private readonly _translate: TranslateService = inject(TranslateService);
 
   public vsDay!: VsDayModel;
+  @ViewChild('player') player!: ElementRef<HTMLAudioElement>;
+  isPlaying = false;
 
   ngOnInit() {
     const currentDay: Date = new Date();
@@ -28,5 +30,17 @@ export class HomeComponent implements OnInit{
       day.link = this._translate.instant(`Home.Vs.Day${currentDay}.Link`);
     }
     return day;
+  }
+
+  togglePlay() {
+    const audio = this.player.nativeElement;
+
+    if (audio.paused) {
+      audio.play();
+      this.isPlaying = true;
+    } else {
+      audio.pause();
+      this.isPlaying = false;
+    }
   }
 }
