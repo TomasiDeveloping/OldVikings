@@ -2420,17 +2420,17 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Seizoen 4 – Ranglijst 🏆",
-    "Description": "De beste spelers van het vierde seizoen",
-    "Button": "Naar de ranglijst",
+    "Title": "🏆 Seizoen 5 – Ranglijst 🏆",
+    "Description": "De beste spelers van het vijfde seizoen",
+    "Button": "Bekijk ranglijst",
     "Table": {
       "Title": "Ranglijst",
       "Rank": "Rang",
       "Player": "Speler",
       "AllianceLoot": "Alliantiebuit",
       "Rewards": "Seizoensbeloning",
-      "Wars": "Oorlogen",
-      "Score": "Score"
+      "Wars": "Events",
+      "Score": "Punten"
     },
     "Rewards": {
       "Tactician": "Beloning voor strateeg",

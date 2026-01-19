@@ -2420,8 +2420,8 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": " \uD83C\uDFC6 Saison 4 – Rangliste \uD83C\uDFC6",
-    "Description": "Die besten Spieler der vierten Saison",
+    "Title": " \uD83C\uDFC6 Saison 5 – Rangliste \uD83C\uDFC6",
+    "Description": "Die besten Spieler der fünften Saison",
     "Button": "Zur Rangliste",
     "Table": {
       "Title": "Rangliste",
@@ -2429,7 +2429,7 @@
       "Player": "Spieler",
       "AllianceLoot": "Allianz Beute",
       "Rewards": "Saisonbelohnung",
-      "Wars": "Kriege",
+      "Wars": "Events",
       "Score": "Punkte"
     },
     "Rewards":{

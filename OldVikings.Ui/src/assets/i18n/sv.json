@@ -2424,16 +2424,16 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Säsong 4 – Topplista 🏆",
-    "Description": "De bästa spelarna i den fjärde säsongen",
-    "Button": "Till topplistan",
+    "Title": "🏆 Säsong 5 – Topplista 🏆",
+    "Description": "De bästa spelarna från den femte säsongen",
+    "Button": "Visa topplista",
     "Table": {
       "Title": "Topplista",
-      "Rank": "Rang",
+      "Rank": "Rank",
       "Player": "Spelare",
       "AllianceLoot": "Alliansbyte",
       "Rewards": "Säsongsbelöning",
-      "Wars": "Krig",
+      "Wars": "Events",
       "Score": "Poäng"
     },
     "Rewards": {

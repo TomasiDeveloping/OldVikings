@@ -2424,17 +2424,17 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "\uD83C\uDFC6 Season 4 – Leaderboard \uD83C\uDFC6",
-    "Description": "The best players of the fourth season",
-    "Button": "To the leaderboard",
+    "Title": "🏆 Season 5 – Leaderboard 🏆",
+    "Description": "The top players of the fifth season",
+    "Button": "View Leaderboard",
     "Table": {
       "Title": "Leaderboard",
       "Rank": "Rank",
       "Player": "Player",
       "AllianceLoot": "Alliance Loot",
-      "Rewards": "Season Reward",
-      "Wars": "Wars",
-      "Score": "Score"
+      "Rewards": "Season Rewards",
+      "Wars": "Events",
+      "Score": "Points"
     },
     "Rewards":{
       "Tactician": "Tactician Reward",

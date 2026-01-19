@@ -58,7 +58,28 @@ try
     var app = builder.Build();
 
     app.UseDefaultFiles();
-    app.UseStaticFiles();
+    app.UseStaticFiles(new StaticFileOptions
+    {
+        OnPrepareResponse = ctx =>
+        {
+            var path = ctx.File.PhysicalPath;
+
+            if (path != null && path.EndsWith("index.html"))
+            {
+                ctx.Context.Response.Headers.Append("Cache-Control", "no-cache, no-store, must-revalidate");
+                ctx.Context.Response.Headers.Append("Pragma", "no-cache");
+                ctx.Context.Response.Headers.Append("Expires", "0");
+            }
+            else if (path != null && path.EndsWith(".json"))
+            {
+                ctx.Context.Response.Headers.Append("Cache-Control", "no-cache");
+            }
+            else
+            {
+                ctx.Context.Response.Headers.Append("Cache-Control", "public,max-age=31536000,immutable");
+            }
+        }
+    });
 
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())

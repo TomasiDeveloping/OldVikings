@@ -2413,16 +2413,16 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Sezon 4 – Lider Tablosu 🏆",
-    "Description": "Dördüncü sezonun en iyi oyuncuları",
-    "Button": "Lider tablosuna git",
+    "Title": "🏆 Sezon 5 – Sıralama 🏆",
+    "Description": "Beşinci sezonun en iyi oyuncuları",
+    "Button": "Sıralamayı Gör",
     "Table": {
-      "Title": "Lider Tablosu",
+      "Title": "Sıralama",
       "Rank": "Sıra",
       "Player": "Oyuncu",
-      "AllianceLoot": "İttifak ganimeti",
-      "Rewards": "Sezon ödülü",
-      "Wars": "Savaşlar",
+      "AllianceLoot": "İttifak Ganimeti",
+      "Rewards": "Sezon Ödülü",
+      "Wars": "Etkinlikler",
       "Score": "Puan"
     },
     "Rewards": {

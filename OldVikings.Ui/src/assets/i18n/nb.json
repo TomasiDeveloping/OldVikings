@@ -2420,16 +2420,16 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Sesong 4 – Resultatliste 🏆",
-    "Description": "De beste spillerne i den fjerde sesongen",
-    "Button": "Gå til resultatlisten",
+    "Title": "🏆 Sesong 5 – Rangering 🏆",
+    "Description": "De beste spillerne fra den femte sesongen",
+    "Button": "Se rangering",
     "Table": {
-      "Title": "Resultatliste",
+      "Title": "Rangering",
       "Rank": "Rang",
       "Player": "Spiller",
       "AllianceLoot": "Alliansebytte",
       "Rewards": "Sesongbelønning",
-      "Wars": "Kriger",
+      "Wars": "Eventer",
       "Score": "Poeng"
     },
     "Rewards": {

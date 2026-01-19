@@ -2424,17 +2424,17 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Temporada 4 – Clasificación 🏆",
-    "Description": "Los mejores jugadores de la cuarta temporada",
-    "Button": "Ir a la clasificación",
+    "Title": "🏆 Temporada 5 – Clasificación 🏆",
+    "Description": "Los mejores jugadores de la quinta temporada",
+    "Button": "Ver clasificación",
     "Table": {
       "Title": "Clasificación",
       "Rank": "Rango",
       "Player": "Jugador",
       "AllianceLoot": "Botín de la alianza",
-      "Rewards": "Recompensa de la temporada",
-      "Wars": "Guerras",
-      "Score": "Puntuación"
+      "Rewards": "Recompensas de temporada",
+      "Wars": "Eventos",
+      "Score": "Puntos"
     },
     "Rewards": {
       "Tactician": "Recompensa de estratega",
