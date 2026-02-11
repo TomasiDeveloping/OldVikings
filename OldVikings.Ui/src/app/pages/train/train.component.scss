@@ -1,0 +1,113 @@
+/* Breiter Card Bereich für Bewerbung */
+.train-card {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 14px;
+}
+
+/* Dropdown Liste scrollbar */
+.train-list {
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+/* Avatar Badge im Darkly Stil */
+.avatar-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+
+  /* nutzt Darkly-Feeling, ohne harte Farben */
+  background: rgba(13, 202, 240, 0.15); /* info tint */
+  color: var(--bs-info);
+}
+
+/* Wochenplan breit */
+.week-card {
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
+.week-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.week-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+
+  padding: 12px 14px;
+  border-radius: 12px;
+
+  /* Darkly: subtiler Row-Hintergrund */
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.week-left {
+  min-width: 180px;
+}
+
+.week-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.week-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pill-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--bs-secondary-color, #adb5bd);
+  white-space: nowrap;
+}
+
+.pill-value {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-group-item.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+/* mobile */
+@media (max-width: 720px) {
+  .week-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .week-left {
+    min-width: auto;
+  }
+  .week-right {
+    grid-template-columns: 1fr;
+  }
+}

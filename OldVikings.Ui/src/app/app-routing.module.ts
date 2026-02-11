@@ -32,6 +32,7 @@ import {R4RolesComponent} from "./pages/r4-roles/r4-roles.component";
 import {SeasonsComponent} from "./pages/seasons/seasons.component";
 import {SeasonLeaderBordComponent} from "./pages/seasons/season-leader-bord/season-leader-bord.component";
 import {MemorialComponent} from "./pages/memorial/memorial.component";
+import {TrainComponent} from "./pages/train/train.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -44,6 +45,7 @@ const routes: Routes = [
   {path: 'desert-storm', component: DesertStormComponent, canActivate: [memberGuard]},
   {path: 'marshall', component: MarshallComponent, canActivate: [memberGuard]},
   {path: 'alliances', component: AlliancesComponent, canActivate: [memberGuard]},
+  {path: 'train', component: TrainComponent, canActivate: [memberGuard]},
   {path: 'basics', component: BasicsComponent},
   {path: 'tips-and-tricks', component: TipsAndTricksComponent, canActivate: [memberGuard]},
   {path: 'buildings', component: BuildingsComponent, canActivate: [memberGuard]},

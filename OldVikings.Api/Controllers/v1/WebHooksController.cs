@@ -3,19 +3,55 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using OldVikings.Api.Classes;
 using OldVikings.Api.Database;
-using System.Text;
 using OldVikings.Api.DataTransferObjects.ShinyServer;
+using OldVikings.Api.Helper;
 using OldVikings.Api.Interfaces;
+using OldVikings.Api.Services;
+using System.Text;
 
 namespace OldVikings.Api.Controllers.v1;
 
 [Route("api/v1/[controller]")]
 [ApiController]
-public class WebHooksController(ILogger<WebHooksController> logger, HttpClient httpClient, IOptions<DiscordWebhookOptions> options, OldVikingsContext dbContext, IShinyServerRepository shinyServerRepository) : ControllerBase
+public class WebHooksController(
+    ILogger<WebHooksController> logger, 
+    HttpClient httpClient, 
+    IOptions<DiscordWebhookOptions> options, 
+    IOptionsMonitor<EventStartDay> settings, 
+    OldVikingsContext dbContext, 
+    WeeklyPlanService weeklyPlanService,
+    IShinyServerRepository shinyServerRepository) : ControllerBase
 {
 
 
     private readonly DiscordWebhookOptions _discordWebhookOptions = options.Value;
+    private readonly EventStartDay _eventStartDay = settings.CurrentValue;
+
+    [HttpGet("create-train-week")]
+    public async Task<IActionResult> CreateTrainWeek([FromQuery] string key, DateOnly? date, CancellationToken cancellationToken)
+    {
+        try
+        {
+            if (key != _discordWebhookOptions.ApiKey)
+            {
+                return Unauthorized();
+            }
+
+            var currentDate = DateOnly.FromDateTime(DateTime.UtcNow);
+            if (date.HasValue)
+            {
+                currentDate = date.Value;
+            }
+            var nextMonday = WeekHelper.GetNextMonday(currentDate);
+            await weeklyPlanService.GenerateWeekAsync(nextMonday, cancellationToken);
+            return Created();
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, e.Message);
+            return BadRequest(e.Message);
+        }
+    }
 
     [HttpGet("rotation")]
     public async Task<IActionResult> RotateTrain()
@@ -66,12 +102,9 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                 return Unauthorized();
             }
 
-            var startDate = new DateTime(2025, 5, 23);
-            var today = DateTime.Today;
+            var shouldExecute = ShouldEventBeExecuted(_eventStartDay.Marshal);
 
-            var dayDifference = (today - startDate).Days;
-
-            if (dayDifference % 2 != 0) return Accepted();
+            if (!shouldExecute) return Accepted();
 
             var jsonBody = GetMarshalContent();
 
@@ -102,9 +135,9 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                 return Unauthorized();
             }
 
-            var today = DateTime.Today;
+            var shouldExecuteEvent = ShouldEventBeExecuted(_eventStartDay.Zombie);
 
-            if (!ShouldZombieSiegeTrigger(today))
+            if (!shouldExecuteEvent)
             {
                 return Accepted();
             }
@@ -138,7 +171,7 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
             }
 
             var jsonBody = GetDesertStormContent(team);
-
+            
             var response = await SendToDiscordWebhook(_discordWebhookOptions.DesertStormChannelUrl, jsonBody);
 
             return response.IsSuccessStatusCode
@@ -295,6 +328,11 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
         }
     }
 
+    private static bool ShouldEventBeExecuted(DateTime startDate)
+    {
+        var days = (DateTime.Today - startDate).Days;
+        return days >= 0 && days % 3 == 0;
+    }
 
     private async Task<HttpResponseMessage> SendToDiscordWebhook(string url, string jsonBody)
     {
@@ -344,29 +382,6 @@ public class WebHooksController(ILogger<WebHooksController> logger, HttpClient h
                    ]
                  }
                  """;
-    }
-
-    private static bool ShouldZombieSiegeTrigger(DateTime today)
-    {
-        if (today.DayOfWeek == DayOfWeek.Sunday)
-        {
-            return true;
-        }
-
-        var baseDate = new DateTime(2025, 5, 28);
-
-        var weeksSinceStart = (int)((today.Date - baseDate.Date).TotalDays / 7);
-
-        var isEvenWeek = weeksSinceStart % 2 == 0;
-
-        switch (isEvenWeek)
-        {
-            case true when today.DayOfWeek == DayOfWeek.Wednesday:
-            case false when today.DayOfWeek == DayOfWeek.Thursday:
-                return true;
-            default:
-                return false;
-        }
     }
 
     private static string GetMarshalContent()

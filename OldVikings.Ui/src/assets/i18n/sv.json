@@ -144,6 +144,7 @@
     "VS": "VS-duell",
     "Alliances": "Allians",
     "AllianceMvp": "Alliansens MVP",
+    "Train": "Tågsystem",
     "Basics": "Grundläggande",
     "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Byggnader",
@@ -568,6 +569,11 @@
       "Description1": "Gå med i vårt Old Vikings-community på Discord! Prata med andra spelare, få hjälp och håll dig uppdaterad.",
       "Description2": "Oavsett om det gäller tips, planering eller bara lite vikingasnack – du har kommit rätt!",
       "Button": "Gå med i vår Discord"
+    },
+    "Timezone": {
+      "Title": "Tidszonskalkylator",
+      "Description": "Vår allians består av spelare från olika tidszoner. Tidszonskalkylatorn hjälper till att konvertera evenemangstider korrekt och samordna dem tillsammans.",
+      "Button": "Öppna tidszonskalkylator"
     },
     "R4Roles": {
       "Title": "Roller och Ansvarsområden",
@@ -2447,6 +2453,82 @@
       "ValuedShort": "Uppskattad",
       "Leader": "Belöning för alliansledare",
       "LeaderShort": "Ledare"
+    }
+  },
+  "Train": {
+    "Title": "Tågsystem",
+    "Register": {
+      "Title": "Ansök till tågsystemet",
+      "Description": "Välj ditt namn från listan och skicka in din ansökan.",
+      "Dropdown": {
+        "Title": "Välj spelare",
+        "Search": "Sök spelare...",
+        "NotFound": "Ingen spelare hittades",
+        "Avatar": "Spelare",
+        "Registered": "registrerad",
+        "NotRegistered": "inte registrerad"
+      },
+      "Button": "Ansök",
+      "ButtonWithName": "som {{name}}",
+      "Error": {
+        "Title": "Spelare kunde inte laddas",
+        "Description": "Försök igen senare."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Veckoschema – CW",
+      "Week": "Måndag – söndag",
+      "TrainLeader": "Tågledare",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Måndag",
+        "Tuesday": "Tisdag",
+        "Wednesday": "Onsdag",
+        "Thursday": "Torsdag",
+        "Friday": "Fredag",
+        "Saturday": "Lördag",
+        "Sunday": "Söndag"
+      },
+      "Error": {
+        "Title": "Veckoschemat kunde inte laddas",
+        "Description": "Försök igen senare."
+      },
+      "NoPlan": {
+        "Title": "Veckoschemat har ännu inte publicerats",
+        "Description": "Kom tillbaka senare."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Laddar spelare",
+          "Description": "Fel vid hämtning av spelare"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Laddar aktuell vecka",
+          "Description": "Fel vid hämtning av aktuell vecka"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Registrering",
+          "Description": "Fel vid registrering"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "Registreringen lyckades!",
+        "Description": "<strong>{{name}}</strong>,<br>din ansökan till <b>Tågsystemet</b> har skickats. 🚆",
+        "Button": "Toppen!"
+      },
+      "AlreadyRegister": {
+        "Title": "Redan registrerad",
+        "Description": "<strong>{{name}}</strong>,<br>du är redan registrerad i <b>Tågsystemet</b>. 🚆",
+        "Button": "Allt är lugnt"
+      }
     }
   }
 }

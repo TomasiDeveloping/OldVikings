@@ -144,6 +144,7 @@
     "VS": "Duelo VS",
     "Alliances": "Alianza",
     "AllianceMvp": "MVP de la Alianza",
+    "Train": "Sistema de Trenes",
     "Basics": "Básicos",
     "TipsAndTricks": "Consejos/Trucos",
     "Buildings": "Edificios",
@@ -568,6 +569,11 @@
       "Description1": "¡Únete a nuestra comunidad de Old Vikings en Discord! Conéctate con otros jugadores, recibe ayuda y mantente al día.",
       "Description2": "Ya sea para consejos, planificación o simplemente charlas vikingas, ¡este es tu lugar!",
       "Button": "Únete a nuestro Discord"
+    },
+    "Timezone": {
+      "Title": "Calculadora de Zonas Horarias",
+      "Description": "Nuestra alianza está formada por jugadores de diferentes zonas horarias. La calculadora de zonas horarias ayuda a convertir correctamente los horarios de los eventos y a coordinarlos juntos.",
+      "Button": "Abrir Calculadora de Zonas Horarias"
     },
     "R4Roles": {
       "Title": "Roles y Responsabilidades",
@@ -2447,6 +2453,82 @@
       "ValuedShort": "Valioso",
       "Leader": "Recompensa de líder de la alianza",
       "LeaderShort": "Líder"
+    }
+  },
+  "Train": {
+    "Title": "Sistema de Trenes",
+    "Register": {
+      "Title": "Solicitar el sistema de trenes",
+      "Description": "Elige tu nombre de la lista y envía tu solicitud.",
+      "Dropdown": {
+        "Title": "Seleccionar jugador",
+        "Search": "Buscar jugador...",
+        "NotFound": "No se encontró ningún jugador",
+        "Avatar": "Jugador",
+        "Registered": "registrado",
+        "NotRegistered": "no registrado"
+      },
+      "Button": "Solicitar",
+      "ButtonWithName": "como {{name}}",
+      "Error": {
+        "Title": "No se pudieron cargar los jugadores",
+        "Description": "Por favor, inténtalo de nuevo más tarde."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Horario semanal – CW",
+      "Week": "Lunes – domingo",
+      "TrainLeader": "Líder del tren",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Lunes",
+        "Tuesday": "Martes",
+        "Wednesday": "Miércoles",
+        "Thursday": "Jueves",
+        "Friday": "Viernes",
+        "Saturday": "Sábado",
+        "Sunday": "Domingo"
+      },
+      "Error": {
+        "Title": "No se pudo cargar el horario semanal",
+        "Description": "Por favor, inténtalo de nuevo más tarde."
+      },
+      "NoPlan": {
+        "Title": "El horario semanal aún no ha sido publicado",
+        "Description": "Vuelve a intentarlo más tarde."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Cargando jugadores",
+          "Description": "Error al obtener los jugadores"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Cargando la semana actual",
+          "Description": "Error al obtener la semana actual"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Registro",
+          "Description": "Error durante el registro"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "¡Registro exitoso!",
+        "Description": "<strong>{{name}}</strong>,<br>tu solicitud para el <b>Sistema de Trenes</b> se envió correctamente. 🚆",
+        "Button": "¡Genial!"
+      },
+      "AlreadyRegister": {
+        "Title": "Ya registrado",
+        "Description": "<strong>{{name}}</strong>,<br>ya estás registrado en el <b>Sistema de Trenes</b>. 🚆",
+        "Button": "Todo bien"
+      }
     }
   }
 }

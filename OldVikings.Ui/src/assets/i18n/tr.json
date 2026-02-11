@@ -144,6 +144,7 @@
     "VS": "VS Düellosu",
     "Alliances": "İttifak",
     "AllianceMvp": "İttifak MVP",
+    "Train": "Tren Sistemi",
     "Basics": "Temeller",
     "TipsAndTricks": "İpuçları/Püf Noktaları",
     "Buildings": "Binalar",
@@ -564,6 +565,11 @@
       "Description1": "Old Vikings topluluğumuza Discord üzerinden katıl! Diğer oyuncularla iletişime geç, yardım al ve güncel kal.",
       "Description2": "İster ipuçları, ister planlama, ister sadece Viking sohbeti olsun – doğru yerdesin!",
       "Button": "Discord sunucumuza katıl"
+    },
+    "Timezone": {
+      "Title": "Zaman Dilimi Hesaplayıcısı",
+      "Description": "İttifakımız farklı zaman dilimlerinden oyunculardan oluşur. Zaman dilimi hesaplayıcısı, etkinlik saatlerini doğru şekilde dönüştürmeye ve birlikte planlamaya yardımcı olur.",
+      "Button": "Zaman Dilimi Hesaplayıcısını Aç"
     },
     "R4Roles": {
       "Title": "Roller ve Sorumluluklar",
@@ -2436,6 +2442,82 @@
       "ValuedShort": "Değerli",
       "Leader": "İttifak lideri ödülü",
       "LeaderShort": "Lider"
+    }
+  },
+  "Train": {
+    "Title": "Tren Sistemi",
+    "Register": {
+      "Title": "Tren Sistemine Başvur",
+      "Description": "Listeden adını seç ve başvurunu gönder.",
+      "Dropdown": {
+        "Title": "Oyuncu seç",
+        "Search": "Oyuncu ara...",
+        "NotFound": "Oyuncu bulunamadı",
+        "Avatar": "Oyuncu",
+        "Registered": "kayıtlı",
+        "NotRegistered": "kayıtlı değil"
+      },
+      "Button": "Başvur",
+      "ButtonWithName": "{{name}} olarak",
+      "Error": {
+        "Title": "Oyuncular yüklenemedi",
+        "Description": "Lütfen daha sonra tekrar deneyin."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Haftalık program – CW",
+      "Week": "Pazartesi – Pazar",
+      "TrainLeader": "Tren Lideri",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Pazartesi",
+        "Tuesday": "Salı",
+        "Wednesday": "Çarşamba",
+        "Thursday": "Perşembe",
+        "Friday": "Cuma",
+        "Saturday": "Cumartesi",
+        "Sunday": "Pazar"
+      },
+      "Error": {
+        "Title": "Haftalık program yüklenemedi",
+        "Description": "Lütfen daha sonra tekrar deneyin."
+      },
+      "NoPlan": {
+        "Title": "Haftalık program henüz yayınlanmadı",
+        "Description": "Daha sonra tekrar kontrol edin."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Oyuncular yükleniyor",
+          "Description": "Oyuncular alınırken hata oluştu"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Mevcut hafta yükleniyor",
+          "Description": "Mevcut hafta alınırken hata oluştu"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Kayıt",
+          "Description": "Kayıt sırasında hata oluştu"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "Kayıt başarılı!",
+        "Description": "<strong>{{name}}</strong>,<br><b>Tren Sistemi</b> için başvurun başarıyla gönderildi. 🚆",
+        "Button": "Harika!"
+      },
+      "AlreadyRegister": {
+        "Title": "Zaten kayıtlı",
+        "Description": "<strong>{{name}}</strong>,<br><b>Tren Sistemi</b> için zaten kayıtlısın. 🚆",
+        "Button": "Tamam"
+      }
     }
   }
 }

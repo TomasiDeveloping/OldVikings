@@ -144,6 +144,7 @@
     "VS": "VS-duel",
     "Alliances": "Alliantie",
     "AllianceMvp": "Alliantie MVP",
+    "Train": "Treinsysteem",
     "Basics": "Basisprincipes",
     "TipsAndTricks": "Tips/Trucs",
     "Buildings": "Gebouwen",
@@ -564,6 +565,11 @@
       "Description1": "Word lid van onze Old Vikings-community op Discord! Kom in contact met andere spelers, krijg hulp en blijf op de hoogte.",
       "Description2": "Of het nu gaat om tips, planning of gewoon Viking-gepraat – je bent hier op de juiste plek!",
       "Button": "Word lid van onze Discord"
+    },
+    "Timezone": {
+      "Title": "Tijdzonecalculator",
+      "Description": "Onze alliantie bestaat uit spelers uit verschillende tijdzones. De tijdzonecalculator helpt om evenementtijden correct om te rekenen en samen af te stemmen.",
+      "Button": "Tijdzonecalculator openen"
     },
     "R4Roles": {
       "Title": "Rollen en Verantwoordelijkheden",
@@ -2443,6 +2449,82 @@
       "ValuedShort": "Gewaardeerd",
       "Leader": "Beloning voor alliantieleider",
       "LeaderShort": "Leider"
+    }
+  },
+  "Train": {
+    "Title": "Treinsysteem",
+    "Register": {
+      "Title": "Aanmelden voor het treinsysteem",
+      "Description": "Kies je naam uit de lijst en dien je aanmelding in.",
+      "Dropdown": {
+        "Title": "Selecteer speler",
+        "Search": "Speler zoeken...",
+        "NotFound": "Geen speler gevonden",
+        "Avatar": "Speler",
+        "Registered": "geregistreerd",
+        "NotRegistered": "niet geregistreerd"
+      },
+      "Button": "Aanmelden",
+      "ButtonWithName": "als {{name}}",
+      "Error": {
+        "Title": "Spelers konden niet worden geladen",
+        "Description": "Probeer het later opnieuw."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Weekschema – CW",
+      "Week": "Maandag – zondag",
+      "TrainLeader": "Treinleider",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Maandag",
+        "Tuesday": "Dinsdag",
+        "Wednesday": "Woensdag",
+        "Thursday": "Donderdag",
+        "Friday": "Vrijdag",
+        "Saturday": "Zaterdag",
+        "Sunday": "Zondag"
+      },
+      "Error": {
+        "Title": "Het weekschema kon niet worden geladen",
+        "Description": "Probeer het later opnieuw."
+      },
+      "NoPlan": {
+        "Title": "Het weekschema is nog niet gepubliceerd",
+        "Description": "Kom later terug."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Spelers laden",
+          "Description": "Fout bij het ophalen van spelers"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Huidige week laden",
+          "Description": "Fout bij het ophalen van de huidige week"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Registratie",
+          "Description": "Fout tijdens de registratie"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "Registratie succesvol!",
+        "Description": "<strong>{{name}}</strong>,<br>je aanmelding voor het <b>Treinsysteem</b> is succesvol verzonden. 🚆",
+        "Button": "Top!"
+      },
+      "AlreadyRegister": {
+        "Title": "Al geregistreerd",
+        "Description": "<strong>{{name}}</strong>,<br>je bent al geregistreerd voor het <b>Treinsysteem</b>. 🚆",
+        "Button": "Alles goed"
+      }
     }
   }
 }

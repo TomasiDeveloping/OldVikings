@@ -1,0 +1,186 @@
+<div class="container pb-5">
+  <h3 class="custom-font mt-3 text-center">{{ 'Train.Title' | translate }}</h3>
+  <hr>
+
+  <div class="d-flex justify-content-center">
+    <div class="card shadow train-card">
+      @if (players.length > 0 && !loadPlayerError) {
+        <div class="card-body">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <i class="bi bi-train-front-fill fs-4 text-info"></i>
+            <h5 class="mb-0">{{ 'Train.Register.Title' | translate }}</h5>
+          </div>
+
+          <p class="text-muted mb-3">
+            {{ 'Train.Register.Description' | translate }}
+          </p>
+
+          <div class="dropdown" [class.show]="open">
+            <button
+              class="btn btn-outline-info dropdown-toggle w-100 d-flex align-items-center justify-content-between"
+              type="button"
+              (click)="toggle()">
+            <span class="d-flex align-items-center gap-2">
+              <i class="bi bi-person-circle"></i>
+              <span>{{ selectedPlayer?.displayName ?? 'Train.Register.Dropdown.Title' | translate }}</span>
+            </span>
+            </button>
+
+            <div class="dropdown-menu w-100 p-2 shadow" [class.show]="open">
+              <div class="input-group mb-2">
+              <span class="input-group-text">
+                <i class="bi bi-search"></i>
+              </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  [placeholder]="'Train.Register.Dropdown.Search' | translate"
+                  [(ngModel)]="query"
+                  (click)="$event.stopPropagation()"
+                  (keydown.escape)="open=false"/>
+              </div>
+
+              <div class="list-group list-group-flush train-list">
+                <button
+                  type="button"
+                  class="list-group-item list-group-item-action d-flex align-items-center gap-2"
+                  *ngFor="let player of filteredPlayers"
+                  (click)="player.approved && selectPlayer(player)"
+                  [class.disabled]="!player.approved"
+                  [attr.aria-disabled]="!player.approved">
+
+                  <div class="avatar-badge">
+                    {{ player.displayName?.[0] ?? '?' }}
+                  </div>
+
+                  <div class="flex-grow-1 text-start d-flex align-items-center justify-content-between w-100">
+                    <div>
+                      <div class="fw-semibold">{{ player.displayName }}</div>
+                      <small class="text-muted">{{ 'Train.Register.Dropdown.Avatar' | translate }}</small>
+                    </div>
+
+                    <span class="badge"
+                          [class.bg-danger]="!player.approved"
+                          [class.bg-success]="player.approved && player.registered"
+                          [class.bg-secondary]="player.approved && !player.registered">
+        {{
+                        (!player.approved
+                            ? 'Train.Register.Dropdown.Locked'
+                            : (player.registered
+                              ? 'Train.Register.Dropdown.Registered'
+                              : 'Train.Register.Dropdown.NotRegistered')
+                        ) | translate:{name: player.displayName}
+                      }}
+      </span>
+                  </div>
+                </button>
+              </div>
+
+              <div class="text-muted px-2 py-2" *ngIf="filteredPlayers.length === 0">
+                <i class="bi bi-emoji-frown me-1"></i>
+                {{ 'Train.Register.Dropdown.NotFound' | translate }}
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="btn btn-success w-100 mt-3 d-flex align-items-center justify-content-center gap-2"
+            [disabled]="!selectedPlayer"
+            (click)="submitApplication()">
+            <i class="bi bi-send-fill"></i>
+            {{ 'Train.Register.Button' | translate }}
+            {{
+              selectedPlayer
+                ? ('Train.Register.ButtonWithName' | translate:{name: selectedPlayer!.displayName})
+                : ''
+            }}
+          </button>
+        </div>
+      } @else if (loadPlayerError) {
+        <div class="card-body text-center py-4">
+          <i class="bi bi-exclamation-circle-fill fs-3 text-danger mb-2"></i>
+          <div class="fw-semibold">{{ 'Train.Register.Error.Title' | translate }}</div>
+          <div class="text-muted">
+            {{ 'Train.Register.Error.Description' | translate }}
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+
+  @if (weekPlan && !loadCurrentWeekError) {
+    <div class="card shadow week-card mt-5">
+      <div class="card-body">
+        <div
+          class="d-flex align-items-start align-items-md-center justify-content-between mb-3 flex-column flex-md-row gap-2">
+          <div class="d-flex align-items-center gap-2 flex-wrap">
+            <i class="bi bi-calendar-week fs-5 fs-md-4 text-info"></i>
+
+            <h5 class="h6 h5-md mb-0">
+              {{ 'Train.WeekPlan.Title' | translate }} {{ weekPlan.days![0].date | date:'ww' }}
+              <small class="text-muted d-block d-md-inline ms-md-2">
+                ({{ weekPlan.weekStartDate | date:'dd.MM.yyyy' }}
+                – {{ weekPlan.days!.at(-1)!.date | date:'dd.MM.yyyy' }})
+              </small>
+            </h5>
+          </div>
+
+          <span class="text-muted small d-none d-md-inline">
+    {{ 'Train.WeekPlan.Week' | translate }}
+  </span>
+        </div>
+
+
+        <div class="week-list">
+          <div class="week-row" *ngFor="let d of weekPlan.days;">
+            <div class="week-left">
+              <div class="fw-semibold">{{ d.date | date: 'EEEE' | dayName | translate }}</div>
+              <div class="text-muted small">{{ d.date | date: 'dd.MM.yyyy' }}</div>
+            </div>
+
+            <div class="week-right">
+              <div class="week-pill">
+                <div class="pill-label">
+                  <i class="bi bi-person-badge text-info"></i>
+                  <span>{{ 'Train.WeekPlan.TrainLeader' | translate }}</span>
+                </div>
+                <div class="pill-value">{{ d.leaderPlayer || '—' }}</div>
+              </div>
+
+              <div class="week-pill">
+                <div class="pill-label">
+                  <i class="bi bi-star-fill text-warning"></i>
+                  <span>{{ 'Train.WeekPlan.Vip' | translate }}</span>
+                </div>
+                <div class="pill-value">{{ d.vipPlayer || '—' }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  } @else if (loadCurrentWeekError) {
+    <div class="card shadow week-card mt-5">
+      <div class="card-body text-center py-4">
+        <i class="bi bi-exclamation-circle-fill fs-3 text-danger mb-2"></i>
+        <div class="fw-semibold">{{ 'Train.WeekPlan.Error.Title' | translate }}</div>
+        <div class="text-muted">
+          {{ 'Train.WeekPlan.Error.Description' | translate }}
+        </div>
+      </div>
+    </div>
+  } @else {
+    <div class="card shadow week-card mt-5">
+      <div class="card-body text-center py-4">
+        <i class="bi bi-info-circle-fill fs-3 text-info mb-2"></i>
+        <div class="fw-semibold">{{ 'Train.WeekPlan.NoPlan.Title' | translate }}</div>
+        <div class="text-muted">
+          {{ 'Train.WeekPlan.NoPlan.Description' | translate }}
+        </div>
+      </div>
+    </div>
+  }
+
+
+</div>

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OldVikings.Api.Database;
 
@@ -11,9 +12,11 @@ using OldVikings.Api.Database;
 namespace OldVikings.Api.Migrations
 {
     [DbContext(typeof(OldVikingsContext))]
-    partial class OldVikingsContextModelSnapshot : ModelSnapshot
+    [Migration("20260205134019_change_player")]
+    partial class change_player
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -84,12 +87,6 @@ namespace OldVikings.Api.Migrations
                     b.Property<Guid>("PlayerId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("BlockNextCycle")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("ForcePick")
-                        .HasColumnType("bit");
-
                     b.Property<bool>("IsAvailable")
                         .HasColumnType("bit");
 
@@ -105,12 +102,6 @@ namespace OldVikings.Api.Migrations
                 {
                     b.Property<Guid>("PlayerId")
                         .HasColumnType("uniqueidentifier");
-
-                    b.Property<bool>("BlockNextCycle")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("ForcePick")
-                        .HasColumnType("bit");
 
                     b.Property<bool>("IsAvailable")
                         .HasColumnType("bit");

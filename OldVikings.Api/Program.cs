@@ -29,6 +29,8 @@ try
 
     builder.Services.Configure<DiscordWebhookOptions>(builder.Configuration.GetSection("Discord:Webhooks"));
 
+    builder.Services.Configure<EventStartDay>(builder.Configuration.GetSection("EventStarDay"));
+
     builder.Services.AddDbContext<OldVikingsContext>(options =>
     {
         options.UseSqlServer(builder.Configuration.GetConnectionString("OldVikings"));
@@ -42,6 +44,10 @@ try
     builder.Services.AddTransient<ITranslateService, TranslateService>();
     builder.Services.AddScoped<IShinyServerRepository, ShinyServerRepository>();
     builder.Services.AddTransient<ITrainGuideRepository, TrainGuideRepository>();
+    builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
+    builder.Services.AddScoped<IPoolRepository, PoolRepository>();
+    builder.Services.AddScoped<IScheduleRepository, ScheduleRepository>();
+    builder.Services.AddScoped<WeeklyPlanService>();
 
     //builder.Services.AddQuartz(options =>
     //{

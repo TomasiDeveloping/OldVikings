@@ -20,4 +20,14 @@ public class OldVikingsContext(DbContextOptions<OldVikingsContext> options) : Db
     public DbSet<R4Player> R4Players { get; set; }
 
     public DbSet<ShinyServer> ShinyServers { get; set; }
+
+    public DbSet<Player> Players { get; set; }
+
+    public DbSet<PoolLeader> PoolLeaders { get; set; }
+
+    public DbSet<PoolVip> PoolVips { get; set; }
+
+    public DbSet<WeeklySchedule> WeeklySchedules { get; set; }
+
+    public DbSet<WeeklyScheduleDay> WeeklyScheduleDays { get; set; }
 }

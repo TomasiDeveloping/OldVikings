@@ -144,6 +144,7 @@
     "VS": "VS-Duell",
     "Alliances": "Allianz",
     "AllianceMvp": "Allianz MVP",
+    "Train": "Zug-System",
     "Basics": "Grundlagen",
     "TipsAndTricks": "Tipps/Tricks",
     "Buildings": "Gebäude",
@@ -564,6 +565,11 @@
       "Description1": "Werde Teil unserer Old Vikings Community auf Discord! Tausche dich mit anderen Spielern aus, erhalte Hilfe und bleib immer auf dem Laufenden.",
       "Description2": "Ob Tipps, Planung oder einfach nur Wikinger-Gelaber – bei uns bist du richtig!",
       "Button": "Trete unserem Discord bei"
+    },
+    "Timezone": {
+      "Title": "Zeitzonen-Rechner",
+      "Description": "Unsere Allianz besteht aus Spielern aus verschiedenen Zeitzonen. Der Zeitzonen-Rechner hilft dabei, Eventzeiten korrekt umzurechnen und gemeinsam abzustimmen.",
+      "Button": "Zeitzonen-Rechner öffnen"
     },
     "R4Roles": {
       "Title": "Rollen & Zuständigkeiten",
@@ -2443,6 +2449,88 @@
       "ValuedShort": "Top-Mitglieder",
       "Leader": "Allianzanführer-Belohnung",
       "LeaderShort": "Allianzanführer"
+    }
+  },
+  "Train": {
+    "Title": "Zug-System",
+    "Register": {
+      "Title": "Bewerbung fürs Zug-System",
+      "Description": "Wähle deinen Namen aus der Liste und sende deine Bewerbung ab.",
+      "Dropdown": {
+        "Title": "Spieler auswählen",
+        "Search": "Spieler suchen...",
+        "NotFound": "Kein Spieler gefunden",
+        "Avatar": "Spieler",
+        "Registered": "registriert",
+        "NotRegistered": "nicht registriert",
+        "Locked": "gesperrt"
+      },
+      "Button": "Bewerben",
+      "ButtonWithName": "als {{name}}",
+      "Error": {
+        "Title": "Spieler konnten nicht geladen werden",
+        "Description": "Bitte versuche es später noch einmal."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Wochenplan – KW",
+      "Week": "Montag – Sonntag",
+      "TrainLeader": "Zugführer",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Montag",
+        "Tuesday": "Dienstag",
+        "Wednesday": "Mittwoch",
+        "Thursday": "Donnerstag",
+        "Friday": "Freitag",
+        "Saturday": "Samstag",
+        "Sunday": "Sonntag"
+      },
+      "Error": {
+        "Title": "Wochenplan konnte nicht geladen werden",
+        "Description": "Bitte versuche es später noch einmal."
+      },
+      "NoPlan": {
+        "Title": "Der Wochenplan ist noch nicht veröffentlicht",
+        "Description": "Schau später noch einmal vorbei."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Spieler laden",
+          "Description": "Fehler beim Abrufen der Spieler"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Aktuelle Woche laden",
+          "Description": "Fehler beim Abrufen der aktuellen Woche"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Registrieren",
+          "Description": "Fehler bei der Registrierung"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "Registrierung erfolgreich!",
+        "Description": "<strong>{{name}}</strong>,<br>deine Bewerbung für das <b>Zug-System</b> wurde erfolgreich abgeschickt. \uD83D\uDE86",
+        "Button": "Nice!"
+      },
+      "AlreadyRegister": {
+        "Title": "Schon registriert",
+        "Description": "<strong>{{name}}</strong>,<br>du bist bereits für das <b>Zug-System</b> registriert. \uD83D\uDE86",
+        "Button": "Alles klar"
+      },
+      "NoOthers": {
+        "Title": "Bereits registriert",
+        "Description": "Du hast bereits <strong>{{name}}</strong> registriert.<br><br>Eine Registrierung für andere Spieler ist hier nicht möglich.",
+        "Button": "OK"
+      }
     }
   }
 }

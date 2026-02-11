@@ -144,6 +144,7 @@
     "VS": "Duello VS",
     "Alliances": "Alleanza",
     "AllianceMvp": "MVP dell'Alleanza",
+    "Train": "Sistema dei treni",
     "Basics": "Basi",
     "TipsAndTricks": "Suggerimenti/Trucchi",
     "Buildings": "Edifici",
@@ -564,6 +565,11 @@
       "Description1": "Unisciti alla nostra community di Old Vikings su Discord! Connettiti con altri giocatori, ricevi aiuto e rimani sempre aggiornato.",
       "Description2": "Che si tratti di consigli, pianificazione o semplici chiacchiere vichinghe – sei nel posto giusto!",
       "Button": "Unisciti al nostro Discord"
+    },
+    "Timezone": {
+      "Title": "Convertitore di Fusi Orari",
+      "Description": "La nostra alleanza è composta da giocatori provenienti da diversi fusi orari. Il convertitore di fusi orari aiuta a convertire correttamente gli orari degli eventi e a coordinarli insieme.",
+      "Button": "Apri il convertitore di fusi orari"
     },
     "R4Roles": {
       "Title": "Ruoli e Responsabilità",
@@ -2443,6 +2449,82 @@
       "ValuedShort": "Stimato",
       "Leader": "Ricompensa leader dell'alleanza",
       "LeaderShort": "Leader"
+    }
+  },
+  "Train": {
+    "Title": "Sistema dei treni",
+    "Register": {
+      "Title": "Candidati al sistema dei treni",
+      "Description": "Scegli il tuo nome dall’elenco e invia la tua candidatura.",
+      "Dropdown": {
+        "Title": "Seleziona giocatore",
+        "Search": "Cerca giocatore...",
+        "NotFound": "Nessun giocatore trovato",
+        "Avatar": "Giocatore",
+        "Registered": "registrato",
+        "NotRegistered": "non registrato"
+      },
+      "Button": "Candidati",
+      "ButtonWithName": "come {{name}}",
+      "Error": {
+        "Title": "Impossibile caricare i giocatori",
+        "Description": "Per favore riprova più tardi."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Pianificazione settimanale – CW",
+      "Week": "Lunedì – domenica",
+      "TrainLeader": "Capotreno",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Lunedì",
+        "Tuesday": "Martedì",
+        "Wednesday": "Mercoledì",
+        "Thursday": "Giovedì",
+        "Friday": "Venerdì",
+        "Saturday": "Sabato",
+        "Sunday": "Domenica"
+      },
+      "Error": {
+        "Title": "Impossibile caricare la pianificazione settimanale",
+        "Description": "Per favore riprova più tardi."
+      },
+      "NoPlan": {
+        "Title": "La pianificazione settimanale non è stata ancora pubblicata",
+        "Description": "Controlla di nuovo più tardi."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Caricamento dei giocatori",
+          "Description": "Errore durante il recupero dei giocatori"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Caricamento della settimana corrente",
+          "Description": "Errore durante il recupero della settimana corrente"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Registrazione",
+          "Description": "Errore durante la registrazione"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "Registrazione avvenuta con successo!",
+        "Description": "<strong>{{name}}</strong>,<br>la tua candidatura per il <b>Sistema dei treni</b> è stata inviata con successo. 🚆",
+        "Button": "Fantastico!"
+      },
+      "AlreadyRegister": {
+        "Title": "Già registrato",
+        "Description": "<strong>{{name}}</strong>,<br>sei già registrato al <b>Sistema dei treni</b>. 🚆",
+        "Button": "Tutto ok"
+      }
     }
   }
 }

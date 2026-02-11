@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {LOCALE_ID, NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,7 +20,7 @@ import { BuildingsComponent } from './pages/buildings/buildings.component';
 import { HeadqartersTableComponent } from './pages/buildings/headqarters-table/headqarters-table.component';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
 import { GreetingModalComponent } from './pages/guestbook/greeting-modal/greeting-modal.component';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {NgxSpinnerModule} from "ngx-spinner";
 import {spinnerInterceptor} from "./interceptors/spinner.interceptor";
 import { MemberLoginComponent } from './auth/member-login/member-login.component';
@@ -46,6 +46,8 @@ import { SeasonsComponent } from './pages/seasons/seasons.component';
 import { S4CalculatorComponent } from './pages/s4-calculator/s4-calculator.component';
 import { SeasonLeaderBordComponent } from './pages/seasons/season-leader-bord/season-leader-bord.component';
 import { MemorialComponent } from './pages/memorial/memorial.component';
+import { TrainComponent } from './pages/train/train.component';
+import { DayNamePipe } from './pipes/day-name.pipe';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -86,25 +88,27 @@ export function HttpLoaderFactory(http: HttpClient) {
         SeasonsComponent,
         S4CalculatorComponent,
         SeasonLeaderBordComponent,
-        MemorialComponent
+        MemorialComponent,
+        TrainComponent,
+        DayNamePipe
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        ReactiveFormsModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: HttpLoaderFactory,
-                deps: [HttpClient]
-            }
-        }),
-        ToastrModule.forRoot({
-            positionClass: 'toast-bottom-right'
-        }),
-        NgxScrollTopModule,
-        NgxSpinnerModule,
-        NgxPaginationModule], providers: [
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }),
+    ToastrModule.forRoot({
+      positionClass: 'toast-bottom-right'
+    }),
+    NgxScrollTopModule,
+    NgxSpinnerModule,
+    NgxPaginationModule, FormsModule], providers: [
         provideHttpClient(withInterceptors([spinnerInterceptor])),
         provideHttpClient(withInterceptorsFromDi())
     ] })

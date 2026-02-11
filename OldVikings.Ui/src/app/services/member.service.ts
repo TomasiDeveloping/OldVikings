@@ -6,7 +6,7 @@ import {Injectable} from '@angular/core';
 export class MemberService {
 
   private readonly _localStorageKey = 'oldVikingsKey';
-  private readonly _currentKey = 'Odin26!';
+  private readonly _currentKey = 'Vikings26!';
 
   private redirectUri: string | null = null;
 

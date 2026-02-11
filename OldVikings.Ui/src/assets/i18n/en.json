@@ -144,6 +144,7 @@
     "VS": "VS Duel",
     "Alliances": "Alliance",
     "AllianceMvp": "Alliance MVP",
+    "Train": "Train System",
     "Basics": "Basics",
     "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Buildings",
@@ -568,6 +569,11 @@
       "Description1": "Join our Old Vikings community on Discord! Connect with other players, get help, and stay up to date.",
       "Description2": "Whether it's tips, planning, or just Viking chatter – you're in the right place!",
       "Button": "Join our Discord"
+    },
+    "Timezone": {
+      "Title": "Time Zone Converter",
+      "Description": "Our alliance consists of players from different time zones. The time zone converter helps convert event times correctly and coordinate them together.",
+      "Button": "Open Time Zone Converter"
     },
     "R4Roles": {
       "Title": "Roles & Responsibilities",
@@ -2447,6 +2453,82 @@
       "ValuedShort": "Valued",
       "Leader": "Alliance Leader Reward",
       "LeaderShort": "Leader"
+    }
+  },
+  "Train": {
+    "Title": "Train System",
+    "Register": {
+      "Title": "Apply for the Train System",
+      "Description": "Choose your name from the list and submit your application.",
+      "Dropdown": {
+        "Title": "Select player",
+        "Search": "Search player...",
+        "NotFound": "No player found",
+        "Avatar": "Player",
+        "Registered": "registered",
+        "NotRegistered": "not registered"
+      },
+      "Button": "Apply",
+      "ButtonWithName": "as {{name}}",
+      "Error": {
+        "Title": "Players could not be loaded",
+        "Description": "Please try again later."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Weekly Schedule – CW",
+      "Week": "Monday – Sunday",
+      "TrainLeader": "Train Leader",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Monday",
+        "Tuesday": "Tuesday",
+        "Wednesday": "Wednesday",
+        "Thursday": "Thursday",
+        "Friday": "Friday",
+        "Saturday": "Saturday",
+        "Sunday": "Sunday"
+      },
+      "Error": {
+        "Title": "Weekly schedule could not be loaded",
+        "Description": "Please try again later."
+      },
+      "NoPlan": {
+        "Title": "The weekly schedule has not been published yet",
+        "Description": "Check back later."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Loading players",
+          "Description": "Error while fetching players"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Loading current week",
+          "Description": "Error while fetching the current week"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Register",
+          "Description": "Error during registration"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "Registration successful!",
+        "Description": "<strong>{{name}}</strong>,<br>your application for the <b>Train System</b> was submitted successfully. 🚆",
+        "Button": "Nice!"
+      },
+      "AlreadyRegister": {
+        "Title": "Already registered",
+        "Description": "<strong>{{name}}</strong>,<br>you are already registered for the <b>Train System</b>. 🚆",
+        "Button": "All good"
+      }
     }
   }
 }

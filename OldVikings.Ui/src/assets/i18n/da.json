@@ -144,6 +144,7 @@
     "VS": "VS-duel",
     "Alliances": "Alliance",
     "AllianceMvp": "Alliance MVP",
+    "Train": "Togsystem",
     "Basics": "Grundlæggende",
     "TipsAndTricks": "Tips/Tricks",
     "Buildings": "Bygninger",
@@ -568,6 +569,11 @@
       "Description1": "Bliv en del af vores Old Vikings-fællesskab på Discord! Udveksl erfaringer med andre spillere, få hjælp og hold dig opdateret.",
       "Description2": "Uanset om det er tips, planlægning eller bare vikinge-snak – du er kommet til det rette sted!",
       "Button": "Deltag i vores Discord"
+    },
+    "Timezone": {
+      "Title": "Tidszoneberegner",
+      "Description": "Vores alliance består af spillere fra forskellige tidszoner. Tidszoneberegneren hjælper med at omregne eventtider korrekt og koordinere dem sammen.",
+      "Button": "Åbn tidszoneberegner"
     },
     "R4Roles": {
       "Title": "Roller og Ansvar",
@@ -2436,6 +2442,82 @@
       "ValuedShort": "Værdsat",
       "Leader": "Alliancens lederbelønning",
       "LeaderShort": "Leder"
+    }
+  },
+  "Train": {
+    "Title": "Togsystem",
+    "Register": {
+      "Title": "Ansøg om togssystemet",
+      "Description": "Vælg dit navn fra listen og indsend din ansøgning.",
+      "Dropdown": {
+        "Title": "Vælg spiller",
+        "Search": "Søg spiller...",
+        "NotFound": "Ingen spiller fundet",
+        "Avatar": "Spiller",
+        "Registered": "registreret",
+        "NotRegistered": "ikke registreret"
+      },
+      "Button": "Ansøg",
+      "ButtonWithName": "som {{name}}",
+      "Error": {
+        "Title": "Spillere kunne ikke indlæses",
+        "Description": "Prøv venligst igen senere."
+      }
+    },
+    "WeekPlan": {
+      "Title": "Ugentlig plan – CW",
+      "Week": "Mandag – søndag",
+      "TrainLeader": "Togleder",
+      "Vip": "VIP",
+      "Day": {
+        "Monday": "Mandag",
+        "Tuesday": "Tirsdag",
+        "Wednesday": "Onsdag",
+        "Thursday": "Torsdag",
+        "Friday": "Fredag",
+        "Saturday": "Lørdag",
+        "Sunday": "Søndag"
+      },
+      "Error": {
+        "Title": "Den ugentlige plan kunne ikke indlæses",
+        "Description": "Prøv venligst igen senere."
+      },
+      "NoPlan": {
+        "Title": "Den ugentlige plan er endnu ikke offentliggjort",
+        "Description": "Kom tilbage senere."
+      }
+    },
+    "Toaster": {
+      "Player": {
+        "Error": {
+          "Title": "Indlæser spillere",
+          "Description": "Fejl ved hentning af spillere"
+        }
+      },
+      "WeekPlan": {
+        "Error": {
+          "Title": "Indlæser aktuel uge",
+          "Description": "Fejl ved hentning af den aktuelle uge"
+        }
+      },
+      "Register": {
+        "Error": {
+          "Title": "Registrering",
+          "Description": "Fejl under registrering"
+        }
+      }
+    },
+    "SweetAlert": {
+      "Register": {
+        "Title": "Registrering gennemført!",
+        "Description": "<strong>{{name}}</strong>,<br>din ansøgning til <b>Togsystemet</b> er blevet sendt. 🚆",
+        "Button": "Fedt!"
+      },
+      "AlreadyRegister": {
+        "Title": "Allerede registreret",
+        "Description": "<strong>{{name}}</strong>,<br>du er allerede registreret til <b>Togsystemet</b>. 🚆",
+        "Button": "Alt er godt"
+      }
     }
   }
 }
