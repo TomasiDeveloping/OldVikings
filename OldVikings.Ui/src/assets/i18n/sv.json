@@ -2529,6 +2529,44 @@
         "Description": "<strong>{{name}}</strong>,<br>du är redan registrerad i <b>Tågsystemet</b>. 🚆",
         "Button": "Allt är lugnt"
       }
+    },
+    "Instructions": {
+      "Title": "Tåghantering – Guide",
+      "Description": "När du har fått tåget kan du klicka på <strong>tågikonen</strong> i din bas för att komma igång.",
+      "Save": {
+        "Title": "1) Skaffa och spara ett tåg",
+        "List1": "Använd <strong>5 biljetter</strong> för att få ett <strong>gyllene tåg</strong>.",
+        "List2": "Därefter kan du använda så många biljetter du vill för att få det tåg som passar dig bäst.",
+        "List3": "Uppe till höger kan du se <strong>poängen</strong> (värdet) för ditt nuvarande tåg.",
+        "List4": "Med <strong>spara-ikonen</strong> längst ner till vänster kan du spara ditt nuvarande tåg när som helst.",
+        "List5": "Efteråt kan du använda fler biljetter och senare återställa och använda vilket sparat tåg som helst när som helst."
+      },
+      "VipInvite": {
+        "Title": "2) Bjud in en VIP-gäst",
+        "List1": "Klicka på <strong>VIP</strong> uppe till vänster för att bjuda in en VIP-gäst.",
+        "List2": "Se till att kryssrutan längst ner är aktiverad:<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>Detta gör att VIP-gästen själv kan välja sina två vagnar.",
+        "List3": "Du kan bjuda in VIP-gästen som <strong>Särskild gäst</strong> eller <strong>Väktarförsvarare</strong>."
+      },
+      "VipOptions": {
+        "Title": "<strong>Vilket alternativ ska du välja?</strong>",
+        "List1": "<strong>Särskild gäst</strong>: Om dina trupper är starkare – kommer <strong>dina trupper</strong> att försvara tåget.",
+        "List2": "<strong>Väktarförsvarare</strong>: Om VIP:en är starkare – kommer <strong>VIP-gästens trupper</strong> att försvara tåget.",
+        "Description": "Belöningarna är desamma för båda spelarna i båda fallen – men ett klokt val kan hjälpa till att försvara tåget bättre."
+      },
+      "VipSelect": {
+        "Title": "3) Välj en VIP och ställ in tiden",
+        "List1": "Hitta VIP-gästen och välj dem.",
+        "List2": "Se till att välja <strong>60 minuter</strong> för VIP:en.",
+        "List3": "VIP:en har nu 60 minuter på sig att acceptera inbjudan och blir därefter automatiskt VIP-gäst.",
+        "List4": "Efter 60 minuter kan du bjuda in VIP:en igen (det kräver lite teamwork)."
+      },
+      "Teamwork": {
+        "Title": "4) Teamarbete & chattips",
+        "List1": "Du och VIP-gästen kommer alltid att vara markerade med <strong>&#64;</strong> i chatten.",
+        "List2": "Om VIP:en inte accepterar inbjudan hjälper det att nämna dem igen i chatten med <strong>&#64;</strong>."
+      },
+      "Info": "<strong>Tips för tågledare:</strong> Försök att vara så punktlig som möjligt när du hanterar tåget. Du kan aktivera aviseringar i inställningarna under <strong>Aviseringar</strong> så att spelet meddelar dig så snart du väljs som tågledare.",
+      "End": "Ha kul med ditt tåg! 🚆"
     }
   }
 }

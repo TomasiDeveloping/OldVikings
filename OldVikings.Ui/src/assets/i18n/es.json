@@ -2529,6 +2529,44 @@
         "Description": "<strong>{{name}}</strong>,<br>ya estás registrado en el <b>Sistema de Trenes</b>. 🚆",
         "Button": "Todo bien"
       }
+    },
+    "Instructions": {
+      "Title": "Gestión del tren – Guía",
+      "Description": "Una vez que hayas obtenido el tren, puedes hacer clic en el <strong>icono del tren</strong> en tu base para empezar.",
+      "Save": {
+        "Title": "1) Obtener y guardar un tren",
+        "List1": "Usa <strong>5 billetes</strong> para obtener un <strong>tren dorado</strong>.",
+        "List2": "Después de eso, puedes gastar tantos billetes como quieras para conseguir el tren que mejor se adapte a ti.",
+        "List3": "En la parte superior derecha puedes ver la <strong>puntuación</strong> (valor) de tu tren actual.",
+        "List4": "Con el <strong>icono de guardar</strong> en la parte inferior izquierda, puedes guardar tu tren actual en cualquier momento.",
+        "List5": "Después, puedes gastar más billetes y más tarde restaurar y usar cualquier tren guardado en cualquier momento."
+      },
+      "VipInvite": {
+        "Title": "2) Invitar a un invitado VIP",
+        "List1": "Haz clic en <strong>VIP</strong> en la parte superior izquierda para invitar a un invitado VIP.",
+        "List2": "Asegúrate de que la casilla de verificación en la parte inferior esté activada:<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>Esto permite que el invitado VIP elija sus dos vagones por sí mismo.",
+        "List3": "Puedes invitar al invitado VIP como <strong>Invitado especial</strong> o <strong>Defensor guardián</strong>."
+      },
+      "VipOptions": {
+        "Title": "<strong>¿Qué opción deberías elegir?</strong>",
+        "List1": "<strong>Invitado especial</strong>: Si tus escuadras son más fuertes, entonces <strong>tus escuadras</strong> defenderán el tren.",
+        "List2": "<strong>Defensor guardián</strong>: Si el VIP es más fuerte, entonces <strong>las escuadras del invitado VIP</strong> defenderán el tren.",
+        "Description": "Las recompensas son las mismas para ambos jugadores en ambos casos, pero elegir bien puede ayudar a defender mejor el tren."
+      },
+      "VipSelect": {
+        "Title": "3) Seleccionar un VIP y establecer el tiempo",
+        "List1": "Busca al invitado VIP y selecciónalo.",
+        "List2": "Asegúrate de elegir <strong>60 minutos</strong> para el VIP.",
+        "List3": "El VIP ahora tiene 60 minutos para aceptar la invitación y luego se convertirá automáticamente en el invitado VIP.",
+        "List4": "Después de los 60 minutos, puedes invitar al VIP de nuevo (esto requiere un poco de trabajo en equipo)."
+      },
+      "Teamwork": {
+        "Title": "4) Trabajo en equipo y consejos de chat",
+        "List1": "Tú y el invitado VIP siempre aparecerán marcados con <strong>&#64;</strong> en el chat.",
+        "List2": "Si el VIP no acepta la invitación, ayuda mencionarlo de nuevo en el chat con <strong>&#64;</strong>."
+      },
+      "Info": "<strong>Consejo para líderes del tren:</strong> Intenta ser lo más puntual posible al gestionar el tren. Puedes activar las notificaciones en los ajustes, en <strong>Notificaciones</strong>, para que el juego te avise en cuanto seas seleccionado como líder del tren.",
+      "End": "¡Diviértete con tu tren! 🚆"
     }
   }
 }

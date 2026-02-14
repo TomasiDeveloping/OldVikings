@@ -2529,6 +2529,44 @@
         "Description": "<strong>{{name}}</strong>,<br>you are already registered for the <b>Train System</b>. 🚆",
         "Button": "All good"
       }
+    },
+    "Instructions": {
+      "Title": "Train Management – Guide",
+      "Description": "Once you have obtained the train, you can click the <strong>train icon</strong> in your base to get started.",
+      "Save": {
+        "Title": "1) Get & Save a Train",
+        "List1": "Use <strong>5 tickets</strong> to obtain a <strong>golden train</strong>.",
+        "List2": "After that, you can spend as many tickets as you like to get the train that suits you best.",
+        "List3": "At the top right, you can see the <strong>score</strong> (value) of your current train.",
+        "List4": "With the <strong>save icon</strong> at the bottom left, you can save your current train at any time.",
+        "List5": "Afterwards, you can spend more tickets and later restore and use any saved train at any time."
+      },
+      "VipInvite": {
+        "Title": "2) Invite a VIP Guest",
+        "List1": "Click <strong>VIP</strong> at the top left to invite a VIP guest.",
+        "List2": "Make sure the checkbox at the very bottom is enabled:<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>This allows the VIP guest to choose their two wagons themselves.",
+        "List3": "You can invite the VIP guest as a <strong>Special Guest</strong> or <strong>Guardian Defender</strong>."
+      },
+      "VipOptions": {
+        "Title": "<strong>Which option should you choose?</strong>",
+        "List1": "<strong>Special Guest</strong>: If your squads are stronger – then <strong>your squads</strong> will defend the train.",
+        "List2": "<strong>Guardian Defender</strong>: If the VIP is stronger – then the <strong>VIP guest’s squads</strong> will defend the train.",
+        "Description": "The rewards are the same for both players in both cases – but choosing wisely can help defend the train better."
+      },
+      "VipSelect": {
+        "Title": "3) Select a VIP & Set the Time",
+        "List1": "Find the VIP guest and select them.",
+        "List2": "Make sure to choose <strong>60 minutes</strong> for the VIP.",
+        "List3": "The VIP now has 60 minutes to accept the invitation and will then automatically become the VIP guest.",
+        "List4": "After the 60 minutes, you can invite the VIP again (this requires a bit of teamwork)."
+      },
+      "Teamwork": {
+        "Title": "4) Teamwork & Chat Tips",
+        "List1": "You and the VIP guest will always be marked with <strong>&#64;</strong> in the chat.",
+        "List2": "If the VIP does not accept the invitation, it helps to mention them again in the chat with <strong>&#64;</strong>."
+      },
+      "Info": "<strong>Tip for train leaders:</strong> Try to be as punctual as possible when managing the train. You can enable notifications in the settings under <strong>Notifications</strong> so the game notifies you as soon as you are selected as the train leader.",
+      "End": "Have fun with your train! 🚆"
     }
   }
 }

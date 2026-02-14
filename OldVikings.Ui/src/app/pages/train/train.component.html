@@ -182,5 +182,90 @@
     </div>
   }
 
+  <div class="accordion mt-3" id="accordionTrainGuide">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTrain">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTrain" aria-expanded="false" aria-controls="collapseTrain">
+          {{'Train.Instructions.Title' | translate}}
+        </button>
+      </h2>
+
+      <div id="collapseTrain" class="accordion-collapse collapse" aria-labelledby="headingTrain" data-bs-parent="#accordionTrainGuide">
+        <div class="accordion-body">
+
+          <!-- Responsive YouTube Video -->
+          <div class="ratio ratio-16x9 mb-3">
+            <iframe
+              src="https://www.youtube.com/embed/fsxLaj-mxBI"
+              title="YouTube Short"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <!-- Anleitung -->
+          <div class="train-guide">
+
+            <h5 class="mb-3">{{'Train.Instructions.Title' | translate}}</h5>
+
+            <div class="alert alert-info" role="alert" [innerHTML]="'Train.Instructions.Description' | translate">
+            </div>
+
+            <h6 class="mt-4">{{'Train.Instructions.Save.Title' | translate}}</h6>
+            <ul class="mb-3">
+              <li [innerHTML]="'Train.Instructions.Save.List1' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.Save.List2' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.Save.List3' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.Save.List4' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.Save.List5' | translate"></li>
+            </ul>
+
+            <h6 class="mt-4">{{'Train.Instructions.VipInvite.Title' | translate}}</h6>
+            <ol class="mb-3">
+              <li [innerHTML]="'Train.Instructions.VipInvite.List1' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.VipInvite.List2' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.VipInvite.List3' | translate"></li>
+            </ol>
+
+            <div class="alert alert-warning" role="alert">
+              <span [innerHTML]="'Train.Instructions.VipOptions.Title' | translate"></span>
+              <ul class="mb-0">
+                <li [innerHTML]="'Train.Instructions.VipOptions.List1' | translate"></li>
+                <li [innerHTML]="'Train.Instructions.VipOptions.List2' | translate"></li>
+              </ul>
+              <div class="mt-2">
+                {{'Train.Instructions.VipOptions.Description' | translate}}
+              </div>
+            </div>
+
+            <h6 class="mt-4">{{'Train.Instructions.VipSelect.Title' | translate}}</h6>
+            <ul class="mb-3">
+              <li [innerHTML]="'Train.Instructions.VipSelect.List1' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.VipSelect.List2' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.VipSelect.List3' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.VipSelect.List4' | translate"></li>
+            </ul>
+
+            <h6 class="mt-4">{{'Train.Instructions.Teamwork.Title' | translate}}</h6>
+            <ul class="mb-3">
+              <li [innerHTML]="'Train.Instructions.Teamwork.List1' | translate"></li>
+              <li [innerHTML]="'Train.Instructions.Teamwork.List2' | translate"></li>
+            </ul>
+
+            <div class="alert alert-success" role="alert" [innerHTML]="'Train.Instructions.Info' | translate">
+            </div>
+
+            <p class="mb-0" [innerHTML]="'Train.Instructions.End' | translate"></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 
 </div>

@@ -35,6 +35,33 @@ public class ScheduleRepository(OldVikingsContext dbContext) : IScheduleReposito
         return dto;
     }
 
+    public async Task<WeeklyScheduleDto?> GetWeekAfterNextAsync(DateOnly date, CancellationToken cancellationToken = default)
+    {
+        var nextMonday = WeekHelper.GetNextMonday(date);
+
+        var dto = await dbContext.WeeklySchedules
+            .Where(s => s.WeekStartDate == nextMonday)
+            .Select(s => new WeeklyScheduleDto
+            {
+                Id = s.Id,
+                CreatedAt = s.CreatedAt,
+                WeekStartDate = s.WeekStartDate,
+                Days = s.Days
+                    .OrderBy(d => d.Date) // Mo -> So
+                    .Select(d => new WeeklyScheduleDayDto
+                    {
+                        Date = d.Date,
+                        LeaderPlayer = d.LeaderPlayer.DisplayName,
+                        VipPlayer = d.VipPlayer.DisplayName
+                    })
+                    .ToList()
+            })
+            .FirstOrDefaultAsync(cancellationToken);
+
+        return dto;
+
+    }
+
     public async Task<WeeklySchedule?> GetWeeklyAsync(DateOnly weekStarMonday, CancellationToken cancellationToken = default)
     {
         return await dbContext.WeeklySchedules

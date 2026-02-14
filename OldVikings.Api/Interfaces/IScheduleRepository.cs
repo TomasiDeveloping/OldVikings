@@ -7,6 +7,8 @@ public interface IScheduleRepository
 {
     Task<WeeklyScheduleDto?> GetCurrentWeekAsync(CancellationToken cancellationToken = default);
 
+    Task<WeeklyScheduleDto?> GetWeekAfterNextAsync(DateOnly date, CancellationToken cancellationToken = default);
+
     Task<WeeklySchedule?> GetWeeklyAsync(DateOnly weekStarMonday, CancellationToken cancellationToken = default);
 
     Task<bool> WeekExistsAsync(DateOnly weekStartMonday, CancellationToken cancellationToken = default);

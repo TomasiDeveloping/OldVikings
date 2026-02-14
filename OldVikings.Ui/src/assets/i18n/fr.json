@@ -2521,6 +2521,44 @@
         "Description": "<strong>{{name}}</strong>,<br>vous êtes déjà inscrit au <b>Système de train</b>. 🚆",
         "Button": "Tout est bon"
       }
+    },
+    "Instructions": {
+      "Title": "Gestion du train – Guide",
+      "Description": "Une fois que vous avez obtenu le train, vous pouvez cliquer sur <strong>l’icône du train</strong> dans votre base pour commencer.",
+      "Save": {
+        "Title": "1) Obtenir et sauvegarder un train",
+        "List1": "Utilisez <strong>5 billets</strong> pour obtenir un <strong>train doré</strong>.",
+        "List2": "Ensuite, vous pouvez dépenser autant de billets que vous le souhaitez pour obtenir le train qui vous convient le mieux.",
+        "List3": "En haut à droite, vous pouvez voir le <strong>score</strong> (la valeur) de votre train actuel.",
+        "List4": "Avec <strong>l’icône de sauvegarde</strong> en bas à gauche, vous pouvez sauvegarder votre train actuel à tout moment.",
+        "List5": "Ensuite, vous pouvez dépenser plus de billets et restaurer plus tard n’importe quel train sauvegardé à tout moment."
+      },
+      "VipInvite": {
+        "Title": "2) Inviter un invité VIP",
+        "List1": "Cliquez sur <strong>VIP</strong> en haut à gauche pour inviter un invité VIP.",
+        "List2": "Assurez-vous que la case à cocher tout en bas est activée :<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>Cela permet à l’invité VIP de choisir lui-même ses deux wagons.",
+        "List3": "Vous pouvez inviter l’invité VIP en tant qu’<strong>Invité spécial</strong> ou <strong>Défenseur gardien</strong>."
+      },
+      "VipOptions": {
+        "Title": "<strong>Quelle option choisir ?</strong>",
+        "List1": "<strong>Invité spécial</strong> : Si vos escouades sont plus fortes, alors <strong>vos escouades</strong> défendront le train.",
+        "List2": "<strong>Défenseur gardien</strong> : Si le VIP est plus fort, alors <strong>les escouades de l’invité VIP</strong> défendront le train.",
+        "Description": "Les récompenses sont les mêmes pour les deux joueurs dans les deux cas, mais choisir intelligemment peut aider à mieux défendre le train."
+      },
+      "VipSelect": {
+        "Title": "3) Sélectionner un VIP et définir le temps",
+        "List1": "Trouvez l’invité VIP et sélectionnez-le.",
+        "List2": "Assurez-vous de choisir <strong>60 minutes</strong> pour le VIP.",
+        "List3": "Le VIP dispose désormais de 60 minutes pour accepter l’invitation et deviendra ensuite automatiquement l’invité VIP.",
+        "List4": "Après les 60 minutes, vous pouvez inviter le VIP à nouveau (cela demande un peu de travail d’équipe)."
+      },
+      "Teamwork": {
+        "Title": "4) Travail d’équipe & astuces de chat",
+        "List1": "Vous et l’invité VIP serez toujours marqués avec <strong>&#64;</strong> dans le chat.",
+        "List2": "Si le VIP n’accepte pas l’invitation, il est utile de le mentionner à nouveau dans le chat avec <strong>&#64;</strong>."
+      },
+      "Info": "<strong>Conseil pour les chefs de train :</strong> Essayez d’être aussi ponctuel que possible lors de la gestion du train. Vous pouvez activer les notifications dans les paramètres sous <strong>Notifications</strong> afin que le jeu vous informe dès que vous êtes sélectionné comme chef de train.",
+      "End": "Amusez-vous bien avec votre train ! 🚆"
     }
   }
 }

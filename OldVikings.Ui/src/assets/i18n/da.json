@@ -2518,6 +2518,44 @@
         "Description": "<strong>{{name}}</strong>,<br>du er allerede registreret til <b>Togsystemet</b>. 🚆",
         "Button": "Alt er godt"
       }
+    },
+    "Instructions": {
+      "Title": "Togstyring – Guide",
+      "Description": "Når du har fået toget, kan du klikke på <strong>tog-ikonet</strong> i din base for at komme i gang.",
+      "Save": {
+        "Title": "1) Få & gem et tog",
+        "List1": "Brug <strong>5 billetter</strong> for at få et <strong>gyldent tog</strong>.",
+        "List2": "Derefter kan du bruge så mange billetter, som du vil, for at få det tog, der passer dig bedst.",
+        "List3": "Øverst til højre kan du se <strong>scoren</strong> (værdien) for dit nuværende tog.",
+        "List4": "Med <strong>gem-ikonet</strong> nederst til venstre kan du gemme dit nuværende tog når som helst.",
+        "List5": "Derefter kan du bruge flere billetter og senere gendanne og bruge ethvert gemt tog når som helst."
+      },
+      "VipInvite": {
+        "Title": "2) Invitér en VIP-gæst",
+        "List1": "Klik på <strong>VIP</strong> øverst til venstre for at invitere en VIP-gæst.",
+        "List2": "Sørg for, at afkrydsningsfeltet helt nederst er aktiveret:<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>Dette giver VIP-gæsten mulighed for selv at vælge deres to vogne.",
+        "List3": "Du kan invitere VIP-gæsten som <strong>Særlig gæst</strong> eller <strong>Vogterforsvarer</strong>."
+      },
+      "VipOptions": {
+        "Title": "<strong>Hvilken mulighed skal du vælge?</strong>",
+        "List1": "<strong>Særlig gæst</strong>: Hvis dine hold er stærkere – så vil <strong>dine hold</strong> forsvare toget.",
+        "List2": "<strong>Vogterforsvarer</strong>: Hvis VIP’en er stærkere – så vil <strong>VIP-gæstens hold</strong> forsvare toget.",
+        "Description": "Belønningerne er de samme for begge spillere i begge tilfælde – men et klogt valg kan hjælpe med at forsvare toget bedre."
+      },
+      "VipSelect": {
+        "Title": "3) Vælg en VIP & indstil tiden",
+        "List1": "Find VIP-gæsten og vælg dem.",
+        "List2": "Sørg for at vælge <strong>60 minutter</strong> for VIP’en.",
+        "List3": "VIP’en har nu 60 minutter til at acceptere invitationen og bliver derefter automatisk VIP-gæst.",
+        "List4": "Efter de 60 minutter kan du invitere VIP’en igen (det kræver lidt teamwork)."
+      },
+      "Teamwork": {
+        "Title": "4) Teamwork & chat-tips",
+        "List1": "Du og VIP-gæsten vil altid være markeret med <strong>&#64;</strong> i chatten.",
+        "List2": "Hvis VIP’en ikke accepterer invitationen, hjælper det at nævne dem igen i chatten med <strong>&#64;</strong>."
+      },
+      "Info": "<strong>Tip til togledere:</strong> Prøv at være så punktlig som muligt, når du styrer toget. Du kan aktivere notifikationer i indstillingerne under <strong>Notifikationer</strong>, så spillet giver dig besked, så snart du er valgt som togleder.",
+      "End": "God fornøjelse med dit tog! 🚆"
     }
   }
 }

@@ -2531,6 +2531,44 @@
         "Description": "Du hast bereits <strong>{{name}}</strong> registriert.<br><br>Eine Registrierung für andere Spieler ist hier nicht möglich.",
         "Button": "OK"
       }
+    },
+    "Instructions": {
+      "Title": "Zugverwaltung – Anleitung",
+      "Description": "Sobald du den Zug bekommen hast, kannst du in deiner Basis auf das <strong>Zug-Icon</strong> klicken, um zu starten.",
+      "Save": {
+        "Title": "1) Zug erhalten & speichern",
+        "List1": "Nutze <strong>5 Tickets</strong>, um einen <strong>goldenen Zug</strong> zu bekommen.",
+        "List2": "Danach kannst du so viele Tickets ausgeben, wie du möchtest, um den Zug zu bekommen, der am besten zu dir passt.",
+        "List3": "Oben rechts siehst du den <strong>Score</strong> (Wert) deines aktuellen Zuges.",
+        "List4": "Mit dem <strong>Save-Icon</strong> unten links kannst du deinen aktuellen Zug jederzeit speichern.",
+        "List5": "Anschließend kannst du weitere Tickets ausgeben und später jederzeit einen gespeicherten Zug wiederherstellen und nutzen."
+      },
+      "VipInvite": {
+        "Title": "2) VIP-Gast einladen",
+        "List1": "Klicke oben links auf <strong>VIP</strong>, um einen VIP-Gast einzuladen.",
+        "List2": "Stelle sicher, dass die Checkbox ganz unten aktiv ist:<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>Damit kann der VIP-Gast seine beiden Waggons selbst auswählen.",
+        "List3": "Du kannst den VIP-Gast als <strong>Special Guest</strong> oder <strong>Guardian Defender</strong> einladen."
+      },
+      "VipOptions": {
+        "Title": "<strong>Welche Option wählen?</strong>",
+        "List1": "<strong>Special Guest</strong>: Wenn deine Squads stärker sind – dann verteidigen <strong>deine Squads</strong> den Zug.",
+        "List2": "<strong>Guardian Defender</strong>: Wenn der VIP stärker ist – dann verteidigen die <strong>Squads des VIP-Gastes</strong> den Zug.",
+        "Description": "Die Belohnungen sind in beiden Fällen für beide Spieler gleich – es kann aber helfen, den Zug besser zu verteidigen."
+      },
+      "VipSelect": {
+        "Title": "3) VIP auswählen & Zeit einstellen",
+        "List1": "Suche den VIP-Gast und wähle ihn aus.",
+        "List2": "Wähle unbedingt <strong>60 Minuten</strong> für den VIP aus.",
+        "List3": "Der VIP hat nun 60 Minuten Zeit, die Einladung anzunehmen und ist dann automatisch der VIP-Gast.",
+        "List4": "Nach den 60 Minuten kannst du den VIP erneut einladen (hier ist etwas Teamarbeit erforderlich)."
+      },
+      "Teamwork": {
+        "Title": "4) Teamwork & Chat-Hinweise",
+        "List1": "Du und der VIP-Gast werdet im Chat immer mit <strong>&#64;</strong> markiert.",
+        "List2": "Wenn der VIP die Einladung nicht akzeptiert, ist es hilfreich, ihn im Chat nochmals mit <strong>&#64;</strong> zu markieren."
+      },
+      "Info": "<strong>Tipp für Zugführer:</strong> Sei möglichst pünktlich, um den Zug zu verwalten.Du kannst in den Einstellungen unter <strong>Notifications</strong> aktivieren, dass dich das Game benachrichtigt,sobald du als Zugführer ausgewählt wurdest.",
+      "End": "Viel Spaß mit deinem Zug! \uD83D\uDE86"
     }
   }
 }

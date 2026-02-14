@@ -2525,6 +2525,44 @@
         "Description": "<strong>{{name}}</strong>,<br>je bent al geregistreerd voor het <b>Treinsysteem</b>. 🚆",
         "Button": "Alles goed"
       }
+    },
+    "Instructions": {
+      "Title": "Treinbeheer – Gids",
+      "Description": "Zodra je de trein hebt verkregen, kun je op het <strong>treinpictogram</strong> in je basis klikken om te beginnen.",
+      "Save": {
+        "Title": "1) Een trein verkrijgen en opslaan",
+        "List1": "Gebruik <strong>5 tickets</strong> om een <strong>gouden trein</strong> te verkrijgen.",
+        "List2": "Daarna kun je zoveel tickets gebruiken als je wilt om de trein te krijgen die het beste bij je past.",
+        "List3": "Rechtsboven kun je de <strong>score</strong> (waarde) van je huidige trein zien.",
+        "List4": "Met het <strong>opslagpictogram</strong> linksonder kun je je huidige trein op elk moment opslaan.",
+        "List5": "Daarna kun je meer tickets gebruiken en later elke opgeslagen trein op elk moment herstellen en gebruiken."
+      },
+      "VipInvite": {
+        "Title": "2) Een VIP-gast uitnodigen",
+        "List1": "Klik op <strong>VIP</strong> linksboven om een VIP-gast uit te nodigen.",
+        "List2": "Zorg ervoor dat het selectievakje helemaal onderaan is ingeschakeld:<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>Hiermee kan de VIP-gast zelf zijn twee wagons kiezen.",
+        "List3": "Je kunt de VIP-gast uitnodigen als <strong>Speciale gast</strong> of <strong>Bewaker-verdediger</strong>."
+      },
+      "VipOptions": {
+        "Title": "<strong>Welke optie moet je kiezen?</strong>",
+        "List1": "<strong>Speciale gast</strong>: Als jouw squads sterker zijn – dan zullen <strong>jouw squads</strong> de trein verdedigen.",
+        "List2": "<strong>Bewaker-verdediger</strong>: Als de VIP sterker is – dan zullen <strong>de squads van de VIP-gast</strong> de trein verdedigen.",
+        "Description": "De beloningen zijn in beide gevallen hetzelfde voor beide spelers – maar een slimme keuze kan helpen om de trein beter te verdedigen."
+      },
+      "VipSelect": {
+        "Title": "3) Een VIP selecteren en de tijd instellen",
+        "List1": "Zoek de VIP-gast en selecteer deze.",
+        "List2": "Zorg ervoor dat je <strong>60 minuten</strong> kiest voor de VIP.",
+        "List3": "De VIP heeft nu 60 minuten om de uitnodiging te accepteren en wordt daarna automatisch de VIP-gast.",
+        "List4": "Na de 60 minuten kun je de VIP opnieuw uitnodigen (dit vereist een beetje teamwork)."
+      },
+      "Teamwork": {
+        "Title": "4) Teamwork & chat-tips",
+        "List1": "Jij en de VIP-gast worden in de chat altijd gemarkeerd met <strong>&#64;</strong>.",
+        "List2": "Als de VIP de uitnodiging niet accepteert, helpt het om hem/haar opnieuw te vermelden in de chat met <strong>&#64;</strong>."
+      },
+      "Info": "<strong>Tip voor treinleiders:</strong> Probeer zo punctueel mogelijk te zijn bij het beheren van de trein. Je kunt meldingen inschakelen in de instellingen onder <strong>Meldingen</strong>, zodat het spel je waarschuwt zodra je als treinleider wordt geselecteerd.",
+      "End": "Veel plezier met je trein! 🚆"
     }
   }
 }

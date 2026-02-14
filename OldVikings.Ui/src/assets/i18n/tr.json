@@ -2518,6 +2518,44 @@
         "Description": "<strong>{{name}}</strong>,<br><b>Tren Sistemi</b> için zaten kayıtlısın. 🚆",
         "Button": "Tamam"
       }
+    },
+    "Instructions": {
+      "Title": "Tren Yönetimi – Rehber",
+      "Description": "Treni aldıktan sonra, üssünüzdeki <strong>tren simgesine</strong> tıklayarak başlayabilirsiniz.",
+      "Save": {
+        "Title": "1) Tren Al & Kaydet",
+        "List1": "<strong>5 bilet</strong> kullanarak <strong>altın tren</strong> elde edin.",
+        "List2": "Bundan sonra, size en uygun treni almak için istediğiniz kadar bilet harcayabilirsiniz.",
+        "List3": "Sağ üstte mevcut treninizin <strong>puanını</strong> (değerini) görebilirsiniz.",
+        "List4": "Sol altta bulunan <strong>kaydet simgesi</strong> ile mevcut treninizi istediğiniz zaman kaydedebilirsiniz.",
+        "List5": "Sonrasında daha fazla bilet harcayabilir ve daha sonra kaydedilmiş herhangi bir treni istediğiniz zaman geri yükleyip kullanabilirsiniz."
+      },
+      "VipInvite": {
+        "Title": "2) Bir VIP Misafir Davet Et",
+        "List1": "Sol üstteki <strong>VIP</strong> butonuna tıklayarak bir VIP misafir davet edin.",
+        "List2": "En alttaki onay kutusunun etkin olduğundan emin olun:<br><span class=\"badge text-bg-secondary\">VIP Passenger Choice Reward</span><br>Bu, VIP misafirin iki vagonunu kendisinin seçmesini sağlar.",
+        "List3": "VIP misafiri <strong>Özel Misafir</strong> veya <strong>Koruyucu Savunmacı</strong> olarak davet edebilirsiniz."
+      },
+      "VipOptions": {
+        "Title": "<strong>Hangi seçeneği seçmelisiniz?</strong>",
+        "List1": "<strong>Özel Misafir</strong>: Takımlarınız daha güçlüyse – <strong>sizin takımlarınız</strong> treni savunur.",
+        "List2": "<strong>Koruyucu Savunmacı</strong>: VIP daha güçlüyse – <strong>VIP misafirin takımları</strong> treni savunur.",
+        "Description": "Her iki durumda da her iki oyuncu için ödüller aynıdır – ancak doğru seçimi yapmak treni daha iyi savunmaya yardımcı olabilir."
+      },
+      "VipSelect": {
+        "Title": "3) Bir VIP Seç & Süreyi Ayarla",
+        "List1": "VIP misafiri bulun ve seçin.",
+        "List2": "VIP için <strong>60 dakika</strong> seçtiğinizden emin olun.",
+        "List3": "VIP artık daveti kabul etmek için 60 dakikaya sahiptir ve ardından otomatik olarak VIP misafir olur.",
+        "List4": "60 dakika sonra VIP’yi tekrar davet edebilirsiniz (biraz ekip çalışması gerekir)."
+      },
+      "Teamwork": {
+        "Title": "4) Ekip Çalışması & Sohbet İpuçları",
+        "List1": "Siz ve VIP misafir sohbette her zaman <strong>&#64;</strong> ile işaretlenirsiniz.",
+        "List2": "VIP daveti kabul etmezse, sohbette <strong>&#64;</strong> ile tekrar etiketlemek yardımcı olur."
+      },
+      "Info": "<strong>Tren liderleri için ipucu:</strong> Treni yönetirken mümkün olduğunca dakik olmaya çalışın. Ayarlardan <strong>Bildirimler</strong> bölümünde bildirimleri açabilirsiniz; böylece tren lideri olarak seçildiğiniz anda oyun sizi bilgilendirir.",
+      "End": "Treninizle iyi eğlenceler! 🚆"
     }
   }
 }
