@@ -2556,6 +2556,18 @@
       },
       "Info": "<strong>Tren liderleri için ipucu:</strong> Treni yönetirken mümkün olduğunca dakik olmaya çalışın. Ayarlardan <strong>Bildirimler</strong> bölümünde bildirimleri açabilirsiniz; böylece tren lideri olarak seçildiğiniz anda oyun sizi bilgilendirir.",
       "End": "Treninizle iyi eğlenceler! 🚆"
+    },
+    "NextWeek": {
+      "Title": "Yeni hafta hazırlanıyor",
+      "Description": "Gelecek hafta için haftalık plan otomatik olarak oluşturulur.",
+      "Countdown": {
+        "Title": "Kalan süre",
+        "Description": "Canlı güncelleme"
+      },
+      "Footer": {
+        "Description": "Güncellemeden sonra gelecek haftanın planı da görüntülenecek.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

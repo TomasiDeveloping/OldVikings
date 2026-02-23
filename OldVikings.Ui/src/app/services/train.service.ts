@@ -25,4 +25,8 @@ export class TrainService {
     return this._httpClient.get<WeeklyScheduleModel>(this._serviceUrl + "schedules/current-week");
   }
 
+  getNextWeek(date: string): Observable<WeeklyScheduleModel> {
+    return this._httpClient.get<WeeklyScheduleModel>(this._serviceUrl + `schedules/next-week?date=${date}`);
+  }
+
 }

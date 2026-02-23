@@ -2563,6 +2563,18 @@
       },
       "Info": "<strong>Tip voor treinleiders:</strong> Probeer zo punctueel mogelijk te zijn bij het beheren van de trein. Je kunt meldingen inschakelen in de instellingen onder <strong>Meldingen</strong>, zodat het spel je waarschuwt zodra je als treinleider wordt geselecteerd.",
       "End": "Veel plezier met je trein! 🚆"
+    },
+    "NextWeek": {
+      "Title": "De nieuwe week wordt voorbereid",
+      "Description": "Het weekplan voor de komende week wordt automatisch aangemaakt.",
+      "Countdown": {
+        "Title": "Resterende tijd",
+        "Description": "Live-update"
+      },
+      "Footer": {
+        "Description": "Na de update wordt ook het plan voor de komende week weergegeven.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

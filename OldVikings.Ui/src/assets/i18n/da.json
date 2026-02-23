@@ -2556,6 +2556,18 @@
       },
       "Info": "<strong>Tip til togledere:</strong> Prøv at være så punktlig som muligt, når du styrer toget. Du kan aktivere notifikationer i indstillingerne under <strong>Notifikationer</strong>, så spillet giver dig besked, så snart du er valgt som togleder.",
       "End": "God fornøjelse med dit tog! 🚆"
+    },
+    "NextWeek": {
+      "Title": "Den nye uge er ved at blive forberedt",
+      "Description": "Ugeplanen for den kommende uge oprettes automatisk.",
+      "Countdown": {
+        "Title": "Tilbageværende tid",
+        "Description": "Live-opdatering"
+      },
+      "Footer": {
+        "Description": "Efter opdateringen vises planen for den kommende uge også.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

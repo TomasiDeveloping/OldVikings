@@ -2567,6 +2567,18 @@
       },
       "Info": "<strong>Tips för tågledare:</strong> Försök att vara så punktlig som möjligt när du hanterar tåget. Du kan aktivera aviseringar i inställningarna under <strong>Aviseringar</strong> så att spelet meddelar dig så snart du väljs som tågledare.",
       "End": "Ha kul med ditt tåg! 🚆"
+    },
+    "NextWeek": {
+      "Title": "Den nya veckan förbereds",
+      "Description": "Veckoplanen för den kommande veckan skapas automatiskt.",
+      "Countdown": {
+        "Title": "Återstående tid",
+        "Description": "Liveuppdatering"
+      },
+      "Footer": {
+        "Description": "Efter uppdateringen visas även planen för den kommande veckan.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

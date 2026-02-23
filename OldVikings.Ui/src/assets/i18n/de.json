@@ -2569,6 +2569,18 @@
       },
       "Info": "<strong>Tipp für Zugführer:</strong> Sei möglichst pünktlich, um den Zug zu verwalten.Du kannst in den Einstellungen unter <strong>Notifications</strong> aktivieren, dass dich das Game benachrichtigt,sobald du als Zugführer ausgewählt wurdest.",
       "End": "Viel Spaß mit deinem Zug! \uD83D\uDE86"
+    },
+    "NextWeek": {
+      "Title": "Neue Woche wird vorbereitet",
+      "Description": "Der Wochenplan für die kommende Woche wird automatisch erstellt.",
+      "Countdown": {
+        "Title": "Verbleibende Zeit",
+        "Description": "Live-Update"
+      },
+      "Footer": {
+        "Description": "Nach dem Update wird zusätzlich der Plan für die kommende Woche angezeigt.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

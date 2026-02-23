@@ -2559,6 +2559,18 @@
       },
       "Info": "<strong>Conseil pour les chefs de train :</strong> Essayez d’être aussi ponctuel que possible lors de la gestion du train. Vous pouvez activer les notifications dans les paramètres sous <strong>Notifications</strong> afin que le jeu vous informe dès que vous êtes sélectionné comme chef de train.",
       "End": "Amusez-vous bien avec votre train ! 🚆"
+    },
+    "NextWeek": {
+      "Title": "La nouvelle semaine est en cours de préparation",
+      "Description": "Le planning hebdomadaire de la semaine à venir est créé automatiquement.",
+      "Countdown": {
+        "Title": "Temps restant",
+        "Description": "Mise à jour en direct"
+      },
+      "Footer": {
+        "Description": "Après la mise à jour, le planning de la semaine à venir sera également affiché.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

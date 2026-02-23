@@ -2567,6 +2567,18 @@
       },
       "Info": "<strong>Tip for train leaders:</strong> Try to be as punctual as possible when managing the train. You can enable notifications in the settings under <strong>Notifications</strong> so the game notifies you as soon as you are selected as the train leader.",
       "End": "Have fun with your train! 🚆"
+    },
+    "NextWeek": {
+      "Title": "New week is being prepared",
+      "Description": "The weekly plan for the upcoming week is created automatically.",
+      "Countdown": {
+        "Title": "Time remaining",
+        "Description": "Live update"
+      },
+      "Footer": {
+        "Description": "After the update, the plan for the upcoming week will also be displayed.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

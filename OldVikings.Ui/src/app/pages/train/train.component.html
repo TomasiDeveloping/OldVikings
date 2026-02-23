@@ -108,58 +108,10 @@
     </div>
   </div>
 
+  <app-next-week-train></app-next-week-train>
+
   @if (weekPlan && !loadCurrentWeekError) {
-    <div class="card shadow week-card mt-5">
-      <div class="card-body">
-        <div
-          class="d-flex align-items-start align-items-md-center justify-content-between mb-3 flex-column flex-md-row gap-2">
-          <div class="d-flex align-items-center gap-2 flex-wrap">
-            <i class="bi bi-calendar-week fs-5 fs-md-4 text-info"></i>
-
-            <h5 class="h6 h5-md mb-0">
-              {{ 'Train.WeekPlan.Title' | translate }} {{ weekPlan.days![0].date | date:'ww' }}
-              <small class="text-muted d-block d-md-inline ms-md-2">
-                ({{ weekPlan.weekStartDate | date:'dd.MM.yyyy' }}
-                – {{ weekPlan.days!.at(-1)!.date | date:'dd.MM.yyyy' }})
-              </small>
-            </h5>
-          </div>
-
-          <span class="text-muted small d-none d-md-inline">
-    {{ 'Train.WeekPlan.Week' | translate }}
-  </span>
-        </div>
-
-
-        <div class="week-list">
-          <div class="week-row" *ngFor="let d of weekPlan.days;">
-            <div class="week-left">
-              <div class="fw-semibold">{{ d.date | date: 'EEEE' | dayName | translate }}</div>
-              <div class="text-muted small">{{ d.date | date: 'dd.MM.yyyy' }}</div>
-            </div>
-
-            <div class="week-right">
-              <div class="week-pill">
-                <div class="pill-label">
-                  <i class="bi bi-person-badge text-info"></i>
-                  <span>{{ 'Train.WeekPlan.TrainLeader' | translate }}</span>
-                </div>
-                <div class="pill-value">{{ d.leaderPlayer || '—' }}</div>
-              </div>
-
-              <div class="week-pill">
-                <div class="pill-label">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <span>{{ 'Train.WeekPlan.Vip' | translate }}</span>
-                </div>
-                <div class="pill-value">{{ d.vipPlayer || '—' }}</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
+    <app-train-week-plan [weekPlan]="weekPlan"></app-train-week-plan>
   } @else if (loadCurrentWeekError) {
     <div class="card shadow week-card mt-5">
       <div class="card-body text-center py-4">

@@ -25,5 +25,22 @@ namespace OldVikings.Api.Controllers.v1
                 return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
             }
         }
+
+        [HttpGet("next-week")]
+        public async Task<ActionResult<WeeklyScheduleDto>> GetNextWeek([FromQuery]DateOnly date, CancellationToken cancellationToken)
+        {
+            try
+            {
+                var currentWeek = await scheduleRepository.GetWeekAfterNextAsync(date,cancellationToken);
+
+                return currentWeek is not null
+                    ? Ok(currentWeek)
+                    : NoContent();
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
+        }
     }
 }

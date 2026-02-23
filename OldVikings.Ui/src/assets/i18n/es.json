@@ -2567,6 +2567,18 @@
       },
       "Info": "<strong>Consejo para líderes del tren:</strong> Intenta ser lo más puntual posible al gestionar el tren. Puedes activar las notificaciones en los ajustes, en <strong>Notificaciones</strong>, para que el juego te avise en cuanto seas seleccionado como líder del tren.",
       "End": "¡Diviértete con tu tren! 🚆"
+    },
+    "NextWeek": {
+      "Title": "Se está preparando la nueva semana",
+      "Description": "El plan semanal para la próxima semana se crea automáticamente.",
+      "Countdown": {
+        "Title": "Tiempo restante",
+        "Description": "Actualización en vivo"
+      },
+      "Footer": {
+        "Description": "Después de la actualización, también se mostrará el plan para la próxima semana.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

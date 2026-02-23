@@ -48,6 +48,8 @@ import { SeasonLeaderBordComponent } from './pages/seasons/season-leader-bord/se
 import { MemorialComponent } from './pages/memorial/memorial.component';
 import { TrainComponent } from './pages/train/train.component';
 import { DayNamePipe } from './pipes/day-name.pipe';
+import { NextWeekTrainComponent } from './pages/train/next-week-train/next-week-train.component';
+import { TrainWeekPlanComponent } from './pages/train/train-week-plan/train-week-plan.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -90,7 +92,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         SeasonLeaderBordComponent,
         MemorialComponent,
         TrainComponent,
-        DayNamePipe
+        DayNamePipe,
+        NextWeekTrainComponent,
+        TrainWeekPlanComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
     AppRoutingModule,

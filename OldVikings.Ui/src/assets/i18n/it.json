@@ -2563,6 +2563,18 @@
       },
       "Info": "<strong>Consiglio per i capotreno:</strong> Cerca di essere il più puntuale possibile nella gestione del treno. Puoi attivare le notifiche nelle impostazioni sotto <strong>Notifiche</strong> così il gioco ti avviserà non appena verrai selezionato come capotreno.",
       "End": "Divertiti con il tuo treno! 🚆"
+    },
+    "NextWeek": {
+      "Title": "La nuova settimana è in fase di preparazione",
+      "Description": "Il piano settimanale per la prossima settimana viene creato automaticamente.",
+      "Countdown": {
+        "Title": "Tempo rimanente",
+        "Description": "Aggiornamento in tempo reale"
+      },
+      "Footer": {
+        "Description": "Dopo l’aggiornamento, verrà visualizzato anche il piano per la prossima settimana.",
+        "Timezone": "Europe/Zurich"
+      }
     }
   }
 }

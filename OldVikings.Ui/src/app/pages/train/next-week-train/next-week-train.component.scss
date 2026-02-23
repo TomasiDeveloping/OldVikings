@@ -1,0 +1,48 @@
+.nw-card {
+  border-radius: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.nw-card::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 240px;
+  height: 240px;
+  background: radial-gradient(circle, rgba(13, 110, 253, 0.18), rgba(13, 110, 253, 0));
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.nw-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 1rem;
+  background: rgba(13, 110, 253, 0.12);
+  color: #0d6efd; /* bootstrap primary */
+  flex: 0 0 auto;
+}
+
+.nw-label {
+  letter-spacing: 0.2px;
+}
+
+.nw-time {
+  font-size: clamp(1.9rem, 3.5vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.05;
+  font-variant-numeric: tabular-nums;
+}
+
+.nw-divider {
+  height: 1px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.08),
+      rgba(0, 0, 0, 0)
+  );
+}
