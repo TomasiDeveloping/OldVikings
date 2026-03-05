@@ -623,6 +623,12 @@
         "Info1": "Respecteer de plaatsing: Zorg ervoor dat jullie je zo positioneren dat er geen gaten ontstaan tussen de plekken die de vijand kan uitbuiten.",
         "Info2": "Strategische plaatsing: De juiste formatie is cruciaal om de verdediging te versterken en het maximale voordeel uit de bonussen voor R4 en R5 te halen."
       }
+    },
+    "Feedback": {
+      "Title": "Alliantie-brievenbus",
+      "Description1": "Stuur ideeën, wensen of problemen rechtstreeks naar de alliantie.",
+      "Description2": "Openbare feedback is zichtbaar voor iedereen. Privéfeedback is alleen zichtbaar voor de leiders. Weergavenaam is optioneel.",
+      "Button": "Feedback openen"
     }
   },
   "Basics": {
@@ -2575,6 +2581,102 @@
         "Description": "Na de update wordt ook het plan voor de komende week weergegeven.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Feedback",
+    "Form": {
+      "Heading": "Feedback verzenden",
+      "Title": {
+        "Label": "Titel",
+        "Placeholder": "Titel",
+        "Required": "Titel is verplicht"
+      },
+      "Category": {
+        "Label": "Categorie"
+      },
+      "Message": {
+        "Label": "Bericht",
+        "Placeholder": "Beschrijf je feedback...",
+        "Required": "Bericht is verplicht"
+      },
+
+      "Visibility": {
+        "Label": "Zichtbaarheid",
+        "Public": "Openbaar (zichtbaar voor iedereen)",
+        "Private": "Privé (alleen zichtbaar voor de leiding)",
+        "Hint": "Openbare feedback verschijnt in de lijst voor iedereen. Privéfeedback is alleen zichtbaar voor de leiding. Weergavenaam is optioneel – laat leeg om anoniem te blijven."
+      },
+
+      "DisplayName": {
+        "Label": "Weergavenaam (optioneel)",
+        "Placeholder": "Optioneel – laat leeg om anoniem te blijven"
+      },
+
+      "Submit": "Verzenden",
+      "Success": "Feedback is verzonden.",
+      "Error": "Feedback kon niet worden verzonden."
+    },
+    "Category": {
+      "Improvement": "Verbetering",
+      "Suggestion": "Suggestie",
+      "Wish": "Wens",
+      "EventIdea": "Evenementidee",
+      "RulesProcess": "Regels / proces",
+      "CommunicationTools": "Communicatie / tools",
+      "Complaint": "Klacht",
+      "Reclamation": "Reclamatie",
+      "Conflict": "Conflict",
+      "LeadershipFeedback": "Feedback aan de leiding",
+      "Other": "Overig"
+    },
+    "Status": {
+      "New": "Nieuw",
+      "UnderReview": "In behandeling",
+      "Planned": "Gepland",
+      "Implemented": "Geïmplementeerd",
+      "Rejected": "Afgewezen",
+      "Archived": "Gearchiveerd",
+      "0": "Nieuw",
+      "1": "In behandeling",
+      "2": "Gepland",
+      "3": "Geïmplementeerd",
+      "4": "Afgewezen",
+      "5": "Gearchiveerd"
+    },
+    "List": {
+      "Heading": "Recente feedback",
+      "Refresh": "Vernieuwen",
+      "Loading": "Feedback wordt geladen...",
+      "Empty": "Nog geen feedback.",
+      "StatusFilter": {
+        "Label": "Status",
+        "NoneSelected": "Geen status geselecteerd – pas het filter aan."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Geen titel)",
+      "Status": "Status",
+      "Votes": "Stemmen",
+      "Category": "Categorie",
+      "By": "Door",
+      "Created": "Aangemaakt",
+      "Vote": "Stemmen",
+      "Details": "Details"
+    },
+    "Detail": {
+      "Back": "Terug naar feedback",
+      "Heading": "Feedbackdetails",
+      "Message": "Bericht",
+      "Reason": "Reden",
+      "HistoryHeading": "Geschiedenis (laatste 3)",
+      "HistoryLoading": "Geschiedenis wordt geladen...",
+      "HistoryEmpty": "Nog geen geschiedenis.",
+      "HistoryBy": "door",
+      "HistoryReason": "Reden:",
+      "Loading": "Feedback wordt geladen...",
+      "VoteDisabledAlready": "Je hebt in deze sessie al op deze feedback gestemd.",
+      "VoteDisabledStatus": "Stemmen is alleen mogelijk zolang de feedback de status Nieuw of In behandeling heeft."
     }
   }
 }

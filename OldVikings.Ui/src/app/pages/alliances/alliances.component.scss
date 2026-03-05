@@ -184,3 +184,26 @@
 .military-button:hover {
   background-color: #66bb6a;
 }
+
+.feedback-dark-panel {
+  background-color: #2b3035; /* passt zu Darkly cards */
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: all 0.3s ease;
+}
+
+.feedback-dark-panel:hover {
+  border-color: rgba(13,110,253,0.6);
+  box-shadow: 0 0 25px rgba(13,110,253,0.15);
+}
+
+.feedback-dark-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 18px;
+  background: rgba(13,110,253,0.15);
+  color: #0d6efd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+}

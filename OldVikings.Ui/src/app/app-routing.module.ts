@@ -33,6 +33,8 @@ import {SeasonsComponent} from "./pages/seasons/seasons.component";
 import {SeasonLeaderBordComponent} from "./pages/seasons/season-leader-bord/season-leader-bord.component";
 import {MemorialComponent} from "./pages/memorial/memorial.component";
 import {TrainComponent} from "./pages/train/train.component";
+import {FeedbackComponent} from "./pages/feedback/feedback.component";
+import {FeedbackDetailComponent} from "./pages/feedback/feedback-detail/feedback-detail.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -66,6 +68,8 @@ const routes: Routes = [
   {path: 'guestbook', component: GuestbookComponent},
   {path: 'memorial', component: MemorialComponent},
   {path: 'videos', component: VideosComponent, canActivate: [memberGuard]},
+  {path: 'feedback', component: FeedbackComponent, canActivate: [memberGuard]},
+  {path: 'feedback/:id', component: FeedbackDetailComponent, canActivate: [memberGuard]},
   {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 

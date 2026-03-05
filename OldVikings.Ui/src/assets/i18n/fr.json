@@ -623,6 +623,12 @@
         "Info1": "Respectez le placement : Veuillez vous assurer de vous positionner de manière à ce qu'il n'y ait pas de lacunes entre les places que l'ennemi pourrait exploiter.",
         "Info2": "Placement stratégique : La bonne formation est cruciale pour renforcer la défense et maximiser les avantages des bonus pour R4 et R5."
       }
+    },
+    "Feedback": {
+      "Title": "Boîte à idées de l’alliance",
+      "Description1": "Envoyez des idées, des souhaits ou des problèmes directement à l’alliance.",
+      "Description2": "Les commentaires publics sont visibles par tous. Les commentaires privés sont visibles uniquement par les responsables. Le nom d’affichage est facultatif.",
+      "Button": "Ouvrir les commentaires"
     }
   },
   "Basics": {
@@ -2570,6 +2576,102 @@
       "Footer": {
         "Description": "Après la mise à jour, le planning de la semaine à venir sera également affiché.",
         "Timezone": "Europe/Zurich"
+      }
+    },
+    "Feedback": {
+      "Title": "Commentaires",
+      "Form": {
+        "Heading": "Envoyer un commentaire",
+        "Title": {
+          "Label": "Titre",
+          "Placeholder": "Titre",
+          "Required": "Le titre est obligatoire"
+        },
+        "Category": {
+          "Label": "Catégorie"
+        },
+        "Message": {
+          "Label": "Message",
+          "Placeholder": "Décrivez votre commentaire...",
+          "Required": "Le message est obligatoire"
+        },
+
+        "Visibility": {
+          "Label": "Visibilité",
+          "Public": "Public (visible par tous)",
+          "Private": "Privé (visible uniquement par la direction)",
+          "Hint": "Les commentaires publics apparaissent dans la liste pour tous. Les commentaires privés sont visibles uniquement par la direction. Le nom d’affichage est facultatif – laissez le champ vide pour rester anonyme."
+        },
+
+        "DisplayName": {
+          "Label": "Nom d’affichage (facultatif)",
+          "Placeholder": "Facultatif – laissez vide pour rester anonyme"
+        },
+
+        "Submit": "Envoyer",
+        "Success": "Le commentaire a été envoyé.",
+        "Error": "Le commentaire n’a pas pu être envoyé."
+      },
+      "Category": {
+        "Improvement": "Amélioration",
+        "Suggestion": "Suggestion",
+        "Wish": "Souhait",
+        "EventIdea": "Idée d’événement",
+        "RulesProcess": "Règles / processus",
+        "CommunicationTools": "Communication / outils",
+        "Complaint": "Plainte",
+        "Reclamation": "Réclamation",
+        "Conflict": "Conflit",
+        "LeadershipFeedback": "Commentaire à la direction",
+        "Other": "Autre"
+      },
+      "Status": {
+        "New": "Nouveau",
+        "UnderReview": "En cours d’examen",
+        "Planned": "Planifié",
+        "Implemented": "Mis en œuvre",
+        "Rejected": "Rejeté",
+        "Archived": "Archivé",
+        "0": "Nouveau",
+        "1": "En cours d’examen",
+        "2": "Planifié",
+        "3": "Mis en œuvre",
+        "4": "Rejeté",
+        "5": "Archivé"
+      },
+      "List": {
+        "Heading": "Commentaires récents",
+        "Refresh": "Actualiser",
+        "Loading": "Chargement des commentaires...",
+        "Empty": "Aucun commentaire pour le moment.",
+        "StatusFilter": {
+          "Label": "Statut",
+          "NoneSelected": "Aucun statut sélectionné – ajustez le filtre."
+        }
+      },
+      "Item": {
+        "NoTitle": "(Sans titre)",
+        "Status": "Statut",
+        "Votes": "Votes",
+        "Category": "Catégorie",
+        "By": "Par",
+        "Created": "Créé",
+        "Vote": "Voter",
+        "Details": "Détails"
+      },
+      "Detail": {
+        "Back": "Retour aux commentaires",
+        "Heading": "Détails du commentaire",
+        "Message": "Message",
+        "Reason": "Motif",
+        "HistoryHeading": "Historique (3 derniers)",
+        "HistoryLoading": "Chargement de l’historique...",
+        "HistoryEmpty": "Aucun historique pour le moment.",
+        "HistoryBy": "par",
+        "HistoryReason": "Motif :",
+        "Loading": "Chargement du commentaire...",
+        "VoteDisabledAlready": "Vous avez déjà voté pour ce commentaire dans cette session.",
+        "VoteDisabledStatus": "Le vote est uniquement possible lorsque le commentaire est au statut Nouveau ou En cours d’examen."
       }
     }
   }

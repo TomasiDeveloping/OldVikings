@@ -1,0 +1,337 @@
+<div class="container my-4 pb-3">
+
+  <h2 class="mb-4">{{ 'Feedback.Title' | translate }}</h2>
+
+  <div class="card mb-4 border-secondary">
+    <div class="card-header bg-transparent border-secondary">
+      <h5 class="mb-0">{{ 'Feedback.Form.Heading' | translate }}</h5>
+    </div>
+    <div class="card-body">
+      <form (ngSubmit)="onSubmit()" [formGroup]="form">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label" for="title">
+              {{ 'Feedback.Form.Title.Label' | translate }}
+            </label>
+            <input
+              [placeholder]="'Feedback.Form.Title.Placeholder' | translate"
+              class="form-control"
+              formControlName="title"
+              id="title"
+              maxlength="100"
+              type="text"
+            />
+            @if (form.get('title')?.invalid && form.get('title')?.touched) {
+              <div class="form-text text-danger">
+                {{ 'Feedback.Form.Title.Required' | translate }}
+              </div>
+            }
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label" for="category">
+              {{ 'Feedback.Form.Category.Label' | translate }}
+            </label>
+            <select
+              class="form-select"
+              formControlName="category"
+              id="category"
+            >
+              <option [ngValue]="0">
+                {{ 'Feedback.Category.Improvement' | translate }}
+              </option>
+              <option [ngValue]="1">
+                {{ 'Feedback.Category.Suggestion' | translate }}
+              </option>
+              <option [ngValue]="2">
+                {{ 'Feedback.Category.Wish' | translate }}
+              </option>
+              <option [ngValue]="3">
+                {{ 'Feedback.Category.EventIdea' | translate }}
+              </option>
+              <option [ngValue]="4">
+                {{ 'Feedback.Category.RulesProcess' | translate }}
+              </option>
+              <option [ngValue]="5">
+                {{ 'Feedback.Category.CommunicationTools' | translate }}
+              </option>
+              <option [ngValue]="6">
+                {{ 'Feedback.Category.Complaint' | translate }}
+              </option>
+              <option [ngValue]="7">
+                {{ 'Feedback.Category.Reclamation' | translate }}
+              </option>
+              <option [ngValue]="8">
+                {{ 'Feedback.Category.Conflict' | translate }}
+              </option>
+              <option [ngValue]="9">
+                {{ 'Feedback.Category.LeadershipFeedback' | translate }}
+              </option>
+              <option [ngValue]="99">
+                {{ 'Feedback.Category.Other' | translate }}
+              </option>
+            </select>
+          </div>
+
+          <div class="col-12">
+            <label class="form-label" for="message">
+              {{ 'Feedback.Form.Message.Label' | translate }}
+            </label>
+            <textarea
+              [placeholder]="'Feedback.Form.Message.Placeholder' | translate"
+              class="form-control"
+              formControlName="message"
+              id="message"
+              maxlength="4000"
+              rows="6"
+            ></textarea>
+            @if (form.get('message')?.invalid && form.get('message')?.touched) {
+              <div class="form-text text-danger">
+                {{ 'Feedback.Form.Message.Required' | translate }}
+              </div>
+            }
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label">
+              {{ 'Feedback.Form.Visibility.Label' | translate }}
+            </label>
+
+            <div class="form-check">
+              <input
+                [value]="1"
+                class="form-check-input"
+                formControlName="visibility"
+                id="modePublic"
+                type="radio"
+              />
+              <label class="form-check-label" for="modePublic">
+                {{ 'Feedback.Form.Visibility.Public' | translate }}
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input
+                [value]="0"
+                class="form-check-input"
+                formControlName="visibility"
+                id="modePrivate"
+                type="radio"
+              />
+              <label class="form-check-label" for="modePrivate">
+                {{ 'Feedback.Form.Visibility.Private' | translate }}
+              </label>
+            </div>
+
+            <div class="form-text">
+              {{ 'Feedback.Form.Visibility.Hint' | translate }}
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <label class="form-label" for="displayName">
+              {{ 'Feedback.Form.DisplayName.Label' | translate }}
+            </label>
+            <input
+              [placeholder]="'Feedback.Form.DisplayName.Placeholder' | translate"
+              class="form-control"
+              formControlName="displayName"
+              id="displayName"
+              maxlength="64"
+              type="text"
+            />
+          </div>
+
+          <div class="col-12 d-flex align-items-center gap-3">
+            <button
+              [disabled]="form.invalid"
+              class="btn btn-primary"
+              type="submit"
+            >
+              {{ 'Feedback.Form.Submit' | translate }}
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card border-secondary">
+    <div
+      class="card-header bg-transparent border-secondary d-flex justify-content-between align-items-center"
+    >
+      <h5 class="mb-0">
+        {{ 'Feedback.List.Heading' | translate }}
+      </h5>
+    </div>
+
+    <div class="card-body">
+
+      <div class="mb-3">
+        <label class="form-label">
+          {{ 'Feedback.List.StatusFilter.Label' | translate }}
+        </label>
+
+        <div class="d-flex flex-wrap gap-2">
+          <button
+            (click)="toggleStatus('New')"
+            [ngClass]="statusFilterMap.New ? 'btn-success' : 'btn-outline-light'"
+            class="btn btn-sm"
+            type="button"
+          >
+            @if (statusFilterMap.New) {
+              <span class="me-1">✔</span>
+            }
+            {{ 'Feedback.Status.New' | translate }}
+          </button>
+
+          <button
+            (click)="toggleStatus('UnderReview')"
+            [ngClass]="statusFilterMap.UnderReview ? 'btn-success' : 'btn-outline-light'"
+            class="btn btn-sm"
+            type="button"
+          >
+            @if (statusFilterMap.UnderReview) {
+              <span class="me-1">✔</span>
+            }
+            {{ 'Feedback.Status.UnderReview' | translate }}
+          </button>
+
+          <button
+            (click)="toggleStatus('Planned')"
+            [ngClass]="statusFilterMap.Planned ? 'btn-success' : 'btn-outline-light'"
+            class="btn btn-sm"
+            type="button"
+          >
+            @if (statusFilterMap.Planned) {
+              <span class="me-1">✔</span>
+            }
+            {{ 'Feedback.Status.Planned' | translate }}
+          </button>
+
+          <button
+            (click)="toggleStatus('Implemented')"
+            [ngClass]="statusFilterMap.Implemented ? 'btn-success' : 'btn-outline-light'"
+            class="btn btn-sm"
+            type="button"
+          >
+            @if (statusFilterMap.Implemented) {
+              <span class="me-1">✔</span>
+            }
+            {{ 'Feedback.Status.Implemented' | translate }}
+          </button>
+
+          <button
+            (click)="toggleStatus('Rejected')"
+            [ngClass]="statusFilterMap.Rejected ? 'btn-success' : 'btn-outline-light'"
+            class="btn btn-sm"
+            type="button"
+          >
+            @if (statusFilterMap.Rejected) {
+              <span class="me-1">✔</span>
+            }
+            {{ 'Feedback.Status.Rejected' | translate }}
+          </button>
+
+          <button
+            (click)="toggleStatus('Archived')"
+            [ngClass]="statusFilterMap.Archived ? 'btn-success' : 'btn-outline-light'"
+            class="btn btn-sm"
+            type="button"
+          >
+            @if (statusFilterMap.Archived) {
+              <span class="me-1">✔</span>
+            }
+            {{ 'Feedback.Status.Archived' | translate }}
+          </button>
+        </div>
+
+        @if (!hasAnyStatusSelected()) {
+          <div class="form-text text-muted mt-1">
+            {{ 'Feedback.List.StatusFilter.NoneSelected' | translate }}
+          </div>
+        }
+      </div>
+
+      @if (loading) {
+        <div class="text-muted">
+          {{ 'Feedback.List.Loading' | translate }}
+        </div>
+      }
+      @if (!loading && items.length === 0) {
+        <div class="text-muted">
+          {{ 'Feedback.List.Empty' | translate }}
+        </div>
+      }
+
+      @if (!loading && items.length > 0) {
+        <div class="row g-3">
+          @for (item of items; track item.id) {
+            <div class="col-md-6 col-xl-4">
+              <div class="card bg-dark border-secondary h-100">
+                <div class="card-body d-flex flex-column">
+
+                  <div class="mb-2">
+                    <h6 class="card-title mb-1">
+                      {{ item.title || ('Feedback.Item.NoTitle' | translate) }}
+                    </h6>
+
+                    <div class="small text-muted">
+                <span class="me-2">
+                  {{ 'Feedback.Item.Status' | translate }}:
+                  <b>{{ ('Feedback.Status.' + item.status) | translate }}</b>
+                </span>
+                    </div>
+
+                    <div class="small text-muted">
+                <span class="me-2">
+                  {{ 'Feedback.Item.Category' | translate }}:
+                  {{ categoryKey(item.category) | translate }}
+                </span>
+                    </div>
+
+                    <div class="small text-muted">
+                <span class="me-2">
+                  {{ 'Feedback.Item.Created' | translate }}:
+                  {{ item.createdAtUtc | date: 'dd.MM.yyyy HH:mm' }}
+                </span>
+                    </div>
+
+                    @if (!item.isAnonymous && item.displayName) {
+                      <div class="small text-muted">
+                        {{ 'Feedback.Item.By' | translate }} {{ item.displayName }}
+                      </div>
+                    }
+                  </div>
+
+                  <p class="card-text small flex-grow-1 text-truncate">
+                    {{ item.message }}
+                  </p>
+
+                  <div class="d-flex justify-content-between align-items-center mt-2">
+                    <button
+                      (click)="openDetail(item)"
+                      class="btn btn-sm btn-outline-light"
+                    >
+                      {{ 'Feedback.Item.Details' | translate }}
+                    </button>
+
+                    <div class="d-inline-flex align-items-center text-warning small">
+                      <span class="me-1">⭐</span>
+                      <span>{{ item.votesCount }}</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          }
+
+        </div>
+      }
+
+
+    </div>
+  </div>
+</div>
+

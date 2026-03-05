@@ -1,0 +1,139 @@
+@if (!loading && item) {
+  <div class="container my-4">
+    <div class="mb-3">
+      <button (click)="back()" class="btn btn-sm btn-outline-light">
+        ← {{ 'Feedback.Detail.Back' | translate }}
+      </button>
+    </div>
+
+    <div class="card border-secondary mb-3">
+      <div
+        class="card-header bg-transparent border-secondary d-flex justify-content-between align-items-center"
+      >
+        <h5 class="mb-0">
+          {{ 'Feedback.Detail.Heading' | translate }}
+        </h5>
+
+        <button
+          (click)="vote()"
+          [disabled]="voting || !canVote(item)"
+          class="btn btn-sm btn-outline-warning d-inline-flex align-items-center"
+        >
+          <span class="me-1">⭐</span>
+          <span>{{ 'Feedback.Item.Vote' | translate }}</span>
+          <span class="badge bg-warning text-dark ms-2">
+          {{ item.votesCount }}
+        </span>
+        </button>
+      </div>
+
+      <div class="card-body">
+        <h4 class="card-title">
+          {{ item.title || ('Feedback.Item.NoTitle' | translate) }}
+        </h4>
+
+        <div class="d-flex flex-wrap align-items-center gap-2 small mb-2">
+        <span class="badge rounded-pill bg-primary">
+          {{ statusKeyFromCode(item.status) | translate }}
+        </span>
+
+          <span class="badge rounded-pill bg-secondary">
+          {{ categoryKey(item.category) | translate }}
+        </span>
+
+          <span class="d-inline-flex align-items-center text-warning ms-1">
+          <span class="me-1">⭐</span>
+          <span>{{ item.votesCount }}</span>
+        </span>
+
+          <span class="text-muted d-inline-flex align-items-center ms-2">
+          <span class="me-1">📅</span>
+          <span>{{ item.createdAtUtc | date: 'dd.MM.yyyy HH:mm' }}</span>
+        </span>
+
+          @if (!item.isAnonymous && item.displayName) {
+            <span class="text-muted d-inline-flex align-items-center ms-2">
+          <span class="me-1">👤</span>
+          <span>{{ item.displayName }}</span>
+        </span>
+          }
+
+        </div>
+
+        @if (!canVote(item)) {
+          <p class="small text-muted mb-3">
+            @if (alreadyVoted()) {
+              <ng-container>
+                {{ 'Feedback.Detail.VoteDisabledAlready' | translate }}
+              </ng-container>
+            } @else {
+              <ng-template>
+                {{ 'Feedback.Detail.VoteDisabledStatus' | translate }}
+              </ng-template>
+            }
+          </p>
+        }
+
+
+        <div class="mb-3">
+          <h6>{{ 'Feedback.Detail.Message' | translate }}</h6>
+          <pre class="small bg-dark p-2 rounded border border-secondary" [textContent]="item.message"></pre>
+        </div>
+
+        @if (item.statusMessage) {
+          <div class="mb-3">
+            <h6>{{ 'Feedback.Detail.Reason' | translate }}</h6>
+            <pre class="small bg-dark p-2 rounded border border-secondary">{{ item.statusMessage }}</pre>
+          </div>
+        }
+
+        <!-- History -->
+        <div>
+          <h6>{{ 'Feedback.Detail.HistoryHeading' | translate }}</h6>
+
+          @if (historyLoading) {
+            <div class="text-muted small">
+              {{ 'Feedback.Detail.HistoryLoading' | translate }}
+            </div>
+          }
+
+          @if (!historyLoading && history.length === 0) {
+            <div class="text-muted small">
+              {{ 'Feedback.Detail.HistoryEmpty' | translate }}
+            </div>
+          }
+
+          @if (!historyLoading && history.length > 0) {
+            <ul class="list-group list-group-flush">
+              @for (h of history; track h) {
+                <li class="list-group-item bg-dark text-light small">
+                  <div class="fw-semibold">
+                    {{ h.changedAtUtc | date: 'dd.MM.yyyy HH:mm' }}
+                  </div>
+                  <div>
+                    <b>{{ statusKeyFromCode(h.newStatus) | translate }}</b>
+                    {{ 'Feedback.Detail.HistoryBy' | translate }}
+                    <b>{{ h.discordUserName }}</b>
+                    @if (h.newStatus === FeedbackStatusCode.Rejected && h.note) {
+                      <span>— {{ 'Feedback.Detail.HistoryReason' | translate }} {{ h.note }}</span>
+                    }
+                  </div>
+                </li>
+              }
+            </ul>
+          }
+        </div>
+
+      </div>
+    </div>
+  </div>
+}
+
+@if (loading) {
+  <div class="container my-4">
+    <div class="text-muted">
+      {{ 'Feedback.Detail.Loading' | translate }}
+    </div>
+  </div>
+}
+

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OldVikings.Api.Database;
 
@@ -11,9 +12,11 @@ using OldVikings.Api.Database;
 namespace OldVikings.Api.Migrations
 {
     [DbContext(typeof(OldVikingsContext))]
-    partial class OldVikingsContextModelSnapshot : ModelSnapshot
+    [Migration("20260223140026_feednack_update")]
+    partial class feednack_update
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,22 +37,10 @@ namespace OldVikings.Api.Migrations
                     b.Property<DateTime>("CreatedAtUtc")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("DiscordAttempts")
-                        .HasColumnType("int");
-
                     b.Property<long?>("DiscordChannelId")
                         .HasColumnType("bigint");
 
-                    b.Property<DateTime?>("DiscordLastAttemptAtUtc")
-                        .HasColumnType("datetime2");
-
                     b.Property<long?>("DiscordMessageId")
-                        .HasColumnType("bigint");
-
-                    b.Property<bool>("DiscordPosted")
-                        .HasColumnType("bit");
-
-                    b.Property<long?>("DiscordThreadId")
                         .HasColumnType("bigint");
 
                     b.Property<string>("DisplayName")
@@ -93,46 +84,13 @@ namespace OldVikings.Api.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Category");
+
                     b.HasIndex("DiscordChannelId", "DiscordMessageId");
 
+                    b.HasIndex("Visibility", "Status", "CreatedAtUtc");
+
                     b.ToTable("Feedbacks");
-                });
-
-            modelBuilder.Entity("OldVikings.Api.Database.Entities.FeedbackStatusHistory", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<DateTime>("ChangedAtUtc")
-                        .HasColumnType("datetime2");
-
-                    b.Property<long>("DiscordUserId")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("DiscordUserName")
-                        .IsRequired()
-                        .HasMaxLength(64)
-                        .HasColumnType("nvarchar(64)");
-
-                    b.Property<Guid>("FeedbackItemId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<int>("NewStatus")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Note")
-                        .HasMaxLength(300)
-                        .HasColumnType("nvarchar(300)");
-
-                    b.Property<int>("OldStatus")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("FeedbackItemId", "ChangedAtUtc");
-
-                    b.ToTable("FeedbackStatusHistories");
                 });
 
             modelBuilder.Entity("OldVikings.Api.Database.Entities.Greeting", b =>
@@ -363,17 +321,6 @@ namespace OldVikings.Api.Migrations
                         .IsUnique();
 
                     b.ToTable("WeeklyScheduleDays");
-                });
-
-            modelBuilder.Entity("OldVikings.Api.Database.Entities.FeedbackStatusHistory", b =>
-                {
-                    b.HasOne("OldVikings.Api.Database.Entities.FeedbackItem", "FeedbackItem")
-                        .WithMany()
-                        .HasForeignKey("FeedbackItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("FeedbackItem");
                 });
 
             modelBuilder.Entity("OldVikings.Api.Database.Entities.PoolLeader", b =>

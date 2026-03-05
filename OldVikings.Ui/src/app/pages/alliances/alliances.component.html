@@ -75,6 +75,42 @@
     </div>
   </section>
   <hr>
+  <section id="alliance-feedback" class="mt-5">
+    <div class="feedback-dark-panel p-4 rounded-4">
+
+      <div class="d-flex align-items-center flex-wrap gap-4">
+
+        <!-- Icon Block -->
+        <div class="feedback-dark-icon">
+          <i class="bi bi-envelope-paper"></i>
+        </div>
+
+        <!-- Text -->
+        <div class="flex-grow-1">
+          <h4 class="mb-2">
+            {{ 'Alliances.Feedback.Title' | translate }}
+          </h4>
+          <p class="mb-1">
+            {{ 'Alliances.Feedback.Description1' | translate }}
+          </p>
+          <small>
+            {{ 'Alliances.Feedback.Description2' | translate }}
+          </small>
+        </div>
+
+        <!-- Button -->
+        <div>
+          <a [routerLink]="'/feedback'" class="btn btn-primary btn-lg">
+            <i class="bi bi-chat-dots me-2"></i>
+            {{ 'Alliances.Feedback.Button' | translate }}
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <hr>
   <section class="military-section">
     <div class="military-card">
       <div class="badge">🪖</div>

@@ -623,6 +623,12 @@
         "Info1": "Rispetta il posizionamento: Assicurati di posizionarti in modo tale che non si creino spazi tra i posti che il nemico potrebbe sfruttare.",
         "Info2": "Posizionamento strategico: La formazione corretta è cruciale per rafforzare la difesa e massimizzare i vantaggi dei bonus per R4 e R5."
       }
+    },
+    "Feedback": {
+      "Title": "Casella della Alleanza",
+      "Description1": "Invia idee, desideri o problemi direttamente all'alleanza.",
+      "Description2": "Il feedback pubblico è visibile a tutti. Il feedback privato è visibile solo ai leader. Il nome visualizzato è facoltativo.",
+      "Button": "Apri feedback"
     }
   },
   "Basics": {
@@ -2575,6 +2581,102 @@
         "Description": "Dopo l’aggiornamento, verrà visualizzato anche il piano per la prossima settimana.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Feedback",
+    "Form": {
+      "Heading": "Invia feedback",
+      "Title": {
+        "Label": "Titolo",
+        "Placeholder": "Titolo",
+        "Required": "Il titolo è obbligatorio"
+      },
+      "Category": {
+        "Label": "Categoria"
+      },
+      "Message": {
+        "Label": "Messaggio",
+        "Placeholder": "Descrivi il tuo feedback...",
+        "Required": "Il messaggio è obbligatorio"
+      },
+
+      "Visibility": {
+        "Label": "Visibilità",
+        "Public": "Pubblico (visibile a tutti)",
+        "Private": "Privato (visibile solo alla direzione)",
+        "Hint": "Il feedback pubblico appare nell’elenco per tutti. Il feedback privato è visibile solo alla direzione. Il nome visualizzato è facoltativo – lascia il campo vuoto per restare anonimo."
+      },
+
+      "DisplayName": {
+        "Label": "Nome visualizzato (facoltativo)",
+        "Placeholder": "Facoltativo – lascia vuoto per restare anonimo"
+      },
+
+      "Submit": "Invia",
+      "Success": "Il feedback è stato inviato.",
+      "Error": "Impossibile inviare il feedback."
+    },
+    "Category": {
+      "Improvement": "Miglioramento",
+      "Suggestion": "Suggerimento",
+      "Wish": "Desiderio",
+      "EventIdea": "Idea per evento",
+      "RulesProcess": "Regole / processo",
+      "CommunicationTools": "Comunicazione / strumenti",
+      "Complaint": "Reclamo",
+      "Reclamation": "Reclamo formale",
+      "Conflict": "Conflitto",
+      "LeadershipFeedback": "Feedback alla direzione",
+      "Other": "Altro"
+    },
+    "Status": {
+      "New": "Nuovo",
+      "UnderReview": "In revisione",
+      "Planned": "Pianificato",
+      "Implemented": "Implementato",
+      "Rejected": "Respinto",
+      "Archived": "Archiviato",
+      "0": "Nuovo",
+      "1": "In revisione",
+      "2": "Pianificato",
+      "3": "Implementato",
+      "4": "Respinto",
+      "5": "Archiviato"
+    },
+    "List": {
+      "Heading": "Feedback recenti",
+      "Refresh": "Aggiorna",
+      "Loading": "Caricamento dei feedback...",
+      "Empty": "Nessun feedback al momento.",
+      "StatusFilter": {
+        "Label": "Stato",
+        "NoneSelected": "Nessuno stato selezionato – modifica il filtro."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Senza titolo)",
+      "Status": "Stato",
+      "Votes": "Voti",
+      "Category": "Categoria",
+      "By": "Da",
+      "Created": "Creato",
+      "Vote": "Vota",
+      "Details": "Dettagli"
+    },
+    "Detail": {
+      "Back": "Torna ai feedback",
+      "Heading": "Dettagli del feedback",
+      "Message": "Messaggio",
+      "Reason": "Motivo",
+      "HistoryHeading": "Cronologia (ultimi 3)",
+      "HistoryLoading": "Caricamento della cronologia...",
+      "HistoryEmpty": "Nessuna cronologia al momento.",
+      "HistoryBy": "da",
+      "HistoryReason": "Motivo:",
+      "Loading": "Caricamento del feedback...",
+      "VoteDisabledAlready": "Hai già votato questo feedback in questa sessione.",
+      "VoteDisabledStatus": "La votazione è disponibile solo quando il feedback è nello stato Nuovo o In revisione."
     }
   }
 }

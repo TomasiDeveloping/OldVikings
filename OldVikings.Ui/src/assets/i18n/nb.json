@@ -623,6 +623,12 @@
         "Info1": "Respekter plasseringen: Sørg for at dere posisjonerer dere slik at det ikke oppstår hull mellom plassene som fienden kan utnytte.",
         "Info2": "Strategisk plassering: Riktig formasjon er avgjørende for å styrke forsvaret og maksimere fordelene med bonusene for R4 og R5."
       }
+    },
+    "Feedback": {
+      "Title": "Allianse-postkasse",
+      "Description1": "Send ideer, ønsker eller problemer direkte til alliansen.",
+      "Description2": "Offentlig tilbakemelding er synlig for alle. Privat tilbakemelding er kun synlig for lederne. Visningsnavn er valgfritt.",
+      "Button": "Åpne tilbakemelding"
     }
   },
   "Basics": {
@@ -2575,6 +2581,102 @@
         "Description": "Etter oppdateringen vil planen for den kommende uken også vises.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Tilbakemelding",
+    "Form": {
+      "Heading": "Send tilbakemelding",
+      "Title": {
+        "Label": "Tittel",
+        "Placeholder": "Tittel",
+        "Required": "Tittel er påkrevd"
+      },
+      "Category": {
+        "Label": "Kategori"
+      },
+      "Message": {
+        "Label": "Melding",
+        "Placeholder": "Beskriv tilbakemeldingen din...",
+        "Required": "Melding er påkrevd"
+      },
+
+      "Visibility": {
+        "Label": "Synlighet",
+        "Public": "Offentlig (synlig for alle)",
+        "Private": "Privat (kun synlig for ledelsen)",
+        "Hint": "Offentlig tilbakemelding vises i listen for alle. Privat tilbakemelding er kun synlig for ledelsen. Visningsnavn er valgfritt – la feltet stå tomt for å være anonym."
+      },
+
+      "DisplayName": {
+        "Label": "Visningsnavn (valgfritt)",
+        "Placeholder": "Valgfritt – la stå tomt for å være anonym"
+      },
+
+      "Submit": "Send",
+      "Success": "Tilbakemeldingen er sendt.",
+      "Error": "Tilbakemeldingen kunne ikke sendes."
+    },
+    "Category": {
+      "Improvement": "Forbedring",
+      "Suggestion": "Forslag",
+      "Wish": "Ønske",
+      "EventIdea": "Arrangementsidé",
+      "RulesProcess": "Regler / prosess",
+      "CommunicationTools": "Kommunikasjon / verktøy",
+      "Complaint": "Klage",
+      "Reclamation": "Reklamasjon",
+      "Conflict": "Konflikt",
+      "LeadershipFeedback": "Tilbakemelding til ledelsen",
+      "Other": "Annet"
+    },
+    "Status": {
+      "New": "Ny",
+      "UnderReview": "Under vurdering",
+      "Planned": "Planlagt",
+      "Implemented": "Implementert",
+      "Rejected": "Avvist",
+      "Archived": "Arkivert",
+      "0": "Ny",
+      "1": "Under vurdering",
+      "2": "Planlagt",
+      "3": "Implementert",
+      "4": "Avvist",
+      "5": "Arkivert"
+    },
+    "List": {
+      "Heading": "Siste tilbakemeldinger",
+      "Refresh": "Oppdater",
+      "Loading": "Laster tilbakemeldinger...",
+      "Empty": "Ingen tilbakemeldinger ennå.",
+      "StatusFilter": {
+        "Label": "Status",
+        "NoneSelected": "Ingen status valgt – juster filteret."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Ingen tittel)",
+      "Status": "Status",
+      "Votes": "Stemmer",
+      "Category": "Kategori",
+      "By": "Av",
+      "Created": "Opprettet",
+      "Vote": "Stem",
+      "Details": "Detaljer"
+    },
+    "Detail": {
+      "Back": "Tilbake til tilbakemeldinger",
+      "Heading": "Detaljer om tilbakemelding",
+      "Message": "Melding",
+      "Reason": "Begrunnelse",
+      "HistoryHeading": "Historikk (siste 3)",
+      "HistoryLoading": "Laster historikk...",
+      "HistoryEmpty": "Ingen historikk ennå.",
+      "HistoryBy": "av",
+      "HistoryReason": "Begrunnelse:",
+      "Loading": "Laster tilbakemelding...",
+      "VoteDisabledAlready": "Du har allerede stemt på denne tilbakemeldingen i denne økten.",
+      "VoteDisabledStatus": "Avstemning er kun tilgjengelig mens tilbakemeldingen har status Ny eller Under vurdering."
     }
   }
 }

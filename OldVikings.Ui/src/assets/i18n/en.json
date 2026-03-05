@@ -627,6 +627,12 @@
         "Info1": "Respect the placement: Please ensure that you position yourselves in such a way that no gaps arise between the spots, which the enemy could exploit.",
         "Info2": "Strategic placement: The correct formation is crucial for strengthening defense and maximizing the benefits of the bonuses for R4 and R5."
       }
+    },
+    "Feedback": {
+      "Title": "Alliance Mailbox",
+      "Description1": "Send ideas, wishes, or issues directly to the alliance.",
+      "Description2": "Public feedback is visible to everyone. Private feedback is only visible to leaders. Display name is optional.",
+      "Button": "Open Feedback"
     }
   },
   "Basics": {
@@ -2579,6 +2585,102 @@
         "Description": "After the update, the plan for the upcoming week will also be displayed.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Feedback",
+    "Form": {
+      "Heading": "Send Feedback",
+      "Title": {
+        "Label": "Title",
+        "Placeholder": "Title",
+        "Required": "Title is required"
+      },
+      "Category": {
+        "Label": "Category"
+      },
+      "Message": {
+        "Label": "Message",
+        "Placeholder": "Describe your feedback...",
+        "Required": "Message is required"
+      },
+
+      "Visibility": {
+        "Label": "Visibility",
+        "Public": "Public (visible to everyone)",
+        "Private": "Private (visible to leadership only)",
+        "Hint": "Public feedback appears in the list for everyone. Private feedback is only visible to leaders. Display name is optional – leave empty to stay anonymous."
+      },
+
+      "DisplayName": {
+        "Label": "Display Name (optional)",
+        "Placeholder": "Optional – leave empty to stay anonymous"
+      },
+
+      "Submit": "Submit",
+      "Success": "Feedback has been sent.",
+      "Error": "Feedback could not be sent."
+    },
+    "Category": {
+      "Improvement": "Improvement",
+      "Suggestion": "Suggestion",
+      "Wish": "Wish",
+      "EventIdea": "Event idea",
+      "RulesProcess": "Rules / process",
+      "CommunicationTools": "Communication / tools",
+      "Complaint": "Complaint",
+      "Reclamation": "Reclamation",
+      "Conflict": "Conflict",
+      "LeadershipFeedback": "Leadership feedback",
+      "Other": "Other"
+    },
+    "Status": {
+      "New": "New",
+      "UnderReview": "Under review",
+      "Planned": "Planned",
+      "Implemented": "Implemented",
+      "Rejected": "Rejected",
+      "Archived": "Archived",
+      "0": "New",
+      "1": "Under review",
+      "2": "Planned",
+      "3": "Implemented",
+      "4": "Rejected",
+      "5": "Archived"
+    },
+    "List": {
+      "Heading": "Recent feedback",
+      "Refresh": "Refresh",
+      "Loading": "Loading feedback...",
+      "Empty": "No feedback yet.",
+      "StatusFilter": {
+        "Label": "Status",
+        "NoneSelected": "No status selected – adjust the filter."
+      }
+    },
+    "Item": {
+      "NoTitle": "(No title)",
+      "Status": "Status",
+      "Votes": "Votes",
+      "Category": "Category",
+      "By": "By",
+      "Created": "Created",
+      "Vote": "Vote",
+      "Details": "Details"
+    },
+    "Detail": {
+      "Back": "Back to feedback",
+      "Heading": "Feedback details",
+      "Message": "Message",
+      "Reason": "Reason",
+      "HistoryHeading": "History (last 3)",
+      "HistoryLoading": "Loading history...",
+      "HistoryEmpty": "No history yet.",
+      "HistoryBy": "by",
+      "HistoryReason": "Reason:",
+      "Loading": "Loading feedback...",
+      "VoteDisabledAlready": "You have already voted for this feedback in this session.",
+      "VoteDisabledStatus": "Voting is only available while the feedback is New or Under review."
     }
   }
 }

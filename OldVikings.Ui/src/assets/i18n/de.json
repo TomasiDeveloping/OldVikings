@@ -623,6 +623,12 @@
         "Info1": "Respektiert die Platzierung: Bitte stellt sicher, dass ihr euch so positioniert, dass keine Lücken zwischen den Plätzen entstehen, die der Feind ausnutzen könnte.",
         "Info2": "Strategische Platzierung: Die richtige Formation ist entscheidend, um die Verteidigung zu stärken und den maximalen Vorteil aus den Boni für R4 und R5 zu ziehen."
       }
+    },
+    "Feedback": {
+      "Title": "Allianz-Briefkasten",
+      "Description1": "Sende Ideen, Wünsche oder Probleme direkt an die Allianz.",
+      "Description2": "Öffentliches Feedback ist für alle sichtbar. Privates Feedback sehen nur die Leader. Anzeigename ist optional.",
+      "Button": "Feedback öffnen"
     }
   },
   "Basics": {
@@ -2581,6 +2587,102 @@
         "Description": "Nach dem Update wird zusätzlich der Plan für die kommende Woche angezeigt.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Feedback",
+    "Form": {
+      "Heading": "Feedback senden",
+      "Title": {
+        "Label": "Titel",
+        "Placeholder": "Titel",
+        "Required": "Titel ist erforderlich"
+      },
+      "Category": {
+        "Label": "Kategorie"
+      },
+      "Message": {
+        "Label": "Nachricht",
+        "Placeholder": "Beschreibe dein Feedback...",
+        "Required": "Nachricht ist erforderlich"
+      },
+
+      "Visibility": {
+        "Label": "Sichtbarkeit",
+        "Public": "Öffentlich (für alle sichtbar)",
+        "Private": "Privat (nur für die Leitung sichtbar)",
+        "Hint": "Öffentliches Feedback erscheint für alle in der Liste. Privates Feedback ist nur für die Leitung sichtbar. Der Anzeigename ist optional – leer lassen für anonym."
+      },
+
+      "DisplayName": {
+        "Label": "Anzeigename (optional)",
+        "Placeholder": "Optional – leer lassen für anonym"
+      },
+
+      "Submit": "Absenden",
+      "Success": "Feedback wurde gesendet.",
+      "Error": "Feedback konnte nicht gesendet werden."
+    },
+    "Category": {
+      "Improvement": "Verbesserung",
+      "Suggestion": "Vorschlag",
+      "Wish": "Wunsch",
+      "EventIdea": "Event-Idee",
+      "RulesProcess": "Regeln / Prozess",
+      "CommunicationTools": "Kommunikation / Tools",
+      "Complaint": "Beschwerde",
+      "Reclamation": "Reklamation",
+      "Conflict": "Konflikt",
+      "LeadershipFeedback": "Feedback an die Leitung",
+      "Other": "Sonstiges"
+    },
+    "Status": {
+      "New": "Neu",
+      "UnderReview": "In Prüfung",
+      "Planned": "Geplant",
+      "Implemented": "Umgesetzt",
+      "Rejected": "Abgelehnt",
+      "Archived": "Archiviert",
+      "0": "Neu",
+      "1": "In Prüfung",
+      "2": "Geplant",
+      "3": "Umgesetzt",
+      "4": "Abgelehnt",
+      "5": "Archiviert"
+    },
+    "List": {
+      "Heading": "Aktuelles Feedback",
+      "Refresh": "Aktualisieren",
+      "Loading": "Feedback wird geladen...",
+      "Empty": "Noch kein Feedback vorhanden.",
+      "StatusFilter": {
+        "Label": "Status",
+        "NoneSelected": "Kein Status ausgewählt – Filter anpassen."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Kein Titel)",
+      "Status": "Status",
+      "Votes": "Stimmen",
+      "Category": "Kategorie",
+      "By": "Von",
+      "Created": "Erstellt",
+      "Vote": "Abstimmen",
+      "Details": "Details"
+    },
+    "Detail": {
+      "Back": "Zurück zum Feedback",
+      "Heading": "Feedback-Details",
+      "Message": "Nachricht",
+      "Reason": "Begründung",
+      "HistoryHeading": "Verlauf (letzte 3)",
+      "HistoryLoading": "Verlauf wird geladen...",
+      "HistoryEmpty": "Noch kein Verlauf vorhanden.",
+      "HistoryBy": "von",
+      "HistoryReason": "Begründung:",
+      "Loading": "Feedback wird geladen...",
+      "VoteDisabledAlready": "Du hast in dieser Sitzung bereits für dieses Feedback abgestimmt.",
+      "VoteDisabledStatus": "Abstimmen ist nur möglich, solange das Feedback den Status „Neu“ oder „In Prüfung“ hat."
     }
   }
 }

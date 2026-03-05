@@ -627,6 +627,12 @@
         "Info1": "Respeta la colocación: Por favor, asegúrate de posicionarte de manera que no haya espacios entre los lugares que el enemigo pueda aprovechar.",
         "Info2": "Colocación estratégica: La formación correcta es crucial para fortalecer la defensa y maximizar los beneficios de los bonos para R4 y R5."
       }
+    },
+    "Feedback": {
+      "Title": "Buzón de la Alianza",
+      "Description1": "Envía ideas, deseos o problemas directamente a la alianza.",
+      "Description2": "Los comentarios públicos son visibles para todos. Los comentarios privados solo son visibles para los líderes. El nombre para mostrar es opcional.",
+      "Button": "Abrir comentarios"
     }
   },
   "Basics": {
@@ -2579,6 +2585,102 @@
         "Description": "Después de la actualización, también se mostrará el plan para la próxima semana.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Comentarios",
+    "Form": {
+      "Heading": "Enviar comentarios",
+      "Title": {
+        "Label": "Título",
+        "Placeholder": "Título",
+        "Required": "El título es obligatorio"
+      },
+      "Category": {
+        "Label": "Categoría"
+      },
+      "Message": {
+        "Label": "Mensaje",
+        "Placeholder": "Describe tus comentarios...",
+        "Required": "El mensaje es obligatorio"
+      },
+
+      "Visibility": {
+        "Label": "Visibilidad",
+        "Public": "Público (visible para todos)",
+        "Private": "Privado (solo visible para la dirección)",
+        "Hint": "Los comentarios públicos aparecen en la lista para todos. Los comentarios privados solo son visibles para la dirección. El nombre para mostrar es opcional; déjalo vacío para permanecer en el anonimato."
+      },
+
+      "DisplayName": {
+        "Label": "Nombre para mostrar (opcional)",
+        "Placeholder": "Opcional: déjalo vacío para permanecer en el anonimato"
+      },
+
+      "Submit": "Enviar",
+      "Success": "Los comentarios se han enviado.",
+      "Error": "No se pudieron enviar los comentarios."
+    },
+    "Category": {
+      "Improvement": "Mejora",
+      "Suggestion": "Sugerencia",
+      "Wish": "Deseo",
+      "EventIdea": "Idea de evento",
+      "RulesProcess": "Reglas / proceso",
+      "CommunicationTools": "Comunicación / herramientas",
+      "Complaint": "Queja",
+      "Reclamation": "Reclamación",
+      "Conflict": "Conflicto",
+      "LeadershipFeedback": "Comentarios a la dirección",
+      "Other": "Otro"
+    },
+    "Status": {
+      "New": "Nuevo",
+      "UnderReview": "En revisión",
+      "Planned": "Planificado",
+      "Implemented": "Implementado",
+      "Rejected": "Rechazado",
+      "Archived": "Archivado",
+      "0": "Nuevo",
+      "1": "En revisión",
+      "2": "Planificado",
+      "3": "Implementado",
+      "4": "Rechazado",
+      "5": "Archivado"
+    },
+    "List": {
+      "Heading": "Comentarios recientes",
+      "Refresh": "Actualizar",
+      "Loading": "Cargando comentarios...",
+      "Empty": "Aún no hay comentarios.",
+      "StatusFilter": {
+        "Label": "Estado",
+        "NoneSelected": "Ningún estado seleccionado: ajusta el filtro."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Sin título)",
+      "Status": "Estado",
+      "Votes": "Votos",
+      "Category": "Categoría",
+      "By": "Por",
+      "Created": "Creado",
+      "Vote": "Votar",
+      "Details": "Detalles"
+    },
+    "Detail": {
+      "Back": "Volver a comentarios",
+      "Heading": "Detalles del comentario",
+      "Message": "Mensaje",
+      "Reason": "Motivo",
+      "HistoryHeading": "Historial (últimos 3)",
+      "HistoryLoading": "Cargando historial...",
+      "HistoryEmpty": "Aún no hay historial.",
+      "HistoryBy": "por",
+      "HistoryReason": "Motivo:",
+      "Loading": "Cargando comentario...",
+      "VoteDisabledAlready": "Ya has votado por este comentario en esta sesión.",
+      "VoteDisabledStatus": "La votación solo está disponible mientras el comentario esté en estado Nuevo o En revisión."
     }
   }
 }

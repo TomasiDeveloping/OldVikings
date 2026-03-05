@@ -627,6 +627,12 @@
         "Info1": "Respektér placeringen: Sørg venligst for, at I positionerer jer, så der ikke opstår huller mellem pladserne, som fjenden kan udnytte.",
         "Info2": "Strategisk placering: Den rigtige formation er afgørende for at styrke forsvaret og maksimere fordelene ved bonusserne til R4 og R5."
       }
+    },
+    "Feedback": {
+      "Title": "Alliance-postkasse",
+      "Description1": "Send idéer, ønsker eller problemer direkte til alliancen.",
+      "Description2": "Offentlig feedback er synlig for alle. Privat feedback er kun synlig for lederne. Vist navn er valgfrit.",
+      "Button": "Åbn feedback"
     }
   },
   "Basics": {
@@ -2568,6 +2574,102 @@
         "Description": "Efter opdateringen vises planen for den kommende uge også.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Feedback",
+    "Form": {
+      "Heading": "Send feedback",
+      "Title": {
+        "Label": "Titel",
+        "Placeholder": "Titel",
+        "Required": "Titel er påkrævet"
+      },
+      "Category": {
+        "Label": "Kategori"
+      },
+      "Message": {
+        "Label": "Besked",
+        "Placeholder": "Beskriv din feedback...",
+        "Required": "Besked er påkrævet"
+      },
+
+      "Visibility": {
+        "Label": "Synlighed",
+        "Public": "Offentlig (synlig for alle)",
+        "Private": "Privat (kun synlig for ledelsen)",
+        "Hint": "Offentlig feedback vises i listen for alle. Privat feedback er kun synlig for ledelsen. Vist navn er valgfrit – lad feltet være tomt for at være anonym."
+      },
+
+      "DisplayName": {
+        "Label": "Vist navn (valgfrit)",
+        "Placeholder": "Valgfrit – lad feltet være tomt for at være anonym"
+      },
+
+      "Submit": "Send",
+      "Success": "Feedback er sendt.",
+      "Error": "Feedback kunne ikke sendes."
+    },
+    "Category": {
+      "Improvement": "Forbedring",
+      "Suggestion": "Forslag",
+      "Wish": "Ønske",
+      "EventIdea": "Idé til arrangement",
+      "RulesProcess": "Regler / proces",
+      "CommunicationTools": "Kommunikation / værktøjer",
+      "Complaint": "Klage",
+      "Reclamation": "Reklamation",
+      "Conflict": "Konflikt",
+      "LeadershipFeedback": "Feedback til ledelsen",
+      "Other": "Andet"
+    },
+    "Status": {
+      "New": "Ny",
+      "UnderReview": "Under gennemgang",
+      "Planned": "Planlagt",
+      "Implemented": "Implementeret",
+      "Rejected": "Afvist",
+      "Archived": "Arkiveret",
+      "0": "Ny",
+      "1": "Under gennemgang",
+      "2": "Planlagt",
+      "3": "Implementeret",
+      "4": "Afvist",
+      "5": "Arkiveret"
+    },
+    "List": {
+      "Heading": "Seneste feedback",
+      "Refresh": "Opdater",
+      "Loading": "Indlæser feedback...",
+      "Empty": "Ingen feedback endnu.",
+      "StatusFilter": {
+        "Label": "Status",
+        "NoneSelected": "Ingen status valgt – juster filteret."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Ingen titel)",
+      "Status": "Status",
+      "Votes": "Stemmer",
+      "Category": "Kategori",
+      "By": "Af",
+      "Created": "Oprettet",
+      "Vote": "Stem",
+      "Details": "Detaljer"
+    },
+    "Detail": {
+      "Back": "Tilbage til feedback",
+      "Heading": "Feedback-detaljer",
+      "Message": "Besked",
+      "Reason": "Begrundelse",
+      "HistoryHeading": "Historik (seneste 3)",
+      "HistoryLoading": "Indlæser historik...",
+      "HistoryEmpty": "Ingen historik endnu.",
+      "HistoryBy": "af",
+      "HistoryReason": "Begrundelse:",
+      "Loading": "Indlæser feedback...",
+      "VoteDisabledAlready": "Du har allerede stemt på denne feedback i denne session.",
+      "VoteDisabledStatus": "Afstemning er kun mulig, mens feedback har status Ny eller Under gennemgang."
     }
   }
 }

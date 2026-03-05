@@ -623,6 +623,12 @@
         "Info1": "Yerleşime Saygı Gösterin: Lütfen yerleşiminizin düşmanın kullanabileceği boşluklar bırakmayacak şekilde yapıldığından emin olun.",
         "Info2": "Stratejik Yerleşim: Doğru formasyon, savunmayı güçlendirmek ve R4 ve R5 için bonuslardan en iyi şekilde yararlanmak için önemlidir."
       }
+    },
+    "Feedback": {
+      "Title": "İttifak Posta Kutusu",
+      "Description1": "Fikirlerinizi, isteklerinizi veya sorunlarınızı doğrudan ittifaka gönderin.",
+      "Description2": "Herkese açık geri bildirimler herkes tarafından görülebilir. Özel geri bildirimler yalnızca liderler tarafından görülebilir. Görünen ad isteğe bağlıdır.",
+      "Button": "Geri Bildirimi Aç"
     }
   },
   "Basics": {
@@ -2568,6 +2574,102 @@
         "Description": "Güncellemeden sonra gelecek haftanın planı da görüntülenecek.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Geri Bildirim",
+    "Form": {
+      "Heading": "Geri Bildirim Gönder",
+      "Title": {
+        "Label": "Başlık",
+        "Placeholder": "Başlık",
+        "Required": "Başlık zorunludur"
+      },
+      "Category": {
+        "Label": "Kategori"
+      },
+      "Message": {
+        "Label": "Mesaj",
+        "Placeholder": "Geri bildiriminizi açıklayın...",
+        "Required": "Mesaj zorunludur"
+      },
+
+      "Visibility": {
+        "Label": "Görünürlük",
+        "Public": "Herkese açık (herkes tarafından görülebilir)",
+        "Private": "Özel (yalnızca yönetim tarafından görülebilir)",
+        "Hint": "Herkese açık geri bildirimler listede herkes tarafından görülebilir. Özel geri bildirimler yalnızca yönetim tarafından görülebilir. Görünen ad isteğe bağlıdır – anonim kalmak için boş bırakın."
+      },
+
+      "DisplayName": {
+        "Label": "Görünen ad (isteğe bağlı)",
+        "Placeholder": "İsteğe bağlı – anonim kalmak için boş bırakın"
+      },
+
+      "Submit": "Gönder",
+      "Success": "Geri bildirim gönderildi.",
+      "Error": "Geri bildirim gönderilemedi."
+    },
+    "Category": {
+      "Improvement": "İyileştirme",
+      "Suggestion": "Öneri",
+      "Wish": "İstek",
+      "EventIdea": "Etkinlik fikri",
+      "RulesProcess": "Kurallar / süreç",
+      "CommunicationTools": "İletişim / araçlar",
+      "Complaint": "Şikayet",
+      "Reclamation": "İtiraz",
+      "Conflict": "Çatışma",
+      "LeadershipFeedback": "Yönetime geri bildirim",
+      "Other": "Diğer"
+    },
+    "Status": {
+      "New": "Yeni",
+      "UnderReview": "İnceleniyor",
+      "Planned": "Planlandı",
+      "Implemented": "Uygulandı",
+      "Rejected": "Reddedildi",
+      "Archived": "Arşivlendi",
+      "0": "Yeni",
+      "1": "İnceleniyor",
+      "2": "Planlandı",
+      "3": "Uygulandı",
+      "4": "Reddedildi",
+      "5": "Arşivlendi"
+    },
+    "List": {
+      "Heading": "Son geri bildirimler",
+      "Refresh": "Yenile",
+      "Loading": "Geri bildirimler yükleniyor...",
+      "Empty": "Henüz geri bildirim yok.",
+      "StatusFilter": {
+        "Label": "Durum",
+        "NoneSelected": "Hiçbir durum seçilmedi – filtreyi ayarlayın."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Başlık yok)",
+      "Status": "Durum",
+      "Votes": "Oylar",
+      "Category": "Kategori",
+      "By": "Gönderen",
+      "Created": "Oluşturuldu",
+      "Vote": "Oy ver",
+      "Details": "Detaylar"
+    },
+    "Detail": {
+      "Back": "Geri bildirimlere dön",
+      "Heading": "Geri bildirim detayları",
+      "Message": "Mesaj",
+      "Reason": "Gerekçe",
+      "HistoryHeading": "Geçmiş (son 3)",
+      "HistoryLoading": "Geçmiş yükleniyor...",
+      "HistoryEmpty": "Henüz geçmiş yok.",
+      "HistoryBy": "gönderen",
+      "HistoryReason": "Gerekçe:",
+      "Loading": "Geri bildirim yükleniyor...",
+      "VoteDisabledAlready": "Bu oturumda bu geri bildirim için zaten oy verdiniz.",
+      "VoteDisabledStatus": "Oylama yalnızca geri bildirim Yeni veya İnceleniyor durumundayken mümkündür."
     }
   }
 }

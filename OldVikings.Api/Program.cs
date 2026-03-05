@@ -31,12 +31,21 @@ try
 
     builder.Services.Configure<EventStartDay>(builder.Configuration.GetSection("EventStarDay"));
 
+    builder.Services.Configure<DiscordBotOptions>(builder.Configuration.GetSection("Discord:Bot"));
+
     builder.Services.AddDbContext<OldVikingsContext>(options =>
     {
         options.UseSqlServer(builder.Configuration.GetConnectionString("OldVikings"));
     });
 
-    builder.Services.AddAutoMapper(options => { options.AddProfile<GreetingProfile>(); options.AddProfile<R4RoleProfile>(); options.AddProfile<ShinyServerProfile>();});
+    builder.Services.AddAutoMapper(options =>
+    {
+        options.AddProfile<GreetingProfile>(); 
+        options.AddProfile<R4RoleProfile>(); 
+        options.AddProfile<ShinyServerProfile>();
+        options.AddProfile<FeedbackProfile>();
+        options.AddProfile<FeedbackHistoryProfile>();
+    });
 
     builder.Services.AddScoped<IGreetingRepository, GreetingRepository>();
     builder.Services.AddScoped<IR4RoleRepository, R4RoleRepository>();
@@ -48,6 +57,9 @@ try
     builder.Services.AddScoped<IPoolRepository, PoolRepository>();
     builder.Services.AddScoped<IScheduleRepository, ScheduleRepository>();
     builder.Services.AddScoped<WeeklyPlanService>();
+    builder.Services.AddScoped<IFeedbackRepository,FeedbackRepository>();
+    builder.Services.AddScoped<DiscordFeedbackSender>();
+    builder.Services.AddScoped<IFeedbackHistoryRepository, FeedbackHistoryRepository>();
 
     //builder.Services.AddQuartz(options =>
     //{

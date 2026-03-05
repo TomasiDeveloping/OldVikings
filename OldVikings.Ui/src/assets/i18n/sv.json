@@ -627,6 +627,12 @@
         "Info1": "Respektera placeringen: Se till att ni positionerar er så att inga luckor uppstår mellan platserna som fienden kan utnyttja.",
         "Info2": "Strategisk placering: Rätt formation är avgörande för att stärka försvaret och maximera fördelarna med bonusarna för R4 och R5."
       }
+    },
+    "Feedback": {
+      "Title": "Alliansens brevlåda",
+      "Description1": "Skicka idéer, önskemål eller problem direkt till alliansen.",
+      "Description2": "Offentlig feedback är synlig för alla. Privat feedback är endast synlig för ledarna. Visningsnamn är valfritt.",
+      "Button": "Öppna feedback"
     }
   },
   "Basics": {
@@ -2579,6 +2585,102 @@
         "Description": "Efter uppdateringen visas även planen för den kommande veckan.",
         "Timezone": "Europe/Zurich"
       }
+    }
+  },
+  "Feedback": {
+    "Title": "Feedback",
+    "Form": {
+      "Heading": "Skicka feedback",
+      "Title": {
+        "Label": "Titel",
+        "Placeholder": "Titel",
+        "Required": "Titel är obligatorisk"
+      },
+      "Category": {
+        "Label": "Kategori"
+      },
+      "Message": {
+        "Label": "Meddelande",
+        "Placeholder": "Beskriv din feedback...",
+        "Required": "Meddelande är obligatoriskt"
+      },
+
+      "Visibility": {
+        "Label": "Synlighet",
+        "Public": "Offentlig (synlig för alla)",
+        "Private": "Privat (endast synlig för ledningen)",
+        "Hint": "Offentlig feedback visas i listan för alla. Privat feedback är endast synlig för ledningen. Visningsnamn är valfritt – lämna tomt för att vara anonym."
+      },
+
+      "DisplayName": {
+        "Label": "Visningsnamn (valfritt)",
+        "Placeholder": "Valfritt – lämna tomt för att vara anonym"
+      },
+
+      "Submit": "Skicka",
+      "Success": "Feedback har skickats.",
+      "Error": "Feedback kunde inte skickas."
+    },
+    "Category": {
+      "Improvement": "Förbättring",
+      "Suggestion": "Förslag",
+      "Wish": "Önskemål",
+      "EventIdea": "Evenemangsidé",
+      "RulesProcess": "Regler / process",
+      "CommunicationTools": "Kommunikation / verktyg",
+      "Complaint": "Klagomål",
+      "Reclamation": "Reklamation",
+      "Conflict": "Konflikt",
+      "LeadershipFeedback": "Feedback till ledningen",
+      "Other": "Övrigt"
+    },
+    "Status": {
+      "New": "Ny",
+      "UnderReview": "Under granskning",
+      "Planned": "Planerad",
+      "Implemented": "Genomförd",
+      "Rejected": "Avvisad",
+      "Archived": "Arkiverad",
+      "0": "Ny",
+      "1": "Under granskning",
+      "2": "Planerad",
+      "3": "Genomförd",
+      "4": "Avvisad",
+      "5": "Arkiverad"
+    },
+    "List": {
+      "Heading": "Senaste feedback",
+      "Refresh": "Uppdatera",
+      "Loading": "Laddar feedback...",
+      "Empty": "Ingen feedback ännu.",
+      "StatusFilter": {
+        "Label": "Status",
+        "NoneSelected": "Ingen status vald – justera filtret."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Ingen titel)",
+      "Status": "Status",
+      "Votes": "Röster",
+      "Category": "Kategori",
+      "By": "Av",
+      "Created": "Skapad",
+      "Vote": "Rösta",
+      "Details": "Detaljer"
+    },
+    "Detail": {
+      "Back": "Tillbaka till feedback",
+      "Heading": "Feedbackdetaljer",
+      "Message": "Meddelande",
+      "Reason": "Orsak",
+      "HistoryHeading": "Historik (senaste 3)",
+      "HistoryLoading": "Laddar historik...",
+      "HistoryEmpty": "Ingen historik ännu.",
+      "HistoryBy": "av",
+      "HistoryReason": "Orsak:",
+      "Loading": "Laddar feedback...",
+      "VoteDisabledAlready": "Du har redan röstat på denna feedback i denna session.",
+      "VoteDisabledStatus": "Röstning är endast tillgänglig när feedbacken har status Ny eller Under granskning."
     }
   }
 }

@@ -30,4 +30,8 @@ public class OldVikingsContext(DbContextOptions<OldVikingsContext> options) : Db
     public DbSet<WeeklySchedule> WeeklySchedules { get; set; }
 
     public DbSet<WeeklyScheduleDay> WeeklyScheduleDays { get; set; }
+
+    public DbSet<FeedbackItem> Feedbacks { get; set; }
+
+    public DbSet<FeedbackStatusHistory> FeedbackStatusHistories { get; set; }
 }
