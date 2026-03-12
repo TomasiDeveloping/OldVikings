@@ -5,6 +5,8 @@ namespace OldVikings.Api.Interfaces;
 
 public interface IScheduleRepository
 {
+    Task<List<WeeklyScheduleDto>> GetHistoryAsync(int page = 1, int pageSize = 10, string? playerName = null,
+        int? year = null, CancellationToken cancellationToken = default);
     Task<WeeklyScheduleDto?> GetCurrentWeekAsync(CancellationToken cancellationToken = default);
 
     Task<WeeklyScheduleDto?> GetWeekAfterNextAsync(DateOnly date, CancellationToken cancellationToken = default);

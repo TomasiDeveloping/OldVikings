@@ -2581,7 +2581,17 @@
         "Description": "Dopo l’aggiornamento, verrà visualizzato anche il piano per la prossima settimana.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Storico del Treno",
+      "Description": "Vedi chi era di turno in ogni settimana."
     }
+  },
+  "TrainHistory": {
+    "Title": "Storia del sistema ferroviario",
+    "Search": "Cerca giocatori...",
+    "CalendarWeeK": "Settimana",
+    "LoadMore": "Carica di più"
   },
   "Feedback": {
     "Title": "Feedback",
@@ -2665,18 +2675,21 @@
       "Details": "Dettagli"
     },
     "Detail": {
-      "Back": "Torna ai feedback",
+      "Back": "Torna al feedback",
       "Heading": "Dettagli del feedback",
       "Message": "Messaggio",
       "Reason": "Motivo",
       "HistoryHeading": "Cronologia (ultimi 3)",
-      "HistoryLoading": "Caricamento della cronologia...",
-      "HistoryEmpty": "Nessuna cronologia al momento.",
+      "HistoryLoading": "Caricamento cronologia...",
+      "HistoryEmpty": "Nessuna cronologia disponibile.",
       "HistoryBy": "da",
       "HistoryReason": "Motivo:",
-      "Loading": "Caricamento del feedback...",
+      "Loading": "Caricamento feedback...",
       "VoteDisabledAlready": "Hai già votato questo feedback in questa sessione.",
-      "VoteDisabledStatus": "La votazione è disponibile solo quando il feedback è nello stato Nuovo o In revisione."
+      "VoteDisabledStatus": "Il voto è possibile solo se lo stato del feedback è 'Nuovo' o 'In revisione'.",
+      "TranslateButton": "Traduci",
+      "TranslateLoading": "Traduzione in corso…",
+      "TranslateError": "La traduzione non è riuscita. Riprova più tardi."
     }
   }
 }

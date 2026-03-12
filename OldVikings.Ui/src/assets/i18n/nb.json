@@ -2581,7 +2581,17 @@
         "Description": "Etter oppdateringen vil planen for den kommende uken også vises.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Toghistorikk",
+      "Description": "Se hvem som hadde tur hver uke."
     }
+  },
+  "TrainHistory": {
+    "Title": "Togsystemhistorikk",
+    "Search": "Søk etter spillere...",
+    "CalendarWeeK": "Uke",
+    "LoadMore": "Last inn mer"
   },
   "Feedback": {
     "Title": "Tilbakemelding",
@@ -2665,18 +2675,21 @@
       "Details": "Detaljer"
     },
     "Detail": {
-      "Back": "Tilbake til tilbakemeldinger",
-      "Heading": "Detaljer om tilbakemelding",
+      "Back": "Tilbake til tilbakemelding",
+      "Heading": "Tilbakemeldingsdetaljer",
       "Message": "Melding",
-      "Reason": "Begrunnelse",
+      "Reason": "Årsak",
       "HistoryHeading": "Historikk (siste 3)",
       "HistoryLoading": "Laster historikk...",
-      "HistoryEmpty": "Ingen historikk ennå.",
+      "HistoryEmpty": "Ingen historikk tilgjengelig ennå.",
       "HistoryBy": "av",
-      "HistoryReason": "Begrunnelse:",
+      "HistoryReason": "Årsak:",
       "Loading": "Laster tilbakemelding...",
       "VoteDisabledAlready": "Du har allerede stemt på denne tilbakemeldingen i denne økten.",
-      "VoteDisabledStatus": "Avstemning er kun tilgjengelig mens tilbakemeldingen har status Ny eller Under vurdering."
+      "VoteDisabledStatus": "Det er kun mulig å stemme mens tilbakemeldingen har status 'Ny' eller 'Under vurdering'.",
+      "TranslateButton": "Oversett",
+      "TranslateLoading": "Oversetter…",
+      "TranslateError": "Oversettelsen mislyktes. Vennligst prøv igjen senere."
     }
   }
 }

@@ -1,0 +1,68 @@
+<div class="timeline-page container mt-4 pb-5">
+
+  <h2 class="mb-4 text-light">{{'TrainHistory.Title' | translate}}</h2>
+
+  <div class="row mb-4">
+    <div class="col-md-6 mb-2">
+      <input type="text" class="form-control" [placeholder]="'TrainHistory.Search' | translate"
+             [(ngModel)]="searchPlayer" (input)="onSearchChange()">
+    </div>
+    <div class="col-md-3 mb-2">
+      <select class="form-select" [(ngModel)]="selectedYear" (change)="onYearChange()">
+        <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div class="timeline">
+    <div *ngFor="let week of weeks" class="timeline-week">
+
+      <div class="timeline-marker"></div>
+
+      <div class="week-card card shadow-sm mb-4" [id]="'week-' + week.id">
+        <div class="card-header d-flex justify-content-between align-items-center"
+             (click)="toggleWeek(week)">
+          <span class="fw-bold">
+            {{'TrainHistory.CalendarWeeK' | translate}} {{ week.days[0].date | date:'ww' }}
+            <span *ngIf="week.days?.length">
+              ({{ week.weekStartDate | date:'dd.MM.yyyy' }} –
+              {{ week.days[week.days.length - 1].date | date:'dd.MM.yyyy' }})
+            </span>
+          </span>
+          <i class="bi" [class.bi-chevron-up]="isOpen(week)"
+             [class.bi-chevron-down]="!isOpen(week)"></i>
+        </div>
+
+        <div class="card-body" *ngIf="isOpen(week)">
+          <div class="days-container">
+            <div *ngFor="let day of week.days ?? []" class="day-card">
+              <div class="day-header">
+                <strong>{{ day.date | date:'EEEE' | dayName | translate}}</strong>
+                <small>{{ day.date | date:'dd.MM.yyyy' }}</small>
+              </div>
+
+              <div class="day-pills">
+                <span class="pill leader"
+                      [ngClass]="{'highlight': searchPlayer && (day.leaderPlayer).toLowerCase().includes(searchPlayer.toLowerCase())}">
+                  <i class="bi bi-person-fill"></i> {{ day.leaderPlayer }}
+                </span>
+
+                <span class="pill vip"
+                      [ngClass]="{'highlight': searchPlayer && (day.vipPlayer).toLowerCase().includes(searchPlayer.toLowerCase())}">
+                  <i class="bi bi-star-fill"></i> {{ day.vipPlayer}}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center mt-3" *ngIf="hasMore">
+    <button class="btn btn-outline-primary" (click)="loadWeeks()">{{'TrainHistory.LoadMore' | translate}}</button>
+  </div>
+
+</div>

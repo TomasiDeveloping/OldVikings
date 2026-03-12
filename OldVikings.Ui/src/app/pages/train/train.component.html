@@ -134,6 +134,18 @@
     </div>
   }
 
+  <div class="d-flex justify-content-center my-4">
+    <div class="card train-history-card shadow-lg p-4"
+         [routerLink]="['/train-history']"
+         style="cursor: pointer; width: 80%; max-width: 800px; transition: transform 0.2s;">
+
+      <i class="bi bi-clock-history fs-1 text-primary mb-3"></i>
+
+      <div class="fw-bold fs-4 mb-1">{{ 'Train.History.Title' | translate }}</div>
+      <small class="text-muted">{{ 'Train.History.Description' | translate }}</small>
+    </div>
+  </div>
+
   <div class="accordion mt-3" id="accordionTrainGuide">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingTrain">

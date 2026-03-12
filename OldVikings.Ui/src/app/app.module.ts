@@ -52,6 +52,7 @@ import { NextWeekTrainComponent } from './pages/train/next-week-train/next-week-
 import { TrainWeekPlanComponent } from './pages/train/train-week-plan/train-week-plan.component';
 import { FeedbackComponent } from './pages/feedback/feedback.component';
 import { FeedbackDetailComponent } from './pages/feedback/feedback-detail/feedback-detail.component';
+import { TrainHistoryComponent } from './pages/train/train-history/train-history.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -98,7 +99,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         NextWeekTrainComponent,
         TrainWeekPlanComponent,
         FeedbackComponent,
-        FeedbackDetailComponent
+        FeedbackDetailComponent,
+        TrainHistoryComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
     AppRoutingModule,

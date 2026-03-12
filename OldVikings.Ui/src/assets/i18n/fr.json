@@ -2673,6 +2673,112 @@
         "VoteDisabledAlready": "Vous avez déjà voté pour ce commentaire dans cette session.",
         "VoteDisabledStatus": "Le vote est uniquement possible lorsque le commentaire est au statut Nouveau ou En cours d’examen."
       }
+    },
+    "History": {
+      "Title": "Historique du Train",
+      "Description": "Voir qui était de service chaque semaine."
+    }
+  },
+  "TrainHistory": {
+    "Title": "Historique du système ferroviaire",
+    "Search": "Rechercher des joueurs...",
+    "CalendarWeeK": "Semaine",
+    "LoadMore": "Charger plus"
+  },
+  "Feedback": {
+    "Title": "Retour d'information",
+    "Form": {
+      "Heading": "Envoyer un retour",
+      "Title": {
+        "Label": "Titre",
+        "Placeholder": "Titre",
+        "Required": "Le titre est obligatoire"
+      },
+      "Category": {
+        "Label": "Catégorie"
+      },
+      "Message": {
+        "Label": "Message",
+        "Placeholder": "Décrivez votre retour...",
+        "Required": "Le message est obligatoire"
+      },
+      "Visibility": {
+        "Label": "Visibilité",
+        "Public": "Public (visible par tous)",
+        "Private": "Privé (visible uniquement par la direction)",
+        "Hint": "Les retours publics apparaissent dans la liste pour tout le monde. Les retours privés ne sont visibles que par les responsables. Le nom affiché est facultatif – laissez vide pour rester anonyme."
+      },
+      "DisplayName": {
+        "Label": "Nom affiché (facultatif)",
+        "Placeholder": "Facultatif – laissez vide pour rester anonyme"
+      },
+      "Submit": "Envoyer",
+      "Success": "Le retour a été envoyé.",
+      "Error": "Le retour n'a pas pu être envoyé."
+    },
+    "Category": {
+      "Improvement": "Amélioration",
+      "Suggestion": "Suggestion",
+      "Wish": "Souhait",
+      "EventIdea": "Idée d'événement",
+      "RulesProcess": "Règles / processus",
+      "CommunicationTools": "Communication / outils",
+      "Complaint": "Plainte",
+      "Reclamation": "Réclamation",
+      "Conflict": "Conflit",
+      "LeadershipFeedback": "Retour à la direction",
+      "Other": "Autre"
+    },
+    "Status": {
+      "New": "Nouveau",
+      "UnderReview": "En cours d'examen",
+      "Planned": "Planifié",
+      "Implemented": "Mis en œuvre",
+      "Rejected": "Rejeté",
+      "Archived": "Archivé",
+      "0": "Nouveau",
+      "1": "En cours d'examen",
+      "2": "Planifié",
+      "3": "Mis en œuvre",
+      "4": "Rejeté",
+      "5": "Archivé"
+    },
+    "List": {
+      "Heading": "Retours récents",
+      "Refresh": "Actualiser",
+      "Loading": "Chargement des retours...",
+      "Empty": "Aucun retour pour le moment.",
+      "StatusFilter": {
+        "Label": "Statut",
+        "NoneSelected": "Aucun statut sélectionné – ajustez le filtre."
+      }
+    },
+    "Item": {
+      "NoTitle": "(Pas de titre)",
+      "Status": "Statut",
+      "Votes": "Votes",
+      "Category": "Catégorie",
+      "By": "Par",
+      "Created": "Créé",
+      "Vote": "Voter",
+      "Details": "Détails"
+    },
+    "Detail": {
+      "Back": "Retour aux retours",
+      "Heading": "Détails du retour",
+      "Message": "Message",
+      "Reason": "Raison",
+      "HistoryHeading": "Historique (3 derniers)",
+      "HistoryLoading": "Chargement de l'historique...",
+      "HistoryEmpty": "Aucun historique disponible pour le moment.",
+      "HistoryBy": "par",
+      "HistoryReason": "Raison :",
+      "Loading": "Chargement du retour...",
+      "VoteDisabledAlready": "Vous avez déjà voté pour ce retour lors de cette session.",
+      "VoteDisabledStatus": "Le vote n'est possible que si le statut du retour est 'Nouveau' ou 'En cours d'examen'.",
+      "TranslateButton": "Traduire",
+      "TranslateLoading": "Traduction en cours…",
+      "TranslateError": "La traduction a échoué. Veuillez réessayer plus tard."
     }
   }
 }

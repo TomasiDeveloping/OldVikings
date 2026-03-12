@@ -2585,7 +2585,17 @@
         "Description": "Efter uppdateringen visas även planen för den kommande veckan.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Tåghistorik",
+      "Description": "Se vem som hade tur varje vecka."
     }
+  },
+  "TrainHistory": {
+    "Title": "Tågsystemhistorik",
+    "Search": "Sök spelare...",
+    "CalendarWeeK": "Vecka",
+    "LoadMore": "Ladda mer"
   },
   "Feedback": {
     "Title": "Feedback",
@@ -2675,12 +2685,15 @@
       "Reason": "Orsak",
       "HistoryHeading": "Historik (senaste 3)",
       "HistoryLoading": "Laddar historik...",
-      "HistoryEmpty": "Ingen historik ännu.",
+      "HistoryEmpty": "Ingen historik tillgänglig än.",
       "HistoryBy": "av",
       "HistoryReason": "Orsak:",
       "Loading": "Laddar feedback...",
-      "VoteDisabledAlready": "Du har redan röstat på denna feedback i denna session.",
-      "VoteDisabledStatus": "Röstning är endast tillgänglig när feedbacken har status Ny eller Under granskning."
+      "VoteDisabledAlready": "Du har redan röstat på denna feedback under denna session.",
+      "VoteDisabledStatus": "Röstning är endast möjlig medan feedbacken har status 'Ny' eller 'Under granskning'.",
+      "TranslateButton": "Översätt",
+      "TranslateLoading": "Översätter…",
+      "TranslateError": "Översättningen misslyckades. Vänligen försök igen senare."
     }
   }
 }

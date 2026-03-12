@@ -2581,7 +2581,17 @@
         "Description": "Na de update wordt ook het plan voor de komende week weergegeven.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Treingeschiedenis",
+      "Description": "Bekijk wie er in welke week aan de beurt was."
     }
+  },
+  "TrainHistory": {
+    "Title": "Treinsysteemgeschiedenis",
+    "Search": "Zoek spelers...",
+    "CalendarWeeK": "Week",
+    "LoadMore": "Meer laden"
   },
   "Feedback": {
     "Title": "Feedback",
@@ -2670,13 +2680,16 @@
       "Message": "Bericht",
       "Reason": "Reden",
       "HistoryHeading": "Geschiedenis (laatste 3)",
-      "HistoryLoading": "Geschiedenis wordt geladen...",
-      "HistoryEmpty": "Nog geen geschiedenis.",
+      "HistoryLoading": "Geschiedenis laden...",
+      "HistoryEmpty": "Nog geen geschiedenis beschikbaar.",
       "HistoryBy": "door",
       "HistoryReason": "Reden:",
-      "Loading": "Feedback wordt geladen...",
-      "VoteDisabledAlready": "Je hebt in deze sessie al op deze feedback gestemd.",
-      "VoteDisabledStatus": "Stemmen is alleen mogelijk zolang de feedback de status Nieuw of In behandeling heeft."
+      "Loading": "Feedback laden...",
+      "VoteDisabledAlready": "Je hebt in deze sessie al gestemd op deze feedback.",
+      "VoteDisabledStatus": "Stemmen is alleen mogelijk zolang de feedback de status 'Nieuw' of 'In beoordeling' heeft.",
+      "TranslateButton": "Vertalen",
+      "TranslateLoading": "Bezig met vertalen…",
+      "TranslateError": "Vertalen is mislukt. Probeer het later opnieuw."
     }
   }
 }

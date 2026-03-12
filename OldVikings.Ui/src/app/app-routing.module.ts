@@ -35,6 +35,7 @@ import {MemorialComponent} from "./pages/memorial/memorial.component";
 import {TrainComponent} from "./pages/train/train.component";
 import {FeedbackComponent} from "./pages/feedback/feedback.component";
 import {FeedbackDetailComponent} from "./pages/feedback/feedback-detail/feedback-detail.component";
+import {TrainHistoryComponent} from "./pages/train/train-history/train-history.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -48,6 +49,7 @@ const routes: Routes = [
   {path: 'marshall', component: MarshallComponent, canActivate: [memberGuard]},
   {path: 'alliances', component: AlliancesComponent, canActivate: [memberGuard]},
   {path: 'train', component: TrainComponent, canActivate: [memberGuard]},
+  {path: 'train-history', component: TrainHistoryComponent, canActivate: [memberGuard]},
   {path: 'basics', component: BasicsComponent},
   {path: 'tips-and-tricks', component: TipsAndTricksComponent, canActivate: [memberGuard]},
   {path: 'buildings', component: BuildingsComponent, canActivate: [memberGuard]},

@@ -2585,7 +2585,17 @@
         "Description": "After the update, the plan for the upcoming week will also be displayed.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Train History",
+      "Description": "See who was up in which week."
     }
+  },
+  "TrainHistory": {
+    "Title": "Train System History",
+    "Search": "Search players...",
+    "CalendarWeeK": "Week",
+    "LoadMore": "Load more"
   },
   "Feedback": {
     "Title": "Feedback",
@@ -2669,18 +2679,21 @@
       "Details": "Details"
     },
     "Detail": {
-      "Back": "Back to feedback",
-      "Heading": "Feedback details",
+      "Back": "Back to Feedback",
+      "Heading": "Feedback Details",
       "Message": "Message",
       "Reason": "Reason",
       "HistoryHeading": "History (last 3)",
       "HistoryLoading": "Loading history...",
-      "HistoryEmpty": "No history yet.",
+      "HistoryEmpty": "No history available yet.",
       "HistoryBy": "by",
       "HistoryReason": "Reason:",
       "Loading": "Loading feedback...",
       "VoteDisabledAlready": "You have already voted for this feedback in this session.",
-      "VoteDisabledStatus": "Voting is only available while the feedback is New or Under review."
+      "VoteDisabledStatus": "Voting is only possible while the feedback status is 'New' or 'Under Review'.",
+      "TranslateButton": "Translate",
+      "TranslateLoading": "Translating…",
+      "TranslateError": "Translation failed. Please try again later."
     }
   }
 }

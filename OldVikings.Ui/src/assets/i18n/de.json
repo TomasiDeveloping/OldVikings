@@ -2587,7 +2587,17 @@
         "Description": "Nach dem Update wird zusätzlich der Plan für die kommende Woche angezeigt.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Zug-History",
+      "Description": "Sieh, wer in welcher Woche an der Reihe war."
     }
+  },
+  "TrainHistory": {
+    "Title": "Zug-System History",
+    "Search": "Spieler suchen...",
+    "CalendarWeeK": "KW",
+    "LoadMore": "Mehr laden"
   },
   "Feedback": {
     "Title": "Feedback",
@@ -2682,7 +2692,10 @@
       "HistoryReason": "Begründung:",
       "Loading": "Feedback wird geladen...",
       "VoteDisabledAlready": "Du hast in dieser Sitzung bereits für dieses Feedback abgestimmt.",
-      "VoteDisabledStatus": "Abstimmen ist nur möglich, solange das Feedback den Status „Neu“ oder „In Prüfung“ hat."
+      "VoteDisabledStatus": "Abstimmen ist nur möglich, solange das Feedback den Status „Neu“ oder „In Prüfung“ hat.",
+      "TranslateButton": "Übersetzen",
+      "TranslateLoading": "Übersetzen…",
+      "TranslateError": "Übersetzung fehlgeschlagen. Bitte später erneut versuchen."
     }
   }
 }

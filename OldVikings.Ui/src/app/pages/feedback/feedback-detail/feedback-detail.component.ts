@@ -3,7 +3,9 @@ import {FeedbackModel} from "../../../models/feedback.model";
 import {FeedbackHistoryModel} from "../../../models/feedbackHistory.model";
 import {ActivatedRoute, Router} from "@angular/router";
 import {FeedbackService} from "../../../services/feedback.service";
-import {FeedbackStatus, FeedbackStatusCode} from "../../../helpers/feedbackStatus";
+import { FeedbackStatusCode} from "../../../helpers/feedbackStatus";
+import {DeeplTranslateService} from "../../../services/deeplTranslate.service";
+import {TranslationRequestModel} from "../../../models/translationRequest.model";
 
 @Component({
   selector: 'app-feedback-detail',
@@ -17,10 +19,16 @@ export class FeedbackDetailComponent implements OnInit{
   loading = false;
   historyLoading = false;
   voting = false;
+  translatedMessage: string = '';
+  browserLang: string = 'en';
+  loadingTranslation: boolean = false;
+  translationError: boolean = false;
+
 
   private readonly _route: ActivatedRoute = inject(ActivatedRoute);
   private readonly _router: Router = inject(Router);
   private readonly _feedbackService: FeedbackService = inject(FeedbackService);
+  private readonly _deeplService: DeeplTranslateService = inject(DeeplTranslateService);
 
   private readonly _votedKey = 'ov_feedback_voted_ids';
 
@@ -30,6 +38,8 @@ export class FeedbackDetailComponent implements OnInit{
       this._router.navigate(['feedback']).then();
       return;
     }
+
+    this.browserLang = navigator.language.split('-')[0];
 
     this.load(id);
   }
@@ -60,8 +70,49 @@ export class FeedbackDetailComponent implements OnInit{
     })
   }
 
+  translateMessage() {
+    if (!this.item?.message) return;
+
+    this.loadingTranslation = true;
+    const request: TranslationRequestModel = {
+      language: this.browserLang,
+      text: this.item.message
+    };
+    this._deeplService.translateText(request).subscribe({
+      next: (result) => {
+        if (result) {
+          this.translatedMessage = this.makeLinksClickable(result.translatedText);
+          this.loadingTranslation = false;
+          this.translationError = false;
+        } else {
+          this.loadingTranslation = false;
+          this.translatedMessage = '';
+          this.translationError = true;
+        }
+      }, error: (err) => {
+        this.loadingTranslation = false;
+        this.translatedMessage = '';
+        this.translationError = true;
+        console.log(err);
+      }
+    })
+  }
+
   back() {
     this._router.navigate(['feedback']).then();
+  }
+
+  makeLinksClickable(text: string): string {
+    if (!text) return '';
+
+    const replaced = text.replace(
+      /(https?:\/\/[^\s<]+)/g,
+      function(url) {
+        return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+      }
+    );
+
+    return replaced.replace(/\n/g, '<br>');
   }
 
   canVote(item: FeedbackModel | null): boolean {
@@ -104,7 +155,6 @@ export class FeedbackDetailComponent implements OnInit{
     return `Feedback.Status.${code.toString()}`;
   }
 
-  // Mapping für Category-Int -> Translate-Key (wie vorher)
   categoryKey(category: number): string {
     switch (category) {
       case 0: return 'Feedback.Category.Improvement';

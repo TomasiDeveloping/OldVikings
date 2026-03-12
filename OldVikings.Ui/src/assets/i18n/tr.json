@@ -2574,7 +2574,17 @@
         "Description": "Güncellemeden sonra gelecek haftanın planı da görüntülenecek.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Tren Geçmişi",
+      "Description": "Hangi haftada kimin sırada olduğunu gör."
     }
+  },
+  "TrainHistory": {
+    "Title": "Tren Sistemi Geçmişi",
+    "Search": "Oyuncu ara...",
+    "CalendarWeeK": "Hafta",
+    "LoadMore": "Daha fazla yükle"
   },
   "Feedback": {
     "Title": "Geri Bildirim",
@@ -2658,18 +2668,21 @@
       "Details": "Detaylar"
     },
     "Detail": {
-      "Back": "Geri bildirimlere dön",
-      "Heading": "Geri bildirim detayları",
+      "Back": "Geriye Dön",
+      "Heading": "Geri Bildirim Detayları",
       "Message": "Mesaj",
-      "Reason": "Gerekçe",
+      "Reason": "Sebep",
       "HistoryHeading": "Geçmiş (son 3)",
       "HistoryLoading": "Geçmiş yükleniyor...",
       "HistoryEmpty": "Henüz geçmiş yok.",
-      "HistoryBy": "gönderen",
-      "HistoryReason": "Gerekçe:",
+      "HistoryBy": "tarafından",
+      "HistoryReason": "Sebep:",
       "Loading": "Geri bildirim yükleniyor...",
-      "VoteDisabledAlready": "Bu oturumda bu geri bildirim için zaten oy verdiniz.",
-      "VoteDisabledStatus": "Oylama yalnızca geri bildirim Yeni veya İnceleniyor durumundayken mümkündür."
+      "VoteDisabledAlready": "Bu geri bildirim için bu oturumda zaten oy kullandınız.",
+      "VoteDisabledStatus": "Oy kullanmak yalnızca geri bildirim durumu 'Yeni' veya 'İnceleniyor' iken mümkündür.",
+      "TranslateButton": "Çevir",
+      "TranslateLoading": "Çeviriliyor…",
+      "TranslateError": "Çeviri başarısız oldu. Lütfen daha sonra tekrar deneyin."
     }
   }
 }

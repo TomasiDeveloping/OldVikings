@@ -2574,7 +2574,17 @@
         "Description": "Efter opdateringen vises planen for den kommende uge også.",
         "Timezone": "Europe/Zurich"
       }
+    },
+    "History": {
+      "Title": "Toghistorik",
+      "Description": "Se, hvem der var på skift i hvilken uge."
     }
+  },
+  "TrainHistory": {
+    "Title": "Togsystemhistorik",
+    "Search": "Søg efter spillere...",
+    "CalendarWeeK": "Uge",
+    "LoadMore": "Indlæs mere"
   },
   "Feedback": {
     "Title": "Feedback",
@@ -2659,17 +2669,20 @@
     },
     "Detail": {
       "Back": "Tilbage til feedback",
-      "Heading": "Feedback-detaljer",
+      "Heading": "Feedbackdetaljer",
       "Message": "Besked",
-      "Reason": "Begrundelse",
+      "Reason": "Årsag",
       "HistoryHeading": "Historik (seneste 3)",
       "HistoryLoading": "Indlæser historik...",
-      "HistoryEmpty": "Ingen historik endnu.",
+      "HistoryEmpty": "Ingen historik tilgængelig endnu.",
       "HistoryBy": "af",
-      "HistoryReason": "Begrundelse:",
+      "HistoryReason": "Årsag:",
       "Loading": "Indlæser feedback...",
       "VoteDisabledAlready": "Du har allerede stemt på denne feedback i denne session.",
-      "VoteDisabledStatus": "Afstemning er kun mulig, mens feedback har status Ny eller Under gennemgang."
+      "VoteDisabledStatus": "Stemning er kun muligt, mens feedback-status er 'Ny' eller 'Under vurdering'.",
+      "TranslateButton": "Oversæt",
+      "TranslateLoading": "Oversætter…",
+      "TranslateError": "Oversættelsen mislykkedes. Prøv igen senere."
     }
   }
 }

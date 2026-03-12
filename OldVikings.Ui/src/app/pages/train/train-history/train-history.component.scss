@@ -1,0 +1,128 @@
+.timeline-page {
+  padding-top: 2rem;
+
+  h2 { font-weight: 600; }
+
+  .timeline {
+    position: relative;
+    padding-left: 40px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 20px;
+      top: 0;
+      width: 4px;
+      height: 100%;
+      background-color: #495057;
+      border-radius: 2px;
+    }
+
+    .timeline-week {
+      position: relative;
+      margin-bottom: 2rem;
+
+      .timeline-marker {
+        position: absolute;
+        left: 12px;
+        top: 1rem;
+        width: 16px;
+        height: 16px;
+        background-color: #0d6efd;
+        border-radius: 50%;
+        border: 2px solid #2c2f33;
+      }
+
+      .week-card {
+        border-radius: 12px;
+        background-color: #2c2f33;
+        color: #f8f9fa;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.4);
+
+        .card-header {
+          background-color: #343a40;
+          cursor: pointer;
+          padding: 0.75rem 1rem;
+          font-weight: 600;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &:hover { background-color: #3d4147; }
+        }
+
+        .card-body {
+          padding: 1rem;
+
+          .days-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            overflow-x: hidden;
+
+            .day-card {
+              flex: 1 1 calc(33% - 0.5rem);
+              min-width: 200px;
+              background-color: #343a40;
+              border-radius: 10px;
+              padding: 0.8rem;
+              display: flex;
+              flex-direction: column;
+              gap: 0.5rem;
+              transition: transform 0.2s, box-shadow 0.2s;
+
+              &:hover { transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0,0,0,0.5); }
+
+              .day-header { display: flex; justify-content: space-between; font-weight: 500; font-size: 0.95rem; color: #f8f9fa; }
+
+              .day-pills {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+
+                .pill {
+                  display: flex;
+                  align-items: center;
+                  gap: 0.3rem;
+                  padding: 0.3rem 0.6rem;
+                  border-radius: 999px;
+                  font-size: 0.85rem;
+                  font-weight: 500;
+                  transition: all 0.2s;
+
+                  &.leader { background-color: #198754; color: #fff; }
+                  &.vip { background-color: #ffc107; color: #212529; }
+
+                  i { font-size: 0.9rem; }
+
+                  &:hover { opacity: 0.85; transform: scale(1.05); }
+
+                  &.highlight {
+                    background-color: #0d6efd !important;
+                    color: #fff !important;
+                    font-weight: 600;
+                    box-shadow: 0 0 6px rgba(13, 110, 253, 0.8);
+                    transform: scale(1.05);
+                    transition: all 0.3s;
+
+                    &.animate { animation: highlight-pop 0.5s ease-in-out 1; }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes highlight-pop {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.3); }
+    50% { transform: scale(1.1); box-shadow: 0 0 10px rgba(13, 110, 253, 0.7); }
+    100% { transform: scale(1.05); box-shadow: 0 0 6px rgba(13, 110, 253, 0.8); }
+  }
+
+  @media (max-width: 768px) {
+    .timeline-week .days-container { flex-direction: column; }
+  }
+}

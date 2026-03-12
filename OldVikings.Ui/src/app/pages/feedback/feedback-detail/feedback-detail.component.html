@@ -7,12 +7,8 @@
     </div>
 
     <div class="card border-secondary mb-3">
-      <div
-        class="card-header bg-transparent border-secondary d-flex justify-content-between align-items-center"
-      >
-        <h5 class="mb-0">
-          {{ 'Feedback.Detail.Heading' | translate }}
-        </h5>
+      <div class="card-header bg-transparent border-secondary d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">{{ 'Feedback.Detail.Heading' | translate }}</h5>
 
         <button
           (click)="vote()"
@@ -21,40 +17,25 @@
         >
           <span class="me-1">⭐</span>
           <span>{{ 'Feedback.Item.Vote' | translate }}</span>
-          <span class="badge bg-warning text-dark ms-2">
-          {{ item.votesCount }}
-        </span>
+          <span class="badge bg-warning text-dark ms-2">{{ item.votesCount }}</span>
         </button>
       </div>
 
       <div class="card-body">
-        <h4 class="card-title">
-          {{ item.title || ('Feedback.Item.NoTitle' | translate) }}
-        </h4>
+        <h4 class="card-title">{{ item.title || ('Feedback.Item.NoTitle' | translate) }}</h4>
 
         <div class="d-flex flex-wrap align-items-center gap-2 small mb-2">
-        <span class="badge rounded-pill bg-primary">
-          {{ statusKeyFromCode(item.status) | translate }}
-        </span>
-
-          <span class="badge rounded-pill bg-secondary">
-          {{ categoryKey(item.category) | translate }}
-        </span>
-
+          <span class="badge rounded-pill bg-primary">{{ statusKeyFromCode(item.status) | translate }}</span>
+          <span class="badge rounded-pill bg-secondary">{{ categoryKey(item.category) | translate }}</span>
           <span class="d-inline-flex align-items-center text-warning ms-1">
-          <span class="me-1">⭐</span>
-          <span>{{ item.votesCount }}</span>
+          <span class="me-1">⭐</span>{{ item.votesCount }}
         </span>
-
           <span class="text-muted d-inline-flex align-items-center ms-2">
-          <span class="me-1">📅</span>
-          <span>{{ item.createdAtUtc | date: 'dd.MM.yyyy HH:mm' }}</span>
+          <span class="me-1">📅</span>{{ item.createdAtUtc | date: 'dd.MM.yyyy HH:mm' }}
         </span>
-
           @if (!item.isAnonymous && item.displayName) {
             <span class="text-muted d-inline-flex align-items-center ms-2">
-          <span class="me-1">👤</span>
-          <span>{{ item.displayName }}</span>
+          <span class="me-1">👤</span>{{ item.displayName }}
         </span>
           }
 
@@ -77,9 +58,37 @@
 
         <div class="mb-3">
           <h6>{{ 'Feedback.Detail.Message' | translate }}</h6>
-          <div
-            class="small bg-dark p-2 rounded border border-secondary message-box"
-            [textContent]="item.message">
+
+          <div class="small bg-dark p-2 rounded border border-secondary message-box d-flex flex-column">
+            <div [innerHTML]="makeLinksClickable(item.message)" class="message-text"></div>
+
+            @if (translatedMessage) {
+              <div class="mt-2">
+                <hr class="my-2">
+                <div [innerHTML]="translatedMessage"></div>
+              </div>
+            }
+
+            @if (translationError) {
+              <div class="mt-2 text-danger small">
+                {{ 'Feedback.Detail.TranslateError' | translate }}
+              </div>
+            }
+
+            <div class="flex-grow-1"></div>
+
+            <div class="d-flex justify-content-end mt-2">
+              @if (!translatedMessage && !loadingTranslation) {
+                <button class="btn btn-sm btn-outline-info" (click)="translateMessage()">
+                  <i class="bi bi-translate me-1"></i> {{ 'Feedback.Detail.TranslateButton' | translate }}
+                </button>
+              }
+
+              @if (loadingTranslation) {
+                <span
+                  class="text-muted small ms-2 align-self-center">{{ 'Feedback.Detail.TranslateLoading' | translate }}</span>
+              }
+            </div>
           </div>
         </div>
 
@@ -90,7 +99,6 @@
           </div>
         }
 
-        <!-- History -->
         <div>
           <h6>{{ 'Feedback.Detail.HistoryHeading' | translate }}</h6>
 
@@ -108,11 +116,9 @@
 
           @if (!historyLoading && history.length > 0) {
             <ul class="list-group list-group-flush">
-              @for (h of history; track h) {
+              @for (h of history; track h.changedAtUtc) {
                 <li class="list-group-item bg-dark text-light small">
-                  <div class="fw-semibold">
-                    {{ h.changedAtUtc | date: 'dd.MM.yyyy HH:mm' }}
-                  </div>
+                  <div class="fw-semibold">{{ h.changedAtUtc | date: 'dd.MM.yyyy HH:mm' }}</div>
                   <div>
                     <b>{{ statusKeyFromCode(h.newStatus) | translate }}</b>
                     {{ 'Feedback.Detail.HistoryBy' | translate }}
@@ -131,12 +137,9 @@
     </div>
   </div>
 }
-
 @if (loading) {
   <div class="container my-4">
-    <div class="text-muted">
-      {{ 'Feedback.Detail.Loading' | translate }}
-    </div>
+    <div class="text-muted">{{ 'Feedback.Detail.Loading' | translate }}</div>
   </div>
 }
 

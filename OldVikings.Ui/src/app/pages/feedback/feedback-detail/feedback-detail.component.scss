@@ -1,4 +1,31 @@
 .message-box {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
+  display: flex;
+  flex-direction: column;
+  min-height: 6rem;
+  padding: 0.75rem;
+}
+
+.message-text {
+
+}
+
+hr.border-secondary {
+  border-color: #6c757d;
+  border-style: dashed;
+  margin: 0.5rem 0;
+}
+
+.message-box a {
+  color: #0dcaf0;
+  text-decoration: underline;
+}
+
+.message-box a:hover {
+  color: #0bb9d6;
+}
+
+.message-box .text-danger {
+  font-weight: 500;
 }
