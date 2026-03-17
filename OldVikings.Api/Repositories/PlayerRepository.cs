@@ -87,4 +87,42 @@ public class PlayerRepository(OldVikingsContext dbContext) : IPlayerRepository
         await dbContext.SaveChangesAsync(cancellationToken);
 
     }
+
+    public async Task DeletePlayerAsync(Guid playerId, CancellationToken cancellationToken = default)
+    {
+        var player = await dbContext.Players.FirstOrDefaultAsync(p => p.Id == playerId, cancellationToken);
+
+        var vipDays = await dbContext.WeeklyScheduleDays.
+            Where(p => p.VipPlayerId == playerId)
+            .ToListAsync(cancellationToken);
+
+        if (player is null)
+        {
+            throw new ApplicationException("No player found");
+        }
+
+        if (vipDays.Count != 0)
+        {
+            foreach (var vipDay in vipDays)
+            {
+                vipDay.VipPlayerId = null;
+            }
+        }
+
+        var leaderDays = await dbContext.WeeklyScheduleDays
+            .Where(p => p.LeaderPlayerId == playerId)
+            .ToListAsync(cancellationToken);
+
+        if (leaderDays.Count != 0)
+        {
+            foreach (var leaderDay in leaderDays)
+            {
+                leaderDay.LeaderPlayerId = null;
+            }
+        }
+
+        dbContext.Players.Remove(player);
+
+        await dbContext.SaveChangesAsync(cancellationToken);
+    }
 }

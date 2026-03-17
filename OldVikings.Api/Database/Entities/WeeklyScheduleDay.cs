@@ -8,13 +8,13 @@ public class WeeklyScheduleDay
 
     public DateOnly Date { get; set; }
 
-    public Guid LeaderPlayerId { get; set; }
+    public Guid? LeaderPlayerId { get; set; }
 
-    public Guid VipPlayerId { get; set; }
+    public Guid? VipPlayerId { get; set; }
 
     public WeeklySchedule Schedule { get; set; } = null!;
 
-    public Player LeaderPlayer { get; set; } = null!;
+    public Player? LeaderPlayer { get; set; }
 
-    public Player VipPlayer { get; set; } = null!;
+    public Player? VipPlayer { get; set; }
 }

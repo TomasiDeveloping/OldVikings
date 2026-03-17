@@ -16,4 +16,6 @@ public interface IPlayerRepository
     Task SetPlayerActiveAsync(Guid playerId, CancellationToken cancellationToken = default);
 
     Task DisablePlayerAsync(Guid playerId, CancellationToken cancellationToken = default);
+
+    Task DeletePlayerAsync(Guid playerId, CancellationToken cancellationToken = default);
 }

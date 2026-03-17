@@ -16,12 +16,12 @@ public class WeeklyScheduleDayConfiguration : IEntityTypeConfiguration<WeeklySch
         builder.HasOne(d => d.LeaderPlayer)
             .WithMany()
             .HasForeignKey(d => d.LeaderPlayerId)
-            .OnDelete(DeleteBehavior.Restrict);
+            .OnDelete(DeleteBehavior.NoAction);
 
         builder.HasOne(d => d.VipPlayer)
             .WithMany()
             .HasForeignKey(d => d.VipPlayerId)
-            .OnDelete(DeleteBehavior.Restrict);
+            .OnDelete(DeleteBehavior.NoAction);
 
         builder.HasOne(d => d.Schedule)
             .WithMany(p => p.Days)

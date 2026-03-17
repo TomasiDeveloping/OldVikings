@@ -42,11 +42,30 @@ namespace OldVikings.Api.Controllers.v1
         }
 
         [HttpPost]
-        public async Task<ActionResult<Player>> Create([FromBody] string playerName, CancellationToken cancellationToken)
+        public async Task<ActionResult<Player>> Create([FromBody] string playerName,
+            CancellationToken cancellationToken)
         {
             try
             {
                 return Ok(await playerRepository.CreateAsync(playerName, cancellationToken));
+            }
+            catch (Exception e)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, e.Message);
+            }
+        }
+
+        [HttpDelete("{playerId:guid}")]
+        public async Task<IActionResult> DeletePlayer(Guid playerId, CancellationToken cancellationToken)
+        {
+            try
+            {
+                await playerRepository.DeletePlayerAsync(playerId, cancellationToken);
+                return NoContent();
+            }
+            catch (ApplicationException e)
+            {
+                return NotFound(e.Message);
             }
             catch (Exception e)
             {

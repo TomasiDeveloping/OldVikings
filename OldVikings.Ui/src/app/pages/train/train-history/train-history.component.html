@@ -1,14 +1,14 @@
 <div class="timeline-page container mt-4 pb-5">
 
-  <h2 class="mb-4 text-light">{{'TrainHistory.Title' | translate}}</h2>
+  <h2 class="mb-4 text-light">{{ 'TrainHistory.Title' | translate }}</h2>
 
   <div class="row mb-4">
     <div class="col-md-6 mb-2">
-      <input type="text" class="form-control" [placeholder]="'TrainHistory.Search' | translate"
-             [(ngModel)]="searchPlayer" (input)="onSearchChange()">
+      <input (input)="onSearchChange()" [(ngModel)]="searchPlayer" [placeholder]="'TrainHistory.Search' | translate"
+             class="form-control" type="text">
     </div>
     <div class="col-md-3 mb-2">
-      <select class="form-select" [(ngModel)]="selectedYear" (change)="onYearChange()">
+      <select (change)="onYearChange()" [(ngModel)]="selectedYear" class="form-select">
         <option *ngFor="let year of years" [value]="year">{{ year }}</option>
       </select>
     </div>
@@ -20,37 +20,41 @@
 
       <div class="timeline-marker"></div>
 
-      <div class="week-card card shadow-sm mb-4" [id]="'week-' + week.id">
-        <div class="card-header d-flex justify-content-between align-items-center"
-             (click)="toggleWeek(week)">
+      <div [id]="'week-' + week.id" class="week-card card shadow-sm mb-4">
+        <div (click)="toggleWeek(week)"
+             class="card-header d-flex justify-content-between align-items-center">
           <span class="fw-bold">
-            {{'TrainHistory.CalendarWeeK' | translate}} {{ week.days[0].date | date:'ww' }}
+            {{ 'TrainHistory.CalendarWeeK' | translate }} {{ week.days[0].date | date:'ww' }}
             <span *ngIf="week.days?.length">
               ({{ week.weekStartDate | date:'dd.MM.yyyy' }} –
               {{ week.days[week.days.length - 1].date | date:'dd.MM.yyyy' }})
             </span>
           </span>
-          <i class="bi" [class.bi-chevron-up]="isOpen(week)"
-             [class.bi-chevron-down]="!isOpen(week)"></i>
+          <i [class.bi-chevron-down]="!isOpen(week)" [class.bi-chevron-up]="isOpen(week)"
+             class="bi"></i>
         </div>
 
-        <div class="card-body" *ngIf="isOpen(week)">
+        <div *ngIf="isOpen(week)" class="card-body">
           <div class="days-container">
-            <div *ngFor="let day of week.days ?? []" class="day-card">
+            <div *ngFor="let day of week.days" class="day-card">
               <div class="day-header">
-                <strong>{{ day.date | date:'EEEE' | dayName | translate}}</strong>
+                <strong>{{ day.date | date:'EEEE' | dayName | translate }}</strong>
                 <small>{{ day.date | date:'dd.MM.yyyy' }}</small>
               </div>
 
               <div class="day-pills">
-                <span class="pill leader"
-                      [ngClass]="{'highlight': searchPlayer && (day.leaderPlayer).toLowerCase().includes(searchPlayer.toLowerCase())}">
-                  <i class="bi bi-person-fill"></i> {{ day.leaderPlayer }}
+<span [ngClass]="{
+        'highlight': searchPlayer && (day.leaderPlayer ?? '').toLowerCase().includes(searchPlayer.toLowerCase())
+      }"
+      class="pill leader">
+                  <i class="bi bi-person-fill"></i> {{ day.leaderPlayer ?? 'TrainHistory.FormerMember' | translate }}
                 </span>
 
-                <span class="pill vip"
-                      [ngClass]="{'highlight': searchPlayer && (day.vipPlayer).toLowerCase().includes(searchPlayer.toLowerCase())}">
-                  <i class="bi bi-star-fill"></i> {{ day.vipPlayer}}
+                <span [ngClass]="{
+        'highlight': searchPlayer && (day.vipPlayer ?? '').toLowerCase().includes(searchPlayer.toLowerCase())
+      }"
+                      class="pill vip">
+                  <i class="bi bi-star-fill"></i> {{ day.vipPlayer ?? 'TrainHistory.FormerMember' | translate }}
                 </span>
               </div>
             </div>
@@ -61,8 +65,8 @@
     </div>
   </div>
 
-  <div class="text-center mt-3" *ngIf="hasMore">
-    <button class="btn btn-outline-primary" (click)="loadWeeks()">{{'TrainHistory.LoadMore' | translate}}</button>
+  <div *ngIf="hasMore" class="text-center mt-3">
+    <button (click)="loadWeeks()" class="btn btn-outline-primary">{{ 'TrainHistory.LoadMore' | translate }}</button>
   </div>
 
 </div>

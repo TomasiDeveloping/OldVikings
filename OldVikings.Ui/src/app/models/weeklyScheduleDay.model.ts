@@ -1,5 +1,5 @@
 export interface WeeklyScheduleDayModel {
   date: string;
-  leaderPlayer: string;
-  vipPlayer: string;
+  leaderPlayer?: string;
+  vipPlayer?: string;
 }
