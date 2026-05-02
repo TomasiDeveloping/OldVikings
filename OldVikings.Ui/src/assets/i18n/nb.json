@@ -2382,6 +2382,15 @@
   },
   "Seasons": {
     "Title": "Sesonger",
+    "Season6": {
+      "Title": "Sesong 6: Den Tapte Regnskogen",
+      "Description": "Den Store Elven, livsnerven til alle de tre klanene, er forgiftet av et spredende virus, og skjebnen til den Skyggefulle Regnskogen ligger nå i dine hender. Bli med i det episke slaget mellom Dypskog-klanen og Våtmarks-klanen!",
+      "Overview": "Oversikt",
+      "PreSeason": "Før-sesong",
+      "Weeks": "Ukeguide",
+      "StartStrategy": "Beste startstrategi",
+      "Professions": "Yrker"
+    },
     "Season5": {
       "Title": "Sesong 5: Ville Vesten – Det Gylne Ødelandet i Frihetens Land",
       "Description": "I det Gylne Ødelandet i Frihetens Land hersker rikdom og vold side om side. Under den nådeløse gruveherren Kong Spar reiser KrystallGull-imperiet seg — og det er opp til deg å bringe rettferdighet til Ville Vesten.",

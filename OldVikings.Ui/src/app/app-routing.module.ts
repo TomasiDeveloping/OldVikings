@@ -36,6 +36,14 @@ import {TrainComponent} from "./pages/train/train.component";
 import {FeedbackComponent} from "./pages/feedback/feedback.component";
 import {FeedbackDetailComponent} from "./pages/feedback/feedback-detail/feedback-detail.component";
 import {TrainHistoryComponent} from "./pages/train/train-history/train-history.component";
+import {r4Guard} from "./guards/r4.guard";
+import {R4LoginComponent} from "./pages/r4/r4-login/r4-login.component";
+import {TrainConductorComponent} from "./pages/r4/r4-train-system/train-conductor/train-conductor.component";
+import {R4TrainSystemComponent} from "./pages/r4/r4-train-system/r4-train-system.component";
+import {TrainVipComponent} from "./pages/r4/r4-train-system/train-vip/train-vip.component";
+import {R4MemberComponent} from "./pages/r4/r4-member/r4-member.component";
+import {R4SettingsComponent} from "./pages/r4/r4-settings/r4-settings.component";
+import {TrainPlayerComponent} from "./pages/r4/r4-train-system/train-player/train-player.component";
 
 const routerOptions: ExtraOptions = {
   anchorScrolling: 'enabled',
@@ -63,7 +71,29 @@ const routes: Routes = [
   {path: 'season-leaderboard', component: SeasonLeaderBordComponent, canActivate: [memberGuard]},
   {path: 'map', component: MapComponent, canActivate: [memberGuard]},
   {path: 'alliance-mvp', component: AllianceMvpComponent, canActivate: [memberGuard]},
-  {path: 'r4', component: R4Component, canActivate: [memberGuard]},
+  {
+    path: 'r4',
+    component: R4Component,
+    canActivate: [r4Guard],
+    canDeactivate: [r4Guard],
+    children: [
+      { path: '', redirectTo: 'train-system', pathMatch: 'full' },
+      {
+        path: 'train-system',
+        component: R4TrainSystemComponent,
+        children: [
+          { path: '', redirectTo: 'conductor', pathMatch: 'full' },
+          { path: 'conductor', component: TrainConductorComponent },
+          {path: 'vip', component: TrainVipComponent},
+          {path: 'player', component: TrainPlayerComponent },
+        ]
+      },
+      {path: 'members', component: R4MemberComponent},
+      {path: 'settings', component: R4SettingsComponent}
+    ]
+  },
+  {path: 'r4/train-conductor', component: TrainConductorComponent},
+  {path: 'r4-login', component: R4LoginComponent},
   {path: 'r4-roles', component: R4RolesComponent, canActivate: [memberGuard]},
   {path: 'capitol', component: CapitolComponent},
   {path: 'player-manager', component: PlayerManagerComponent},

@@ -1,4 +1,4 @@
-import {LOCALE_ID, NgModule} from '@angular/core';
+import { NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -53,6 +53,17 @@ import { TrainWeekPlanComponent } from './pages/train/train-week-plan/train-week
 import { FeedbackComponent } from './pages/feedback/feedback.component';
 import { FeedbackDetailComponent } from './pages/feedback/feedback-detail/feedback-detail.component';
 import { TrainHistoryComponent } from './pages/train/train-history/train-history.component';
+import { R4LoginComponent } from './pages/r4/r4-login/r4-login.component';
+import { R4TrainSystemComponent } from './pages/r4/r4-train-system/r4-train-system.component';
+import { TrainConductorComponent } from './pages/r4/r4-train-system/train-conductor/train-conductor.component';
+import { TrainVipComponent } from './pages/r4/r4-train-system/train-vip/train-vip.component';
+import { R4MemberComponent } from './pages/r4/r4-member/r4-member.component';
+import { R4SettingsComponent } from './pages/r4/r4-settings/r4-settings.component';
+import { TrainPlayerComponent } from './pages/r4/r4-train-system/train-player/train-player.component';
+import { PlayerModalComponent } from './pages/r4/r4-train-system/train-player/player-modal/player-modal.component';
+import { ConductorEditComponent } from './pages/r4/r4-train-system/train-conductor/conductor-edit/conductor-edit.component';
+import { VipEditComponent } from './pages/r4/r4-train-system/train-vip/vip-edit/vip-edit.component';
+import {jwtInterceptor} from "./interceptors/jwt.interceptor";
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -100,7 +111,17 @@ export function HttpLoaderFactory(http: HttpClient) {
         TrainWeekPlanComponent,
         FeedbackComponent,
         FeedbackDetailComponent,
-        TrainHistoryComponent
+        TrainHistoryComponent,
+        R4LoginComponent,
+        R4TrainSystemComponent,
+        TrainConductorComponent,
+        TrainVipComponent,
+        R4MemberComponent,
+        R4SettingsComponent,
+        TrainPlayerComponent,
+        PlayerModalComponent,
+        ConductorEditComponent,
+        VipEditComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
     AppRoutingModule,
@@ -119,7 +140,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     NgxScrollTopModule,
     NgxSpinnerModule,
     NgxPaginationModule, FormsModule], providers: [
-        provideHttpClient(withInterceptors([spinnerInterceptor])),
+        provideHttpClient(withInterceptors([spinnerInterceptor, jwtInterceptor])),
         provideHttpClient(withInterceptorsFromDi())
     ] })
 export class AppModule { }

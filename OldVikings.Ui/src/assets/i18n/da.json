@@ -2375,6 +2375,15 @@
   },
   "Seasons": {
     "Title": "Sæsoner",
+    "Season6": {
+      "Title": "Sæson 6: Den Forlorne Regnskov",
+      "Description": "Den Store Flod, livlinen for alle tre klaner, er forgiftet af en spredende virus, og skæbnen for Skyggeregnskoven ligger nu i dine hænder. Slut dig til det episke slag Dykskov-klanen mod Vådområde-klanen!",
+      "Overview": "Oversigt",
+      "PreSeason": "Præ-sæson",
+      "Weeks": "Ugeguide",
+      "StartStrategy": "Bedste startstrategi",
+      "Professions": "Erhverv"
+    },
     "Season5": {
       "Title": "Season 5: Vilde Vesten – Den Gyldne Ødemark i Frihedens Land",
       "Description": "I den Gyldne Ødemark i Frihedens Land hersker rigdom og vold side om side. Under den nådesløse mineherre Kong Spar opstår KrystalGuld-imperiet — og det er op til dig at bringe retfærdighed til Det Vilde Vesten.",

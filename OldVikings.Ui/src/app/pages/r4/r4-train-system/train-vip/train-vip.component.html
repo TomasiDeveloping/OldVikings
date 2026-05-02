@@ -1,0 +1,114 @@
+<div class="mb-3">
+  <h3 class="mb-1">Current Cycle Conductors</h3>
+  <small class="text-muted">Only players within the active cycle are shown</small>
+</div>
+
+<!-- FILTERS -->
+<div class="row mb-2">
+  <div class="col-md-4">
+    <input class="form-control"
+           placeholder="Search player..."
+           [(ngModel)]="searchTerm"
+           (ngModelChange)="applyFilter()" />
+  </div>
+
+  <div class="col">
+    <select class="form-select" [(ngModel)]="filterPending" (change)="applyFilter()">
+      <option [ngValue]="null">Pending: All</option>
+      <option [ngValue]="true">Pending: Yes</option>
+      <option [ngValue]="false">Pending: No</option>
+    </select>
+  </div>
+
+  <div class="col">
+    <select class="form-select" [(ngModel)]="filterBlock" (change)="applyFilter()">
+      <option [ngValue]="null">Block: All</option>
+      <option [ngValue]="true">Block: Yes</option>
+      <option [ngValue]="false">Block: No</option>
+    </select>
+  </div>
+
+  <div class="col">
+    <select class="form-select" [(ngModel)]="filterForce" (change)="applyFilter()">
+      <option [ngValue]="null">Force: All</option>
+      <option [ngValue]="true">Force: Yes</option>
+      <option [ngValue]="false">Force: No</option>
+    </select>
+  </div>
+</div>
+
+<!-- PROGRESS BAR -->
+<div class="row mb-3">
+  <div class="col">
+    <div class="progress cycle-progress">
+      <div class="progress-bar bg-success"
+           role="progressbar"
+           [style.width.%]="((trainVips.length - pendingCount) / trainVips.length) * 100">
+        {{ trainVips.length - pendingCount }} / {{ trainVips.length }} drawn
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TABLE -->
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead>
+    <tr class="text-center">
+      <th>Player</th>
+      <th>Pending</th>
+      <th>Block Next Cycle</th>
+      <th>Force Pick</th>
+      <th>Updated At</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+
+    <tbody>
+      @for (vip of trainVips | paginate: {itemsPerPage: pageSize, currentPage: page} ; track vip.playerId) {
+        <tr>
+          <td>{{vip.playerName}}</td>
+
+          <td class="text-center">
+            <i [ngClass]="vip.isAvailable
+              ? 'bi bi-check-lg text-success'
+              : 'bi bi-x-lg text-danger'"></i>
+          </td>
+
+          <td class="text-center">
+            <i [ngClass]="vip.blockNextCycle
+              ? 'bi bi-check-lg text-success'
+              : 'bi bi-x-lg text-danger'"></i>
+          </td>
+
+          <td class="text-center">
+            <i [ngClass]="vip.forcePick
+              ? 'bi bi-check-lg text-success'
+              : 'bi bi-x-lg text-danger'"></i>
+          </td>
+
+          <td>{{vip.updatedAt | date: 'dd.MM.yyyy HH:mm'}}</td>
+
+          <td class="text-center">
+            <button class="btn btn-sm btn-outline-primary me-1"
+                    (click)="openEditModal(vip)"
+                    title="Edit">
+              <i class="bi bi-pencil"></i>
+            </button>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
+
+<!-- PAGINATION -->
+<pagination-controls (pageChange)="page = $event"></pagination-controls>
+
+<!-- MODAL-->
+<app-vip-edit
+  *ngIf="showModal"
+  [vip]="selectedVip"
+  (close)="closeModal()"
+  (saved)="onSaved()">
+</app-vip-edit>

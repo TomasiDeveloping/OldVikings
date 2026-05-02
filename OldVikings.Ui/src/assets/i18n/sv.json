@@ -2386,6 +2386,15 @@
   },
   "Seasons": {
     "Title": "Säsonger",
+    "Season6": {
+      "Title": "Säsong 6: Den Förlorade Regnskogen",
+      "Description": "Den Stora Floden, livsnerven för alla tre klaner, är förgiftad av ett spridande virus, och ödet för den Skuggiga Regnskogen ligger nu i dina händer. Gå med i det episka slaget mellan Djupskogs-klanen och Våtmarks-klanen!",
+      "Overview": "Översikt",
+      "PreSeason": "Försäsong",
+      "Weeks": "Veckoguide",
+      "StartStrategy": "Bästa startstrategi",
+      "Professions": "Yrken"
+    },
     "Season5": {
       "Title": "Säsong 5: Vilda Västern – Det Gyldene Ödelandet i Frihetens Land",
       "Description": "I Det Gyldene Ödelandet i Frihetens Land härskar rikedom och våld sida vid sida. Under den hänsynslöse gruvherren Kung Spader reser sig KristallGuld-imperiet — och det är upp till dig att skipa rättvisa i Vilda Västern.",

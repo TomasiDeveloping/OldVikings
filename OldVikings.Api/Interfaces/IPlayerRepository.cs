@@ -11,11 +11,13 @@ public interface IPlayerRepository
 
     Task<List<Guid>> GetActivePlayerIdsAsync(CancellationToken cancellationToken = default);
 
-    Task<Player> CreateAsync(string playerName, CancellationToken cancellationToken = default);
+    Task<Player> CreateAsync(CreatePlayerDto dto, CancellationToken cancellationToken = default);
 
     Task SetPlayerActiveAsync(Guid playerId, CancellationToken cancellationToken = default);
 
     Task DisablePlayerAsync(Guid playerId, CancellationToken cancellationToken = default);
+
+    Task<PlayerDto> UpdatePlayerAsync(UpdatePlayerDto dto, CancellationToken cancellationToken = default);
 
     Task DeletePlayerAsync(Guid playerId, CancellationToken cancellationToken = default);
 }

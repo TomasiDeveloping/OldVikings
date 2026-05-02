@@ -2382,6 +2382,15 @@
   },
   "Seasons": {
     "Title": "Seizoenen",
+    "Season6": {
+      "Title": "Seizoen 6: Het Verloren Regenwoud",
+      "Description": "De Grote Rivier, levensader van alle drie de clans, is vergiftigd door een zich verspreidend virus, en het lot van het Schaduwregenwoud ligt nu in jouw handen. Sluit je aan bij de epische strijd tussen de Diepbos-clan en de Moeras-clan!",
+      "Overview": "Overzicht",
+      "PreSeason": "Pre-seizoen",
+      "Weeks": "Wekengids",
+      "StartStrategy": "Beste startstrategie",
+      "Professions": "Beroepen"
+    },
     "Season5": {
       "Title": "Seizoen 5: Wilde Westen – De Gouden Woestenij van het Land van de Vrijheid",
       "Description": "In de Gouden Woestenij van het Land van de Vrijheid heersen rijkdom en geweld zij aan zij. Onder de meedogenloze mijnheer Koning Schoppen rijst het KristalGoud-imperium — en het is aan jou om gerechtigheid naar het Wilde Westen te brengen.",

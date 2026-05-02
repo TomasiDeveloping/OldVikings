@@ -2386,6 +2386,15 @@
   },
   "Seasons": {
     "Title": "Temporadas",
+    "Season6": {
+      "Title": "Temporada 6: La Selva Perdida",
+      "Description": "El Gran Río, la línea de vida de los tres clanes, ha sido envenenado por un virus en expansión, y el destino de la Selva Sombría ahora está en tus manos. ¡Únete a la épica batalla entre el Clan del Bosque Profundo y el Clan de los Humedales!",
+      "Overview": "Resumen",
+      "PreSeason": "Pretemporada",
+      "Weeks": "Guía de semanas",
+      "StartStrategy": "Mejor estrategia inicial",
+      "Professions": "Profesiones"
+    },
     "Season5": {
       "Title": "Temporada 5: Lejano Oeste – El Yermo Dorado de la Tierra de la Libertad",
       "Description": "En el Yermo Dorado de la Tierra de la Libertad, la riqueza y la violencia reinan lado a lado. Bajo el despiadado señor de las minas, el Rey Espada, surge el Imperio OroCristal — y depende de ti llevar justicia al Lejano Oeste.",

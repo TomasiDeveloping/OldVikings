@@ -1,0 +1,35 @@
+<h3 class="mb-3">
+  <i class="bi bi-train-front me-2"></i>
+  <span>Train System</span>
+</h3>
+
+<ul class="nav nav-tabs mb-3">
+
+  <li class="nav-item">
+    <a class="nav-link"
+       routerLink="conductor"
+       routerLinkActive="active">
+      Conductor
+    </a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link"
+       routerLink="vip"
+       routerLinkActive="active">
+      VIP
+    </a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link"
+     routerLink="player"
+     routerLinkActive="active">
+    Player
+  </a>
+</li>
+
+</ul>
+
+<div class="card p-3">
+  <router-outlet></router-outlet>
+</div>

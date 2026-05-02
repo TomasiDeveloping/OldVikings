@@ -1,0 +1,70 @@
+<div class="modal-backdrop-custom">
+
+  <div class="modal-card">
+
+    <!-- HEADER -->
+    <div class="modal-header">
+      <div>
+        <h5 class="mb-0">
+          <i class="bi bi-person-plus me-2"></i>
+          {{ player ? 'Edit Player' : 'Add Player' }}
+        </h5>
+        <small class="text-muted">
+          {{ player ? 'Update player details' : 'Create a new player' }}
+        </small>
+      </div>
+
+      <button class="btn btn-sm btn-dark" (click)="close.emit()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+
+    <!-- BODY -->
+    <div class="modal-body">
+
+      <label class="form-label">Player Name</label>
+      <input class="form-control mb-3"
+             placeholder="Enter name"
+             [(ngModel)]="model.displayName"
+             required>
+
+      <!-- EDIT ONLY SECTION -->
+      <div *ngIf="isEditMode">
+
+        <div class="form-check mb-2">
+          <input class="form-check-input"
+                 type="checkbox"
+                 [(ngModel)]="model.registered">
+          <label class="form-check-label">Registered</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input"
+                 type="checkbox"
+                 [(ngModel)]="model.approved">
+          <label class="form-check-label">Approved</label>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="modal-footer">
+
+      <button class="btn btn-outline-secondary btn-sm"
+              (click)="close.emit()">
+        Cancel
+      </button>
+
+      <button class="btn btn-primary btn-sm"
+              [disabled]="!model.displayName.trim()"
+              (click)="save()">
+        Save Player
+      </button>
+
+    </div>
+
+  </div>
+
+</div>

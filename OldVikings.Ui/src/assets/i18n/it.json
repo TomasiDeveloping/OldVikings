@@ -2382,6 +2382,15 @@
   },
   "Seasons": {
     "Title": "Stagioni",
+    "Season6": {
+      "Title": "Stagione 6: La Foresta Perduta",
+      "Description": "Il Grande Fiume, linfa vitale di tutti e tre i clan, è stato avvelenato da un virus in espansione e il destino della Foresta Oscura è ora nelle tue mani. Unisciti all’epica battaglia tra il Clan della Foresta Profonda e il Clan delle Zone Umide!",
+      "Overview": "Panoramica",
+      "PreSeason": "Pre-stagione",
+      "Weeks": "Guida alle settimane",
+      "StartStrategy": "Migliore strategia iniziale",
+      "Professions": "Professioni"
+    },
     "Season5": {
       "Title": "Stagione 5: Selvaggio West – Il Deserto Dorato della Terra della Libertà",
       "Description": "Nel Deserto Dorato della Terra della Libertà, ricchezza e violenza regnano fianco a fianco. Sotto il crudele signore delle miniere, Re Picche, sorge l’Impero dell’OroCristallo — e spetta a te portare giustizia nel Selvaggio West.",

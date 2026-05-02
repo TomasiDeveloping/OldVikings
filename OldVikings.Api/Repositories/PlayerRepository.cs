@@ -34,11 +34,11 @@ public class PlayerRepository(OldVikingsContext dbContext) : IPlayerRepository
             .ToListAsync(cancellationToken);
     }
 
-    public async Task<Player> CreateAsync(string playerName, CancellationToken cancellationToken = default)
+    public async Task<Player> CreateAsync(CreatePlayerDto dto, CancellationToken cancellationToken = default)
     {
         var newPlayer = new Player
         {
-            DisplayName = playerName,
+            DisplayName = dto.PlayerName,
             CreatedAt = DateTime.UtcNow,
             Id = Guid.CreateVersion7(),
             Registered = false
@@ -68,6 +68,7 @@ public class PlayerRepository(OldVikingsContext dbContext) : IPlayerRepository
             throw new ApplicationException("No player found");
         }
         player.Registered = false;
+        player.Approved = false;
 
         var poolLeader = await dbContext.PoolLeaders.FirstOrDefaultAsync(pl => pl.PlayerId == playerId, cancellationToken);
 
@@ -86,6 +87,30 @@ public class PlayerRepository(OldVikingsContext dbContext) : IPlayerRepository
         
         await dbContext.SaveChangesAsync(cancellationToken);
 
+    }
+
+    public async Task<PlayerDto> UpdatePlayerAsync(UpdatePlayerDto dto, CancellationToken cancellationToken = default)
+    {
+        var playerToUpdate = await dbContext.Players.FirstOrDefaultAsync(p => p.Id == dto.Id, cancellationToken);
+
+        if (playerToUpdate is null)
+        {
+            throw new ApplicationException("No player found");
+        }
+
+        if (!dto.Approved)
+        {
+            await DisablePlayerAsync(playerToUpdate.Id, cancellationToken);
+            return await GetPlayerAsync(playerToUpdate.Id, cancellationToken);
+        }
+
+        playerToUpdate.DisplayName = dto.DisplayName;
+        playerToUpdate.Approved = dto.Approved;
+        playerToUpdate.Registered = dto.Registered;
+
+        await dbContext.SaveChangesAsync(cancellationToken);
+
+        return await GetPlayerAsync(playerToUpdate.Id, cancellationToken);
     }
 
     public async Task DeletePlayerAsync(Guid playerId, CancellationToken cancellationToken = default)
@@ -124,5 +149,21 @@ public class PlayerRepository(OldVikingsContext dbContext) : IPlayerRepository
         dbContext.Players.Remove(player);
 
         await dbContext.SaveChangesAsync(cancellationToken);
+    }
+
+    private async Task<PlayerDto> GetPlayerAsync(Guid playerId, CancellationToken cancellationToken = default)
+    {
+        var player = await dbContext.Players.FirstOrDefaultAsync(p => p.Id == playerId, cancellationToken);
+        if (player is null)
+        {
+            throw new ApplicationException("No player found");
+        }
+        return new PlayerDto
+        {
+            Id = player.Id,
+            DisplayName = player.DisplayName,
+            Registered = player.Registered,
+            Approved = player.Approved
+        };
     }
 }

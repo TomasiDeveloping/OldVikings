@@ -1,0 +1,23 @@
+.badge {
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+input, select {
+  border-radius: 8px !important;
+}
+
+.btn-sm i {
+  font-size: 14px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}

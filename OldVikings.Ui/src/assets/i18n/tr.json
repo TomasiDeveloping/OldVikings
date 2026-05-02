@@ -2375,6 +2375,15 @@
   },
   "Seasons": {
     "Title": "Sezonlar",
+    "Season6": {
+      "Title": "Sezon 6: Kayıp Yağmur Ormanı",
+      "Description": "Üç klanın yaşam kaynağı olan Büyük Nehir, yayılan bir virüs tarafından zehirlenmiştir ve Gölge Yağmur Ormanı’nın kaderi artık sizin ellerinizdedir. Derin Orman Klanı ile Sulak Alan Klanı arasındaki epik savaşa katılın!",
+      "Overview": "Genel Bakış",
+      "PreSeason": "Ön Sezon",
+      "Weeks": "Hafta Rehberi",
+      "StartStrategy": "En İyi Başlangıç Stratejisi",
+      "Professions": "Meslekler"
+    },
     "Season5": {
       "Title": "Sezon 5: Vahşi Batı – Özgürlük Ülkesinin Altın Çorak Toprakları",
       "Description": "Özgürlük Ülkesinin Altın Çorak Topraklarında zenginlik ve şiddet yan yana hüküm sürmektedir. Acımasız maden lordu Maça Kral’ın yönetiminde KristalAltın İmparatorluğu yükselir — ve Vahşi Batı’ya adaleti getirmek sana düşer.",

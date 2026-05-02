@@ -1,0 +1,90 @@
+<div class="modal-backdrop-custom" (click)="close.emit()">
+
+  <div class="modal-card" (click)="$event.stopPropagation()">
+
+    <div class="modal-header">
+      <div class="header-titles">
+        <small class="modal-subtitle">PLAYER CYCLE SETTINGS</small>
+        <h4 class="player-name-display">
+          <i class="bi bi-person-circle me-2 text-primary opacity-75"></i>
+          {{ conductor.playerName || 'Unknown Player' }}
+        </h4>
+      </div>
+
+      <button class="btn-close-custom" (click)="close.emit()">
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+
+    <div class="modal-body">
+
+      <div class="option-card"
+           [class.disabled]="!canForcePick"
+           [class.active]="model.forcePick"
+           (click)="canForcePick && (model.forcePick = !model.forcePick)">
+
+        <div class="option-icon-bg">
+          <i class="bi bi-lightning-charge"></i>
+        </div>
+
+        <div class="option-content">
+          <div class="option-header">
+            <h6 class="option-title">Force Pick</h6>
+            <div class="form-check form-switch m-0">
+              <input type="checkbox"
+                     class="form-check-input"
+                     [checked]="model.forcePick"
+                     [disabled]="!canForcePick">
+            </div>
+          </div>
+
+          <p class="option-desc">
+            Player will be selected with absolute priority in the next cycle.
+          </p>
+
+          <div *ngIf="!canForcePick" class="status-badge-info mt-3">
+            <i class="bi bi-info-circle-fill me-2"></i>
+            <span>Only available if player already missed their turn.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="option-card danger"
+           [class.active]="model.blockNextCycle"
+           (click)="model.blockNextCycle = !model.blockNextCycle">
+
+        <div class="option-icon-bg">
+          <i class="bi bi-slash-circle"></i>
+        </div>
+
+        <div class="option-content">
+          <div class="option-header">
+            <h6 class="option-title">Block Next Cycle</h6>
+            <div class="form-check form-switch m-0">
+              <input type="checkbox"
+                     class="form-check-input"
+                     [checked]="model.blockNextCycle">
+            </div>
+          </div>
+
+          <p class="option-desc">
+            Player will be temporarily skipped for one full cycle.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-dark-outline btn-sm" (click)="close.emit()">
+        Cancel
+      </button>
+      <button class="btn btn-primary btn-sm px-4"
+              (click)="save()"
+              [disabled]="!isDirty()">
+        Save Changes
+      </button>
+    </div>
+
+  </div>
+</div>

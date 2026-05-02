@@ -8,29 +8,5 @@ import {PlayerMvp} from "../../models/playerMvp.model";
   templateUrl: './r4.component.html',
   styleUrl: './r4.component.scss'
 })
-export class R4Component implements OnInit {
-
-  private readonly _playerService: PlayerService = inject(PlayerService);
-  private readonly _toastr: ToastrService = inject(ToastrService);
-
-  public mvpPlayers: PlayerMvp[] = [];
-
-  ngOnInit() {
-    this.getMvpPlayers();
-  }
-
-  getMvpPlayers() {
-    this._playerService.getMvpPlayers('leadership').subscribe({
-      next: ((response) => {
-        if (response) {
-          this.mvpPlayers = response;
-        }
-      }),
-      error: ((error) => {
-        console.log(error);
-        this._toastr.error('Could not load data', 'Load data');
-      })
-    });
-  }
-
+export class R4Component {
 }

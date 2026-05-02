@@ -1,0 +1,100 @@
+<!-- HEADER -->
+<div class="mb-3">
+
+  <!-- ROW 1: TITLE + STATS + ACTION -->
+  <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-2">
+
+    <!-- LEFT -->
+    <div>
+      <h3 class="mb-1">Players</h3>
+
+      <div class="d-flex gap-2 flex-wrap">
+        <span class="badge bg-secondary">Total: {{ totalPlayers }}</span>
+        <span class="badge bg-success">Registered: {{ registeredPlayers }}</span>
+        <span class="badge bg-warning text-dark">Not: {{ notRegisteredPlayers }}</span>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <button class="btn btn-primary btn-sm" (click)="openAddModal()">
+      <i class="bi bi-plus-lg me-1"></i>
+      Add Player
+    </button>
+
+  </div>
+
+  <!-- ROW 2: FILTER BAR -->
+  <div class="d-flex gap-2 flex-wrap">
+
+    <input class="form-control form-control-sm"
+           style="width: 200px;"
+           placeholder="Search player..."
+           [(ngModel)]="searchTerm"
+           (ngModelChange)="applyFilter()" />
+
+    <select class="form-select form-select-sm"
+            style="width: 180px;"
+            [(ngModel)]="filterRegistered"
+            (change)="applyFilter()">
+      <option [ngValue]="null">Registered: All</option>
+      <option [ngValue]="true">Registered: Yes</option>
+      <option [ngValue]="false">Registered: No</option>
+    </select>
+
+    <select class="form-select form-select-sm"
+            style="width: 180px;"
+            [(ngModel)]="filterApproved"
+            (change)="applyFilter()">
+      <option [ngValue]="null">Approved: All</option>
+      <option [ngValue]="true">Approved: Yes</option>
+      <option [ngValue]="false">Approved: No</option>
+    </select>
+
+  </div>
+
+</div>
+
+<div class="table-responsive">
+  <table class="table table-bordered table-striped">
+    <thead>
+    <tr class="text-center">
+      <th scope="col">Player</th>
+      <th scope="col">Registered</th>
+      <th scope="col">Approved</th>
+      <th scope="col">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+      @for (player of filteredPlayers | paginate: {itemsPerPage: pageSize, currentPage: page} ; track player.id) {
+        <tr>
+          <td>{{player.displayName}}</td>
+          <td class="text-center">
+            <i [ngClass]="player.registered ?  'bi bi-check-lg text-success' : 'bi bi-x-lg text-danger'"></i>
+          </td>
+          <td class="text-center">
+            <i [ngClass]="player.approved ?  'bi bi-check-lg text-success' : 'bi bi-x-lg text-danger'"></i>
+          </td>
+          <td class="text-center">
+
+            <button class="btn btn-sm btn-outline-primary me-3"
+                    (click)="openEditModal(player)"
+                    title="Edit">
+              <i class="bi bi-pencil"></i>
+            </button>
+
+            <button class="btn btn-sm btn-outline-danger"
+                    (click)="confirmDelete(player)"
+                    title="Delete">
+              <i class="bi bi-trash"></i>
+            </button>
+
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
+<pagination-controls (pageChange)="page = $event"></pagination-controls>
+
+<app-player-modal *ngIf="showModal" [player]="selectedPlayer" (close)="closeAddModal()" (saved)="onSaved()"></app-player-modal>
+

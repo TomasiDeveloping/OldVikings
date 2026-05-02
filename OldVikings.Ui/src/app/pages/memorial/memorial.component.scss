@@ -46,6 +46,35 @@
   color: #bfe7ff;
 }
 
+/* Styling für den Audio-Bereich */
+.audio-container {
+  background: rgba(26, 32, 38, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  backdrop-filter: blur(2px);
+}
+
+.audio-title {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Customizing des nativen Players (Chrome/Safari/Edge) */
+.custom-audio-player {
+  width: 100%;
+  height: 40px;
+  filter: invert(90%) hue-rotate(180deg) brightness(1.5); /* Passt den Player an das Dark-Theme an */
+  opacity: 0.85;
+  transition: opacity 0.3s;
+}
+
+.custom-audio-player:hover {
+  opacity: 1;
+}
+
 /* Mobile Optimierung */
 @media (max-width: 576px) {
   .memorial-card {
@@ -53,5 +82,9 @@
   }
   .memorial-image {
     max-width: 100%;
+  }
+
+  .audio-container {
+    margin: 0 1rem;
   }
 }

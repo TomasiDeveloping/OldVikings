@@ -1,18 +1,107 @@
-tr.custom-success td {
-  background-color: #5cb85c;
-  color: black;
+/* =========================
+   BASE LAYOUT
+========================= */
+
+.r4-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #1b1f22; /* Darkly base */
+  color: #e2e8f0;
 }
 
-tr.custom-warning td{
-  background-color: #fbc350 !important;
-  color: black;
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+  width: 260px;
+  background: #212529;
+  border-right: 1px solid rgba(255,255,255,0.08);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
-tr.custom-danger td{
-  background-color: #dc3545 !important; /* rot */
+.sidebar-header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
-tr.custom-to-check td {
-  background-color: #4290f6;
-  color: black;
+/* Nav links */
+.sidebar .nav-link {
+  color: #cbd5e1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+  margin-bottom: 6px;
+}
+
+.sidebar .nav-link:hover {
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+.sidebar .nav-link.active {
+  background: #0d6efd;
+  color: white;
+}
+
+/* Icons */
+.sidebar i {
+  font-size: 18px;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.content-wrapper {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
+  padding: 20px;
+  min-height: calc(100vh - 40px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .r4-layout {
+    flex-direction: column;
+  }
+
+  /* Sidebar wird Top-Bar */
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .sidebar .nav {
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .sidebar .nav-link {
+    display: inline-flex;
+    margin-right: 8px;
+    white-space: nowrap;
+  }
+
+  .content {
+    padding: 12px;
+  }
 }

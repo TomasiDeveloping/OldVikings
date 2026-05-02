@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using OldVikings.Api.Classes;
 using OldVikings.Api.Database;
 using OldVikings.Api.Interfaces;
@@ -29,11 +31,36 @@ try
 
     builder.Services.AddHttpClient();
 
+    builder.Services.AddAuthentication(options =>
+    {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    }).AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
+            ValidAudience = builder.Configuration["JwtSettings:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+                System.Text.Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:SecretKey"]!))
+        };
+    });
+
+    builder.Services.AddAuthorization();
+
     builder.Services.Configure<DiscordWebhookOptions>(builder.Configuration.GetSection("Discord:Webhooks"));
 
     builder.Services.Configure<EventStartDay>(builder.Configuration.GetSection("EventStarDay"));
 
     builder.Services.Configure<DiscordBotOptions>(builder.Configuration.GetSection("Discord:Bot"));
+
+    builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+
+    builder.Services.Configure<R4Settings>(builder.Configuration.GetSection("R4Settings"));
 
     builder.Services.AddDbContext<OldVikingsContext>(options =>
     {
@@ -47,6 +74,7 @@ try
         options.AddProfile<ShinyServerProfile>();
         options.AddProfile<FeedbackProfile>();
         options.AddProfile<FeedbackHistoryProfile>();
+        options.AddProfile<TrainProfile>();
     });
 
     builder.Services.AddScoped<IGreetingRepository, GreetingRepository>();
@@ -62,6 +90,8 @@ try
     builder.Services.AddScoped<IFeedbackRepository,FeedbackRepository>();
     builder.Services.AddScoped<DiscordFeedbackSender>();
     builder.Services.AddScoped<IFeedbackHistoryRepository, FeedbackHistoryRepository>();
+    builder.Services.AddTransient<IJwtService, JwtService>();
+    builder.Services.AddScoped<ITrainRepository, TrainRepository>();
 
     //builder.Services.AddQuartz(options =>
     //{
@@ -110,6 +140,7 @@ try
 
     app.UseHttpsRedirection();
 
+    app.UseAuthentication();
     app.UseAuthorization();
 
 

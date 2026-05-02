@@ -4,6 +4,8 @@ import {HttpClient, HttpParams} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {PlayerModel} from "../models/player.model";
 import {WeeklyScheduleModel} from "../models/weeklySchedule.model";
+import {TrainConductorModel} from "../models/trainConductor.model";
+import {TrainVipModel} from "../models/trainVip.model";
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +14,35 @@ export class TrainService {
 
   private readonly _serviceUrl: string = environment.apiBaseUrl;
   private readonly _httpClient: HttpClient = inject(HttpClient);
+
+
+  getConductors(): Observable<TrainConductorModel[]> {
+    return this._httpClient.get<TrainConductorModel[]>(this._serviceUrl + 'trains/conductor');
+  }
+
+  updateConductor(playerId: string, conductor: TrainConductorModel) : Observable<TrainConductorModel> {
+    return this._httpClient.put<TrainConductorModel>(this._serviceUrl + 'trains/conductor/' + playerId, conductor);
+  }
+
+  updateVip(playerId: string, conductor: TrainVipModel) : Observable<TrainVipModel> {
+    return this._httpClient.put<TrainVipModel>(this._serviceUrl + 'trains/vip/' + playerId, conductor);
+  }
+
+  getVips(): Observable<TrainVipModel[]> {
+    return this._httpClient.get<TrainVipModel[]>(this._serviceUrl + 'trains/vip');
+  }
+
+  createPlayer(playerName: string): Observable<PlayerModel> {
+    return this._httpClient.post<PlayerModel>(this._serviceUrl + 'players', {playerName});
+  }
+
+  updatePlayer(playerId: string, player: PlayerModel): Observable<PlayerModel> {
+    return this._httpClient.put<PlayerModel>(this._serviceUrl + 'players/update/' + playerId, player);
+  }
+
+  deletePlayer(playerId: string) {
+    return this._httpClient.delete(this._serviceUrl + 'players/' + playerId);
+  }
 
   getPlayers(): Observable<PlayerModel[]> {
     return this._httpClient.get<PlayerModel[]>(this._serviceUrl + "players");

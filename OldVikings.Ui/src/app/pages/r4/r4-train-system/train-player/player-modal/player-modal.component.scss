@@ -1,0 +1,70 @@
+/* BACKDROP */
+.modal-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+  backdrop-filter: blur(6px);
+}
+
+/* MODAL CARD */
+.modal-card {
+  width: 100%;
+  max-width: 520px;
+  background: #212529;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  overflow: hidden;
+  animation: pop 0.15s ease-out;
+}
+
+/* HEADER */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* BODY */
+.modal-body {
+  padding: 18px;
+}
+
+/* FOOTER */
+.modal-footer {
+  padding: 14px 18px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* INPUTS */
+.form-control {
+  background: #1b1f22;
+  border: 1px solid rgba(255,255,255,0.08);
+  color: white;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+/* ANIMATION */
+@keyframes pop {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
