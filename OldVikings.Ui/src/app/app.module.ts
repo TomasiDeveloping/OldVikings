@@ -67,10 +67,11 @@ import {jwtInterceptor} from "./interceptors/jwt.interceptor";
 
 
 
+
 // AoT requires an exported function for factories
-export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
-}
+// export function HttpLoaderFactory(http: HttpClient) {
+//   return new TranslateHttpLoader(http);
+// }
 
 @NgModule({ declarations: [
         AppComponent,
