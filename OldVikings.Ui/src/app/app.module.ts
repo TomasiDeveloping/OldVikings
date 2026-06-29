@@ -65,6 +65,8 @@ import { ConductorEditComponent } from './pages/r4/r4-train-system/train-conduct
 import { VipEditComponent } from './pages/r4/r4-train-system/train-vip/vip-edit/vip-edit.component';
 import {jwtInterceptor} from "./interceptors/jwt.interceptor";
 
+
+
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -128,11 +130,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     ReactiveFormsModule,
     TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
+      loader: provideTranslateHttpLoader({
+        prefix: '/assets/i18n/',
+        suffix: '.json',
+        enforceLoading: true,
+      })
     }),
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right'

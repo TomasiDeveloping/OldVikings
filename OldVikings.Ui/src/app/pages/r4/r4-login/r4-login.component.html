@@ -2,14 +2,17 @@
   <div class="login-card">
     <h2 class="text-center mb-4">R4 Login</h2>
 
+    <form (ngSubmit)="login()">
     <input
       type="password"
       class="form-control mb-3"
       placeholder="R4 Password"
-      [(ngModel)]="password"
+      [(ngModel)]="password",
+      name="password"
     />
 
-    <button class="btn btn-primary w-100" [disabled]="!password" (click)="login()">Login</button>
+    <button class="btn btn-primary w-100" [disabled]="!password" type="submit">Login</button>
+    </form>
 
   </div>
 </div>

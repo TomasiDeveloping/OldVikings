@@ -56,7 +56,7 @@ export class TrainConductorComponent implements OnInit {
       return matchesSearch && matchesPending && matchesBlock && matchesForce;
     });
 
-    this.page = 1; // wichtig: reset pagination
+    this.page = 1;
   }
 
   getConductors() {

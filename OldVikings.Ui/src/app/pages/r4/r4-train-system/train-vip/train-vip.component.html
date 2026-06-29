@@ -1,5 +1,5 @@
 <div class="mb-3">
-  <h3 class="mb-1">Current Cycle Conductors</h3>
+  <h3 class="mb-1">Current Cycle VIP's</h3>
   <small class="text-muted">Only players within the active cycle are shown</small>
 </div>
 
@@ -65,7 +65,7 @@
     </thead>
 
     <tbody>
-      @for (vip of trainVips | paginate: {itemsPerPage: pageSize, currentPage: page} ; track vip.playerId) {
+      @for (vip of filteredVips | paginate: {itemsPerPage: pageSize, currentPage: page} ; track vip.playerId) {
         <tr>
           <td>{{vip.playerName}}</td>
 

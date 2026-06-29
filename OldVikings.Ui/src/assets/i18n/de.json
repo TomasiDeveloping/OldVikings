@@ -2441,18 +2441,19 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": " \uD83C\uDFC6 Saison 5 – Rangliste \uD83C\uDFC6",
-    "Description": "Die besten Spieler der fünften Saison",
+    "Title": "🏆 Saison 6 – Rangliste 🏆",
+    "Description": "Die besten Spieler der sechsten Saison",
     "Button": "Zur Rangliste",
     "Table": {
       "Title": "Rangliste",
       "Rank": "Rang",
       "Player": "Spieler",
-      "AllianceLoot": "Allianz Beute",
+      "AllianceLoot": "Allianzbeute",
       "Rewards": "Saisonbelohnung",
       "Wars": "Events",
       "Score": "Punkte"
-    },
+    }
+  },
     "Rewards":{
       "Tactician": "Taktiker-Belohnung",
       "TacticianShort": "Taktiker",
