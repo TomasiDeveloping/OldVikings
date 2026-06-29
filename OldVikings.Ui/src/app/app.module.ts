@@ -6,9 +6,8 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './pages/home/home.component';
 import { VsDuellComponent } from './pages/vs-duell/vs-duell.component';
-import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
-import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import { HttpClient, withInterceptors, provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
+import {provideTranslateHttpLoader} from "@ngx-translate/http-loader";
+import { withInterceptors, provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import {ToastrModule} from "ngx-toastr";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { RulesComponent } from './pages/rules/rules.component';
@@ -64,6 +63,8 @@ import { PlayerModalComponent } from './pages/r4/r4-train-system/train-player/pl
 import { ConductorEditComponent } from './pages/r4/r4-train-system/train-conductor/conductor-edit/conductor-edit.component';
 import { VipEditComponent } from './pages/r4/r4-train-system/train-vip/vip-edit/vip-edit.component';
 import {jwtInterceptor} from "./interceptors/jwt.interceptor";
+import {TranslateModule} from "@ngx-translate/core";
+
 
 
 
@@ -135,7 +136,8 @@ import {jwtInterceptor} from "./interceptors/jwt.interceptor";
         prefix: '/assets/i18n/',
         suffix: '.json',
         enforceLoading: true,
-      })
+      }),
+      fallbackLang: 'en',
     }),
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right'

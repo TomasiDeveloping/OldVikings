@@ -2441,28 +2441,28 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Seizoen 5 – Ranglijst 🏆",
-    "Description": "De beste spelers van het vijfde seizoen",
-    "Button": "Bekijk ranglijst",
+    "Title": "🏆 Seizoen 6 – Klassement 🏆",
+    "Description": "De beste spelers van het zesde seizoen",
+    "Button": "Bekijk klassement",
     "Table": {
-      "Title": "Ranglijst",
+      "Title": "Klassement",
       "Rank": "Rang",
       "Player": "Speler",
       "AllianceLoot": "Alliantiebuit",
-      "Rewards": "Seizoensbeloning",
-      "Wars": "Events",
+      "Rewards": "Seizoensbeloningen",
+      "Wars": "Oorlogen",
       "Score": "Punten"
     },
-    "Rewards": {
-      "Tactician": "Beloning voor strateeg",
-      "TacticianShort": "Strateeg",
-      "Core": "Beloning voor kernlid",
-      "CoreShort": "Kernlid",
-      "Elite": "Beloning voor elitair lid",
+    "Rewards":{
+      "Tactician": "Tacticus-beloning",
+      "TacticianShort": "Tacticus",
+      "Core": "Kernlid-beloning",
+      "CoreShort": "Kernleden",
+      "Elite": "Elite-beloning",
       "EliteShort": "Elite",
-      "Valued": "Beloning voor gewaardeerd lid",
-      "ValuedShort": "Gewaardeerd",
-      "Leader": "Beloning voor alliantieleider",
+      "Valued": "Toplid-beloning",
+      "ValuedShort": "Topleden",
+      "Leader": "Leider-beloning",
       "LeaderShort": "Leider"
     }
   },

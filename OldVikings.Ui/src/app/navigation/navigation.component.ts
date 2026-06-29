@@ -8,7 +8,7 @@ import { ToastrService} from "ngx-toastr";
   styleUrl: './navigation.component.scss'
 })
 export class NavigationComponent implements OnInit{
-  version: string = '1.7.1';
+  version: string = '1.8.0';
   isShown: boolean = false;
   siteLanguage: string = 'Deutsch';
   languageList = [
@@ -38,7 +38,7 @@ export class NavigationComponent implements OnInit{
       userLanguage = 'en';
     }
     this.translate.use(userLanguage);
-    this.translate.setDefaultLang(userLanguage);
+    //this.translate.setDefaultLang(userLanguage);
     this.changeSiteLanguage(userLanguage);
   }
 

@@ -2445,28 +2445,28 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Temporada 5 – Clasificación 🏆",
-    "Description": "Los mejores jugadores de la quinta temporada",
+    "Title": "🏆 Temporada 6 – Clasificación 🏆",
+    "Description": "Los mejores jugadores de la sexta temporada",
     "Button": "Ver clasificación",
     "Table": {
       "Title": "Clasificación",
       "Rank": "Rango",
       "Player": "Jugador",
-      "AllianceLoot": "Botín de la alianza",
+      "AllianceLoot": "Botín de alianza",
       "Rewards": "Recompensas de temporada",
-      "Wars": "Eventos",
+      "Wars": "Guerras",
       "Score": "Puntos"
     },
-    "Rewards": {
+    "Rewards":{
       "Tactician": "Recompensa de estratega",
       "TacticianShort": "Estratega",
       "Core": "Recompensa de miembro principal",
-      "CoreShort": "Miembro principal",
-      "Elite": "Recompensa de miembro élite",
+      "CoreShort": "Miembros principales",
+      "Elite": "Recompensa de élite",
       "EliteShort": "Élite",
-      "Valued": "Recompensa de miembro valioso",
-      "ValuedShort": "Valioso",
-      "Leader": "Recompensa de líder de la alianza",
+      "Valued": "Recompensa de miembro destacado",
+      "ValuedShort": "Miembros destacados",
+      "Leader": "Recompensa de líder",
       "LeaderShort": "Líder"
     }
   },

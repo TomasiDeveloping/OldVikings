@@ -2434,28 +2434,28 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Sezon 5 – Sıralama 🏆",
-    "Description": "Beşinci sezonun en iyi oyuncuları",
-    "Button": "Sıralamayı Gör",
+    "Title": "🏆 6. Sezon – Liderlik Tablosu 🏆",
+    "Description": "Altıncı sezonun en iyi oyuncuları",
+    "Button": "Liderlik Tablosunu Gör",
     "Table": {
-      "Title": "Sıralama",
+      "Title": "Liderlik Tablosu",
       "Rank": "Sıra",
       "Player": "Oyuncu",
       "AllianceLoot": "İttifak Ganimeti",
-      "Rewards": "Sezon Ödülü",
-      "Wars": "Etkinlikler",
+      "Rewards": "Sezon Ödülleri",
+      "Wars": "Savaşlar",
       "Score": "Puan"
     },
-    "Rewards": {
-      "Tactician": "Taktisyen ödülü",
+    "Rewards":{
+      "Tactician": "Taktisyen Ödülü",
       "TacticianShort": "Taktisyen",
-      "Core": "Çekirdek üye ödülü",
-      "CoreShort": "Çekirdek üye",
-      "Elite": "Elit üye ödülü",
-      "EliteShort": "Elit",
-      "Valued": "Değerli üye ödülü",
-      "ValuedShort": "Değerli",
-      "Leader": "İttifak lideri ödülü",
+      "Core": "Çekirdek Üye Ödülü",
+      "CoreShort": "Çekirdek Üyeler",
+      "Elite": "Seçkin Üye Ödülü",
+      "EliteShort": "Seçkin",
+      "Valued": "Seçkin Üye Ödülü",
+      "ValuedShort": "Öne Çıkan Üyeler",
+      "Leader": "Lider Ödülü",
       "LeaderShort": "Lider"
     }
   },

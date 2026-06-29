@@ -2445,8 +2445,8 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Season 5 – Leaderboard 🏆",
-    "Description": "The top players of the fifth season",
+    "Title": "🏆 Season 6 – Leaderboard 🏆",
+    "Description": "The best players of the sixth season",
     "Button": "View Leaderboard",
     "Table": {
       "Title": "Leaderboard",
@@ -2454,19 +2454,19 @@
       "Player": "Player",
       "AllianceLoot": "Alliance Loot",
       "Rewards": "Season Rewards",
-      "Wars": "Events",
-      "Score": "Points"
+      "Wars": "Wars",
+      "Score": "Score"
     },
     "Rewards":{
       "Tactician": "Tactician Reward",
       "TacticianShort": "Tactician",
       "Core": "Core Member Reward",
-      "CoreShort": "Core Member",
-      "Elite": "Elite Member Reward",
+      "CoreShort": "Core Members",
+      "Elite": "Elite Reward",
       "EliteShort": "Elite",
-      "Valued": "Valued Member Reward",
-      "ValuedShort": "Valued",
-      "Leader": "Alliance Leader Reward",
+      "Valued": "Top Member Reward",
+      "ValuedShort": "Top Members",
+      "Leader": "Leader Reward",
       "LeaderShort": "Leader"
     }
   },

@@ -2445,28 +2445,28 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Säsong 5 – Topplista 🏆",
-    "Description": "De bästa spelarna från den femte säsongen",
+    "Title": "🏆 Säsong 6 – Topplista 🏆",
+    "Description": "De bästa spelarna under den sjätte säsongen",
     "Button": "Visa topplista",
     "Table": {
       "Title": "Topplista",
-      "Rank": "Rank",
+      "Rank": "Rang",
       "Player": "Spelare",
       "AllianceLoot": "Alliansbyte",
-      "Rewards": "Säsongsbelöning",
-      "Wars": "Events",
+      "Rewards": "Säsongsbelöningar",
+      "Wars": "Krig",
       "Score": "Poäng"
     },
-    "Rewards": {
-      "Tactician": "Belöning för strateg",
-      "TacticianShort": "Strateg",
-      "Core": "Belöning för kärnmedlem",
-      "CoreShort": "Kärnmedlem",
-      "Elite": "Belöning för elitmedlem",
-      "EliteShort": "Elit",
-      "Valued": "Belöning för uppskattad medlem",
-      "ValuedShort": "Uppskattad",
-      "Leader": "Belöning för alliansledare",
+    "Rewards":{
+      "Tactician": "Taktiker-belöning",
+      "TacticianShort": "Taktiker",
+      "Core": "Kärnmedlem-belöning",
+      "CoreShort": "Kärnmedlemmar",
+      "Elite": "Elite-belöning",
+      "EliteShort": "Elite",
+      "Valued": "Toppmedlem-belöning",
+      "ValuedShort": "Toppmedlemmar",
+      "Leader": "Ledare-belöning",
       "LeaderShort": "Ledare"
     }
   },

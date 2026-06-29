@@ -2434,28 +2434,28 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Sæson 5 – Rangliste 🏆",
-    "Description": "De bedste spillere fra den femte sæson",
+    "Title": "🏆 Sæson 6 – Rangliste 🏆",
+    "Description": "De bedste spillere i den sjette sæson",
     "Button": "Se rangliste",
     "Table": {
       "Title": "Rangliste",
       "Rank": "Rang",
       "Player": "Spiller",
       "AllianceLoot": "Alliancebytte",
-      "Rewards": "Sæsonbelønning",
-      "Wars": "Events",
+      "Rewards": "Sæsonbelønninger",
+      "Wars": "Krige",
       "Score": "Point"
     },
-    "Rewards": {
-      "Tactician": "Taktikerbelønning",
+    "Rewards":{
+      "Tactician": "Taktiker-belønning",
       "TacticianShort": "Taktiker",
-      "Core": "Kerne-medlemsbelønning",
-      "CoreShort": "Kernemedlem",
-      "Elite": "Elite-medlemsbelønning",
+      "Core": "Kørnemedlem-belønning",
+      "CoreShort": "Kørnemedlemmer",
+      "Elite": "Elite-belønning",
       "EliteShort": "Elite",
-      "Valued": "Værdsat medlemsbelønning",
-      "ValuedShort": "Værdsat",
-      "Leader": "Alliancens lederbelønning",
+      "Valued": "Topmedlem-belønning",
+      "ValuedShort": "Topmedlemmer",
+      "Leader": "Leder-belønning",
       "LeaderShort": "Leder"
     }
   },

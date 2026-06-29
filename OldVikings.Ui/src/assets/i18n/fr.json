@@ -2437,8 +2437,8 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Saison 5 – Classement 🏆",
-    "Description": "Les meilleurs joueurs de la cinquième saison",
+    "Title": "🏆 Saison 6 – Classement 🏆",
+    "Description": "Les meilleurs joueurs de la sixième saison",
     "Button": "Voir le classement",
     "Table": {
       "Title": "Classement",
@@ -2446,20 +2446,20 @@
       "Player": "Joueur",
       "AllianceLoot": "Butin d'alliance",
       "Rewards": "Récompenses de saison",
-      "Wars": "Événements",
+      "Wars": "Guerres",
       "Score": "Points"
     },
-    "Rewards": {
-      "Tactician": "Récompense du stratège",
+    "Rewards":{
+      "Tactician": "Récompense de stratège",
       "TacticianShort": "Stratège",
-      "Core": "Récompense de membre clé",
-      "CoreShort": "Membre clé",
-      "Elite": "Récompense de membre élite",
+      "Core": "Récompense de membre actif",
+      "CoreShort": "Membres actifs",
+      "Elite": "Récompense d'élite",
       "EliteShort": "Élite",
-      "Valued": "Récompense de membre apprécié",
-      "ValuedShort": "Apprécié",
-      "Leader": "Récompense du chef d’alliance",
-      "LeaderShort": "Chef"
+      "Valued": "Récompense de membre d'honneur",
+      "ValuedShort": "Membres d'honneur",
+      "Leader": "Récompense de chef",
+      "LeaderShort": "Chef d'alliance"
     }
   },
   "Train": {

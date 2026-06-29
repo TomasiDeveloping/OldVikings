@@ -2441,30 +2441,29 @@
     }
   },
   "SeasonLeaderBoard": {
-    "Title": "🏆 Saison 6 – Rangliste 🏆",
+    "Title": "🏆 Saison 6 – Bestenliste 🏆",
     "Description": "Die besten Spieler der sechsten Saison",
-    "Button": "Zur Rangliste",
+    "Button": "Zur Bestenliste",
     "Table": {
-      "Title": "Rangliste",
+      "Title": "Bestenliste",
       "Rank": "Rang",
       "Player": "Spieler",
-      "AllianceLoot": "Allianzbeute",
-      "Rewards": "Saisonbelohnung",
+      "AllianceLoot": "Allianz-Beute",
+      "Rewards": "Saisonbelohnungen",
       "Wars": "Events",
       "Score": "Punkte"
-    }
-  },
+    },
     "Rewards":{
       "Tactician": "Taktiker-Belohnung",
       "TacticianShort": "Taktiker",
-      "Core": "Belohnung für Kernmitglieder",
+      "Core": "Kernmitglied-Belohnung",
       "CoreShort": "Kernmitglieder",
-      "Elite": "Belohnung für Elite-Mitglieder",
+      "Elite": "Elite-Belohnung",
       "EliteShort": "Elite",
-      "Valued": "Belohnung für Top-Mitglieder",
+      "Valued": "Top-Mitglied-Belohnung",
       "ValuedShort": "Top-Mitglieder",
-      "Leader": "Allianzanführer-Belohnung",
-      "LeaderShort": "Allianzanführer"
+      "Leader": "Anführer-Belohnung",
+      "LeaderShort": "Anführer"
     }
   },
   "Train": {
