@@ -67,74 +67,81 @@
     "Guestbook": "Gastenboek"
   },
   "Rules": {
-    "Title": "Alliantie Regels",
+    "Title": "Alliantieregels",
     "Rule1": {
       "Title": "Inactiviteit",
-      "Description": "Wie 3 dagen offline is zonder zich af te melden, wordt op de 4e dag uit de alliantie gezet."
+      "Description": "We kunnen niet effectief functioneren wanneer leden meerdere dagen offline zijn zonder dit te melden. Als je verwacht langer dan drie dagen inactief te zijn, informeer dan de R5 of de Recruiter vooraf of zo snel mogelijk.",
+      "Description2": "Vanaf de vierde dag van inactiviteit kan verwijdering uit de alliantie worden overwogen als er geen communicatie of voorafgaande afspraak is geweest.",
+      "Description3": "We waarderen het ook als je vooraf laat weten dat je afwezig zult zijn, zelfs als dit minder dan drie dagen duurt."
     },
     "Rule2": {
       "Title": "Verzamelpunt",
-      "Description": "Op zondag is de strijd voorbij en moeten alle leden zich verzamelen bij het alliantie-verzamelpunt.",
-      "Description2": "Wie woensdag nog niet bij het verzamelpunt is, wordt uit de alliantie gezet.",
-      "Description3": "Hoe kom ik bij de verzamelplaats"
+      "Description": "De Battle-week eindigt op zondag en alle leden moeten zich verzamelen bij het verzamelpunt van de alliantie.",
+      "Description2": "Iedereen die uiterlijk woensdag niet bij het verzamelpunt is aangekomen, kan uit de alliantie worden verwijderd.",
+      "Description3": "Hoe kom ik bij het verzamelpunt?"
     },
     "Rule3": {
-      "Title": "Alliantie-technologie Donaties",
-      "Description": "Elke lid moet voor zondag punten hebben gedoneerd aan de alliantie-technologie (doneren is gratis).",
-      "Description2": "Wie dit niet doet, wordt uit de alliantie gezet.",
-      "Description3": "Hoe doneer ik"
+      "Title": "Algemene aanvallen en plunderen",
+      "Description": "Het is strikt verboden om onze bondgenoten of leden die onder de NAP (Non-Aggression Pact) vallen aan te vallen.",
+      "Description2": "Aanvallen op spelers van andere allianties zijn over het algemeen verboden. Als er bijzondere omstandigheden of conflicten ontstaan, moet de situatie vooraf worden besproken met en goedgekeurd door een R4 of R5.",
+      "Description3": "Het plunderen van trucks of treinen van onze eigen server is niet toegestaan.",
+      "Description4": "Zo voorkom je aanvallen op je eigen trucks",
+      "Description5": "Het plunderen van Secret Tasks of Ghost Ops-taken van onze eigen server is niet toegestaan.",
+      "Description6": "Hoe plunder ik Secret Tasks op andere servers?"
     },
     "Rule4": {
-      "Title": "Spelernamen",
-      "Description": "Elk lid moet een eigen spelersnaam hebben.",
-      "Description2": "Wie geen eigen spelersnaam kiest, wordt uit de alliantie gezet."
+      "Title": "VS-punten",
+      "Description": "Het dagelijkse minimum is 7,2 miljoen VS-punten. Regelmatig onder de 7,2 miljoen komen is niet acceptabel.",
+      "Description2": "Als je het minimum structureel niet kunt halen, neem dan contact op met een R4 of R5 zodat we je kunnen helpen of kunnen bespreken of de alliantie geschikt voor je is."
     },
     "Rule5": {
-      "Title": "Algemene Aanvallen",
-      "Description": "Elke aanval op onze bondgenoten of op het NAP (Non-Aanvalspact) is verboden.",
-      "Description2": "Aanvallen op spelers van andere allianties zijn over het algemeen verboden. Als er bijzondere omstandigheden of conflicten ontstaan, moeten dergelijke acties vooraf besproken en goedgekeurd worden door een R5 of R4 om onnodige stress te vermijden.",
-      "Description3": "Het plunderen van vrachtwagens of treinen van je eigen server is niet toegestaan.",
-      "Description4": "Hoe aanvallen op je eigen vrachtwagens te vermijden",
-      "Description5": "Het is niet toegestaan om geheime missies en Ghost Ops-missies van je eigen server te plunderen",
-      "Description6": "Hoe plunder ik geheime missies op andere servers"
+      "Title": "Zaterdagsschild",
+      "Description": "Elk lid moet op zaterdag een schild activeren.",
+      "Description2": "Geen schild op zaterdag leidt tot een waarschuwing. Herhaalde overtredingen kunnen leiden tot verwijdering uit de alliantie."
+    },
+    "Rule6": {
+      "Title": "Handhaving van de regels",
+      "Description": "Eerste overtreding: Waarschuwing.",
+      "Description2": "Herhaalde overtredingen: Mogelijke verwijdering uit de alliantie. Spelers worden niet zonder voorafgaande waarschuwing en gesprek verwijderd.",
+      "Description3": "Ernstige overtredingen kunnen, afhankelijk van de omstandigheden, onmiddellijk worden aangepakt."
     },
     "Note": {
       "Title": "Opmerking:",
-      "Description": "Als iemand niet weet hoe hij een regel moet naleven of andere vragen heeft, neem dan contact met ons op. We zijn hier om te helpen."
+      "Description": "Het echte leven is belangrijker en we zullen moeilijke persoonlijke omstandigheden nooit negeren. We moeten de alliantie echter sterk, actief en eerlijk houden voor iedereen die dagelijks deelneemt. Als je vragen hebt, hulp nodig hebt bij het naleven van een regel of bijzondere omstandigheden hebt, neem dan rechtstreeks contact met ons op. Bedankt voor je begrip en medewerking."
     },
-    "Footer": "Laten we samen sterk en succesvol zijn!",
+    "Footer": "Laten we samen sterk zijn en succesvol worden!",
     "ServerRules": {
       "Title": "Serverregels",
       "Abuse": {
-        "Title": "Misbruik:",
-        "Rule1": "Geen pesten, seksisme, racisme, homofobie of andere haatdragende chat, inclusief etnische, seksuele, religieuze, handicap-, leeftijdsgebonden of transfobe beledigingen. De consequentie is één gratis slag op de speler, of bij herhaling uitsluiting uit de alliantie."
+        "Title": "Pesten en discriminatie:",
+        "Rule1": "Pesten, seksisme, racisme, homofobie of andere haatdragende uitingen in de chat zijn verboden, inclusief etnische, seksuele, religieuze, discriminerende, leeftijdsgebonden of transfobe beledigingen. De consequentie is één gratis aanval op de speler; bij herhaalde overtredingen volgt verwijdering uit de alliantie."
       },
       "Zeroing": {
-        "Title": "Nulstelling:",
-        "Rule1": "Het is verboden om bases die in allianties op onze server zitten, tot nul te reduceren (te vernietigen). De consequentie is zelf tot nul gereduceerd worden, met troepen buiten de basis."
+        "Title": "Zeroing:",
+        "Rule1": "Het is verboden om bases van spelers die deel uitmaken van allianties op onze server te zeroën (ash). Als gevolg hiervan kan je eigen basis als vergelding worden gezeroëd, met de troepen buiten de basis."
       },
       "Trucks": {
-        "Title": "Vrachtwagens:",
-        "Rule1": "Geen aanvallen op onze server vrachtwagens en treinen. Gebruik het filter om dit te voorkomen. Als het toch gebeurt, spreek dan direct met de persoon om een gelijkwaardige vrachtwagen te organiseren om te plunderen in ruil. Bij geen reactie, meld dit aan R4/R5."
+        "Title": "Trucks:",
+        "Rule1": "Geen aanvallen op trucks en treinen van onze server. Gebruik het filter om dit te voorkomen. Als het toch gebeurt, neem dan rechtstreeks contact op met de persoon om een gelijkwaardige truck af te spreken die als compensatie geplunderd kan worden. Als er geen reactie komt, meld dit dan bij een R4/R5."
       },
       "Villages": {
         "Title": "Dorpen:",
-        "Rule1": "Spelers mogen geen bases aanvallen tijdens dorpsveroveringen, alleen het dorp versterken of het dorp aanvallen. De consequentie is een gelijk aantal slagen in ruil met troepen buiten de basis."
+        "Rule1": "Spelers mogen geen bases aanvallen tijdens de verovering van een dorp. Ze mogen het dorp alleen versterken of het dorp zelf aanvallen. De consequentie kan een gelijkwaardig aantal tegenaanvallen zijn, met de troepen buiten de basis."
       },
       "Nap10": {
         "Title": "NAP10:",
         "Rule1": {
           "Title": "Aanvallen 1: ",
-          "Rule": "Spelers die hun alliantie verlaten om een speler in de Top 10 aan te vallen, worden voor 1 week uitgesloten van deelname aan een Top 10. Ze kunnen die week niet beschermd worden door een Top 10."
+          "Rule": "Spelers die hun alliantie verlaten om een speler uit de Top 10 aan te vallen, mogen gedurende 1 week geen lid worden van een Top 10-alliantie. Gedurende die week kunnen ze ook door geen enkele Top 10-alliantie worden beschermd."
         },
         "Rule2": {
           "Title": "Aanvallen 2: ",
-          "Rule": "Spelers die een andere speler in de Top 10 aanvallen, moeten hetzelfde aantal aanvallen en schade terugkrijgen, waarbij een tweede overtreding resulteert in een verbod van 1 week van de Top 10."
+          "Rule": "Spelers die een andere speler uit de Top 10 aanvallen, moeten hetzelfde aantal aanvallen en dezelfde hoeveelheid schade terug ontvangen. Bij een tweede overtreding volgt een verbod van 1 week op Top 10-allianties."
         }
       },
       "Cities": {
         "Title": "Steden:",
-        "Rule1": "Niveau 6 steden behoren tot de top 3 allianties. Als de top 3 verandert, zullen de niveau 6 steden dienovereenkomstig veranderen."
+        "Rule1": "Steden van niveau 6 behoren toe aan de Top 3-allianties. Als de Top 3 verandert, zullen de niveau 6-steden dienovereenkomstig veranderen."
       }
     }
   },

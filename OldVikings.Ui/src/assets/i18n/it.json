@@ -67,74 +67,81 @@
     "Guestbook": "Libro degli ospiti"
   },
   "Rules": {
-    "Title": "Alleanza Regole",
+    "Title": "Regole dell'Alleanza",
     "Rule1": {
       "Title": "Inattività",
-      "Description": "Chiunque sia offline per 3 giorni senza avvisare sarà espulso dall'alleanza il 4° giorno."
+      "Description": "Non possiamo funzionare efficacemente quando i membri sono offline per diversi giorni senza avvisare. Se prevedi di essere inattivo per più di tre giorni, informa in anticipo l'R5 o il Reclutatore, oppure fallo il prima possibile.",
+      "Description2": "A partire dal quarto giorno di inattività, potrà essere presa in considerazione l'espulsione dall'alleanza se non ci sono state comunicazioni o accordi precedenti.",
+      "Description3": "Apprezziamo che ci venga dato un preavviso anche quando la tua assenza sarà inferiore a tre giorni."
     },
     "Rule2": {
-      "Title": "Punto di Ritrovo",
-      "Description": "La battaglia termina domenica e tutti i membri devono riunirsi al punto di ritrovo dell'alleanza.",
-      "Description2": "Chi non è al punto di ritrovo entro mercoledì sarà espulso.",
-      "Description3": "Come arrivo al luogo di riunione"
+      "Title": "Punto di raccolta",
+      "Description": "La settimana di battaglia termina domenica e tutti i membri devono radunarsi al punto di raccolta dell'alleanza.",
+      "Description2": "Chiunque non abbia raggiunto il punto di raccolta entro mercoledì potrà essere espulso dall'alleanza.",
+      "Description3": "Come posso raggiungere il punto di raccolta?"
     },
     "Rule3": {
-      "Title": "Donazioni per la Tecnologia dell'Alleanza",
-      "Description": "Entro domenica, ogni membro deve aver donato punti alla tecnologia dell'alleanza (le donazioni sono gratuite).",
-      "Description2": "Chi non lo fa sarà espulso.",
-      "Description3": "Come faccio una donazione"
+      "Title": "Attacchi generali e saccheggio",
+      "Description": "È severamente vietato attaccare i nostri alleati o i membri protetti dal NAP (Patto di Non Aggressione).",
+      "Description2": "Gli attacchi contro giocatori di altre alleanze sono generalmente vietati. Se si verificano circostanze particolari o conflitti, la situazione deve essere discussa e approvata in anticipo da un R4 o R5.",
+      "Description3": "È vietato saccheggiare camion o treni del nostro stesso server.",
+      "Description4": "Come evitare gli attacchi ai propri camion",
+      "Description5": "È vietato saccheggiare Secret Tasks o missioni Ghost Ops del nostro stesso server.",
+      "Description6": "Come posso saccheggiare le Secret Tasks su altri server?"
     },
     "Rule4": {
-      "Title": "Nomi dei Giocatori",
-      "Description": "Ogni membro deve avere il proprio nome di giocatore.",
-      "Description2": "Chi non sceglie il proprio nome di giocatore sarà espulso dall'alleanza."
+      "Title": "Punti VS",
+      "Description": "Il minimo giornaliero è di 7,2 milioni di punti VS. Scendere regolarmente al di sotto di 7,2 milioni non è accettabile.",
+      "Description2": "Se non riesci costantemente a raggiungere il minimo richiesto, contatta un R4 o R5 in modo che possiamo aiutarti o discutere se questa alleanza è quella giusta per te."
     },
     "Rule5": {
-      "Title": "Attacchi Generali",
-      "Description": "Qualsiasi attacco ai nostri alleati o al NAP (Patto di Non Aggressione) è vietato.",
-      "Description2": "Gli attacchi ai giocatori di altre alleanze sono generalmente vietati. Se sorgono circostanze particolari o conflitti, tali azioni devono essere discusse e approvate in anticipo da un R5 o R4 per evitare stress inutile.",
-      "Description3": "Il saccheggio di camion o treni del proprio server non è consentito.",
-      "Description4": "Come evitare gli attacchi ai propri camion",
-      "Description5": "Non è consentito saccheggiare missioni segrete e missioni Ghost Ops dal proprio server",
-      "Description6": "Come saccheggiare missioni segrete su altri server"
+      "Title": "Scudo del sabato",
+      "Description": "Ogni membro deve attivare uno scudo il sabato.",
+      "Description2": "La mancanza dello scudo il sabato comporterà un avvertimento. Violazioni ripetute potranno portare all'espulsione dall'alleanza."
+    },
+    "Rule6": {
+      "Title": "Applicazione delle regole",
+      "Description": "Prima violazione: avvertimento.",
+      "Description2": "Violazioni ripetute: possibile espulsione dall'alleanza. I giocatori non saranno espulsi senza un preavviso e una discussione.",
+      "Description3": "Le violazioni gravi potranno essere sanzionate immediatamente, a seconda delle circostanze."
     },
     "Note": {
       "Title": "Nota:",
-      "Description": "Se qualcuno non sa come rispettare una regola o ha altre domande, per favore ci contatti. Siamo qui per aiutare."
+      "Description": "La vita reale è più importante e non ignoreremo mai le situazioni personali difficili. Tuttavia, dobbiamo mantenere l'alleanza forte, attiva ed equa per tutti coloro che partecipano quotidianamente. Se hai domande, hai bisogno di aiuto per rispettare una regola o hai circostanze particolari, contattaci direttamente. Grazie per la comprensione e la collaborazione."
     },
-    "Footer": "Siamo forti e di successo insieme!",
+    "Footer": "Restiamo forti e raggiungiamo il successo insieme!",
     "ServerRules": {
-      "Title": "Regole del Server",
+      "Title": "Regole del server",
       "Abuse": {
-        "Title": "Abusi:",
-        "Rule1": "Nessun bullismo, sessismo, razzismo, omofobia o altre chat basate sull'odio, comprese le offese etniche, sessuali, religiose, legate alla disabilità, all'età o transfobiche. La conseguenza è un colpo gratuito sul giocatore, o in caso di recidiva, l'espulsione dall'alleanza."
+        "Title": "Molestie e discriminazioni:",
+        "Rule1": "Sono vietati il bullismo, il sessismo, il razzismo, l'omofobia e qualsiasi altro linguaggio d'odio nella chat, compresi insulti etnici, sessuali, religiosi, legati alla disabilità, all'età o transfobici. La conseguenza sarà un attacco gratuito contro il giocatore; in caso di recidiva, il giocatore verrà espulso dall'alleanza."
       },
       "Zeroing": {
-        "Title": "Azzeramento:",
-        "Rule1": "È vietato azzerare (distruggere) le basi che sono nelle alleanze sul nostro server. La conseguenza è essere azzerati a propria volta, con truppe fuori dalla base."
+        "Title": "Zeroing:",
+        "Rule1": "È vietato azzerare (ash) le basi appartenenti a giocatori che fanno parte di alleanze del nostro server. Come conseguenza, la propria base potrà essere azzerata per rappresaglia, con le truppe fuori dalla base."
       },
       "Trucks": {
         "Title": "Camion:",
-        "Rule1": "Nessun attacco ai camion e ai treni del nostro server. Usa il filtro per evitare questo. Se succede, parla direttamente con la persona per organizzare il saccheggio di un camion equivalente in cambio. Se non risponde, segnalalo a R4/R5."
+        "Rule1": "Nessun attacco ai camion e ai treni del nostro server. Utilizza il filtro per evitare che ciò accada. Se succede, contatta direttamente la persona interessata per organizzare il saccheggio di un camion equivalente come compensazione. Se non ricevi risposta, segnala la situazione a un R4/R5."
       },
       "Villages": {
         "Title": "Villaggi:",
-        "Rule1": "I giocatori non sono autorizzati ad attaccare basi durante la cattura di un villaggio, solo rinforzare il villaggio o attaccare il villaggio. La conseguenza è un numero equivalente di colpi in cambio con truppe fuori dalla base."
+        "Rule1": "I giocatori non possono attaccare le basi durante la conquista di un villaggio. Possono solo rinforzare il villaggio o attaccare il villaggio stesso. La conseguenza potrà essere un numero equivalente di attacchi di rappresaglia, con le truppe fuori dalla base."
       },
       "Nap10": {
         "Title": "NAP10:",
         "Rule1": {
           "Title": "Attacchi 1: ",
-          "Rule": "I giocatori che lasciano la loro alleanza per attaccare un giocatore nella Top 10 saranno esclusi dall'unirsi a qualsiasi Top 10 per 1 settimana. Non possono essere protetti durante quella settimana da nessuna Top 10."
+          "Rule": "I giocatori che lasciano la propria alleanza per attaccare un giocatore della Top 10 non potranno unirsi a nessuna alleanza della Top 10 per 1 settimana. Durante quella settimana non potranno inoltre beneficiare della protezione di alcuna alleanza della Top 10."
         },
         "Rule2": {
           "Title": "Attacchi 2: ",
-          "Rule": "I giocatori che attaccano un altro giocatore nella Top 10 dovrebbero ricevere lo stesso numero di attacchi e danni in cambio, con una seconda infrazione che comporta un divieto di 1 settimana dalla Top 10."
+          "Rule": "I giocatori che attaccano qualsiasi altro giocatore della Top 10 dovranno ricevere in cambio lo stesso numero di attacchi e una quantità equivalente di danni. Una seconda violazione comporterà un divieto di 1 settimana dalle alleanze della Top 10."
         }
       },
       "Cities": {
         "Title": "Città:",
-        "Rule1": "Le città di livello 6 appartengono alle prime 3 alleanze. Se le prime 3 cambiano, le città di livello 6 cambieranno di conseguenza."
+        "Rule1": "Le città di livello 6 appartengono alle prime 3 alleanze. Se la Top 3 cambia, anche le città di livello 6 verranno assegnate di conseguenza."
       }
     }
   },

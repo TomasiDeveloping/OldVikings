@@ -70,71 +70,78 @@
     "Title": "Alliansregler",
     "Rule1": {
       "Title": "Inaktivitet",
-      "Description": "Den som är offline i 3 dagar utan att meddela sig kommer att uteslutas ur alliansen den 4:e dagen."
+      "Description": "Vi kan inte fungera effektivt när medlemmar är offline i flera dagar utan att meddela detta. Om du förväntar dig att vara inaktiv i mer än tre dagar, informera R5 eller Rekryteraren i förväg eller så snart som möjligt.",
+      "Description2": "Från och med den fjärde dagen av inaktivitet kan uteslutning från alliansen övervägas om det inte har förekommit någon kommunikation eller tidigare överenskommelse.",
+      "Description3": "Vi uppskattar att du meddelar oss i förväg även om din frånvaro kommer att vara kortare än tre dagar."
     },
     "Rule2": {
-      "Title": "Versammlungsplats",
-      "Description": "På söndagen är hela striden över, och alla medlemmar ska samlas vid alliansens samlingsplats.",
-      "Description2": "Den som inte är vid samlingsplatsen på onsdag kommer att uteslutas.",
-      "Description3": "Hur hittar jag till samlingsplatsen?"
+      "Title": "Samlingsplats",
+      "Description": "Battle-veckan slutar på söndag och alla medlemmar måste samlas vid alliansens samlingsplats.",
+      "Description2": "Den som inte har kommit till samlingsplatsen senast onsdag kan bli utesluten ur alliansen.",
+      "Description3": "Hur tar jag mig till samlingsplatsen?"
     },
     "Rule3": {
-      "Title": "Allians-teknologi Donationer",
-      "Description": "Varje medlem måste ha donerat poäng till alliansens teknologi senast på söndag (donationen är gratis).",
-      "Description2": "Den som inte gör detta kommer att uteslutas.",
-      "Description3": "Hur donerar jag?"
+      "Title": "Allmänna attacker och plundring",
+      "Description": "Det är strikt förbjudet att attackera våra allierade eller medlemmar som omfattas av NAP (Icke-angreppspakt).",
+      "Description2": "Attacker mot spelare från andra allianser är generellt förbjudna. Om särskilda omständigheter eller konflikter uppstår måste situationen diskuteras med och godkännas av en R4 eller R5 i förväg.",
+      "Description3": "Det är inte tillåtet att plundra lastbilar eller tåg från vår egen server.",
+      "Description4": "Så undviker du attacker mot dina egna lastbilar",
+      "Description5": "Det är inte tillåtet att plundra Secret Tasks eller Ghost Ops-uppdrag från vår egen server.",
+      "Description6": "Hur plundrar jag Secret Tasks på andra servrar?"
     },
     "Rule4": {
-      "Title": "Spelarnamn",
-      "Description": "Varje medlem måste ha ett eget spelarnamn.",
-      "Description2": "Den som inte har ett eget spelarnamn kommer att uteslutas ur alliansen."
+      "Title": "VS-poäng",
+      "Description": "Det dagliga minimumet är 7,2 miljoner VS-poäng. Det är inte acceptabelt att regelbundet hamna under 7,2 miljoner.",
+      "Description2": "Om du konsekvent inte kan nå minimikravet, kontakta en R4 eller R5 så att vi kan hjälpa dig eller diskutera om alliansen är rätt för dig."
     },
     "Rule5": {
-      "Title": "Allmänna attacker",
-      "Description": "Alla attacker mot våra allierade eller mot NAP (icke-angreppspakt) är förbjudna.",
-      "Description2": "Attacker mot spelare från andra allianser är i grunden förbjudna. Om särskilda omständigheter eller konflikter uppstår måste sådana åtgärder först diskuteras och godkännas av en R5 eller R4 för att undvika onödig stress.",
-      "Description3": "Plundring av lastbilar eller tåg från den egna servern är inte tillåten.",
-      "Description4": "Hur undviker jag attacker mot egna lastbilar?",
-      "Description5": "Det är inte tillåtet att plundra hemliga uppdrag och Ghost Ops-uppdrag från din egen server",
-      "Description6": "Hur plundrar jag hemliga uppdrag på andra servrar"
+      "Title": "Lördagssköld",
+      "Description": "Varje medlem måste aktivera en sköld på lördagar.",
+      "Description2": "Om du inte har en sköld på lördagen får du en varning. Upprepade överträdelser kan leda till att du utesluts ur alliansen."
+    },
+    "Rule6": {
+      "Title": "Tillämpning av reglerna",
+      "Description": "Första överträdelsen: Varning.",
+      "Description2": "Upprepade överträdelser: Möjlig uteslutning ur alliansen. Spelare kommer inte att uteslutas utan föregående information och samtal.",
+      "Description3": "Allvarliga överträdelser kan hanteras omedelbart beroende på omständigheterna."
     },
     "Note": {
-      "Title": "Notera:",
-      "Description": "Om någon är osäker på hur man uppfyller en regel eller har andra frågor, ska de vänligen kontakta oss. Vi är här för att hjälpa."
+      "Title": "Observera:",
+      "Description": "Det verkliga livet är viktigare, och vi kommer aldrig att ignorera svåra personliga omständigheter. Vi måste dock hålla alliansen stark, aktiv och rättvis för alla som deltar dagligen. Om du har frågor, behöver hjälp med att följa en regel eller har särskilda omständigheter, kontakta oss direkt. Tack för din förståelse och ditt samarbete."
     },
     "Footer": "Låt oss vara starka och framgångsrika tillsammans!",
     "ServerRules": {
       "Title": "Serverregler",
       "Abuse": {
-        "Title": "Missbruk:",
-        "Rule1": "Ingen mobbning, sexism, rasism, homofobi eller andra hatiska chattar, inklusive etniska, sexuella, religiösa, funktionshinderrelaterade, åldersrelaterade eller transfobiska förolämpningar. Konsekvensen är ett gratis slag mot spelaren, vid upprepning sker uteslutning ur alliansen."
+        "Title": "Trakasserier och diskriminering:",
+        "Rule1": "Mobbning, sexism, rasism, homofobi eller andra hatiska uttryck i chatten är förbjudna, inklusive etniska, sexuella, religiösa, funktionsrelaterade, åldersrelaterade eller transfobiska förolämpningar. Konsekvensen är en gratis attack mot spelaren. Vid upprepade överträdelser blir spelaren utesluten ur alliansen."
       },
       "Zeroing": {
-        "Title": "Nollställning:",
-        "Rule1": "Det är förbjudet att nollställa (förstöra) baser som tillhör allianser på vår server. Konsekvensen är egen nollställning, med trupper utanför basen."
+        "Title": "Zeroing:",
+        "Rule1": "Det är förbjudet att zero (ash) baser som tillhör spelare i allianser på vår server. Som konsekvens kan din egen bas bli zeroad som vedergällning, med trupperna utanför basen."
       },
       "Trucks": {
         "Title": "Lastbilar:",
-        "Rule1": "Ingen attack på våra server-lastbilar och tåg. Använd filtret för att förhindra detta. Om det ändå sker, prata direkt med personen för att organisera en likvärdig lastbil att plundra. Vid ingen respons, rapportera till R4/R5."
+        "Rule1": "Inga attacker mot lastbilar och tåg på vår server. Använd filtret för att förhindra detta. Om det ändå händer, kontakta personen direkt för att ordna en motsvarande lastbil som kan plundras som kompensation. Om du inte får något svar, ta upp saken med en R4/R5."
       },
       "Villages": {
         "Title": "Byar:",
-        "Rule1": "Spelare får inte attackera baser vid bystrider, utan bara förstärka eller attackera byn. Konsekvensen är ett lika stort antal träffar med trupper utanför basen."
+        "Rule1": "Spelare får inte attackera baser under erövringen av en by. De får endast förstärka byn eller attackera själva byn. Konsekvensen kan bli ett motsvarande antal attacker som vedergällning, med trupperna utanför basen."
       },
       "Nap10": {
         "Title": "NAP10:",
         "Rule1": {
-          "Title": "Attacker 1:",
-          "Rule": "Spelare som lämnar sin allians för att attackera en spelare bland de topp 10 kommer att uteslutas från alla topp 10 i 1 vecka. De får under denna vecka inte skyddas av någon topp 10."
+          "Title": "Attacker 1: ",
+          "Rule": "Spelare som lämnar sin allians för att attackera en spelare i Top 10 får inte gå med i någon Top 10-allians under 1 vecka. Under denna vecka kan de inte heller skyddas av någon Top 10-allians."
         },
         "Rule2": {
-          "Title": "Attacker 2:",
-          "Rule": "Spelare som attackerar en annan spelare bland de topp 10 bör få samma antal attacker och skador tillbaka, vid ett andra brott följer en 1-veckas avstängning från topp 10."
+          "Title": "Attacker 2: ",
+          "Rule": "Spelare som attackerar någon annan spelare i Top 10 ska få tillbaka samma antal attacker och motsvarande skada. Vid en andra överträdelse blir det 1 veckas avstängning från Top 10-allianser."
         }
       },
       "Cities": {
         "Title": "Städer:",
-        "Rule1": "Level 6 städer tillhör de topp 3 allianserna. När de topp 3 ändras kommer level 6 städer att byta tillhörighet därefter."
+        "Rule1": "Nivå 6-städer tillhör de 3 bästa allianserna. Om Top 3 förändras kommer nivå 6-städerna att ändras i enlighet med detta."
       }
     }
   },

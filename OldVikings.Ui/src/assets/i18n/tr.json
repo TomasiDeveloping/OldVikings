@@ -67,74 +67,81 @@
     "Guestbook": "Ziyaretçi Defteri"
   },
   "Rules": {
-    "Title": "Alliance Kuralları",
+    "Title": "İttifak Kuralları",
     "Rule1": {
-      "Title": "Pasiflik",
-      "Description": "3 gün boyunca çevrimdışısınız ve haber vermediyseniz, 4. gün ittifaktan atılırsınız."
+      "Title": "Hareketsizlik",
+      "Description": "Üyeler birkaç gün boyunca haber vermeden çevrimdışı kaldığında etkili bir şekilde faaliyet gösteremeyiz. Üç günden daha uzun süre hareketsiz kalmayı bekliyorsanız, önceden veya mümkün olan en kısa sürede R5'e ya da Recruiter'a bilgi verin.",
+      "Description2": "Hareketsizliğin dördüncü gününden itibaren, herhangi bir iletişim veya önceden yapılmış bir anlaşma yoksa ittifaktan çıkarılma değerlendirilebilir.",
+      "Description3": "Üç günden daha kısa sürecek bir yokluk için bile önceden haber vermenizi takdir ederiz."
     },
     "Rule2": {
-      "Title": "Toplanma Yeri",
-      "Description": "Pazar günü savaş sona erer ve tüm üyeler ittifak toplama noktasında toplanmalıdır.",
-      "Description2": "Çarşamba günü toplanma noktasında değilseniz, ittifaktan atılırsınız.",
-      "Description3": "Toplanma noktasına nasıl ulaşırım?"
+      "Title": "Toplanma Noktası",
+      "Description": "Savaş haftası pazar günü sona erer ve tüm üyelerin ittifakın toplanma noktasında bulunması gerekir.",
+      "Description2": "Çarşamba gününe kadar toplanma noktasına gelmeyen herkes ittifaktan çıkarılabilir.",
+      "Description3": "Toplanma noktasına nasıl gidebilirim?"
     },
     "Rule3": {
-      "Title": "İttifak Teknoloji Bağışları",
-      "Description": "Pazar günü itibarıyla her üye ittifak teknolojisine puan bağışlamış olmalıdır (bağış yapmak ücretsizdir).",
-      "Description2": "Bunu yapmazsanız, ittifaktan atılırsınız.",
-      "Description3": "Nasıl bağış yaparım?"
+      "Title": "Genel Saldırılar ve Yağmalama",
+      "Description": "Müttefiklerimize veya NAP (Saldırmazlık Paktı) kapsamında korunan üyelere saldırmak kesinlikle yasaktır.",
+      "Description2": "Diğer ittifakların oyuncularına saldırmak genel olarak yasaktır. Özel durumlar veya çatışmalar ortaya çıkarsa, konu önceden bir R4 veya R5 ile görüşülmeli ve onay alınmalıdır.",
+      "Description3": "Kendi sunucumuzdaki kamyonları veya trenleri yağmalamak yasaktır.",
+      "Description4": "Kendi kamyonlarınıza yapılan saldırıları nasıl önleyebilirsiniz?",
+      "Description5": "Kendi sunucumuzdaki Secret Tasks veya Ghost Ops görevlerini yağmalamak yasaktır.",
+      "Description6": "Diğer sunuculardaki Secret Tasks nasıl yağmalanır?"
     },
     "Rule4": {
-      "Title": "Oyuncu İsimleri",
-      "Description": "Her üye kendi oyuncu ismini seçmelidir.",
-      "Description2": "Kendi oyuncu isminizi seçmezseniz, ittifaktan atılırsınız."
+      "Title": "VS Puanları",
+      "Description": "Günlük minimum 7,2 milyon VS puanıdır. Düzenli olarak 7,2 milyonun altında kalmak kabul edilemez.",
+      "Description2": "Minimum puana sürekli olarak ulaşamıyorsanız, size yardımcı olabilmemiz veya ittifakın sizin için uygun olup olmadığını görüşebilmemiz için bir R4 veya R5 ile iletişime geçin."
     },
     "Rule5": {
-      "Title": "Genel Saldırılar",
-      "Description": "Müttefiklerimize veya NAP (Saldırı Anlaşması) olanlara saldırı yapmak yasaktır.",
-      "Description2": "Diğer ittifaklardaki oyunculara saldırmak genellikle yasaktır. Özel durumlar veya çatışmalar ortaya çıkarsa, bu tür eylemler önceden R5 veya R4 ile tartışılmalı ve onaylanmalıdır, aksi takdirde gereksiz stres oluşabilir.",
-      "Description3": "Kendi sunucunuzdaki kamyonları veya trenleri yağmalamak yasaktır.",
-      "Description4": "Kendi kamyonlarımın saldırılardan nasıl korunurum?",
-      "Description5": "Kendi sunucunuzdan gizli görevleri ve Ghost Ops görevlerini yağmalamak yasaktır",
-      "Description6": "Diğer sunucularda gizli görevleri nasıl yağmalarım"
+      "Title": "Cumartesi Kalkanı",
+      "Description": "Her üye cumartesi günü bir kalkan aktif etmelidir.",
+      "Description2": "Cumartesi günü kalkan kullanılmaması uyarı ile sonuçlanır. Tekrarlanan ihlaller ittifaktan çıkarılmaya neden olabilir."
+    },
+    "Rule6": {
+      "Title": "Kuralların Uygulanması",
+      "Description": "İlk ihlal: Uyarı.",
+      "Description2": "Tekrarlanan ihlaller: İttifaktan çıkarılma ihtimali. Oyuncular önceden bilgilendirilmeden ve görüşme yapılmadan ittifaktan çıkarılmayacaktır.",
+      "Description3": "Ciddi ihlaller, koşullara bağlı olarak derhal ele alınabilir."
     },
     "Note": {
       "Title": "Not:",
-      "Description": "Kuralları nasıl uygulayacağınızı bilmiyorsanız veya diğer sorularınız varsa, lütfen bizimle iletişime geçin. Size yardımcı olmak için buradayız."
+      "Description": "Gerçek hayat daha önemlidir ve zor kişisel durumları asla göz ardı etmeyiz. Ancak ittifakı her gün aktif olarak katılan herkes için güçlü, aktif ve adil tutmamız gerekiyor. Sorularınız varsa, bir kurala uymak konusunda yardıma ihtiyacınız varsa veya özel bir durumunuz varsa, lütfen doğrudan bizimle iletişime geçin. Anlayışınız ve iş birliğiniz için teşekkür ederiz."
     },
-    "Footer": "Birlikte güçlü ve başarılı olalım!",
+    "Footer": "Birlikte güçlü olalım ve başarılı olalım!",
     "ServerRules": {
       "Title": "Sunucu Kuralları",
       "Abuse": {
-        "Title": "Kötüye Kullanım:",
-        "Rule1": "Siber zorbalık, cinsiyetçilik, ırkçılık, homofobi veya diğer nefret temelli sohbetler, etnik, cinsel, dini, engelli, yaş veya transfobi hakaretleri dahil yasaktır. Sonuç olarak oyuncuya uyarı yapılır; tekrar eden ihlaller ittifaktan atılmaya neden olur."
+        "Title": "Taciz ve Ayrımcılık:",
+        "Rule1": "Sohbette zorbalık, cinsiyetçilik, ırkçılık, homofobi veya diğer nefret içerikli söylemler yasaktır. Buna etnik köken, cinsiyet, din, engellilik, yaş veya trans karşıtı hakaretler de dahildir. Sonuç olarak oyuncuya bir ücretsiz saldırı yapılabilir; tekrarlanan ihlallerde oyuncu ittifaktan çıkarılır."
       },
       "Zeroing": {
-        "Title": "Sıfırlama:",
-        "Rule1": "Sunucumuzdaki ittifaklara ait üsleri sıfırlamak (yok etmek) yasaktır. Sonuç olarak, üs sıfırlanır ve üssün dışındaki birlikler geri döner."
+        "Title": "Zeroing:",
+        "Rule1": "Sunucumuzdaki ittifaklara mensup oyuncuların üslerini zero (ash) yapmak yasaktır. Bunun sonucunda, karşılık olarak kendi üssünüz zero yapılabilir ve birlikleriniz üssün dışında olabilir."
       },
       "Trucks": {
         "Title": "Kamyonlar:",
-        "Rule1": "Sunucumuzdaki kamyonlara ve trenlere saldırmak yasaktır. Bunun önüne geçmek için filtreyi kullanın. Eğer saldırı gerçekleşirse, doğrudan kişiyle iletişime geçin ve karşılık olarak yağmalanacak bir kamyon düzenleyin. Yanıt alamazsanız, durumu R4/R5'e bildirin."
+        "Rule1": "Sunucumuzdaki kamyonlara ve trenlere saldırmak yasaktır. Bunu önlemek için filtreyi kullanın. Böyle bir durum gerçekleşirse, karşılığında eşdeğer bir kamyonun yağmalanmasını organize etmek için ilgili kişiyle doğrudan iletişime geçin. Yanıt alamazsanız durumu bir R4/R5'e bildirin."
       },
       "Villages": {
         "Title": "Köyler:",
-        "Rule1": "Oyuncular köy ele geçirme sırasında üsleri saldıramazlar; sadece köye takviye yapabilirler veya köye saldırabilirler. Sonuç olarak, üs dışındaki birliklerle eşit sayıda saldırı yapılır."
+        "Rule1": "Oyuncular bir köyün ele geçirilmesi sırasında üslere saldırmamalıdır. Yalnızca köyü güçlendirebilir veya köyün kendisine saldırabilirler. İhlalin sonucu olarak, birlikler üs dışında olacak şekilde eşdeğer sayıda karşı saldırı yapılabilir."
       },
       "Nap10": {
         "Title": "NAP10:",
         "Rule1": {
-          "Title": "Saldırı 1: ",
-          "Rule": "Top 10'da yer alan bir oyuncuyu saldırmak için ittifaktan ayrılan oyuncular, 1 hafta boyunca Top 10'da yer alamazlar. Bu hafta Top 10 tarafından korunamazlar."
+          "Title": "Saldırılar 1: ",
+          "Rule": "İttifakından ayrılarak Top 10'daki bir oyuncuya saldıran oyuncular, 1 hafta boyunca herhangi bir Top 10 ittifakına katılamaz. Bu hafta boyunca hiçbir Top 10 ittifakı tarafından korunamazlar."
         },
         "Rule2": {
-          "Title": "Saldırı 2: ",
-          "Rule": "Top 10'daki diğer oyunculara saldıran oyuncular, aynı sayıda saldırı ve hasar alacaklar ve ikinci ihlalde Top 10'dan 1 hafta süreyle men edilirler."
+          "Title": "Saldırılar 2: ",
+          "Rule": "Top 10'daki başka bir oyuncuya saldıran oyuncuya karşılık olarak aynı sayıda saldırı ve eşdeğer miktarda hasar uygulanmalıdır. İkinci ihlalde Top 10 ittifaklarına katılmaları 1 hafta boyunca yasaklanır."
         }
       },
       "Cities": {
         "Title": "Şehirler:",
-        "Rule1": "Seviye 6 şehirleri Top 3 ittifaklarına aittir. Top 3 değiştiğinde, seviye 6 şehirleri buna göre değişir."
+        "Rule1": "Seviye 6 şehirler Top 3 ittifaklarına aittir. Top 3 sıralaması değişirse, seviye 6 şehirler de buna göre değişir."
       }
     }
   },

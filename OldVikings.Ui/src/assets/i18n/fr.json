@@ -67,74 +67,81 @@
     "Guestbook": "Livre d'or"
   },
   "Rules": {
-    "Title": "Alliance Règles",
+    "Title": "Règles de l’alliance",
     "Rule1": {
       "Title": "Inactivité",
-      "Description": "Toute personne qui est hors ligne pendant 3 jours sans prévenir sera exclue de l'alliance le 4ème jour."
+      "Description": "Nous ne pouvons pas fonctionner efficacement lorsque des membres sont absents pendant plusieurs jours sans prévenir. Si vous prévoyez d’être inactif pendant plus de trois jours, veuillez en informer le R5 ou le Recruteur à l’avance ou dès que possible.",
+      "Description2": "À partir du quatrième jour d’inactivité, une exclusion de l’alliance peut être envisagée s’il n’y a eu aucune communication ni accord préalable.",
+      "Description3": "Nous apprécions également que vous nous préveniez à l’avance, même si votre absence doit durer moins de trois jours."
     },
     "Rule2": {
       "Title": "Point de rassemblement",
-      "Description": "La bataille entière se termine dimanche, et tous les membres doivent se rassembler au point de rassemblement de l'alliance.",
-      "Description2": "Toute personne qui n'est pas au point de rassemblement mercredi sera exclue.",
-      "Description3": "Comment me rendre au lieu de réunion"
+      "Description": "La semaine de bataille se termine le dimanche et tous les membres doivent se rassembler au point de rassemblement de l’alliance.",
+      "Description2": "Toute personne qui ne s’est pas rendue au point de rassemblement avant mercredi pourra être exclue de l’alliance.",
+      "Description3": "Comment puis-je me rendre au point de rassemblement ?"
     },
     "Rule3": {
-      "Title": "Dons pour la technologie de l'alliance",
-      "Description": "D'ici dimanche, chaque membre doit avoir donné des points pour la technologie de l'alliance (le don est gratuit).",
-      "Description2": "Toute personne qui ne le fait pas sera exclue.",
-      "Description3": "Comment faire un don"
+      "Title": "Attaques générales et pillage",
+      "Description": "Il est strictement interdit d’attaquer nos alliés ou les membres protégés par le NAP (Pacte de non-agression).",
+      "Description2": "Les attaques contre les joueurs d’autres alliances sont généralement interdites. En cas de circonstances particulières ou de conflit, la situation doit être discutée au préalable avec un R4 ou un R5 et approuvée par celui-ci.",
+      "Description3": "Le pillage des camions ou des trains de notre propre serveur est interdit.",
+      "Description4": "Comment éviter les attaques contre vos propres camions",
+      "Description5": "Le pillage des Secret Tasks ou des missions Ghost Ops de notre propre serveur est interdit.",
+      "Description6": "Comment piller des Secret Tasks sur d’autres serveurs ?"
     },
     "Rule4": {
-      "Title": "Noms des joueurs",
-      "Description": "Chaque membre doit avoir son propre nom de joueur.",
-      "Description2": "Toute personne qui ne choisit pas son propre nom de joueur sera exclue de l'alliance."
+      "Title": "Points VS",
+      "Description": "Le minimum quotidien est de 7,2 millions de points VS. Il n’est pas acceptable de rester régulièrement en dessous de 7,2 millions.",
+      "Description2": "Si vous ne pouvez pas atteindre régulièrement le minimum requis, veuillez contacter un R4 ou un R5 afin que nous puissions vous aider ou discuter de la possibilité que notre alliance soit adaptée à votre situation."
     },
     "Rule5": {
-      "Title": "Attaques Générales",
-      "Description": "Toute attaque contre nos alliés ou contre le NAP (Pacte de Non-Agression) est interdite.",
-      "Description2": "Les attaques contre les joueurs d'autres alliances sont généralement interdites. En cas de circonstances ou de conflits particuliers, ces actions doivent être discutées et approuvées au préalable par un R5 ou R4 afin d'éviter un stress inutile.",
-      "Description3": "Le pillage des camions ou des trains de votre propre serveur n'est pas autorisé.",
-      "Description4": "Comment éviter les attaques contre vos propres camions",
-      "Description5": "Il est interdit de piller des missions secrètes et des missions Ghost Ops depuis votre propre serveur",
-      "Description6": "Comment piller des missions secrètes sur d'autres serveurs"
+      "Title": "Bouclier du samedi",
+      "Description": "Chaque membre doit activer un bouclier le samedi.",
+      "Description2": "L’absence de bouclier le samedi entraînera un avertissement. Des infractions répétées peuvent entraîner une exclusion de l’alliance."
+    },
+    "Rule6": {
+      "Title": "Application des règles",
+      "Description": "Première infraction : avertissement.",
+      "Description2": "Infractions répétées : exclusion possible de l’alliance. Les joueurs ne seront pas exclus sans avertissement préalable ni discussion.",
+      "Description3": "Les infractions graves peuvent être sanctionnées immédiatement, selon les circonstances."
     },
     "Note": {
       "Title": "Remarque :",
-      "Description": "Si quelqu'un ne sait pas comment remplir une règle ou a d'autres questions, veuillez nous contacter. Nous sommes là pour aider."
+      "Description": "La vie réelle est plus importante et nous n’ignorerons jamais les situations personnelles difficiles. Cependant, nous devons maintenir une alliance forte, active et équitable pour tous ceux qui participent quotidiennement. Si vous avez des questions, besoin d’aide pour respecter une règle ou des circonstances particulières, veuillez nous contacter directement. Merci de votre compréhension et de votre coopération."
     },
-    "Footer": "Soyons forts et réussis ensemble!",
+    "Footer": "Soyons forts et réussissons ensemble !",
     "ServerRules": {
-      "Title": "Règles du Serveur",
+      "Title": "Règles du serveur",
       "Abuse": {
-        "Title": "Abus :",
-        "Rule1": "Pas de harcèlement, sexisme, racisme, homophobie ou autre discours haineux, y compris les insultes ethniques, sexuelles, religieuses, liées au handicap, à l'âge ou transphobes. La conséquence est un coup gratuit sur le joueur, et en cas de récidive, l'expulsion de l'alliance."
+        "Title": "Harcèlement et discrimination :",
+        "Rule1": "Le harcèlement, le sexisme, le racisme, l’homophobie ou tout autre propos haineux dans le chat sont interdits, y compris les insultes à caractère ethnique, sexuel, religieux, liées au handicap, à l’âge ou transphobes. La conséquence sera une attaque gratuite contre le joueur ; en cas de récidive, le joueur sera exclu de l’alliance."
       },
       "Zeroing": {
-        "Title": "Réduction à zéro :",
-        "Rule1": "Il est interdit de réduire à zéro (détruire) les bases qui sont dans des alliances sur notre serveur. La conséquence est d'être réduit à zéro en retour, avec des troupes à l'extérieur de la base."
+        "Title": "Zeroing :",
+        "Rule1": "Il est interdit de mettre à zéro (ash) les bases appartenant à des joueurs faisant partie d’alliances de notre serveur. En conséquence, votre propre base pourra être mise à zéro en représailles, avec les troupes à l’extérieur de la base."
       },
       "Trucks": {
         "Title": "Camions :",
-        "Rule1": "Aucune attaque sur nos camions et trains du serveur. Utilisez le filtre pour éviter cela. Si cela se produit, parlez directement à la personne pour organiser le pillage d'un camion équivalent en retour. En cas de non-réponse, signalez-le à R4/R5."
+        "Rule1": "Aucune attaque contre les camions et les trains de notre serveur. Utilisez le filtre pour éviter cela. Si cela se produit, contactez directement la personne concernée afin d’organiser le pillage d’un camion équivalent en retour. En l’absence de réponse, signalez le problème à un R4/R5."
       },
       "Villages": {
         "Title": "Villages :",
-        "Rule1": "Les joueurs ne sont pas autorisés à attaquer des bases lors de la capture de village, seulement renforcer le village ou attaquer le village. La conséquence est un nombre équivalent de coups en retour avec des troupes à l'extérieur de la base."
+        "Rule1": "Les joueurs ne sont pas autorisés à attaquer les bases lors de la capture d’un village. Ils peuvent uniquement renforcer le village ou attaquer le village lui-même. La conséquence peut être un nombre équivalent d’attaques en retour, avec les troupes à l’extérieur de la base."
       },
       "Nap10": {
         "Title": "NAP10 :",
         "Rule1": {
-          "Title": "Attaques 1: ",
-          "Rule": "Les joueurs qui quittent leur alliance pour attaquer un joueur dans le Top 10 seront interdits de rejoindre un Top 10 pendant 1 semaine. Ils ne peuvent pas être protégés pendant cette semaine par un Top 10."
+          "Title": "Attaques 1 : ",
+          "Rule": "Les joueurs qui quittent leur alliance pour attaquer un joueur du Top 10 seront interdits de rejoindre toute alliance du Top 10 pendant 1 semaine. Ils ne pourront pas non plus bénéficier de la protection d’une alliance du Top 10 pendant cette période."
         },
         "Rule2": {
-          "Title": "Attaques 2: ",
-          "Rule": "Les joueurs qui attaquent un autre joueur dans le Top 10 doivent recevoir le même nombre d'attaques et de dégâts en retour, avec une deuxième infraction entraînant une interdiction d'une semaine du Top 10."
+          "Title": "Attaques 2 : ",
+          "Rule": "Les joueurs qui attaquent un autre joueur du Top 10 devront recevoir en retour le même nombre d’attaques et subir des dégâts équivalents. En cas de deuxième infraction, une interdiction d’une semaine des alliances du Top 10 sera appliquée."
         }
       },
       "Cities": {
-        "Title": "Villes:",
-        "Rule1": "Les villes de niveau 6 appartiennent aux 3 meilleures alliances. Si le top 3 change, les villes de niveau 6 changeront en conséquence."
+        "Title": "Villes :",
+        "Rule1": "Les villes de niveau 6 appartiennent aux 3 meilleures alliances. Si le Top 3 change, les villes de niveau 6 seront attribuées en conséquence."
       }
     }
   },

@@ -67,74 +67,81 @@
     "Guestbook": "Gästebuch"
   },
   "Rules": {
-    "Title": "Allianz Regeln",
+    "Title": "Allianzregeln",
     "Rule1": {
       "Title": "Inaktivität",
-      "Description": "Wer 3 Tage offline ist, ohne sich abzumelden, wird am 4. Tag aus der Allianz entlassen"
+      "Description": "Wir können nicht effektiv zusammenarbeiten, wenn Mitglieder mehrere Tage ohne Ankündigung offline sind. Wenn du voraussichtlich länger als drei Tage inaktiv sein wirst, informiere den R5 oder den Recruiter im Voraus oder so bald wie möglich.",
+      "Description2": "Ab dem vierten Tag der Inaktivität kann ein Ausschluss aus der Allianz in Betracht gezogen werden, wenn keine Kommunikation oder vorherige Absprache erfolgt ist.",
+      "Description3": "Wir freuen uns über eine vorherige Information auch dann, wenn deine Abwesenheit kürzer als drei Tage sein wird."
     },
     "Rule2": {
-      "Title": "Versammlungsplatz",
-      "Description": "Am Sonntag ist der gesamte Kampf vorbei, und alle Mitglieder sollen sich beim Allianz-Versammlungsplatz versammeln.",
-      "Description2": "Wer am Mittwoch noch nicht am Versammlungsplatz ist, wird entlassen.",
-      "Description3": "Wie komme ich an den Versammlungsplatz"
+      "Title": "Sammelpunkt",
+      "Description": "Die Battle-Woche endet am Sonntag. Danach müssen sich alle Mitglieder am Allianz-Sammelpunkt versammeln.",
+      "Description2": "Wer bis Mittwoch nicht am Sammelpunkt eingetroffen ist, kann aus der Allianz ausgeschlossen werden.",
+      "Description3": "Wie komme ich zum Sammelpunkt?"
     },
     "Rule3": {
-      "Title": "Allianz-Technologie Spenden",
-      "Description": "Bis Sonntag muss jedes Mitglied Punkte bei der Allianz-Technologie gespendet haben (Das Spenden ist kostenlos).",
-      "Description2": "Wer dies nicht tut, wird entlassen.",
-      "Description3": "Wie Spende ich"
+      "Title": "Allgemeine Angriffe und Plündern",
+      "Description": "Angriffe auf unsere Verbündeten oder auf Mitglieder, die durch den NAP (Nichtangriffspakt) geschützt sind, sind strengstens verboten.",
+      "Description2": "Angriffe auf Spieler anderer Allianzen sind grundsätzlich verboten. Sollten besondere Umstände oder Konflikte auftreten, müssen diese vorher mit einem R4 oder R5 besprochen und von diesem genehmigt werden.",
+      "Description3": "Das Plündern von Trucks oder Zügen unseres eigenen Servers ist nicht erlaubt.",
+      "Description4": "So vermeidest du Angriffe auf deine eigenen Trucks",
+      "Description5": "Das Plündern von Secret Tasks oder Ghost Ops-Aufgaben unseres eigenen Servers ist nicht erlaubt.",
+      "Description6": "Wie plündere ich Secret Tasks auf anderen Servern?"
     },
     "Rule4": {
-      "Title": "Spielernamen",
-      "Description": "Jedes Mitglied muss einen eigenen Spielernamen haben.",
-      "Description2": "Wer sich keinen eigenen Spielernamen gibt, wird aus der Allianz entlassen."
+      "Title": "VS-Punkte",
+      "Description": "Das tägliche Minimum beträgt 7,2 Millionen VS-Punkte. Regelmäßiges Unterschreiten von 7,2 Millionen ist nicht akzeptabel.",
+      "Description2": "Wenn du das Minimum dauerhaft nicht erreichen kannst, wende dich bitte an einen R4 oder R5, damit wir dich unterstützen oder gemeinsam besprechen können, ob die Allianz die richtige für dich ist."
     },
     "Rule5": {
-      "Title": "Allgemeine Angriffe",
-      "Description": "Jeglicher Angriff auf unsere Verbündeten oder auf den NAP (Nichtangriffspakt) ist untersagt.",
-      "Description2": "Angriffe auf Spieler aus anderen Allianzen sind grundsätzlich untersagt. Sollten besondere Umstände oder Konflikte auftreten, müssen solche Aktionen vorher mit einem R5 oder R4 besprochen und genehmigt werden, um unnötigen Stress zu vermeiden.",
-      "Description3": "Plündern von LKWs oder Zügen vom eigenen Server ist nicht gestattet.",
-      "Description4": "Wie vermeide ich Angriffe auf eigene LKWs",
-      "Description5": "Plündern von Geheimen Missionen und Geister-Ops Missionen vom eigenen Server ist nicht gestattet",
-      "Description6": "Wie plündere ich Geheime Missionen auf anderen Servern"
+      "Title": "Samstagsschild",
+      "Description": "Jedes Mitglied muss am Samstag einen Schild aktivieren.",
+      "Description2": "Kein Schild am Samstag führt zu einer Verwarnung. Wiederholte Verstöße können zum Ausschluss aus der Allianz führen."
+    },
+    "Rule6": {
+      "Title": "Durchsetzung der Regeln",
+      "Description": "Erster Verstoß: Verwarnung.",
+      "Description2": "Wiederholte Verstöße: Möglicher Ausschluss aus der Allianz. Spieler werden nicht ohne vorherige Ankündigung und Gespräche ausgeschlossen.",
+      "Description3": "Schwerwiegende Verstöße können je nach Umständen sofort geahndet werden."
     },
     "Note": {
       "Title": "Hinweis:",
-      "Description": "Wenn jemand nicht weiß, wie er eine Regel erfüllen kann oder sonst Fragen hat, soll er sich bitte bei uns melden. Wir sind hier, um zu helfen."
+      "Description": "Das echte Leben ist wichtiger, und wir werden schwierige persönliche Umstände niemals ignorieren. Dennoch müssen wir die Allianz für alle, die täglich teilnehmen, stark, aktiv und fair halten. Wenn du Fragen hast, Hilfe bei der Einhaltung einer Regel benötigst oder besondere Umstände vorliegen, wende dich bitte direkt an uns. Vielen Dank für dein Verständnis und deine Zusammenarbeit."
     },
-    "Footer": "Lasst uns zusammen stark und erfolgreich sein!",
+    "Footer": "Lasst uns gemeinsam stark und erfolgreich sein!",
     "ServerRules": {
-      "Title": "Server Regeln",
+      "Title": "Serverregeln",
       "Abuse": {
-        "Title": "Missbrauch:",
-        "Rule1": "Kein Mobbing, Sexismus, Rassismus, Homophobie oder andere hasserfüllte Chats, einschließlich ethnischer, sexueller, religiöser, behinderungsbezogener, altersbedingter oder transphober Beleidigungen. Die Konsequenz ist ein kostenloser Treffer auf den Spieler, bei Wiederholung erfolgt der Ausschluss aus der Allianz."
+        "Title": "Beleidigungen und Diskriminierung:",
+        "Rule1": "Mobbing, Sexismus, Rassismus, Homophobie oder andere hetzerische Äußerungen im Chat sind verboten. Dazu gehören auch ethnische, sexuelle, religiöse, behindertenfeindliche, altersbezogene oder transphobe Beleidigungen. Die Konsequenz ist ein kostenloser Angriff auf den Spieler; bei wiederholtem Verstoß erfolgt der Ausschluss aus der Allianz."
       },
       "Zeroing": {
-        "Title": "Nullstellung:",
-        "Rule1": "Es ist verboten, Basen, die sich in Allianzen auf unserem Server befinden, auf null zu setzen (zu zerstören). Die Konsequenz ist die eigene Nullstellung, mit Truppen außerhalb der Basis."
+        "Title": "Zeroing:",
+        "Rule1": "Es ist verboten, Basen (Ash/Zeroing) von Spielern zu zerstören, die sich in Allianzen unseres Servers befinden. Als Konsequenz kann die eigene Basis im Gegenzug zerstört werden, während sich die Truppen außerhalb der Basis befinden."
       },
       "Trucks": {
-        "Title": "LKWs:",
-        "Rule1": "Keine Angriffe auf unsere Server-LKWs und Züge. Verwenden Sie den Filter, um dies zu verhindern. Falls es doch passiert, sprechen Sie die Person direkt an, um einen gleichwertigen LKW zum Plündern zu organisieren. Bei keiner Reaktion, melden Sie dies an R4/R5."
+        "Title": "Trucks:",
+        "Rule1": "Keine Angriffe auf Trucks und Züge unseres Servers. Verwende den Filter, um dies zu verhindern. Sollte es dennoch passieren, sprich direkt mit der betreffenden Person, um einen gleichwertigen Truck zum Plündern zu organisieren. Falls keine Reaktion erfolgt, wende dich an einen R4/R5."
       },
       "Villages": {
         "Title": "Dörfer:",
-        "Rule1": "Spieler dürfen keine Basen beim Dorfkampf angreifen, sondern nur das Dorf verstärken oder das Dorf angreifen. Die Konsequenz ist eine gleichwertige Anzahl an Treffern mit Truppen außerhalb der Basis."
+        "Rule1": "Spieler dürfen während der Eroberung eines Dorfes keine Basen angreifen. Sie dürfen das Dorf verstärken oder das Dorf selbst angreifen. Als Konsequenz kann eine entsprechende Anzahl von Angriffen auf den Verursacher erfolgen, wobei sich die Truppen außerhalb der Basis befinden."
       },
       "Nap10": {
         "Title": "NAP10:",
         "Rule1": {
           "Title": "Angriffe 1: ",
-          "Rule": "Spieler, die ihre Allianz verlassen, um einen Spieler in den Top 10 anzugreifen, werden für 1 Woche von allen Top 10 ausgeschlossen. Sie dürfen in dieser Woche von keinem Top 10 geschützt werden."
+          "Rule": "Spieler, die ihre Allianz verlassen, um einen Spieler aus den Top 10 anzugreifen, werden für eine Woche von der Aufnahme in jede Top-10-Allianz ausgeschlossen. Während dieser Woche dürfen sie von keiner Top-10-Allianz geschützt werden."
         },
         "Rule2": {
           "Title": "Angriffe 2: ",
-          "Rule": "Spieler, die einen anderen Spieler in den Top 10 angreifen, sollten die gleiche Anzahl an Angriffen und Schaden zurückerhalten, bei einem zweiten Verstoß folgt eine 1-wöchige Sperre von den Top 10."
+          "Rule": "Spieler, die einen anderen Spieler aus den Top 10 angreifen, sollen im Gegenzug die gleiche Anzahl an Angriffen und den gleichen Schaden erhalten. Bei einem zweiten Verstoß erfolgt eine einwöchige Sperre für Top-10-Allianzen."
         }
       },
       "Cities": {
         "Title": "Städte:",
-        "Rule1": "Level 6 Städte gehören den Top 3 Allianzen. Wenn sich die Top 3 ändern, werden die Level 6 Städte entsprechend wechseln."
+        "Rule1": "Städte der Stufe 6 gehören den Top-3-Allianzen. Sollte sich die Zusammensetzung der Top 3 ändern, wechseln die Städte der Stufe 6 entsprechend."
       }
     }
   },

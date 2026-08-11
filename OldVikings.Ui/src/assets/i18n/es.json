@@ -67,74 +67,81 @@
     "Guestbook": "Libro de visitas"
   },
   "Rules": {
-    "Title": "Reglas de la Alianza",
+    "Title": "Reglas de la alianza",
     "Rule1": {
       "Title": "Inactividad",
-      "Description": "Quien esté offline durante 3 días sin avisar, será expulsado de la alianza al 4° día."
+      "Description": "No podemos funcionar eficazmente cuando los miembros están desconectados durante varios días sin avisar. Si esperas estar inactivo durante más de tres días, informa al R5 o al Reclutador con antelación o lo antes posible.",
+      "Description2": "A partir del cuarto día de inactividad, se podrá considerar la expulsión de la alianza si no ha habido comunicación ni un acuerdo previo.",
+      "Description3": "Agradecemos que avises con antelación incluso cuando tu ausencia vaya a ser inferior a tres días."
     },
     "Rule2": {
-      "Title": "Lugar de Reunión",
-      "Description": "El domingo se termina toda la lucha, y todos los miembros deben reunirse en el lugar de reunión de la alianza.",
-      "Description2": "Quien no esté en el lugar de reunión el miércoles será expulsado.",
-      "Description3": "¿Cómo llegar al lugar de reunión?"
+      "Title": "Punto de reunión",
+      "Description": "La semana de batalla termina el domingo y todos los miembros deben reunirse en el punto de reunión de la alianza.",
+      "Description2": "Cualquier persona que no haya llegado al punto de reunión antes del miércoles podrá ser expulsada de la alianza.",
+      "Description3": "¿Cómo llego al punto de reunión?"
     },
     "Rule3": {
-      "Title": "Donaciones de Tecnología de la Alianza",
-      "Description": "Cada miembro debe haber donado puntos a la tecnología de la alianza para el domingo (la donación es gratuita).",
-      "Description2": "Quien no lo haga será expulsado.",
-      "Description3": "¿Cómo donar?"
+      "Title": "Ataques generales y saqueos",
+      "Description": "Está estrictamente prohibido atacar a nuestros aliados o a miembros protegidos por el NAP (Pacto de No Agresión).",
+      "Description2": "En general, están prohibidos los ataques contra jugadores de otras alianzas. Si surgen circunstancias especiales o conflictos, el asunto debe discutirse y ser aprobado previamente por un R4 o R5.",
+      "Description3": "No está permitido saquear camiones o trenes de nuestro propio servidor.",
+      "Description4": "Cómo evitar ataques a tus propios camiones",
+      "Description5": "No está permitido saquear Secret Tasks o misiones de Ghost Ops de nuestro propio servidor.",
+      "Description6": "¿Cómo puedo saquear Secret Tasks en otros servidores?"
     },
     "Rule4": {
-      "Title": "Nombres de Jugadores",
-      "Description": "Cada miembro debe tener un nombre de jugador propio.",
-      "Description2": "Quien no se asigne un nombre de jugador será expulsado de la alianza."
+      "Title": "Puntos VS",
+      "Description": "El mínimo diario es de 7,2 millones de puntos VS. No es aceptable estar regularmente por debajo de los 7,2 millones.",
+      "Description2": "Si no puedes alcanzar el mínimo de forma constante, contacta con un R4 o R5 para que podamos ayudarte o hablar sobre si la alianza es la adecuada para ti."
     },
     "Rule5": {
-      "Title": "Ataques Generales",
-      "Description": "Está prohibido atacar a nuestros aliados o romper el NAP (Pacto de No Agresión).",
-      "Description2": "Los ataques a jugadores de otras alianzas están generalmente prohibidos. Si surgen circunstancias especiales o conflictos, tales acciones deben ser discutidas y aprobadas previamente con un R5 o R4 para evitar estrés innecesario.",
-      "Description3": "Saqueo de camiones o trenes del propio servidor no está permitido.",
-      "Description4": "¿Cómo evitar ataques a nuestros camiones?",
-      "Description5": "No se permite saquear misiones secretas y misiones de Ghost Ops desde tu propio servidor",
-      "Description6": "¿Cómo saquear misiones secretas en otros servidores?"
+      "Title": "Escudo del sábado",
+      "Description": "Todos los miembros deben activar un escudo el sábado.",
+      "Description2": "No tener un escudo el sábado supondrá una advertencia. Las infracciones repetidas pueden resultar en la expulsión de la alianza."
+    },
+    "Rule6": {
+      "Title": "Aplicación de las reglas",
+      "Description": "Primera infracción: Advertencia.",
+      "Description2": "Infracciones repetidas: Posible expulsión de la alianza. Los jugadores no serán expulsados sin previo aviso y una conversación.",
+      "Description3": "Las infracciones graves podrán ser sancionadas de inmediato, dependiendo de las circunstancias."
     },
     "Note": {
       "Title": "Nota:",
-      "Description": "Si alguien no sabe cómo cumplir una regla o tiene otras preguntas, por favor comuníquese con nosotros. Estamos aquí para ayudar."
+      "Description": "La vida real es más importante y nunca ignoraremos las circunstancias personales difíciles. Sin embargo, debemos mantener la alianza fuerte, activa y justa para todos los que participan diariamente. Si tienes preguntas, necesitas ayuda para cumplir una regla o tienes circunstancias especiales, ponte directamente en contacto con nosotros. Gracias por tu comprensión y cooperación."
     },
     "Footer": "¡Seamos fuertes y exitosos juntos!",
     "ServerRules": {
-      "Title": "Reglas del Servidor",
+      "Title": "Reglas del servidor",
       "Abuse": {
-        "Title": "Abuso:",
-        "Rule1": "No se permite el acoso, sexismo, racismo, homofobia u otros chats de odio, incluyendo insultos étnicos, sexuales, religiosos, relacionados con discapacidades, por edad o transfóbicos. La consecuencia es un golpe gratuito al jugador, y en caso de reincidencia, la expulsión de la alianza."
+        "Title": "Acoso y discriminación:",
+        "Rule1": "Está prohibido el acoso, sexismo, racismo, homofobia u otras expresiones de odio en el chat, incluyendo insultos étnicos, sexuales, religiosos, contra personas con discapacidad, relacionados con la edad o transfóbicos. La consecuencia será un ataque gratuito contra el jugador; en caso de reincidencia, será expulsado de la alianza."
       },
       "Zeroing": {
         "Title": "Zeroing:",
-        "Rule1": "Está prohibido reducir a cero (destruir) las bases que estén en alianzas de nuestro servidor. La consecuencia es la propia reducción a cero, con tropas fuera de la base."
+        "Rule1": "Está prohibido hacer zero (ash) a las bases de jugadores que pertenezcan a alianzas de nuestro servidor. La consecuencia será que tu propia base podrá ser destruida como represalia, con las tropas fuera de la base."
       },
       "Trucks": {
         "Title": "Camiones:",
-        "Rule1": "No se permite atacar a nuestros camiones y trenes del servidor. Utiliza el filtro para evitarlo. Si ocurre, contacta directamente a la persona para organizar un camión equivalente para saquear. Si no hay respuesta, informa a R4/R5."
+        "Rule1": "No se permiten ataques contra camiones y trenes de nuestro servidor. Utiliza el filtro para evitarlo. Si ocurre, habla directamente con la persona para organizar el saqueo de un camión equivalente como compensación. Si no responde, informa a un R4/R5."
       },
       "Villages": {
-        "Title": "Pueblos:",
-        "Rule1": "Los jugadores no deben atacar bases durante la lucha en los pueblos, solo reforzar o atacar el pueblo. La consecuencia es una cantidad equivalente de golpes con tropas fuera de la base."
+        "Title": "Aldeas:",
+        "Rule1": "Los jugadores no pueden atacar bases durante la captura de una aldea. Solo pueden reforzar la aldea o atacar la propia aldea. La consecuencia puede ser recibir un número equivalente de ataques como represalia, con las tropas fuera de la base."
       },
       "Nap10": {
         "Title": "NAP10:",
         "Rule1": {
-          "Title": "Ataques 1:",
-          "Rule": "Los jugadores que abandonen su alianza para atacar a un jugador en el Top 10 serán excluidos de los Top 10 durante 1 semana. No podrán ser protegidos por ningún Top 10 durante esa semana."
+          "Title": "Ataques 1: ",
+          "Rule": "Los jugadores que abandonen su alianza para atacar a un jugador del Top 10 tendrán prohibido unirse a cualquier alianza del Top 10 durante 1 semana. Durante esa semana tampoco podrán recibir protección de ninguna alianza del Top 10."
         },
         "Rule2": {
-          "Title": "Ataques 2:",
-          "Rule": "Los jugadores que ataquen a otro jugador en el Top 10 deben recibir la misma cantidad de ataques y daño a cambio. En caso de una segunda infracción, se aplicará una suspensión de 1 semana de los Top 10."
+          "Title": "Ataques 2: ",
+          "Rule": "Los jugadores que ataquen a cualquier otro jugador del Top 10 deberán recibir a cambio el mismo número de ataques y la misma cantidad de daño. Una segunda infracción supondrá una prohibición de 1 semana para las alianzas del Top 10."
         }
       },
       "Cities": {
         "Title": "Ciudades:",
-        "Rule1": "Las ciudades de nivel 6 pertenecen a las 3 mejores alianzas. Cuando cambien las 3 mejores alianzas, las ciudades de nivel 6 cambiarán en consecuencia."
+        "Rule1": "Las ciudades de nivel 6 pertenecen a las 3 mejores alianzas. Si cambia el Top 3, las ciudades de nivel 6 cambiarán en consecuencia."
       }
     }
   },

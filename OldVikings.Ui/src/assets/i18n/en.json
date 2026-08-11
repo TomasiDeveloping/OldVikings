@@ -70,37 +70,44 @@
     "Title": "Alliance Rules",
     "Rule1": {
       "Title": "Inactivity",
-      "Description": "Anyone who is offline for 3 days without notifying will be dismissed from the alliance on the 4th day."
+      "Description": "We cannot function effectively when members are offline for several days without notice. If you expect to be inactive for more than three days, inform the R5 or the Recruiter in advance or as soon as possible.",
+      "Description2": "From the fourth day of inactivity onward, removal from the alliance may be considered if there has been no communication or prior agreement.",
+      "Description3": "We would appreciate advance notice, even when your absence will be shorter than three days."
     },
     "Rule2": {
       "Title": "Assembly Point",
-      "Description": "The entire battle is over on Sunday, and all members should gather at the alliance assembly point.",
-      "Description2": "Anyone who has not gathered at the assembly point by Wednesday will be dismissed.",
+      "Description": "The battle week ends on Sunday, and all members must gather at the alliance assembly point.",
+      "Description2": "Anyone who has not gathered at the assembly point by Wednesday may be dismissed from the alliance.",
       "Description3": "How do I get to the meeting place?"
     },
     "Rule3": {
-      "Title": "Alliance Technology Donations",
-      "Description": "By Sunday, each member must have donated points to the alliance technology (donating is free).",
-      "Description2": "Anyone who does not do this will be dismissed.",
-      "Description3": "How do I make a donation?"
+      "Title": "General Attacks and Looting",
+      "Description": "Attacking our allies or members covered by the NAP (Non-Aggression Pact) is strictly prohibited.",
+      "Description2": "Attacks on players from other alliances are generally prohibited. If special circumstances or conflicts arise, the matter must be discussed with and approved by an R4 or R5 beforehand.",
+      "Description3": "Plundering trucks or trains from our own server is not allowed.",
+      "Description4": "How to avoid attacks on your own trucks",
+      "Description5": "Looting Secret Tasks or Ghost Ops tasks from our own server is not allowed.",
+      "Description6": "How do I loot Secret Tasks on other servers?"
     },
     "Rule4": {
-      "Title": "Player Names",
-      "Description": "Each member must have their own player name.",
-      "Description2": "Anyone who does not choose their own player name will be dismissed from the alliance."
+      "Title": "VS Points",
+      "Description": "The daily minimum is 7.2 million VS points. Regularly falling below 7.2 million is not acceptable.",
+      "Description2": "If you consistently cannot reach the minimum, please contact an R4 or R5 so we can help or discuss whether the alliance is the right fit for you."
     },
     "Rule5": {
-      "Title": "General Attacks",
-      "Description": "Any attack on our allies or on the NAP (Non-Aggression Pact) is prohibited.",
-      "Description2": "Attacks on players from other alliances are generally prohibited. If special circumstances or conflicts arise, such actions must be discussed and approved by an R5 or R4 beforehand to avoid unnecessary stress.",
-      "Description3": "Plundering trucks or trains from your own server is not allowed.",
-      "Description4": "How to avoid attacks on your own trucks",
-      "Description5": "Looting secret tasks and ghost ops tasks from your own server is not allowed",
-      "Description6": "How do I loot secret tasks on other servers"
+      "Title": "Saturday Shield",
+      "Description": "Every member must activate a shield on Saturday.",
+      "Description2": "No shield on Saturday will result in a warning. Repeated violations may result in removal from the alliance."
+    },
+    "Rule6": {
+      "Title": "Enforcement",
+      "Description": "First breach: Warning.",
+      "Description2": "Repeated breaches: Possible removal from the alliance. Players will not be removed without prior notice and discussions.",
+      "Description3": "Serious violations may be addressed immediately, depending on the circumstances."
     },
     "Note": {
       "Title": "Note:",
-      "Description": "If anyone does not know how to fulfill a rule or has any other questions, please contact us. We are here to help."
+      "Description": "Real life is more important, and we will never ignore difficult circumstances. However, we must keep the alliance strong, active, and fair for everyone who participates daily. If you have questions, need help fulfilling a rule, or have special circumstances, please contact us directly. Thank you for your understanding and cooperation."
     },
     "Footer": "Let's be strong and successful together!",
     "ServerRules": {
@@ -122,7 +129,7 @@
         "Rule1": "Players are not allowed to attack bases on village capture, only reinforce the village or attack the village. The consequence is an equivalent number of hits in return with troops outside of the base."
       },
       "Nap10": {
-        "Title": "NAP10:",
+        "Title": "Nap10:",
         "Rule1": {
           "Title": "Attacks 1: ",
           "Rule": "Players who leave their alliance to attack a player in the Top 10 will be banned from joining any Top 10 for 1 week. They cannot be protected for that week by any Top 10."
@@ -134,7 +141,7 @@
       },
       "Cities": {
         "Title": "Cities:",
-        "Rule1": "Level 6 cities belong to the Top 3 alliances. If the top 3 is to change, level 6 cities will change accordingly. "
+        "Rule1": "Level 6 cities belong to the Top 3 alliances. If the top 3 is to change, level 6 cities will change accordingly."
       }
     }
   },
